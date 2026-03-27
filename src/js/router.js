@@ -22,9 +22,12 @@
       var currentBanner = document.getElementById('page-banner');
       var isHome = url === '/' || url === '/index.html';
 
-      // Swap page content
+      // Fade out, swap content, fade in
       if (newContent && currentContent) {
+        currentContent.classList.add('fade-out');
+        await new Promise(function(r) { setTimeout(r, 200); });
         currentContent.innerHTML = newContent.innerHTML;
+        currentContent.classList.remove('fade-out');
       }
 
       // Handle banner

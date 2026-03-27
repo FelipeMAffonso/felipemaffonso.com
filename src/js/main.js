@@ -19,4 +19,22 @@
       a.addEventListener('click', () => links.classList.remove('open'));
     });
   }
+
+  // Dark mode toggle
+  var toggle = document.getElementById('themeToggle');
+  var icon = document.getElementById('themeIcon');
+  if (toggle && icon) {
+    // Set initial icon
+    function updateIcon() {
+      var isDark = document.documentElement.classList.contains('dark');
+      icon.innerHTML = isDark ? '&#9728;' : '&#9790;';
+    }
+    updateIcon();
+
+    toggle.addEventListener('click', function() {
+      var isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('site-theme', isDark ? 'dark' : 'light');
+      updateIcon();
+    });
+  }
 })();

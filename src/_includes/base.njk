@@ -7,6 +7,9 @@
   <meta name="description" content="{{ pageDescription or 'Felipe M. Affonso — Assistant Professor of Marketing at Oklahoma State University. Research on consumer decision-making, human-technology interactions, and health/environmental policy.' }}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/css/style.css">
+  <script>
+    (function(){var s=localStorage.getItem('site-theme');if(s==='dark')document.documentElement.classList.add('dark');})();
+  </script>
 </head>
 <body>
 
@@ -21,11 +24,16 @@
         <li><a href="/cv/"{% if page.url == "/cv/" %} class="active"{% endif %}>CV</a></li>
         <li><a href="/contact/"{% if page.url == "/contact/" %} class="active"{% endif %}>Contact</a></li>
       </ul>
-      <button class="nav-hamburger" aria-label="Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-icon" id="themeIcon">&#9790;</span>
+        </button>
+        <button class="nav-hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </nav>
   </div>
 
@@ -46,6 +54,10 @@
   <div id="page-content">
     {{ content | safe }}
   </div>
+
+  <footer class="footer-line">
+    <div class="footer-line-inner"></div>
+  </footer>
 
   <script src="/js/main.js"></script>
   <script src="/js/particles.js"></script>
