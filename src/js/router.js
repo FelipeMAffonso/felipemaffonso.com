@@ -1,30 +1,12 @@
 // SPA Router — swap page content without full reload
 // Keeps nav bar + particles alive across navigations
 (function() {
-  function getContentArea() {
-    // Everything after .nav-bar (and .page-banner if present) is content
-    return document.getElementById('page-content');
-  }
+  // Store the original home hero on first load (if on home page)
+  var homeHero = document.querySelector('.hero-full');
 
-  function getBanner() {
-    return document.getElementById('page-banner');
-  }
-
-  function updateActiveLink(url) {
-    document.querySelectorAll('.nav-links a').forEach(function(a) {
-      var href = a.getAttribute('href');
-      if (href === url || (url.startsWith(href) && href !== '/')) {
-        a.classList.add('active');
-      } else if (href === '/' && url === '/') {
-        a.classList.add('active');
-      } else {
-        a.classList.remove('active');
-      }
-    });
-  }
-
-  function isHomePage(url) {
-    return url === '/' || url === '/index.html';
+  // If we started on home, detach the hero so it persists
+  if (homeHero) {
+    homeHero._isHome = true;
   }
 
   async function navigate(url, pushState) {
@@ -34,47 +16,53 @@
       var parser = new DOMParser();
       var doc = parser.parseFromString(html, 'text/html');
 
-      // Get new page content
       var newContent = doc.getElementById('page-content');
       var newBanner = doc.getElementById('page-banner');
-      var currentContent = getContentArea();
-      var currentBanner = getBanner();
+      var currentContent = document.getElementById('page-content');
+      var currentBanner = document.getElementById('page-banner');
+      var isHome = url === '/' || url === '/index.html';
 
+      // Swap page content
       if (newContent && currentContent) {
         currentContent.innerHTML = newContent.innerHTML;
       }
 
-      // Handle banner: show/hide and update title
-      if (newBanner) {
-        if (currentBanner) {
+      // Handle banner
+      if (currentBanner) {
+        if (newBanner && newBanner.style.display !== 'none') {
           currentBanner.innerHTML = newBanner.innerHTML;
           currentBanner.style.display = '';
-        }
-      } else {
-        if (currentBanner) {
+        } else {
           currentBanner.style.display = 'none';
         }
       }
 
-      // Handle home hero: show/hide
-      var currentHero = document.querySelector('.hero-full');
-      var newHero = doc.querySelector('.hero-full');
-      if (currentHero) {
-        currentHero.style.display = newHero ? '' : 'none';
-      } else if (newHero) {
-        // Going back to home from subpage — need the hero
-        // Insert it before page-content
-        var navBar = document.querySelector('.nav-bar');
-        var heroClone = newHero.cloneNode(true);
-        navBar.after(heroClone);
-        // Initialize hero particles
-        if (window.initParticleSystem) {
-          window.initParticleSystem(heroClone.querySelector('canvas'), {
-            maxParticles: 80,
-            densityDivisor: 8000,
-            maxDistance: 150,
-            speed: 0.4
-          });
+      // Handle home hero
+      if (isHome) {
+        if (homeHero) {
+          homeHero.style.display = '';
+        } else {
+          // First time visiting home via SPA — inject hero from fetched page
+          var newHero = doc.querySelector('.hero-full');
+          if (newHero) {
+            var banner = document.getElementById('page-banner');
+            homeHero = newHero.cloneNode(true);
+            banner.parentNode.insertBefore(homeHero, banner);
+            // Init particles on the new canvas
+            var canvas = homeHero.querySelector('canvas');
+            if (canvas && window.initParticleSystem) {
+              window.initParticleSystem(canvas, {
+                maxParticles: 80,
+                densityDivisor: 8000,
+                maxDistance: 150,
+                speed: 0.4
+              });
+            }
+          }
+        }
+      } else {
+        if (homeHero) {
+          homeHero.style.display = 'none';
         }
       }
 
@@ -83,35 +71,15 @@
       if (newTitle) document.title = newTitle.textContent;
 
       // Update active nav link
-      updateActiveLink(url);
-
-      // Run any inline scripts in new content (like research.js toggle setup)
-      var scripts = currentContent.querySelectorAll('script');
-      scripts.forEach(function(s) {
-        var ns = document.createElement('script');
-        ns.textContent = s.textContent;
-        if (s.src) ns.src = s.src;
-        s.replaceWith(ns);
-      });
-
-      // Load page-specific scripts
-      var newScripts = doc.querySelectorAll('script[src]');
-      var currentScripts = new Set();
-      document.querySelectorAll('script[src]').forEach(function(s) {
-        currentScripts.add(s.getAttribute('src'));
-      });
-      newScripts.forEach(function(s) {
-        var src = s.getAttribute('src');
-        if (src && !currentScripts.has(src) && src !== '/js/main.js' && src !== '/js/particles.js' && src !== '/js/router.js') {
-          var ns = document.createElement('script');
-          ns.src = src;
-          document.body.appendChild(ns);
-        }
+      document.querySelectorAll('.nav-links a').forEach(function(a) {
+        var href = a.getAttribute('href');
+        a.classList.toggle('active',
+          href === url || (href === '/' && isHome));
       });
 
       // Re-run research toggles if on research page
       if (url.indexOf('/research') !== -1 && window.initResearchToggles) {
-        window.initResearchToggles();
+        setTimeout(window.initResearchToggles, 0);
       }
 
       if (pushState) {
@@ -120,7 +88,6 @@
 
       window.scrollTo(0, 0);
     } catch (e) {
-      // Fallback to normal navigation
       window.location.href = url;
     }
   }
@@ -129,17 +96,14 @@
   document.addEventListener('click', function(e) {
     var link = e.target.closest('.nav-links a');
     if (!link) return;
-
     var url = link.getAttribute('href');
     if (!url || url.startsWith('http') || url.startsWith('#')) return;
-
     e.preventDefault();
     if (url !== window.location.pathname) {
       navigate(url, true);
     }
   });
 
-  // Handle browser back/forward
   window.addEventListener('popstate', function() {
     navigate(window.location.pathname, false);
   });
