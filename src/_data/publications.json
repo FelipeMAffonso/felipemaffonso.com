@@ -1,0 +1,75 @@
+{
+  "forthcoming": [
+    {
+      "title": "Brief Commentary: A Framework for Detecting AI Agents in Online Research",
+      "authors": "Felipe M. Affonso",
+      "journal": "Journal of Consumer Research",
+      "doi": "https://doi.org/10.1093/jcr/ucag006",
+      "preprints": ["PsyArXiv", "SSRN"]
+    },
+    {
+      "title": "Simple is Eco-Friendly, but Complex is Effective: Inferences from Package Design",
+      "authors": "Soo Yon Ryu, Felipe M. Affonso, Aner Sela",
+      "journal": "Journal of Advertising",
+      "doi": "https://doi.org/10.1080/00913367.2025.2593659"
+    },
+    {
+      "title": "Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions",
+      "authors": "Felipe M. Affonso*, Shiri Melumad*, Diego Aparicio*, Zheshuai Xu, Zhenling Wang, Chris Janiszewski, Marco Bertini",
+      "journal": "Journal of Consumer Research",
+      "doi": "https://doi.org/10.1093/jcr/ucaf051",
+      "note": "* Equal authorship"
+    }
+  ],
+  "published": [
+    {
+      "title": "Consumer Responses to Infectious Disease Cues: An Integrative Framework and Research Agenda",
+      "authors": "Felipe M. Affonso",
+      "journal": "European Journal of Marketing",
+      "year": 2025,
+      "volume": "Vol. 59, No. 4, pp. 973-98",
+      "doi": "https://doi.org/10.1108/EJM-01-2024-0070"
+    },
+    {
+      "title": "Marketing by Design: The Influence of Perceptual Structure on Brand Performance",
+      "authors": "Felipe M. Affonso, Chris Janiszewski",
+      "journal": "Journal of Marketing",
+      "year": 2023,
+      "volume": "Vol. 87, No. 5, pp. 736-54",
+      "doi": "https://doi.org/10.1177/00222429221142281"
+    },
+    {
+      "title": "Serendipity: Chance Encounters in the Marketplace Enhance Consumer Satisfaction",
+      "authors": "Aekyoung Kim, Felipe M. Affonso, Juliano Laran, Kristina Durante",
+      "journal": "Journal of Marketing",
+      "year": 2021,
+      "volume": "Vol. 85, No. 4, pp. 141-57",
+      "doi": "https://doi.org/10.1177/00222429211000344"
+    },
+    {
+      "title": "Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals",
+      "authors": "Felipe M. Affonso, Chris Janiszewski, James R. Bettman",
+      "journal": "Journal of Consumer Psychology",
+      "year": 2021,
+      "volume": "Vol. 31, No. 2, pp. 217-39",
+      "doi": "https://doi.org/10.1002/jcpy.1184",
+      "note": "Lead article"
+    },
+    {
+      "title": "The Importance of Advertising Skepticism for Brand Extension Appeals",
+      "authors": "Jose Mauro da Costa Hernandez, Scott Wright, Felipe M. Affonso",
+      "journal": "Psychology & Marketing",
+      "year": 2019,
+      "volume": "Vol. 36, No. 7, pp. 687-99",
+      "doi": "https://doi.org/10.1002/mar.21205"
+    }
+  ],
+  "preprints": [
+    {
+      "title": "Vertical Tacit Collusion in AI-Mediated Markets",
+      "authors": "Felipe M. Affonso",
+      "platform": "arXiv",
+      "url": "https://arxiv.org/abs/2601.03061"
+    }
+  ]
+}

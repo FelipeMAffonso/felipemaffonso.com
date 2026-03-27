@@ -1,0 +1,50 @@
+{
+  "awards": [
+    {
+      "name": "Spears Engagement with Practice and Social Impact Teaching Award",
+      "year": 2025
+    }
+  ],
+  "interests": "Marketing research, managerial statistics, experimental methods, and marketing management",
+  "current": [
+    {
+      "name": "Marketing Research",
+      "level": "B.Sc.",
+      "institution": "Oklahoma State University",
+      "semesters": ["Spring 2025", "Spring 2026"]
+    },
+    {
+      "name": "Honors Course: Marketing Science Laboratory",
+      "level": "B.Sc.",
+      "institution": "Oklahoma State University",
+      "semesters": ["Fall 2025"]
+    },
+    {
+      "name": "Managerial Strategies in Marketing",
+      "level": "B.Sc.",
+      "institution": "Oklahoma State University",
+      "semesters": ["Spring 2024"]
+    }
+  ],
+  "previous": [
+    {
+      "name": "Problems and Methods in Marketing Management",
+      "level": "M.Sc.",
+      "institution": "University of Florida",
+      "semesters": ["Spring 2023"]
+    },
+    {
+      "name": "Marketing Management",
+      "level": "B.Sc.",
+      "institution": "University of Florida",
+      "semesters": ["Spring 2021"]
+    },
+    {
+      "name": "Building Experiments in Qualtrics",
+      "level": "Ph.D. Seminar",
+      "institution": "Rutgers University",
+      "note": "Guest Lecturer",
+      "semesters": ["Fall 2020", "Fall 2022"]
+    }
+  ]
+}

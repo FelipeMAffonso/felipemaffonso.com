@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if pageTitle %}{{ pageTitle }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ pageDescription or 'Felipe M. Affonso — Assistant Professor of Marketing at Oklahoma State University. Research on consumer decision-making, human-technology interactions, and health/environmental policy.' }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class="nav-bar">
+    <canvas id="nav-particles"></canvas>
+    <nav class="nav">
+      <a href="/" class="nav-name">Felipe M. Affonso</a>
+      <ul class="nav-links">
+        <li><a href="/"{% if page.url == "/" %} class="active"{% endif %}>Home</a></li>
+        <li><a href="/research/"{% if page.url == "/research/" %} class="active"{% endif %}>Research</a></li>
+        <li><a href="/teaching/"{% if page.url == "/teaching/" %} class="active"{% endif %}>Teaching</a></li>
+        <li><a href="/cv/"{% if page.url == "/cv/" %} class="active"{% endif %}>CV</a></li>
+        <li><a href="/contact/"{% if page.url == "/contact/" %} class="active"{% endif %}>Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </div>
+
+  {% if not isHome %}
+  <div class="page-banner" id="page-banner">
+    <div class="page-banner-title">
+      <h1>{{ pageTitle }}</h1>
+    </div>
+  </div>
+  {% else %}
+  <div class="page-banner" id="page-banner" style="display:none">
+    <div class="page-banner-title">
+      <h1></h1>
+    </div>
+  </div>
+  {% endif %}
+
+  <div id="page-content">
+    {{ content | safe }}
+  </div>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/particles.js"></script>
+  <script src="/js/router.js"></script>
+  {% if extraScripts %}
+  {% for script in extraScripts %}
+  <script src="{{ script }}"></script>
+  {% endfor %}
+  {% endif %}
+
+</body>
+</html>

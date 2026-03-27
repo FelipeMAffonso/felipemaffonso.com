@@ -1,0 +1,31 @@
+---
+layout: base.njk
+pageTitle: Contact
+pageDescription: "Contact Felipe M. Affonso — Assistant Professor of Marketing at Oklahoma State University."
+---
+
+{% block content %}
+<main class="page">
+  <div class="contact-grid">
+    <div class="contact-block">
+      <h3>Office</h3>
+      <p>{{ site.institution }}<br>{{ site.department }}<br>School of Marketing and International Business<br>{{ site.office }}</p>
+      <p style="margin-top: 16px;">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+        {{ site.phone }}
+      </p>
+    </div>
+
+    <div class="contact-block">
+      <h3>Profiles</h3>
+      <ul class="social-links">
+        <li><a href="{{ site.social.scholar }}" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="{{ site.social.osf }}" target="_blank" rel="noopener">Open Science Framework</a></li>
+        <li><a href="{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="{{ site.social.twitter }}" target="_blank" rel="noopener">X (Twitter)</a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+{% endblock %}
