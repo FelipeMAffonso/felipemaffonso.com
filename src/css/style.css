@@ -454,17 +454,32 @@ a:hover {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #999;
+  flex-shrink: 0;
+  transition: fill 0.2s;
 }
 
 .social-links a {
   font-size: 15px;
   color: var(--text-secondary);
   border-bottom: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .social-links a:hover {
   color: var(--coral);
+}
+
+.social-links a:hover .social-icon {
+  fill: var(--coral);
 }
 
 /* --- Footer --- */
