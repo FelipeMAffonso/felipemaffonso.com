@@ -1,8 +1,11 @@
 // Particle Network Animation — Felipe M. Affonso Signature Style
-// Runs on any canvas#particles (hero) and canvas#nav-particles (nav bar)
 (function() {
   function createParticleSystem(canvas, opts) {
     if (!canvas) return;
+    // Don't double-init
+    if (canvas.dataset.particlesInit) return;
+    canvas.dataset.particlesInit = 'true';
+
     const ctx = canvas.getContext('2d');
     let particles = [];
 
@@ -77,7 +80,10 @@
     window.addEventListener('resize', resize);
   }
 
-  // Hero canvas (home page — full viewport)
+  // Expose globally so the SPA router can reinit
+  window.initParticleSystem = createParticleSystem;
+
+  // Hero canvas (home page)
   createParticleSystem(document.getElementById('particles'), {
     maxParticles: 80,
     densityDivisor: 8000,
@@ -85,12 +91,11 @@
     speed: 0.4
   });
 
-  // Nav bar canvas (all pages, fixed at top)
+  // Nav bar canvas (all pages)
   createParticleSystem(document.getElementById('nav-particles'), {
     maxParticles: 50,
     densityDivisor: 2000,
     maxDistance: 120,
     speed: 0.3
   });
-
 })();
