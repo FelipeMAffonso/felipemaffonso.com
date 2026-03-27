@@ -24,17 +24,18 @@
   var toggle = document.getElementById('themeToggle');
   var icon = document.getElementById('themeIcon');
   if (toggle && icon) {
-    // Set initial icon
-    function updateIcon() {
+    function updateToggle() {
       var isDark = document.documentElement.classList.contains('dark');
       icon.innerHTML = isDark ? '&#9728;' : '&#9790;';
+      toggle.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
     }
-    updateIcon();
+    updateToggle();
 
     toggle.addEventListener('click', function() {
-      var isDark = document.documentElement.classList.toggle('dark');
+      document.documentElement.classList.toggle('dark');
+      var isDark = document.documentElement.classList.contains('dark');
       localStorage.setItem('site-theme', isDark ? 'dark' : 'light');
-      updateIcon();
+      updateToggle();
     });
   }
 })();
