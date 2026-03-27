@@ -1,5 +1,9 @@
 // Particle Network Animation — Felipe M. Affonso Signature Style
 (function() {
+  function getBgColor() {
+    return document.documentElement.classList.contains('dark') ? '#121212' : '#f8f9fa';
+  }
+
   function createParticleSystem(canvas, opts) {
     if (!canvas) return;
     // Don't double-init
@@ -10,7 +14,6 @@
     let particles = [];
 
     const config = {
-      bgColor: opts.bgColor || '#f8f9fa',
       particleColor: 'rgba(218, 119, 86, 0.6)',
       lineAlpha: 0.2,
       maxParticles: opts.maxParticles || 80,
@@ -42,7 +45,7 @@
     }
 
     function draw() {
-      ctx.fillStyle = config.bgColor;
+      ctx.fillStyle = getBgColor();
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       for (let i = 0; i < particles.length; i++) {
