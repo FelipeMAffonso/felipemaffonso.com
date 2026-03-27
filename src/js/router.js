@@ -1,14 +1,6 @@
 // SPA Router — swap page content without full reload
 // Keeps nav bar + particles alive across navigations
 (function() {
-  var homeHero = document.querySelector('.hero-full');
-  var pageContent = document.getElementById('page-content');
-
-  // On initial home load, move hero OUTSIDE page-content so it persists
-  if (homeHero && pageContent && homeHero.closest('#page-content')) {
-    pageContent.parentNode.insertBefore(homeHero, pageContent);
-  }
-
   async function navigate(url, pushState) {
     try {
       var resp = await fetch(url);
@@ -26,11 +18,6 @@
       if (newContent && currentContent) {
         currentContent.classList.add('fade-out');
         await new Promise(function(r) { setTimeout(r, 200); });
-        // If going home, strip the hero from fetched content (we have our own)
-        if (isHome) {
-          var fetchedHero = newContent.querySelector('.hero-full');
-          if (fetchedHero) fetchedHero.remove();
-        }
         currentContent.innerHTML = newContent.innerHTML;
         currentContent.classList.remove('fade-out');
       }
@@ -45,14 +32,17 @@
         }
       }
 
-      // Handle home hero
+      // Init hero particles if navigating to home
       if (isHome) {
-        if (homeHero) {
-          homeHero.style.display = '';
-        }
-      } else {
-        if (homeHero) {
-          homeHero.style.display = 'none';
+        var heroCanvas = document.querySelector('#page-content .hero-full canvas');
+        if (heroCanvas && window.initParticleSystem) {
+          heroCanvas.removeAttribute('data-particles-init');
+          window.initParticleSystem(heroCanvas, {
+            maxParticles: 80,
+            densityDivisor: 8000,
+            maxDistance: 150,
+            speed: 0.4
+          });
         }
       }
 
