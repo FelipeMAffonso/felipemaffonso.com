@@ -1,7 +1,7 @@
 // Particle Network Animation — Felipe M. Affonso Signature Style
 (function() {
   function getBgColor() {
-    return document.documentElement.classList.contains('dark') ? '#121212' : '#f8f9fa';
+    return document.documentElement.classList.contains('dark') ? '#1a1a1e' : '#f8f9fa';
   }
 
   function createParticleSystem(canvas, opts) {

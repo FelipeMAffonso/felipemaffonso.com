@@ -19,8 +19,8 @@
 }
 
 html.dark {
-  --bg: #121212;
-  --bg-white: #1e1e1e;
+  --bg: #1a1a1e;
+  --bg-white: #232328;
   --text: #e8e8e8;
   --text-secondary: #cccccc;
   --text-dim: #999999;
@@ -556,7 +556,7 @@ a:hover {
 
 /* --- Dark Mode Overrides --- */
 html.dark .nav-bar {
-  background: #121212;
+  background: #1a1a1e;
 }
 
 html.dark .nav-links a {
@@ -624,7 +624,7 @@ html.dark .contact-block a:hover {
   }
 
   html.dark .nav-links {
-    background: rgba(18, 18, 18, 0.98);
+    background: rgba(26, 26, 30, 0.98);
   }
 
   .nav-links.open { display: flex; }
