@@ -274,6 +274,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 .section-toggle {
