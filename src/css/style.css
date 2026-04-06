@@ -533,8 +533,9 @@ a:hover {
 }
 
 .theme-icon {
-  font-size: 16px;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--text-dim);
   transition: color 0.2s;
 }
