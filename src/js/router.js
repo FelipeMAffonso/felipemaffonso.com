@@ -57,11 +57,6 @@
           href === url || (href === '/' && isHome));
       });
 
-      // Re-run research toggles if on research page
-      if (url.indexOf('/research') !== -1 && window.initResearchToggles) {
-        setTimeout(window.initResearchToggles, 0);
-      }
-
       if (pushState) {
         history.pushState({}, '', url);
       }

@@ -278,21 +278,6 @@ a:hover {
   padding-left: 0;
 }
 
-.section-toggle {
-  cursor: pointer;
-  user-select: none;
-}
-
-.section-toggle:hover {
-  color: var(--text-secondary);
-}
-
-.toggle-icon {
-  font-size: 11px;
-  margin-left: 4px;
-  color: var(--text-dim);
-}
-
 .pub-note-sub {
   font-size: 14px;
   color: var(--text-dim);
