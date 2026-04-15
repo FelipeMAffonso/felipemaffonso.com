@@ -41,3 +41,36 @@
     });
   }
 })();
+
+// Publication accordion (event delegation — SPA-safe)
+(function() {
+  // Hide broken cover images gracefully
+  document.addEventListener('error', function(e) {
+    if (e.target.classList && e.target.classList.contains('pub-cover')) {
+      e.target.style.display = 'none';
+    }
+  }, true);
+
+  document.addEventListener('click', function(e) {
+    // Skip if clicking a link inside the citation
+    if (e.target.closest('.pub-citation a')) return;
+
+    var citation = e.target.closest('.pub-citation');
+    if (!citation) return;
+
+    var entry = citation.closest('.pub-entry');
+    if (!entry) return;
+
+    var wasOpen = entry.classList.contains('open');
+
+    // Close all other open entries (one-at-a-time)
+    document.querySelectorAll('.pub-entry.open').forEach(function(el) {
+      el.classList.remove('open');
+    });
+
+    // Toggle clicked entry
+    if (!wasOpen) {
+      entry.classList.add('open');
+    }
+  });
+})();
