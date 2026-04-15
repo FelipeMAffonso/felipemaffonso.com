@@ -361,6 +361,8 @@ html.dark .pub-citation:hover {
   transform: rotate(90deg);
   stroke: var(--coral);
   opacity: 1;
+  width: 14px;
+  height: 14px;
 }
 
 /* Smooth expand/collapse via CSS grid */
@@ -392,9 +394,9 @@ html.dark .pub-citation:hover {
 
 .pub-cover {
   float: left;
-  width: 64px;
+  width: 72px;
   height: auto;
-  margin: 2px 14px 6px 0;
+  margin: 2px 16px 6px 0;
   border-radius: 4px;
   border: 1px solid var(--border);
   object-fit: contain;
