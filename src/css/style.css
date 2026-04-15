@@ -382,9 +382,13 @@ html.dark .pub-citation:hover {
 }
 
 .pub-detail-pad {
-  padding: 16px 8px 8px;
+  padding: 16px;
+  margin-top: 8px;
   opacity: 0;
   transition: opacity 0.25s ease;
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
 }
 
 .pub-entry.open .pub-detail-pad {
@@ -411,8 +415,8 @@ html.dark .pub-citation:hover {
 }
 
 .pub-links {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 14px;
 }
@@ -800,7 +804,6 @@ html.dark .contact-block a:hover {
   .page-banner-title h1 { font-size: 24px; }
 
   .pub-cover { width: 56px; }
-  .pub-links { grid-template-columns: 1fr; }
   .pub-citation { padding-right: 24px; }
   .pub-chevron { right: 4px; top: 8px; width: 14px; height: 14px; }
 
