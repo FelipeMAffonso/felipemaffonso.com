@@ -344,6 +344,10 @@ html.dark .pub-citation:hover {
   background-color: rgba(255, 255, 255, 0.035);
 }
 
+.pub-citation em {
+  color: var(--coral);
+}
+
 .pub-chevron {
   position: absolute;
   right: 6px;
