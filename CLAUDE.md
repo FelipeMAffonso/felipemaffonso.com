@@ -84,7 +84,25 @@ Publications live in `src/research.njk`. Each paper is a `<li class="pub-entry">
 6. Section placement: Preprints or Journal Publications
 7. Equal authorship notation (asterisks on author names)
 
-**Cover images** go in `src/images/covers/` with short names: `jcr.jpg`, `jm.jpg`, `jcp.jpg`, `ejm.jpg`, `jadv.jpg`, `rp.jpg`, `pm.jpg`. Multiple papers in the same journal reuse the same cover.
+**Cover images** go in `src/images/covers/` named per paper (not per journal — journals change covers across issues):
+- `cognitive-traps.jpg` — Brief Commentary (JCR)
+- `space-commons.jpg` — Behavioral Micro-Foundations (RP)
+- `simple-eco-friendly.jpg` — Simple is Eco-Friendly (JA)
+- `concealing-prices.jpg` — Concealing Prices (JCR)
+- `disease-cues.jpg` — Consumer Responses to Disease Cues (EJM)
+- `marketing-by-design.jpg` — Marketing by Design (JM)
+- `serendipity.jpg` — Serendipity (JM)
+- `constructive-choice.jpg` — Boundaries of Constructive Choice (JCP)
+- `ad-skepticism.jpg` — Advertising Skepticism (P&M)
+
+When adding a new paper, name the cover after the paper slug, not the journal.
+
+**Link labels** (standardized):
+- Journal link: label "Journal website", desc "Full text" (or "Full text (open access)" for OA)
+- Preprint link: label "[Platform]" (PsyArXiv/arXiv/SSRN), desc "Preprint with PDF download"
+- Machine-readable: label "Machine-readable", desc "Markdown (.md)" or "LaTeX source (.tex)"
+- OSF data: label "Data and code (OSF)", desc "[osf.io/xxxxx]" (the actual URL)
+- OSF icon SVG: use the OSF logo from contact.njk (fill="currentColor", stroke="none")
 
 **Action button SVG icons:**
 - Journal/DOI (external link): `<svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`
@@ -121,6 +139,8 @@ Replace `src/images/headshot.jpg`.
 ## After Making Changes
 ```bash
 cd "c:/Users/fmarine/Dropbox/Felipe/CLAUDE CODE/personal-site"
-git add -A && git commit -m "description" && git push
+git add -A && git commit -m "description" && GIT_TERMINAL_PROMPT=0 git push
 ```
 Deploy happens automatically.
+
+**Important:** Always use `GIT_TERMINAL_PROMPT=0` before `git push`. Without it, the push hangs waiting for an interactive credential prompt that can't appear in this terminal. The credentials are cached in Windows Credential Manager, so this flag just tells git to use them silently.
