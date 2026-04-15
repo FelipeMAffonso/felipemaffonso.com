@@ -431,7 +431,7 @@ html.dark .pub-citation:hover {
 
 .pub-link {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   padding: 8px 12px;
   border-radius: 6px;
