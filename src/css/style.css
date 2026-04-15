@@ -290,6 +290,13 @@ a:hover {
   margin-bottom: 24px;
 }
 
+.pub-subtitle {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-top: -20px;
+  margin-bottom: 24px;
+}
+
 .pub-entry {
   font-size: 15px;
   color: var(--text);
