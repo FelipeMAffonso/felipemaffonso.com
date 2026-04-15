@@ -390,18 +390,12 @@ html.dark .pub-citation:hover {
   transition-delay: 0.1s;
 }
 
-.pub-detail-top {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 14px;
-}
-
 .pub-cover {
+  float: left;
   width: 64px;
   height: auto;
+  margin: 2px 14px 6px 0;
   border-radius: 4px;
-  flex-shrink: 0;
   border: 1px solid var(--border);
   object-fit: contain;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
@@ -418,6 +412,7 @@ html.dark .pub-citation:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-bottom: 12px;
 }
 
 .pub-btn {
