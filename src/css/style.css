@@ -340,24 +340,27 @@ html.dark .pub-citation:hover {
   position: absolute;
   right: 6px;
   top: 8px;
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   fill: none;
-  stroke: var(--text-dim);
+  stroke: var(--border);
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  transition: transform 0.3s ease, stroke 0.2s;
+  transition: transform 0.3s ease, stroke 0.2s, opacity 0.2s;
   flex-shrink: 0;
+  opacity: 0.5;
 }
 
 .pub-citation:hover .pub-chevron {
   stroke: var(--coral);
+  opacity: 1;
 }
 
 .pub-entry.open .pub-chevron {
   transform: rotate(90deg);
   stroke: var(--coral);
+  opacity: 1;
 }
 
 /* Smooth expand/collapse via CSS grid */
@@ -387,26 +390,21 @@ html.dark .pub-citation:hover {
   transition-delay: 0.1s;
 }
 
-.pub-detail-content {
+.pub-detail-top {
   display: flex;
-  gap: 20px;
-  margin-bottom: 16px;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
 }
 
 .pub-cover {
-  width: 80px;
+  width: 64px;
   height: auto;
   border-radius: 4px;
   flex-shrink: 0;
   border: 1px solid var(--border);
   object-fit: contain;
-  align-self: flex-start;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-}
-
-.pub-abstract {
-  flex: 1;
-  min-width: 0;
 }
 
 .pub-abstract p {
