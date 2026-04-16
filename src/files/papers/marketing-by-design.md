@@ -552,7 +552,6 @@ Felipe M. Affonso (<felipemarinelliaffonso@gmail.com>), and Chris Janiszewski (<
 
 **Table of Contents**
 
-#  
 
 [WEB APPENDIX A: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR STUDY 1 [3](#web-appendix-a-additional-methodological-details-and-analyses-for-study-1)](#web-appendix-a-additional-methodological-details-and-analyses-for-study-1)
 
@@ -670,7 +669,6 @@ These materials have been supplied by the authors to aid in the understanding of
 | [Image: see published version] | [Image: see published version] |
 +=========================================================================================================================================================+=================================================================================================================================================================+
 
-## 
 
 ## *Pretest -- Product Positioning and Product Attractiveness*
 
@@ -794,7 +792,6 @@ There were 10 pairs of replicates and 2 shopping goals. We wanted 100 choices pe
 
 ## *Materials*
 
-## 
 
 **CONSUMER DECISION MAKING**
 
@@ -831,7 +828,7 @@ Imagine you are looking for sunglasses that provide superior UV protection, comf
 
 Imagine you are looking for headphones that provide superior performance functions, battery life, and comfort \[superior personalization functions, entertainment, and fun\]. Which brand would you choose?
 
-[Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R4_S.png][Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R4_U.png]
+[Image: see published version][Image: see published version]
 
 **Artisan Soaps**
 
@@ -843,13 +840,13 @@ Imagine you want to buy an artisan soap that revitalizes old skin, protects agai
 
 Imagine you are shopping for a perfume that is long-lasting and great for work / everyday occasions \[delightful and great for special / fun occasions\]. Which perfume would you choose?
 
-[Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R13_S.jpg][Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R13_U.png]
+[Image: see published version][Image: see published version]
 
 **Coffee**
 
 Imagine you want to buy a coffee that enhances concentration and alertness \[has a delightful taste and is enjoyable to drink\]. Which coffee would you choose?
 
-[Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R10_S.jpg][Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R10_U.png]
+[Image: see published version][Image: see published version]
 
 **Gift Shop**
 
@@ -1487,7 +1484,6 @@ What are your perceptions of The Spectrum Library? The Spectrum Library is\...
 
 Demographics (Gender, Age)
 
-## 
 
 # WEB APPENDIX E: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR STUDY 5A
 
@@ -1693,9 +1689,6 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 [Image: Restaurants Near Greenbelt - Crowne Plaza]
 
-## 
-
-## 
 
 [Image: see published version]
 

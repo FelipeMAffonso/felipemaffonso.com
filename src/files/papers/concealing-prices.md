@@ -1418,7 +1418,6 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 Further, there was a main effect of store information condition on customer service expectations (*F*(2, 770) = 3.34, *p* = .036), such that expectations of customer service were lower in the Discount condition (*M* = 6.07, *SD* = 1.09) than in the National (*M* = 6.28, *SD* = .88; *F*(1, 770) = 6.22; *p* = .012) and Premium (*M* = 6.23, *SD* = .96; *F*(1, 770) = 3.25; *p* = .074) conditions. There was no main effect of price disclosure on customer service expectations (*M*~immediate~ = 6.24, *SD* = .91; *M*~delayed~ = 6.15, *SD* = 1.03; *F*(1, 770) = 2.06, *p* = .152). Finally, there was no interaction between store information and price disclosure on customer service expectations (*F*(2, 770) = .511, *p* = .600). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
 
-#  
 
 # Web Appendix F: Study 5 Procedure with Pretest and Post-test of Category Expected Price
 

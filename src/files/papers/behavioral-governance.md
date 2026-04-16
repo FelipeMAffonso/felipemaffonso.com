@@ -264,7 +264,6 @@ The framework integrates evaluation protocols across all instruments, prioritizi
   **Safety Zones**         Compliance with guardrails, scope creep, conflicts, legal compatibility          Content analysis and QCA audit with inter-rater reliability                          UNOOSA filings, COPUOS records, satellite imagery            Ongoing monitoring with periodic comprehensive review                      Qualitative assessment
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 
 
 ### 6.2 Outcome Metrics
 
@@ -1035,7 +1034,7 @@ ESA DISCOS Database: The European Space Agency's Database and Information System
 
 CelesTrak (celestrak.org): Maintained by Dr. T.S. Kelso, CelesTrak provides supplementary TLE data and analytical products including conjunction assessments. Publicly accessible without registration.
 
-## References {#references-1}
+## References 
 
 Abadie, A., Diamond, A., Hainmueller, J., 2015. Comparative politics and the synthetic control method. American Journal of Political Science 59, 495--510. <https://doi.org/10.1111/ajps.12116>
 

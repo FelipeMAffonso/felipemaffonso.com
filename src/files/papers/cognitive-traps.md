@@ -263,7 +263,7 @@ Reverse Traps
 
 Our cognitive traps exploit tasks where AI fails while humans succeed, but the reverse direction also deserves attention. Panizza et al. (2026) propose incorporating tasks that are easy for AI but difficult for humans, such as rapid estimation problems or logical puzzles like the Monty Hall problem, and then evaluating whether respondents fail in characteristically human ways. Their argument is that this inverts the adversarial dynamic: instead of improving AI to pass human-easy tasks, attackers would need to deliberately constrain AI performance to mimic human limitations, which proves difficult even when agents are explicitly instructed to conceal their capabilities. A related possibility is pairing standard visual illusions (where humans tend to err) with their modified counterparts (where AI fails due to training data overfitting) within the same survey, creating diagnostic error signatures across item pairs. Several open questions remain before either approach can be deployed in practice. Human susceptibility to illusions and estimation errors varies across individuals, meaning that reverse items would need careful calibration to avoid misclassifying attentive humans. Paired designs also double the number of stimuli required. Future research should empirically validate whether these complementary detection axes provide sufficient additional discrimination to justify their costs.
 
-## Demographic Considerations {#demographic-considerations-1}
+## Demographic Considerations 
 
 Cognitive trap failure rates show minimal demographic variation. Age, gender, and color blindness produced no significant associations with trap performance, alleviating concerns that cognitive traps would systematically exclude specific demographic groups. The only strong association was uncorrected vision impairment: 25.0% of participants reporting uncorrected impairments (*n* = 12) failed the threshold, compared to 3.8% for others, although 75% of vision-impaired participants still passed. We recommend that researchers include vision screening questions and adjust thresholds for participants reporting impairments[^4]. Full demographic analyses appear in web appendix I.
 
@@ -282,7 +282,7 @@ The entire behavioral research literature depends on measuring genuine human beh
 
 The human validation study (202 Prolific participants completing all seven cognitive traps) was conducted in November 2025. The initial model validation, in which all seven cognitive traps were tested against six frontier vision-language models through standalone chat interface sessions (420 trials), was also conducted in November 2025. Data for the Prolific main study (1,007 human participants) were collected in November 2025 using Qualtrics. The 526 AI agent deployments (Google Project Mariner, Perplexity Comet, ChatGPT Agent, and Claude Sonnet 4.5 via Cursor Agent) were conducted on the author's own Qualtrics survey instance in November 2025; no agents were deployed on live recruitment platforms. The expanded model validation, in which the six retained cognitive traps were tested against 34 vision-language models via programmatic API calls (2,040 trials), was conducted in February 2026. The MTurk replication (263 participants) and the CloudResearch Connect replication (506 participants) were both conducted in February 2026. All data were collected and analyzed by the author. Raw data, analysis code, agent deployment scripts, the Qualtrics survey file (.qsf), data dictionaries, and pre-registration documents are available on the Open Science Framework (<https://osf.io/f2jhx/>).
 
-# REFERENCES {#references-1}
+# REFERENCES 
 
 Acien, Alejandro, Aythami Morales, Julian Fierrez, and Ruben Vera-Rodriguez (2022), "[BeCAPTCHA-Mouse: Synthetic Mouse Trajectories and Improved Bot Detection](https://doi.org/10.1016/j.patcog.2022.108643)," *Pattern Recognition*, 127, 108643.
 
@@ -528,7 +528,6 @@ The second targets inattentive humans who skip instructions, rush through questi
   **Reading strategy**       Assume humans skim or skip                    Complete text processing as architectural requirement      Models must process full input
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 
 
 ### Why Each Method Fails in Detail
 
@@ -1056,7 +1055,7 @@ The 34-model validation reveals three findings that directly bear on the framewo
 
 Researchers applying the framework should monitor trap effectiveness against current models and replace weakening traps using the four-step methodology. The data presented here provide the empirical foundation for this monitoring, and updated testing results will be maintained in the Cognitive Trap Repository.
 
-# WEB APPENDIX D: CAPTCHA ROC ANALYSIS {#web-appendix-d-captcha-roc-analysis-1}
+# WEB APPENDIX D: CAPTCHA ROC ANALYSIS 
 
 ## D.1 Overview
 
@@ -1526,7 +1525,6 @@ Cognitive traps flagged 9 of 506 CloudResearch Connect respondents (1.8%) at the
   0           0       0.0%     0.0%
   -----------------------------------------------
 
-### 
 
 ### G.3.4 Individual Trap Pass Rates
 

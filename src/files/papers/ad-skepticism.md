@@ -14,10 +14,8 @@ citation: "Hernandez, José Mauro da Costa, Scott A. Wright, and Felipe M. Affon
 
 The importance of advertising skepticism for brand extension appeals
 José Mauro da Costa Hernandez, Scott A. Wright, Felipe M. Affonso
-First published: 25 March 2019 https://doi.org/10.1002/mar.21205Digital Object Identifier (DOI)  view metrics
-SectionsPDF
-CITE
-Tools Share
+First published: 25 March 2019 | https://doi.org/10.1002/mar.21205
+
 Abstract
 According to existing research, ad persuasiveness decreases as advertising skepticism (i.e., the tendency to disbelieve advertising claims) increases. What remains unclear, however, is whether or not this effect extends to brand extension appeals. We suggest that the effect may vary according to brand extension similarity. Three studies test this assertion while providing process evidence and boundary conditions for the proposed effect. According to the findings, consumers automatically transfer associations from parent brands to highly similar extensions or automatically block these associations in the case of highly dissimilar extensions—reducing the impact of advertising skepticism on ad persuasiveness. At moderate levels, however, extension similarity is less predictive of the transfer process, increasing the negative effect of advertising skepticism on persuasion. Consistent with this account, the results identify brand transfer (i.e., the ability of the parent brand to make the extension) as the underlying mechanism explaining the advertising skepticism effect for moderately similar brand extension appeals. Furthermore, the results show how marketers can reduce these effects, and increase extension success, by emphasizing extension attributes that are shared with the parent brand. Collectively, these results provide a unique theoretical view, improving our understanding of advertising skepticism and the drivers of brand extension success.
 
@@ -30,11 +28,11 @@ This article combines the literature on brand extensions with research into the 
 1 CONCEPTUAL FRAMEWORK AND HYPOTHESES
 The conceptual model is illustrated in Figure 1 and is expounded in what follows. To overcome the high failure rates of new products, companies frequently associate the new product with well-defined identities and valuable equity (e.g., countries, other brands, and celebrities). One of the most common strategies is to launch a new product with an established brand, for example, the Tide Pen, Tootsie Pops, Virgin Atlantic Airways, and O (The Oprah Magazine). According to associative network theory (Anderson & Bower, 2014), drawing associations between extensions and these established entities can result in associative transfer effects (Cunha, Forehand, & Angle, 2015) whose primary driver is the degree of similarity between the extension and the parent brand.
 
-Details are in the caption following the image
-Figure 1
-Open in figure viewer
-PowerPoint
-Conceptual model
+**Figure 1.** Conceptual model
+
+*The model depicts the proposed relationships: advertising skepticism and brand extension similarity jointly influence brand extension evaluations (H1) and parent brand evaluations (H2). This effect is mediated by brand transfer, the perceived ability of the parent brand to make the extension (H3). Enhancing brand transfer through marketing communication attenuates the negative effect of advertising skepticism on evaluations (H4).*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 In the marketing literature, the degree of association between two entities (e.g., a core brand and a new extension) has received various designations (e.g., “fit,” “similarity,” “congruence,” “consistency,” and “match”; Zdravkovic, Magnusson, & Stanley, 2010). In the context of brand extensions, similarity consists of two key dimensions (Park, Milberg, & Lawson, 1991). The first characterizes the association between the features of the extension and the features of the brand's existing products, whether concrete or abstract. The second dimension reflects the extension's compatibility with the brand concept. In this article, the similarity is specified in terms of product features, that is, brand extension similarity indicates the degree to which the extension shares analogous features with the core brand's existing products. This type of similarity is consistent with categorization process theory (e.g., Boush & Loken, 1991), which defines similarity as the alignment, or proto-typicality, of the extension with the core brand category in terms of its physical characteristics. For example, McDonald's onion rings are more similar to the core brand than are McDonald's greeting cards, because the former is more prototypical of the company's core product category, that is, fast food (Mao & Krishnan, 2006). If McDonald's were to offer onion rings as a brand extension, an affective transfer process would likely occur whereby consumers would largely base their evaluations of the extension on their attitudes toward, and perceptions of, the parent brand (Aaker & Keller, 1990).
 
@@ -113,11 +111,13 @@ To understand the nature of the interaction effect and test H1, post hoc contras
 
 Consistent with H1, the difference in brand extension evaluations between participants in the control condition and participants in the high advertising skepticism was larger for the moderately similar brand extension appeal (ηp2 = 0.21) compared to the highly similar (ηp2 = 0.01) or dissimilar (ηp2 = 0.01) brand extension appeals. These results are illustrated in Figure 2, Panel A.
 
-Details are in the caption following the image
-Figure 2
-Open in figure viewer
-PowerPoint
-(a) Brand extension and (b) parent brand evaluations by extension similarity and consumer advertising skepticism (Study 1)
+**Figure 2.** (a) Brand extension and (b) parent brand evaluations by extension similarity and consumer advertising skepticism (Study 1)
+
+*Panel A: Brand extension evaluations. For the moderately similar extension, the control condition (M = 5.48) significantly exceeded the high skepticism condition (M = 4.34, p < .01, eta-p-squared = .21). For the highly similar extension, control (M = 5.66) and high skepticism (M = 5.46) did not differ (p = .46, eta-p-squared = .01). For the highly dissimilar extension, control (M = 4.44) and high skepticism (M = 4.45) did not differ (p = .87, eta-p-squared = .00).*
+
+*Panel B: Parent brand evaluations. For the moderately similar extension, the control condition (M = 13.14) significantly exceeded the high skepticism condition (M = 3.31, p < .01, eta-p-squared = .09). For the highly similar extension, control (M = 18.59) and high skepticism (M = 16.10) did not differ (p = .54, eta-p-squared = .01). For the highly dissimilar extension, control (M = 1.85) and high skepticism (M = 4.56) did not differ (p = .52, eta-p-squared = .01).*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 3.2.2 Parent brand evaluation
 The analysis of parent brand evaluations revealed a main effect of brand extension similarity (F[2,211] = 9.87, p < 0.01, ηp2 = 0.09), and an advertising skepticism × brand extension similarity interaction (F[2,211] = 2.62, p < 0.10, ηp2 = 0.02). The effect of attitude towards the parent brand was also significant (F[1,211] = 5.51, p < 0.05, ηp2 = 0.03) but not the effect of advertising skepticism (F[1,212] = 1.56 p = 0.21).
@@ -158,11 +158,13 @@ To test H1, post hoc contrasts were conducted controlling for pre-existing brand
 
 Consistent with H1, though, evaluative differences according to advertising skepticism were larger for the moderately similar brand extension appeal (ηp2 = 0.30) compared to the highly similar (ηp2 = 0.06) and highly dissimilar (ηp2 = 0.07) brand extension appeals. These results are illustrated in Figure 3, Panel A.
 
-Details are in the caption following the image
-Figure 3
-Open in figure viewer
-PowerPoint
-(a) Brand extension and (b) parent brand evaluations by extension similarity and consumer advertising skepticism (Study 2)
+**Figure 3.** (a) Brand extension and (b) parent brand evaluations by extension similarity and consumer advertising skepticism (Study 2)
+
+*Panel A: Brand extension evaluations. For the moderately similar extension, low skeptics (M = 5.10) significantly exceeded high skeptics (M = 3.96, p < .01, eta-p-squared = .30). For the highly similar extension, low skeptics (M = 5.18) versus high skeptics (M = 4.88) showed a weaker difference (p = .09, eta-p-squared = .06). For the highly dissimilar extension, low skeptics (M = 4.23) versus high skeptics (M = 3.86) also showed a weaker difference (p = .07, eta-p-squared = .07).*
+
+*Panel B: Parent brand evaluations. For the moderately similar extension, low skeptics (M = 18.38) significantly exceeded high skeptics (M = 0.25, p < .01, eta-p-squared = .34). For the highly similar extension, low skeptics (M = 19.18) exceeded high skeptics (M = 11.07, p < .01, eta-p-squared = .12). For the highly dissimilar extension, low skeptics (M = 5.96) and high skeptics (M = 1.20) did not differ significantly (p = .27, eta-p-squared = .03).*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 4.2.3 Parent brand evaluation
 The same two-way ANCOVA on parent brand evaluation revealed a main effect of brand extension similarity (F[2,162] = 11.98, p < 0.01, ηp2 = 0.13), a main effect of advertising skepticism (F[1,162] = 28.46, p < 0.01, ηp2 = 0.15), and the same advertising skepticism × brand extension similarity interaction demonstrated in Study 1 (F[2,162] = 4.54, p < 0.05, ηp2 = .05). However, the effect of pre-existing parent brand attitudes was not significant (F[1,162] = 1.12, p = 0.29).
@@ -208,11 +210,13 @@ Because one of the predictor variables was continuous and the other categorical,
 
 Participants low in advertising skepticism (M − 1 SD = 3.11) evaluated both extensions equally favorably (Mhigh brand transfer = 5.61 vs. Mlow brand transfer = 5.57; b = 0.04, SE = 0.29, t(121) = 0.14, p = 0.89) whereas participants high in advertising skepticism (M + 1 SD = 5.39) evaluated the high brand transfer extension more favorably than the low brand transfer extension (Mhigh brand transfer = 4.91 vs. Mlow brand transfer = 4.2; b = 0.70, SE = 0.28, t(121) = 2.50, p < 0.05) (see Figure 4, Panel A). In support of H4, the effect of brand transfer on brand extension evaluations was higher for high skeptics than for low skeptics.
 
-Details are in the caption following the image
-Figure 4
-Open in figure viewer
-PowerPoint
-(a) Brand extension and (b) parent brand evaluations by brand extension transfer and consumer advertising skepticism (Study 3)
+**Figure 4.** (a) Brand extension and (b) parent brand evaluations by brand extension transfer and consumer advertising skepticism (Study 3)
+
+*Panel A: Brand extension evaluations. Low advertising skeptics (M - 1 SD = 3.11) evaluated both extensions equally favorably (M_high-transfer = 5.61 vs. M_low-transfer = 5.57, p = .89). High advertising skeptics (M + 1 SD = 5.39) evaluated the high brand transfer extension more favorably than the low brand transfer extension (M_high-transfer = 4.91 vs. M_low-transfer = 4.20, p < .05).*
+
+*Panel B: Parent brand evaluations. Low advertising skeptics evaluated the parent brand of both extensions equally favorably (M_high-transfer = 18.66 vs. M_low-transfer = 19.35, p = .88). High advertising skeptics evaluated the parent brand of the high transfer extension more favorably (M_high-transfer = 15.40 vs. M_low-transfer = 5.36, p < .05).*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 5.2.3 Parent brand evaluation
 The same analysis was implemented using Model 1 of Hayes' (2012) PROCESS macro with parent brand evaluations as the dependent variable. The results revealed that the coefficients associated with advertising skepticism (b = −6.14, t(121) = −2.74, p < 0.01), and brand attitude (b = 2.84, t(121) = 1.95, p < 0.10) were significant. The coefficient of the interaction term was also significant (b = 4.71; t(121) = 1.71, p < 0.1). Participants low in advertising skepticism evaluated the parent brand of both extensions equally favorably (Mhigh brand transfer = 18.66 vs. Mlow brand transfer = 19.35; b = −0.68, SE = 4.33, t(121) = −0.16, p = 0.88), whereas participants high in advertising skepticism evaluated the parent brand of the high brand transfer extension more favorably than the parent brand of the low brand transfer extension (Mhigh brand transfer = 15.40 vs. Mlow brand transfer = 5.36; b = 10.03, SE = 4.28, t(121) = 2.34, p < 0.05; see Figure 4, Panel B). In support of H4, the positive effect of brand transfer on parent brand evaluations occurred for high skeptics, but not for low skeptics.
@@ -258,12 +262,7 @@ In this study, one particular method of overcoming advertising skepticism (i.e.,
 6.4 Concluding remarks
 Given the ubiquity of brand extensions, the present research is the first to explore the means by which consumer advertising skepticism influences the persuasiveness of extension appeals. The findings demonstrate consistently that high skeptics respond less favorably to moderately similar brand extension appeals than low skeptics due to decreased brand transfer. Before this empirical work, it was not known if or how advertising skepticism would influence extension evaluations. We conclude that the effect of advertising skepticism varies according to extension similarity. This adds new knowledge to theories underlying advertising skepticism, which had not previously considered the important role of brand associations. These findings, then, provide an important advancement in our understanding of brand extension strategies, novel theoretical insights into the manner in which advertising skepticism influences evaluations, and clear implications for strategists and marketers regarding the manner in which new products should be marketed.
 
-Supporting Information
-
-
 ## References
-
-REFERENCES
 Aaker, D. A., & Keller, K. L. (1990). Consumer evaluations of brand extensions. The Journal of Marketing, 54(1), 27–41.
 Ahluwalia, R. (2008). How far can a brand stretch? Understanding the role of self‐construal. Journal of Marketing Research, 45(3), 337–350.
 Anderson, J. R., & Bower, G. H. (2014). Human Associative Memory.
@@ -289,9 +288,6 @@ Escalas, J. E. (2006). Self‐referencing and persuasion: Narrative transportati
 33(4), 421–429.
 Fedorikhin, A., Park, C. W., & Thomson, M. (2008). Beyond fit and attitude:
 The effect of emotional attachment on consumer responses to brand extensions. Journal of Consumer Psychology, 18(4), 281–291.
-|
- 15206793, 2019, 7, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/mar.21205 by Felipe Affonso - Oklahoma State University , Wiley Online Library on [15/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
-
 Fitzsimons, G. M., Chartrand, T. L., & Fitzsimons, G. J. (2008). Automatic effects of brand exposure on motivated behavior: How apple makes you “think different”. Journal of Consumer Research, 35(1), 21–35.
 Forehand, M. R., & Grier, S. (2003). When is honesty the best policy? The effect of stated company intent on consumer skepticism. Journal of
 Consumer Psychology, 13(3), 349–356.
@@ -347,12 +343,7 @@ Wright, S. A. (2016). Reinvestigating the endorser by product matchup hypothesis
 Yeung, C. W., & Wyer, R. S., Jr (2005). Does loving a brand mean loving its products? The role of brand‐elicited affect in brand extension evaluations. Journal of Marketing Research, 42(4), 495–506.
 Zdravkovic, S., Magnusson, P., & Stanley, S. M. (2010). Dimensions of fit between a brand and a social cause and their influence on attitudes.
 International Journal of Research in Marketing, 27(2), 151–160.
-SUPPORTING INFORMATION
-Additional supporting information may be found online in the
-Supporting Information section at the end of the article.
-How to cite this article: Hernandez JMdC, Wright SA,
-Affonso FM. The importance of advertising skepticism for brand extension appeals. Psychol. Mark. 2019;36:687–699. https://doi.org/10.1002/mar.21|
- 15206793, 2019, 7, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/mar.21205 by Felipe Affonso - Oklahoma State University , Wiley Online Library on [15/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+How to cite this article: Hernandez JMdC, Wright SA, Affonso FM. The importance of advertising skepticism for brand extension appeals. *Psychology & Marketing*. 2019;36:687-699. https://doi.org/10.1002/mar.21205
 
 ---
 

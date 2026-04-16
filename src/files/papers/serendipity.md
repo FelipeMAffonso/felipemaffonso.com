@@ -360,7 +360,9 @@ Zhang, Yuan Cao, Diarmuid Ó. Séaghdha, Daniele Quercia, and Tamas Jambor (2012
 **\
 FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
 
-[Image: see published version]
+*Conceptual framework showing how marketplace encounters that are positive, unexpected, and attributed to some degree of chance generate feelings of serendipity (good surprise, attributions to chance, feeling lucky), which in turn improve consumer outcomes (satisfaction, enjoyment, meaningfulness, willingness to pay, willingness to recommend, and interest). The framework also depicts moderators: valence of the encounter (positive vs. negative; Study 2), degree of randomness (high vs. low; Study 3), and diagnostic information (nondiagnostic vs. diagnostic; Study 4). Solid lines indicate the focal relationships (H1a, H1b), and dashed lines indicate the moderating relationships (H2, H3, H4).*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 
 **FIGURE 2: STUDY 2 RESULTS**
@@ -847,9 +849,11 @@ Imagine you enter an art gallery. Two of the paintings the gallery features appe
   -------------------------------------------------------------------------
    **Moving Around** by Gerald Chodak   **On the Border** by Gerald Chodak
   ------------------------------------ ------------------------------------
-         [Image: see published version]                [Image: see published version]
+         *[Painting thumbnail]*                *[Painting thumbnail]*
 
   -------------------------------------------------------------------------
+
+*Note: Painting images not included in machine-readable version. Participants viewed paintings by Gerald Chodak ("Moving Around" and "On the Border") in either positive or negative valence versions. A pretest confirmed that positive paintings were rated as more positive than negative paintings (see Web Appendix B). See published paper for the visual stimuli.*
 
 **Click below to proceed.**
 
@@ -1357,14 +1361,16 @@ Thank you for your participation so far. Please raise your hand. The experimente
 +-----------------------------------------------------------------------------------+
 | **Here are some pretzels for you!**                                               |
 |                                                                                   |
-| [Image: see published version] |
+| *[Photo of paper card reading "Here are some pretzels for you!" placed above a napkin covering a Styrofoam bowl]* |
 |                                                                                   |
 | **Please type the code "pretzels" to continue with the study.**                   |
 +===================================================================================+
 
 Paper card (that was put above the napkin for each Styrofoam bowl)
 
-[Image: see published version]
+*[Photo of six Utz Mini Twist Pretzels placed inside a Styrofoam bowl, covered by a napkin and the paper card described above. After raising their hands, participants were approached by the research assistant and received this bowl.]*
+
+*Note: Stimulus photos not included in machine-readable version. See published paper for the visual.*
 
 Pretzels inside the Styrofoam bowls
 

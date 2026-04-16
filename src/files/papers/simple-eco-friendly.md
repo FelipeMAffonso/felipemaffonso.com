@@ -107,7 +107,6 @@ Consistent with our account of lay theories, we propose that these effects emerg
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-Insert figure 1 about here
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -115,7 +114,6 @@ Our conceptualization builds on and extends a growing literature on visual compl
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-Insert table 1 about here
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -291,7 +289,6 @@ As predicted, among participants with stronger beliefs in the link between desig
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-Insert figure 3 about here
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -313,7 +310,6 @@ As predicted, among participants with stronger beliefs in the link between desig
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-Insert figure 4 about here
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -467,59 +463,63 @@ Finally, brand maturity matters. While new brands would benefit most from direct
 
 **APPENDIX B**
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Visually Complex Stimuli                                                                                                                                                                                                                  Visually Simple Stimuli
+**Study 1 Stimuli (Soaps)**
 
-  [Image: see published version]   [Image: see published version]
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Visually Complex Stimuli | Visually Simple Stimuli |
+|---|---|
+| A white soap box labeled "ALOE FACIAL SOAP" by "bliss cosmetics." The box features green edges and an abstract pattern of gray concentric circles covering the surface, along with green script text "Aloe Facial Soap" on the top and side. | A plain white soap box labeled "ALOE FACIAL SOAP" by "viva cosmetics." The box has a clean, minimalist design with only green text and no decorative patterns or graphics. |
 
 **APPENDIX C**
 
 In each product category, participants were shown one of two randomly assigned pairs, each consisting of a complex and simple product with different brand names.
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Visually Complex Stimuli                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Visually Simple Stimuli                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| [Image: see published version][Image: see published version] | [Image: see published version]                                                                                                                                                                                                                                               |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | [Image: see published version]                                                                                                                                                                                                                          |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| [Image: see published version]                                                                                                                                                                                                                                                                            | [Image: see published version]                                                                                                                                                                                                                               |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [Image: see published version]                                                                                                                                                                                                                                                                     | [Image: see published version]                                                                                                                                                                                                                                              |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| [Image: see published version][Image: see published version]                                | [Image: see published version][Image: see published version]             |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| [Image: see published version][Image: see published version]                                       | [Image: see published version][Image: see published version] |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+**Soaps**
+
+| Visually Complex Stimuli | Visually Simple Stimuli |
+|---|---|
+| (1) A white soap box labeled "ALOE FACIAL SOAP" by "bliss cosmetics," featuring green edges and an abstract pattern of gray concentric circles covering the surface. (2) Same design labeled "viva cosmetics." | (1) A plain white soap box labeled "ALOE FACIAL SOAP" by "viva cosmetics" with no decorative patterns, only green text on white. (2) Same minimalist design labeled "bliss cosmetics." |
+
+**Protein Powders**
+
+| Visually Complex Stimuli | Visually Simple Stimuli |
+|---|---|
+| (1) A dark protein powder container labeled "HEALTH SHRINE / WHEY PROTEIN / CHOCOLATE FUDGE FLAVOR / 30g protein per scoop." The label features a brown band with an abstract grid pattern of small dots and horizontal brown stripes. (2) Same complex design labeled "NUTRITION TEMPLE." | (1) A dark protein powder container labeled "NUTRITION TEMPLE / WHEY PROTEIN / CHOCOLATE FUDGE FLAVOR / 30g protein per scoop." The label has a plain brown band with no decorative pattern. (2) Same simple design labeled "HEALTH SHRINE." |
+
+**Energy Drinks**
+
+| Visually Complex Stimuli | Visually Simple Stimuli |
+|---|---|
+| (1) A blue aluminum can labeled "THUNDER IGNITE / energy drink." The can features an abstract pattern of white circles connected by gold lines forming a network-like design. (2) Same complex design labeled "LIQUID ELECTRICITY." | (1) A plain blue aluminum can labeled "LIQUID ELECTRICITY / energy drink" with no decorative pattern. (2) Same simple design labeled "THUNDER IGNITE." |
+
+**Paper Towels**
+
+| Visually Complex Stimuli | Visually Simple Stimuli |
+|---|---|
+| (1) A pack of 8 paper towel rolls (8 ROLLS - 500 SQ FT, 150 2-PLY SHEETS / 11 IN X 5.5 IN) with a yellow label reading "VELVETY JOY / PAPER TOWELS." The label features abstract white circles of various sizes and a crosshatch/diamond pattern in the yellow background. (2) Same complex design labeled "FLUFFY BLISS." | (1) A pack of 8 paper towel rolls with a plain solid yellow label reading "FLUFFY BLISS / PAPER TOWELS" and product specifications, with no decorative pattern. (2) Same simple design labeled "VELVETY JOY." |
 
 **APPENDIX D**
 
 **Study 3a & 3b Stimuli**
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Visually Complex Target Product                                                                                                                                                                                                                      Visually Simple Target product
-
-  [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_eeoWpYKEswfs7dQ]   [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_6Ye61fTiOtSshIW]
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Visually Complex Target Product | Visually Simple Target Product |
+|---|---|
+| A store shelf displaying nine soap boxes. Eight surrounding boxes have visually simple designs (minimal patterns, solid colors, plain text). The target product in the center of the second shelf has a visually complex design with colorful, elaborate abstract swirl and blob patterns covering the box. All boxes are labeled "SOAP" or "FACIAL SOAP" in various fonts. | A store shelf displaying nine soap boxes. Eight surrounding boxes have visually complex designs (colorful abstract patterns with swirls, blobs, and bold graphics). The target product in the center of the second shelf has a visually simple design with plain text "SOAP" on a cream/white background with minimal decoration. All boxes are labeled "SOAP" or "FACIAL SOAP" in various fonts. |
 
 **APPENDIX E**
 
 **Study 4b Stimuli**
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Visually Complex Stimuli                                                                                                                                                                                         Visually Simple Stimuli
-
-  [Image: see published version]   [Image: see published version]
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Visually Complex Stimuli | Visually Simple Stimuli |
+|---|---|
+| An all-purpose lotion product by "HELIOS / Everyday Skincare / Est. 2012." The box and cylindrical bottle feature a densely detailed abstract pattern of geometric mosaic tiles in light blue, red-brown, and multicolored small shapes, with brown vertical stripes at the bottom. The label reads "ALL-PURPOSE LOTION." | An all-purpose lotion product by "HELIOS / Everyday Skincare / Est. 2012." The box and cylindrical bottle have a clean, minimalist white design with only the brand logo, a small cannon icon, and "ALL-PURPOSE LOTION" text. A brown accent bar appears at the bottom. No decorative patterns. |
 
 **APPENDIX F**
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Visually Complex Stimuli                                                                                                                                                                                                                            Visually Simple Stimuli
+**Study 5 Stimuli (Advertisements)**
 
-  [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_eY6aGEySWLvJVz0]   [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_aWWDvd69BKW1c7c]
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Visually Complex Stimuli | Visually Simple Stimuli |
+|---|---|
+| A social media advertisement on a black background for "LIQUID ELECTRICITY." Two blue energy drink cans with the complex design (abstract white circles connected by gold lines) are positioned around large yellow "TRY NOW" text. The brand name appears at the top and an "ORDER YOURS" button at the bottom. | A social media advertisement on a black background for "LIQUID ELECTRICITY." Two blue energy drink cans with the simple design (plain blue, no decorative pattern) are positioned around large yellow "TRY NOW" text. The brand name appears at the top and an "ORDER YOURS" button at the bottom. |
 
 \
 **REFERENCES**
@@ -708,11 +708,9 @@ Winkielman, P. & Schwarz, N. (2001). How pleasant was your childhood? Beliefs ab
 
 The authors have provided these materials to enhance comprehension of their paper.
 
-###  
 
 ### WEB APPENDIX A. ADDITIONAL DETAILS FOR PILOT STUDY
 
-### 
 
 A pilot study was conducted to observe whether consumers consider tangible manufacturing resources (i.e., energy, raw materials, production steps, and ingredients) when considering the eco-friendliness or effectiveness of a product.
 
@@ -766,7 +764,6 @@ The primary objective of this pilot study was to establish that inferences about
 
 ### WEB APPENDIX B. ADDITIONAL DETAILS FOR STIMULI PRETEST
 
-### 
 
 A stimuli pretest was conducted to assess whether the product replicates used in the main studies indeed represented varying levels of complexity (vs. simplicity). We predicted that the complex package will be perceived to be more visually complex relative to the simple package and vice versa.
 
@@ -800,7 +797,6 @@ Stimuli Pretest Results Summary
   Lotion                7.11           1.56           3.08           1.48        177.84      \<.001
   ----------------------------------------------------------------------------------------------------
 
-### 
 
 ### WEB APPENDIX C. ADDITIONAL DETAILS FOR STUDY 1
 
@@ -808,9 +804,10 @@ Stimuli Pretest Results Summary
 
 **Relative focus on eco-friendliness vs. efficacy (3 items)** When people make purchases, they usually choose based on what they consider to be important. Please indicate what you consider to be the most important benefits when you are purchasing soaps in general from the options below:
 
-[Image: see published version]
+1. (1 = "Having Natural Ingredients" to 7 = "Cleansing the Skin")
+2. (1 = "Being Organic" to 7 = "Removing Oil and Dirt")
+3. (1 = "Eco-Friendly Ingredients" to 7 = "Effective Ingredients")
 
-### 
 
 ### WEB APPENDIX D. CONCEPTUAL REPLICATION OF STUDY 2
 
@@ -840,7 +837,6 @@ The same pattern was observed for each of the replicates individually. In the ef
 
 This study is a conceptual replication of study 2 by providing evidence of generalizability and robustness for our effect, showing that people are more likely to choose a visually complex (vs. simple) option when considering an efficacy (vs. eco-friendliness) evaluation criterion. The effect holds across different product categories, including food and non-food consumer packaged goods. These results extend the generalizability of our findings beyond previous research that has focused on food (Ton et al. 2023).
 
-###  
 
 ### WEB APPENDIX E. ADDITIONAL DETAILS FOR STUDIES 3A AND 3B
 
@@ -870,48 +866,42 @@ Please create two versions:
 
 **Efficacy perception measure (4 items)**
 
-[Image: see published version]
-
-[Image: see published version]
-
-[Image: see published version]
-
-[Image: see published version]
+1. "In general, how **effective** do you think this soap would be?" (1 = "not at all effective" to 7 = "extremely effective")
+2. "How much do you think this soap would **cleanse** your skin?" (1 = "not at all" to 7 = "a great deal")
+3. "How **effective** do you think this soap is in **dissolving dirt** on your skin?" (1 = "not at all" to 7 = "extremely")
+4. "How **potent** do you think the **active ingredients** in this soap are?" (1 = "not at all potent" to 7 = "extremely potent")
 
 **Eco-friendliness perception measure (4 items)**
 
-[Image: see published version]
-
-[Image: see published version]
-
+1. "In general, how **eco-friendly** do you think this soap would be?" (1 = "not at all eco-friendly" to 7 = "extremely eco-friendly")
+2. "How **biodegradable** do you think this soap would be?" (1 = "not at all biodegradable" to 7 = "extremely biodegradable")
+3. "How **recyclable** do you think this soap would be?" (1 = "not at all recyclable" to 7 = "extremely recyclable")
+4. "How **sustainable** do you think the active ingredients in this soap are?" (1 = "not at all sustainable" to 7 = "extremely sustainable")
 
 **Tangible resources perception measure (4 items)**
 
-[Image: see published version]
-
-[Image: see published version]
-
-[Image: see published version][Image: see published version]
+1. "How much **energy** do you think producing this product requires?" (1 = "small amount of energy" to 7 = "large amount of energy")
+2. "How many **production steps** do you think producing this product requires?" (1 = "just a few production steps" to 7 = "a lot of production steps")
+3. "How many **ingredients** do you think producing this product requires?" (1 = "just a few ingredients" to 7 = "a lot of ingredients")
+4. "How many **raw materials** do you think producing this product requires?" (1 = "just a few raw materials" to 7 = "a lot of raw materials")
 
 **Purchase intention for efficacious product measure (single item)**
 
-[Image: see published version]
+"If you needed a soap that provides the most powerful cleaning and protection, how likely would you be to purchase our soap?" (1 = "extremely unlikely" to 7 = "extremely likely")
 
-### 
 
 **Purchase intention for eco-friendly product measure (single item)**
 
-[Image: see published version]
+"If you wanted a soap that that is eco-friendlier and generates less waste, how likely would you be to purchase our soap?" (1 = "extremely unlikely" to 7 = "extremely likely")
 
-### 
 
 **Processing fluency measure (single item)**
 
-[Image: see published version]
+"I had a hard time understanding what the product was about." (1 = "strongly disagree" to 7 = "strongly agree")
 
 **Aesthetic appeal measure (single item)**
 
-[Image: see published version]
+"How **aesthetic** do you think our product is?" (1 = "not at all aesthetic" to 7 = "extremely aesthetic")
 
 ### WEB APPENDIX F. CONCEPTUAL REPLICATION OF STUDIES 3A AND 3B AND PERCEPTUAL FLUENCY TEST
 
@@ -974,7 +964,6 @@ Then, we measured perceptual fluency using a standard 5-item scale from prior re
 
 **Discussion** Visually complex (vs. simple) designs are likely to be more difficult to process, by definition. However, the absence of an interaction effect suggests that perceptual fluency is unlikely to be driving the interactive effect of visual complexity and decision criterion. While it is theoretically possible that the greater processing effort associated with certain complex designs could be interpreted favorably under an efficacy criterion and negatively under an eco-friendly one, impacting downstream preference, this explanation is less parsimonious and less plausible given the evidence. It requires individuals to hold two additional lay theories: one equating effort with efficacy and another equating eco-friendliness with ease. Although the first seems reasonable, there is little evidence or theoretical grounding for the second. Moreover, an explanation based on processing ease fails to account for the full body of evidence in this research. Many of our complex designs across studies contain more detail but are not difficult to process (e.g., Studies 1, 2, and 4), so it would be difficult to classify them as disfluent, especially compared with the truly disfluent stimuli typically used in prior work (e.g., hard-to-read fonts). In addition, this account cannot explain the consistent, theory-driven pattern we observed for manufacturing resources as a mediator or for lay theories linking design complexity with manufacturing resources as a moderator. To the extent that design complexity is *defined* as disfluency, such an explanation becomes tautological.
 
-###  
 
 ### WEB APPENDIX G. ADDITIONAL DETAILS FOR STUDIES 4A AND 4B
 
@@ -982,25 +971,23 @@ Then, we measured perceptual fluency using a standard 5-item scale from prior re
 
 **Eco-friendliness perception measure (4 items)**
 
-[Image: see published version]
-
-[Image: see published version]
-
-[Image: see published version]
-
-[Image: see published version]
+1. "In general, how eco-friendly do you think this lotion would be?" (1 = "not at all eco-friendly" to 7 = "extremely eco-friendly")
+2. "How biodegradable do you think this product would be?" (1 = "not at all biodegradable" to 7 = "extremely biodegradable")
+3. "How recyclable do you think this product would be?" (1 = "not at all recyclable" to 7 = "extremely recyclable")
+4. "How sustainable do you think the active ingredients in this lotion are?" (1 = "not at all sustainable" to 7 = "extremely sustainable")
 
 
 **Belief in lay theory measures (8 items)**
 
-[Image: see published version]
+*Instructions: Now, we would like to know how to **generally perceive** product package design. Please answer the questions below.*
 
-[Image: see published version]
-
-[Image: see published version]
-
-[Image: see published version]
-
-[Image: see published version][Image: see published version][Image: see published version][Image: see published version]
+1. "Usually, the **amount of design on a product's package** reflects the **amount of resources used for the product** on the inside." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
+2. "You can tell **how much resources** went into making the product from looking at the **simple or complex design of the product package**." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
+3. "You can tell **how much resources** a product required for conception by looking at how **simple or complex** the **product package design** is." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
+4. "A product **packaging design's simplicity or complexity** is a mirror of the **amount of resources** needed for making the product." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
+5. "The **simplicity or complexity of visual design** (e.g. simple design vs. complex design) in a **product package** is a good indicator of the **amount of resources used** for the conception of the product." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
+6. "You can almost always infer **how much resources went into a product** by looking at how **visually simple or complex the product's package** is." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
+7. "A **complex product package design** almost always contains a **product using much resources**." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
+8. "How **simple or complex a product's package is designed** usually gives a good impression of **how much resources** were put into making the product." (1 = "Strongly Disagree" to 7 = "Strongly Agree")
 
 [^1]: Our manuscript uses six replicates across all studies (energy drink, two versions of soap, protein powder, paper towel, and all-purpose lotion). An additional replicate -- all-purpose cleaner -- was also pretested, but not used in any of the studies. For transparency, we report the results for all replicates here.

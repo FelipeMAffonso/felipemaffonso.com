@@ -103,7 +103,6 @@ The emerging body of research examining consumer responses to disease cues has e
 
 Despite these valuable insights and the importance of this phenomenon, there remains a significant gap in integrating these effects into a cohesive framework to predict consumer behavior across various contexts. With the goal of filling this gap, the next section is organized as follows. First, we define the construct of disease avoidance motivation and describe three assumptions that sustain the literature on pathogen-avoidance behavior. Then, we propose that disease cues trigger fundamental changes in affect, cognition, and motivation - three basic psychological processes through which disease cues influence consumer behavior. Finally, we identify different categories of consumer responses that emerge from these psychological changes, and develop formal propositions for future research.
 
-# 
 
 # CONSUMER RESPONSES TO DISEASE CUES: PROPOSITION OF A FRAMEWORK
 
@@ -119,7 +118,9 @@ Our proposed framework is depicted in Figure 1. In the next sections, we will de
 
 **Figure 1.** Integrative Framework for Consumer Reactions to Infectious Disease Cues
 
-[Image: see published version]
+*The framework depicts the full pathway from disease cues to consumer behavior. On the left, triggers (antecedents) include infectious disease cues encountered in five settings: retail, public and social, media and information, home, and workplace. These cues activate a disease avoidance motivational state, which is defined as a goal-directed mental state triggered by infectious disease cues perceived as threatening. This state then triggers fundamental psychological changes (mediators) in three domains: (1) affect (fear, anxiety, disgust, feelings of uncertainty and low control), (2) cognition (narrowed cognitive scope, increased attention to detail, enhanced sensitivity to deviations, more discriminating categorization), and (3) motivation (control and structure seeking, compensatory consumption). These psychological changes, in turn, influence distinct domains of consumer behavior (consequences), including both disease-related responses (e.g., hygiene product preferences, avoidance of contamination cues) and disease-irrelevant responses (e.g., temporal discounting, sustainable consumption, preference for familiar brands, variety seeking, preference for visually patterned or colorful products). The framework also identifies moderators that can influence the emergence and direction of these effects, including individual vulnerability to disease threat.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 Source: Author's own work
 
