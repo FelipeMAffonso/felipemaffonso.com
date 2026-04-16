@@ -2001,7 +2001,7 @@ TABLE MDA-G 1 (METHODOLOGICAL DETAIL APPENDIX G  1)
 EXPERIMENT 2 -- CHOICE SHARES PER CONDITION
 
 | | Max. Accuracy Baseline | | Max. Accuracy Ease | | Min. Effort Baseline | | Min. Effort Ease | |
-|:-------------------------|--:|----:|--:|----:|--:|----:|--:|----:|
+|:|--:|:|--:|:|--:|:|--:|:|
 | | n | % | n | % | n | % | n | % |
 | **Vacation Package** | | | | | | | | |
 | Fiji Hideaway | 9 | 8.0 | 18 | 16.2 | 5 | 4.5 | 7 | 6.2 |
