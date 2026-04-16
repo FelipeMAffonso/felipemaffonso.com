@@ -262,6 +262,100 @@ Supporting Information
 
 
 
+
+## References
+
+REFERENCES
+Aaker, D. A., & Keller, K. L. (1990). Consumer evaluations of brand extensions. The Journal of Marketing, 54(1), 27–41.
+Ahluwalia, R. (2008). How far can a brand stretch? Understanding the role of self‐construal. Journal of Marketing Research, 45(3), 337–350.
+Anderson, J. R., & Bower, G. H. (2014). Human Associative Memory.
+Psychology Press.
+Bagozzi, R. P., Gopinath, M., & Nyer, P. U. (1999). The role of emotions in marketing. Journal of the Academy of Marketing Science, 27(2), 184–206.
+Barone, M. J. (2005). The interactive effects of mood and involvement on brand extension evaluations. Journal of Consumer Psychology, 15(3),
+263–270.
+Barone, M. J., Miniard, P. W., & Romeo, J. B. (2000). The influence of positive mood on brand extension evaluations. Journal of Consumer
+Research, 26(4), 386–400.
+Belch, G. E. (1981). An examination of comparative and noncomparative television commercials: The effects of claim variation and repetition on cognitive response and message acceptance. Journal of Marketing
+Research, 18(3), 333–349.
+Bellis, M. (2017), The history of kraft foods. Retrieved from https://www. thoughtco.com/history‐of‐kraft‐foods‐1991Boush, D. M., & Loken, B. (1991). A process‐tracing study of brand extension evaluation. Journal of Marketing Research, 28(1), 16–28.
+Bridges, S., Keller, K. L., & Sood, S. (2000). Communication strategies for brand extensions: Enhancing perceived fit by establishing explanatory links. Journal of Advertising, 29(4), 1–11.
+Broniarczyk, S. M., & Alba, J. W. (1994). The importance of the brand in brand extension. Journal of Marketing Research, 31(2), 214–228.
+Chen, K. J., & Liu, C. M. (2004). Positive brand extension trial and choice of parent brand. Journal of Product & Brand Management, 13(1), 25–36.
+Cunha, M., Jr, Forehand, M. R., & Angle, J. W. (2015). Riding coattails:
+When co‐branding helps versus hurts less‐known brands. Journal of
+Consumer Research, 41(5), 1284–1300.
+Dacin, P. A., & Smith, D. C. (1994). The effect of brand portfolio characteristics on consumer evaluations of brand extensions. Journal of Marketing Research, 31(2), 229–242.
+Eisend, M. (2006). Two‐sided advertising: A meta‐analysis. International
+Journal of Research in Marketing, 23(2), 187–198.
+Escalas, J. E. (2006). Self‐referencing and persuasion: Narrative transportation versus analytical elaboration. Journal of Consumer Research,
+33(4), 421–429.
+Fedorikhin, A., Park, C. W., & Thomson, M. (2008). Beyond fit and attitude:
+The effect of emotional attachment on consumer responses to brand extensions. Journal of Consumer Psychology, 18(4), 281–291.
+|
+ 15206793, 2019, 7, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/mar.21205 by Felipe Affonso - Oklahoma State University , Wiley Online Library on [15/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Fitzsimons, G. M., Chartrand, T. L., & Fitzsimons, G. J. (2008). Automatic effects of brand exposure on motivated behavior: How apple makes you “think different”. Journal of Consumer Research, 35(1), 21–35.
+Forehand, M. R., & Grier, S. (2003). When is honesty the best policy? The effect of stated company intent on consumer skepticism. Journal of
+Consumer Psychology, 13(3), 349–356.
+Friestad, M., & Wright, P. (1994). The persuasion knowledge model: How people cope with persuasion attempts. Journal of Consumer Research,
+21(1), 1–31.
+Gürhan‐Canli, Z., & Maheswaran, D. (1998). The effects of extensions on brand name dilution and enhancement. Journal of Marketing Research,
+35(4), 464–473.
+Hayes, A. F. (2012). PROCESS: A versatile computational tool for observed variable mediation, moderation, and conditional process modeling.
+History of Apple Inc. (2018), retrieved from https://en.wikipedia.org/wiki/
+History_of_Apple_Inc
+Iacobucci, D., Posavac, S. S., Kardes, F. R., Schneider, M. J., & Popovich, D. L.
+(2015). Toward a more nuanced understanding of the statistical properties of a median split. Journal of Consumer Psychology, 25(4), 652–665.
+Keller, K. L. (1991). Cue compatibility and framing in advertising. Journal of
+Marketing Research, 28(1), 42–57.
+Keller, K. L., & Aaker, D. A. (1992). The effects of sequential introduction of brand extensions. Journal of Marketing Research, 54(1), 35–50.
+Kim, H., & John, D. R. (2008). Consumer response to brand extensions:
+Construal level as a moderator of the importance of perceived fit.
+Journal of Consumer Psychology, 18(2), 116–126.
+Koslow, S. (2000). Can the truth hurt? How honest and persuasive advertising can unintentionally lead to increased consumer skepticism. Journal of Consumer Affairs, 34(2), 245–267.
+Lane, V. R. (2000). The impact of ad repetition and ad content on consumer perceptions of incongruent extensions. Journal of Marketing,
+64(2), 80–91.
+Mao, H., & Krishnan, H. S. (2006). Effects of prototype and exemplar fit on brand extension evaluations: A two‐process contingency model.
+Journal of Consumer Research, 33(1), 41–49.
+Martin, I. M., Stewart, D. W., & Matta, S. (2005). Branding strategies, marketing communication, and perceived brand meaning: The transfer of purposive, goal–oriented brand meaning to brand extensions. Journal of the Academy of Marketing Science, 33(3), 275–294.
+Meyvis, T., & Janiszewski, C. (2004). When are broader brands stronger brands? An accessibility perspective on the success of brand extensions. Journal of Consumer Research, 31(2), 346–357.
+Monga, A. B., & John, D. R. (2006). Cultural differences in brand extension evaluation: The influence of analytic versus holistic thinking. Journal of
+Consumer Research, 33(4), 529–536.
+Muthukrishnan, A. V., & Weitz, B. A. (1991). Role of product knowledge in evaluation of brand extension. In R. H. Holman, & M. R. Solomon
+(Eds.), NA ‐ Advances in Consumer Research 18, pp. 407–413). Provo,
+UT: Association for Consumer Research.
+Nielsen, J. H., & Escalas, J. E. (2010). Easier is not always better: The moderating role of processing type on preference fluency. Journal of
+Consumer Psychology, 20(3), 295–305.
+Obermiller, C., Spangenberg, E., & MacLachlan, D. L. (2005). Ad skepticism:
+The consequences of disbelief. Journal of Advertising, 34(3), 7–17.
+Obermiller, C., & Spangenberg, E. R. (1998). Development of a scale to measure consumer skepticism toward advertising. Journal of Consumer
+Psychology, 7(2), 159–186.
+Park, C. W., Milberg, S., & Lawson, R. (1991). Evaluation of brand extensions: The role of product feature similarity and brand concept consistency. Journal of Consumer Research, 18(2), 185–193.
+Pogue, D. (2006, September 20). When Apple hit bottom. Retrieved from https://pogue.blogs.nytimes.com/2006/09/20/21pogue‐email/
+Pollay, R. W. (1986). The distorted mirror: Reflections on the unintended consequences of advertising. The Journal of Marketing, 50, 18–36.
+Pratkanis, A. R., & Aronson, E. (2001). Age of propaganda: The everyday use and abuse of persuasion. New York, NY: Henry Holt and Company.
+Puto, C. P., & Wells, W. D. (1984). Informational and transformational advertising: The differential effects of time. In Thomas C. Kinnear
+(Ed.), Advances in Consumer Research 11, pp. 638–643). Provo, UT:
+Association for Consumer Research.
+Schaefer, A. D., Hermans, C. M., & Parker, R. S. (2005). A cross‐cultural exploration of advertising skepticism and media effects in teenagers.
+Marketing Management Journal, 15(2), 29–42.
+Taylor, V. A., & Bearden, W. O. (2003). Ad spending on brand extensions:
+Does similarity matter? Journal of Brand Management, 11(1), 63–74.
+Till, B. D., & Busler, M. (2000). The match‐up hypothesis: Physical attractiveness, expertise, and the role of fit on brand attitude, purchase intent and brand beliefs. Journal of Advertising, 29(3),
+1–13.
+Völckner, F., & Sattler, H. (2006). Drivers of brand extension success.
+Journal of Marketing, 70(2), 18–34.
+Wright, S. A. (2016). Reinvestigating the endorser by product matchup hypothesis in advertising. Journal of Advertising, 45(1), 26–32.
+Yeung, C. W., & Wyer, R. S., Jr (2005). Does loving a brand mean loving its products? The role of brand‐elicited affect in brand extension evaluations. Journal of Marketing Research, 42(4), 495–506.
+Zdravkovic, S., Magnusson, P., & Stanley, S. M. (2010). Dimensions of fit between a brand and a social cause and their influence on attitudes.
+International Journal of Research in Marketing, 27(2), 151–160.
+SUPPORTING INFORMATION
+Additional supporting information may be found online in the
+Supporting Information section at the end of the article.
+How to cite this article: Hernandez JMdC, Wright SA,
+Affonso FM. The importance of advertising skepticism for brand extension appeals. Psychol. Mark. 2019;36:687–699. https://doi.org/10.1002/mar.21|
+ 15206793, 2019, 7, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/mar.21205 by Felipe Affonso - Oklahoma State University , Wiley Online Library on [15/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
 ---
 
 # Supplementary Materials
