@@ -277,9 +277,11 @@ A visual design (simple = 0 vs. complex = 1) × lay theory (continuous, mean-cen
 
 As predicted, among participants with stronger beliefs in the link between design resources (1 SD above the mean), visual complexity (vs. simplicity) increased perceived efficacy (ß = .42, *t*(397) = 2.92, *p* = .004). Among participants with weaker beliefs in this lay theory (1 SD below the mean), visual complexity (vs. simplicity) did not influence perceived efficacy (ß = -.077, *t*(397) = -.54, *p* = .589). The Johnson-Neyman (J-N) point (*p* \< .05) occurred at .12 SD above the mean, demonstrating a mitigation of the proposed effect among those with weaker beliefs in the lay theory.
 
-\
+**Figure 3.** JOHNSON-NEYMAN ANALYSIS: VISUAL DESIGN x LAY THEORY ON EFFICACY PERCEPTIONS (STUDY 4A)
 
-\
+*Johnson-Neyman plot showing the conditional effect of visual design (complex vs. simple) on perceived efficacy as a function of the lay theory moderator (belief that visual complexity indicates manufacturing resources). The x-axis represents the lay theory index (mean-centered), and the y-axis represents the conditional effect of visual complexity on efficacy perceptions. Among participants with stronger beliefs in the link between design and resources (1 SD above the mean), visual complexity increased perceived efficacy (ss = .42, p = .004). Among participants with weaker beliefs (1 SD below the mean), visual complexity did not influence perceived efficacy (ss = -.077, p = .589). The J-N significance point (p < .05) occurred at .12 SD above the mean.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 **Study 4b: lay theories under an eco-friendliness criterion**
 
@@ -297,9 +299,11 @@ A visual design (simple = 0 vs. complex = 1) × lay theory (continuous, mean-cen
 
 As predicted, among participants with stronger beliefs in the link between design and resources (1 SD above the mean), visual simplicity (vs. complexity) increased perceived eco-friendliness (ß = -.83, *t*(389) = -5.34, *p* \< .001). There was no effect among participants with a weaker belief in the lay theory (1 SD below the mean) (ß = -.14, *t*(389) = -.89, *p* = .375). The Johnson-Neyman (J-N) point (*p* \< .05) occurred at .65 SD below the mean, demonstrating a mitigation of the proposed effect among those with weaker beliefs in the lay theory.
 
-\
+**Figure 4.** JOHNSON-NEYMAN ANALYSIS: VISUAL DESIGN x LAY THEORY ON ECO-FRIENDLINESS PERCEPTIONS (STUDY 4B)
 
-\
+*Johnson-Neyman plot showing the conditional effect of visual design (complex vs. simple) on perceived eco-friendliness as a function of the lay theory moderator (belief that visual complexity indicates manufacturing resources). The x-axis represents the lay theory index (mean-centered), and the y-axis represents the conditional effect of visual simplicity on eco-friendliness perceptions. Among participants with stronger beliefs in the link between design and resources (1 SD above the mean), visual simplicity increased perceived eco-friendliness (ss = -.83, p < .001). Among participants with weaker beliefs (1 SD below the mean), there was no effect (ss = -.14, p = .375). The J-N significance point (p < .05) occurred at .65 SD below the mean.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 **Discussion: Studies 4a and 4b**
 
@@ -905,9 +909,11 @@ To measure perceptions of price and luxury, we asked: how expensive do you think
 
 **Product perceptions** Supporting our hypothesis and replicating results of Studies 3a and 3b, whereas participants judging product efficacy rated the product with the visually complex package design as more efficacious than the product with the visually simple package design (*M*~complex~ = 4.93, *SD*~complex~ = 1.08 vs. *M*~simple~ = 4.31, *SD*~simple~ = 1.63; *F*(1, 398) = 10.85, *p* = .001; Cohen's *d* = .45), those judging eco-friendliness rated the product with the visually simple package design as more eco-friendly than the product with the visually complex package design (*M*~complex~ = 3.81, *SD*~complex~ = 1.19 vs. *M*~simple~ = 4.43, *SD*~simple~ = 1.34; *F*(1, 398) = 11.04, *p* \< .001; Cohen's *d* = .49). See Figure W1.
 
-**Figure W1: Product attribute perceptions based on package design**
+**Figure W1.** PRODUCT ATTRIBUTE PERCEPTIONS BASED ON PACKAGE DESIGN
 
-Simple Visual Design
+*Bar chart showing product perceptions (1-7 scale) across a 2 (Visual Design: Complex vs. Simple) x 2 (Evaluation Focus: Efficacy vs. Eco-Friendliness) design. For efficacy judgments: complex package M = 4.93, simple package M = 4.31 (F(1, 398) = 10.85, p = .001, d = .45), showing that visual complexity increased perceived efficacy. For eco-friendliness judgments: simple package M = 4.43, complex package M = 3.81 (F(1, 398) = 11.04, p < .001, d = .49), showing that visual simplicity increased perceived eco-friendliness. The pattern shows that the same visual design feature (complexity vs. simplicity) drives opposite inferences depending on whether consumers evaluate product efficacy or eco-friendliness.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 NOTE.  Error bars = +/− 1 SE. †p \< . 10. \*p \< .05. \*\*p \< .01.
 

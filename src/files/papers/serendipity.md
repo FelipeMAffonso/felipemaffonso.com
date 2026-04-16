@@ -377,13 +377,25 @@ FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
 
 **FIGURE 2: STUDY 2 RESULTS**
 
+*Bar chart showing enjoyment ratings (0-100 scale) across three conditions (Serendipity, Personal Choice, Baseline) for both Positive and Negative paintings. For positive paintings: Serendipity M = 70.08, Personal Choice M = 59.97 (p = .038), Baseline M = 60.17 (p = .042 vs. Serendipity). Personal Choice and Baseline did not differ. For negative paintings: no significant effect of condition (p = .261); Serendipity M = 42.88, Personal Choice M = 49.42, Baseline M = 50.90. The pattern shows that serendipity increased enjoyment for positive paintings but not for negative paintings.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
+
 *Notes*: Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01. Unbracketed comparisons are not significantly different from one another.
 
 **FIGURE 3: STUDY 3 RESULTS**
 
+*Bar chart showing enjoyment ratings (0-100 scale) across a 2 (Degree of Randomness in Initial Selection: High vs. Low) x 2 (Degree of Randomness in Final Selection: High vs. Low) design. When the final selection was random (high randomness): High initial randomness M = 78.41, Low initial randomness M = 68.77 (p = .009). When the final selection was deterministic (low randomness): High initial randomness M = 56.03, Low initial randomness M = 57.19 (no significant difference). The interaction was significant (p = .045), showing that increasing perceived randomness in the selection process enhanced enjoyment, but only when the final selection itself was described as random rather than carefully chosen by a marketer.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
+
 *Notes*: Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01. Unbracketed comparisons are not significantly different from one another.
 
 **FIGURE 4: STUDY 4 RESULTS**
+
+*Bar chart showing satisfaction ratings (1-7 scale) across a 2 (Condition: Serendipity vs. Personal Choice) x 2 (Information: Nondiagnostic vs. Diagnostic) design. When information was nondiagnostic: Serendipity M = 5.57, Personal Choice M = 4.80 (p = .001). When information was diagnostic: Personal Choice M = 5.07, Serendipity M = 4.25 (p < .001). The interaction was significant (p < .001), showing that serendipity increased satisfaction when consumers lacked diagnostic information, but personal choice led to higher satisfaction when consumers had diagnostic information about the product.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 *Notes*: Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
 
@@ -1619,6 +1631,10 @@ Finally, we conducted a pretest to ensure that the options were not perceived as
 A 2 (condition) × 2 (attribute information quantity) ANOVA revealed only an interaction between the condition and information quantity factors (F(1, 520) = 6.50, *p* = .011; see Figure A). The main effects of condition and information quantity were not significant (F's \< 1). Participants in the moderate information quantity condition reported higher enjoyment in the serendipity (M = 60.91, SD = 22.81) than in the personal choice condition (M = 53.27, SD = 29.05; F(1, 520) = 5.62, *p* = .018). Participants in the high information quantity condition reported a similar level of enjoyment in the the serendipity (M = 55.39, SD = 26.29) and in the personal choice conditions (M = 59.31, SD = 24.75; F(1, 520) = 1.51, *p* = .219). Within the serendipity condition, enjoyment marginally decreased when attribute information quantity was high (M~moderate~ = 60.91, SD~moderate~ = 22.81, M~high~ = 55.39, SD~high~ = 26.29; F(1, 520) = 3.74, *p* = .054).
 
 **FIGURE WA-1: STUDY D-1 RESULTS**
+
+*Bar chart showing enjoyment ratings (0-100 scale) across a 2 (Condition: Serendipity vs. Personal Choice) x 2 (Attribute Information Quantity: Moderate vs. High) design. When information quantity was moderate: Serendipity M = 60.91, Personal Choice M = 53.27 (p = .018). When information quantity was high: Serendipity M = 55.39, Personal Choice M = 59.31 (not significant, p = .219). The interaction was significant (p = .011), replicating the finding from Study 4 that serendipity increases enjoyment when consumers have moderate information, but the effect disappears when consumers have enough information to make informed choices themselves.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 *Notes*: Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01. Unbracketed comparisons are not significantly different from one another.
 
