@@ -1,10 +1,10 @@
 ---
-title: "Simple is Eco-Friendly, but Complex is Effective: Inferences from Package Design"
+title: "Simple is Eco-Friendly, but Complex is Effective: Inferences from Visual Complexity in Package Design"
 authors: "Soo Yon Ryu, Felipe M. Affonso, Aner Sela"
 journal: "Journal of Advertising"
 year: 2025
 doi: "10.1080/00913367.2025.2593659"
-citation: "Ryu, Soo Yon, Felipe M. Affonso, and Aner Sela (forthcoming), \"Simple is Eco-Friendly, but Complex is Effective: Inferences from Package Design,\" Journal of Advertising."
+citation: "Ryu, Soo Yon, Felipe M. Affonso, and Aner Sela (forthcoming), \"Simple is Eco-Friendly, but Complex is Effective: Inferences from Visual Complexity in Package Design,\" Journal of Advertising."
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1080/00913367.2025.2593659).
@@ -25,7 +25,7 @@ This article is based on part of the first author's doctoral dissertation at Uni
 
 ## Abstract
 
-Package design is an important form of point-of-purchase advertising which often conveys information about product characteristics, but can the mere level of its visual complexity produce specific inferences? We suggest that consumers prefer products with visually complex package designs when product efficacy considerations are salient but prefer products with visually simple designs when eco-friendliness considerations are salient. This happens because package design complexity connotes the amount of tangible resources used to produce the product, and consumers associate a low (vs. high) amount of tangible resources with eco-friendliness (vs. efficacy). Our findings extend recent research on design perception and have important practical implications for marketers and product designers. Advertising practitioners can benefit from our findings by understanding when minimalism is valuable, when it is not, and how to strategically use different levels of visual complexity to influence consumer perceptions.
+Package design is an important form of point-of-purchase advertising that often conveys information about product characteristics. But can the mere level of its visual complexity produce specific inferences? We suggest that consumers prefer products with visually complex package designs when product efficacy considerations are salient but prefer products with visually simple designs when eco-friendliness considerations are salient. This effect happens because package design complexity connotes the amount of tangible resources used to produce the product, and consumers associate a low (vs. high) amount of tangible resources with eco-friendliness (vs. efficacy). Our findings extend recent research on design perception and have important practical implications for marketers and product designers. Advertising practitioners can benefit from our findings by understanding when minimalism is valuable, when it is not, and how to strategically use different levels of visual complexity to influence consumer perceptions.
 
 **Keywords:** aesthetics, visual complexity, minimalism, package advertising, eco-friendliness
 
@@ -398,8 +398,8 @@ This work was supported by resources from the University of Florida.
 ## ORCID
 
 Soo Yon Ryu: https://orcid.org/0009-0003-4513-4758
-Felipe M. Affonso: https://orcid.org/0001-8928-5871
-Aner Sela: https://orcid.org/0000-0001-2992-1456
+Felipe M. Affonso: https://orcid.org/0000-0001-8928-5871
+Aner Sela: https://orcid.org/0000-0003-2292-9665
 
 ## References
 
@@ -411,7 +411,7 @@ Attneave, F. (1957). Physical determinants of the judged complexity of shapes. *
 
 Berlyne, D. E., Ogilvie, J. C., & Parham, L. C. (1968). The dimensionality of visual complexity, interestingness, and pleasingness. *Canadian Journal of Psychology*, 22(5), 376-387.
 
-Braun, J., Amirshahi, S. A., Denzler, J., & Redies, C. (2013). Statistical image properties of print advertisements, visual artworks, and images of architecture. *Frontiers in Psychology*, 4(Nov), 1-15.
+Braun, J., Amirshahi, S. A., Denzler, J., & Redies, C. (2013). Statistical image properties of print advertisements, visual artworks, and images of architecture. *Frontiers in Psychology*, 4: 808.
 
 Chen, S., Ponomarenko, V., Lv, L., & Ahlstrom, D. (2025). Visual complexity, brand gender, and ad effectiveness. *International Journal of Research in Marketing*, 42(2), 365-390.
 
@@ -429,7 +429,7 @@ Favier, M., Celhay, F., & Pantin-Sohier, G. (2019). Is less more or a bore? Pack
 
 Fisher, C. D. (2003). Why do lay people believe that satisfaction and performance are correlated? Possible sources of a commonsense theory. *Journal of Organizational Behavior*, 24(6), 753-777.
 
-Gartus, A., & Leder, H. (2017). Predicting perceived visual complexity of abstract patterns using computational measures: The influence of mirror symmetry on complexity perception. *PLoS ONE*, 12(11), 1-29.
+Gartus, A., & Leder, H. (2017). Predicting perceived visual complexity of abstract patterns using computational measures: The influence of mirror symmetry on complexity perception. *PLoS ONE*, 12(11): e0185276.
 
 Graf, L. K., Mayer, S., & Landwehr, J. R. (2018). Measuring processing fluency: One versus five items. *Journal of Consumer Psychology*, 28(3), 393-411.
 
@@ -463,7 +463,7 @@ Madan, S., Savani, K., & Johar, G. V. (2022). How you look is who you are: The a
 
 Madzharov, A. V., Ramanathan, S., & Block, L. G. (2016). The halo effect of product color lightness on hedonic food consumption. *Journal of the Association for Consumer Research*, 1(4), 579-591.
 
-Marin, M. M., & Leder, H. (2013). Examining complexity across domains: Relating subjective and objective measures of affective environmental scenes, paintings and music. *PLoS ONE*, 8(8), 1-35.
+Marin, M. M., & Leder, H. (2013). Examining complexity across domains: Relating subjective and objective measures of affective environmental scenes, paintings and music. *PLoS ONE*, 8(8): e72412.
 
 Masson, M. E. J. (1995). A distributed memory model of semantic priming. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 21(1), 3-23.
 
@@ -507,11 +507,11 @@ Tencel. (2023). Lenzing survey shows that 'transparency' is key for clothing and
 
 Tinio, P. P. L., & Leder, H. (2009). Just how stable are stable aesthetic features? Symmetry, complexity, and the jaws of massive familiarization. *Acta Psychologica*, 130(3), 241-250.
 
-Ton, L. A. N., Smith, R. K., & Sevilla, J. (2024). Symbolically simple: How simple packaging design influences willingness to pay for consumable products. *Journal of Marketing*, 88(2), 1-68.
+Ton, L. A. N., Smith, R. K., & Sevilla, J. (2024). Symbolically simple: How simple packaging design influences willingness to pay for consumable products. *Journal of Marketing*, 88(2), 121-140.
 
 Tukker, A., Bulavskaya, T., Giljum, S., de Koning, A., Lutter, S., Simas, M., Stadler, K., & Wood, R. (2016). Environmental and resource footprints in a global context: Europe's structural deficit in resource endowments. *Global Environmental Change*, 40, 171-181.
 
-VanBergen, N., Irmak, C., & Sevilla, J. (2020). Product entitativity: How the presence of product replicates increases perceived and actual product efficacy. *Journal of Consumer Research*, 47(August), 192-214.
+VanBergen, N., Irmak, C., & Sevilla, J. (2020). Product entitativity: How the presence of product replicates increases perceived and actual product efficacy. *Journal of Consumer Research*, 47(2), 192-214.
 
 Van Geert, E., & Wagemans, J. (2020). Order, complexity, and aesthetic appreciation. *Psychology of Aesthetics, Creativity, and the Arts*, 14(2), 135-154.
 

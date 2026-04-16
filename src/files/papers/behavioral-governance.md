@@ -1004,3 +1004,35 @@ Space-Track (www.space-track.org): The 18th Space Defense Squadron’s public po
 ESA DISCOS Database: The European Space Agency’s Database and Information System Characterising Objects in Space provides comprehensive object catalog data including launch information, orbital history, and decay predictions. Access requires research agreement with ESA Space Debris Office.
 
 CelesTrak (celestrak.org): Maintained by Dr. T.S. Kelso, CelesTrak provides supplementary TLE data and analytical products including conjunction assessments. Publicly accessible without registration.
+
+
+
+## Online Appendix References
+
+Abadie, A., Diamond, A., Hainmueller, J., 2015. Comparative politics and the synthetic control method. American Journal of Political Science 59, 495–510. https://doi.org/10.1111/ajps.12116
+
+Abadie, A., Diamond, A., Hainmueller, J., 2010. Synthetic control methods for comparative case studies: Estimating the effect of california’s tobacco control program. Journal of the American Statistical Association 105, 493–505. https://doi.org/10.1198/jasa.2009.ap08746
+
+Baillon, A., Bleichrodt, H., Spinu, V., 2020. Searching for the reference point. Management Science 66, 93–112. https://doi.org/10.1287/mnsc.2018.3224
+
+Berg, F., Kölbel, J.F., Rigobon, R., 2022. Aggregate confusion: The divergence of ESG ratings. Review of Finance 26, 1315–1344. https://doi.org/10.1093/rof/rfac033
+
+Bertrand, M., Duflo, E., Mullainathan, S., 2004. How much should we trust differences-in-differences estimates? Quarterly Journal of Economics 119, 249–275. https://doi.org/10.1162/003355304772839588
+
+Chaisemartin, C. de, D’Haultfoeuille, X., 2020. Two-way fixed effects estimators with heterogeneous treatment effects. American Economic Review 110, 2964–2996. https://doi.org/10.1257/aer.20181169
+
+Fehr, E., Gächter, S., 2000. Fairness and retaliation: The economics of reciprocity. Journal of Economic Perspectives 14, 159–181. https://doi.org/10.1257/jep.14.3.159
+
+George, A.L., Bennett, A., 2005. Case studies and theory development in the social sciences. MIT Press.
+
+Goodman-Bacon, A., 2021. Difference-in-differences with variation in treatment timing. Journal of Econometrics 225, 254–277. https://doi.org/10.1016/j.jeconom.2021.03.014
+
+Keohane, R.O., 1986. Reciprocity in international relations. Princeton University Press.
+
+MacKinlay, A.C., 1997. Event studies in economics and finance. Journal of Economic Literature 35, 13–39.
+
+Roth, J., Sant’Anna, P.H.C., Bilinski, A., Poe, J., 2023. What’s trending in difference-in-differences? A synthesis of the recent econometrics literature. Journal of Econometrics 235, 105737. https://doi.org/10.1016/j.jeconom.2023.03.008
+
+Sun, L., Abraham, S., 2021. Estimating dynamic treatment effects in event studies with heterogeneous treatment effects. Journal of Econometrics 225, 175–199. https://doi.org/10.1016/j.jeconom.2020.09.006
+
+Tversky, A., Kahneman, D., 1991. Loss aversion in riskless choice: A reference-dependent model. Quarterly Journal of Economics 106, 1039–1061. https://doi.org/10.2307/2937956

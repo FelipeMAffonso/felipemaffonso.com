@@ -1158,59 +1158,16 @@ The main text reports choice deferral results for three groups: humans who passe
 
 **TABLE WA-F1: CHOICE DEFERRAL BY GROUP AND CONDITION**
 
-- Outcome
-- Passed Humans
-- Failed Humans
-- AI Agents
-- 
-- Dominated
-- Conflict
-- Dominated
-- Conflict
-- Dominated
-- Conflict
-- Chose Laptop A
-- 94.0%
-- 44.0%
-- 89.5%
-- 54.5%
-- 100.0%
-- 60.1%
-- Chose Laptop B
-- 0.8%
-- 32.0%
-- 5.3%
-- 31.8%
-- 0.0%
-- 39.2%
-- Deferred
-- 5.2%
-- 24.0%
-- 5.3%
-- 13.6%
-- 0.0%
-- 0.7%
-- N
-- 482
-- 484
-- 19
-- 22
-- 258
-- 268
-- Chi-sq
-- 66.83
-- 
-- 0.139
-- 
-- 0.465
-- 
-- p
-- < .0001
-- 
-- .709
-- 
-- .496
-- 
+
+| Outcome | Passed Humans | Failed Humans | AI Agents |  | Dominated | Conflict |
+| --- | --- | --- | --- | --- | --- | --- |
+| Dominated | Conflict | Dominated | Conflict | Chose Laptop A | 94.0% | 44.0% |
+| 89.5% | 54.5% | 100.0% | 60.1% | Chose Laptop B | 0.8% | 32.0% |
+| 5.3% | 31.8% | 0.0% | 39.2% | Deferred | 5.2% | 24.0% |
+| 5.3% | 13.6% | 0.0% | 0.7% | N | 482 | 484 |
+| 19 | 22 | 258 | 268 | Chi-sq | 66.83 |  |
+| 0.139 |  | 0.465 |  | p | < .0001 |  |
+| .709 |  | .496 |  |  |  |  |
 
 The choice deferral effect replicates cleanly among passed-trap humans: 5.2% deferral under domination versus 24.0% under conflict (χ²(1) = 66.83, p < .001), consistent with Dhar’s (1997) theoretical prediction. Among agents, deferral is near zero regardless of condition (0.0% vs. 0.7%, p = .496), showing that machines do not experience the subjective uncertainty that drives deferral.
 
