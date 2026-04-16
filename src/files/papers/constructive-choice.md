@@ -443,7 +443,9 @@ Zhang, Y., & Tu, Y. (2011). The impact of associative strength on performance in
 
 Zwick, R., Rapoport A., Lo, A. K. C., & Muthukrishnan, A. V. (2003) Consumer sequential search: Not enough or too much? *Marketing Science*, 22, 503-519. https://doi.org/10.1287/mksc.22.4.503.24909
 
-[Image: see published version] [Image: see published version]
+**Figure 1 (Panel A): Constructive Choice Theory.** A two-axis diagram with "Desired Effort" on the x-axis (High to Low) and "Desired Accuracy" on the y-axis (Low to High). Two downward-sloping lines represent decision strategies under Decision Difficulty (black) and Decision Ease (gray). Both lines pass through four strategy labels: WADD (weighted adding), EQW (equal weight), LEX (lexicographic), and EBA (elimination-by-aspects). The Decision Difficulty line is positioned lower and to the left (limited search), while the Decision Ease line is positioned higher and to the right (extensive search). The diagram illustrates that under difficulty, the decision maker shifts toward less effortful, less accurate strategies.
+
+**Figure 1 (Panel B): Goal Systems Theory.** A bar chart with "Decision Process Goals" on the x-axis (Maximize Accuracy, Minimize Effort) and "Amount of Search" on the y-axis (Limited to Extensive). Three bars per goal condition represent Baseline (white), Decision Ease (black), and Decision Difficulty (gray). Under Maximize Accuracy, Decision Ease produces the most extensive search, followed by Baseline, then Decision Difficulty. Under Minimize Effort, Decision Difficulty produces the most extensive search, followed by Baseline, then Decision Ease. This crossing pattern illustrates the key prediction: difficulty undermines maximize-accuracy goals but facilitates minimize-effort goals.
 
 Note. -- WADD = weighted adding; EQW = equal weight; LEX = lexicographic; EBA = elimination-by-aspects
 
@@ -453,19 +455,25 @@ Note. -- WADD = weighted adding; EQW = equal weight; LEX = lexicographic; EBA = 
 
 *Figure 3.* Number of options considered (Experiment 2). Note.--- Error bars show 95% confidence intervals.
 
-[Image: see published version] [Image: see published version]
+**Figure 4 (left panel): Experiment 3a.** Bar chart showing Number of Options Considered (y-axis, 0-12) by Decision Difficulty Condition (x-axis). Four bars with values labeled inside each bar: Baseline - No Goal = 9.91 (light gray), Baseline - One Goal [prestige] = 9.31 (medium gray), Baseline - One Goal [thrift] = 9.65 (dark gray), Difficult - Two Conflicting Goals = 6.34 (black). Error bars show 95% confidence intervals. The difficult condition produced significantly fewer options considered than all three baseline conditions.
+
+**Figure 4 (right panel): Experiment 3b.** Bar chart showing Number of Options Considered (y-axis, 0-12) by Decision Difficulty Condition (x-axis). Four bars: Baseline - No Goal = 4.24 (light gray), Baseline - One Goal [prestige] = 4.01 (medium gray), Baseline - One Goal [thrift] = 3.78 (dark gray), Difficult - Two Conflicting Goals = 5.64 (black). Error bars show 95% confidence intervals. The difficult condition produced significantly more options considered than all three baseline conditions, the opposite pattern from Experiment 3a.
 
 *Figure 4.* Number of options considered (Experiments 3a and 3b). Note.--- Error bars show 95% confidence intervals
 
-[Image: see published version] [Image: see published version]
+**Figure 5 (left panel): Experiment 4a.** Bar chart showing Number of Options Considered (y-axis, 0-12) by Decision Ease Condition (x-axis). Four bars: Baseline - No Goal = 7.59 (light gray), Baseline - One Goal [prestige] = 8.69 (medium gray), Baseline - One Goal [have fun] = 8.54 (dark gray), Easy - Two Complementary Goals = 9.90 (black). Error bars show 95% confidence intervals. The easy condition produced the most options considered.
+
+**Figure 5 (right panel): Experiment 4b.** Bar chart showing Number of Options Considered (y-axis, 0-12) by Decision Ease Condition (x-axis). Four bars: Baseline - No Goal = 4.56 (light gray), Baseline - One Goal [prestige] = 4.13 (medium gray), Baseline - One Goal [have fun] = 4.23 (dark gray), Easy - Two Complementary Goals = 3.52 (black). Error bars show 95% confidence intervals. The easy condition produced the fewest options considered, the opposite pattern from Experiment 4a.
 
 *Figure 5.* Number of options considered (Experiments 4a and 4b). Note.--- Error bars show 95% confidence intervals.
 
-[Image: see published version]
+**Figure 6: Experiment 5.** Bar chart showing Number of Options Considered (y-axis, 0-20) by Decision Process Goal (x-axis: Maximize Accuracy, Baseline, Minimize Effort) and Decision Difficulty (Easy = white, Moderate = gray, Difficult = black). Nine bars total with values labeled inside each bar. Maximize Accuracy: Easy = 16.52, Moderate = 12.10, Difficult = 8.92. Baseline: Easy = 12.48, Moderate = 9.32, Difficult = 6.41. Minimize Effort: Easy = 4.43, Moderate = 7.45, Difficult = 10.61. Error bars show 95% confidence intervals. The key finding is the crossover interaction: under maximize accuracy, difficulty reduces search; under minimize effort, difficulty increases search.
 
 *Figure 6.* Number of options considered (Experiment 5). Note.--- Error bars show 95% confidence intervals.
 
-[Image: see published version] [Image: see published version]
+**Figure 7 (left panel): Process Goal Trade-off is Not Salient -- Goal Accessibility Varies.** Bar chart showing Number of Options Considered (y-axis, 0-10) by Decision Process Goal (Maximize Accuracy, Baseline, Minimize Effort) and Decision Difficulty (Easy = white, Difficult = black). Six bars with values: Maximize Accuracy: Easy = 8.02, Difficult = 5.96. Baseline: Easy = 7.14, Difficult = 4.88. Minimize Effort: Easy = 4.20, Difficult = 6.08. Error bars show 95% confidence intervals. The crossover pattern is present: difficulty reduces search for maximize accuracy but increases search for minimize effort.
+
+**Figure 7 (right panel): Process Goal Trade-off is Salient -- Goal Accessibility is Similar.** Bar chart showing Number of Options Considered (y-axis, 0-10) by Decision Process Goal (Maximize Accuracy, Baseline, Minimize Effort) and Decision Difficulty (Easy = white, Difficult = black). Six bars with values: Maximize Accuracy: Easy = 7.84, Difficult = 5.58. Baseline: Easy = 6.94, Difficult = 4.86. Minimize Effort: Easy = 4.74, Difficult = 3.16. Error bars show 95% confidence intervals. When the trade-off is salient, difficulty uniformly reduces search across all goal conditions, consistent with constructive choice theory.
 
 *Figure 7.* Number of options considered in the trade-off not salient and trade-off salient conditions (Experiment 6). Note.--- Error bars show 95% confidence intervals.
 

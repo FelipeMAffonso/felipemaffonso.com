@@ -340,11 +340,11 @@ We manipulated Price Disclosure such that participants in the immediate-PD condi
 
 Panel A: Immediate Price Disclosure Condition
 
-[Image: see published version]
+[Panel A shows three espresso machine product cards displayed side by side. Each card contains a product photo at top and a specification table below. Left card: GE Profile, Semi-automatic, 15 Bars of Pressure, Integrated Grinder: Yes, Customer Ratings: 4.1/5 (32 Reviews), Preheat Time: 80 seconds, Price: $285.99. Center card: De'Longhi, Manual, 15 Bars of Pressure, Integrated Grinder: No, Customer Ratings: 4.4/5 (1,150 Reviews), Preheat Time: 45 seconds, Price: $323.99. Right card: CAFE, Automatic, 20 Bars of Pressure, Integrated Grinder: Yes (not visible), Customer Ratings: 4.2/5 (251 Reviews), Preheat Time: 30 seconds (partially visible), Price: $330.99.]
 
 Panel B: Delayed Price Disclosure Condition
 
-[Image: see published version]
+[Panel B shows the same three espresso machine product cards with identical photos and specifications, except the Price row now reads "Add to cart to see price" for all three machines instead of displaying dollar amounts.]
 
 *Measures*. The shopping cart displayed the espresso machine chosen by each participant and a subtotal with the price. At this moment, we asked "If you were to purchase an espresso machine, how likely would you be to purchase the one you selected?" (1 = "Not likely at all" to 7 = "Extremely likely"). Next, we measured the price expectation disconfirmation: "Before seeing the actual price of the espresso machine ..." 1 = "I expected a much lower price than its current price," to 4 = "I expected a price equal or similar to its current price," to 7 = "I expected a much higher price than its current price". Lastly, participants reported their gender and age.
 
@@ -355,6 +355,8 @@ Results
 *Price Expectation Disconfirmation*. There was a Store Image by Price Disclosure interaction (*F*(2, 720) = 15.08, *p* \< .001, $\eta_{p}^{2}$ *=* .040). In the Premium and National conditions, participants in the delayed-PD condition provided more favorable price expectation disconfirmation scores (Premium: *M* = 4.83, *SD* = 1.18; National: *M* = 4.81, *SD* = 1.27) than participants in the immediate-PD condition (Premium: *M* = 4.35, *SD* = 1.11; *F*(1, 720) = 12.40, *p* \< .001, $\eta_{p}^{2}$ *=* .017; National: *M* = 4.33, *SD* = .98; *F*(1, 720) = 12.22, *p* \< .001, $\eta_{p}^{2}$ *=* .017). In the Discount condition, however, participants in the delayed-PD reported less favorable price expectation disconfirmation scores (*M* = 3.97, *SD* = .89) than participants in the immediate-PD condition (*M* = 4.41, *SD* = .89; *F*(1, 720) = 10.37, *p* = .001, $\eta_{p}^{2}$ *=* .014).
 
 **FIGURE 5.** PURCHASE LIKELIHOOD ACROSS PRICE DISCLOSURE AND STORE IMAGE CONDITIONS
+
+[Bar chart showing purchase likelihood (y-axis, scale 1-7) across three Store Image conditions (Premium, National, Discount) with two bars each (white = Delayed Price Disclosure, gray = Immediate Price Disclosure). Error bars represent +/- 1 SE. Premium condition: Delayed-PD M = 6.08, Immediate-PD M = 5.79 (p = .010). National condition: Delayed-PD M = 6.06, Immediate-PD M = 5.72 (p = .002). Discount condition: Delayed-PD M = 5.40, Immediate-PD M = 5.79 (p < .001). The pattern shows that delayed price disclosure increases purchase likelihood for Premium and National retailers but decreases it for Discount retailers.]
 
 > NOTE.--- Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
 
@@ -397,6 +399,8 @@ Results
 *Mediation.* Accordingly, we conducted a mediation analysis (PROCESS Model 4, Hayes 2022; 5,000 bootstrapped samples) with Price Disclosure as the independent variable (multi-categorical), expectation disconfirmation as the mediator, and purchase likelihood as the dependent variable. The pathway to purchase likelihood through expectation disconfirmation is positive and significant when contrasting the delayed-PD condition to the immediate-PD (*β* = .23, *SE* = .09, 95% CI: \[.06 to .42\]) and delayed-PD MAP (*β* = .54, *SE* = .12, 95% CI: \[.32 to .79\]) conditions. In addition, the same pathway is negative and significant when contrasting the delayed-PD MAP and immediate-PD (*β* = -.31, *SE* = .10, 95% CI: \[-.53 to -.12\]) conditions.
 
 **FIGURE 6**. PURCHASE LIKELIHOOD ACROSS PRICE DISCLOSURE CONDITIONS
+
+[Bar chart showing purchase likelihood (y-axis, scale 1-7) across three Price Disclosure conditions: Immediate-PD (M = 4.43), Delayed-PD (M = 5.01), and Delayed-PD MAP (M = 3.67). Error bars represent +/- 1 SE. Delayed-PD is significantly higher than Immediate-PD (p = .012). Delayed-PD MAP is significantly lower than both Immediate-PD (p < .001) and Delayed-PD (p < .001). The pattern shows that delayed price disclosure increases purchase likelihood for robot vacuum cleaners, but attributing the delay to a MAP policy reverses this effect.]
 
 > NOTE.--- Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\*p \< .01.
 
@@ -853,15 +857,15 @@ We implemented a two-stage decomposition to address potential conflation of prob
 
 Post-Test Stimuli -- Electric Kettle Section of Retailer's Website with Delayed Price Disclosure and English Translation
 
-[Image: see published version]
+[Screenshot of the Fravega retailer website showing the "Electric kettles" category page. The page displays a grid of approximately 20 electric kettle products with thumbnail images, product names, and short descriptions in Spanish. No prices are visible on any product, consistent with the delayed price disclosure condition. The Fravega logo appears at the top.]
 
 Post-Test Stimuli -- Espresso Machine Section of Retailer's Website with Delayed Price Disclosure and English Translation
 
-[Image: see published version]
+[Screenshot of the Fravega retailer website showing the "Espresso machines" category page. The page displays approximately 18 espresso machine and coffee maker products with thumbnail images and descriptions in Spanish. No prices are visible, consistent with the delayed price disclosure condition.]
 
 Post-Test Procedure (for Electric Kettles) (Verifying Delayed Prices Led to an Expectation of Higher Prices)
 
-[Image: see published version]
+[Survey screenshot. Question: "How interested are you in **electric kettles**?" Scale: 1 = no interest at all, 2 = low interest, 3 = neutral, 4 = moderate interest, 5 = a lot of interest. Radio buttons.]
 
 \[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
@@ -871,7 +875,7 @@ In this scenario, you were browsing through a variety of electric kettles on a s
 
 (Stimuli from previous pages was displayed -- participants were only shown the website section with delayed price disclosure)
 
-[Image: see published version]
+[Survey screenshot. Question: "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it," with unlabeled points 2-6. Radio buttons.]
 
 \*The Procedure for Espresso Machines was similar except for the product category
 
@@ -880,11 +884,11 @@ In this scenario, you were browsing through a variety of electric kettles on a s
 
 \*Similar as the Post-Test Procedure, but with different measures.
 
-[Image: see published version]
+[Survey screenshot. "Please indicate how the hidden price influences your perceptions:" Scale: 1 = "the hidden price makes me distrust this retailer," 4 = "the hidden price does not influence my trust in this retailer," 7 = "the hidden price makes me trust this retailer." Radio buttons.]
 
-[Image: see published version]
+[Survey screenshot. "Please indicate how the hidden price influences your perceptions:" Scale: 1 = "the hidden price suggests this product is low quality," 4 = "the hidden price does not influence my perception of product quality," 7 = "the hidden price suggests this product is high quality." Radio buttons.]
 
-[Image: see published version]
+[Survey screenshot. "Please indicate how the hidden price influences your perceptions:" Scale: 1 = "the hidden price suggests I would receive poor customer service," 4 = "the hidden price does not influence my expectations about customer service," 7 = "the hidden price suggests I would receive excellent customer service." Radio buttons.]
 
 \*The Procedure for Espresso Machines was similar except for the product category
 
@@ -897,7 +901,7 @@ In the electric kettles post-test, there were no differences from the midpoint 4
 
 ## Materials -- Main Study
 
-[Image: see published version]\[Consistent with the preregistration, participants who did not choose a 4 or 5 were screened out and did not complete the study. They were paid regardless, consistent with Prolific's policies.\]
+[Survey screenshot. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all, 2 = low interest, 3 = neutral, 4 = moderate interest, 5 = a lot of interest. Radio buttons.]\[Consistent with the preregistration, participants who did not choose a 4 or 5 were screened out and did not complete the study. They were paid regardless, consistent with Prolific's policies.\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -913,11 +917,11 @@ This is the espresso machine you are interested in:
 
 **\[immediate-PD condition\]**
 
-[Image: see published version]
+[Product card: Breville semi-automatic espresso machine (silver/stainless steel). Specs: Brand: Breville, Automation Level: Semi-automatic, Bars of Pressure: 15, Integrated Grinder: No, Customer Ratings: 4.5/5 (217 Reviews), Preheat Time: 3 seconds, Price: $142.50.]
 
 **\[delayed-PD condition\]**
 
-[Image: see published version]
+[Same Breville espresso machine product card with identical specs, except Price reads "$?? (Add to cart to see price)."]
 
 After some consideration, you decide to add the product to your shopping cart. Please click the next button to see the product in your shopping cart.
 
@@ -927,11 +931,11 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 **YOUR SHOPPING CART:**
 
-[Image: see published version]
+[Smaller product card: Breville espresso machine shown in cart.]
 
 **SUBTOTAL (1 ITEM): \$142.50**
 
-[Image: see published version]
+[Survey screenshot. "If you were in this scenario, how likely would you be to purchase the option in your shopping cart (i.e., checkout)?" Slider: 0 = extremely unlikely, 50 = somewhat likely, 100 = extremely likely.]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -939,20 +943,20 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 **YOUR SHOPPING CART:**
 
-[Image: see published version]
+[Smaller product card: Breville espresso machine shown in cart.]
 
 **SUBTOTAL (1 ITEM): \$142.50**
 
-[Image: see published version]
+[Survey screenshot. "Before seeing the actual price of the espresso machine..." Scale: 1 = "I expected a much lower price than its current price," 4 = "I expected a price equal or similar to its current price," 7 = "I expected a much higher price than its current price." Radio buttons.]
 
-[Image: see published version]
+[Demographics: "What is your age?" (text box) and "Gender" (Female / Male / Other or prefer not to specify). Radio buttons.]
 
 
 ## Materials -- Pre-Test Procedure 
 
 This pre-test was conducted to set the stimulus price and verify expensive-price beliefs about the espresso machine.
 
-[Image: see published version]\[Consistent with preregistration for the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Survey screenshot. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all, 2 = low interest, 3 = neutral, 4 = moderate interest, 5 = a lot of interest. Radio buttons.]\[Consistent with preregistration for the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
