@@ -96,7 +96,7 @@ Manufacturers and retailers can proactively influence price beliefs and alter co
 
 **FIGURE 1**. DISTRIBUTIONS OF CUSTOMER PRICE EXPECTATIONS
 
-[Image: see published version]
+[The figure shows three bell-curve (normal) distributions along a horizontal axis labeled "Expected Price" (from Low to High) and a vertical axis labeled "Number of Customers with E($)." Three distributions are shown, each shifted along the horizontal axis: Distribution B (leftmost) represents the adjustment for inexpensive-price beliefs. Distribution C (center) represents the baseline price expectation based on price history and product attributes. Distribution D (rightmost) represents the adjustment for expensive-price beliefs. Each distribution peak is marked with a vertical dashed line. Labels above the distributions read: "Adjustment for inexpensive-price belief" (over B), "Price expectation based on price history and product attributes" (over C), and "Adjustment for expensive-price belief" (over D).]
 
 NOTE.---- Curve C illustrates the baseline distribution of a target market's price expectations, derived from price history and product attributes. Curve B (D) represents adjustments to price expectations owing to the target market's belief that prices will be inexpensive (expensive).
 
@@ -116,7 +116,7 @@ Similar predictions can be made in the lower panel of figure 2: inexpensive-pric
 
 **FIGURE 2**. PRICE BELIEFS AND PRICE DELAY INFLUENCE PRICE EXPECTATIONS
 
-[Image: see published version]
+[The figure contains two panels. Top panel ("Expensive Price Belief Effect"): Three overlapping bell-curve distributions (C, D, E) are plotted on axes with "Number of Customers with E($)" (vertical) and Expected Price (horizontal). Distribution C is leftmost with mean E($)_C, D is shifted right with mean E($)_D, and E is further right with mean E($)_E. The Offer Price (OP) is marked between E($)_C and E($)_D. A horizontal arrow labeled "Delay" shows the rightward shift from D to E. Below the axis, a bar indicates "Unfavorable E($) Disconfirmation" to the left of OP and "Favorable E($) Disconfirmation" to the right. Bottom panel ("Inexpensive Price Belief Effect"): Three distributions (A, B, C) are shown, with A leftmost (mean E($)_A), B in the middle (mean E($)_B), and C rightmost (mean E($)_C). OP is marked to the right of E($)_C. A horizontal arrow labeled "Delay" shows the leftward shift from B to A. Below, the bar shows "Unfavorable E($) Disconfirmation" to the left of OP and "Favorable E($) Disconfirmation" to the right.]
 
 NOTE.---- In the top panel of the figure, E(\$)~C~ is the mean expected price of all target market consumers in the absence of price beliefs. E(\$)~D~ is the mean expected price of all target market consumers in the presence of expensive-price beliefs. E(\$)~E~ is the mean expected price, of all target market consumers, in the presence of expensive-price beliefs and a price delay. OP is the offer price. Consumers with price expectations to the right (left) of the offer price should experience a favorable (unfavorable) price expectation disconfirmation and be more (less) likely to purchase the product. The bottom panel shows corresponding effects for target market consumers with inexpensive-price beliefs. In summary, when the dependent variable is purchase intention, it should increase (decrease) as favorable (unfavorable) price expectation disconfirmation becomes more extreme.
 
@@ -152,7 +152,7 @@ Method
 
 **FIGURE 3.** ILLUSTRATION OF CONDITIONS IN STUDY 1
 
-[Image: see published version]
+[The figure illustrates the two-step shopping process. Step 1 shows two side-by-side product listing grids for espresso machines. The left grid ("Immediate-PD" condition) displays four espresso machine thumbnails with product images, short descriptions, star ratings, and prices visible (e.g., $99.95, $148.85, $181.00, $119.99). The center grid ("Delayed-PD" condition) shows the same four products with identical images and descriptions but with no prices displayed. A "VS." label separates the two conditions. Step 2 shows the standard product page that both conditions reach after clicking: a single product (DeLonghi EC155 15 Bar Espresso and Cappuccino Machine, Black) is displayed with its image, the price $99.95, and an "Add to Cart" button.]
 
 The retailer was responsible for implementing the A/B test. The retailer uses the VTEX platform to manage its e-commerce business. The VTEX platform supports A/B testing and can direct web traffic, at random, to one of the two experimental conditions. The platform has the following advantages: (1) random assignment to condition, (2) the ability to store experimental assignment information in browser cookies, so a returning shopper using the same device can be reassigned to the same experimental condition, and (3) an ability to record customer behaviors during the shopping journey. A disadvantage of the platform is it uses simple random assignment (i.e., each participant who enters an A/B test has a 50/50 chance of being assigned to a condition), hence there will be unequal sample sizes across conditions. A second disadvantage is it cannot retain experimental condition information if a consumer switches devices (e.g., the first visit was on a cell phone and the second visit was on a laptop).
 
