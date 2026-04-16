@@ -110,7 +110,117 @@ When adding a new paper, name the cover after the paper slug, not the journal.
 - Preprint (document): `<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
 - Data/Replication (database): `<svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>`
 
+**Button order** (standardized for all papers):
+1. Journal website (if published)
+2. Preprint (arXiv/PsyArXiv/SSRN, if applicable)
+3. Machine-readable (.md download)
+4. Data and code (OSF, if applicable)
+5. Extra (e.g., Cognitive trap repository)
+
 **Accordion behavior:** One paper open at a time. JS is in `main.js` using event delegation (SPA-safe). CSS animation uses `grid-template-rows: 0fr → 1fr`. No page-specific JS init needed.
+
+### Create machine-readable version of a paper
+
+Machine-readable `.md` files live in `src/files/papers/` and are downloadable from the research page. They are for AI tools (NotebookLM, Claude, ChatGPT, etc.).
+
+**CRITICAL: Use pandoc for deterministic conversion. NEVER use an LLM to convert paper text. LLMs subtly mutate text (abbreviations, symbols, word choices). Pandoc is byte-faithful.**
+
+**Pandoc location:** `"/c/Program Files/Pandoc/pandoc.exe"`
+
+**Pipeline:**
+
+```bash
+# Step 1: Convert each DOCX source with pandoc
+PANDOC="/c/Program Files/Pandoc/pandoc.exe"
+"$PANDOC" manuscript.docx -t markdown --wrap=none -o _pandoc_ms.md
+"$PANDOC" web_appendix.docx -t markdown --wrap=none -o _pandoc_wa.md
+# For EPUBs (published version — prefer over DOCX when available):
+"$PANDOC" paper.epub -t markdown --wrap=none -o _pandoc_epub.md
+```
+
+```python
+# Step 2: Assemble programmatically (Python, NOT LLM)
+import re
+
+with open('_pandoc_ms.md') as f: ms = f.read()
+with open('_pandoc_wa.md') as f: wa = f.read()
+
+# ONLY allowed cleanup: remove pandoc {.underline} artifacts
+ms = re.sub(r'\[([^\]]+)\]\{\.underline\}', r'\1', ms)
+wa = re.sub(r'\[([^\]]+)\]\{\.underline\}', r'\1', wa)
+
+# Add YAML frontmatter (metadata only — NOT body text)
+frontmatter = """---
+title: "Paper Title"
+authors: "Author One, Author Two"
+journal: "Journal Name"
+year: 2025
+doi: "10.xxxx/xxxxx"
+citation: "Author One and Author Two (2025), \\"Paper Title,\\" Journal Name."
+---
+
+> **Disclaimer:** This is a machine-readable conversion of the published paper
+> for use with AI tools. It may contain conversion errors in formatting, tables,
+> or equations. Always verify against the [published version](https://doi.org/10.xxxx/xxxxx).
+
+"""
+
+output = frontmatter + ms + "\n\n---\n\n# Supplementary Materials\n\n" + wa
+with open('src/files/papers/paper-slug.md', 'w') as f: f.write(output)
+```
+
+```bash
+# Step 3: Verify (send Opus agent to compare against PDF/DOCX)
+# Step 4: Add download button to research.njk
+# Step 5: Update JSON-LD structured data
+# Step 6: Build and deploy
+npm run build && git add -A && git commit -m "Add paper-slug .md" && git push
+```
+
+**Source priority** (for the main paper text):
+1. EPUB (published version) — best: exact published text
+2. Published PDF via pandoc — good but two-column extraction can garble
+3. Accepted manuscript DOCX — good but pre-copyedit (may differ from published)
+
+**What to include in the .md file:**
+- YAML frontmatter (title, authors, journal, year, doi, citation)
+- Disclaimer with DOI link
+- Author info, affiliations, correspondence, acknowledgements
+- Full abstract (structured if EJM-style)
+- Complete body text (all studies, all sections)
+- All tables as markdown tables
+- Figure descriptions (bold caption + text description)
+- Full reference list
+- ALL supplementary materials (web appendix, online appendix, methodological appendix)
+- Data collection statements, funding, ORCID, disclosure
+
+**What NOT to do:**
+- Never let an LLM rewrite, paraphrase, or "clean up" paper text
+- Never summarize — include the full verbatim text
+- Never add content not in the source files
+- Never change statistical values, even if they look wrong (the disclaimer covers this)
+
+**Verification checklist:**
+- [ ] YAML: title exact, authors with middle initials, year correct, DOI resolves
+- [ ] Stats: spot-check 5 values against PDF
+- [ ] Tables: check 2 tables cell-by-cell against source
+- [ ] References: count matches source
+- [ ] Verbatim: 3 random paragraphs word-for-word match
+- [ ] Supplementary: all appendix sections present
+- [ ] No pandoc artifacts: no `{.underline}`, `{.smallcaps}` remaining
+
+**Existing machine-readable files:**
+| File | Paper | Lines |
+|------|-------|-------|
+| `ad-skepticism.md` | Hernandez et al. (2019) P&M | 570 |
+| `concealing-prices.md` | Affonso et al. (forthcoming) JCR | 1,917 |
+| `serendipity.md` | Kim et al. (2021) JM | 2,700 |
+| `constructive-choice.md` | Affonso et al. (2021) JCP | 2,603 |
+| `marketing-by-design.md` | Affonso & Janiszewski (2023) JM | 1,813 |
+| `disease-cues.md` | Affonso (2025) EJM | 586 |
+| `cognitive-traps.md` | Affonso (2026) JCR | 2,014 |
+| `simple-eco-friendly.md` | Ryu et al. (2025) JA | 1,012 |
+| `behavioral-governance.md` | Affonso (2025) RP | 1,093 |
 
 ### Update teaching
 Edit `src/teaching.njk`. Add courses to the appropriate institution section.
