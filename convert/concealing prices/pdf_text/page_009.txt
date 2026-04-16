@@ -1,0 +1,121 @@
+Daily Bounce Rate.
+The daily bounce rate was higher 
+in the delayed PD condition (23.869%) than the immediate 
+PD condition (20.868%; β ¼ 3.001, SE ¼ 0.560, t(55) ¼
+5.36, p < .001, r2 ¼ 0.344). Note that higher bounce rates 
+decrease, rather than increase, the likelihood that a sale 
+will occur in the delayed PD condition, making the hypoth­
+esis test conservative.
+Robustness Checks.
+In web appendix A, we report the 
+estimation of a nonlinear model for the binary daily pur­
+chase indicator, which yields similar results.
+Post-Test: 
+Expensive-Price 
+Beliefs.
+We 
+recruited 
+Prolific participants who were interested in electric kettles 
+(n ¼ 78) and espresso machines (n ¼ 79) and tested the 
+assumption that consumers had expensive-price beliefs in 
+the shopping situation. We told participants, “In this sce­
+nario, you are browsing through a variety of electric kettles 
+[espresso machines] on a store website. Your search leads 
+to a website displaying multiple electric kettles [espresso 
+machines]. The website shows pictures of the products and 
+provides short descriptions, but there are no prices dis­
+played—you have to click on the picture of the product to 
+advance to a page that shows more information on the 
+product, including the price. See below.”
+We used Fravega’s website category pages for electric 
+kettles and espresso machines to create thumbnails similar 
+to those used in the delayed PD condition of the field study. 
+Then, we translated the product information into English 
+while keeping the exact layout used in the field study for 
+ecological validity (web appendix A). We asked 
+people, “Does the fact that you are not seeing the price lead 
+you to believe that. . .,” 1 ¼ “The price is so low, they do 
+not want to initially show it,” to 7 ¼ “The price is so high, 
+they do not want to initially show it.” We found that the 
+mean score was higher than the midpoint for electric kettles 
+(M  ¼ 6.08, t(77) ¼ 16.82, p < .001) and espresso 
+machines (M ¼ 6.29, t(78) ¼ 21.15, p < .001), suggesting 
+that consumers in this setting likely held expensive-price 
+beliefs. Our post-tests, in this and subsequent studies, vali­
+date that price delays increase the salience of directional 
+price beliefs.
+Alternative Explanations.
+It is possible that the with­
+holding prices encouraged consumers to make favorable 
+inferences about product quality or the retailer. Using a 
+procedure similar to the post-test described above, we 
+asked 75 (87) people interested in electric kettles (espresso 
+machines) whether the hidden price decreased/increased 
+perceived product quality, their trust in the retailer, and 
+customer service expectations (see web appendix A for 
+details). The mean scores for all measures in both catego­
+ries did not differ from the midpoint (all ps > .227).
+Discussion
+Consistent with hypothesis 1a, study 1 provides evidence 
+that delayed price exposure can increase the sales of elec­
+tric water kettles and espresso machines. The process 
+account of the effect cannot be determined because the 
+field study was on an active retail website through which 
+consumers could not be interviewed. Yet, there are three 
+pieces of information that are consistent with customers 
+having expensive-price beliefs. First, the retailer is a major 
+department store chain that targets the middle class. 
+Second, the data were collected in a high inflation period. 
+Third, a post-test showed that a price delay resulted in peo­
+ple expecting higher prices than was the norm.
+STUDY 2: DELAYING PRICE FOR A 
+PREMIUM PRODUCT INCREASES 
+PURCHASE INTENTIONS
+Study 2 (preregistration: https://aspredicted.org/wj3c- 
+c2ws.pdf) is a laboratory study that conceptually replicates 
+study 1. We sought to do a conceptual replication because 
+we could not create a website with multiple stock-keeping 
+units (SKUs), which manipulated the timing of prices. 
+Instead, we created a situation that encouraged expensive 
+price beliefs for a single product. The study used a pre­
+mium espresso machine that was representative of the pre­
+mium espresso machines used in study 1. We expected that 
+delayed prices, relative to immediate prices, would 
+increase purchase intentions (hypothesis 1a) and favorable 
+TABLE 1 
+ONLINE STORE STUDY—SUMMARY OF RESULTS
+Probability daily purchase
+Log daily units
+Log daily revenue
+Bounce rate (%)
+Delay prices
+0.143
+0.1480†
+1.248
+3.001
+(0.054)
+(0.082)
+(0.514)
+(0.560)
+Constant
+0.804
+1.111
+7.806
+20.868
+(0.038)
+(0.058)
+(0.363)
+(0.340)
+Observations
+112
+112
+112
+112
+NOTE.—The dependent variables are computed daily by experimental condition and collapsed across the two product categories. Units sold and sales reve­
+nue are log transformed. Standard errors are in parentheses.
+†p < .10.
+p < .05.
+p < .01.
+AFFONSO ET AL.                                                                                                                                                                        
+9 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

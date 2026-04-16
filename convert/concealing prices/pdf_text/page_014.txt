@@ -1,0 +1,109 @@
+Mediation.
+We ran a mediation analysis (PROCESS 
+model 4; Hayes 2022) with 5,000 bootstrapped samples, 
+using PD (0 ¼ immediate, 1 ¼ delayed) as the independent 
+variable, the likelihood of purchasing the espresso machine 
+as the dependent variable, and price expectation disconfir­
+mation as the mediator. Consistent with hypothesis 2b, the 
+indirect effect via price expectation disconfirmation (β ¼
+−3.34, SE ¼ 1.42, 95% CI ¼ [−6.40 to −.95]) was 
+significant.
+Post-Test: Inexpensive-Price Beliefs.
+A post-test simi­
+lar to those in prior studies was used to confirm delayed 
+prices led to an expectation of lower prices. We showed 82 
+Prolific participants interested in espresso machines the 
+same scenario from study 4’s delayed PD condition. We 
+then asked participants, “Imagine you receive an email 
+advertising this espresso machine on sale. The e-mail 
+advertising does not show the price—you have to click to 
+see the deal. Does the fact that you are not seeing the price 
+lead you to believe that. . .” (1 ¼ “The price is so low, they 
+do not want to initially show it,” to 7 ¼ “The price is so 
+high, they do not want to initially show it”). We found that 
+the mean score was lower than the midpoint (M ¼ 3.32, t 
+(81) ¼ −3.06, p ¼ .003), suggesting that inexpensive-price 
+beliefs influenced price expectations in the delayed PD 
+condition.
+Alternative Explanations.
+It is possible that withhold­
+ing prices encouraged consumers to make unfavorable 
+inferences about product quality or the retailer. Using a 
+procedure similar to study 4’s (condition: immediate PD 
+vs. delayed PD), we asked 256 people interested in 
+espresso machines their perceived product quality and cus­
+tomer service expectations (see web appendix D for addi­
+tional details). There was no effect of condition on 
+perceived product quality (F(1, 254) ¼ 0.829, p ¼ .364) 
+and customer service expectations (F(1, 254) ¼ 0.420, p ¼
+.517).
+Discussion
+Study 4 provided evidence consistent with hypothesis 2a 
+and hypothesis 2b. In a setting in which information about 
+the product and the context of the purchase prompted con­
+sumers to believe prices would be inexpensive, delayed PD 
+decreased consumers’ intention to buy the product. The 
+effect was mediated by unfavorable price expectation dis­
+confirmation, suggesting that the inexpensive-price belief 
+exerted a stronger influence on expected prices when the 
+price was delayed (see distributions A and B in figure 2).
+STUDY 5: DELAYING PRICES WITH 
+DIFFERENT RETAILER PRICE IMAGE 
+BELIEFS
+Studies 1 through 4 used post-tests to provide evidence 
+for the influence of price beliefs on price expectations and 
+purchase behavior. In study 5, we manipulated price beliefs 
+associated with store image while trying to keep other sour­
+ces of price beliefs constant. There is robust literature 
+showing that price beliefs related to store image create 
+strong and consistent influences on price expectations 
+(Hamilton and Chernev 2013). Thus, we manipulated 
+whether prices were delayed or immediately displayed in a 
+store known for high prices (i.e., a premium retailer) versus 
+low prices (a discount retailer). We anticipated delayed PD 
+at a premium (discount) retailer would result in increased 
+(decreased) purchase intention owing to more favorable 
+(unfavorable) 
+price 
+expectation 
+disconfirmation, 
+as 
+hypothesized in hypothesis 1a and hypothesis 1b (hypothe­
+sis 2a and hypothesis 2b). We also included a national 
+retailer condition that was meant to be comparable to the 
+department store used in studies 1 and 3. Given that we 
+have argued that the mid-tier price positioning of Fravega 
+contributed to expensive-price beliefs in study 1, it was 
+appropriate to investigate this claim by including a 
+“national retailer” condition and showing support for 
+hypothesis 1a and hypothesis 1b. These predictions were 
+preregistered at https://aspredicted.org/gfsy-6shc.pdf.
+Method
+Participants and Design.
+Study 5 had a 2 (PD: 
+immediate PD vs. delayed PD) × 3 (store image: premium 
+vs. national vs. discount) between-subjects design. 
+Following our preregistration, we initially recruited 900 
+participants who were then prescreened with the same cri­
+terion used in studies 2 and 4. Our final sample size had 
+726 Prolific participants (56.5% female, Mage ¼ 39.63) 
+who were randomly assigned to the conditions and paid a 
+fixed nominal payment. Web appendix E provides details 
+of the stimuli, including images of how the products were 
+presented across conditions.
+Procedure.
+The first step was to elicit an IRP from 
+each participant. Specifically, we asked, “Considering the 
+variety of espresso machines available on the market, how 
+much do you estimate the average price for a typical 
+espresso machine to be? Please base your estimate on your 
+general knowledge and understanding of the market, with­
+out looking up any prices (there are no right or wrong 
+answers!). Use numbers only.” We also reminded partici­
+pants of the difference between espresso machines and reg­
+ular coffee makers.
+In the second step, we described an online retailer that 
+sold espresso machines. In the national retailer condition, 
+14                                                                                                                                 
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

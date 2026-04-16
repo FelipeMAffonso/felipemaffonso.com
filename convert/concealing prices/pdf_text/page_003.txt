@@ -1,0 +1,108 @@
+more revenue by shrouding shipping fees but not when 
+they are disclosed upfront (Brown et al. 2010). Similarly, a 
+field experiment on StubHub, a secondary marketplace for 
+event tickets, showed that consumers were more likely to 
+select and purchase more expensive tickets when manda­
+tory fees were initially hidden (Blake et al. 2021). Analysis 
+of click-stream data by the same authors also indicated that 
+price shrouding hindered price comparisons.
+Beyond the digital world, in physical retail settings, 
+research indicates that disclosing a product’s sales tax on 
+the shelf, rather than at the cashier, reduces sales by 
+approximately 8% (Chetty et al. 2009). This reduction was 
+attributed to increased salience of the sales tax rather than 
+consumer ignorance about taxes. This finding has been 
+replicated and further explored, revealing that low-income 
+consumers pay closer attention to taxes levied at the regis­
+ter compared to high-income consumers (Goldin and 
+Homonoff 2013). In laboratory settings, studies have 
+shown that separating a buyer’s premium from the product 
+price increases demand (Morwitz et al. 1998). This is partly 
+due to consumers anchoring on the base price and insuffi­
+ciently adjusting for the premium when calculating the 
+total price.1
+Obfuscating an Entire Price
+To our knowledge, there are only two articles that study 
+the obfuscation of an entire price. First, Lynch and Ariely 
+(2000) manipulated price “usability” such that participants 
+in the high usability condition saw prices upfront and could 
+sort products according to this information, whereas those 
+in the low usability condition saw prices at a later stage 
+(and, therefore, had no sorting option). They found that 
+“increasing price usability had no reliable effect” on price 
+sensitivity (Lynch and Ariely 2000, 100), but this conclu­
+sion relied on one laboratory experiment with a sample of 
+72 participants for an eight-cell between-subjects design. 
+Second, Karmarkar, Shiv, and Knutson (2015) used func­
+tional magnetic resonance imaging (fMRI) to study the 
+relationship between product primacy (product information 
+before price information) or price primacy (price informa­
+tion before product information) and brain activity. 
+Although the authors found that product primacy shifted 
+the focus of participants from assessing monetary worth to 
+assessing product liking, the effect on purchase intentions 
+was unclear. In addition, although price primacy has been 
+demonstrated in laboratory settings, it is uncommon in 
+real-world contexts—unlike the obfuscation of an entire 
+price, which is frequently observed in practice.
+Research Opportunity
+In summary, the price obfuscation debate—whether 
+businesses should reveal prices upfront or later in the pur­
+chase process—spans various sectors and retail formats, 
+generates conflicting opinions, yet it lacks substantial 
+empirical evidence. The existing literature on price obfus­
+cation highlights two key avenues for new research. First, 
+whereas all obfuscation strategies inherently delay price 
+discovery, the practice of delaying the disclosure of an 
+entire price is sufficiently common to merit focused inves­
+tigation. Second, if delayed PD indeed alters purchase 
+behavior, current explanations within the price obfuscation 
+literature may be insufficient. When businesses withhold 
+the full price, it is unlikely that consumers precommit to a 
+purchase or misrepresent price information once revealed. 
+Therefore, a deeper examination of this tactic is warranted.
+PRICE EXPECTATIONS
+Price expectations, also known as internal reference prices 
+(IRPs), serve as benchmarks against which consumers evalu­
+ate OPs (Kalwani et al. 1990; Monroe 1973; Winer 1986). 
+These expectations are shaped by three primary factors: (1) 
+knowledge of the product’s price history, (2) product attrib­
+utes, and (3) price beliefs. Knowledge about the price history 
+of the product helps a consumer understand the value a seller, 
+and the marketplace, assign to a product as well as price 
+trends (Kalyanaram and Winer 1995; Monroe 1973; Winer 
+1986). Product attribute levels help a consumer form price 
+expectations when price history is unavailable (Shirai and 
+Meyer 1997). For example, a first-time home buyer knows 
+that the neighborhood, square footage, and quality of internal 
+features (e.g., flooring, cabinets, fixtures) influence price. 
+Price beliefs influence the construction of, or adjustments to, 
+price expectations (Hamilton 2024). In this discussion, we 
+focus on how price beliefs influence price expectations.
+Price Beliefs
+Price beliefs are typically directional in that a consumer 
+can believe a product is going to be inexpensive or expen­
+sive. There are three primary sources of price beliefs. First, 
+there are beliefs about a retailer’s price image (Hamilton and 
+Chernev 2013). Consumers can use the retailer’s nonprice 
+characteristics (e.g., ambiance, decor, and location) and pric­
+ing policy (e.g., price advertising, price points, promotional 
+history) to form beliefs that the retailer has inexpensive (e.g., 
+Walmart) or expensive (e.g., Nordstrom) prices.
+Second, there are price beliefs about categories or subca­
+tegories of products (Cheng and Monroe 2013; Mazumdar, 
+Raj, and Sinha 2005). For example, premium product cate­
+gories (e.g., diamonds, caviar, yachts) should be more 
+1
+There is far less research on the long-run effect of price obfuscation. 
+In one article, Santana, Dallas, and Morwitz (2020) find that self- 
+justification and mistaken perceptions about additional search costs, or 
+potential gains from switching sellers, made initial decisions exces­
+sively sticky. Yet, Chiles (2021) argues that reputational concerns 
+counteract the incentive to companies to obfuscate prices especially if 
+consumers can punish deceptive behavior. Specifically, Chiles (2021)
+finds that shrouding resort fees lowers guest ratings in the US hotel 
+industry.
+AFFONSO ET AL.                                                                                                                                                                        
+3 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

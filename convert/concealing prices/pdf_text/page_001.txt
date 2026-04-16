@@ -1,0 +1,63 @@
+Concealing Prices: How Delayed Price 
+Disclosure Influences Consumer Purchase 
+Decisions
+FELIPE M. AFFONSO 
+AMIN SHIRI 
+DIEGO APARICIO 
+MINZHE XU 
+XIANG WANG 
+CHRIS JANISZEWSKI  
+MARCO BERTINI 
+This article presents the first systematic empirical investigation into a longstanding 
+question in retail: is it better to display prices upfront or reveal them later in the pur­
+chase process? Two large-scale field studies demonstrate that delayed price dis­
+closure can either increase or decrease sales. Supporting laboratory studies reveal 
+that one plausible explanation is that a price delay allows price beliefs to shift con­
+sumers’ internal reference prices upward or downward, creating either positive or 
+negative price expectation disconfirmations when prices are revealed. When con­
+sumers anticipate prices should be expensive (e.g., from premium brands or 
+upscale stores), a price delay allows price beliefs to shift price expectations 
+upward, making purchases more likely when prices are revealed. Conversely, 
+when consumers anticipate prices should be inexpensive (e.g., sales events or dis­
+count stores), a price delay allows price beliefs to shift price expectations down­
+ward, making purchases less likely when prices are revealed. Our findings offer 
+retailers actionable insights on when to reveal prices to customers. In doing so, the 
+authors contribute to the literature on price obfuscation and challenge the conven­
+tional wisdom that shopping experiences should always minimize friction.
+Keywords: Price disclosure, price obfuscation, consumer expectations, pricing, 
+retailing
+Felipe M. Affonso (felipe.affonso@okstate.edu) is Assistant Professor 
+of Marketing, Spears School of Business, Oklahoma State University, 316 
+Business Building, Stillwater, OK 74078, USA. Amin Shiri (amin. 
+shiri@tamu.edu) is a doctoral student in Marketing, Mays Business 
+School, Texas A&M University, Wehner 220, College Station, TX 77843, 
+USA. Diego Aparicio (daparicio@iese.edu) is Assistant Professor of 
+Marketing, IESE Business School, University of Navarra, Carrer d’Arnus i 
+de Gari, 3–7, Barcelona, 08034 Catalonia, Spain. Minzhe Xu 
+(minzhexu@iastate.edu) is Assistant Professor of Marketing, Ivy College 
+of Business, Iowa State University, 2350 Gerdin Business Building, 2167 
+Union Drive, Ames, IA 50011, USA. Xiang Wang (xiang.wang@ln.edu. 
+hk) is Assistant Professor of Marketing, Department of Marketing and 
+International Business, Lingnan University, 8 Castle Peak Road, Tuen 
+Mun, Hong Kong. Chris Janiszewski (chris.janiszewski@warrington.ufl. 
+edu) is the Russell Berrie Eminent Scholar Chair and Professor of 
+Marketing, Warrington College of Business, University of Florida, 255B 
+Stuzin Hall, Gainesville FL 32611, USA. Marco Bertini (marco. 
+bertini@esade.edu) is Professor of Marketing, Esade—Universitat Ramon 
+Llull, 08172 Sant Cugat del Valles, Spain. Address all correspondence to 
+Felipe M. Affonso. The first three authors contributed equally to this 
+research. Diego Aparicio gratefully acknowledges Juan Martin Romero 
+and Alejandro Fogarolli for their insightful feedback. Diego Aparicio has 
+received funding from the European Union’s Horizon 2020 Research and 
+Innovation Programme under the Marie Skłodowska-Curie Grant 
+Agreement No. 892142. Supplementary materials are included in the web 
+appendix accompanying the online version of this article.    
+Editors: Andrew T. Stephen and Stephen A. Spiller  
+Associate Editor: Dan R. Schley  
+Advance Access publication September 2, 2025 
+© The Author(s) 2025. Published by Oxford University Press on behalf of Journal of Consumer Research, Inc. All rights reserved.  
+For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the 
+Permissions link on the article page on our site—for further information please contact journals.permissions@oup.com.  Vol. 00  2025 
+https://doi.org/10.1093/jcr/ucaf051 
+1
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

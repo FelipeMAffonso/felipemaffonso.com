@@ -1,0 +1,98 @@
+6.93, p ¼ .009, η2
+p ¼ 0.023) or delayed PD MAP (M ¼
+3.36, SD ¼ 1.47; F(1, 297) ¼ 37.28, p < .001, η2
+p ¼ 0.112) 
+conditions. In contrast, participants reported lower scores 
+in the delayed PD MAP than in the immediate PD condi­
+tion (F(1, 297) ¼ 12.07, p < .001, η2
+p ¼ 0.039).
+Mediation.
+Accordingly, we conducted a mediation 
+analysis (PROCESS model 4, 5,000 bootstrapped samples; 
+Hayes 2022) with PD as the independent variable (multica­
+tegorical), expectation disconfirmation as the mediator, and 
+purchase likelihood as the dependent variable. The path­
+way to purchase likelihood through expectation disconfir­
+mation is positive and significant when contrasting the 
+delayed PD condition to the immediate PD (β ¼ 0.23, SE 
+¼ 0.09, 95% CI ¼ [0.06–0.42]) and delayed PD MAP (β ¼
+0.54, SE ¼ 0.12, 95% CI ¼ [0.32–0.79]) conditions. In 
+addition, the same pathway is negative and significant 
+when contrasting the delayed PD MAP and immediate PD 
+(β ¼ −0.31, SE ¼ 0.10, 95% CI ¼ [−0.53 to −0.12]) 
+conditions.
+Post-Test: Price Beliefs.
+A post-test similar to those 
+used in prior studies was used to confirm that delayed pri­
+ces (vs. delayed prices with MAP policy attribution) led to 
+an expectation of higher (lower) prices. We showed 79 (vs. 
+80) Prolific participants interested in robot vacuum 
+cleaners the same scenario from study 6’s delayed PD (vs. 
+delayed PD with MAP attribution). We then asked 
+participants, “Imagine you are shopping online and inter­
+ested in this robot vacuum cleaner. You can’t see the price 
+yet—this happens in situations where the price tag is miss­
+ing and you have to ask for more information, or when you 
+have to add the product to the shopping cart to see the 
+price. Does the fact that you are not seeing the price lead 
+you to believe that. . .” (1 ¼ “The price is so low, they do 
+not want to initially show it,” to 7 ¼ “The price is so high, 
+they do not want to initially show it”). We found that in the 
+delayed PD condition, the mean score was higher than the 
+midpoint (M ¼ 5.35, t(78) ¼ 7.97, p < .001), suggesting 
+that expensive-price beliefs influenced price expectations 
+in this condition. Likewise, in the delayed PD with MAP 
+condition, the mean score was lower than the midpoint 
+(M ¼ 3.29, t(79) ¼ −3.12, p ¼ .003), suggesting that 
+inexpensive-price beliefs influenced price expectations in 
+this condition. Web appendix H provides additional details.
+Alternative Explanations.
+We reran the same procedure 
+from study 6 (N ¼ 300 valid responses), and once partici­
+pants had the robot vacuum cleaner in their shopping cart, 
+we asked the same product quality (α ¼ 0.95) and expecta­
+tions about customer service (α ¼ 0.88) questions used in 
+previous post-tests. There was no effect of PD on perceived 
+product quality (F < 1) or expectations about customer 
+service (F < 1). Thus, our effects appear to be driven by 
+price expectations rather than changes in perceptions about 
+the product and/or the retailer. See web appendix H for 
+details.
+Discussion
+The results support our intuition that attributing delayed 
+PD to an MAP policy can moderate the effect of the tactic. 
+Specifically, relative to the immediate PD and delayed PD 
+conditions, the delayed PD MAP condition prompted par­
+ticipants to expect a low price, which resulted in disap­
+pointment once the price was revealed and reduced 
+purchase intent.
+GENERAL DISCUSSION
+Withholding prices has long been a staple tactic in retail, 
+yet its effectiveness remains a subject of enduring debate 
+among businesses. Surprisingly, despite its prevalence, aca­
+demic research offers limited empirical guidance to resolve 
+these conflicting perspectives. This article addresses this 
+long-standing disconnect. A central finding of this research 
+is that delayed PD exerts a significant influence on con­
+sumer purchase behavior. However, the direction of this 
+influence—whether it increases or decreases purchase like­
+lihood—is contingent upon consumers’ pre-existing price 
+beliefs and their influence on price expectations. Holding 
+back prices exacerbates the influence of price beliefs on 
+price expectations (figure 2), increasing the likelihood that 
+shoppers experience a positive (if they have expensive- 
+price beliefs) or negative (if they have inexpensive-price 
+beliefs) disconfirmation once prices are revealed. This dis­
+confirmation then carries through to purchase decisions.
+Contributions
+First, our research provides guidance to retailers ques­
+tioning or exploring the right moment to post a price. We 
+show that a determining factor is the relationship between 
+FIGURE 6  
+PURCHASE LIKELIHOOD ACROSS PRICE DISCLOSURE 
+CONDITIONS 
+NOTE.—Error bars ¼ ±1 standard error. MAP, minimum advertised price. p <
+.05; p < .01.
+AFFONSO ET AL.                                                                                                                                                                      
+19 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

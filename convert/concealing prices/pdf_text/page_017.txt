@@ -1,0 +1,101 @@
+unnatural for a participant to report an expected price on a 
+product after its price is disclosed. To address this issue, 
+we repeated study 5 with two changes. First, we measured 
+price expectations about the product category rather than 
+the product the participant selected. This should address 
+the awkwardness in the immediate price condition. Second, 
+we measured category price expectations (henceforth cate­
+gory IRP) at the beginning of the study (e.g., “Considering 
+the variety of espresso machines available on the market, 
+how much do you estimate the price for a typical espresso 
+machine to be? __”) and after the product had been placed 
+in the shopping cart but before the price had been disclosed 
+in the delayed PD condition. Detailed information is in 
+web appendix F.
+The crucial dependent measure was the second category 
+IRP minus the first category IRP. As expected, an ANOVA 
+on the category IRP differential found a significant interac­
+tion between store information and PD (F(2, 591) ¼ 15.46, 
+p < .001, η2
+p ¼ 0.050). In the premium and national condi­
+tions, the category IRP differential is positive and larger 
+for participants in the delayed PD condition (Mpremium ¼
+$67.91, SD ¼ $159.97; Mnational ¼ $61.94, SD ¼ $144.69) 
+than for participants in the immediate PD (Mpremium ¼
+$2.63, SD ¼ $36.03; F(1, 591) ¼ 21.83, p < .001, η2
+p ¼
+0.036; Mnational ¼ $5.73, SD ¼ $24.76; F(1, 591) ¼ 16.19, 
+p < .001, η2
+p ¼ 0.027). Conversely, in the discount condi­
+tion, the category IRP differential is negative and larger for 
+participants in the delayed PD condition (M ¼ −$26.96, 
+SD ¼ $99.17) than for participants in the immediate PD 
+condition (M ¼ $7.61, SD ¼ $17.25; F(1, 591) ¼ 6.03, p ¼
+.014, η2
+p ¼ 0.010). Thus, price beliefs did influence cate­
+gory price expectations in the delayed PD condition.
+Alternative Explanations.
+An analysis using the price 
+of the chosen option found no main effect of PD (F(1, 720) 
+¼ 0.156, p ¼ .693), a marginally significant effect of store 
+information (F(2, 720) ¼ 2.368, p ¼ .094) and, most 
+importantly, no interaction effect (F(1, 720) ¼ 0.628, p ¼
+.534). This is evidence against the alternative hypothesis 
+that purchase likelihood was influenced by participants in 
+the immediate price condition selecting higher (in premium 
+and national condition) or lower (in discount condition) 
+price-point products than people in the delayed price condi­
+tion. In addition, we reran the same procedure from study 5 
+(N ¼ 776 valid responses), and once participants had the 
+product in their shopping cart, we asked the same product 
+quality (α ¼ 0.92) and customer service expectations (α ¼
+0.88) questions used in studies 2’s and 4’s alternative 
+explanation post-tests (web appendix F). There were no 
+main effects or interaction effect on perceived product 
+quality (Fs < 1). In addition, there was no main effect of 
+PD or an interaction with store image (Fs < 1). There was, 
+not unexpectedly, a main effect of store image (F(2, 770) 
+¼ 3.34, p ¼ .036, η2
+p ¼ 0.009), such that expectations of 
+customer service were lower in the discount condition (M 
+¼ 6.07, SD ¼ 1.09) than in the national (M ¼ 6.28, SD ¼
+0.88; F(1, 770) ¼ 6.22, p ¼ .012, η2
+p ¼ 0.008) and premium 
+(M ¼ 6.23, SD ¼ 0.96; F(1, 770) ¼ 3.25, p ¼ .074, η2
+p ¼
+0.004) conditions. Thus, our effects appear to be driven by 
+price expectations rather than changes in perceptions about 
+the product and/or the retailer.
+Discussion
+Overall, study 5 provides evidence that, relative to 
+immediate PD, delayed PD amplifies price expectations, 
+generating expectation disconfirmations that then influence 
+purchase intentions. Web appendix G reports a successful 
+replication in which participants considered purchasing a 
+Bluetooth keyboard, store image had only two conditions 
+(premium and discount), and prices were predetermined 
+rather than a function of IRPs.
+This study (and its conceptual replication) manipulated 
+price beliefs through store image. However, there are addi­
+tional ways to manipulate price beliefs that could have 
+meaningful consequences for retailers. For example, when 
+consumers have expensive-price beliefs, disclosing that a 
+price is hidden because it is a bargain can encourage a shift 
+to inexpensive-price beliefs. A practical, e-commerce 
+example is when a retailer discloses a price is hidden 
+because it violates an MAP policy (i.e., an agreement 
+between a manufacturer and a retailer that stipulates the 
+lowest price that can be advertised for a product). We 
+investigated this practical moderator in study 6.
+STUDY 6: THE MODERATING ROLE OF 
+MAP POLICIES
+An MAP policy is an agreement between a manufacturer 
+and a retailer that stipulates the lowest price that can be 
+advertised for a product. Retailers retain the right to sell at 
+FIGURE 5  
+PURCHASE LIKELIHOOD ACROSS PRICE DISCLOSURE AND 
+STORE IMAGE CONDITIONS 
+NOTE.—Error bars ¼ ±1 standard error.  p < .01.
+AFFONSO ET AL.                                                                                                                                                                      
+17 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

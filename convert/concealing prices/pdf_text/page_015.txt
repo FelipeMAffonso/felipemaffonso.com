@@ -1,0 +1,122 @@
+participants read that Whole Latte Love, founded in 1997, 
+was the largest online retailer of coffee and espresso equip­
+ment. Further information on size, staff, and customer serv­
+ice reinforced the national retailer image. Participants in 
+the Premium retailer condition were told Whole Latte Love 
+specialized in products for discerning aficionados. The 
+retailer only sold machines that passed extensive quality 
+control guidelines. Additional statements reinforced the 
+premium retailer image. Participants in the discount retailer 
+condition were told Whole Latte Love offered unbeatable 
+deals and was committed to providing great coffee experi­
+ences for less. Additional statements reinforced the dis­
+count retailer image (web appendix E).
+In the third and final step, participants shopped. We 
+strove to make the product display and shopping experi­
+ence as ecologically valid as possible. We displayed the 12 
+espresso machines randomly in a 4 × 3 grid. For each 
+espresso machine, we provided a picture and information 
+on the brand, automation level, bars of pressure, integrated 
+grinder, customer ratings, and preheat time. Some attrib­
+utes were negatively correlated so that choosing between 
+options required making tradeoffs. We instructed partici­
+pants to search for their favorite option and place it in the 
+shopping cart.
+We manipulated PD such that participants in the 
+immediate PD condition saw the price of each espresso 
+machine alongside the other attribute information and par­
+ticipants in the delayed PD condition only saw the 
+caption, “Add to cart to see price.” This procedure was 
+similar to how customers shopped in study 1. Importantly, 
+to ensure that prices were relevant to each participant but 
+within a fixed range, we used the IRP of each participant to 
+generate prices ranging from 85% to 115% (in 2.5% incre­
+ments) of a given IRP, adding $0.99 in each case for real­
+ism. For example, a participant who believed that the 
+average price of a typical espresso machine is $300 saw 12 
+options priced at $255.99 (85% of $300 plus $0.99), 
+$263.49 (87.5% of $300 plus $0.99), $270.99 (90% of 
+$300 plus $0.99), and so on up to $345.99 (115% of $300 
+plus $0.99).9 Figure 4 reproduces 3 of the 12 espresso 
+machines this participant would have encountered in the 
+immediate PD (panel A) or delayed PD (panel B) condi­
+tion. The prices shown correspond to 95%, 107.5%, and 
+110% of the $300 IRP, respectively.
+Measures.
+The shopping cart displayed the espresso 
+machine chosen by each participant and a subtotal with the 
+price. At this moment, we asked, “If you were to purchase 
+an espresso machine, how likely would you be to purchase 
+the one you selected?” (1 ¼ “not likely at all” to 7 ¼
+“extremely likely”). Next, we measured the price expecta­
+tion disconfirmation: “Before seeing the actual price of the 
+espresso machine. . .,” 1 ¼ “I expected a much lower price 
+than its current price,” to 4 ¼ “I expected a price equal or 
+similar to its current price,” to 7 ¼ “I expected a much 
+higher price than its current price.” Lastly, participants 
+reported their gender and age.
+Results
+Purchase Likelihood.
+As predicted, a 3 (store image) × 
+2 (PD) ANOVA on purchase likelihood showed a signifi­
+cant interaction (F(2, 720) ¼ 13.40, p < .001, η2
+p ¼ 0.036). 
+As shown in figure 5, in the premium condition, partici­
+pants in the delayed PD condition were more likely to pur­
+chase (M ¼ 6.08, SD ¼ 0.98) than their counterparts in the 
+immediate PD condition (M ¼ 5.79, SD ¼ 0.78; F(1, 720) 
+¼ 6.66, p ¼ .010, η2
+p ¼ 0.009). In the national condition, 
+participants who faced delayed PD were more likely to pur­
+chase (M ¼ 6.06, SD ¼ 0.93) than participants who faced 
+immediate PD (M ¼ 5.72, SD ¼ 0.75; F(1, 720) ¼ 9.25, p 
+¼ .002, η2
+p ¼ 0.013). However, in the discount condition, 
+participants in the delayed PD condition were less likely to 
+purchase (M ¼ 5.40, SD ¼ 0.98) than their counterparts in 
+the immediate PD condition (M ¼ 5.79, SD ¼ 0.78; F(1, 
+720) ¼ 12.34, p < .001, η2
+p ¼ 0.017).
+Price Expectation Disconfirmation.
+There was a store 
+image by PD interaction (F(2, 720) ¼ 15.08, p < .001, η2
+p 
+¼ 0.040). In the premium and national conditions, partici­
+pants in the delayed PD condition provided more favorable 
+price expectation disconfirmation scores (premium: M ¼
+4.83, SD ¼ 1.18; national: M ¼ 4.81, SD ¼ 1.27) than par­
+ticipants in the immediate PD condition (premium: M ¼
+4.35, SD ¼ 1.11; F(1, 720) ¼ 12.40, p < .001, η2
+p ¼ 0.017; 
+national: M ¼ 4.33, SD ¼ 0.98; F(1, 720) ¼ 12.22, p <
+.001, η2
+p ¼ 0.017). In the discount condition, however, par­
+ticipants in the delayed PD reported less favorable price 
+expectation disconfirmation scores (M ¼ 3.97, SD ¼ 0.89) 
+than participants in the immediate PD condition (M ¼ 4.41, 
+SD ¼ 0.89; F(1, 720) ¼ 10.37, p ¼ .001, η2
+p ¼ 0.014).
+Mediation.
+Accordingly, we conducted a moderated 
+mediation analysis (PROCESS model 8, 5,000 boot­
+strapped samples; Hayes 2022) with PD as the independent 
+variable (0 ¼ immediate PD, 1 ¼ delayed PD), store image 
+as the moderator, price expectation disconfirmation as the 
+mediator, and purchase likelihood as the dependent varia­
+ble. The index of moderated mediation is significant when 
+comparing the discount condition to the premium (index ¼
+0.17; 95% CI ¼ [0.09–0.27]) and national (index ¼ 0.17; 
+95% CI ¼ [0.09–0.28]) conditions. In the premium condi­
+tion, the pathway to purchase likelihood through price 
+expectation disconfirmation is positive and significant (β ¼
+0.09, SE ¼ 0.03, 95% CI ¼ [0.03–0.15]). In the national 
+condition, the same pathway is also positive and significant 
+9
+Although the prices of the espresso machines varied from partici­
+pant to participant depending on their IRP, each option had a fixed per­
+centage relative to IRP—that is, one option from the set was always 
+priced at 85% of the IRP, another option was always priced at 87.5% 
+of the IRP, and so on. The presentation order was randomized.
+AFFONSO ET AL.                                                                                                                                                                      
+15 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

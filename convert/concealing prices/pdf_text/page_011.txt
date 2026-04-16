@@ -1,0 +1,109 @@
+¼ 16.82, p < .001), suggesting that expensive-price beliefs 
+influenced price expectations in the delayed PD condition.
+Alternative Explanations.
+It is possible the withholding 
+prices encouraged consumers to make favorable inferences 
+about product quality or the retailer. Using a procedure 
+similar to study 2’s (condition: immediate PD vs. delayed 
+PD), we asked 235 people interested in espresso machines 
+about perceived product quality and customer service 
+expectations (see web appendix B for details). There was 
+no effect of condition on perceived product quality (F(1, 
+233) ¼ 0.915, p ¼ .340) and customer service expectations 
+(F(1, 233) ¼ 0.354, p ¼ .552).
+Discussion
+Study 2 provided evidence for hypothesis 1a and hypoth­
+esis 1b. In a setting in which information about the product 
+and the context of the purchase prompted consumers to 
+believe prices would be expensive, delayed PD increased 
+consumers’ likelihood of buying the product. The effect 
+was mediated by favorable price expectation disconfirma­
+tion, suggesting that the expensive-price belief exerted a 
+stronger influence on expected prices when the price was 
+delayed (see distributions D and E in figure 2).
+STUDY 3: DELAYING PRICE IN A SALES 
+FLYER REDUCES SALES
+Study 3 tested hypothesis 2a—that when consumers 
+have inexpensive-price beliefs, a delayed price (vs. an 
+immediate price) will decrease sales. Study 3 was con­
+ducted in cooperation with Fravega in December 2021. In 
+this instance, the retailer emailed a daily sales flyer (on 
+seven consecutive days) to a database of over 700,000 cur­
+rent (high-potential customers in the customer database) 
+and prospective customers. Similar to many email sales 
+flyers, the flyer featured a limited selection of products 
+(from 8 to 12 unique products each day, changing each day 
+over the seven-day week, resulting in 70 unique advertised 
+products) offered at a discount. To help communicate the 
+opportunity for a deal, the first word of the email subject 
+line included the word “Deals” or similar terminology. 
+Thus, the price beliefs associated with the purchase oppor­
+tunity were likely inexpensive. The influence of 
+inexpensive-price beliefs on price expectations, when there 
+are price delays, will be verified in a post-test.
+Method
+Procedure.
+The field study was conducted using a sales 
+flyer that the retailer regularly emailed. Management had 
+historical evidence that the flyer was a powerful tool for 
+driving engagement and promoting transactions. On this 
+occasion, the retailer emailed the sales flyer on seven con­
+secutive days to 771,583 selected addresses in its database. 
+The subject line of the seven email flyers included the 
+word “Deals” or similar terminology, indicating a promo­
+tional shopping context. Each of the seven flyers advertised 
+between 8 and 12 products from various categories (electric 
+kettles, video consoles, headphones, microwaves, blenders, 
+speakers, etc.), all offered at a promotional price. The 
+emails contained thumbnail product pictures with a format 
+similar to that used in study 1. Examples of the flyers are 
+shown in web appendix C.
+Email recipients were randomly assigned to the 
+immediate PD condition, in which products and prices 
+appeared together on the thumbnail in the sales flyer, or to 
+the delayed PD condition, in which prices were omitted 
+from the thumbnail in the sales flyer. In both conditions, a 
+click on the thumbnail in the flyer sent the participant to 
+the standard product page that provided details on features 
+and attributes, listed the price, and displayed an “add to 
+cart” button. In this experiment, 53.7% of consumers 
+clicked on at least one product in at least one email, result­
+ing in 4.096% of links clicked (i.e., on average, people 
+clicked on 2.867 of the 70 advertised products).
+Measures.
+The measures were similar to those used in 
+study 1, except that they were (1) at the individual 
+level, and (2) aggregated over the seven-day period. The 
+binary weekly purchase indicator was set to 1 if a con­
+sumer made at least one purchase during the week, or to 0 
+if the consumer made no purchase during the week. Thus, 
+it is the percentage of consumers who made a purchase. 
+The weekly units sold (log transformed) measured how 
+many total units were sold to a customer during the week. 
+The weekly sales revenue (log transformed) measured the 
+sales (in Argentinian pesos) revenue from the items pur­
+chased by a consumer during the week.
+Data.
+The experiment was run during December 2021, 
+and the data refer to email newsletters sent to 771,583 cus­
+tomers. The data and analyses code are posted on the OSF.
+Results
+We estimate the model DMi ¼ α þ βPD þ εi, where 
+DMi denotes the dependent measure of consumer i, and PD 
+is an indicator variable for the manipulation of PD equal to 
+0 in the immediate PD condition and 1 in the delayed PD 
+condition. Table 2 summarizes the results. Precision is 
+shown at four digits because the parameter estimates are 
+small.
+Binary Weekly Purchase Indicator.
+Relative to the 
+immediate PD, the delayed PD decreased the percentage of 
+customers who made a purchase during the week 
+(Mimmediate ¼ 2.6075%, Mdelayed ¼ 2.3101%, β ¼ −0.2977, 
+SE ¼ 0.0352, t(771581) ¼ −8.43, p < .001, r2 ¼ 0.0001).
+Weekly Log Units Sold.
+Relative to the immediate PD, 
+the delayed PD decreased the weekly log units sold 
+AFFONSO ET AL.                                                                                                                                                                      
+11 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

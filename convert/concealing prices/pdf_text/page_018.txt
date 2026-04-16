@@ -1,0 +1,123 @@
+a price below the MAP, but they can only reveal it once 
+consumers advance to the shopping cart—wherein the price 
+is considered part of the sales agreement rather than a pro­
+motional hook. Consequently, many retailers that delay PD 
+because of an MAP policy prompt consumers to “Add to 
+cart to see the price.” Whereas some US retailers in this sit­
+uation simply delay PD, other retailers, including Academy 
+Sports þ Outdoors and Walmart, explain, “Price is too low 
+to show,” and attribute it directly to the MAP policy, pro­
+viding reasons for the price delay (see web appendix H for 
+examples).
+The goal of this experiment was to test the possibility 
+that attributing delayed PD to an MAP policy moderates its 
+effect on purchase intentions. When consumers have 
+expensive-price beliefs, an assumption that will be con­
+firmed in a post-test to be discussed later, a price delay 
+increases purchase intention (hypothesis 1a) owing to a 
+favorable price expectation disconfirmation (hypothesis 
+1b). Yet, attributing the delayed disclosure to an MAP pol­
+icy may signal to consumers that the price is likely low, 
+effectively replacing an expensive-price belief with an 
+inexpensive-price 
+belief. 
+When 
+consumers 
+have 
+inexpensive-price beliefs, a price delay decreases purchase 
+intention (hypothesis 2a) owing to an unfavorable price 
+expectation disconfirmation (hypothesis 2b). Thus, attribut­
+ing a price delay to an MAP policy can make the beneficial 
+effects of a price delay (when the MAP policy is not dis­
+closed) become detrimental (when the MAP policy is 
+disclosed).
+Method
+Participants and Design.
+We recruited 322 Prolific 
+participants. We randomly assigned participants to one of 
+three PD conditions (immediate PD, delayed PD, and 
+delayed PD with MAP policy). In line with the preregistra­
+tion (https://aspredicted.org/kz3n-gzzd.pdf), we removed 
+22 participants who failed the attention check, resulting in 
+an effective sample of 300 (45.7% female, Mage ¼ 38.36).
+Procedure.
+We explained, “In this survey, we want 
+you to imagine you want to purchase a robot vacuum 
+cleaner. In this scenario, you are browsing through a vari­
+ety of robot vacuum cleaners on a website. At some point, 
+you found a robot vacuum cleaner that interested you. 
+Click the arrow button to continue.” Web appendix H pro­
+vides details of the stimuli.
+On the next page, participants previewed the product 
+“iRobot Roomba Combo i5þ
+Self-Emptying Robot 
+Vacuum & Mop,” which included the number of reviews 
+and shipping date. Here, we randomly assigned participants 
+to one of three PD conditions. Participants in the 
+immediate PD condition saw the product’s price ($349.99) 
+and an “Add to cart” button. In this study, the product’s 
+price was based on the real product’s price at the time the 
+experiment was run rather than a pretest. Participants in the 
+delayed PD condition did not see the price, and the button 
+read, “See price in cart.” Finally, participants in the 
+delayed PD with MAP policy did not see its price, saw the 
+“See price in cart” button, and saw a mouseover element in 
+the shape of a question mark that read, “Please add this 
+item to your cart to see the price. Because the price is 
+below the manufacturer’s minimum advertised price, we 
+are unable to show it here.” We then told all 
+participants, “You decided to see more information about 
+the product. Click the Next button to continue.” On the fol­
+lowing page, we provided additional product information. 
+This information, which included a highlight of the main 
+features, a one-paragraph description, and zoomed product 
+pictures, was taken directly from Best Buy. Participants in 
+the two delayed PD conditions still did not receive the 
+price. After processing the additional details, participants 
+returned to the product previews and read, “After some 
+consideration, you decide to add the product to your shop­
+ping cart. Please click the next button to see the product in 
+your shopping cart.” Then, on the final page, participants 
+viewed the shopping cart containing the product, its price, 
+and the cart subtotal. This was the first time that partici­
+pants in the delayed PD conditions saw the price.
+Below the shopping cart, we asked, “If you were in this 
+scenario, how likely would you be to purchase the option 
+in your shopping cart (i.e., checkout)?” (1 ¼ “not likely at 
+all” to 7 ¼ “extremely likely”). To measure price expecta­
+tion disconfirmation, we then asked, “Consider your shop­
+ping experience, the product, and its price ($349.99). How 
+would you describe your price expectations relative to its 
+current price?” (1 ¼ “I expected a much lower price than 
+its current price,” to 4 ¼ “I expected a price equal or simi­
+lar to its current price,” to 7 ¼ “I expected a much higher 
+price than its current price”).
+Results
+Purchase Likelihood.
+First, a three-cell ANOVA on 
+purchase likelihood shows a main effect of PD (F(2, 297) 
+¼ 17.07, p < .001, η2
+p ¼ 0.103). Specifically, participants 
+were more likely to buy the vacuum cleaner in the delayed 
+PD condition (M ¼ 5.01, SD ¼ 1.27) than in the immediate 
+PD (M ¼ 4.43, SD ¼ 1.70; F(1, 297) ¼ 6.36, p ¼ .012, η2
+p 
+¼ 0.021) or delayed PD MAP (M ¼ 3.67, SD ¼ 1.85; F(1, 
+297) ¼ 33.94, p < .001, η2
+p ¼ 0.103) conditions (figure 6). 
+In contrast, participants were less likely to buy the vacuum 
+cleaner in the delayed PD MAP condition than in the 
+immediate PD condition (F(1, 297) ¼ 10.92, p < .001, η2
+p 
+¼ 0.035).
+Price Expectation Disconfirmation.
+Second, a similar 
+ANOVA on price expectation disconfirmation reveals a 
+main effect of PD (F(2, 297) ¼ 18.76, p < .001, η2
+p ¼
+0.112). Specifically, participants reported higher scores in 
+the delayed PD condition (M ¼ 4.52, SD ¼ 1.34) than in 
+the immediate PD (M ¼ 4.02, SD ¼ 1.20; F(1, 297) ¼
+18                                                                                                                                 
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

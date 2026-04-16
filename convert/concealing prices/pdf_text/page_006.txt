@@ -1,0 +1,25 @@
+study that manipulates price beliefs via store image and 
+shows how a price delay increases (decreases) sales when 
+people have expensive (inexpensive) price beliefs. Study 6 is 
+a laboratory study showing how the disclosure of the reasons 
+for a price delay moderates the influences of the price delay 
+on expectation disconfirmation and purchase intention. Data 
+and code for all studies are available for download at the 
+Open Science Framework (OSF) repository (https://osf.io/ 
+xt42w/). The web appendix provides full materials and addi­
+tional information for all studies.
+STUDY 1: DELAYING PRICE IN AN 
+ONLINE STORE INCREASES SALES
+Study 1 tests hypothesis 1a—that when consumers 
+believe a product will be expensive, a delayed price (vs. an 
+FIGURE 2  
+PRICE BELIEFS AND PRICE DELAY INFLUENCE PRICE EXPECTATIONS. 
+NOTE.–– In the top panel of the figure, E($)C is the mean E($) of all target market consumers in the absence of price beliefs. E($)D is the mean E($) of all target market 
+consumers in the presence of expensive-price beliefs. E($)E is the mean E($), of all target market consumers, in the presence of expensive-price beliefs and a price 
+delay. Consumers with price expectations to the right (left) of the offer price (OP) should experience a favorable (unfavorable) price expectation disconfirmation and 
+be more (less) likely to purchase the product. The bottom panel shows corresponding effects for target market consumers with inexpensive-price beliefs. In sum­
+mary, when the dependent variable is purchase intention, it should increase (decrease) as favorable (unfavorable) price expectation disconfirmation becomes more 
+extreme. E($), expected price.
+6                                                                                                                                   
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

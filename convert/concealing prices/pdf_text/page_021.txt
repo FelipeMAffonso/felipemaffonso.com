@@ -1,0 +1,116 @@
+prompted to focus more intently on the product’s inherent 
+features and benefits, thereby aligning their decisions more 
+closely with their true desires rather than being predomi­
+nantly driven by price considerations. This perspective 
+expands upon the notion of positive expectation disconfir­
+mation, suggesting that delayed PD has the potential to 
+enhance the congruence between consumer preferences 
+and their purchase decisions.
+Furthermore, it would be interesting to extend our 
+research to consider competition. If prices are disclosed not 
+only to consumers but also to competitors, then is it better 
+for a retailer to hide them from the more “public” places of 
+the purchase process (a store shelf, a landing page, etc.)? 
+The answer to this question probably depends on several 
+factors, including the underlying pricing policy of the 
+retailer and its competitors. For instance, a company with a 
+policy of matching the lowest price might benefit from post­
+ing prices immediately because consumers who compare 
+prices will have less friction in the shopping experience.
+Finally, identifying potential moderators of the price 
+delay effect warrants further investigation. Individual dif­
+ferences, such as dispositional optimism or pessimism, 
+could influence a consumer’s propensity to utilize price 
+beliefs when updating price expectations. Similarly, price 
+knowledge and confidence may mitigate the effects of 
+delayed PD, as more knowledgeable consumers are likely 
+less susceptible to revising their expectations during the 
+delay. This implies price delay effects are less likely to 
+manifest 
+for 
+fast-moving 
+consumer 
+goods, 
+wherein consumers possess extensive price histories. 
+Additionally, when a price delay is perceived as non-nor­
+mative—deviating from standard practice in a given retail 
+context—consumers may be less inclined to allow their 
+price beliefs to sway their expectations, potentially attenu­
+ating the effects observed in our studies.
+DATA COLLECTION STATEMENT
+Data from study 1 were provided by Fravega, an 
+Argentinian retailer of household and tech appliances, to 
+the third author. Collected in spring 2020 by the company 
+under the third author’s supervision, these data were ana­
+lyzed by the third author with input from the first and sixth 
+authors. The post-test and alternative explanations tests for 
+study 1 were conducted in February 2025 by the first 
+author, who also analyzed the data. Study 2’s main study 
+and pretest were conducted via Prolific in February 2025 
+by the first and second authors. The post-test and alterna­
+tive explanations tests were conducted online in March 
+2025 by the same authors. All study 2 data were analyzed 
+by the first and second authors. Data for study 3 were again 
+provided by Fravega to the third author. Collected in 
+December 2021 under the third author’s supervision, these 
+data were analyzed by the third author with input from the 
+first and sixth authors. The post-test and alternative 
+explanations tests for study 3 were conducted in February 
+2025 by the first author, who also analyzed the data. Study 
+4’s main study and pretest were conducted via Prolific in 
+February 2025 by the first and second authors. The post- 
+test and alternative explanations tests were conducted in 
+March 2025 by the same authors, who analyzed all tests 
+and study data. Study 5’s main study and alternative 
+explanations test were conducted via Prolific in March 
+2025 by the first author and analyzed by the first and sec­
+ond authors. The web appendix F study (i.e., study 5 proce­
+dure with category-level price expectations) was conducted 
+via Prolific in April 2024 by the first author and analyzed 
+by the first and second authors. The web appendix G study 
+(a conceptual replication of study 5) was also conducted 
+via Prolific in April 2024 by the first author and analyzed 
+by the first and second authors. Data for study 6 were col­
+lected via Prolific in August 2024 by the first author and 
+analyzed by the first and second authors with input from all 
+other authors. The post-test and alternative explanations 
+tests for study 6 were conducted in March 2025 by the first 
+author and analyzed by the first and second authors. The 
+raw data for all studies, code (SPSS for laboratory studies 
+and STATA/R for field studies), qualtrics survey files (. 
+qsf), and preregistration documents for the laboratory sur­
+veys and studies are available on the OSF website (https:// 
+osf.io/xt42w/).
+REFERENCES
+Allard, Thomas and Dale Griffin (2017), “Comparative Price and 
+the Design of Effective Product Communications,” Journal 
+of Marketing, 81 (5), 16–29.
+Bertini, Marco, Diego Aparicio, and Aylin Aydinli (2024), “Can 
+Friction Improve Your Customers’ Experiences?,” MIT Sloan 
+Management Review, 65 (2), 42–7.
+Biswas, Abhijit and Edward A. Blair (1991), “Contextual Effects 
+of Reference Price in Retail Advertisements,” Journal of 
+Marketing, 55 (3), 1–12.
+Blake, Tom, Sarah Moshary, Kane Sweeney, and Steve Tadelis 
+(2021), “Price Salience and Product Choice,” Marketing 
+Science, 40 (4), 619–36.
+Brown, Jennifer, Tanjim Hossain, and John Morgan (2010), 
+“Shrouded Attributes and Information Suppression: Evidence 
+From the Field,” Quarterly Journal of Economics, 125 (2), 
+859–76.
+Carlin, Bruce I. (2009), “Strategic Price Complexity in Retail 
+Financial Markets,” Journal of Financial Economics, 91 (3), 
+278–87.
+Chang, Shu-Hao and Kai-Yu Wang (2014), “Investigating the 
+Antecedents and Consequences of an Overall Store Price 
+Image in Retail Settings,” Journal of Marketing Theory and 
+Practice, 22 (3), 299–314.
+Cheng, Lillian L. and Kent B. Monroe (2013), “An Appraisal of 
+Behavioral Price Research (Part 1): Price as a Physical 
+Stimulus,” AMS Review, 3 (3), 103–29.
+Chetty, Raj, Adam Looney, and Kory Kroft (2009), “Salience and 
+Taxation: Theory and Evidence,” American Economic 
+Review, 99 (4), 1145–77.
+AFFONSO ET AL.                                                                                                                                                                      
+21 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

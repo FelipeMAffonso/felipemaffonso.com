@@ -1,0 +1,115 @@
+consumer’s price expectations increase or decrease when 
+prices are delayed.
+STUDY 4: DELAYING PRICE FOR A 
+DISCOUNTED PRODUCT REDUCES 
+PURCHASE INTENTIONS
+Study 4 (preregistration: https://aspredicted.org/v87m- 
+z58r.pdf) is a conceptual replication of study 3. We sought 
+to do a conceptual replication because we could not mimic 
+the email sales flyer procedure in the laboratory. Instead, 
+we designed a procedure in which all participants were 
+encouraged to have inexpensive-price beliefs. The study 
+used an espresso machine that was representative of the 
+basic espresso machines seen in the sales flyers of study 3. 
+Participants were told the espresso machine was on sale. 
+We expected that a delayed price, relative to an immediate 
+price, would decrease purchase intentions (hypothesis 2a) 
+because of an unfavorable price expectation disconfirma­
+tion (hypothesis 2b). We expected participants to have 
+inexpensive-price beliefs (confirmed in a post-test). Thus, 
+study 4 could offer a plausible explanation for the price 
+delay effect observed in study 3.
+Method
+Participants and Design.
+The study had two between- 
+subjects PD conditions: immediate PD versus delayed PD. 
+Following our preregistration, we initially recruited 300 
+Prolific participants who were then prescreened with the 
+same criterion used in study 2. Our final sample size had 
+223 participants (57.8% female, Mage ¼ 36.30), which 
+were randomly assigned to the conditions and paid a fixed 
+nominal payment.
+Procedure.
+Participants imagined they were interested 
+in buying an espresso machine. In the scenario, participants 
+were checking their email when they saw a subject line that 
+caught their attention: “Best Deals on Espresso Machines: 
+Up to 30% Off.” Then, they opened the email and saw a 
+sales flyer for an espresso machine. The sales flyer was 
+labeled, “Starts today: 30% off select Breville espresso 
+machines,” with a picture of the espresso machine with a 
+large “SALE: 30% OFF” red label on it. Below the sales 
+flyer, participants in the immediate PD condition saw, 
+“SALE $100.09 REG. $142.99 þ FREE SHIPPING.” 
+Participants in the delayed PD condition saw, “SALE $? 
+(Click to see deal) REG. $? þ FREE SHIPPING.” 
+Participants also read, “After some consideration, you 
+decide to click the promotion to see more information 
+about the product.” The next page showed the espresso 
+machine, information about attributes, and the price. 
+Whereas those in the immediate PD condition knew the 
+price, those in the delayed PD condition saw the price for 
+the first time. The price ($100.09) was near the median 
+price in a pretest (see below for details). See web appendix 
+D for stimuli.
+Next, all participants indicated their likelihood of pur­
+chasing the espresso machine (“How likely would you be 
+to buy this espresso machine?” 0 ¼ extremely unlikely, 50 
+¼ somewhat likely, 100 ¼ extremely likely) and expected 
+price disconfirmation: “Before seeing the actual price of 
+the espresso machine. . .,” 1 ¼ “I expected a much lower 
+price than its current price,” to 4 ¼ “I expected a price 
+equal or similar to its current price,” to 7 ¼ “I expected a 
+much higher price than its current price.” The purchase 
+intention and expected price disconfirmation measures 
+were counterbalanced. There were no main effects or inter­
+actions involving the dependent variable and mediator 
+measurement order (web appendix D). Lastly, participants 
+reported their gender and age.
+Pretest.
+A pretest was used to set the price of the 
+espresso machine and verify inexpensive-price beliefs for 
+the espresso machine. Prolific participants (n ¼ 76) inter­
+ested in espresso machines were asked to look at the 
+espresso machine (which had a 30% off discount, just as in 
+the main study) and estimate its final (i.e., after the 30% 
+off discount) price in an open-ended response. The median 
+price ($100.00) was used to set the price in the study 
+($100.09). We added $0.09 to the discounted price to make 
+the regular price before the 30% off discount ($142.99) end 
+in $0.99 ($100.09/0.7 ¼ $142.99), which has greater eco­
+logical validity.
+Then, participants responded to a price belief question: 
+“Relative to a typical espresso machine, I expected the 
+price of this espresso machine to be. . .” (1 ¼ much less 
+expensive than a typical espresso machine, 50 ¼ neither as 
+inexpensive nor expensive as a typical espresso machine, 
+and 100 ¼ much more expensive than a typical espresso 
+machine). The mean (M ¼ 44.03, SD ¼ 18.53) was signifi­
+cantly below the midpoint of the scale (t(75) ¼ −2.81, p ¼
+.006).
+Results
+Purchase Likelihood.
+We predicted delayed PD would 
+decrease purchase likelihood. Consistent with our predic­
+tion, a one-way ANOVA revealed a lower likelihood of 
+buying the espresso machine in the delayed PD condition 
+(M ¼ 51.71, SD ¼ 24.52) than in the immediate PD condi­
+tion (M ¼ 63.17, SD ¼ 21.06; F(1, 221) ¼ 14.02, p < .001, 
+η2
+p ¼ 0.060).
+Price 
+Expectation 
+Disconfirmation.
+According 
+to 
+hypothesis 2b, delayed PD should make price expectation 
+disconfirmation more unfavorable. Consistent with our pre­
+diction, a one-way ANOVA revealed a more unfavorable 
+price expectation disconfirmation in the delayed PD condi­
+tion (Mdelayed ¼ 3.83, SD ¼ 1.29; Mimmediate ¼ 4.36, SD ¼
+1.33; F(1, 221) ¼ 9.11, p ¼ .003, η2
+p ¼ 0.040).
+AFFONSO ET AL.                                                                                                                                                                      
+13 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

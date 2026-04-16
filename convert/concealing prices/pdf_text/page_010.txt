@@ -1,0 +1,124 @@
+price expectation disconfirmation (hypothesis 1b). We 
+expected participants to have expensive-price beliefs in 
+this shopping situation (confirmed in a post-test). Thus, 
+study 2 could offer a plausible explanation for the price 
+delay effect observed in study 1.
+Method
+Participants and Design.
+The study had two between- 
+subjects PD conditions: immediate PD versus delayed PD. 
+Following our preregistration, we initially recruited 300 
+Prolific participants who were then prescreened based on 
+their interest in espresso machines. Specifically, we asked 
+about people’s interest in espresso machines on a five-point 
+scale (1 ¼ no interest at all, 2 ¼ low interest, 3 ¼ neutral, 4 
+¼ moderate interest, and 5 ¼ a lot of interest). Those who 
+answered 1, 2, or 3 were screened out and paid for their 
+time. Those interested in espresso machines (4 or 5) contin­
+ued the survey. Our final sample size had 229 participants 
+(60.3% female, Mage ¼ 37.38), who were randomly 
+assigned to the conditions and paid a fixed nominal 
+payment.
+Procedure.
+Participants imagined they were interested 
+in buying an espresso machine. In the scenario, participants 
+imagined they were browsing through espresso machines 
+on a store website and found an espresso machine that 
+interested them. Participants in the immediate PD condition 
+saw a picture of the espresso machine, information about 
+attributes (brand, automation level, bars of pressure, inte­
+grated grinder, customer ratings, preheat time), and price, 
+then added it to their shopping basket. Participants in the 
+delayed PD condition saw the same espresso machine and 
+information about attributes, but not the price, and then 
+added it to their shopping basket, which is when they 
+finally saw the price. The price ($142.50) was the median 
+price in a pretest (see below for details). See web appendix 
+B for stimuli.
+Next, all participants indicated their likelihood of pur­
+chasing the espresso machine (“How likely would you be 
+to buy this espresso machine?” 0 ¼ extremely unlikely, 50 
+¼ somewhat likely, 100 ¼ extremely likely) and price 
+expectation disconfirmation (“Before seeing the actual 
+price of the espresso machine. . .,” 1 ¼ “I expected a much 
+lower price than its current price,” to 4 ¼ “I expected a 
+price equal or similar to its current price,” to 7 ¼ “I 
+expected a much higher price than its current price”). The 
+purchase intention and expected price disconfirmation 
+measures were counterbalanced. There were no main 
+effects or interactions involving the dependent variable and 
+mediator measurement order (web appendix B). Lastly, 
+participants reported their gender and age.
+Pretest.
+A pretest was used to set the price of the 
+espresso machine and verify expensive-price beliefs for the 
+espresso machine. Prolific participants (n ¼ 82) interested 
+in espresso machines were asked to look at the espresso 
+machine and estimate its price in an open-ended response 
+(M ¼ $167.68, SD ¼ 117.51). The median price ($142.50) 
+was used to set the price in the study. Then, participants 
+responded to a price belief question: “Relative to a typical 
+espresso machine, I expected the price of this espresso 
+machine to be. . .” (1 ¼ much less expensive than a typical 
+espresso machine, 50 ¼ neither as inexpensive or expen­
+sive as a typical espresso machine, and 100 ¼ much more 
+expensive than a typical espresso machine). The mean (M 
+¼ 58.79, SD ¼ 19.38) was significantly above the midpoint 
+of the scale (t(81) ¼ 4.11, p < .001).
+Results
+Purchase Likelihood.
+We predicted that delayed PD 
+would increase purchase likelihood. Consistent with our 
+prediction, 
+a 
+one-way 
+analysis 
+of 
+variance 
+(ANOVA) revealed a higher likelihood of buying the 
+espresso machine in the delayed PD condition (M ¼ 62.80, 
+SD ¼ 24.60) than in the immediate PD condition (M ¼
+51.86, SD ¼ 27.97; F(1, 227) ¼ 9.88, p ¼ .002, η2
+p ¼
+0.042).
+Price 
+Expectation 
+Disconfirmation.
+According 
+to 
+hypothesis 1b, delayed PD should make price expectation 
+disconfirmation more favorable. Consistent with our pre­
+diction, a one-way ANOVA revealed a more favorable 
+price expectation disconfirmation in the delayed PD condi­
+tion (Mdelayed ¼ 4.33, SD ¼ 1.60; Mimmediate ¼ 3.75, SD ¼
+1.38; F(1, 227) ¼ 8.76, p ¼ .003, η2
+p ¼ 0.037).
+Mediation.
+We ran a mediation analysis (PROCESS 
+macro model 4; Hayes 2022) with 5,000 bootstrapped sam­
+ples, using PD (0 ¼ immediate, 1 ¼ delayed) as the inde­
+pendent variable, the likelihood of purchasing the espresso 
+machine as the dependent variable, and price expectation 
+disconfirmation as the mediator. Consistent with hypothe­
+sis 1b, the indirect effect via price expectation disconfirma­
+tion (β ¼ 5.86, SE ¼ 1.98, 95% confidence interval [CI] ¼
+[2.00–9.81]) was significant.
+Post-Test: Expensive-Price Beliefs.
+A post-test similar 
+to that of study 1 was used to confirm delayed prices led to 
+an expectation of higher prices. We showed 89 Prolific par­
+ticipants interested in espresso machines the same scenario 
+and product from study 2’s delayed PD condition. We told 
+participants, “Imagine you are shopping online and inter­
+ested in this espresso machine. You can’t see the price 
+yet—this happens in situations where the price tag is miss­
+ing and you have to ask for more information, or when you 
+have to add the product to the shopping cart to see the 
+price. Does the fact that you are not seeing the price lead 
+you to believe that. . .,” 1 ¼ “The price is so low, they do 
+not want to initially show it,” to 7 ¼ “The price is so high, 
+they do not want to initially show it.” We found that the 
+mean score was higher than the midpoint (M ¼ 5.83, t(88) 
+10                                                                                                                                 
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

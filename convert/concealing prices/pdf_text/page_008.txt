@@ -1,0 +1,64 @@
+help control for the error associated with the high variabil­
+ity of a metric across days. Thus, the fixed-time effect 
+reduces the error term without influencing the beta coeffi­
+cient representing the effect of the price delay. Table 1
+summarizes the results.
+Given that the daily unit sales and daily revenue are log 
+transformed, as required by their distribution, we report the 
+statistics for these dependent measures using the model dis­
+cussed above. However, we also report the means of condi­
+tions from the raw data to aid interpretability.
+Binary Daily Purchase Indicator.
+Relative to the 
+immediate PD, the delayed PD increased the percentage of 
+days at least one customer made a purchase (Mimmediate ¼
+0.804 or 45 days, Mdelayed ¼ 0.947 or 53 days, β ¼ 0.143, 
+standard error [SE] ¼ 0.054, t(55) ¼ 2.66, p ¼ .010, r2 ¼
+0.114).
+Daily Log Units Sold.
+Relative to the immediate PD, 
+the delayed PD increased the daily log units sold 
+(Mimmediate-log ¼ 1.111, Mdelayed-log ¼ 1.259; β ¼ 0.148, SE 
+¼ 0.082, t(55) ¼ 1.82, p ¼ .075, r2 ¼ 0.057; Mimmediate-raw 
+¼ 2.911 units, Mdelayed-raw ¼ 3.143 units).4
+Daily Log Sales Revenue (Pesos).
+Relative to the 
+immediate PD, the delayed PD increased the daily log sales 
+revenue (Mimmediate-log ¼ 7.806, Mdelayed-log ¼ 9.054, β ¼
+1.248, SE ¼ 0.514, t(55) ¼ 2.43, p ¼ .018, r2 ¼ 0.097; 
+Mimmediate-raw ¼ 21,893.77 pesos, Mdelayed-raw ¼ 29,109.71 
+pesos).5,6
+FIGURE 3  
+ILLUSTRATION OF CONDITIONS IN STUDY 1. 
+NOTE.—PD, price disclosure.
+dfs remaining for tests. Applying ordinary least squares to a binary 
+outcome is a linear probability model (LPM). An LPM has implemen­
+tation and interpretation advantages that make it more appealing than 
+logistic regression. In LPM, parameters represent mean marginal 
+effects that are easier to interpret than log odds ratios. Because LPM 
+and logistic regression usually yield similar results (i.e., the impact of 
+violating assumptions about the distribution of the dependent measure 
+is minimal), econometric researchers tend to favor LPM for estimating 
+treatment effects (Deke 2014).
+4
+We conducted a two-stage analysis decomposing units sold and rev­
+enue conditional on a sale being made on the day (i.e., the binary daily 
+purchase indicator). The results showed the increased units sold (reve­
+nue) occurred because the price delay increased the likelihood of a 
+sale being made on a day but not because there were more units sold 
+(revenue) on days when there was a sale. See web appendix A.
+5
+The Argentinian peso means represent the experimental condition 
+means before the data were log transformed. The official exchange 
+rate on March 2, 2020, was 64 pesos to the dollar. The unofficial 
+exchange rate was 83.86 pesos to the dollar. Thus, the peso amounts 
+should be used to understand magnitudes of sales by condition rather 
+than to assess dollar revenue to the firm during the test.
+6
+The delayed price condition (n ¼ 280 per day) averaged 4.86% 
+more visitors per day than the immediate price condition (n ¼ 267). 
+This could have impacted the dependent measures in a hypothesis- 
+consistent direction.
+8                                                                                                                                   
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

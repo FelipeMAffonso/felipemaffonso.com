@@ -1,0 +1,113 @@
+immediate price) will increase sales. This field study was 
+conducted in the online store of Fravega, an Argentinian 
+retailer.2 Fravega is a mid-tier retailer of household appli­
+ances and technology products, similar to Best Buy in the 
+United States. Privately held Fravega had estimated sales 
+of $2.3 billion in 2024 ($188 million in e-commerce). 
+Fravega established its online channel in 2014 and rou­
+tinely conducts up to five online A/B tests per month. This 
+partnership provided us with a real-world setting to test our 
+hypothesis.
+In 2020, the year these data were collected, the inflation 
+rate in Argentina was 42%. Thus, consumers’ price beliefs 
+associated with Fravega (i.e., mid-tier retailer), the product 
+category and product line (see below), and the economic 
+environment were likely expensive-price beliefs.
+Method
+Design and Data.
+The field study had two conditions: 
+(1) immediate PD, with prices displayed alongside the 
+products, and (2) delayed PD, with prices displayed only 
+after a query was made (i.e., after a product was clicked 
+on). In collaboration with the retailer, the experiment was 
+conducted over an eight-week period (56 days) during the 
+spring of 2020. The data and code are available on the 
+OSF.
+Procedure.
+Study 1 involved electric kettles (26 
+options) and espresso coffee machines (18 options). The 
+procedure is illustrated in figure 3 using English language 
+materials for espresso machines. Prospective customers 
+who browsed either category saw a “thumbnail” for each 
+product featuring an image and short description of each 
+product. In the immediate PD condition, prices appeared in 
+the thumbnails (see the four products on the left side of the 
+display in figure 3). In the delayed PD condition, the pic­
+tures of the products and descriptions were identical, but 
+the prices were omitted (see the four products in the center 
+of the display in figure 3). If shoppers clicked on a product, 
+in either condition, they were directed to the retailer’s 
+standard product page, which provided additional details 
+on features and attributes, provided the price, and displayed 
+an “add to cart” button (see the right side of the display in 
+figure 3). Thus, all participants had to advance to the stand­
+ard product page before they could add a product to their 
+cart. Purchase behavior was recorded.
+The retailer was responsible for implementing the A/B 
+test. The retailer uses the VTEX platform to manage its 
+e-commerce business. The VTEX platform supports A/B 
+testing and can direct web traffic, at random, to one of the 
+two experimental conditions. The platform has the follow­
+ing advantages: (1) random assignment to condition, (2) 
+the ability to store experimental assignment information in 
+browser cookies so a returning shopper using the same 
+device can be reassigned to the same experimental condi­
+tion, and (3) an ability to record customer behaviors during 
+the shopping journey. A disadvantage of the platform is it 
+uses simple random assignment (i.e., each participant who 
+enters an A/B test has a 50/50 chance of being assigned to 
+a condition); hence, there will be unequal sample sizes 
+across conditions. A second disadvantage is it cannot retain 
+experimental condition information if a consumer switches 
+devices (e.g., the first visit was on a cell phone and the sec­
+ond visit was on a laptop).
+Retailer Data Organization.
+The data were organized 
+by day and experimental condition, collapsed over products 
+and product categories. Thus, the data set consisted of sales 
+metrics from two experimental conditions over eight weeks 
+(n ¼ 112). The retailer also recorded data on the volume of 
+web visits. The average number of unique daily visitors 
+was 267 to either of the product categories in the 
+immediate PD condition and 280 to either of the product 
+categories in the delayed PD condition. There was no infor­
+mation on whether any customers visited both product cate­
+gories on a given day, but the retailer believed this was 
+very unlikely.
+Measures.
+In order to assess the robustness of the effect 
+of the price delay manipulation, three unique shopping 
+behaviors were analyzed. The first dependent measure was 
+a binary daily purchase indicator, a useful metric for a 
+retailer that operates in a high inflation environment. This 
+measure assessed whether a sale occurred in either product 
+category on that day. The binary daily purchase indicator 
+was set to 1 if a purchase in either category took place on 
+date t, or to 0 otherwise. The second measure was daily 
+units sold (log transformed). Daily units sold refers to the 
+total number of units purchased in an experimental condi­
+tion on a given day. The third measure was daily sales rev­
+enue (log transformed). Daily sales revenue refers to the 
+sum of the sale prices (in Argentinian pesos) for the units 
+sold in a condition on a day. In addition, we calculated the 
+bounce rate (the percentage of sessions ending after a sin­
+gle page view with no clicks to a standard product page) to 
+check whether the delayed PD was more interesting to 
+shoppers (i.e., more shoppers clicked through to standard 
+product page).
+Results
+We estimate the model DMi, t ¼ α þ βPD þ δt þ εi, t for 
+each dependent measure, where DMi, t denotes the depend­
+ent measure in experimental condition i on day t, PD is an 
+indicator variable for the manipulation of PD equal to 0 in 
+the immediate PD condition and 1 in the delayed PD condi­
+tion, and δt denotes time fixed effects.3 Fixed-time effects 
+2
+Website: https://www.fravega.com/
+3
+There are 112 observations in the data (2 conditions × 56 days). 
+With 55 control variables for days, 1 degree of freedom (df) for the 
+constant, and 1 df for the treatment, there are therefore 55 
+AFFONSO ET AL.                                                                                                                                                                        
+7 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

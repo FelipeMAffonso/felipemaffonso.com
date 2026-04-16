@@ -1,0 +1,115 @@
+price beliefs and price expectations. By understanding this 
+relationship, retailers can assess factors influencing price 
+beliefs (e.g., store image, product category, economic con­
+ditions) and predict whether a price delay will boost or hin­
+der sales.
+Second, our research extends and enriches the estab­
+lished literature on price obfuscation in economics and 
+marketing. This body of work has predominantly focused 
+on firms’ strategies to complicate price discovery by adver­
+tising a low base price and concealing supplementary 
+charges for add-ons, additional services, taxes, and related 
+expenses. In such scenarios, it is plausible to assume that 
+some consumers will opt to minimize search costs or com­
+mit computational errors, leading to the general finding 
+that price obfuscation tends to inflate the final sales price. 
+In contrast, our investigation examines the more fundamen­
+tal phenomenon of shrouding the entire product price. 
+When consumers are temporarily prevented from accessing 
+any price information, the arguments centered on search 
+costs and computational errors become less compelling. 
+Instead, we propose and test an alternative explanatory 
+framework for the impact of price obfuscation, one that 
+yields a more nuanced understanding of when withholding 
+prices 
+proves 
+advantageous 
+versus 
+detrimental. 
+Specifically, we demonstrate that consumers’ pre-existing 
+price beliefs shape their price expectations, which in turn 
+influence their purchase decisions through the mechanism 
+of price expectation disconfirmation.
+Finally, our research offers valuable insights into the 
+broader managerial debate surrounding the role of friction, 
+or perceived hassle, in shopping experiences. Conventional 
+wisdom often dictates the pursuit of frictionless purchase 
+journeys, particularly when it comes to pricing and pay­
+ment processes. However, our studies demonstrate that not 
+all friction is inherently detrimental. Indeed, it may seem 
+counterintuitive that a retailer could strategically benefit 
+from introducing friction, yet this is precisely what delayed 
+PD accomplishes. This finding suggests a promising ave­
+nue for companies to explore: the implementation of an 
+“adaptive” approach to PD, wherein the timing of price 
+presentation is personalized based on individual shoppers’ 
+price beliefs. Such an approach could strike a balance 
+between enhancing the shopping experience and achieving 
+sales outcomes—an optimal balance between friction and 
+flow in the purchase journey (Bertini, Aparicio, and 
+Aydinli 2024).
+Limitations and Future Research
+To the best of our knowledge, this article reports the first 
+empirical test of the effect of delayed PD on consumer 
+behavior. In this initial investigation, we do not address het­
+erogeneity in price beliefs among consumers. Heterogeneity 
+occurs when one portion of a consumer population has 
+expensive-price beliefs and another portion of the consumer 
+population has inexpensive-price beliefs. The relative size 
+of these two groups determines the degree and direction of 
+the price expectation shift, and corresponding impact on 
+sales, when there is price delay. This may be why the posi­
+tive effect of the price delay was strong in study 1 (i.e., a 
+large majority of customers had expensive-price beliefs) 
+and the negative effect of the price delay was weak in study 
+3 (i.e., a small majority of customers had inexpensive-price 
+beliefs). Identifying indicators of the direction and strength 
+of price beliefs, at the individual customer level, would be a 
+useful tool for price discrimination.
+Moreover, although our research emphasizes the role of 
+price expectations as a key explanatory mechanism, we 
+acknowledge that this is likely one of several contributing 
+processes. To illustrate, consider research showing that 
+price promotions can cause reward-seeking and impatience 
+(Shaddy and Lee 2020), making consumers more present 
+oriented. Consumers who are impatient might find delayed 
+PD frustrating, as it prevents them from quickly obtaining 
+all the information they need to decide, leading to negative 
+affect and/or abandonment of the purchase process. 
+Although this explanation is admittedly simplified, it offers 
+a plausible alternative account for the effects observed in 
+study 3. Future research could investigate this and other 
+possibilities.
+Beyond the role of price expectations, another critical 
+moderator to consider is price importance—the relative 
+weight consumers assign to price compared to other prod­
+uct benefits. When price is deemed less important in a pur­
+chase decision, delaying its disclosure may paradoxically 
+enhance product appeal. In such instances, consumers are 
+likely to focus more intently on the immediately available 
+product features and advantages. Conversely, when price is 
+a primary driver of the decision, delaying its disclosure 
+could shift attention disproportionately to the missing 
+information, potentially diminishing the perceived value of 
+other product benefits. Consequently, understanding how 
+and when price importance moderates the impact of the 
+price delay effect represents a logical next step in this 
+research stream.
+Our studies adopt a price delay duration that we think is 
+meaningful to consumers but conservative given that it 
+extends only to the next logical step in the purchase proc­
+ess. Longer price delay durations are certainly possible, all 
+the way to the moment of payment. Varying the duration of 
+the price delay is an interesting extension of our work, one 
+that would allow researchers to contrast the possibility of 
+an escalation of beneficial shifts in price expectations with 
+the risk of making the shopping experience less realistic or 
+less natural to consumers.
+Another promising avenue for future research lies in 
+exploring whether delayed PD can function as a behavioral 
+intervention, empowering consumers to select products 
+based on genuine preferences rather than mere cost justifi­
+cation. By withholding the price, consumers may be 
+20                                                                                                                                 
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

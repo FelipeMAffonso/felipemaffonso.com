@@ -1,0 +1,107 @@
+beliefs. Price beliefs have a stronger influence on price 
+expectations when there is uncertainty about how to assign 
+value to product attributes, such as when there is a limited 
+history of purchasing and/or using a product (Shirai and 
+Meyer 1997). Price beliefs can influence the anticipated 
+performance of individual attributes (Plassmann et al. 
+2008; Rao 2005) or exert a general, halo-like influence on 
+the expected price (Hamilton 2024). Price beliefs can also 
+exert a stronger influence on price expectations when con­
+textual factors make these beliefs more salient, as is the 
+case when a price is absent (i.e., delayed) and consumers 
+must infer pricing information.
+When the price is delayed, as opposed to disclosed imme­
+diately, price beliefs can exert a greater influence in shaping 
+price expectations. In other words, a customer’s belief about 
+whether a price will be inexpensive or expensive has a sig­
+nificantly larger impact on their price expectations when 
+the price is delayed rather than disclosed immediately. This 
+occurs because the absence of price information creates a 
+knowledge gap that consumers fill by relying on their pre- 
+existing beliefs about what the price should be.
+The predicted influence of price beliefs and price delays 
+on price expectations is illustrated in figure 2. The top 
+panel shows a situation in which the belief is that prices 
+will be expensive. This belief shifts the distribution of con­
+sumers’ price expectations from distribution C (i.e., base­
+line price expectation based on price history and product 
+attributes) to distribution D (i.e., adjustment for expensive- 
+price belief). A price delay amplifies the relative weight of 
+the expensive-price belief in the price expectation judg­
+ment, further shifting consumer price expectations to distri­
+bution E (i.e., amplification of the expensive-price belief). 
+The bottom panel of figure 2 shows the opposite effect. 
+When the belief is that prices will be inexpensive, the dis­
+tribution of consumers’ price expectations shifts from dis­
+tribution C (i.e., baseline price expectation based on price 
+history and product attributes) to distribution B (i.e., adjust­
+ment for inexpensive-price belief). A price delay amplifies 
+the relative weight of the inexpensive-price belief in the 
+price expectation judgment so that the price expectation 
+shifts from distribution B to distribution A (i.e., amplifica­
+tion of the inexpensive-price belief).
+Shifts in price expectations should influence consumer pur­
+chase behavior and, by extension, the overall sales in a target 
+market. To illustrate, consider the top panel of figure 2. 
+When an expensive-price belief shifts consumers’ price 
+expectations from distribution C to distribution D, more con­
+sumers will have expectations exceeding the OP. When con­
+sidering the OP, these consumers should experience a 
+favorable price expectation disconfirmation (i.e., [mean 
+expected price of all target market consumers in the presence 
+of expensive-price beliefs minus offer price] is positive) 
+because the OP is below their expected price (Kalyanaram 
+and Winer 1995). Consumers with a favorable price expecta­
+tion disconfirmation should be more willing to purchase the 
+product because the OP is better than expected. A price delay, 
+which further shifts price expectations to distribution E, 
+should increase the number of consumers with a favorable 
+expectation disconfirmation even further, leading to higher 
+sales. Of course, this prediction assumes homogeneity in con­
+sumer price beliefs—specifically, that all consumers in the 
+target market share expensive-price beliefs, as consumers 
+with inexpensive price beliefs would shift their price expecta­
+tions downward.
+Similar predictions can be made in the lower panel of 
+figure 2: inexpensive-price beliefs should shift price 
+expectations downward (distribution B), and even more so 
+with a price delay (distribution A). This results in fewer 
+consumers willing to purchase the product, as more of 
+them will experience an unfavorable price expectation dis­
+confirmation. Again, heterogeneity in price beliefs will 
+weaken this effect.
+The hypotheses represented in figure 2 are summarized 
+below. 
+H1: When consumers believe a price will be expensive, a 
+delayed price (compared to an immediate price):
+a. will increase purchase intention and/or sales; 
+b. because of a more favorable price expectation dis­
+confirmation (mediator). 
+H2: When consumers believe a price will be inexpensive, a 
+delayed price (compared to an immediate price):
+a. will decrease purchase intention and/or sales; 
+b. because of a more unfavorable price expectation 
+disconfirmation (mediator). 
+OVERVIEW OF STUDIES
+We test the hypotheses as follows. Study 1 is a field study 
+that tests hypothesis 1a (i.e., a price delay increases sales) at 
+the online store of a mainstream consumer retailer. A post- 
+test is used to support the assumption that shoppers had 
+expensive-price beliefs. Study 2 is a laboratory study that 
+shows hypothesis 1b is one plausible explanation for the 
+effects observed in the field. When consumers have 
+expensive-price beliefs, a price delay increases purchase 
+intent because consumers experience a more favorable price 
+expectation disconfirmation. Study 3 is a field study that tests 
+hypothesis 2a (i.e., a price delay decreases sales) using 
+responses to a national retailer’s email promotional appeals. 
+A post-test is used to support the assumption that shoppers 
+had inexpensive-price beliefs. Study 4 is a laboratory study 
+that shows hypothesis 2b is one plausible explanation for the 
+effects observed in the field. When consumers have 
+inexpensive-price beliefs, a price delay decreases purchase 
+intent because consumers experience a more unfavorable 
+price expectation disconfirmation. Study 5 is a laboratory 
+AFFONSO ET AL.                                                                                                                                                                        
+5 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

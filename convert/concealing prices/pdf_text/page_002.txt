@@ -1,0 +1,119 @@
+A 
+classic retail tactic is to withhold prices from con­
+sumers. Window displays have long invited passersby 
+to “ask inside for prices.” Print catalogs prompted readers 
+to “contact us for prices.” More recently, e-commerce web­
+sites urge shoppers to “add to cart to see price.” Despite its 
+persistence, businesses continue to debate whether 
+“obfuscating” prices—defined as “actions that firms take 
+to make price search more costly” (Ellison 2016, 288)— 
+enhances or harms sales performance. Some proponents 
+argue that “it is downright stupid to show your prices” 
+alongside products (Silva 2018), claiming consumers must 
+first internalize a product’s value before being exposed to 
+its cost. Conversely, opponents insist that retailers should 
+be forthcoming and “own” the price conversation (Hubspot 
+2017), reasoning that delaying price disclosure (PD) creates 
+confusion, eroding trust and drawing unwanted attention to 
+cost.
+Prior research has found that obfuscating a part of the 
+price can be beneficial for retailers, especially when 
+enough consumers in a market are unwilling or unable to 
+determine what they should pay. For instance, advertising a 
+low base price while obscuring ancillary charges (e.g., 
+delivery costs, service fees, taxes) can lead to increased 
+sales compared to disclosing the total cost upfront (Chiles 
+2021). This occurs because some consumers commit to the 
+purchase 
+before 
+seeing 
+the 
+additional 
+charges, 
+whereas others disregard the charges once revealed. 
+However, academic research has largely overlooked the 
+impact of concealing the entire price of a product.
+We propose that delaying PD influences sales by ampli­
+fying the impact of price beliefs on expected prices. 
+Consumers hold pre-existing price beliefs based on product 
+type (e.g., discount, luxury), quality level (e.g., low, high), 
+retailer (e.g., discount, premium), or the economic environ­
+ment (e.g., high inflation). When the disclosure of a price 
+is delayed, consumers rely more heavily on these pre- 
+existing beliefs to form price expectations. Consequently, 
+expensive-price beliefs (inexpensive-price beliefs) shift 
+price expectations upward (downward), making an offer 
+price (OP) seem more (less) appealing once the price is 
+revealed, thus increasing (decreasing) the likelihood of pur­
+chase. Consistent with these hypotheses, we show that 
+delayed (vs. immediate) PD increases purchase intentions 
+when consumers hold expensive-price beliefs. We demon­
+strate this effect in a field study at the online store of a 
+mainstream retailer (study 1) and in laboratory experiments 
+in which the product is premium (study 2) or sold by a pre­
+mium retailer (study 5). We also show that delayed (vs. 
+immediate) PD decreases purchase intentions when con­
+sumers hold inexpensive-price beliefs. We demonstrate this 
+effect in a field study investigating the sales promotions of 
+a mainstream retailer (study 3) and in laboratory experi­
+ments in which the product is on deal (study 4) or sold by a 
+discount retailer (study 5). We also test a practical 
+boundary condition of our effects: the disclosure of a mini­
+mum advertised price (MAP) policy as a reason for delay­
+ing the price, which moderates the effect of a delayed price 
+(study 6).
+Our research offers three key contributions. First, our 
+research offers retailers insights into optimal PD timing, 
+moving beyond the reliance on anecdotes and post hoc jus­
+tifications that have previously dominated the debate. 
+Second, it extends the price obfuscation literature by exam­
+ining the understudied tactic of full price concealment and 
+revealing its unique effect on shifting price expectations. 
+Contrary to the common belief that obfuscation is univer­
+sally beneficial, our findings demonstrate predictable situa­
+tions in which it is detrimental. Finally, our findings 
+engage with the broader management conversation about 
+friction in the customer journey. Contrary to the prevailing 
+advice to pursue “zero-friction” experiences—as exempli­
+fied by the vision for retail by Facebook (2023)—our stud­
+ies show that introducing specific forms of friction 
+(delaying PD) can be positive.
+PRICE OBFUSCATION
+Obfuscating Ancillary Charges
+Price obfuscation has been studied through both theoreti­
+cal and empirical research. Theoretically, hidden sur­
+charges can be used to exploit “vulnerable” consumers 
+who may intentionally or unintentionally underestimate the 
+actual cost of a product. This exploitation arises from sev­
+eral factors: consumers within a market exhibit varying 
+degrees of sensitivity to price differences (Ellison 2005), 
+some demonstrate either myopia or sophistication regard­
+ing future expenses (Carlin 2009; Gabaix and Laibson 
+2006), individual differences in search costs exist (Ellison 
+and Wolitzky 2012), and some consumers may simply be 
+confused by obfuscation (Chioveanu and Zhou 2013). 
+Despite the differing approaches to modeling consumer 
+behavior, these studies consistently conclude that firms 
+benefit from concealing prices.
+Similarly, empirical studies on price obfuscation have 
+consistently shown that “dripping” ancillary charges later 
+in the purchase process, rather than disclosing them 
+upfront, increases demand (Blake et al. 2021; Brown, 
+Hossain, and Morgan 2010; Chetty, Looney, and Kroft 
+2009; Goldin and Homonoff 2013; Hossain and Morgan 
+2006; 
+Morwitz, 
+Greenleaf, 
+and 
+Johnson 
+1998). 
+Specifically, in online shopping contexts, research indi­
+cates that starting eBay auctions with low opening prices 
+and high shipping fees generates more bidders and higher 
+revenue compared to bundling the base price and shipping 
+fees (Hossain and Morgan 2006). The authors suggest that 
+obfuscation exploits consumers’ tendency to downplay sur­
+charges. Further, eBay sellers have been shown to capture 
+2                                                                                                                                   
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026

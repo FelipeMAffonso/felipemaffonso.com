@@ -1,0 +1,116 @@
+(Mimmediate-log ¼ 0.0186, Mdelayed-log ¼ 0.0164; β ¼
+−0.0022, SE ¼ 0.0003, t(771581) ¼ −8.54, p < .001, r2 ¼
+0.0001; Mimmediate-raw ¼ 0.0277 units, Mdelayed-raw ¼ 0.0243 
+units).
+Weekly Log Sales Revenue.
+Relative to the immediate 
+PD, the delayed PD decreased the daily log sales revenue 
+(Mimmediate-log ¼ 0.2549, Mdelayed-log ¼ −0.2243, β ¼
+−0.0306, SE ¼ 0.0035, t(771581) ¼ −8.84, p < .001, r2 ¼
+0.0001; Mimmediate-raw ¼ 900.86 pesos, Mdelayed-raw ¼
+768.31 pesos).7,8
+Click-Through Rate.
+One concern is that the click- 
+through rate in the delayed PD condition may have been 
+lower than in the immediate PD condition, and this 
+explains the lower sales in the delayed PD condition. The 
+click-through rate for the delayed PD condition (M ¼ 2.92 
+out of 70 products) was actually higher than the click- 
+through rate in immediate PD condition (M ¼ 2.81 out of 
+70 products, t(771,581) ¼ −11.32, p < .001, r2 ¼ 0.0001).
+Robustness Checks.
+Robustness checks (reported in 
+web appendix C) show comparable negative results when 
+we estimate a nonlinear model. In addition, we find similar 
+results when restricting the analysis to customers who 
+clicked on the email at least once, which suggests that the 
+findings are not driven by differences in the design of the 
+sales flyers across conditions.
+Post-Test: Inexpensive-Price Beliefs.
+A post-test was 
+used to confirm the assumption that consumers had 
+inexpensive-price beliefs in the sales flyer context. We cre­
+ated a sales flyer that mimicked the delayed PD sales flyer 
+in terms of number of products (nine), claimed discounts 
+(e.g., 45% off), financing (e.g., flexible payment plan), and 
+layout (web appendix C). We recruited 100 Prolific partici­
+pants and told them to imagine they received a sales flyer 
+via email. We asked participants, “Does the fact that you 
+are not seeing the price lead you to believe that. . .,” 1 ¼
+“The price is so low, they do not want to initially show it,” 
+to 7 ¼ “The price is so high, they do not want to initially 
+show it.” We found that the mean score was lower than the 
+midpoint (M ¼ 3.29, t(99) ¼ −3.29, p ¼ .001), suggesting 
+that, on average, consumers held inexpensive-price beliefs 
+in the sales flyer situation.
+Alternative Explanations.
+It is possible that withholding 
+prices encouraged consumers to make unfavorable infer­
+ences about product quality or the retailer. Using a proce­
+dure similar to the post-test, we asked 100 Prolific 
+participants whether the hidden price decreased/increased 
+perceived product quality, their trust in the retailer, and cus­
+tomer service expectations (web appendix C). The mean 
+scores did not differ from the midpoint (all ps > .363).
+Discussion
+Consistent with hypothesis 2a, study 3 provides evidence 
+that delayed price exposure can decrease the sales of prod­
+ucts offered via an email sales flyer. Similar to study 1, the 
+process account of the effect cannot be determined because 
+the field study recorded sales on an active retail website 
+through which consumers could not be interviewed. Yet, 
+there is evidence consistent with a majority of the custom­
+ers having an inexpensive-price belief. A post-test showed 
+that people expected prices to be lower than the norm when 
+they were not listed in a sales flyer. Still, the effects were 
+much weaker than in study 1. One explanation may be that 
+there was price belief heterogeneity, both across and within 
+consumers. For example, if the positioning of the retailer, 
+product categories, and economic environment encouraged 
+expensive-price beliefs and the sales flyer encouraged 
+inexpensive-price beliefs, then the relative weight of the 
+competing beliefs will determine if an individual 
+TABLE 2 
+EMAIL STUDY—SUMMARY OF RESULTS
+Probability (%) weekly purchase
+Per-user log weekly units
+Per-user log weekly revenue
+Delay prices
+−0.2974
+−0.0022
+−0.0306
+(0.0352)
+(0.0003)
+(0.0035)
+Constant
+2.6075
+0.0186
+0.2549
+(0.0257)
+(0.0002)
+(0.0025)
+Observations
+771,583
+771,583
+771,583
+NOTE.—The dependent variables are computed weekly by participant (i.e., collapsed across all emails). Weekly units sold and weekly sales revenue are log 
+transformed. Standard errors are in parentheses.
+†p < .10.
+p < .05.
+p < .01.
+7
+The Argentinian peso means represent the experimental condition 
+means before the data were log transformed. The official exchange 
+rate on December 2, 2021, was 106.25 pesos to the dollar. The unoffi­
+cial exchange rate was 175.81 pesos to the dollar.
+8
+Due to the high proportion of zero purchases (97.4% in control, 
+97.7% in treatment) and non-normal residual distributions, we con­
+ducted comprehensive alternative specifications including negative 
+binomial, zero-inflated Poisson, hurdle models, gamma generalized 
+linear model, and two-stage analyses to address potential distributional 
+concerns. All specifications confirm consistent negative treatment 
+effects. See web appendix C for complete details.
+12                                                                                                                                 
+JOURNAL OF CONSUMER RESEARCH 
+Downloaded from https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucaf051/8245829 by St. Bonaventure University user on 16 April 2026
