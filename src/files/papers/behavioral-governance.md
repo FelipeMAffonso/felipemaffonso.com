@@ -650,9 +650,6 @@ Zahavi, A., 1975. Mate selection---a selection for a handicap. Journal of Theore
 
 # Online Appendix
 
-
-# Online Appendix
-
 This appendix provides detailed operationalization of the behavioral governance framework developed in the main text. For each of the four instruments, the following sections specify the theoretical mechanisms, design parameters, expected effect sizes grounded in the behavioral economics literature, and quasi-experimental evaluation protocols. The appendix serves two purposes: to provide sufficient detail for implementation by governance bodies, and to establish falsifiable predictions enabling the framework's empirical validation.
 
 **Table of Contents**

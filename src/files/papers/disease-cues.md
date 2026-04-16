@@ -272,7 +272,7 @@ Second, our framework advances understanding of threat responses in consumer beh
 
 Finally, we expand the scope of behavioral immune system research beyond its traditional focus on social and interpersonal responses (as shown in Table 1). Our framework demonstrates how disease avoidance motivation systematically influences a broader range of marketplace behaviors, from product evaluation to sustainable consumption, advancing our theoretical understanding of how pathogen-avoidance psychology shapes consumer decision-making.
 
-**Limitations Future Research Directions**
+**Limitations and Future Research Directions**
 
 While our framework advances understanding of consumer responses to disease cues, several limitations suggest important directions for future research. First, our framework focuses primarily on individual-level psychological processes (affect, cognition, and motivation). Future research should examine how these processes interact with broader social psychological mechanisms, particularly in collective consumption contexts. For example, studies could investigate how disease cues influence group decision-making, collective consumption rituals, and marketplace communities.
 
