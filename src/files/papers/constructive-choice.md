@@ -7,3371 +7,2597 @@ volume: 31
 issue: 2
 pages: "217-239"
 doi: "10.1002/jcpy.1184"
-citation: 'Affonso, Felipe M., Chris Janiszewski, and James R. Bettman (2021), "Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals," Journal of Consumer Psychology, 31 (2), 217-39.'
+citation: "Affonso, Felipe M., Chris Janiszewski, and James R. Bettman (2021), \"Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals,\" Journal of Consumer Psychology, 31 (2), 217-39."
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1002/jcpy.1184).
 
-# Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals
+**Abstract**
 
-Felipe M. Affonso, and Chris Janiszewski
-*University of Florida*
+The impact of decision difficulty on search behavior depends on the relative accessibility of maximize accuracy and minimize effort goals in memory. The default assumption, derived from constructive choice theory, is that maximize accuracy and minimize effort goals are both accessible. Thus, the two goals compete to influence a decision process. When this is the case, an increase in decision difficulty discourages search and the opportunity to make an accurate decision suffers. The alternative assumption, derived from goal systems theory, is that maximize accuracy and minimize effort goals can be differentially accessible. When one of these goals is more accessible, decision difficulty signals poor goal progress and reduces goal pursuit. That is, when a maximize accuracy (minimize effort) goal is more accessible, decision difficulty reduces (increases) search. Six studies show that goal systems theory holds when a maximize accuracy or minimize effort goal is more accessible, i.e., is deliberately pursued. The results have implications for how decision difficulty influences information search, satisficing, and choice quality.
 
-James R. Bettman
-*Duke University*
+*Keywords:* maximize accuracy, minimize effort, decision difficulty, goal systems theory, information search
 
-Accepted by Anirban Mukhopadhyay, Editor; Associate Editor, Ashwani Monga
+Julia, Mike, and their two children love to travel, especially on getaway weekends. One evening, Mike says he would like to get away next weekend. He asks Julia to find a luxurious but economical destination. Julia thinks that *luxurious and economical* is a lot harder to find than *luxurious and fun*, their typical type of vacation, but why not? Mike also reminds Julia that she needs to be efficient, since the booking needs to be done right away. Our research investigates how Mike's request to find a *luxurious and economical* instead of a *luxurious and fun* destination influences how many vacation destinations Julia considers before making her decision. Will the increased difficulty of the decision encourage Julia to search more or less? Further, if Mike had asked Julia to make a careful decision (i.e., be accurate), rather than being efficient, would making the decision harder have resulted in Julia searching more or less? Finally, what if Mike had not mentioned either efficiency or accuracy?
 
-Received 25 November 2019; accepted 2 August 2020
-Available online 13 August 2020
-
-The first author gratefully acknowledges the hospitality and support of the Marketing Department at the University of Miami, where he was a visiting graduate student during the time this article was conceived. This research was partially funded by Sao Paulo Research Foundation (FAPESP) grants #2016/23661-0 and #2016/11464-6, granted to the first author when he was a M.Sc. student at the School of Economics, Business, and Accounting (FEAUSP), University of Sao Paulo, Brazil. The authors thank Cammy Crolic for her assistance with the survey programming and Juliano Laran, Aner Sela, and Stijn van Osselaer for their helpful comments. Supplementary materials are included in the methodological detail appendix (MDA) accompanying the online version of this article.
-
-Correspondence concerning this article should be addressed to Felipe M. Affonso, Warrington College of Business Administration, University of Florida, Gainesville, FL 32601, USA. Electronic mail may be sent to felipe.affonso@warrington.ufl.edu
-
-## Abstract
-
-The impact of decision difficulty on search behavior depends on the relative accessibility of maximize accuracy and minimize effort goals in memory. The default assumption, derived from constructive choice theory, is that maximize accuracy and minimize effort goals are both accessible. Thus, the two goals compete to influence a decision process. When this is the case, an increase in decision difficulty discourages search and the opportunity to make an accurate decision suffers. The alternative assumption, derived from goal systems theory, is that maximize accuracy and minimize effort goals can be differentially accessible. When one of these goals is more accessible, decision difficulty signals poor goal progress and reduces goal pursuit. That is, when a maximize accuracy (minimize effort) goal is more accessible, decision difficulty reduces (increases) search. Six studies show that goal systems theory holds when a maximize accuracy or minimize effort goal is more accessible, that is, is deliberately pursued. The results have implications for how decision difficulty influences information search, satisficing, and choice quality.
-
-**Keywords:** decision difficulty; goal systems theory; information search; maximize accuracy; minimize effort
-
-Julia, Mike, and their two children love to travel, especially on getaway weekends. One evening, Mike says he would like to get away next weekend. He asks Julia to find a luxurious but economical destination. Julia thinks that luxurious and economical is a lot harder to find than luxurious and fun, their typical type of vacation, but why not? Mike also reminds Julia that she needs to be efficient, since the booking needs to be done right away. Our research investigates how Mike’s request to find a luxurious and economical instead of a luxurious and fun destination influences how many vacation destinations Julia considers before making her decision. Will the increased difficulty of the decision encourage Julia to search more or less? Further, if Mike had asked Julia to make a careful decision (i.e., be accurate), rather than being efficient, would making the decision harder have resulted in Julia searching more or less? Finally, what if Mike had not mentioned either efficiency or accuracy?
-
-Alternative models of consumer choice suggest that there are two different ways an increase in decision difficulty can influence the number of destinations Julia considers. First, goal systems theory (which applies when efficiency or accuracy goals are explicitly mentioned) predicts that making a decision more difficult should reduce the pursuit of a focal decision process goal (Huang & Zhang, 2011). If Julia’s goal is to be more efficient, increased decision difficulty should signal a lack of progress toward the efficiency goal and result in more search. If Julia’s goal is to be more accurate, increased decision difficulty should signal a lack of progress toward the accuracy goal and result in less search. Thus, an increase in decision difficulty frustrates the pursuit of the focal decision process goal so that Julia is less efficient or accurate than she otherwise would have been. Second, the constructive choice model (which would apply in the case where Mike does not mention either efficiency or accuracy) predicts that making a decision more difficult should result in Julia searching less (Bettman, Luce, & Payne, 1998). The more difficult the decision process, the fewer options Julia should want to consider.
+Alternative models of consumer choice suggest that there are two different ways an increase in decision difficulty can influence the number of destinations Julia considers. First, goal systems theory (which applies when efficiency or accuracy goals are explicitly mentioned) predicts that making a decision more difficult should reduce the pursuit of a focal decision process goal (Huang & Zhang, 2011). If Julia's goal is to be more efficient, increased decision difficulty should signal a lack of progress toward the efficiency goal and result in more search. If Julia's goal is to be more accurate, increased decision difficulty should signal a lack of progress toward the accuracy goal and result in less search. Thus, an increase in decision difficulty frustrates the pursuit of the focal decision process goal so that Julia is less efficient or accurate than she otherwise would have been. Second, the constructive choice model (which would apply in the case where Mike does not mention either efficiency or accuracy) predicts that making a decision more difficult should result in Julia searching less (Bettman, Luce, & Payne, 1998). The more difficult the decision process, the fewer options Julia should want to consider.
 
 Our research provides support for the goal systems theory predictions when a decision process goal is deliberately pursued (e.g., Mike explicitly asks Julia to be efficient or be accurate). Six experiments show that an increase in decision difficulty decreases the pursuit of an efficiency goal (thus leading to more search) or an accuracy goal (thus leading to less search). Likewise, an increase in decision ease increases the pursuit of an efficiency goal (thus leading to less search) or an accuracy goal (thus leading to more search). Alternatively, when decision process goals are naturally pursued (e.g., Mike does not mention efficiency or accuracy), search was consistent with the predictions of the constructive choice model (see experiment 6). There was less search under increased decision difficulty and more search under decreased decision difficulty. Collectively, these results imply that goal systems theory accounts for the influence of decision process goals on decision making when one decision process goal is relatively more accessible (i.e., the effort and accuracy goals are not competing), whereas constructive choice theory accounts for the influence of decision process goals on decision making when multiple goals are accessible (i.e., the effort and accuracy goals are competing). These results are important, because constructive choice theory is typically used to explain the influence of decision process goals (e.g., be efficient, be accurate) on choice behavior.
 
+**Information Search**
 
-## Information Search
+**Sequential, Stimulus-Based Search**
 
+Julia is engaging in sequential, stimulus-based search (Ratchford & Srinivasan, 1993). Sequential, stimulus-based search involves considering a series of options, one after the other, until a choice is made (Grether & Wilde, 1984; Häubl, Dellaert, & Donkers, 2010). The amount of search depends on the costs and benefits of considering additional alternatives (Adam, 2001; Zwick, Rapoport, & Muthukrishnan, 2003). One factor that influences the cost of search is decision difficulty, defined as the amount of computational effort required to make a decision (e.g., it is more difficult for Julia to find a *luxurious and economical* destination than a *luxurious and fun* destination). Decisions become more difficult when conflicting benefit goals make it difficult to find a dominating option (Seale & Rapoport, 1997), when negatively correlated attributes make it difficult to compare options (Bettman et al., 1993; Johnson, Meyer, & Ghose, 1989), and when the amount of available information becomes overwhelming (Wright, 1975).
 
-### Sequential, Stimulus-Based Search
+**Decision Difficulty and Constructive Choice Theory**
 
-Julia is engaging in sequential, stimulus-based search (Ratchford & Srinivasan, 1993). Sequential, stimulus-based search involves considering a series of options, one after the other, until a choice is made (Grether & Wilde, 1984; Häubl, Dellaert, & Donkers, 2010). The amount of search depends on the costs and benefits of considering additional alternatives (Adam, 2001; Zwick, Rapoport, Lo, & Muthukrishnan, 2003). One factor that influences the cost of search is decision difficulty, defined as the amount of computational effort required to make a decision (e.g., it is more difficult for Julia to find a luxurious and economical destination than a luxurious and fun destination). Decisions become more difficult when conflicting benefit goals make it difficult to find a dominating option (Seale & Rapoport, 1997), when negatively correlated attributes make it difficult to compare options (Bettman et al., 1993; Johnson, Meyer, & Ghose, 1989), and when the amount of available information becomes overwhelming (Wright, 1975).
+Constructive choice theory accounts for how people engage in natural decision making, as Julia would have done in the absence of Mike's request that she be efficient. Constructive choice theory proposes that decision quality and information search depend on two decision process goals; minimize effort and maximize accuracy (Bettman et al., 1998). Constructive choice theory assumes that the minimize effort and maximize accuracy goals are both accessible, so that people trade-off these competing goals when creating a choice strategy preference function (see lines in figure 1). The preference function reflects the weight on the effort goal relative to the accuracy goal, with a steeper slope indicating more emphasis on minimizing effort. People use decision strategies (e.g., weighted adding, lexicographic, elimination-by-aspects) that are above their preference function to make their choice.
 
+Constructive choice theory proposes that decision difficulty impacts search behavior in two ways. First, decision difficulty shifts the preference function (see figure 1, movement from the grey line to the black line). As a decision environment becomes more difficult, people search for less information (Johnson et al., 1989; Shugan, 1980). Second, decision difficulty influences the trade-off between the minimize effort and maximize accuracy goals (see figure 1). When information is difficult to use, it discourages effort, so the emphasis on the maximize accuracy goal goes down relative to the emphasis on the minimize effort goal (i.e., the slope of the effort-accuracy preference function becomes more negative ‒ compare the black line to the grey line in figure 1). This could alter the choice strategy. For example, Julia could go from weighted adding when the decision is easy (e.g., searching for a *luxurious and fun* destination) to elimination-by-aspects when the decision is difficult (e.g., searching for a *luxurious and economical* destination), with the latter choice strategy resulting in less search.
 
-### Decision Difficulty and Constructive Choice Theory
+**Decision Difficulty and Goal Systems Theory**
 
-Constructive choice theory accounts for how people engage in natural decision making, as Julia would have done in the absence of Mike’s request that she be efficient. Constructive choice theory proposes that decision quality and information search depend on two decision process goals; minimize effort and maximize accuracy (Bettman et al., 1998). Constructive choice theory assumes that the minimize effort and maximize accuracy goals are both accessible, so that people trade-off these competing goals when creating a choice strategy preference function (see lines in Figure 1). The preference function reflects the weight on the effort goal relative to the accuracy goal, with a steeper slope indicating more emphasis on minimizing effort. People use decision strategies (e.g., weighted adding, lexicographic, elimination-by-aspects) that are above their preference function to make their choice.
-
-Constructive choice theory proposes that decision difficulty impacts search behavior in two ways. First, decision difficulty shifts the preference function (see Figure 1, movement from the grey line to the black line). As a decision environment becomes more difficult, people search for less information (Johnson et al., 1989; Shugan, 1980). Second, decision difficulty influences the trade-off between the minimize effort and maximize accuracy goals (see Figure 1). When information is difficult to use, it discourages effort, so the emphasis on the maximize accuracy goal goes down relative to the emphasis on the minimize effort goal (i.e., the slope of the effort-accuracy preference function becomes more negative ‒ compare the black line to the grey line in Figure 1). This could alter the choice strategy. For example, Julia could go from weighted adding when the decision is easy (e.g., searching for a luxurious and fun destination) to elimination-by-aspects when the decision is difficult (e.g., searching for a luxurious and economical destination), with the latter choice strategy resulting in less search.
-
-
-### Decision Difficulty and Goal Systems Theory
-
-Goal systems theory accounts for how people pursue benefit goals, as exemplified by Julia’s desire to find a luxurious and economical destination. Goal systems theory proposes that each benefit goal is a desirable outcome that is represented in a semantic knowledge structure (Kruglanski et al., 2002; van Osselaer and Janiszewski, 2012). Goals are attained using means. The more (less) effective a means is for pursuing a goal, the more (less) progress a person makes toward the goal and the more (less) likely a person is to pursue the goal using those means (Huang & Zhang, 2011). For example, if Julia’s search identifies one destination with a restaurant that is definitely luxurious and economical, and a second location with a hotel that is somewhat luxurious and economical, then the restaurant will determine the vacation destination, since it is the most effective means for the goal of finding a luxurious and economical destination. Alternatively, if Julia’s search reveals hotels and restaurants that are luxurious but not economical, or economical but not luxurious, she will probably abandon one of the benefit goals and try to book a different type of vacation destination (e.g., luxurious and fun).
+Goal systems theory accounts for how people pursue benefit goals, as exemplified by Julia's desire to find a *luxurious and economical* destination. Goal systems theory proposes that each benefit goal is a desirable outcome that is represented in a semantic knowledge structure (Kruglanski et al., 2002; van Osselaer and Janiszewski, 2012). Goals are attained using means. The more (less) effective a means is for pursuing a goal, the more (less) progress a person makes toward the goal and the more (less) likely a person is to pursue the goal using those means (Huang & Zhang, 2011). For example, if Julia's search identifies one destination with a restaurant that is definitely luxurious and economical, and a second location with a hotel that is somewhat luxurious and economical, then the restaurant will determine the vacation destination, since it is the most effective means for the goal of finding a luxurious and economical destination. Alternatively, if Julia's search reveals hotels and restaurants that are luxurious but not economical, or economical but not luxurious, she will probably abandon one of the benefit goals and try to book a different type of vacation destination (e.g., *luxurious and fun*).
 
 To date, goal systems theory has not been used to investigate how decision difficulty and decision process goals (e.g., minimize effort, maximize accuracy) impact search behavior. Yet, the goal systems perspective is valuable because it makes an assumption that is at odds with constructive choice theory. Namely, goal systems theory assumes all goals are independently represented in a semantic knowledge structure. Further, goals are pursued using means. For example, a maximize accuracy goal is pursued using means such as valuing attributes, weighting and integrating attribute information, evaluating alternatives, and comparing new alternatives to existing favorites in order to make a normative decision (e.g., choice of a utility-maximizing alternative). Conversely, a minimize effort goal is pursued using means such as valuing attributes, comparing attribute values, eliminating alternatives, and retaining alternatives that surpass a threshold (e.g., choice of an acceptable option). The effectiveness of the goal pursuit should depend on how decision difficulty impacts the use of these means.
 
-Goals systems theory predicts that increasing decision difficulty will make it harder to execute the means used to pursue a decision process goal. If the decision process goal is to maximize accuracy, as when Mike asks Julia to make a careful decision, then increasing decision difficulty (e.g., searching for a luxurious and economical destination) should frustrate goal pursuit, and Julia should search less (see the black line in the maximize accuracy condition of Figure 1) relative to when no destination benefits are specified (see the white bar in the maximize accuracy condition of Figure 1). This should occur because it becomes harder to set attribute weights in a compensatory choice strategy, or prioritize attributes in a non-compensatory choice strategy, and determine if a specific choice strategy is helping one progress toward a desired outcome (Broniarczyk & Griffin, 2014). Consequently, people should feel uneasy/uncertain about the decision process (Kardes et al., 2007; Muthukrishnan, 1995). Similarly, if the decision process goal is to minimize effort, as when Mike asks Julia to make an efficient decision, then increasing decision difficulty should frustrate goal pursuit and Julia should search more (see the black bar in the minimize effort condition of Figure 1) relative to when no destination benefits are specified (see the white bar in the minimize effort condition of Figure 1). Again, the lack of goal progress makes people feel uneasy/uncertain about the decision process. Thus, for increased goal difficulty goal systems theory predicts
+Goals systems theory predicts that increasing decision difficulty will make it harder to execute the means used to pursue a decision process goal. If the decision process goal is to maximize accuracy, as when Mike asks Julia to make a careful decision, then increasing decision difficulty (e.g., searching for a *luxurious and economical* destination*)* should frustrate goal pursuit, and Julia should search less (see the black line in the maximize accuracy condition of figure 1) relative to when no destination benefits are specified (see the white bar in the maximize accuracy condition of figure 1). This should occur because it becomes harder to set attribute weights in a compensatory choice strategy, or prioritize attributes in a non-compensatory choice strategy, and determine if a specific choice strategy is helping one progress toward a desired outcome (Broniarczyk & Griffin, 2014). Consequently, people should feel uneasy/uncertain about the decision process (Kardes et al., 2007; Muthukrishnan, 1995). Similarly, if the decision process goal is to minimize effort, as when Mike asks Julia to make an efficient decision, then increasing decision difficulty should frustrate goal pursuit and Julia should search more (see the black bar in the minimize effort condition of figure 1) relative to when no destination benefits are specified (see the white bar in the minimize effort condition of figure 1). Again, the lack of goal progress makes people feel uneasy/uncertain about the decision process. Thus, for increased goal difficulty goal systems theory predicts
 
+> H1: When the decision process goal is to maximize accuracy, an increase in decision difficulty will decrease search relative to a baseline control group.
+>
+> a\. The influence of decision difficulty on search is mediated by decision uncertainty.
+>
+> H2: When the decision process goal is to minimize effort, an increase in decision difficulty will increase search relative to a baseline control group.
+>
+> a\. The influence of decision difficulty on search is mediated by decision uncertainty.
 
-**H1:** When the decision process goal is to maximize accuracy, an increase in decision difficulty will decrease search relative to a baseline control group.
+Goals systems theory makes complementary predictions for increasing decision ease. Increasing decision ease makes it easier to execute the means used to pursue a decision process goal. If the goal is to maximize accuracy, then increasing decision ease (e.g., searching for a *luxurious and fun* destination) should facilitate goal pursuit, and Julia should search more (see the grey bar in the maximize accuracy condition of figure 1) relative to a baseline condition. This should occur because it becomes easier to establish guidelines within a choice strategy, determine if a choice strategy is helping one progress toward a desired outcome, and decide whether to retain a choice strategy (Novemsky et al., 2007; Saad & Russo, 1996). Consequently, people should feel more confident/certain about the choice process (Moorthy et al., 1997; Saad & Russo, 1996) and try to maximize accuracy by searching more. Similarly, if the decision process goal is to minimize effort, then increasing decision ease should facilitate goal pursuit, and Julia should search less (see the grey bar in the minimize effort condition of figure 1), relative to a baseline condition. Again, the ease of goal progress makes people feel confident/certain about the choice process. Thus, for increased goal ease, goal systems theory predicts
 
-  **(a)** The influence of decision difficulty on search is mediated by decision uncertainty.
-
-
-**H2:** When the decision process goal is to minimize effort, an increase in decision difficulty will increase search relative to a baseline control group.
-
-  **(a)** The influence of decision difficulty on search is mediated by decision uncertainty.
-
-Goals systems theory makes complementary predictions for increasing decision ease. Increasing decision ease makes it easier to execute the means used to pursue a decision process goal. If the goal is to maximize accuracy, then increasing decision ease (e.g., searching for a luxurious and fun destination) should facilitate goal pursuit, and Julia should search more (see the grey bar in the maximize accuracy condition of Figure 1) relative to a baseline condition. This should occur because it becomes easier to establish guidelines within a choice strategy, determine if a choice strategy is helping one progress toward a desired outcome, and decide whether to retain a choice strategy (Novemsky et al., 2007; Saad & Russo, 1996). Consequently, people should feel more confident/certain about the choice process (Moorthy et al., 1997; Saad & Russo, 1996) and try to maximize accuracy by searching more. Similarly, if the decision process goal is to minimize effort, then increasing decision ease should facilitate goal pursuit, and Julia should search less (see the grey bar in the minimize effort condition of Figure 1), relative to a baseline condition. Again, the ease of goal progress makes people feel confident/certain about the choice process. Thus, for increased goal ease, goal systems theory predicts
-
-
-**H3:** When the decision process goal is to maximize accuracy, an increase in decision ease will increase search relative to a baseline control group.
-
-  **(a)** The influence of decision ease on search is mediated by decision certainty.
-
-
-**H4:** When the decision process goal is to minimize effort, an increase in decision ease will decrease search relative to a baseline control group.
-
-  **(a)** The influence of decision ease on search is mediated by decision certainty.
+> H3: When the decision process goal is to maximize accuracy, an increase in decision ease will increase search relative to a baseline control group.
+>
+> a\. The influence of decision ease on search is mediated by decision certainty.
+>
+> H4: When the decision process goal is to minimize effort, an increase in decision ease will decrease search relative to a baseline control group.
+>
+> a\. The influence of decision ease on search is mediated by decision certainty.
 
 We propose that goal systems theory accounts for the influence of decision difficulty on search behavior when a minimize effort or maximize accuracy goal is deliberately pursued, as is the case when Mike asks Julia to be efficient or careful. Given that the predictions of goal systems theory are novel, we present five studies testing the predictions of goal systems theory. Our sixth study directly manipulates whether decision process goals compete versus not, showing that constructive choice theory accounts for the results when goals compete. We attribute these results to a single goal being relatively more accessible, and the other goal not competing, when one of the decision process goals is deliberately pursued, but the two goals being similarly accessible, and competing, when a decision process goal is not deliberately pursued.
 
+**Study Details**
 
-## Study Details
+Eight studies were used to investigate the hypotheses. The methodological detail appendix (henceforth MDA) reports all stimuli, materials, manipulations, and the sample size determination. The MDA also includes all pretests, manipulation checks, means and standard deviations for each condition of each experiment, and product replicate analyses (when applicable). The raw data, code files, and variable list for all experiments, including pretests and ancillary studies, are available at the Open Science Framework (<https://osf.io/276gs/>).
 
-Eight studies were used to investigate the hypotheses. The methodological detail appendix (henceforth MDA) reports all stimuli, materials, manipulations, and the sample size determination. The MDA also includes all pretests, manipulation checks, means and standard deviations for each condition of each experiment, and product replicate analyses (when applicable). The raw data, code files, and variable list for all experiments, including pretests and ancillary studies, are available at the Open Science Framework (https://osf.io/276gs/).
-
-
-## Experiment 1
+**Experiment 1**
 
 Experiment 1 tested the idea that decision difficulty influences the amount of search when people are deliberately pursuing a maximize accuracy or minimize effort goal (hypotheses 1 and 2), consistent with goal systems theory. The context was a sequential search for a vacation package or a car. We anticipated that making a search more difficult, by asking a participant to consider a trade-off between conflicting benefit goals, would decrease search when the goal was to maximize accuracy (H1) but increase search when the goal was to minimize effort (H2).
 
+**Method**
 
-### Method
+**Participants and design***.* Participants were 200 undergraduate students from a U.S. university who participated in exchange for course credit. The design was a 2 (decision process goal: maximize accuracy vs. minimize effort) x 2 (decision difficulty: baseline vs. difficult) x 2 (product replicate: vacation package, car) mixed design. Product replicate was manipulated within-subjects. The dependent measures were the number of options considered, choice of the best option considered, and use of a satisficing strategy -- choice of the last option considered. The latter two measures have been used as indicators of maximizing accuracy and minimizing effort in prior research (Creyer, Bettman, and Payne, 1990; Simon, 1955; Stüttgen, Boatwright, & Monroe, 2012).
 
+**Procedure and stimuli***.* Participants were told they would take part in three studies about how consumers make choices. First, participants engaged in the sequential search task training procedure (MDA A). After this task, participants proceeded to the purported first study, designed to manipulate the decision process goal (MDA B); they were asked to list three reasons why it is important to be accurate when making choices (maximize accuracy goal) or three reasons why it is important to put less effort into making choices (minimize effort goal). Direct instruction (Creyer et al., 1990; Hong & Chang, 2015) and listing reasons (Briley, Morris, & Simonson, 2000; Simonson & Nowlis, 2000) are commonly used to activate decision process goals.
 
-**Participants and design.** Participants were 200 undergraduate students from a U.S. university who participated in exchange for course credit. The design was a 2 (decision process goal: maximize accuracy vs. minimize effort) x 2 (decision difficulty: baseline vs. difficult) x 2 (product replicate: vacation package, car) mixed design. Product replicate was manipulated within-subjects. The dependent measures were the number of options considered, choice of the best option considered, and use of a satisficing strategy – choice of the last option considered. The latter two measures have been used as indicators of maximizing accuracy and minimizing effort in prior research (Creyer, Bettman, and Payne, 1990; Simon, 1955; Stüttgen, Boatwright, & Monroe, 2012).
+Next, participants read instructions for the purported second study, designed to manipulate decision difficulty (MDA C). Participants in the difficult condition were asked to make their decision using conflicting benefit goals. Conflicting benefit goals have been shown to make information gathering (Etkin, Evangelidis, & Aaker, 2015), information processing (Dhar, 1997), and the expression of one's preferences (Valenzuela, Dhar, & Zettelmeyer, 2009) more difficult. For this study, the conflicting benefit goals were *prestige* and *thrift* (see pretests in MDA F). Participants in the baseline condition were asked to do an unrelated intervening task designed to take a similar amount of time and effort: "*This study aims to investigate people\'s cognitive ability. In the box below, list as many words as possible with the letter 'e' in the middle. For example, 'apartment' or 'water'."* This task allowed people to use their personal benefit goals in the choice task and hence should not influence decision difficulty.
 
+Next, participants were directed to the purported third study involving the choice tasks for vacation packages and cars. Participants saw two options and a third box providing an opportunity to see another option. Each time the participant clicked the "Look at another option" button, a new option would appear, along with the previously displayed options. The order of option presentation was a random draw from the 15 options. The options were selected using a pretest of options collected from the web. For each replicate, the options had a similar level of attractiveness, so that there were not objectively dominant or dominated options. Please see MDA D for the complete stimuli and MDA E for additional information about the sequential search task. The actual choice shares of options did not vary by condition (see MDA F for choice shares per condition and additional information).
 
-**Procedure and stimuli.** Participants were told they would take part in three studies about how consumers make choices. First, participants engaged in the sequential search task training procedure (MDA A). After this task, participants proceeded to the purported first study, designed to manipulate the decision process goal (MDA B); they were asked to list three reasons why it is important to be accurate when making choices (maximize accuracy goal) or three reasons why it is important to put less effort into making choices (minimize effort goal). Direct instruction (Creyer et al., 1990; Hong & Chang, 2015) and listing reasons (Briley, Morris, & Simonson, 2000; Simonson & Nowlis, 2000) are commonly used to activate decision process goals.
+After each of the two choice tasks, participants indicated how focused they were on (1) being accurate and (2) minimizing effort using two 9-point scales (1 = not at all focused, 9 = very focused). Finally, after these manipulation check measures, participants were asked to rank order the 15 options in each category by selecting and ranking the five least appealing, then selecting and ranking the five most appealing, and then ranking the remaining (middle) options. During the ranking procedure, participants were able to see all available options for both product replicates (one replicate at a time). This procedure enabled us to compare participants' selected options to the post-choice option ranks. Choosing a top-ranked (i.e., best) option for a given choice set is indicative of choice quality/accuracy. We counterbalanced the product replicates (cars vs. vacation packages) in the main study and ranking task.
 
-Next, participants read instructions for the purported second study, designed to manipulate decision difficulty (MDA C). Participants in the difficult condition were asked to make their decision using conflicting benefit goals. Conflicting benefit goals have been shown to make information gathering (Etkin, Evangelidis, & Aaker, 2015), information processing (Dhar, 1997), and the expression of one’s preferences (Valenzuela, Dhar, & Zettelmeyer, 2009) more difficult. For this study, the conflicting benefit goals were prestige and thrift (see pretests in MDA F). Participants in the baseline condition were asked to do an unrelated intervening task designed to take a similar amount of time and effort: “This study aims to investigate people's cognitive ability. In the box below, list as many words as possible with the letter ‘e’ in the middle. For example, ‘apartment’ or ‘water’.” This task allowed people to use their personal benefit goals in the choice task and hence should not influence decision difficulty.
+**Results**
 
-Next, participants were directed to the purported third study involving the choice tasks for vacation packages and cars. Participants saw two options and a third box providing an opportunity to see another option. Each time the participant clicked the “Look at another option” button, a new option would appear, along with the previously displayed options. The order of option presentation was a random draw from the 15 options. The options were selected using a pretest of options collected from the web. For each replicate, the options had a similar level of attractiveness, so that there were not objectively dominant or dominated options. Please see Appendix S1: MDA D for the complete stimuli and MDA E for additional information about the sequential search task. The actual choice shares of options did not vary by condition (see Appendix S1: MDA F for choice shares per condition and additional information).
+**Manipulation checks.** The decision process goal manipulations successfully encouraged participants to be accurate (*M*~accuracy~ = 7.43, SD~accuracy~ = 1.63; *M*~effort~ = 5.90, SD~effort~ = 2.40; *F*(1, 196) = 27.12, *p* \< .001, $\widehat{\omega}$~p~^2^ = .12) and minimize effort (*M*~accuracy~ = 2.86, SD~accuracy~ = 1.91; *M*~effort~ = 5.17, SD~effort~ = 2.35; *F*(1, 196) = 59.21, *p* \< .001, $\widehat{\omega}$~p~^2^ = .23) (see MDA F).
 
-After each of the two choice tasks, participants indicated how focused they were on (1) being accurate and (2) minimizing effort using two 9-point scales (1 = not at all focused, 9 = very focused). Finally, after these manipulation check measures, participants were asked to rank order the 15 options in each category by selecting and ranking the five least appealing, then selecting and ranking the five most appealing, and then ranking the remaining (middle) options. During the ranking procedure, participants were able to see all available options for both product replicates (one replicate at a time). This procedure enabled us to compare participants’ selected options to the post-choice option ranks. Choosing a top-ranked (i.e., best) option for a given choice set is indicative of choice quality/accuracy. We counterbalanced the product replicates (cars vs. vacation packages) in the main study and ranking task.
+**Number of options considered.** An ANOVA revealed a significant process goal by decision difficulty interaction (*F*(1, 196) = 10.80, *p* = .001,$\ \widehat{\omega}$~p~^2^ = .05; see figure 2). Consistent with prior literature, the maximizing accuracy goal (*M* = 9.07) resulted in more search than the minimize effort goal (*M* = 4.63) in the baseline condition (*F*(1, 196) = 27.39, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .12). Consistent with hypotheses 1 and 2, an increase in decision difficulty decreased the number of options considered in the maximize accuracy condition (*M*~baseline~ = 9.07, *M*~difficult~ = 7.24; *F*(1, 196) = 4.74, *p* = .031,$\ \widehat{\omega}$~p~^2^ = .02), but increased the number of options considered in the minimize effort condition (*M*~baseline~ = 4.63, *M*~difficult~ = 6.72; *F*(1, 196) = 6.10, *p* = .014,$\ \widehat{\omega}$~p~^2^ = .03).
 
+**Evidence for process: choice quality and satisficing**. An analysis of choice quality (choice of best option) in the maximize accuracy condition and satisficing (choice of last option considered) in the minimize effort condition was used to provide further support for the hypothesis that decision difficulty reduced the pursuit of the decision process goals. We calculated two indices -- a choice quality index and a satisficing index -- that represented the number of choices of the best (last) option considered in both replicates. Consistent with our account, participants with a maximize accuracy goal were less likely to pick their best option when the decision became more difficult (*p*~baseline~ = 1.49, *p*~difficult~ = 1.21; *F*(1, 196) = 3.94, *p* = .05,$\ \widehat{\omega}$~p~^2^ = .014) and participants with a minimize effort goal were less likely to pick the last option considered when the decision became more difficult (*p*~baseline~ = .67, *p*~difficult~ = .35; *F*(1, 155) = 5.72, *p* = .018,$\ \widehat{\omega}$~p~^2^ = .03). More detailed analyses of these measures are presented in MDA F.
 
-### Results
+**Alternative Explanations: Demand Effect and Process Goal Abandonment**
 
+Experiment 1 used a transparent manipulation of the decision process goals. This created the possibility of hypothesis guessing and demand effects. To address this issue, 169 undergraduate students participated in the experiment 1 procedure up to the point at which the first two cars (vacations) were considered. Participants were then asked how many additional cars (vacations) they planned to view. Unlike the results presented in figure 2, there was no process goal by decision difficulty interaction (*F*(1, 165) = .00, *p* = .97). The results showed a main effect of the decision process goal (*M*~accuracy~ = 9.86, *SD* = 3.92, *M*~effort~ = 4.60, *SD* = 1.78; *F*(1, 165) = 122.27, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .42), but no main effect of decision difficulty (*M*~baseline~ = 7.50, *SD* = 4.11, *M*~difficult~ = 6.93, *SD* = 3.49; *F*(1, 165) = .56, *p* = .46). These results are not consistent with an explanation based on hypothesis guessing or demand.
 
-**Manipulation checks.** The decision process goal manipulations successfully encouraged participants to be accurate (Maccuracy = 7.43, SDaccuracy = 1.63; Meffort = 5.90, SDeffort = 2.40; F(1, 196) = 27.12, p < .001, ω̂²_p = .12) and minimize effort (Maccuracy = 2.86, SDaccuracy = 1.91; Meffort = 5.17, SDeffort = 2.35; F(1, 196) = 59.21, p < .001, ω̂²_p = .23) (see Appendix S1: MDA F).
+Another alternative explanation is that decision difficulty led to abandonment of the decision process goals. According to this explanation, decision process goal pursuit was reduced (i.e., less search on maximize accuracy and more search on minimize effort) because decision difficulty made people disengage from the decision process goal. If abandonment occurred, there should have been an interaction on the decision process goal manipulation check indicating that participants in the difficult decision condition were less focused on being accurate or minimizing effort, depending on the condition. We did not observe this result (see MDA F).
 
-
-**Number of options considered.** An ANOVA revealed a significant process goal by decision difficulty interaction (F(1, 196) = 10.80, p = .001,ω̂²_p = .05; see Figure 2). Consistent with prior literature, the maximizing accuracy goal (M = 9.07) resulted in more search than the minimize effort goal (M = 4.63) in the baseline condition (F(1, 196) = 27.39, p < .001,ω̂²_p = .12). Consistent with hypotheses 1 and 2, an increase in decision difficulty decreased the number of options considered in the maximize accuracy condition (Mbaseline = 9.07, Mdifficult = 7.24; F(1, 196) = 4.74, p = .031,ω̂²_p = .02), but increased the number of options considered in the minimize effort condition (Mbaseline = 4.63, Mdifficult = 6.72; F(1, 196) = 6.10, p = .014,ω̂²_p = .03).
-
-
-**Evidence for process:** choice quality and satisficing. An analysis of choice quality (choice of best option) in the maximize accuracy condition and satisficing (choice of last option considered) in the minimize effort condition was used to provide further support for the hypothesis that decision difficulty reduced the pursuit of the decision process goals. We calculated two indices – a choice quality index and a satisficing index – that represented the number of choices of the best (last) option considered in both replicates. Consistent with our account, participants with a maximize accuracy goal were less likely to pick their best option when the decision became more difficult (pbaseline = 1.49, pdifficult = 1.21; F(1, 196) = 3.94, p = .05,ω̂²_p = .014) and participants with a minimize effort goal were less likely to pick the last option considered when the decision became more difficult (pbaseline = .67, pdifficult = .35; F(1, 155) = 5.72, p = .018,ω̂²_p = .03). More detailed analyses of these measures are presented in MDA F.
-
-
-**Alternative Explanations:** Demand Effect and Process Goal Abandonment
-
-Experiment 1 used a transparent manipulation of the decision process goals. This created the possibility of hypothesis guessing and demand effects. To address this issue, 169 undergraduate students participated in the experiment 1 procedure up to the point at which the first two cars (vacations) were considered. Participants were then asked how many additional cars (vacations) they planned to view. Unlike the results presented in Figure 2, there was no process goal by decision difficulty interaction (F(1, 165) = .00, p = .97). The results showed a main effect of the decision process goal (Maccuracy = 9.86, SD = 3.92, Meffort = 4.60, SD = 1.78; F(1, 165) = 122.27, p < .001,ω̂²_p = .42), but no main effect of decision difficulty (Mbaseline = 7.50, SD = 4.11, Mdifficult = 6.93, SD = 3.49; F(1, 165) = .56, p = .46). These results are not consistent with an explanation based on hypothesis guessing or demand.
-
-Another alternative explanation is that decision difficulty led to abandonment of the decision process goals. According to this explanation, decision process goal pursuit was reduced (i.e., less search on maximize accuracy and more search on minimize effort) because decision difficulty made people disengage from the decision process goal. If abandonment occurred, there should have been an interaction on the decision process goal manipulation check indicating that participants in the difficult decision condition were less focused on being accurate or minimizing effort, depending on the condition. We did not observe this result (see Appendix S1: MDA F).
-
-
-### Discussion
+**Discussion**
 
 Experiment 1 provides evidence that the deliberate pursuit of a maximize accuracy or minimize effort goal is undermined by decision difficulty (H1 and H2). Participants searched less when they deliberately pursued a maximize accuracy goal, but more when they deliberately pursued a minimize effort goal. We contend that decision difficulty made it harder to execute the means (processes) used to pursue the maximize accuracy or minimize effort goals, as evidenced by the amount of search, selection of the best option (choice quality), and selection of the last option considered (satisficing). Critically, decision difficulty decreased accuracy when participants pursued a maximize accuracy goal and decreased satisficing when they pursued a minimize effort goal.
 
 These results are inconsistent with the predictions of the constructive choice model, which are that decision difficulty should lead to less search in both decision process goal conditions (Johnson et al., 1989). Note that the constructive choice model can also be used to predict that decision difficulty will lead to increased search (Bettman et al., 1993; Dhar, 1997; Tversky & Shafir, 1992), but it does not predict anything other than a main effect of decision difficulty on search due to its assumption that accuracy and effort goals trade-off.
 
-
-## Experiment 2
+**Experiment 2**
 
 Experiment 2 tested the idea that decision ease can facilitate the pursuit of decision process goals (hypotheses 3 and 4). The procedure was identical to that used in experiment 1, except that complementary benefit goals were used to make the decision easier (Dieckmann & Rieskamp, 2007; Wilks, 1938). We anticipated that making a decision easier would increase search when the goal was to maximize accuracy (H3) but decrease search when the goal was to minimize effort (H4).
 
+**Method**
 
-### Method
+**Participants, design, and procedure***.* Participants in experiment 2 were 446 U.S. MTurk workers who were paid \$1.20 to participate in a 2 (decision process goal: maximize accuracy vs. minimize effort) x 2 (decision ease: baseline vs. ease) x 2 (product replicate: vacation package, car) mixed design. The complementary benefit goals in the decision ease condition were *prestige* and *fun* (see MDA F for the pretest). Except for this change, the procedure was identical to that used in experiment 1.
 
+**Results**
 
-**Participants, design, and procedure.** Participants in experiment 2 were 446 U.S. MTurk workers who were paid $1.20 to participate in a 2 (decision process goal: maximize accuracy vs. minimize effort) x 2 (decision ease: baseline vs. ease) x 2 (product replicate: vacation package, car) mixed design. The complementary benefit goals in the decision ease condition were prestige and fun (see Appendix S1: MDA F for the pretest). Except for this change, the procedure was identical to that used in experiment 1.
+**Manipulation checks.** The decision process goal manipulations successfully encouraged participants to be accurate (*M*~accuracy~ = 7.93, SD~accuracy~ = 1.13; *M*~effort~ = 6.95, SD~effort~ = 2.01; *F*(1, 442) = 39.99, *p* \< .001, $\widehat{\omega}$~p~^2^ = .08) and minimize effort (*M*~effort~ = 6.41, SD~effort~ = 2.20; *M*~accuracy~ = 4.00, SD~accuracy~ = 2.80; *F*(1, 442) = 101.67, *p* \< .001, $\widehat{\omega}$~p~^2^ = .18) (see MDA G).
 
+**Number of options considered***.* An ANOVA revealed a significant decision process goal by decision ease interaction (*F*(1, 442) = 13.62, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .03; see figure 3). Consistent with hypotheses 3 and 4, decision ease increased the number of options considered in the maximize accuracy condition (*M*~baseline~ = 8.64, *M*~ease~ = 10.16; *F*(1, 442) = 8.08, *p* = .005,$\ \widehat{\omega}$~p~^2^ = .02), but decreased the number of options considered in the minimize effort condition (*M*~baseline~ = 4.87, *M*~ease~ = 3.60; *F*(1, 442) = 5.65, *p* = .018,$\ \widehat{\omega}$~p~^2^ = .01).
 
-### Results
+**Evidence for process: choice quality and satisficing**. An analysis of choice quality and satisficing provided further support for the hypothesis that decision ease increased the pursuit of the decision process goals. As in experiment 1, we calculated two indices -- a choice quality index and a satisficing index -- that represented the number of choices of the best (last) option considered in both replicates. Participants with a maximize accuracy goal were more likely to pick the best option in the decision ease condition (p~baseline~ = 1.13, p~ease~ = 1.53; *F*(1, 442) = 16.14, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .04) and participants with a minimize effort goal were more likely to pick the last option considered in the decision ease condition (p~baseline~ = .49, p~ease~ = 1.12; *F*(1, 344) = 91.51, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .21). More detailed analyses of these measures are presented in MDA G.
 
-
-**Manipulation checks.** The decision process goal manipulations successfully encouraged participants to be accurate (Maccuracy = 7.93, SDaccuracy = 1.13; Meffort = 6.95, SDeffort = 2.01; F(1, 442) = 39.99, p < .001, ω̂²_p = .08) and minimize effort (Meffort = 6.41, SDeffort = 2.20; Maccuracy = 4.00, SDaccuracy = 2.80; F(1, 442) = 101.67, p < .001, ω̂²_p = .18) (see Appendix S1: MDA G).
-
-
-**Number of options considered.** An ANOVA revealed a significant decision process goal by decision ease interaction (F(1, 442) = 13.62, p < .001,ω̂²_p = .03; see Figure 3). Consistent with hypotheses 3 and 4, decision ease increased the number of options considered in the maximize accuracy condition (Mbaseline = 8.64, Mease = 10.16; F(1, 442) = 8.08, p = .005,ω̂²_p = .02), but decreased the number of options considered in the minimize effort condition (Mbaseline = 4.87, Mease = 3.60; F(1, 442) = 5.65, p = .018,ω̂²_p = .01).
-
-
-**Evidence for process:** choice quality and satisficing. An analysis of choice quality and satisficing provided further support for the hypothesis that decision ease increased the pursuit of the decision process goals. As in experiment 1, we calculated two indices – a choice quality index and a satisficing index – that represented the number of choices of the best (last) option considered in both replicates. Participants with a maximize accuracy goal were more likely to pick the best option in the decision ease condition (pbaseline = 1.13, pease = 1.53; F(1, 442) = 16.14, p < .001,ω̂²_p = .04) and participants with a minimize effort goal were more likely to pick the last option considered in the decision ease condition (pbaseline = .49, pease = 1.12; F(1, 344) = 91.51, p < .001,ω̂²_p = .21). More detailed analyses of these measures are presented in MDA G.
-
-
-### Discussion
+**Discussion**
 
 Experiment 2 provides evidence that the deliberate pursuit of a maximize accuracy or minimize effort goal is facilitated by decision ease (H3 and H4). We contend that decision ease made it easier to execute the means (processes) that supported the pursuit of the maximize accuracy or minimize effort goals. Decision ease increased choice quality when there was a maximize accuracy goal and increased satisficing when there was a minimize effort goal. Finally, the results are not consistent with the constructive choice model prediction that decision ease should lead to more search in both decision process goal conditions.
 
-
-## Experiments 3a and 3b
+**Experiments 3a and 3b**
 
 Experiments 3a and 3b were designed with three purposes in mind. First, we tested the idea that decision uncertainty mediated the relationship between decision difficulty and search (hypotheses 1a and 2a). Second, experiment 1 used a no-explicit-goal baseline control group in the decision difficulty factor. This control group represented a natural decision context. However, from an internal validity perspective, a more appropriate control group behavior might be to pursue one of the two conflicting benefit goals used to create decision difficulty. This would address ambiguity about what participants in a no goal, baseline control group were doing in prior studies. This would also allow us to confirm that there is nothing peculiar about the conflicting benefit goals. Third, four alternative explanations were addressed: process accountability, outcome accountability, decision importance, and involvement with the choice task, as each of these processes have been shown to influence pursuit of a decision process goal (Bettman et al., 1998; McAllister et al., 1979; Tyszka, 1998; Zhang & Mittal, 2005).
 
-
-### Design and Method
+**Design and Method**
 
 The design and method for experiments 3a (maximize accuracy goal) and 3b (minimize effort goal) were identical. Thus, we discuss the procedures concurrently.
 
+**Participants and design***.* MTurk workers were paid \$1.20 to participate in experiments 3a (n = 196) and 3b (n = 204). The mixed-design was a 4 (decision difficulty: baseline -- no goal vs. baseline - one goal \[prestige\] vs. baseline - one goal \[thrift\] vs. difficult - two conflicting goals \[prestige and thrift\]) x 2 (product replicate: vacation package, car). Decision difficulty was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 3a (3b) pursued a maximize accuracy (minimize effort) goal.
 
-**Participants and design.** MTurk workers were paid $1.20 to participate in experiments 3a (n = 196) and 3b (n = 204). The mixed-design was a 4 (decision difficulty: baseline – no goal vs. baseline - one goal [prestige] vs. baseline - one goal [thrift] vs. difficult - two conflicting goals [prestige and thrift]) x 2 (product replicate: vacation package, car). Decision difficulty was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 3a (3b) pursued a maximize accuracy (minimize effort) goal.
+**Procedure***.* The procedure was similar to the previous studies. Participants completed the sequential search training task (MDA A), read the decision process goal activation instructions (MDA B), and were randomly assigned to a decision difficulty condition. Participants in the baseline -- no goal condition did the e-location filler task discussed in prior studies. Participants in the baseline - one goal condition were asked to pursue a single benefit goal (prestige or thrift). Participants in the difficult condition were asked to pursue two conflicting benefit goals (prestige and thrift) (MDA C). Then, participants proceeded to the vacation package and car choice tasks.
 
+After each choice task, we measured the manipulation check and mediator. *Decision difficulty* (manipulation check) was measured by asking participants: "Please indicate your opinion about the car (vacation package) decision task" using a four-item, nine-point semantic differential scale: "very easy/very difficult," "not problematic at all/very problematic," "very simple/very complex," "not complicated at all/very complicated" (*α*~3a~ = .97; *α*~3b~ = .97) (Laroche et al., 2005). *Decision uncertainty* (mediator) was measured using three nine-point Likert items: "I would describe myself as indecisive during the car (vacation package) choice," "I was struggling with the decision about the cars (vacation packages)," "I felt uncertain about what to choose" \[1 = Strongly Disagree, 9 = Strongly Agree\] (*α*~3a~ = .94; *α*~3b~ = .91) (Kardes et al., 2007). Four alternative-hypothesis mediators were measured: process accountability, outcome accountability, decision importance, and involvement with the choice task. None of the alternative mediators accounted for the effect of decision difficulty on search. Please see MDA E for specific details, measures, and analyses.
 
-**Procedure.** The procedure was similar to the previous studies. Participants completed the sequential search training task (MDA A), read the decision process goal activation instructions (MDA B), and were randomly assigned to a decision difficulty condition. Participants in the baseline – no goal condition did the e-location filler task discussed in prior studies. Participants in the baseline - one goal condition were asked to pursue a single benefit goal (prestige or thrift). Participants in the difficult condition were asked to pursue two conflicting benefit goals (prestige and thrift) (MDA C). Then, participants proceeded to the vacation package and car choice tasks.
+**Experiment 3a Results: Maximize Accuracy Goal**
 
-After each choice task, we measured the manipulation check and mediator. Decision difficulty (manipulation check) was measured by asking participants: “Please indicate your opinion about the car (vacation package) decision task” using a four-item, nine-point semantic differential scale: “very easy/very difficult,” “not problematic at all/very problematic,” “very simple/very complex,” “not complicated at all/very complicated” (α3a = .97; α3b = .97) (Laroche et al., 2005). Decision uncertainty (mediator) was measured using three nine-point Likert items: “I would describe myself as indecisive during the car (vacation package) choice,” “I was struggling with the decision about the cars (vacation packages),” “I felt uncertain about what to choose” [1 = Strongly Disagree, 9 = Strongly Agree] (α3a = .94; α3b = .91) (Kardes et al., 2007). Four alternative-hypothesis mediators were measured: process accountability, outcome accountability, decision importance, and involvement with the choice task. None of the alternative mediators accounted for the effect of decision difficulty on search. Please see Appendix S1: MDA E for specific details, measures, and analyses.
+**Manipulation checks.** Perceived decision difficulty was higher in the difficult -- two conflicting goals condition (*M* = 5.58, *SD* = 2.38) than in the two baseline - one goal conditions (*M*~prestige~ = 2.92, *SD*~prestige~ = 1.45; *M*~thrift~ = 3.31, *SD*~thrift~ = 1.60; (*F*(1, 192) = 64.85, *p \<* .001, $\widehat{\omega}$~p~^2^ = .25) and baseline -- no goal condition (*M* = 3.13, *SD* = 1.52; *F*(1, 192) = 48.09, *p* \< .001, $\widehat{\omega}$~p~^2^ = .20) (see MDA H).
 
+**Number of options considered***.* There was a significant influence of the decision difficulty manipulation on the number of options considered (*F*(3, 192) = 6.88, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .08; see figure 4). First, participants in the difficult -- two conflicting goals condition (*M* = 6.34) considered fewer options than participants in the baseline - one goal conditions (*M*~prestige~ = 9.31, *M*~thrift~ = 9.65; (*F*(1, 192) = 16.22, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .07) and baseline -- no goal condition (*M* = 9.91; (*F*(1, 192) = 15.75, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .07). The two baseline -- one goal conditions did not differ from each other (*F*(1, 192) = .13, *p* = .72), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 192) = .29, *p* = .59).
 
-### Experiment 3a Results: Maximize Accuracy Goal
-
-
-**Manipulation checks.** Perceived decision difficulty was higher in the difficult – two conflicting goals condition (M = 5.58, SD = 2.38) than in the two baseline - one goal conditions (Mprestige = 2.92, SDprestige = 1.45; Mthrift = 3.31, SDthrift = 1.60; (F(1, 192) = 64.85, p < .001, ω̂²_p = .25) and baseline – no goal condition (M = 3.13, SD = 1.52; F(1, 192) = 48.09, p < .001, ω̂²_p = .20) (see Appendix S1: MDA H).
-
-
-**Number of options considered.** There was a significant influence of the decision difficulty manipulation on the number of options considered (F(3, 192) = 6.88, p < .001,ω̂²_p = .08; see Figure 4). First, participants in the difficult – two conflicting goals condition (M = 6.34) considered fewer options than participants in the baseline - one goal conditions (Mprestige = 9.31, Mthrift = 9.65; (F(1, 192) = 16.22, p < .001,ω̂²_p = .07) and baseline – no goal condition (M = 9.91; (F(1, 192) = 15.75, p < .001,ω̂²_p = .07). The two baseline – one goal conditions did not differ from each other (F(1, 192) = .13, p = .72), and these two conditions did not differ from the baseline – no goal condition (F(1, 192) = .29, p = .59).
-
-
-**Mediation analysis.** The decision difficulty manipulation influenced decision uncertainty (F(3, 192) = 36.52, p < .001). Participants in the difficult – two conflicting goals condition (M = 5.76) perceived the decision as more uncertain than participants in the baseline - one goal conditions (Mprestige = 2.98, Mthrift = 3.23; (F(1, 192) = 91.93, p < .001) and baseline – no goal condition (M = 2.95; F(1, 192) = 77.38, p < .001). The two baseline – one goal conditions did not differ from each other (F(1, 192) = .56, p = .455), and these two conditions did not differ from the baseline – no goal condition (F(1, 192) = .31, p = .58).
+**Mediation analysis**. The decision difficulty manipulation influenced decision uncertainty (*F*(3, 192) = 36.52, *p* \< .001). Participants in the difficult -- two conflicting goals condition (*M* = 5.76) perceived the decision as more uncertain than participants in the baseline - one goal conditions (*M*~prestige~ = 2.98, *M*~thrift~ = 3.23; (*F*(1, 192) = 91.93, *p \<* .001) and baseline -- no goal condition (*M* = 2.95; *F*(1, 192) = 77.38, *p* \< .001). The two baseline -- one goal conditions did not differ from each other (*F*(1, 192) = .56, *p* = .455), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 192) = .31, *p* = .58).
 
 A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the difficult condition was contrasted with the three baseline conditions. Decision uncertainty (95% CI: -1.01 to -.39, 5000 bootstraps) mediated the effect of decision difficulty on the number of options considered (H1a).
 
+**Assessment of decision process goal abandonment.** We ran a preregistered (<http://aspredicted.org/blind.php?x=pj4wi6>) ancillary study with 100 participants to assess whether participants abandoned the maximize accuracy goal when they experienced decision difficulty (relative to baseline). We used a 2 (decision difficulty: two conflicting goals \[prestige and thrift\], baseline -- no goal) x 2 (product replicate: vacation package, car) mixed-design with the experiment 3a procedure. After each choice task, we measured the extent to which participants tried to maximize accuracy during the \[replicate\] search process, as well as the extent to which they gave up on maximizing accuracy during the \[replicate\] search process (1 = not at all, 9 = very much).
 
-**Assessment of decision process goal abandonment.** We ran a preregistered (http://aspredicted.org/blind.php?x=pj4wi6) ancillary study with 100 participants to assess whether participants abandoned the maximize accuracy goal when they experienced decision difficulty (relative to baseline). We used a 2 (decision difficulty: two conflicting goals [prestige and thrift], baseline – no goal) x 2 (product replicate: vacation package, car) mixed-design with the experiment 3a procedure. After each choice task, we measured the extent to which participants tried to maximize accuracy during the [replicate] search process, as well as the extent to which they gave up on maximizing accuracy during the [replicate] search process (1 = not at all, 9 = very much).
+As predicted, participants in the decision difficulty condition tried to maximize accuracy (*M* = 7.49) to the same extent as participants in the baseline condition (*M* = 7.38; *F*(1, 98) = .20, *p* = .66). In addition, for the abandonment measure (*M* = 3.40, t-test against the mid-point: *t*(99) = -8.44, *p* \< .001), participants in the decision difficulty condition reported giving up on maximize accuracy (*M* = 3.56) to the same extent as participants in the baseline condition (*M* = 3.23; *F*(1, 98) = .75, *p* = .39). These results suggest that participants did not abandon the maximize accuracy goal when they experienced decision difficulty.
 
-As predicted, participants in the decision difficulty condition tried to maximize accuracy (M = 7.49) to the same extent as participants in the baseline condition (M = 7.38; F(1, 98) = .20, p = .66). In addition, for the abandonment measure (M = 3.40, t-test against the mid-point: t(99) = -8.44, p < .001), participants in the decision difficulty condition reported giving up on maximize accuracy (M = 3.56) to the same extent as participants in the baseline condition (M = 3.23; F(1, 98) = .75, p = .39). These results suggest that participants did not abandon the maximize accuracy goal when they experienced decision difficulty.
+**Experiment 3b Results: Minimize Effort Goal**
 
+**Manipulation checks.** Perceived decision difficulty was higher in the difficult -- two conflicting goals condition (*M* = 4.77, *SD* = 2.08) than in the baseline - one goal conditions (*M*~prestige~ = 3.17, *SD*~prestige~ = 1.70; *M*~thrift~ = 3.02, *SD*~thrift~ = 1.52; (*F*(1, 200) = 29.66, *p \<* .001, $\widehat{\omega}$~p~^2^ = .12) and baseline -- no goal condition (*M* = 3.28, *SD* = 1.73; *F*(1, 200) = 18.70, *p* \< .001, $\widehat{\omega}$~p~^2^ = .08) (see MDA H).
 
-### Experiment 3b Results: Minimize Effort Goal
+**Number of options considered***.* The decision difficulty manipulation significantly influenced the number of options considered (*F*(3, 200) = 4.02, *p* = .008,$\ \widehat{\omega}$~p~^2^ = .04; see figure 4). Participants in the difficult -- two conflicting goals condition (*M* = 5.64) considered more options than participants in the baseline - one goal conditions (*M*~prestige~ = 4.01, *M*~thrift~ = 3.78; (*F*(1, 200) = 11.63, *p =* .001,$\ \widehat{\omega}$~p~^2^ = .05) and baseline -- no goal condition (*M* = 4.24; *F*(1, 200) = 5.97, *p* = .015,$\ \widehat{\omega}$~p~^2^ = .02). The two baseline -- one goal conditions did not differ from each other (*F*(1, 200) = .15, *p* = .70), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 200) = .49, *p* = .48).
 
+**Mediation analysis**. The decision difficulty manipulation significantly influenced decision uncertainty (*F*(3, 200) = 13.88, *p* \< .001). Participants in the difficult -- two conflicting goals condition (*M* = 5.27) perceived the decision as more uncertain than participants in the baseline - one goal conditions (*M*~prestige~ = 3.30, *M*~thrift~ = 3.47; *F*(1, 200) = 39.02, *p* \< .001) and baseline -- no goal condition (*M* = 3.59; *F*(1, 200) = 24.70, *p* \< .001). The two baseline -- one goal conditions did not differ from each other (*F*(1, 200) = .25, *p* = .62), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 200) = .51, *p* = .48).
 
-**Manipulation checks.** Perceived decision difficulty was higher in the difficult – two conflicting goals condition (M = 4.77, SD = 2.08) than in the baseline - one goal conditions (Mprestige = 3.17, SDprestige = 1.70; Mthrift = 3.02, SDthrift = 1.52; (F(1, 200) = 29.66, p < .001, ω̂²_p = .12) and baseline – no goal condition (M = 3.28, SD = 1.73; F(1, 200) = 18.70, p < .001, ω̂²_p = .08) (see Appendix S1: MDA H).
+A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the difficult -- two conflicting goals condition was contrasted with the three baseline conditions. Decision uncertainty (95% CI: .09 to .33, 5000 bootstraps) mediated the effect of decision difficulty on the number of options considered (H2a).
 
+**Assessment of decision process goal abandonment.** We ran a preregistered (<http://aspredicted.org/blind.php?x=n8kv6w>) ancillary study with 100 participants to assess whether participants abandon the minimize effort decision process goal when they experience decision difficulty. This ancillary study was identical to that of experiment 3a except that a minimize effort decision process goal was used.
 
-**Number of options considered.** The decision difficulty manipulation significantly influenced the number of options considered (F(3, 200) = 4.02, p = .008,ω̂²_p = .04; see Figure 4). Participants in the difficult – two conflicting goals condition (M = 5.64) considered more options than participants in the baseline - one goal conditions (Mprestige = 4.01, Mthrift = 3.78; (F(1, 200) = 11.63, p = .001,ω̂²_p = .05) and baseline – no goal condition (M = 4.24; F(1, 200) = 5.97, p = .015,ω̂²_p = .02). The two baseline – one goal conditions did not differ from each other (F(1, 200) = .15, p = .70), and these two conditions did not differ from the baseline – no goal condition (F(1, 200) = .49, p = .48).
+As predicted, participants in the decision difficulty condition tried to minimize effort (*M* = 6.06) to the same extent as participants in the baseline condition (*M* = 6.11; *F*(1, 98) = .01, *p* = .91). In addition, for the abandonment measure (*M* = 3.83, t-test against the mid-point: *t*(99) = -5.68, *p* \< .001), participants in the decision difficulty condition reported giving up on minimizing effort (*M* = 3.93) to the same extent as participants in the baseline condition (*M* = 3.73; *F*(1, 98) = .23, *p* = .63). These results suggest that participants did not abandon the minimize effort goal when they experienced decision difficulty.
 
-
-**Mediation analysis.** The decision difficulty manipulation significantly influenced decision uncertainty (F(3, 200) = 13.88, p < .001). Participants in the difficult – two conflicting goals condition (M = 5.27) perceived the decision as more uncertain than participants in the baseline - one goal conditions (Mprestige = 3.30, Mthrift = 3.47; F(1, 200) = 39.02, p < .001) and baseline – no goal condition (M = 3.59; F(1, 200) = 24.70, p < .001). The two baseline – one goal conditions did not differ from each other (F(1, 200) = .25, p = .62), and these two conditions did not differ from the baseline – no goal condition (F(1, 200) = .51, p = .48).
-
-A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the difficult – two conflicting goals condition was contrasted with the three baseline conditions. Decision uncertainty (95% CI: .09 to .33, 5000 bootstraps) mediated the effect of decision difficulty on the number of options considered (H2a).
-
-
-**Assessment of decision process goal abandonment.** We ran a preregistered (http://aspredicted.org/blind.php?x=n8kv6w) ancillary study with 100 participants to assess whether participants abandon the minimize effort decision process goal when they experience decision difficulty. This ancillary study was identical to that of experiment 3a except that a minimize effort decision process goal was used.
-
-As predicted, participants in the decision difficulty condition tried to minimize effort (M = 6.06) to the same extent as participants in the baseline condition (M = 6.11; F(1, 98) = .01, p = .91). In addition, for the abandonment measure (M = 3.83, t-test against the mid-point: t(99) = -5.68, p < .001), participants in the decision difficulty condition reported giving up on minimizing effort (M = 3.93) to the same extent as participants in the baseline condition (M = 3.73; F(1, 98) = .23, p = .63). These results suggest that participants did not abandon the minimize effort goal when they experienced decision difficulty.
-
-
-### Discussion
+**Discussion**
 
 There are three important results in experiments 3a and 3b. First, an increase in decision difficulty decreased the pursuit of a maximize accuracy (H1a) or minimize effort (H2a) goal because of increased decision uncertainty. Second, process accountability, outcome accountability, decision importance, and involvement with the choice task did not mediate the relationship between decision difficulty and search. Third, alternative operationalizations of the baseline control group did not differ from each other, supporting our prior conclusions about the consequences of increasing decision difficulty on search.
 
+**Experiments 4a and 4b**
 
-## Experiments 4a and 4b
+Experiments 4a and 4b were designed with three purposes in mind. First, we tested the idea that decision certainty mediated the relationship between decision ease and search (hypotheses 3a and 4a). Like experiment 2, we used complementary benefit goals to operationalize decision ease. Second, we wanted to provide evidence that decision ease was facilitating goal progress. To do this, we again included baseline -- one goal conditions. We reasoned that a single goal might be easier to process, but that two complementary goals would make a decision easier because there is more certainty that one is progressing toward an effort or accuracy goal. Finally, we again tested the four alternative explanations: process accountability, outcome accountability, decision importance, and involvement with the choice task. None of the alternative mediators accounted for the effect of decision ease on search (see MDA E for specific details, measures, and analyses).
 
-Experiments 4a and 4b were designed with three purposes in mind. First, we tested the idea that decision certainty mediated the relationship between decision ease and search (hypotheses 3a and 4a). Like experiment 2, we used complementary benefit goals to operationalize decision ease. Second, we wanted to provide evidence that decision ease was facilitating goal progress. To do this, we again included baseline – one goal conditions. We reasoned that a single goal might be easier to process, but that two complementary goals would make a decision easier because there is more certainty that one is progressing toward an effort or accuracy goal. Finally, we again tested the four alternative explanations: process accountability, outcome accountability, decision importance, and involvement with the choice task. None of the alternative mediators accounted for the effect of decision ease on search (see Appendix S1: MDA E for specific details, measures, and analyses).
-
-
-### Design and Method
+**Design and Method**
 
 The design and method for experiments 4a (maximize accuracy) and 4b (minimize effort) were identical except for the decision process goal. Thus, we discuss the procedures concurrently.
 
+**Participants and design***.* MTurk workers were paid \$1.20 to participate in experiments 4a (n = 248) and 4b (n = 420). The mixed-design was a 4 (decision ease: baseline - no goal vs. baseline - one goal \[prestige\] vs. baseline - one goal \[have fun\] vs. ease -- two complementary goals \[prestige and have fun\]) x 2 (product replicate: vacation package, car). Decision ease was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 4a (4b) pursued a maximize accuracy (minimize effort) goal.
 
-**Participants and design.** MTurk workers were paid $1.20 to participate in experiments 4a (n = 248) and 4b (n = 420). The mixed-design was a 4 (decision ease: baseline - no goal vs. baseline - one goal [prestige] vs. baseline - one goal [have fun] vs. ease – two complementary goals [prestige and have fun]) x 2 (product replicate: vacation package, car). Decision ease was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 4a (4b) pursued a maximize accuracy (minimize effort) goal.
+**Procedure***.* The procedure was similar to experiments 3a and 3b with two differences. First, we used complementary benefit goals (e.g., *prestige*, *have fun*) in the decision ease condition. Second, we reframed the manipulation check and mediating variables so that they made sense within the context of the study. We measured *decision ease* (*α*~4a~ = .94; *α*~4b~ = .94) rather than *decision difficulty* (as in experiments 3a and 3b) by flipping the scale endpoints: "very difficult/very easy," "very problematic/not problematic at all," "very complex/very simple," "very complicated/not complicated at all." We measured *decision certainty* (*α*~4a~ = .86; *α*~4b~ = .85) rather than *decision uncertainty* (as in experiments 3a and 3b) by rewording the scale statements: "I would describe myself as decisive during the car (vacation package) choice," "I was comfortable with the decision about the cars (vacation packages)," "I felt certain about what to choose" \[1 = Strongly Disagree, 9 = Strongly Agree\] (adapted from Kardes et al., 2007). The four alternative mediating processes were measured using the same items as were used in experiment 3. Please see MDA I for the analyses.
 
+**Experiment 4a Results: Maximize Accuracy Goal**
 
-**Procedure.** The procedure was similar to experiments 3a and 3b with two differences. First, we used complementary benefit goals (e.g., prestige, have fun) in the decision ease condition. Second, we reframed the manipulation check and mediating variables so that they made sense within the context of the study. We measured decision ease (α4a = .94; α4b = .94) rather than decision difficulty (as in experiments 3a and 3b) by flipping the scale endpoints: “very difficult/very easy,” “very problematic/not problematic at all,” “very complex/very simple,” “very complicated/not complicated at all.” We measured decision certainty (α4a = .86; α4b = .85) rather than decision uncertainty (as in experiments 3a and 3b) by rewording the scale statements: “I would describe myself as decisive during the car (vacation package) choice,” “I was comfortable with the decision about the cars (vacation packages),” “I felt certain about what to choose” [1 = Strongly Disagree, 9 = Strongly Agree] (adapted from Kardes et al., 2007). The four alternative mediating processes were measured using the same items as were used in experiment 3. Please see Appendix S1: MDA I for the analyses.
+**Manipulation checks.** Perceived decision ease was higher in the ease -- two complementary goals condition (*M* = 7.21, *SD* = 1.38) than in the baseline - one goal conditions (*M*~prestige~ = 6.76, *SD*~prestige~ = 1.37; *M*~fun~ = 6.69, *SD*~fun~ = 1.34; *F*(1, 244) = 4.71, *p* = .031, $\widehat{\omega}$~p~^2^ = .01) or baseline -- no goal condition (*M* = 6.39, *SD* = 1.65; *F*(1, 244) = 9.97, *p* = .002, $\widehat{\omega}$~p~^2^ = .04) (see MDA I).
 
+**Number of options considered***.* The decision ease manipulation significantly influenced the number of options considered (*F*(3, 244) = 3.66, *p* = .013,$\ \widehat{\omega}$~p~^2^ = .03; see figure 5). Participants in the ease -- two complementary goals condition (*M* = 9.90) considered more options than participants in the baseline - one goal conditions (*M*~prestige~ = 8.69, *M*~fun~ = 8.54; (*F*(1, 244) = 4.52, *p* = .035,$\ \widehat{\omega}$~p~^2^ = .01) or baseline -- no goal condition (*M* = 7.59; *F*(1, 244) = 10.84, *p* = .001,$\ \widehat{\omega}$~p~^2^ = .04). The two baseline -- one goal conditions did not differ from each other (*F*(1, 244) = .05, *p* = .83), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 244) = 2.85, *p* = .093).
 
-### Experiment 4a Results: Maximize Accuracy Goal
+**Mediation analysis**. The decision ease manipulation significantly influenced decision certainty (*F*(3, 244) = 6.11, *p* = .001). Participants in the ease -- two complementary goals condition (*M* = 7.62) were more certain than participants in the baseline - one goal conditions (*M*~prestige~ = 6.99, *M*~fun~ = 7.27; *F*(1, 244) = 7.09, *p* = .008) or baseline - no goal condition (*M* = 6.76; *F*(1, 244) = 16.30, *p* \< .001). The two baseline -- one goal conditions did not differ from each other (*F*(1, 244) = 1.85, *p* = .18). Participants in the baseline - one goal conditions (*M*~prestige~ = 6.99; *M*~fun~ = 7.27) were more certain than participants in the baseline -- no goal condition (*M* = 6.76; *F*(1, 244) = 4.06, *p* = .045). This effect was unexpected.
 
+A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the baseline -- two complementary benefit goals condition was contrasted with the three baseline conditions. Decision certainty mediated (95% CI: .02 to .15, 5000 bootstraps) the relationship between decision ease and search (H3a).
 
-**Manipulation checks.** Perceived decision ease was higher in the ease – two complementary goals condition (M = 7.21, SD = 1.38) than in the baseline - one goal conditions (Mprestige = 6.76, SDprestige = 1.37; Mfun = 6.69, SDfun = 1.34; F(1, 244) = 4.71, p = .031, ω̂²_p = .01) or baseline – no goal condition (M = 6.39, SD = 1.65; F(1, 244) = 9.97, p = .002, ω̂²_p = .04) (see Appendix S1: MDA I).
+**Experiment 4b Results: Minimize Effort Goal**
 
+**Manipulation checks.** Perceived decision ease was higher in the ease -- two complementary goals condition (*M* = 7.77, *SD* = 1.08) than in the baseline - one goal conditions (*M*~prestige~ = 7.06, *SD*~prestige~ = 1.50; *M*~fun~ = 7.24, *SD*~fun~ = 1.46; *F*(1, 416) = 14.47, *p \<* .001, $\widehat{\omega}$~p~^2^ = .03) or baseline -- no goal condition (*M* = 7.25, *SD* = 1.41; *F*(1, 416) = 7.62, *p* = .006, $\widehat{\omega}$~p~^2^ = .02) (see MDA I).
 
-**Number of options considered.** The decision ease manipulation significantly influenced the number of options considered (F(3, 244) = 3.66, p = .013,ω̂²_p = .03; see Figure 5). Participants in the ease – two complementary goals condition (M = 9.90) considered more options than participants in the baseline - one goal conditions (Mprestige = 8.69, Mfun = 8.54; (F(1, 244) = 4.52, p = .035,ω̂²_p = .01) or baseline – no goal condition (M = 7.59; F(1, 244) = 10.84, p = .001,ω̂²_p = .04). The two baseline – one goal conditions did not differ from each other (F(1, 244) = .05, p = .83), and these two conditions did not differ from the baseline – no goal condition (F(1, 244) = 2.85, p = .093).
+**Number of options considered***.* The decision ease manipulation significantly influenced the number of options considered (*F*(3, 416) = 3.13, *p* = .025,$\ \widehat{\omega}$~p~^2^ = .01; see figure 5). Participants in the ease -- two complementary goals condition (*M* = 3.52) considered fewer options than participants in the baseline - one goal conditions (*M*~prestige~ = 4.13, *M*~fun~ = 4.23; (*F*(1, 416) = 4.84, *p* = .028,$\ \widehat{\omega}$~p~^2^ = .01) or baseline -- no goal condition (*M* = 4.56; *F*(1, 416) = 8.95, *p* = .003,$\ \widehat{\omega}$~p~^2^ = .02). The two baseline -- one goal conditions did not differ from each other (*F*(1, 416) = .07, *p* = .79), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 416) = 1.57, *p* = .21).
 
+**Mediation analysis**. The decision ease manipulation significantly influenced decision certainty (*F*(3, 416) = 2.86, *p* = .037). Participants in the ease -- two complementary goals condition (*M* = 7.47) were more certain than participants in the baseline - one goal conditions (*M*~prestige~ = 7.12, *M*~fun~ = 7.02; *F*(1, 416) = 6.73, *p* = .013) or baseline -- no goal condition (*M* = 6.99; *F*(1, 416) = 6.73, *p =* .01). The two baseline -- one goal conditions did not differ from each other (*F*(1, 416) = .29, *p* = .59), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 416) = .26, *p* = .61).
 
-**Mediation analysis.** The decision ease manipulation significantly influenced decision certainty (F(3, 244) = 6.11, p = .001). Participants in the ease – two complementary goals condition (M = 7.62) were more certain than participants in the baseline - one goal conditions (Mprestige = 6.99, Mfun = 7.27; F(1, 244) = 7.09, p = .008) or baseline - no goal condition (M = 6.76; F(1, 244) = 16.30, p < .001). The two baseline – one goal conditions did not differ from each other (F(1, 244) = 1.85, p = .18). Participants in the baseline - one goal conditions (Mprestige = 6.99; Mfun = 7.27) were more certain than participants in the baseline – no goal condition (M = 6.76; F(1, 244) = 4.06, p = .045). This effect was unexpected.
+A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the ease -- two complementary benefit goals condition was contrasted with the three baseline conditions. Decision certainty (95% CI: -.09 to -.01, 5000 bootstraps) mediated the relationship between decision ease and search (H4a).
 
-A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the baseline – two complementary benefit goals condition was contrasted with the three baseline conditions. Decision certainty mediated (95% CI: .02 to .15, 5000 bootstraps) the relationship between decision ease and search (H3a).
-
-
-### Experiment 4b Results: Minimize Effort Goal
-
-
-**Manipulation checks.** Perceived decision ease was higher in the ease – two complementary goals condition (M = 7.77, SD = 1.08) than in the baseline - one goal conditions (Mprestige = 7.06, SDprestige = 1.50; Mfun = 7.24, SDfun = 1.46; F(1, 416) = 14.47, p < .001, ω̂²_p = .03) or baseline – no goal condition (M = 7.25, SD = 1.41; F(1, 416) = 7.62, p = .006, ω̂²_p = .02) (see Appendix S1: MDA I).
-
-
-**Number of options considered.** The decision ease manipulation significantly influenced the number of options considered (F(3, 416) = 3.13, p = .025,ω̂²_p = .01; see Figure 5). Participants in the ease – two complementary goals condition (M = 3.52) considered fewer options than participants in the baseline - one goal conditions (Mprestige = 4.13, Mfun = 4.23; (F(1, 416) = 4.84, p = .028,ω̂²_p = .01) or baseline – no goal condition (M = 4.56; F(1, 416) = 8.95, p = .003,ω̂²_p = .02). The two baseline – one goal conditions did not differ from each other (F(1, 416) = .07, p = .79), and these two conditions did not differ from the baseline – no goal condition (F(1, 416) = 1.57, p = .21).
-
-
-**Mediation analysis.** The decision ease manipulation significantly influenced decision certainty (F(3, 416) = 2.86, p = .037). Participants in the ease – two complementary goals condition (M = 7.47) were more certain than participants in the baseline - one goal conditions (Mprestige = 7.12, Mfun = 7.02; F(1, 416) = 6.73, p = .013) or baseline – no goal condition (M = 6.99; F(1, 416) = 6.73, p = .01). The two baseline – one goal conditions did not differ from each other (F(1, 416) = .29, p = .59), and these two conditions did not differ from the baseline – no goal condition (F(1, 416) = .26, p = .61).
-
-A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the ease – two complementary benefit goals condition was contrasted with the three baseline conditions. Decision certainty (95% CI: -.09 to -.01, 5000 bootstraps) mediated the relationship between decision ease and search (H4a).
-
-
-### Discussion
+**Discussion**
 
 There are three important results in experiments 4a and 4b. First, an increase in decision ease increased the pursuit of a maximize accuracy (H3a) or minimize effort (H4a) goal because of increased decision certainty. Second, there was not a decision ease effect when the baseline condition was a single benefit goal, suggesting that goal progress owing to the guidance created by the complementary benefit goals is the source of the change in search behavior. Third, process accountability, outcome accountability, decision importance, and involvement with the choice task did not mediate the relationship between decision ease and search.
 
+**Experiment 5**
 
-## Experiment 5
+Experiment 5 (preregistration: <http://aspredicted.org/blind.php?x=kn9ua8>) was designed with four purposes in mind. First, we used an alternative manipulation of decision difficulty/ ease: the amount of information per alternative (Jacoby, Speller, & Kohn, 1974; Malhotra, 1982; Payne, 1976). This manipulation allows us to show H1 to H4 generalize to situations where the decision environment, rather than a person's benefit goals, determine decision difficulty/ease. Second, we add two baseline control groups: one in the decision process goal factor (a baseline - no process goal group) and another in the amount of information factor (a moderate amount of information group). This allows us to assess how a maximize accuracy (or minimize effort) decision process goal behaves relative to a baseline condition, as well as how decision difficulty (and decision ease) influences a decision relative to a moderately difficult baseline condition. Third, we investigate decision difficulty/ease and the mediating role of decision uncertainty in the same study. Finally, the baseline decision process goal allows us to confirm that the decision uncertainty mediator is germane to deliberately pursued process goals. If our reasoning is correct (H1a to H4a), decision uncertainty should mediate the relationship between difficulty/ease and search when the maximize accuracy and minimize effort goals are deliberately pursued, but not when no decision process goal has been made active (baseline condition).
 
-Experiment 5 (preregistration: http://aspredicted.org/blind.php?x=kn9ua8) was designed with four purposes in mind. First, we used an alternative manipulation of decision difficulty/ ease: the amount of information per alternative (Jacoby, Speller, & Kohn, 1974; Malhotra, 1982; Payne, 1976). This manipulation allows us to show H1 to H4 generalize to situations where the decision environment, rather than a person’s benefit goals, determine decision difficulty/ease. Second, we add two baseline control groups: one in the decision process goal factor (a baseline - no process goal group) and another in the amount of information factor (a moderate amount of information group). This allows us to assess how a maximize accuracy (or minimize effort) decision process goal behaves relative to a baseline condition, as well as how decision difficulty (and decision ease) influences a decision relative to a moderately difficult baseline condition. Third, we investigate decision difficulty/ease and the mediating role of decision uncertainty in the same study. Finally, the baseline decision process goal allows us to confirm that the decision uncertainty mediator is germane to deliberately pursued process goals. If our reasoning is correct (H1a to H4a), decision uncertainty should mediate the relationship between difficulty/ease and search when the maximize accuracy and minimize effort goals are deliberately pursued, but not when no decision process goal has been made active (baseline condition).
+**Method**
 
+**Participants and design.** Participants were 540 MTurk workers who were paid \$1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 3 (decision difficulty: easy vs. moderate vs. difficult) between-subjects design. As in experiment 1, the dependent measures were the number of options considered, choice of the best option considered, and use of a satisficing strategy -- choice of the last option considered. These measures were assessed in an incentive-compatible choice task. Participants made a movie choice and entered a random drawing for the opportunity to receive a code to redeem the movie.
 
-### Method
+**Procedure.** Participants were told they would take part in a series of studies about how consumers make choices. As in the previous experiments, participants engaged in a sequential search task training procedure (MDA A), followed by the decision process goal manipulation. In the maximize accuracy (minimize effort) goal conditions, we used the manipulations from our previous experiments. In the baseline decision process goal condition, participants wrote about a recent purchase experience (see MDA B for exact wording). We anticipated that writing about a recent purchase experience would not systematically activate a specific decision process goal. Next, participants were directed to the choice task.
 
+The decision difficulty manipulation (i.e., the amount of information per alternative), described in detail below, was administered during the choice task. We told participants there were 25 movie options, and that they would search through them, one by one, to make a choice. As in the previous experiments, participants saw two options and a third box providing an opportunity to see another option. Each time the participant clicked the "Look at another option" button, a new option would appear, along with the previously displayed options. We told participants they would enter a random drawing for a chance to win their selected movie, so they were aware that the choice task was consequential. The options were pretested to be similarly attractive. Please see the MDA J for choice shares per condition and additional information.
 
-**Participants and design.** Participants were 540 MTurk workers who were paid $1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 3 (decision difficulty: easy vs. moderate vs. difficult) between-subjects design. As in experiment 1, the dependent measures were the number of options considered, choice of the best option considered, and use of a satisficing strategy – choice of the last option considered. These measures were assessed in an incentive-compatible choice task. Participants made a movie choice and entered a random drawing for the opportunity to receive a code to redeem the movie.
+In the easy condition, the movie options were described using four pieces of information: title, movie poster, genre, and length. In the moderate condition, the movie options were described using seven pieces of information: title, poster, genre, length, release year, MPAA rating, and a short description of the movie (1 to 2 sentences). In the difficult condition, the movie options were described using 15 pieces of information: title, poster, genre, length, release date, MPAA rating, IMDb rating, Google users rating, Rotten Tomatoes rating, Metacritic rating, box office, budget, director, streaming platforms available, and a long description with 3 to 5 sentences (see MDA D for the stimuli for each level of decision difficulty). These manipulations were based on research showing that the greater the information load/number of attributes, the more difficult the decision (Broniarczyk & Griffin, 2014). Once data collection was finished, we contacted ten participants (randomly selected) to discuss the delivery of their chosen movie.
 
+After the choice task, we measured the manipulation checks, mediator, and alternative hypotheses. The decision difficulty manipulation check was the four-item scale from our previous experiments (*α* *=* .91, Laroche et al., 2005). The decision process goal manipulation checks were a 9-point accuracy item (1 = not at all focused, 9 = very focused) and a 9-point effort item (1 = not at all focused, 9 = very focused) from our previous experiments. The decision uncertainty mediator was the same three-item scale from our previous experiments (*α* *=* .89, Kardes et al., 2007). In addition, participants were also asked to rank order the 25 movie options from best to worst (used in the choice quality analysis). Finally, to assess decision process goal abandonment, we asked participants: "To what extent were you trying to maximize accuracy (minimize effort) during the movie search process?" (1 = not at all, 9 = very much), and "To what extent did you give up on maximizing accuracy (minimizing effort) during the movie search process?" (1 = not at all, 9 = very much).
 
-**Procedure.** Participants were told they would take part in a series of studies about how consumers make choices. As in the previous experiments, participants engaged in a sequential search task training procedure (MDA A), followed by the decision process goal manipulation. In the maximize accuracy (minimize effort) goal conditions, we used the manipulations from our previous experiments. In the baseline decision process goal condition, participants wrote about a recent purchase experience (see Appendix S1: MDA B for exact wording). We anticipated that writing about a recent purchase experience would not systematically activate a specific decision process goal. Next, participants were directed to the choice task.
+**Results**
 
-The decision difficulty manipulation (i.e., the amount of information per alternative), described in detail below, was administered during the choice task. We told participants there were 25 movie options, and that they would search through them, one by one, to make a choice. As in the previous experiments, participants saw two options and a third box providing an opportunity to see another option. Each time the participant clicked the “Look at another option” button, a new option would appear, along with the previously displayed options. We told participants they would enter a random drawing for a chance to win their selected movie, so they were aware that the choice task was consequential. The options were pretested to be similarly attractive. Please see the Appendix S1: MDA J for choice shares per condition and additional information.
+**Manipulation checks.** The manipulation checks were successful (see MDA J).
 
-In the easy condition, the movie options were described using four pieces of information: title, movie poster, genre, and length. In the moderate condition, the movie options were described using seven pieces of information: title, poster, genre, length, release year, MPAA rating, and a short description of the movie (1 to 2 sentences). In the difficult condition, the movie options were described using 15 pieces of information: title, poster, genre, length, release date, MPAA rating, IMDb rating, Google users rating, Rotten Tomatoes rating, Metacritic rating, box office, budget, director, streaming platforms available, and a long description with 3 to 5 sentences (see Appendix S1: MDA D for the stimuli for each level of decision difficulty). These manipulations were based on research showing that the greater the information load/number of attributes, the more difficult the decision (Broniarczyk & Griffin, 2014). Once data collection was finished, we contacted ten participants (randomly selected) to discuss the delivery of their chosen movie.
+**Number of options considered.** An ANOVA revealed significant main effects of the decision process goal (*F*(2, 531) = 22.07, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .07) and decision difficulty (*F*(2, 531) = 5.45, *p* = .005,$\ \widehat{\omega}$~p~^2^ = .02) factors. These effects were qualified by the predicted decision process goal by decision difficulty interaction (*F*(4, 531) = 16.41, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .10; see figure 6). Consistent with hypothesis 1, participants in the maximize accuracy - difficult condition (*M* = 8.92) considered fewer options than participants in the moderate condition (*M* = 12.10; *F*(1, 531) = 5.81, *p* = .016,$\ \widehat{\omega}$~p~^2^ = .01). Consistent with hypothesis 3, participants in the maximize accuracy -- easy condition (*M* = 16.52) considered more options than participants in the moderate condition (*M* = 12.10; *F*(1, 531) = 11.19, *p* = .001,$\ \widehat{\omega}$~p~^2^ = .02).
 
-After the choice task, we measured the manipulation checks, mediator, and alternative hypotheses. The decision difficulty manipulation check was the four-item scale from our previous experiments (α = .91, Laroche et al., 2005). The decision process goal manipulation checks were a 9-point accuracy item (1 = not at all focused, 9 = very focused) and a 9-point effort item (1 = not at all focused, 9 = very focused) from our previous experiments. The decision uncertainty mediator was the same three-item scale from our previous experiments (α = .89, Kardes et al., 2007). In addition, participants were also asked to rank order the 25 movie options from best to worst (used in the choice quality analysis). Finally, to assess decision process goal abandonment, we asked participants: “To what extent were you trying to maximize accuracy (minimize effort) during the movie search process?” (1 = not at all, 9 = very much), and “To what extent did you give up on maximizing accuracy (minimizing effort) during the movie search process?” (1 = not at all, 9 = very much).
+A similar pattern of results emerged for the baseline decision process goal condition. Consistent with constructive choice theory, participants in the baseline - difficult condition (*M* = 6.41) considered fewer options than participants in the moderate condition (*M* = 9.32; *F*(1, 531) = 4.82, *p* = .029,$\ \widehat{\omega}$~p~^2^ = .01). Participants in the baseline -- easy condition considered more options (*M* = 12.48) than participants in the moderate condition (*M* = 9.32; (*F*(1, 531) = 5.77, *p* = .017,$\ \widehat{\omega}$~p~^2^ = .01).
 
+A different pattern of results emerged in the minimize effort goal condition. Consistent with hypothesis 2, participants in the minimize effort - difficult condition (*M* = 10.61) considered more options than participants in the moderate condition (*M* = 7.45; *F*(1, 531) = 5.68, *p* = .017,$\ \widehat{\omega}$~p~^2^ = .01). Consistent with hypothesis 4, participants in the minimize effort -- easy condition (*M* = 4.43) considered fewer options than participants in the moderate condition (*M* = 7.45; *F*(1, 531) = 5.29, *p* = .022,$\ \widehat{\omega}$~p~^2^ = .01).
 
-### Results
+**Mediation analysis.** The decision difficulty manipulation influenced decision uncertainty (*F*(2, 531) = 58.93, *p* \< .001). Participants in the difficult condition (*M* = 5.89) perceived the decision as more uncertain than participants in the moderate condition (*M* = 4.44; *F*(1, 531) = 43.85, *p* \< .001). In addition, participants in the moderate condition (*M* = 4.44) perceived the decision to be more uncertain than participants easy condition (*M* = 3.55; *F*(1, 531) = 17.14, *p* \< .001). Thus, the higher the difficulty, the more uncertain the decision.
 
+A mediation analysis was conducted using PROCESS model 15 (Hayes 2018), which is a moderated mediation model (similar to model 8). In this model, the moderator influences the indirect path post-mediator. Since our predictor variable was categorical with three levels, we used effects coding in order to discern the effects of decision difficulty and decision ease relative to the moderate difficulty condition (Hayes, 2018; Hayes & Preacher, 2014). Specifically, the mediation analysis assessed if the effect of decision difficulty/ease (relative to moderate difficulty -- the reference category) on search (as indicated by the number of options considered) was driven by decision uncertainty and moderated by the decision process goal. The index of moderated mediation was significant (*Index* = 1.36, 95% CI: .87 to 1.89, 5000 bootstraps).
 
-**Manipulation checks.** The manipulation checks were successful (see Appendix S1: MDA J).
+We initially compared the decision difficulty to the moderate decision difficulty condition. Consistent with our predictions, the indirect effect was negative for maximize accuracy participants (*ab* = -1.72, 95% CI: -2.46 to -1.00), suggesting that decision difficulty (relative to moderate difficulty) increased decision uncertainty, which in turn decreased the number of options considered (H1a). For minimize effort participants, on the other hand, the indirect effect was positive (*ab* = 1.01, 95% CI: .54 to 1.53), suggesting that decision difficulty (relative to moderate difficulty) increased decision uncertainty, which in turn increased the number of options considered (H2a). These results are consistent with goal systems theory. In addition, the indirect effect was not significant for baseline decision process goal participants (ab = -.35, 95% CI: -.72 to. 03), providing further support for the idea that decision uncertainty mediates the relationship between decision difficulty and amount of search particularly when there are deliberately pursued maximize accuracy and minimize effort goals, but not in the case of baseline decision process goals (e.g., such as when they are naturally activated or below the conscious awareness level). In this latter case, information search is guided by the principles of constructive choice theory.
 
+Then we compared the decision ease with the moderate decision difficulty condition. Consistent with our predictions, the indirect effect was positive for maximize accuracy participants (*ab* = 1.47, 95% CI: .84 to 2.15), suggesting that decision ease (relative to moderate difficulty) decreased decision uncertainty, which in turn increased the number of options considered (H3a). For minimize effort participants, on the other hand, the indirect effect was negative (*ab* = -.86, 95% CI: -1.33 to -.44), suggesting that decision ease (relative to moderate difficulty) decreased decision uncertainty, which in turn decreased the number of options considered (H4a). These results are consistent with goal systems theory. In addition, the indirect effect was not significant for baseline decision process goal participants (ab = .30, 95% CI: -.03 to. 61), again providing support for the idea that decision certainty mediates the relationship between decision ease and amount of search when there are deliberately pursued maximize accuracy and minimize effort goals, but not in the case of baseline decision process goals. In this latter case, information search is guided by the principles of constructive choice theory.
 
-**Number of options considered.** An ANOVA revealed significant main effects of the decision process goal (F(2, 531) = 22.07, p < .001,ω̂²_p = .07) and decision difficulty (F(2, 531) = 5.45, p = .005,ω̂²_p = .02) factors. These effects were qualified by the predicted decision process goal by decision difficulty interaction (F(4, 531) = 16.41, p < .001,ω̂²_p = .10; see Figure 6). Consistent with hypothesis 1, participants in the maximize accuracy - difficult condition (M = 8.92) considered fewer options than participants in the moderate condition (M = 12.10; F(1, 531) = 5.81, p = .016,ω̂²_p = .01). Consistent with hypothesis 3, participants in the maximize accuracy – easy condition (M = 16.52) considered more options than participants in the moderate condition (M = 12.10; F(1, 531) = 11.19, p = .001,ω̂²_p = .02).
+**Process evidence: choice quality and satisficing.** An analysis of choice quality and satisficing provided further support for the hypothesis that decision difficulty (ease) decreased (increased) the pursuit of the decision process goals. We used logistic regression with effects coding (the same scheme as in our mediation analysis) in order to discern the effects of decision difficulty and decision ease relative to the moderate difficulty condition for maximize accuracy and minimize effort goals (i.e., planned contrasts) (Hayes, 2018; Jaccard 2001). Consistent with our account, participants with a maximize accuracy goal were less likely to pick their best option in the difficult (*p*~difficulty~ = .40) than in the moderate condition (*p*~moderate~ = .62; β = -.94, Wald = -4.60, *p* \< .001). In addition, they were more likely to pick their best option in the easy (*p*~easy~ = .77) than in the moderate condition (*p*~moderate~ = .62; β = .93, Wald = 4.24, *p* \< .001). Participants with a minimize effort goal were less likely to pick the last option considered in the difficult condition (*p*~difficulty~ = .26) than in the moderate condition (*p*~moderate~ = .45; β = -.59, Wald = -2.57, *p* = .01). In addition, they were more likely to pick the last option considered in the easy (*p*~easy~ = .67) than in the moderate condition (*p*~moderate~ = .45; β = .64, Wald = 2.58, *p* \< .01).
 
-A similar pattern of results emerged for the baseline decision process goal condition. Consistent with constructive choice theory, participants in the baseline - difficult condition (M = 6.41) considered fewer options than participants in the moderate condition (M = 9.32; F(1, 531) = 4.82, p = .029,ω̂²_p = .01). Participants in the baseline – easy condition considered more options (M = 12.48) than participants in the moderate condition (M = 9.32; (F(1, 531) = 5.77, p = .017,ω̂²_p = .01).
+**Alternative explanations.** Recall that we collected measures to assess goal abandonment. The results showed that decision difficulty did not influence participants' perceptions of maximize accuracy \[minimize effort\] goal pursuit during search or perceptions of maximize accuracy \[minimize effort\] abandonment, suggesting that people did not disengage or abandon their decision process goals during information search. Please see MDA J for details.
 
-A different pattern of results emerged in the minimize effort goal condition. Consistent with hypothesis 2, participants in the minimize effort - difficult condition (M = 10.61) considered more options than participants in the moderate condition (M = 7.45; F(1, 531) = 5.68, p = .017,ω̂²_p = .01). Consistent with hypothesis 4, participants in the minimize effort – easy condition (M = 4.43) considered fewer options than participants in the moderate condition (M = 7.45; F(1, 531) = 5.29, p = .022,ω̂²_p = .01).
-
-
-**Mediation analysis.** The decision difficulty manipulation influenced decision uncertainty (F(2, 531) = 58.93, p < .001). Participants in the difficult condition (M = 5.89) perceived the decision as more uncertain than participants in the moderate condition (M = 4.44; F(1, 531) = 43.85, p < .001). In addition, participants in the moderate condition (M = 4.44) perceived the decision to be more uncertain than participants easy condition (M = 3.55; F(1, 531) = 17.14, p < .001). Thus, the higher the difficulty, the more uncertain the decision.
-
-A mediation analysis was conducted using PROCESS model 15 (Hayes 2018), which is a moderated mediation model (similar to model 8). In this model, the moderator influences the indirect path post-mediator. Since our predictor variable was categorical with three levels, we used effects coding in order to discern the effects of decision difficulty and decision ease relative to the moderate difficulty condition (Hayes, 2018; Hayes & Preacher, 2014). Specifically, the mediation analysis assessed if the effect of decision difficulty/ease (relative to moderate difficulty – the reference category) on search (as indicated by the number of options considered) was driven by decision uncertainty and moderated by the decision process goal. The index of moderated mediation was significant (Index = 1.36, 95% CI: .87 to 1.89, 5000 bootstraps).
-
-We initially compared the decision difficulty to the moderate decision difficulty condition. Consistent with our predictions, the indirect effect was negative for maximize accuracy participants (ab = -1.72, 95% CI: -2.46 to -1.00), suggesting that decision difficulty (relative to moderate difficulty) increased decision uncertainty, which in turn decreased the number of options considered (H1a). For minimize effort participants, on the other hand, the indirect effect was positive (ab = 1.01, 95% CI: .54 to 1.53), suggesting that decision difficulty (relative to moderate difficulty) increased decision uncertainty, which in turn increased the number of options considered (H2a). These results are consistent with goal systems theory. In addition, the indirect effect was not significant for baseline decision process goal participants (ab = -.35, 95% CI: -.72 to. 03), providing further support for the idea that decision uncertainty mediates the relationship between decision difficulty and amount of search particularly when there are deliberately pursued maximize accuracy and minimize effort goals, but not in the case of baseline decision process goals (e.g., such as when they are naturally activated or below the conscious awareness level). In this latter case, information search is guided by the principles of constructive choice theory.
-
-Then we compared the decision ease with the moderate decision difficulty condition. Consistent with our predictions, the indirect effect was positive for maximize accuracy participants (ab = 1.47, 95% CI: .84 to 2.15), suggesting that decision ease (relative to moderate difficulty) decreased decision uncertainty, which in turn increased the number of options considered (H3a). For minimize effort participants, on the other hand, the indirect effect was negative (ab = -.86, 95% CI: -1.33 to -.44), suggesting that decision ease (relative to moderate difficulty) decreased decision uncertainty, which in turn decreased the number of options considered (H4a). These results are consistent with goal systems theory. In addition, the indirect effect was not significant for baseline decision process goal participants (ab = .30, 95% CI: -.03 to. 61), again providing support for the idea that decision certainty mediates the relationship between decision ease and amount of search when there are deliberately pursued maximize accuracy and minimize effort goals, but not in the case of baseline decision process goals. In this latter case, information search is guided by the principles of constructive choice theory.
-
-
-**Process evidence:** choice quality and satisficing. An analysis of choice quality and satisficing provided further support for the hypothesis that decision difficulty (ease) decreased (increased) the pursuit of the decision process goals. We used logistic regression with effects coding (the same scheme as in our mediation analysis) in order to discern the effects of decision difficulty and decision ease relative to the moderate difficulty condition for maximize accuracy and minimize effort goals (i.e., planned contrasts) (Hayes, 2018; Jaccard 2001). Consistent with our account, participants with a maximize accuracy goal were less likely to pick their best option in the difficult (pdifficulty = .40) than in the moderate condition (pmoderate = .62; β = -.94, Wald = -4.60, p < .001). In addition, they were more likely to pick their best option in the easy (peasy = .77) than in the moderate condition (pmoderate = .62; β = .93, Wald = 4.24, p < .001). Participants with a minimize effort goal were less likely to pick the last option considered in the difficult condition (pdifficulty = .26) than in the moderate condition (pmoderate = .45; β = -.59, Wald = -2.57, p = .01). In addition, they were more likely to pick the last option considered in the easy (peasy = .67) than in the moderate condition (pmoderate = .45; β = .64, Wald = 2.58, p < .01).
-
-
-**Alternative explanations.** Recall that we collected measures to assess goal abandonment. The results showed that decision difficulty did not influence participants’ perceptions of maximize accuracy [minimize effort] goal pursuit during search or perceptions of maximize accuracy [minimize effort] abandonment, suggesting that people did not disengage or abandon their decision process goals during information search. Please see Appendix S1: MDA J for details.
-
-
-### Discussion
+**Discussion**
 
 Experiment 5 provides additional evidence that a deliberately pursued maximize accuracy or minimize effort goal is undermined (facilitated) by decision difficulty (decision ease). These effects were mediated by decision uncertainty. Decision uncertainty did not mediate the influence of decision difficulty on search in the baseline process goal condition. The implication is that the deliberate pursuit of effort and accuracy goals (maximize accuracy and minimize effort conditions) is different than when these goals are not deliberately pursued (baseline condition). The results provide additional evidence that the deliberately pursued decision process goals are not abandoned/disengaged from due to decision difficulty. Rather, decision difficulty/ease makes the pursuit of the maximize accuracy (minimizing effort) goal more difficult, resulting in less/more motivation to pursue the goal.
 
+**Experiment 6**
 
-## Experiment 6
-
-Maximize accuracy and minimize effort goals can guide search in accordance with goal systems theory predictions when one goal is deliberately pursued and, consequently, is relatively more accessible. In experiment 6 (preregistration: http://aspredicted.org/blind.php?x=rf4r72), we provided further evidence for this idea by creating contexts where decision process goals were allowed to vary in relative accessibility or encouraged to have similar accessibility. We manipulated decision process goals at three levels (maximize accuracy, baseline, and minimize effort). In addition, we employed a priming manipulation that made the trade-off between effort and accuracy salient, which should encourage similar accessibility of the goals, or not salient, which should allow for differences in the relative accessibility of the goals. Specifically, we asked participants to make an incentive compatible choice from either a large set (trade-off salient) or a small set (trade-off not salient) of options prior to a choice with a deliberate decision process goal. The target choice was difficult (options had negatively correlated attributes) or easy (options had positively correlated attributes) (Bettman et al., 1993; Johnson et al., 1989).
+Maximize accuracy and minimize effort goals can guide search in accordance with goal systems theory predictions when one goal is deliberately pursued and, consequently, is relatively more accessible. In experiment 6 (preregistration: <http://aspredicted.org/blind.php?x=rf4r72>), we provided further evidence for this idea by creating contexts where decision process goals were allowed to vary in relative accessibility or encouraged to have similar accessibility. We manipulated decision process goals at three levels (maximize accuracy, baseline, and minimize effort). In addition, we employed a priming manipulation that made the trade-off between effort and accuracy salient, which should encourage similar accessibility of the goals, or not salient, which should allow for differences in the relative accessibility of the goals. Specifically, we asked participants to make an incentive compatible choice from either a large set (trade-off salient) or a small set (trade-off not salient) of options prior to a choice with a deliberate decision process goal. The target choice was difficult (options had negatively correlated attributes) or easy (options had positively correlated attributes) (Bettman et al., 1993; Johnson et al., 1989).
 
 Consistent with Goodman & Malkoc (2012), we reasoned that the first choice should influence how people approach the target choice. Making an initial choice from a large choice set should prompt participants to consider the trade-off between the effort required to search, compare, and evaluate several options and the potential accuracy of the choice (i.e., choice quality). This should make the effort and accuracy goals similarly accessible in the target choice and engage processes consistent with the constructive choice model (i.e., effort and accuracy goals should compete). Alternatively, making an initial choice from a small choice set should make the effort-accuracy trade-off less salient. In this situation, the deliberately pursued decision process goal should be more accessible in the target choice and engage processes consistent with goal systems theory.
 
+**Method**
 
-### Method
+**Participants and design.** Participants were 600 members of MTurk who were paid \$1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 2 (decision difficulty: easy vs. difficult) x 2 (process goal accessibility prime: trade-off not salient vs trade-off salient) between-subjects design. The dependent measure was the number of options considered.
 
+**Procedure.** Participants were told they would take part in a series of studies about how consumers make choices. First, we manipulated process goal accessibility using an adaptation of Goodman's & Malkoc's procedure (2012, study 5). Participants were told they would review movies for streaming, select a movie, and enter a lottery with a 1% chance of winning a gift card to watch their chosen movie. Participants in the trade-off not salient condition made a choice from a pool of 8 movies. Participants in the trade-off salient condition made a choice from a pool of 50 movies. Please see MDA K for the exact stimuli for this manipulation.
 
-**Participants and design.** Participants were 600 members of MTurk who were paid $1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 2 (decision difficulty: easy vs. difficult) x 2 (process goal accessibility prime: trade-off not salient vs trade-off salient) between-subjects design. The dependent measure was the number of options considered.
+Next, as in the previous experiments, participants engaged in a sequential search task training procedure (MDA A), followed by the decision process goal manipulation (MDA B). We told participants there were 15 laptop options, and that they would search through them, one by one, to make a choice. Each laptop was described using the following attributes: laptop model, processor, memory, storage, GPU type, GPU card, battery life, screen size, resolution, and average review. The attributes were alignable across options (e.g., 8 hour vs. 3 hour battery life, 512GB SSD vs. 2TB SSD storage, 14" vs. 17" screen size, etc.). The correlation between attribute values was used to manipulate decision difficulty (Bettman et al., 1993; Johnson et al., 1989; Luce, 1998). In the easy condition, the laptops had positively correlated attribute levels such that the best-to-worst order was identical for each attribute, allowing for the fact that some attributes had fewer than 15 levels (e.g., the 7^th^ and 8^th^ ranked laptop could have the same level on an attribute). Hence, there were always objectively dominant and dominated options, regardless of the number and nature of options immediately available to the participant. In the difficult condition, the laptops had negatively correlated attribute levels. Hence, there were no objectively dominant or dominated options, regardless of the number and nature of options immediately available to the participant. Please see MDA D for the stimuli. The choice shares are reported in MDA K.
 
+After the choice task, we measured the manipulation checks, mediator, and alternative hypotheses. Decision difficulty (*α* *=* .95), the decision process goal manipulation checks, decision uncertainty (*α* *=* .82), and goal abandonment/disengagement were measured using the same measures from the previous experiments. In addition, we measured the extent to which participants focused on the effort-accuracy tradeoff during search (*α =* .78) using three items: "To which extent did you try to balance between maximizing accuracy and minimizing effort during the laptop search process?", "To which extent did you focus on the trade-off between maximizing accuracy and minimizing effort during the laptop search process?", and "To which extent did you consider the trade-off between searching for the best option available and searching for an option that was good enough?" (1 = not at all, 9 = very much).
 
-**Procedure.** Participants were told they would take part in a series of studies about how consumers make choices. First, we manipulated process goal accessibility using an adaptation of Goodman’s & Malkoc’s procedure (2012, study 5). Participants were told they would review movies for streaming, select a movie, and enter a lottery with a 1% chance of winning a gift card to watch their chosen movie. Participants in the trade-off not salient condition made a choice from a pool of 8 movies. Participants in the trade-off salient condition made a choice from a pool of 50 movies. Please see Appendix S1: MDA K for the exact stimuli for this manipulation.
+**Results**
 
-Next, as in the previous experiments, participants engaged in a sequential search task training procedure (MDA A), followed by the decision process goal manipulation (MDA B). We told participants there were 15 laptop options, and that they would search through them, one by one, to make a choice. Each laptop was described using the following attributes: laptop model, processor, memory, storage, GPU type, GPU card, battery life, screen size, resolution, and average review. The attributes were alignable across options (e.g., 8 hour vs. 3 hour battery life, 512GB SSD vs. 2TB SSD storage, 14” vs. 17” screen size, etc.). The correlation between attribute values was used to manipulate decision difficulty (Bettman et al., 1993; Johnson et al., 1989; Luce, 1998). In the easy condition, the laptops had positively correlated attribute levels such that the best-to-worst order was identical for each attribute, allowing for the fact that some attributes had fewer than 15 levels (e.g., the 7th and 8th ranked laptop could have the same level on an attribute). Hence, there were always objectively dominant and dominated options, regardless of the number and nature of options immediately available to the participant. In the difficult condition, the laptops had negatively correlated attribute levels. Hence, there were no objectively dominant or dominated options, regardless of the number and nature of options immediately available to the participant. Please see Appendix S1: MDA D for the stimuli. The choice shares are reported in MDA K.
+**Manipulation checks.** The manipulation checks were successful (see MDA K).
 
-After the choice task, we measured the manipulation checks, mediator, and alternative hypotheses. Decision difficulty (α = .95), the decision process goal manipulation checks, decision uncertainty (α = .82), and goal abandonment/disengagement were measured using the same measures from the previous experiments. In addition, we measured the extent to which participants focused on the effort-accuracy tradeoff during search (α = .78) using three items: “To which extent did you try to balance between maximizing accuracy and minimizing effort during the laptop search process?”, “To which extent did you focus on the trade-off between maximizing accuracy and minimizing effort during the laptop search process?”, and “To which extent did you consider the trade-off between searching for the best option available and searching for an option that was good enough?” (1 = not at all, 9 = very much).
+**Number of options considered.** There was a three-way interaction of decision process goal (maximize accuracy vs. baseline vs. minimize effort), decision difficulty (low vs. high), and the process goal accessibility prime (trade-off not salient vs. trade-off salient) on the number of options considered (*F*(2, 588) = 3.63, *p* = .027,$\ \widehat{\omega}$~p~^2^ = .01). In the trade-off not salient condition, there was a two-way interaction between decision process goal and decision difficulty (*F*(2, 588) = 9.89, *p* \< .001, $\widehat{\omega}$~p~^2^ = .03; see figure 7). Participants in the maximize accuracy -- difficult condition (*M* = 5.96) considered fewer options than participants in the easy condition (*M* = 8.02; *F*(1, 588) = 7.69. *p* = .006, $\widehat{\omega}$~p~^2^ = .01). These results are consistent with goal systems theory (H1 and H3). Participants in the baseline -- difficult condition (*M* = 4.88) considered fewer options than participants in easy condition (*M* = 7.14; *F*(1, 588) = 9.26, *p* = .002, $\widehat{\omega}$~p~^2^ = .01). These results, albeit similar to the maximize accuracy ones, are consistent with constructive choice theory, in that decision difficulty/ease shifts the relative emphasis on effort versus accuracy considerations. Participants in the minimize effort -- difficult condition (*M* = 6.08) considered more options than participants in the easy condition (*M* = 4.20; *F*(1, 588) = 6.41, *p* = .012, $\widehat{\omega}$~p~^2^ = .01). These results are consistent with goal systems theory (H2 and H4).
 
+In the trade-off salient condition, there was no interaction between decision process goal and decision difficulty (*F*(2, 588) = .225, *p* = .799; see figure 7). Consistent with constructive choice theory predictions, decision difficulty reduced the number of options considered in the maximize accuracy (*M*~difficult~ = 5.58, *M~easy~* = 7.84; *F*(1, 588) = 9.26, *p* = .002,$\ \widehat{\omega}$~p~^2^ = .01), baseline (*M*~difficult~ = 4.86, *M~easy~* = 6.94; *F*(1, 588) = 7.84, *p* = .005,$\ \widehat{\omega}$~p~^2^ = .01), and minimize effort (*M*~difficult~ = 3.16, *M~easy~* = 4.74; *F*(1, 588) = 4.52, *p* = .034,$\ \widehat{\omega}$~p~^2^ = .01) conditions.
 
-### Results
+**Mediation analysis.** The decision difficulty manipulation influenced decision uncertainty (*F*(1, 588) = 59.35, *p* \< .001), such that participants in the difficult condition (*M* = 5.17) perceived the decision as more uncertain than participants in the easy condition (*M* = 3.85).
 
+A mediation analysis was conducted using PROCESS model 19 (Hayes 2018), which is a "moderated moderated mediation" model (similar to model 15) with a moderator influencing the indirect path post-mediator that depends on a second moderator (i.e., the moderated mediation is moderated). The mediation analysis assessed if the effect of decision difficulty on search (as indicated by the number of options considered) was driven by decision uncertainty and moderated by the decision process goal. In addition, the analysis also assessed whether the influence of the decision process goal was moderated by the process goal accessibility prime (trade-off not salient vs. trade-off salient). The index of moderated mediation was significant (*Index* = -1.47, 95% CI: -2.05 to -.95, 5000 bootstraps).
 
-**Manipulation checks.** The manipulation checks were successful (see Appendix S1: MDA K).
+In the trade-off not salient condition, the indirect effect was negative for maximize accuracy (*ab* = -1.50, 95% CI: -2.09 to -.98) participants, suggesting that decision difficulty (relative to ease) increased decision uncertainty, which in turn decreased the number of options considered (H1a and H3a). For minimize effort participants, the indirect effect was positive (ab = 1.36, 95% CI: .84 to 1.91), suggesting that decision difficulty (relative to ease) increased decision uncertainty, which in turn increased the number of options considered (H2a and H4a). These results are consistent with goal systems theory. In addition, consistent with constructive choice theory, the indirect effect was not significant for baseline decision process goal participants (*ab* = -.07, 95% CI: -.32 to .17).
 
+In the trade-off salient goal representation condition, the indirect effect was not significant for maximize accuracy (*ab* = -.13, 95% CI: -.57 to .29), baseline (*ab* = -.17, 95% CI: -.44 to -.08), and minimize effort (*ab* = -.21, 95% CI: -.54 to .09) decision process goal participants. These results suggest that when maximize accuracy and minimize effort goals are similarly accessible (i.e., when the effort-accuracy tradeoff is salient/considered), information search is guided by the principles of constructive choice theory.
 
-**Number of options considered.** There was a three-way interaction of decision process goal (maximize accuracy vs. baseline vs. minimize effort), decision difficulty (low vs. high), and the process goal accessibility prime (trade-off not salient vs. trade-off salient) on the number of options considered (F(2, 588) = 3.63, p = .027,ω̂²_p = .01). In the trade-off not salient condition, there was a two-way interaction between decision process goal and decision difficulty (F(2, 588) = 9.89, p < .001, ω̂²_p = .03; see Figure 7). Participants in the maximize accuracy – difficult condition (M = 5.96) considered fewer options than participants in the easy condition (M = 8.02; F(1, 588) = 7.69. p = .006, ω̂²_p = .01). These results are consistent with goal systems theory (H1 and H3). Participants in the baseline – difficult condition (M = 4.88) considered fewer options than participants in easy condition (M = 7.14; F(1, 588) = 9.26, p = .002, ω̂²_p = .01). These results, albeit similar to the maximize accuracy ones, are consistent with constructive choice theory, in that decision difficulty/ease shifts the relative emphasis on effort versus accuracy considerations. Participants in the minimize effort – difficult condition (M = 6.08) considered more options than participants in the easy condition (M = 4.20; F(1, 588) = 6.41, p = .012, ω̂²_p = .01). These results are consistent with goal systems theory (H2 and H4).
+**Alternative explanations.** Recall that we collected measures to assess goal abandonment. The results showed that decision difficulty did not influence participants' perceptions of maximize accuracy \[minimize effort\] goal pursuit during search or perceptions of maximize accuracy \[minimize effort\] abandonment, suggesting that people did not disengage or abandon their decision process goals during information search. Please see MDA K for details.
 
-In the trade-off salient condition, there was no interaction between decision process goal and decision difficulty (F(2, 588) = .225, p = .799; see Figure 7). Consistent with constructive choice theory predictions, decision difficulty reduced the number of options considered in the maximize accuracy (Mdifficult = 5.58, Measy = 7.84; F(1, 588) = 9.26, p = .002,ω̂²_p = .01), baseline (Mdifficult = 4.86, Measy = 6.94; F(1, 588) = 7.84, p = .005,ω̂²_p = .01), and minimize effort (Mdifficult = 3.16, Measy = 4.74; F(1, 588) = 4.52, p = .034,ω̂²_p = .01) conditions.
-
-
-**Mediation analysis.** The decision difficulty manipulation influenced decision uncertainty (F(1, 588) = 59.35, p < .001), such that participants in the difficult condition (M = 5.17) perceived the decision as more uncertain than participants in the easy condition (M = 3.85).
-
-A mediation analysis was conducted using PROCESS model 19 (Hayes 2018), which is a “moderated moderated mediation” model (similar to model 15) with a moderator influencing the indirect path post-mediator that depends on a second moderator (i.e., the moderated mediation is moderated). The mediation analysis assessed if the effect of decision difficulty on search (as indicated by the number of options considered) was driven by decision uncertainty and moderated by the decision process goal. In addition, the analysis also assessed whether the influence of the decision process goal was moderated by the process goal accessibility prime (trade-off not salient vs. trade-off salient). The index of moderated mediation was significant (Index = -1.47, 95% CI: -2.05 to -.95, 5000 bootstraps).
-
-In the trade-off not salient condition, the indirect effect was negative for maximize accuracy (ab = -1.50, 95% CI: -2.09 to -.98) participants, suggesting that decision difficulty (relative to ease) increased decision uncertainty, which in turn decreased the number of options considered (H1a and H3a). For minimize effort participants, the indirect effect was positive (ab = 1.36, 95% CI: .84 to 1.91), suggesting that decision difficulty (relative to ease) increased decision uncertainty, which in turn increased the number of options considered (H2a and H4a). These results are consistent with goal systems theory. In addition, consistent with constructive choice theory, the indirect effect was not significant for baseline decision process goal participants (ab = -.07, 95% CI: -.32 to .17).
-
-In the trade-off salient goal representation condition, the indirect effect was not significant for maximize accuracy (ab = -.13, 95% CI: -.57 to .29), baseline (ab = -.17, 95% CI: -.44 to .08), and minimize effort (ab = -.21, 95% CI: -.54 to .09) decision process goal participants. These results suggest that when maximize accuracy and minimize effort goals are similarly accessible (i.e., when the effort-accuracy tradeoff is salient/considered), information search is guided by the principles of constructive choice theory.
-
-
-**Alternative explanations.** Recall that we collected measures to assess goal abandonment. The results showed that decision difficulty did not influence participants’ perceptions of maximize accuracy [minimize effort] goal pursuit during search or perceptions of maximize accuracy [minimize effort] abandonment, suggesting that people did not disengage or abandon their decision process goals during information search. Please see Appendix S1: MDA K for details.
-
-
-### Discussion
+**Discussion**
 
 Experiment 6 provides additional evidence that the deliberate pursuit of a maximize accuracy or a minimize effort goal results in search behavior that is consistent with goal systems theory. Experiment 6 also provides evidence that the deliberate pursuit of a maximize accuracy or a minimize effort goal can result in search behavior that is consistent with constructive choice theory when the trade-off between effort and accuracy goals is made salient. Making the effort-accuracy trade off salient made the accessibility of these two goals similar, so that they could compete when a person searched for the information needed to make a choice.
 
-
-## General Discussion
+**General Discussion**
 
 Our studies illustrate how decision difficulty/ease influences information search, choice quality, and satisficing when people deliberately pursue a maximize accuracy or minimize effort goal. Experiment 1 shows decision difficulty results in less search and poorer decision quality when a maximize accuracy goal is being pursued (H1), but more search and less satisficing when a minimize effort goal is pursued (H2). Experiment 2 shows decision ease results in more search and higher decision quality when a maximize accuracy goal is being pursued (H3), but less search and more satisficing when a minimize effort goal is pursued (H4). Experiments 3a and 3b provide evidence that decision difficulty influences search behavior owing to decision uncertainty (mediator) (H1a, H2a). Experiments 4a and 4b provide evidence that decision ease influences search behavior owing to decision certainty (mediator) (H3a, H4a). Experiments 5 and 6 use different manipulations of decision difficulty (information load, attribute correlations) and show that deliberately pursued effort or accuracy goals encourage search in accordance with goal systems theory, but that making the trade-off between these goals salient encourages search in accordance with constructive choice theory.
 
-
-### Theoretical Implications
+**Theoretical Implications**
 
 Our findings show that deliberately pursued effort and accuracy goals operate in a manner consistent with goal systems theory (Kruglanski et al., 2002), but not constructive choice theory. This is valuable to know, because goal systems theory has documented a number of goal system characteristics, many of which have not been investigated in the domain of decision process goals. As a result, goal systems theory may provide insights into the operation of deliberately activated decision process goals. We speculate about these insights by reviewing major findings in the goal systems literature.
 
+**Goal activation**. Constructive choice theory assumes that process goals trade-off against each other (i.e., process goals have weights) (Bettman et al., 1998). Goal systems theory assumes that goals compete for expression (i.e., the benefit goal with the highest activation level is pursued, and competing goals are inhibited) (Laran & Janiszewski, 2009). If deliberately pursued process goals compete for expression, then people should pursue a single process goal (e.g., minimize effort OR maximize accuracy), the activation level of the process goal should decline after goal completion (e.g., perceived success at locating an optimal option should encourage disengagement from the goal), and people should pursue inhibited process goals (e.g., maximizing accuracy in one choice should be followed by minimizing effort in the next choice) (Laran & Janiszewski, 2009). More nuanced findings suggest that there may be ways to encourage the use of the same process goal across consecutive choices. Process goal consistency may be more likely when a choice process is executed more quickly than expected (e.g., Huang & Zhang, 2011), when there is awareness of the process goal (Laran, Janiszewski, & Salerno, 2019), when the process goal is easy to implement (Werner et al., 2016), or when a difficult-to-implement process goal suggests competence (Cheng, Mukhopadhyay, & Schrift, 2017).
 
-**Goal activation.** Constructive choice theory assumes that process goals trade-off against each other (i.e., process goals have weights) (Bettman et al., 1998). Goal systems theory assumes that goals compete for expression (i.e., the benefit goal with the highest activation level is pursued, and competing goals are inhibited) (Laran & Janiszewski, 2009). If deliberately pursued process goals compete for expression, then people should pursue a single process goal (e.g., minimize effort OR maximize accuracy), the activation level of the process goal should decline after goal completion (e.g., perceived success at locating an optimal option should encourage disengagement from the goal), and people should pursue inhibited process goals (e.g., maximizing accuracy in one choice should be followed by minimizing effort in the next choice) (Laran & Janiszewski, 2009). More nuanced findings suggest that there may be ways to encourage the use of the same process goal across consecutive choices. Process goal consistency may be more likely when a choice process is executed more quickly than expected (e.g., Huang & Zhang, 2011), when there is awareness of the process goal (Laran, Janiszewski, & Salerno, 2019), when the process goal is easy to implement (Werner et al., 2016), or when a difficult-to-implement process goal suggests competence (Cheng, Mukhopadhyay, & Schrift, 2017).
+**Goal pursuit**. The constructive choice model assumes that decision process goal pursuit is a natural consequence of the need to make a decision (Bettman et al., 1998). It further assumes that characteristics of the decision environment constrain process goal execution (Johnson et al., 2012). Goal systems theory assumes that goals are motivational (Kruglanski et al., 2002). Goals encourage the allocation of cognitive resources in accordance with the value of the reward one expects at the completion of goal pursuit (Berridge & Aldridge, 2008; Wigfield & Eccles, 2000). If deliberately pursued process goals guide behavior in accordance with goal systems theory, then people should (1) allocate more cognitive resources to the pursuit of more valued process goals (Sitzmann & Bell, 2017), (2) find the pursuit of a process goal intrinsically interesting (e.g., it is fun to make fast decisions), even if this behavior does not improve the quality of the choice (Laran & Janiszewski, 2011), (3) use feedback to manage (dis)engagement from process goals (Louro, Pieters, & Zeelenberg, 2007), and (4) chronically pursue process goals (Schwartz et al., 2002). More nuanced findings suggest there may be ways to alter the motivation to pursue a process goal by altering perceptions of goal attainability (Zhang, Fishbach, & Dhar, 2007), framing the time to complete the decision (Munichor & LeBoeuf, 2018), altering perceptions of goal progress (Koo & Fishbach, 2012), and interrupting goal pursuit (Jhang & Lynch, 2015).
 
+**Means efficacy**. The constructive choice model assumes that decision process means are alternative decision strategies (e.g., satisficing, lexicographic, elimination by aspects), with the value of these decision strategies in a given context determined by their ability to attain different process goals (e.g., a weighted adding strategy for accuracy or a lexicographic strategy for conserving effort) (Bettman et al., 1998). Goal systems theory assumes means are valued according to their ability to achieve a goal (van Osselaer & Janiszewski, 2012). Consequently, people should assign more value to means that can achieve more than one non-competing process goal (e.g., minimize effort, minimize negative emotion). More nuanced findings suggest that the use of a process goal means may be facilitated by making it more accessible (Laran, Janiszewski, & Salerno, 2016; 2019), more salient (Pieters & Wedel, 2007), more abstract (Shaddy & Fishbach, 2018), more familiar (Laran, Janiszewski, & Cunha, 2008), or by creating a stronger association to the goal, independent of the efficacy of the means (Zhang & Tu, 2011).
 
-**Goal pursuit.** The constructive choice model assumes that decision process goal pursuit is a natural consequence of the need to make a decision (Bettman et al., 1998). It further assumes that characteristics of the decision environment constrain process goal execution (Johnson et al., 2012). Goal systems theory assumes that goals are motivational (Kruglanski et al., 2002). Goals encourage the allocation of cognitive resources in accordance with the value of the reward one expects at the completion of goal pursuit (Berridge & Aldridge, 2008; Wigfield & Eccles, 2000). If deliberately pursued process goals guide behavior in accordance with goal systems theory, then people should (1) allocate more cognitive resources to the pursuit of more valued process goals (Sitzmann & Bell, 2017), (2) find the pursuit of a process goal intrinsically interesting (e.g., it is fun to make fast decisions), even if this behavior does not improve the quality of the choice (Laran & Janiszewski, 2011), (3) use feedback to manage (dis)engagement from process goals (Louro, Pieters, & Zeelenberg, 2007), and (4) chronically pursue process goals (Schwartz et al., 2002). More nuanced findings suggest there may be ways to alter the motivation to pursue a process goal by altering perceptions of goal attainability (Zhang, Fishbach, & Dhar, 2007), framing the time to complete the decision (Munichor & LeBoeuf, 2018), altering perceptions of goal progress (Koo & Fishbach, 2012), and interrupting goal pursuit (Jhang & Lynch, 2014).
-
-
-**Means efficacy.** The constructive choice model assumes that decision process means are alternative decision strategies (e.g., satisficing, lexicographic, elimination by aspects), with the value of these decision strategies in a given context determined by their ability to attain different process goals (e.g., a weighted adding strategy for accuracy or a lexicographic strategy for conserving effort) (Bettman et al., 1998). Goal systems theory assumes means are valued according to their ability to achieve a goal (van Osselaer & Janiszewski, 2012). Consequently, people should assign more value to means that can achieve more than one non-competing process goal (e.g., minimize effort, minimize negative emotion). More nuanced findings suggest that the use of a process goal means may be facilitated by making it more accessible (Laran, Janiszewski, & Salerno, 2016; 2019), more salient (Pieters & Wedel, 2007), more abstract (Shaddy & Fishbach, 2018), more familiar (Laran, Janiszewski, & Cunha, 2008), or by creating a stronger association to the goal, independent of the efficacy of the means (Zhang & Tu, 2011).
-
-
-### Limitations
+**Limitations**
 
 Our research is not without limitations. First, the alternatives were made available to the subjects in a sequential fashion (i.e., sequential search). Even though we started with the premise that many types of decision making involve the sequential consideration of alternatives, it is also fairly common for consumers to examine alternatives simultaneously. When alternatives are considered simultaneously, the decision process activities used to maximize accuracy or minimize effort are likely to differ from those used in a sequential search. Thus, it is possible that the influence of decision difficulty/ease on the pursuit of effort and accuracy goals should be assessed using different measures (e.g., willingness to make a choice, willingness to consider non-alignable options, choice satisfaction). Second, we did not provide insight into the boundaries of the deliberate pursuit of an effort or accuracy goal. The deliberate pursuit of a process goal could be a consequence of an explicit instruction, an incentive, chronic accessibility, or conscious thought. It is possible that different antecedents of deliberate process goal pursuit encourage different degrees of competition between the decision process goals.
 
-
-### Conclusion
+**Conclusion**
 
 To summarize, we highlighted how decision difficulty/ease and the deliberate pursuit of maximize accuracy and minimize effort goals interact in consumer choice. When decisions are difficult, the pursuit of maximize accuracy and minimize effort goals is inhibited. When decisions are easy, the pursuit of maximize accuracy and minimize effort goals is facilitated. We hope future research will investigate additional factors that influence the deliberate pursuit of decision process goals.
 
+**\**
 
-## References
+**REFERENCES**
 
-Adam, K. (2001). Learning while searching for the best alternative. Journal of Economic Theory, 101, 252-280. https://doi.org/10.1006/jeth.2000.2723
+Adam, K. (2001). Learning while searching for the best alternative. *Journal of Economic Theory*, 101, 252-280. https://doi.org/10.1006/jeth.2000.2723
 
-Berridge, K. C., & Aldridge, J. W. (2008). Special review: Decision utility, the brain, and pursuit of hedonic goals. Social Cognition, 26, 621-646. https://doi.org/10.1521/soco.2008.26.5.621
+Berridge, K. C., & Aldridge, J. W. (2008). Special review: Decision utility, the brain, and pursuit of hedonic goals. *Social Cognition*, 26, 621-646. https://doi.org/10.1521/soco.2008.26.5.621
 
-Bettman, J. R., Johnson, E. J., Luce, M. F., & Payne, J. W. (1993). Correlation, conflict, and choice. Journal of Experimental Psychology: Learning, Memory, and Cognition, 19, 931–951. https://doi.org/10.1037/0278-7393.19.4.931
+Bettman, J. R., Luce, M. F., & Payne, J. W. (1998). Constructive consumer choice processes. *Journal of Consumer Research*, 25, 187--217. https://doi.org/10.1086/209535
 
-Bettman, J. R., Luce, M. F., & Payne, J. W. (1998). Constructive consumer choice processes. Journal of Consumer Research, 25, 187–217. https://doi.org/10.1086/209535
+Bettman, J. R., Johnson, E. J., Luce, M. F., & Payne, J. W. (1993). Correlation, conflict, and choice. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 19, 931--951. https://doi.org/10.1037/0278-7393.19.4.931
 
-Briley, D. A., Morris, M. W., & Simonson, I. (2000). Reasons as carriers of culture: Dynamic versus dispositional models of cultural influence on decision making. Journal of Consumer Research, 27, 157-178. https://doi.org/10.1086/314318
+Briley, D. A., Morris, M. W., & Simonson, I. (2000). Reasons as carriers of culture: Dynamic versus dispositional models of cultural influence on decision making. *Journal of Consumer Research*, 27, 157-178. https://doi.org/10.1086/314318
 
-Broniarczyk, S. M., & Griffin, J. G. (2014). Decision difficulty in the age of consumer empowerment. Journal of Consumer Psychology, 24, 608–625. https://doi.org/10.1016/j.jcps.2014.05.003
+Broniarczyk, S. M., & Griffin, J. G. (2014). Decision difficulty in the age of consumer empowerment. *Journal of Consumer Psychology*, 24, 608--625. https://doi.org/10.1016/j.jcps.2014.05.003
 
-Cheng, Y., Mukhopadhyay, A., & Schrift, R. Y. (2017). Do costly options lead to better outcomes? How the protestant work ethic influences the cost–benefit heuristic in goal pursuit. Journal of Marketing Research, 54, 636-49. https://doi.org/10.1509/jmr.15.0105
+Cheng, Y., Mukhopadhyay, A., & Schrift, R. Y. (2017). Do costly options lead to better outcomes? How the protestant work ethic influences the cost--benefit heuristic in goal pursuit. *Journal of Marketing Research*, 54, 636-49. https://doi.org/10.1509/jmr.15.0105
 
-Creyer, E. H., Bettman, J. R., & Payne, J. W. (1990). The impact of accuracy and effort feedback and goals on adaptive decision behavior. Journal of Behavioral Decision Making, 3, 1-16. https://doi.org/10.1002/bdm.3960030102
+Creyer, E. H., Bettman, J. R., & Payne, J. W. (1990). The impact of accuracy and effort feedback and goals on adaptive decision behavior. *Journal of Behavioral Decision Making*, 3, 1-16. https://doi.org/10.1002/bdm.3960030102
 
-Dhar, R. (1997). Context and task effects on choice deferral. Marketing Letters, 8, 119-130. DOI:10.1023/A:1007997613607
+Dhar, R. (1997). Context and task effects on choice deferral. *Marketing Letters*, 8, 119-130. DOI:10.1023/A:1007997613607 []{.mark}
 
-Dieckmann, A., & Rieskamp, J. (2007). The influence of information redundancy on probabilistic inferences. Memory & Cognition, 35, 1801-1813. http://dx.doi.org/10.3758/BF03193511
+Dieckmann, A., & Rieskamp, J. (2007). The influence of information redundancy on probabilistic inferences. *Memory & Cognition*, 35, 1801-1813. http://dx.doi.org/10.3758/BF03193511
 
-Etkin, J., Evangelidis, I., & Aaker, J. (2015). Pressed for time? Goal conflict shapes how time is perceived, spent, and valued. Journal of Marketing Research, 52, 394-406. https://doi.org/10.1509/jmr.14.0130
+Etkin, J., Evangelidis, I., & Aaker, J. (2015). Pressed for time? Goal conflict shapes how time is perceived, spent, and valued. *Journal of Marketing Research*, 52, 394-406. https://doi.org/10.1509/jmr.14.0130
 
-Goodman, J. K., & Malkoc, S. A. (2012). Choosing here and now versus there and later: The moderating role of psychological distance on assortment size preferences. Journal of Consumer Research, 39, 751-768. https://doi.org/10.1086/665047
+Goodman, J. K., & Malkoc, S. A. (2012). Choosing here and now versus there and later: The moderating role of psychological distance on assortment size preferences. *Journal of Consumer Research,* 39, 751-768. https://doi.org/10.1086/665047
 
-Grether, D., & Wilde, L. (1984). An analysis of conjunctive choice: Theory and experiments. Journal of Consumer Research, 10, 373-385. https://doi.org/10.1086/208976
+Grether, D., & Wilde, L. (1984). An analysis of conjunctive choice: Theory and experiments. *Journal of Consumer Research*, 10, 373-385. https://doi.org/10.1086/208976
 
-Häubl, G., Dellaert, B. G., & Donkers, B. (2010). Tunnel vision: Local behavioral influences on consumer decisions in product search. Marketing Science, 29, 438-455. https://doi.org/10.1287/mksc.1090.0525
+Häubl, G., Dellaert, B. G., & Donkers, B. (2010). Tunnel vision: Local behavioral influences on consumer decisions in product search. *Marketing Science*, 29, 438-455. https://doi.org/10.1287/mksc.1090.0525
 
-Hayes, A. F. (2013). Introduction to mediation, moderation, and conditional process analysis: a regression-based approach. New York, NY: Guilford Press.
+Hayes, A. F. (2013). *Introduction to mediation, moderation, and conditional process analysis: a regression-based approach.* New York, NY: Guilford Press.
 
-Hayes, A. F. (2018). Partial, conditional, and moderated moderated mediation: Quantification, inference, and interpretation. Communication Monographs, 85, 4-40. https://doi.org/10.1080/03637751.2017.1352100
+Hayes, A. F. (2018). Partial, conditional, and moderated moderated mediation: Quantification, inference, and interpretation. *Communication Monographs*, 85, 4-40. https://doi.org/10.1080/03637751.2017.1352100
 
-Hayes, A. F., & Preacher, K. J. (2014). Statistical mediation analysis with a multicategorical independent variable. British Journal of Mathematical and Statistical Psychology, 67, 451-470. https://doi.org/10.1111/bmsp.12028
+Hayes, A. F., & Preacher, K. J. (2014). Statistical mediation analysis with a multicategorical independent variable. *British Journal of Mathematical and Statistical Psychology*, *67*, 451-470. https://doi.org/10.1111/bmsp.12028
 
-Hong, J., & Chang, H. H. (2015). “I” follow my heart and “We” rely on reasons: The impact of self-construal on reliance on feelings versus reasons in decision making. Journal of Consumer Research, 41, 1392-1411. https://doi.org/10.1086/680082
+Hong, J., & Chang, H. H. (2015). "I" follow my heart and "We" rely on reasons: The impact of self-construal on reliance on feelings versus reasons in decision making. *Journal of Consumer Research*, 41, 1392-1411. https://doi.org/10.1086/680082
 
-Huang, S. C., & Zhang, Y. (2011). Motivational consequences of perceived velocity in consumer goal pursuit. Journal of Marketing Research, 48, 1045-1056. https://doi.org/10.1509/jmr.10.0063
+Huang, S. C., & Zhang, Y. (2011). Motivational consequences of perceived velocity in consumer goal pursuit. *Journal of Marketing Research*, 48, 1045-1056. https://doi.org/10.1509/jmr.10.0063
 
-Jaccard, J. (2001). Interaction Effects in Logistic Regression. Thousand Oaks, CA: Sage.
+Jaccard, J. (2001). *Interaction Effects in Logistic Regression*. Thousand Oaks, CA: Sage.
 
-Jacoby, J., Speller, D. E., & Kohn, C. A. (1974). Brand choice behavior as a function of information load. Journal of Marketing Research, 11, 63-69. https://doi.org/10.1177/002224377401100106
+Jacoby, J., Speller, D. E., & Kohn, C. A. (1974). Brand choice behavior as a function of information load. *Journal of Marketing Research*, 11, 63-69. https://doi.org/10.1177/002224377401100106
 
-Jhang, J. H., & Lynch Jr, J. G. (2014). Pardon the interruption: Goal proximity, perceived spare time, and impatience. Journal of Consumer Research, 41, 1267-1283. https://doi.org/10.1086/679308
+Jhang, J. H., & Lynch Jr, J. G. (2014). Pardon the interruption: Goal proximity, perceived spare time, and impatience. *Journal of Consumer Research*, 41, 1267-1283. https://doi.org/10.1086/679308
 
-Johnson, E. J., Meyer, R. J., & Ghose, S. (1989). When choice models fail: Compensatory models in negatively correlated environments. Journal of Marketing Research, 26, 255-270. http://dx.doi.org/10.2307/3172899
+Johnson, E. J., Meyer, R. J., & Ghose, S. (1989). When choice models fail: Compensatory models in negatively correlated environments. *Journal of Marketing Research*, 26, 255-270. http://dx.doi.org/10.2307/3172899
 
-Johnson, E. J., Shu, S. B., Dellaert, B. G., Fox, C., Goldstein, D. G., Häubl, G., Larrick, R. P., Payne, J. W., Peters, E., Schkade, D., Wansink, B., & Weber, E. U. (2012). Beyond nudges: Tools of a choice architecture. Marketing Letters, 2, 487-504. https://doi.org/10.1007/s11002-012-9186-1
+Johnson, E. J., Shu, S. B., Dellaert, B. G., Fox, C., Goldstein, D. G., Häubl, G., Larrick, R. P., Payne, J. W., Peters, E., Schkade, D., Wansink, B., & Weber, E. U. (2012). Beyond nudges: Tools of a choice architecture. *Marketing Letters*, 2, 487-504. https://doi.org/10.1007/s11002-012-9186-1
 
-Kardes, F. R., Fennis, B. M., Hirt, E. R., Tormala, Z. L., & Bullington, B. (2007). The role of the need for cognitive closure in the effectiveness of the disrupt-then-reframe influence technique. Journal of Consumer Research, 34, 377-385. https://doi.org/10.1086/518541
+Kardes, F. R., Fennis, B. M., Hirt, E. R., Tormala, Z. L., & Bullington, B. (2007). The role of the need for cognitive closure in the effectiveness of the disrupt-then-reframe influence technique. *Journal of Consumer Research*, 34, 377-385. https://doi.org/10.1086/518541
 
-Koo, M., & Fishbach, A. (2012). The small-area hypothesis: Effects of progress monitoring on goal adherence. Journal of Consumer Research, 39, 493-509. https://doi.org/10.1086/663827
+Koo, M., & Fishbach, A. (2012). The small-area hypothesis: Effects of progress monitoring on goal adherence. *Journal of Consumer Research*, 39, 493-509. https://doi.org/10.1086/663827
 
-Kruglanski, A. W., Shah, J. Y., Fishbach, A., Friedman, R., Chun, W. Y., & Sleeth-Keppler, D. (2002). A theory of goal systems. In M. P. Zanna (Ed.), Advances in Experimental Social Psychology (Vol. 34, pp. 331-378). San Diego, CA: Academic Press.
+Kruglanski, A. W., Shah, J. Y., Fishbach, A., Friedman, R., Chun, W. Y., & Sleeth-Keppler, D. (2002). A theory of goal systems. In M. P. Zanna (Ed.), *Advances in Experimental Social Psychology* (Vol. 34, pp. 331-378). San Diego, CA: Academic Press.
 
-Laran, J., & Janiszewski, C. (2009). Behavioral consistency and inconsistency in the resolution of goal conflict. Journal of Consumer Research, 35, 967-984. https://doi.org/10.1086/593293
+Laran, J., & Janiszewski, C. (2009). Behavioral consistency and inconsistency in the resolution of goal conflict. *Journal of Consumer Research*, 35, 967-984. https://doi.org/10.1086/593293
 
-Laran, J., & Janiszewski, C. (2011). Work or fun? How task construal and completion influence regulatory behavior. Journal of Consumer Research, 37, 967–83. https://doi.org/10.1086/656576
+Laran, J., & Janiszewski, C. (2011). Work or fun? How task construal and completion influence regulatory behavior. *Journal of Consumer Research*, 37, 967--83. https://doi.org/10.1086/656576
 
-Laran, J., Janiszewski, C., & Cunha Jr, M. (2008). Context-dependent effects of goal primes. Journal of Consumer Research, 35, 653-667. https://doi.org/10.1086/592127
+Laran, J., Janiszewski, C., & Cunha Jr, M. (2008). Context-dependent effects of goal primes. *Journal of Consumer Research*, 35, 653-667. https://doi.org/10.1086/592127
 
-Laran, J., Janiszewski, C., & Salerno, A. (2016). Exploring the differences between conscious and unconscious goal pursuit. Journal of Marketing Research, 53, 442-458. https://doi.org/10.1509/jmr.13.0263
+Laran, J., Janiszewski, C., & Salerno, A. (2016). Exploring the differences between conscious and unconscious goal pursuit. *Journal of Marketing Research*, 53, 442-458. https://doi.org/10.1509/jmr.13.0263
 
-Laran, J., Janiszewski, C., & Salerno, A. (2019). Nonconscious nudges: Encouraging sustained goal pursuit. Journal of Consumer Research, 46, 307-329. https://doi.org/10.1093/jcr/ucy071
+Laran, J., Janiszewski, C., & Salerno, A. (2019). Nonconscious nudges: Encouraging sustained goal pursuit. *Journal of Consumer Research*, 46, 307-329. https://doi.org/10.1093/jcr/ucy071
 
-Laroche, M., Yang, Z., McDougall, G. H., & Bergeron, J. (2005). Internet versus bricks-and-mortar retailers: An investigation into intangibility and its consequences. Journal of Retailing, 81, 251-267. https://doi.org/10.1016/j.jretai.2004.11.002
+Laroche, M., Yang, Z., McDougall, G. H., & Bergeron, J. (2005). Internet versus bricks-and-mortar retailers: An investigation into intangibility and its consequences. *Journal of Retailing*, 81, 251-267. https://doi.org/10.1016/j.jretai.2004.11.002
 
-Louro, M. J., Pieters, R., & Zeelenberg, M. (2007). Dynamics of multiple-goal pursuit. Journal of Personality and Social Psychology, 93, 174-193. https://doi.org/10.1037/0022-3514.93.2.174
+Louro, M. J., Pieters, R., & Zeelenberg, M. (2007). Dynamics of multiple-goal pursuit. *Journal of Personality and Social Psychology*, 93, 174-193. https://doi.org/10.1037/0022-3514.93.2.174
 
-Luce, M. F. (1998). Choosing to avoid: Coping with negatively emotion-laden consumer decisions. Journal of Consumer Research, 24, 409-433. https://doi.org/10.1086/209518
+Luce, M. F. (1998). Choosing to avoid: Coping with negatively emotion-laden consumer decisions. *Journal of Consumer Research*, 24, 409-433. https://doi.org/10.1086/209518
 
-Malhotra, N. K. (1982). Information load and consumer decision making. Journal of Consumer Research, 8, 419-430. https://doi.org/10.1086/208882
+Malhotra, N. K. (1982). Information load and consumer decision making. *Journal of Consumer Research*, 8, 419-430. https://doi.org/10.1086/208882
 
-McAllister, D. W., Mitchell, T. R., & Beach, L. R. (1979). The contingency model for the selection of decision strategies: An empirical test of the effects of significance, accountability, and reversibility. Organizational Behavior and Human Performance, 24, 228-244. https://doi.org/10.1016/0030-5073(79)90027-8
+McAllister, D. W., Mitchell, T. R., & Beach, L. R. (1979). The contingency model for the selection of decision strategies: An empirical test of the effects of significance, accountability, and reversibility. *Organizational Behavior and Human Performance*, 24, 228-244. https://doi.org/10.1016/0030-5073(79)90027-8
 
-Moorthy, S., Ratchford, B. T., & Talukdar, D. (1997). Consumer information search revisited: Theory and empirical analysis. Journal of Consumer Research, 23, 263-277. https://doi.org/10.1086/209482
+Moorthy, S., Ratchford, B. T., & Talukdar, D. (1997). Consumer information search revisited: Theory and empirical analysis. *Journal of Consumer Research*, 23, 263-277. https://doi.org/10.1086/209482
 
-Munichor, N., & LeBoeuf, R. A. (2018). The influence of time-interval descriptions on goal-pursuit decisions. Journal of Marketing Research, 55, 291-303. https://doi.org/10.1509/jmr.14.0088
+Munichor, N., & LeBoeuf, R. A. (2018). The influence of time-interval descriptions on goal-pursuit decisions. *Journal of Marketing Research*, 55, 291-303. https://doi.org/10.1509/jmr.14.0088
 
-Muthukrishnan, A. V. (1995). Decision ambiguity and incumbent brand advantage. Journal of Consumer Research, 22, 98-109. https://doi.org/10.1086/209438
+Muthukrishnan, A. V. (1995). Decision ambiguity and incumbent brand advantage. *Journal of Consumer Research*, 22, 98-109. https://doi.org/10.1086/209438
 
-Novemsky, N., Dhar, R., Schwarz, N., & Simonson, I. (2007). Preference fluency in choice. Journal of Marketing Research, 44, 347-356. https://doi.org/10.1509/jmkr.44.3.347
+Novemsky, N., Dhar, R., Schwarz, N., & Simonson, I. (2007). Preference fluency in choice. *Journal of Marketing Research*, 44, 347-356. https://doi.org/10.1509/jmkr.44.3.347
 
-Payne, J. W. (1976). Task complexity and contingent processing in decision making: An information search and protocol analysis. Organizational Behavior and Human Performance, 16, 366-387. https://doi.org/10.1016/0030-5073(76)90022-2
+Payne, J. W. (1976). Task complexity and contingent processing in decision making: An information search and protocol analysis. *Organizational Behavior and Human Performance*, 16, 366-387. https://doi.org/10.1016/0030-5073(76)90022-2
 
-Pieters, R., & Wedel, M. (2007). Goal control of attention to advertising: The Yarbus implication. Journal of Consumer Research, 34, 224-233. https://doi.org/10.1086/519150
+Pieters, R., & Wedel, M. (2007). Goal control of attention to advertising: The Yarbus implication. *Journal of Consumer Research*, 34, 224-233. https://doi.org/10.1086/519150
 
-Ratchford, B. T., & Srinivasan, N. (1993). An empirical investigation of returns to search. Marketing Science, 12, 73-87. https://doi.org/10.1287/mksc.12.1.73
+Ratchford, B. T., & Srinivasan, N. (1993). An empirical investigation of returns to search. *Marketing Science*, *12*, 73-87. https://doi.org/10.1287/mksc.12.1.73
 
-Rosenthal, R., & Rosnow, R. L. (1985). Contrast analysis: Focused comparisons in the analysis of variance, Cambridge, UK: Cambridge University Press.
+Rosenthal, R., & Rosnow, R. L. (1985). *Contrast analysis: Focused comparisons in the analysis of variance*, Cambridge, UK: Cambridge University Press.
 
-Saad, G., & Russo, J. E. (1996). Stopping criteria in sequential choice. Organizational Behavior and Human Decision Processes, 67, 258-270. https://doi.org/10.1006/obhd.1996.0078
+Saad, G., & Russo, J. E. (1996). Stopping criteria in sequential choice. *Organizational Behavior and Human Decision Processes*, 67, 258-270. https://doi.org/10.1006/obhd.1996.0078
 
-Schwartz, B., Ward, A., Monterosso, J., Lyubomirsky, S., White, K., & Lehman, D. R. (2002). Maximizing versus satisficing: Happiness is a matter of choice. Journal of Personality and Social Psychology, 83, 1178-1197. https://doi.org/10.1037/0022-3514.83.5.1178
+Schwartz, B., Ward, A., Monterosso, J., Lyubomirsky, S., White, K., & Lehman, D. R. (2002). Maximizing versus satisficing: Happiness is a matter of choice. *Journal of Personality and Social Psychology*, 83, 1178-1197. https://doi.org/10.1037/0022-3514.83.5.1178
 
-Seale, D. A., & Rapoport, A. (1997). Sequential decision making with relative ranks: An experimental investigation of the `secretary problem'. Organizational Behavior and Human Decision Processes, 69, 221-236. https://doi.org/10.1006/obhd.1997.2683
+Seale, D. A., & Rapoport, A. (1997). Sequential decision making with relative ranks: An experimental investigation of the \`secretary problem\'. *Organizational Behavior and Human Decision Processes*, 69, 221-236. https://doi.org/10.1006/obhd.1997.2683
 
-Shaddy, F., & Fishbach, A. (2018). Eyes on the prize: The preference to invest resources in goals over means. Journal of Personality and Social Psychology, 115, 624-637. https://doi.org/10.1037/pspa0000127
+Shaddy, F., & Fishbach, A. (2018). Eyes on the prize: The preference to invest resources in goals over means. *Journal of Personality and Social Psychology*, 115, 624-637. https://doi.org/10.1037/pspa0000127
 
-Shugan, S. (1980). The cost of thinking. Journal of Consumer Research, 7, 99-111. https://doi.org/10.1086/208799
+Shugan, S. (1980). The cost of thinking. *Journal of Consumer Research*, 7, 99-111. www.jstor.org/stable/2489077
 
-Simon, H. (1955). A behavioral model of rational choice. Quarterly Journal of Economics, 59, 99-118. https://doi.org/10.2307/1884852
+Simon, H. (1955). A behavioral model of rational choice. *Quarterly Journal of Economics*, 59, 99-118. https://doi.org/10.2307/1884852
 
-Simonson, I., & Nowlis, S. M. (2000). The role of explanations and need for uniqueness in consumer decision making: Unconventional choices based on reasons. Journal of Consumer Research, 27, 49-68. https://doi.org/10.1086/314308
+Simonson, I., & Nowlis, S. M. (2000). The role of explanations and need for uniqueness in consumer decision making: Unconventional choices based on reasons. *Journal of Consumer Research*, *27*, 49-68. https://doi.org/10.1086/314308
 
-Sitzmann, T., & Bell, B. S. (2017). The dynamic effects of subconscious goal pursuit on resource allocation, task performance, and goal abandonment. Organizational Behavior and Human Decision Processes, 138, 1-14. https://doi.org/10.1016/j.obhdp.2016.11.001
+Sitzmann, T., & Bell, B. S. (2017). The dynamic effects of subconscious goal pursuit on resource allocation, task performance, and goal abandonment. *Organizational Behavior and Human Decision Processes*, 138, 1-14. https://doi.org/10.1016/j.obhdp.2016.11.001
 
-Stüttgen, P., Boatwright, P., & Monroe, R. T. (2012). A satisficing choice model. Marketing Science, 31, 878-899. https://doi.org/10.1287/mksc.1120.0732
+Stüttgen, P., Boatwright, P., & Monroe, R. T. (2012). A satisficing choice model. *Marketing Science*, 31, 878-899. https://doi.org/10.1287/mksc.1120.0732
 
-Tversky, A., & Shafir, E. (1992). Choice under conflict: The dynamics of deferred decision. Psychological Science, 3, 358-361. http://dx.doi.org/10.1111/j.1467-9280.1992.tb00047.x
+Tversky, A., & Shafir, E. (1992). Choice under conflict: The dynamics of deferred decision. *Psychological Science*, 3, 358-361. http://dx.doi.org/10.1111/j.1467-9280.1992.tb00047.x
 
-Tyszka, T. (1998). Two pairs of conflicting motives in decision making. Organizational Behavior and Human Decision Processes, 74, 189-211. https://doi.org/10.1006/obhd.1998.2775
+Tyszka, T. (1998). Two pairs of conflicting motives in decision making. *Organizational Behavior and Human Decision Processes*, 74, 189-211. https://doi.org/10.1006/obhd.1998.2775
 
-Valenzuela, A., Dhar, R., & Zettelmeyer, F. (2009). Contingent response to self-customization procedures: Implications for decision satisfaction and choice. Journal of Marketing Research, 46, 754–763. https://doi.org/10.1509/jmkr.46.6.754_JMR6D
+Valenzuela, A., Dhar, R., & Zettelmeyer, F. (2009). Contingent response to self-customization procedures: Implications for decision satisfaction and choice. *Journal of Marketing Research*, *46*, 754--763. <https://doi.org/10.1509/jmkr.46.6.754_JMR6D>
 
-van Osselaer, S. M., & Janiszewski, C. (2012). A goal-based model of product evaluation and choice. Journal of Consumer Research, 39, 260-292. https://doi.org/10.1086/662643
+van Osselaer, S. M., & Janiszewski, C. (2012). A goal-based model of product evaluation and choice. *Journal of Consumer Research*, 39, 260-292. https://doi.org/10.1086/662643
 
-Werner, K. M., Milyavskaya, M., Foxen-Craft, E., & Koestner, R. (2016). Some goals just feel easier: Self-concordance leads to goal progress through subjective ease, not effort. Personality and Individual Differences, 96, 237-242. https://doi.org/10.1016/j.paid.2016.03.002
+Werner, K. M., Milyavskaya, M., Foxen-Craft, E., & Koestner, R. (2016). Some goals just feel easier: Self-concordance leads to goal progress through subjective ease, not effort. *Personality and Individual Differences*, 96, 237-242. https://doi.org/10.1016/j.paid.2016.03.002
 
-Wilks, S. S. (1938). Weighting systems for linear functions of correlated variables when there is no dependent variable. Psychometrika, 3, 23-40. http://dx.doi.org/10.1007/BF02287917
+Wilks, S. S. (1938). Weighting systems for linear functions of correlated variables when there is no dependent variable. *Psychometrika*, 3, 23-40. http://dx.doi.org/10.1007/BF02287917
 
-Wigfield, A., & Eccles, J. S. (2000). Expectancy–value theory of achievement motivation. Contemporary Educational Psychology, 25, 68-81. https://doi.org/10.1006/ceps.1999.1015
+Wright, P. (1975). Consumer choice strategies: Simplifying vs. optimizing. *Journal of Marketing Research*, 12, 60--67. https://doi.org/10.2307/3150659
 
-Wright, P. (1975). Consumer choice strategies: Simplifying vs. optimizing. Journal of Marketing Research, 12, 60–67. https://doi.org/10.2307/3150659
+Wigfield, A., & Eccles, J. S. (2000). Expectancy--value theory of achievement motivation. *Contemporary Educational Psychology*, 25, 68-81. https://doi.org/10.1006/ceps.1999.1015
 
-Zhang, Y., Fishbach, A., & Dhar, R. (2007). When thinking beats doing: The role of optimistic expectations in goal-based choice. Journal of Consumer Research, 34, 567-578. https://doi.org/10.1086/520071
+Zhang, Y., Fishbach, A., & Dhar, R. (2007). When thinking beats doing: The role of optimistic expectations in goal-based choice. *Journal of Consumer Research*, 34, 567-578. https://doi.org/10.1086/520071
 
-Zhang, Y., & Mittal, V. (2005). Decision difficulty: Effects of procedural and outcome accountability. Journal of Consumer Research, 32, 465-472. https://doi.org/10.1086/497558
+Zhang, Y., & Mittal, V. (2005). Decision difficulty: Effects of procedural and outcome accountability. *Journal of Consumer Research*, 32, 465-472. https://doi.org/10.1086/497558
 
-Zhang, Y., & Tu, Y. (2011). The impact of associative strength on performance in goal pursuit. Journal of Experimental Social Psychology, 47, 1088-1095. https://doi.org/10.1016/j.jesp.2011.04.013
+Zhang, Y., & Tu, Y. (2011). The impact of associative strength on performance in goal pursuit. *Journal of Experimental Social Psychology*, 47, 1088-1095. https://doi.org/10.1016/j.jesp.2011.04.013
 
-Zwick, R., Rapoport, A., Lo, A. K. C., & Muthukrishnan, A. V. (2003). Consumer sequential search: Not enough or too much? Marketing Science, 22, 503-519. https://doi.org/10.1287/mksc.22.4.503.24909
+Zwick, R., Rapoport A., Lo, A. K. C., & Muthukrishnan, A. V. (2003) Consumer sequential search: Not enough or too much? *Marketing Science*, 22, 503-519. https://doi.org/10.1287/mksc.22.4.503.24909
 
+![](media/image1.jpeg){width="3.1465277777777776in" height="2.5730949256342956in"} ![](media/image2.jpeg){width="3.1470702099737533in" height="2.5784416010498687in"}
 
-## Figures
+Note. -- WADD = weighted adding; EQW = equal weight; LEX = lexicographic; EBA = elimination-by-aspects
 
-**Figure 1.** The Influence of Decision Difficulty/Ease on Information Search in Constructive Choice Theory and Goal Systems Theory
+*Figure 1*. The Influence of Decision Difficulty/Ease on Information Search in Constructive Choice Theory and Goal Systems Theory
 
-*Note.* WADD = weighted adding; EQW = equal weight; LEX = lexicographic; EBA = elimination-by-aspects. The left panel (Constructive Choice Theory) shows effort-accuracy preference functions for decision difficulty (black line) and decision ease (gray line) in an effort-accuracy space. The right panel (Goal Systems Theory) shows the number of options searched as a function of decision process goals (maximize accuracy vs. minimize effort) under baseline, decision ease, and decision difficulty conditions.
+*Figure 2.* Number of options considered (Experiment 1). Note.--- Error bars show 95% confidence intervals.
 
-**Figure 2.** Number of options considered (Experiment 1).
+*Figure 3.* Number of options considered (Experiment 2). Note.--- Error bars show 95% confidence intervals.
 
-*Note.* Error bars show 95% confidence intervals. Bar chart showing the number of options considered as a function of decision process goal (maximize accuracy vs. minimize effort) and decision difficulty (baseline vs. difficult). In the maximize accuracy condition, participants considered more options at baseline (M = 9.07) than under difficulty (M = 7.24). In the minimize effort condition, participants considered fewer options at baseline (M = 4.63) than under difficulty (M = 6.72).
+![](media/image3.jpeg){width="3.1815212160979875in" height="1.8913593613298338in"} ![](media/image4.jpeg){width="3.1840485564304464in" height="1.892863079615048in"}
 
-**Figure 3.** Number of options considered (Experiment 2).
+*Figure 4.* Number of options considered (Experiments 3a and 3b). Note.--- Error bars show 95% confidence intervals
 
-*Note.* Error bars show 95% confidence intervals. Bar chart showing the number of options considered as a function of decision process goal (maximize accuracy vs. minimize effort) and decision ease (baseline vs. easy). In the maximize accuracy condition, participants considered more options under ease (M = 10.16) than at baseline (M = 8.64). In the minimize effort condition, participants considered fewer options under ease (M = 3.60) than at baseline (M = 4.87).
+![](media/image5.jpeg){width="3.28125in" height="1.9399442257217847in"} ![](media/image6.jpeg){width="3.036809930008749in" height="1.9998490813648293in"}
 
-**Figure 4.** Number of options considered (Experiments 3a and 3b).
+*Figure 5.* Number of options considered (Experiments 4a and 4b). Note.--- Error bars show 95% confidence intervals.
 
-*Note.* Error bars show 95% confidence intervals. Two bar charts showing the number of options considered across four decision difficulty conditions (baseline - no goal, baseline - one goal [prestige], baseline - one goal [thrift], difficult - two conflicting goals). Experiment 3a (maximize accuracy): participants in the difficult condition (M = 6.34) considered fewer options than in all three baseline conditions (~9.3-9.9). Experiment 3b (minimize effort): participants in the difficult condition (M = 5.64) considered more options than in all three baseline conditions (~3.8-4.2).
+![](media/image7.jpeg){width="6.390082020997375in" height="3.847224409448819in"}
 
-**Figure 5.** Number of options considered (Experiments 4a and 4b).
+*Figure 6.* Number of options considered (Experiment 5). Note.--- Error bars show 95% confidence intervals.
 
-*Note.* Error bars show 95% confidence intervals. Two bar charts showing the number of options considered across four decision ease conditions (baseline - no goal, baseline - one goal [prestige], baseline - one goal [have fun], easy - two complementary goals). Experiment 4a (maximize accuracy): participants in the ease condition (M = 9.90) considered more options than in baseline conditions (~7.6-8.7). Experiment 4b (minimize effort): participants in the ease condition (M = 3.52) considered fewer options than in baseline conditions (~4.1-4.6).
+![](media/image8.jpeg){width="3.171527777777778in" height="2.1781616360454943in"} ![](media/image9.jpeg){width="3.172014435695538in" height="2.1856266404199474in"}
 
-**Figure 6.** Number of options considered (Experiment 5).
+*Figure 7.* Number of options considered in the trade-off not salient and trade-off salient conditions (Experiment 6). Note.--- Error bars show 95% confidence intervals.
 
-*Note.* Error bars show 95% confidence intervals. Bar chart showing the number of options considered as a function of decision process goal (maximize accuracy, baseline, minimize effort) and decision difficulty (easy, moderate, difficult). In the maximize accuracy condition, participants considered more options under ease (M = 16.52) than moderate (M = 12.10), and more under moderate than difficult (M = 8.92). The baseline condition showed the same pattern. The minimize effort condition showed the reverse: fewer options under ease (M = 4.43), moderate (M = 7.45), and more under difficulty (M = 10.61).
 
-**Figure 7.** Number of options considered in the trade-off not salient and trade-off salient conditions (Experiment 6).
-
-*Note.* Error bars show 95% confidence intervals. Two bar charts. Left panel (trade-off not salient): the pattern is consistent with goal systems theory, where difficulty decreases search for maximize accuracy (M_easy = 8.02, M_difficult = 5.96) but increases search for minimize effort (M_easy = 4.20, M_difficult = 6.08). Right panel (trade-off salient): consistent with constructive choice theory, difficulty decreases search across all process goal conditions.
 
 ---
 
-# Supplementary Materials: Methodological Detail Appendix (MDA)
+# Methodological Detail Appendix
 
-The following is the Methodological Detail Appendix (MDA) accompanying the online version of this article. It reports all stimuli, materials, manipulations, and the sample size determination, as well as all pretests, manipulation checks, means and standard deviations for each condition of each experiment, and product replicate analyses (when applicable). The raw data, code files, and variable list for all experiments, including pretests and ancillary studies, are available at the Open Science Framework (https://osf.io/276gs/).
 
-## Appendix A: Sequential Search Training Task
+Methodological Detail Appendix (MDA)
 
-In this study, we are interested in understanding how people make choices. Later in this survey, we will ask you to investigate different [product category – vacation packages and cars, movies, or laptops, depending on the study], and choose one of the options. However, you will first be told about how to make a choice in this survey. On the next pages, there will be a tutorial showing you how you do your choice. After this tutorial, you will proceed to the first study of our survey. Click the arrow button to continue.
+**Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals**
+
+FELIPE M. AFFONSO
+
+CHRIS JANISZEWSKI
+
+JAMES R. BETTMAN
+
+[APPENDIX A: SEQUENTIAL SEARCH TRAINING TASK [5](#appendix-a-sequential-search-training-task)](#appendix-a-sequential-search-training-task)
+
+[APPENDIX B: DECISION PROCESS GOALS MANIPULATIONS [9](#appendix-b-decision-process-goals-manipulations)](#appendix-b-decision-process-goals-manipulations)
+
+[APPENDIX C: DECISION DIFFICULTY MANIPULATIONS [10](#appendix-c-decision-difficulty-manipulations)](#appendix-c-decision-difficulty-manipulations)
+
+[Conflicting and Complementary Benefit Goals Manipulations (Experiments 1, 2, 3a, 3b, 4a, and 4b) [10](#conflicting-and-complementary-benefit-goals-manipulations-experiments-1-2-3a-3b-4a-and-4b)](#conflicting-and-complementary-benefit-goals-manipulations-experiments-1-2-3a-3b-4a-and-4b)
+
+[Prestige Benefit Goal (Experiments 1, 2, 3a, 3b, 4a, and 4b) [10](#prestige-benefit-goal-experiments-1-2-3a-3b-4a-and-4b)](#prestige-benefit-goal-experiments-1-2-3a-3b-4a-and-4b)
+
+[Thrift Benefit Goal (Experiments 1, 3a, and 3b) [10](#thrift-benefit-goal-experiments-1-3a-and-3b)](#thrift-benefit-goal-experiments-1-3a-and-3b)
+
+[Have Fun Benefit Goal (Experiments 2, 4a, and 4b) [11](#have-fun-benefit-goal-experiments-2-4a-and-4b)](#have-fun-benefit-goal-experiments-2-4a-and-4b)
+
+[APPENDIX D: REPLICATE OPTIONS AND DIFFICULTY MANIPULATIONS OF EXPERIMENTS 5 AND 6 [12](#appendix-d-replicate-options-and-difficulty-manipulations-of-experiments-5-and-6)](#appendix-d-replicate-options-and-difficulty-manipulations-of-experiments-5-and-6)
+
+[Experiments 1, 2, 3a, 3b, 4a, and 4b: Vacation Package Options [13](#experiments-1-2-3a-3b-4a-and-4b-vacation-package-options)](#experiments-1-2-3a-3b-4a-and-4b-vacation-package-options)
+
+[Experiments 1, 2, 3a, 3b, 4a, and 4b: Car Options [16](#experiments-1-2-3a-3b-4a-and-4b-car-options)](#experiments-1-2-3a-3b-4a-and-4b-car-options)
+
+[Experiment 5: Movie Options (Easy Condition) [19](#experiment-5-movie-options-easy-condition)](#experiment-5-movie-options-easy-condition)
+
+[Experiment 5: Movie Options (Moderate Condition) [26](#experiment-5-movie-options-moderate-condition)](#experiment-5-movie-options-moderate-condition)
+
+[Experiment 5: Movie Options (Difficult Condition) [33](#experiment-5-movie-options-difficult-condition)](#experiment-5-movie-options-difficult-condition)
+
+[Experiment 6: Laptop Options (Easy Condition) [47](#experiment-6-laptop-options-easy-condition)](#experiment-6-laptop-options-easy-condition)
+
+[Experiment 6: Laptop Options (Difficult Condition) [50](#experiment-6-laptop-options-difficult-condition)](#experiment-6-laptop-options-difficult-condition)
+
+[APPENDIX E: ADDITIONAL DETAILS ABOUT THE SEQUENTIAL SEARCH PROCEDURE [53](#appendix-e-additional-details-about-the-sequential-search-procedure)](#appendix-e-additional-details-about-the-sequential-search-procedure)
+
+[APPENDIX F: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR EXPERIMENT 1 [68](#appendix-f-additional-methodological-details-and-analyses-for-experiment-1)](#appendix-f-additional-methodological-details-and-analyses-for-experiment-1)
+
+[Benefit Goals Pretests [68](#benefit-goals-pretests)](#benefit-goals-pretests)
+
+[Benefit Goals Pretests -- Vacation Packages. [68](#_Toc40265033)](#_Toc40265033)
+
+[Benefit Goals Pretests -- Cars. [70](#_Toc40103410)](#_Toc40103410)
+
+[Manipulation Check [72](#manipulation-check)](#manipulation-check)
+
+[Decision Process Goals [72](#_Toc40103412)](#_Toc40103412)
+
+[Decision Difficulty. [72](#_Toc40265037)](#_Toc40265037)
+
+[Choice Shares [73](#choice-shares)](#choice-shares)
+
+[Product Replicate Analyses [75](#product-replicate-analyses)](#product-replicate-analyses)
+
+[Product Replicates (number of options considered). [75](#_Toc40103415)](#_Toc40103415)
+
+[Product Replicate Position (number of options considered). [75](#_Toc40103416)](#_Toc40103416)
+
+[Product Replicates (choice of best option considered). [75](#_Toc40265404)](#_Toc40265404)
+
+[Product Replicate Position (choice of best option considered). [75](#_Toc40265405)](#_Toc40265405)
+
+[Product Replicates (satisficing/choice of last option considered). [76](#_Toc40265406)](#_Toc40265406)
+
+[Product Replicate Position (satisficing/choice of last option considered). [76](#_Toc40265407)](#_Toc40265407)
+
+[Time Measures [76](#time-measures)](#time-measures)
+
+[APPENDIX G: METHODOLOGICAL DETAILS AND ADDITIONAL analyses for experiment 2 [78](#appendix-g-methodological-details-and-additional-analyses-for-experiment-2)](#appendix-g-methodological-details-and-additional-analyses-for-experiment-2)
+
+[Manipulation Check [78](#manipulation-check-1)](#manipulation-check-1)
+
+[Decision Process Goals [78](#_Toc40265050)](#_Toc40265050)
+
+[Decision Difficulty. [78](#_Toc40265051)](#_Toc40265051)
+
+[Choice Shares [78](#_Toc40265052)](#_Toc40265052)
+
+[Product Replicate Analyses [80](#product-replicate-analyses-1)](#product-replicate-analyses-1)
+
+[Product Replicates (number of options considered). [80](#_Toc40265054)](#_Toc40265054)
+
+[Product Replicate Position (number of options considered) [80](#_Toc40265055)](#_Toc40265055)
+
+[Product Replicates (choice of best option considered) [81](#_Toc40265056)](#_Toc40265056)
+
+[Product Replicate Position (choice of best option considered). [82](#_Toc40265419)](#_Toc40265419)
+
+[Product Replicates (satisficing/choice of last option considered). [82](#_Toc40265420)](#_Toc40265420)
+
+[Product Replicate Position (satisficing/choice of last option considered). [82](#_Toc40265421)](#_Toc40265421)
+
+[Time Measures [82](#time-measures-1)](#time-measures-1)
+
+[APPENDIX H: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENTS 3A AND 3B [84](#appendix-h-methodological-details-and-additional-analyses-for-experiments-3a-and-3b)](#appendix-h-methodological-details-and-additional-analyses-for-experiments-3a-and-3b)
+
+[Manipulation Check [84](#manipulation-check-2)](#manipulation-check-2)
+
+[Decision Difficulty (3a) [84](#_Toc40265064)](#_Toc40265064)
+
+[Decision Difficulty (3b) [84](#_Toc40265065)](#_Toc40265065)
+
+[Product Replicates (3a) [85](#_Toc40265066)](#_Toc40265066)
+
+[Product Replicates (3b) [85](#_Toc40265067)](#_Toc40265067)
+
+[Alternative Explanations [85](#alternative-explanations)](#alternative-explanations)
+
+[Measures [85](#_Toc40265069)](#_Toc40265069)
+
+[Alternative Explanations (3a) [86](#_Toc40265070)](#_Toc40265070)
+
+[Alternative Explanations (3b) [86](#_Toc40265071)](#_Toc40265071)
+
+[APPENDIX I: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENTS 4A AND 4B [88](#appendix-i-methodological-details-and-additional-analyses-for-experiments-4a-and-4b)](#appendix-i-methodological-details-and-additional-analyses-for-experiments-4a-and-4b)
+
+[Manipulation Check [88](#manipulation-check-3)](#manipulation-check-3)
+
+[Decision Ease (4a). [88](#_Toc40265075)](#_Toc40265075)
+
+[Decision Ease (4b) [88](#_Toc40265076)](#_Toc40265076)
+
+[Product Replicate Analyses [89](#product-replicate-analyses-2)](#product-replicate-analyses-2)
+
+[Product Replicates (4a) [89](#_Toc40265078)](#_Toc40265078)
+
+[Product Replicates (4b) [89](#_Toc40265079)](#_Toc40265079)
+
+[Alternative Explanations [90](#alternative-explanations-1)](#alternative-explanations-1)
+
+[Measures [90](#_Toc40265081)](#_Toc40265081)
+
+[Alternative Explanations (4a) [90](#_Toc40265082)](#_Toc40265082)
+
+[Alternative Explanations (4b) [90](#_Toc40265083)](#_Toc40265083)
+
+[APPENDIX J: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENT 5 [92](#appendix-j-methodological-details-and-additional-analyses-for-experiment-5)](#appendix-j-methodological-details-and-additional-analyses-for-experiment-5)
+
+[Manipulation Check [92](#manipulation-check-4)](#manipulation-check-4)
+
+[Decision Process Goal (maximize accuracy) [92](#_Toc40265087)](#_Toc40265087)
+
+[Decision Process Goal (minimize effort) [92](#_Toc40265088)](#_Toc40265088)
+
+[Decision Difficulty [93](#_Toc40265089)](#_Toc40265089)
+
+[Process Goal Abandonment [93](#_Toc40265090)](#_Toc40265090)
+
+[Choice Shares [95](#choice-shares-1)](#choice-shares-1)
+
+[Time Measures [97](#time-measures-2)](#time-measures-2)
+
+[APPENDIX K: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENT 6 [99](#appendix-k-methodological-details-and-additional-analyses-for-experiment-6)](#appendix-k-methodological-details-and-additional-analyses-for-experiment-6)
+
+[Process Goal Accessibility Prime Manipulations [99](#process-goal-accessibility-prime-manipulations)](#process-goal-accessibility-prime-manipulations)
+
+[8 Options -- Effort/Accuracy Trade-Off Not Salient [99](#_Toc40265096)](#_Toc40265096)
+
+[50 Options -- Effort/Accuracy Trade-Off Salient [99](#_Toc47432333)](#_Toc47432333)
+
+[Stimuli for Process Goal Accessibility Prime Manipulations [99](#stimuli-for-process-goal-accessibility-prime-manipulations)](#stimuli-for-process-goal-accessibility-prime-manipulations)
+
+[Manipulation Check [102](#manipulation-check-5)](#manipulation-check-5)
+
+[Decision Difficulty [102](#_Toc40265100)](#_Toc40265100)
+
+[Decision Process Goal (maximize accuracy) [102](#_Toc40265101)](#_Toc40265101)
+
+[Decision Process Goal (minimize effort) [103](#_Toc40265102)](#_Toc40265102)
+
+[Effort-Accuracy Trade-Off Focus [104](#_Toc40265103)](#_Toc40265103)
+
+[Process Goal Abandonment. [104](#_Toc40265104)](#_Toc40265104)
+
+[Choice Shares [106](#choice-shares-2)](#choice-shares-2)
+
+[Time Measures [107](#time-measures-3)](#time-measures-3)
+
+[APPENDIX L: MEANS AND STANDARD DEVIATIONS [108](#appendix-l-means-and-standard-deviations)](#appendix-l-means-and-standard-deviations)
+
+[APPENDIX m: data collection plan and exclusions [110](#appendix-m-data-collection-plan-and-exclusions)](#appendix-m-data-collection-plan-and-exclusions)
+
+[REFERENCES [113](#references)](#references)
+
+#  {#section .TOC-Heading}
+
+**\**
+
+# APPENDIX A: SEQUENTIAL SEARCH TRAINING TASK
+
+In this study, we are interested in understanding how people make choices. Later in this survey, we will ask you to investigate different \[product category -- vacation packages and cars, movies, or laptops, depending on the study\], and choose one of the options. However, you will first be told about how to make a choice in this survey. On the next pages, there will be a tutorial showing you how you do your choice. After this tutorial, you will proceed to the first study of our survey. Click the arrow button to continue.
+
 Page break
 
 You will see three different possible choices: option A, option B, and a choice to look to another option (the option C). This will happen successively (you can decide to see a fourth (D), a fifth (E), a sixth (F), and several other options, if you want to).
-If you want any of the options that are displayed, just select your preferred option and click the Arrow button. If you want to see more options other than the ones that are displayed, click "Look at another option before deciding". The additional option will appear automatically. This pattern will be the same later in the survey.
+
+If you want any of the options that are displayed, just select your preferred option and click the Arrow button. If you want to see more options other than the ones that are displayed, click \"Look at another option before deciding\". The additional option will appear automatically. This pattern will be the same later in the survey.
+
 You can choose to look to as many options as you want. You can also select an option at any point, including as your first choice. There are several options, but you do NOT have to look at all of them. Click the arrow button to proceed to the tutorial. After finishing the tutorial, you will be directed to the next part of this survey.
-Page break
-Tutorial
-Option B
-Option A
-
-Look at another option before deciding
-
 
 Page break
 
-If the participant chooses to “Look at another option before deciding”, the additional option is randomly drawn (without replacement) from the pool of options. The additional option is always positioned as the first option in the choice matrix. The order of previously seen options is maintained.
-
 Tutorial
-Option C
-Option B
-Option A
-Look at another option before deciding
 
++-----------------------+-------------------------------------+-----------------------+
+| - Option B            | - Option A                          |                       |
++=======================+=======================+:===========:+:=====================:+
+| - Look at another option before deciding      |             |                       |
++-----------------------------------------------+-------------+-----------------------+
 
 Page break
 
-If the participant chooses to “Look at another option before deciding” again:
+If the participant chooses to "Look at another option before deciding", the additional option is randomly drawn (without replacement) from the pool of options. The additional option is always positioned as the first option in the choice matrix. The order of previously seen options is maintained.
 
 Tutorial
-Option D
-Option B
-Option A
-Option C
 
-
-Look at another option before deciding
-
++-----------------------+-------------------------------------+-----------------------+
+| - Option C            | - Option B                          | - Option A            |
++=======================+=======================+:===========:+:=====================:+
+| - Look at another option before deciding      |             |                       |
++-----------------------------------------------+-------------+-----------------------+
 
 Page break
 
-If the participant keeps choosing to “Look at another option before deciding” until all the available options are displayed:
+If the participant chooses to "Look at another option before deciding" again:
 
 Tutorial
-Option O
-Option J
-Option E
-Option N
-Option I
-Option D
-Option M
-Option H
-Option C
-Option L
-Option G
-Option B
-Option K
-Option F
-Option A
-All the available options are displayed. Please select one of the options above.
 
++-----------------------+-------------------------------------+-----------------------+
+| - Option D            | - Option B                          | - Option A            |
++=======================+=======================+=============+=======================+
+| - Option C            |                                     |                       |
++-----------------------+-----------------------+-------------+-----------------------+
+| - Look at another option before deciding      |             |                       |
++-----------------------------------------------+-------------+-----------------------+
+
+Page break
+
+If the participant keeps choosing to "Look at another option before deciding" until all the available options are displayed:
+
+Tutorial
+
++------------------------------+------------------------------+----------------------------------------------------+
+| - Option O                   | - Option J                   | - Option E                                         |
++==============================+==============================+==============================+==========+==========+
+| - Option N                   | - Option I                   | - Option D                                         |
++------------------------------+------------------------------+----------------------------------------------------+
+| - Option M                   | - Option H                   | - Option C                                         |
++------------------------------+------------------------------+----------------------------------------------------+
+| - Option L                   | - Option G                   | - Option B                                         |
++------------------------------+------------------------------+----------------------------------------------------+
+| - Option K                   | - Option F                   | - Option A                                         |
++------------------------------+------------------------------+------------------------------+----------+----------+
+| - All the available options are displayed. Please select one of the options above.         |          |          |
++--------------------------------------------------------------------------------------------+----------+----------+
 
 In all the choice tasks, except when noted, the options are displayed in a 3-column matrix (except for the first page, which has only two options/columns). The number of rows depends on how many options are displayed to participants.
-The “additional option” that keeps appearing each time the participant clicks “Look at another option” always is placed on the 1st row, 1st column. The remaining options (that are carried over) are always positioned “from last to first” in a column-major array order, and their position depends on the order of appearance. To exemplify: the most recent option always appears on the 1st row and 1st column. The second most recent option appears below (2nd row, 1st column). The third most recent option appears below (3rd row, 1st column). Depending on the number of options that is being displayed, the subsequent option is positioned in the 1st row, 2nd column. This is referred to as “column-major order” array representation. Please see the illustration below.
-Option O is the latest option that appeared (i.e., the most recent option). Option A is one of the first options that appeared. In a sequential search setting (as in our studies), the order of options, as they appeared, would be A, B, C, D, E, …, O.
+
+The "additional option" that keeps appearing each time the participant clicks "Look at another option" always is placed on the 1st row, 1st column. The remaining options (that are carried over) are always positioned "from last to first" in a column-major array order, and their position depends on the order of appearance. To exemplify: the most recent option always appears on the 1st row and 1st column. The second most recent option appears below (2nd row, 1st column). The third most recent option appears below (3rd row, 1st column). Depending on the number of options that is being displayed, the subsequent option is positioned in the 1st row, 2nd column. This is referred to as "column-major order" array representation. Please see the illustration below.
+
+Option O is the latest option that appeared (i.e., the most recent option). Option A is one of the first options that appeared. In a sequential search setting (as in our studies), the order of options, as they appeared, would be A, B, C, D, E, ..., O.
+
 We provide more details on programming this type of task on Qualtrics on methodological detail appendix E (the additional information about the sequential search task appendix).
 
-Option O
-Option J
-Option E
-Option N
-Option I
-Option D
-Option M
-Option H
-Option C
-Option L
-Option G
-Option B
-Option K
-Option F
-Option A
++----------------------+-----------------------+-----------------------+
+| - Option O           | - Option J            | - Option E            |
++======================+=======================+=======================+
+| - Option N           | - Option I            | - Option D            |
++----------------------+-----------------------+-----------------------+
+| - Option M           | - Option H            | - Option C            |
++----------------------+-----------------------+-----------------------+
+| - Option L           | - Option G            | - Option B            |
++----------------------+-----------------------+-----------------------+
+| - Option K           | - Option F            | - Option A            |
++----------------------+-----------------------+-----------------------+
 
 If the participant chooses any of the options at any point:
 
 Since you selected one of the options, you finished the sequential search training task. Please click the Arrow button to proceed to the next part of this survey.
 
+# APPENDIX B: DECISION PROCESS GOALS MANIPULATIONS
 
-## Appendix B: Decision Process Goals Manipulations
+Participants first read the following: "*When people make a choice, they make an effort-accuracy-tradeoff. Some people want to put in less effort because they simply want to get the choice done. Some people want to put in more effort because they want to be accurate.*"
 
-Participants first read the following: “When people make a choice, they make an effort-accuracy-tradeoff. Some people want to put in less effort because they simply want to get the choice done. Some people want to put in more effort because they want to be accurate.”
 Participants in the maximize accuracy process goal condition read:
-“In this study, we are interested in learning why people want to be accurate when they make choices. Please list three reasons why you would want to be accurate when you make a choice. Examples of other people's responses are... (1) because I want to get something I really like; (2) because I want to make sure I get the best possible option.”
+
+> *"In this study, we are interested in learning why people want to be accurate when they make choices. Please list three reasons why you would want to be accurate when you make a choice. Examples of other people\'s responses are\... (1) because I want to get something I really like; (2) because I want to make sure I get the best possible option."*
 
 Participants in the minimize effort process goal condition read:
-“In this study, we are interested in learning why people want to put in less effort when they make choices. Please list three reasons why you would want to put in less effort when you make a choice. Examples of other people's responses are: (1) because I simply want to get the choice done without wasting my time; (2) because I want to save energy for other activities.”
+
+> "*In this study, we are interested in learning why people want to put in less effort when they make choices. Please list three reasons why you would want to put in less effort when you make a choice. Examples of other people\'s responses are: (1) because I simply want to get the choice done without wasting my time; (2) because I want to save energy for other activities*."
 
 Participants in both conditions were given three boxes to list their reasons why they would want to act in a goal consistent manner. Reasons (Briley, Morris, & Simonson, 2000; Simonson & Nowlis, 2000) are commonly used to activate decision process goals. We also asked participants to consider the reasons they listed when making decisions in the survey.
+
 Participants in the baseline decision process goal condition (i.e., no decision process goal) (experiments 5 and 6) simply read the following passage (along with an essay box):
-“Life is full of experiences - ranging from regular things, such as commuting to work or purchasing certain products, to unusual or memorable things, such as traveling. Now, we are interested in learning about your purchase experiences. Please write about one purchase experience that recently happened to you. Write down in details what you remember from it. You will be able to proceed to the next page after 60 seconds, but we encourage you to write as much as you want.”
 
+> *"Life is full of experiences - ranging from regular things, such as commuting to work or purchasing certain products, to unusual or memorable things, such as traveling. Now, we are interested in learning about your purchase experiences. Please write about one purchase experience that recently happened to you. Write down in details what you remember from it. You will be able to proceed to the next page after 60 seconds, but we encourage you to write as much as you want."*
 
-## Appendix C: Decision Difficulty Manipulations
+# APPENDIX C: DECISION DIFFICULTY MANIPULATIONS
 
-Conflicting and Complementary Benefit Goals Manipulations (Experiments 1, 2, 3a, 3b, 4a, and 4b)
-Similar to some of the process goal manipulations, participants were given three boxes to list their reasons why they would want to act in a goal consistent manner. We also asked participants to consider these goals when making decisions in the survey. Participants in the decision difficulty – conflicting benefit goals conditions (experiments 1, 3a, and 3b) listed reasons (and were asked to consider) both prestige and thrift goals. Participants in the decision ease – complementary benefit goals conditions (experiments 2, 4a, and 4b) also listed reasons (and were asked to consider) both prestige and fun goals. Participants in the one-goal conditions (experiments 3a, 3b, 4a, and 4b) listed reasons for only one of the goals.
-Prestige Benefit Goal (Experiments 1, 2, 3a, 3b, 4a, and 4b)
-“Now, imagine that you have decided that having prestige should be a top priority in life. Being prestigious and pursuing status - when making simple or complex decisions - can significantly boost your self-esteem and reputation. Imagine that instead of worrying about how you are spending your money or worrying if you should stick to a particular budget, you will always try to focus on achieving a prestigious outcome. You will do this for current and future decisions. Please list three reasons why prestige would be important to you and how this would positively impact your life in the future. Examples of other people's responses are... (1) because I want to feel powerful and important. This makes me happier with myself; (2) you only live once. After all, money is meant to buy things. I want to be the best."
+## Conflicting and Complementary Benefit Goals Manipulations (Experiments 1, 2, 3a, 3b, 4a, and 4b)
 
-Thrift Benefit Goal (Experiments 1, 3a, and 3b)
-“Now, imagine that you have decided that being thrifty should be a top priority in life. Being frugal and saving money - when making simple or complex decisions - can significantly boost your quality life and financial well-being. Imagine that instead of spending money on things you do not really need, or being extravagant, you will try to be thrifty. You will do this for current and future decisions. Please list three reasons why being thrifty would be important to you and how this would positively impact your life in the future. Examples of other people's responses are... (1) because I don't want to deal with overwhelming debt every month; (2) because I often buy things I don't really need, and I feel regret when looking at my budget."
+Similar to some of the process goal manipulations, participants were given three boxes to list their reasons why they would want to act in a goal consistent manner. We also asked participants to consider these goals when making decisions in the survey. Participants in the decision difficulty -- conflicting benefit goals conditions (experiments 1, 3a, and 3b) listed reasons (and were asked to consider) both prestige and thrift goals. Participants in the decision ease -- complementary benefit goals conditions (experiments 2, 4a, and 4b) also listed reasons (and were asked to consider) both prestige and fun goals. Participants in the one-goal conditions (experiments 3a, 3b, 4a, and 4b) listed reasons for only one of the goals.
 
-Have Fun Benefit Goal (Experiments 2, 4a, and 4b)
-“Now, imagine that you have decided that having fun should be a top priority in life. Having fun and embracing playfulness in your life - when making simple or complex decisions - can significantly boost your overall well-being and life satisfaction. Imagine that instead of taking things too seriously, and seeing the things you do as obligations, you will always try to focus on the fun of side of what you do. You will do this for current and future decisions. Please list three reasons why having fun would be important to you and how this would positively impact your life in the future. Examples of other people's responses are... (1) because I want to be happy in every single aspect of my life; (2) because seeing the fun side of life can make you enjoy things you usually don't feel like doing.”
+## Prestige Benefit Goal (Experiments 1, 2, 3a, 3b, 4a, and 4b) 
+
+> "*Now, imagine that you have decided that having prestige should be a top priority in life. Being prestigious and pursuing status - when making simple or complex decisions - can significantly boost your self-esteem and reputation. Imagine that instead of worrying about how you are spending your money or worrying if you should stick to a particular budget, you will always try to focus on achieving a prestigious outcome.* *You will do this for current and future decisions. Please list three reasons why prestige would be important to you and how this would positively impact your life in the future. Examples of other people\'s responses are\... (1) because I want to feel powerful and important. This makes me happier with myself; (2) you only live once. After all, money is meant to buy things. I want to be the best.\"*
+
+## Thrift Benefit Goal (Experiments 1, 3a, and 3b)
+
+> *"Now, imagine that you have decided that being thrifty should be a top priority in life. Being frugal and saving money - when making simple or complex decisions - can significantly boost your quality life and financial well-being. Imagine that instead of spending money on things you do not really need, or being extravagant, you will try to be thrifty. You will do this for current and future decisions. Please list three reasons why being thrifty would be important to you and how this would positively impact your life in the future. Examples of other people\'s responses are\... (1) because I don\'t want to deal with overwhelming debt every month; (2) because I often buy things I don\'t really need, and I feel regret when looking at my budget.\"*
+
+## Have Fun Benefit Goal (Experiments 2, 4a, and 4b)
+
+> *"Now, imagine that you have decided that having fun should be a top priority in life. Having fun and embracing playfulness in your life - when making simple or complex decisions - can significantly boost your overall well-being and life satisfaction. Imagine that instead of taking things too seriously, and seeing the things you do as obligations, you will always try to focus on the fun of side of what you do. You will do this for current and future decisions. Please list three reasons why having fun would be important to you and how this would positively impact your life in the future. Examples of other people\'s responses are\... (1) because I want to be happy in every single aspect of my life; (2) because seeing the fun side of life can make you enjoy things you usually don\'t feel like doing."*
 
 The decision difficulty manipulations used in experiments 5 and 6 (amount of information and degree of inter-attribute correlation) were administered via the stimuli. Thus, we present them in the next section.
 
+**\**
 
-## Appendix D: Replicate Options And Difficulty Manipulations Of Experiments 5 And 6
+# APPENDIX D: REPLICATE OPTIONS AND DIFFICULTY MANIPULATIONS OF EXPERIMENTS 5 AND 6
 
 This methodological detail appendix shows the options that were used in all experiments. For additional information on the sequential search task, please see the methodological detail appendix E.
-In this methodological detail appendix, we provide all options in a table format to facilitate the copy and paste of the text and figures (if needed). On Qualtrics, participants saw the options in a more aligned/organized way (each option was a choice in a multiple answer question – see Appendix S1: MDA E for details). In addition, the fonts were slightly different in the actual survey. After the tables with the stimuli information, we also provide examples of the stimuli the way they were seen by the participants.
 
-### Experiments 1, 2, 3a, 3b, 4a, and 4b: Vacation Package Options
+In this methodological detail appendix, we provide all options in a table format to facilitate the copy and paste of the text and figures (if needed). On Qualtrics, participants saw the options in a more aligned/organized way (each option was a choice in a multiple answer question -- see MDA E for details). In addition, the fonts were slightly different in the actual survey. After the tables with the stimuli information, we also provide examples of the stimuli the way they were seen by the participants.
 
-Fiji Hideaway Resort & Spa - 7 nights with flight $2861 (Coral Coast Area). Roundtrip airfare on Fiji Airways, 7 nights’ accommodation at Fiji Hideaway Resort & Spa in a Frangipani Bure.
+***\***
 
+## Experiments 1, 2, 3a, 3b, 4a, and 4b: Vacation Package Options
 
-Hotel Palazzo Giovanelli & Gran Canal - 3 nights with flight $1732 (Venice, Italy). Reduced rate. Includes daily buffet breakfast.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fiji Hideaway Resort & Spa - 7 nights with flight **\$2861** (Coral Coast Area). Roundtrip airfare on Fiji Airways, 7 nights' accommodation at Fiji Hideaway Resort & Spa in a Frangipani Bure.                                        | Hotel Palazzo Giovanelli & Gran Canal - 3 nights with flight **\$1732** (Venice, Italy). Reduced rate. Includes daily buffet breakfast.                                                                                            | The Westin New York at Times Square - 3 nights with flight ~~\$883~~ **\$856** (Times Square). This plush hotel is set at the dazzling heart of New York, close to Broadway, museums and upscale shopping.                          |
+|                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                     |
+| ![1Fiji](media/image1.jpeg){width="2.2891590113735782in" height="1.5212773403324584in"}                                                                                                                                                | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\6.jpg](media/image2.jpeg){width="2.31875in" height="1.5208333333333333in"}             | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\11.jpg](media/image3.jpeg){width="2.2446358267716535in" height="1.4964227909011374in"}  |
++:======================================================================================================================================================================================================================================:+:==================================================================================================================================================================================================================================:+:===================================================================================================================================================================================================================================:+
+| Mauna Lani Bay Hotel & Bungalows - 3 nights with flight and car ~~\$1037~~ **\$876** (Kohala Coast, Hawaii). Discount, Ocean View, Includes EXCLUSIVE up to 5-Day FREE mid-size car rental.                                            | SAVOY - 4 nights with flight ~~\$1211~~ **\$876** (Rome) 27% OFF! 4th night FREE, Includes daily breakfast for ALL, Kids 7 & younger stay FREE.                                                                                    | Blue Lagoon 7 Night Cruise - 7 nights with flight **\$3962** (Fiji). Lagoon Cruises in a Hibiscus Deck, all meals, cruise entertainment, shore excursions and activities included in the cruise schedule.                           |
+|                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                     |
+| ![2Hawaii](media/image4.jpeg){width="2.3781036745406823in" height="1.5744674103237095in"}                                                                                                                                              | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\7.jpg](media/image5.jpeg){width="2.393617672790901in" height="1.595744750656168in"}    | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\12.jpg](media/image6.jpeg){width="2.2708333333333335in" height="1.627658573928259in"}   |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Hyatt Zilara Cancun - 3 nights with flight **\$2882+** (Cancun, Mexico). Oceanfront Junior Suite, All-Inclusive: includes all meals, drinks, and activities.                                                                           | Beaches Turks & Caicos Resort Villages & Spa - 3 nights with flight **\$2702** (Turks & Caicos, Caribbean). Includes all meals, unlimited premium spirits & activities.                                                            | The Confidante - By Hyatt - 3 nights with flight **\$384** (Miami Beach, Florida). Stays 5 nights or longer and receive Exclusive \$100 Off per booking.                                                                            |
+|                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                     |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\3Cancun.jpg](media/image7.jpeg){width="2.202128171478565in" height="1.4680872703412073in"} | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\8.jpg](media/image8.jpeg){width="2.3191491688538934in" height="1.4534722222222223in"}  | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\14.jpg](media/image9.jpeg){width="2.2093088363954507in" height="1.4728729221347332in"}  |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sheraton Buganvilias Resort & Convention Center - 3 nights with flight **\$409** (Puerto Vallarta, Mexico). Exclusive \$100 Off per booking, Kids 12 & younger stay FREE, FREE Wi-Fi.                                                  | Sheraton Puerto Rico Hotel & Casino - 3 nights with flight ~~\$539~~ **\$498** (Old San Juan, Puerto Rico). 20% off on Zen spa treatment, FREE Wi-Fi, Kids 17 & younger stay FREE.                                                 | Mystique, A Luxury Collection Hotel - 3 nights with flight **\$2276** (Santorini, Greece). A one-of-a-kind experience on the iconic Greek island of Santorini.                                                                      |
+|                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                     |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\4.jpg](media/image10.jpeg){width="2.20161854768154in" height="1.4677449693788276in"}       | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\9.jpg](media/image11.jpeg){width="2.280524934383202in" height="1.5203510498687665in"}  | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\15.jpg](media/image12.jpeg){width="2.2219860017497814in" height="1.4813232720909886in"} |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Walt Disney World Dolphin - 3 nights with flight ~~\$937~~ **\$707** (Disney). Cheap! Exclusive \$50 Off per booking                                                                                                                   | Flamingo Las Vegas - 3 nights with flight from **\$352** (Las Vegas). A self-contained casino and resort offering everything a vacationer could want.                                                                              | Hilton San Diego Bayfront - 3 nights with flight **\$466** (San Diego Bay Front, CA). Port/Coronado Bridge View, Stays of 5 nights or longer receive Exclusive \$100 Off.                                                           |
+|                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                     |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\5.jpg](media/image13.jpeg){width="2.218086176727909in" height="1.47872375328084in"}        | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\10.jpg](media/image14.jpeg){width="2.302153324584427in" height="1.5347670603674541in"} | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Vacation Packages\\16.jpg](media/image15.jpeg){width="2.179834864391951in" height="1.5242475940507436in"}  |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+Below, an example of a participant's screen view displaying 6 options (with one selected option. Depending on the participant's screen resolution, monitor size, and internet browser zoom level, there could be more or less options on the screen simultaneously. Participants could scroll down (and up) through the options. There were 3 columns (except for the first page, where participants only had two available options to choose from).
 
-The Westin New York at Times Square - 3 nights with flight $883 $856 (Times Square). This plush hotel is set at the dazzling heart of New York, close to Broadway, museums and upscale shopping.
+![](media/image16.png){width="5.673784995625547in" height="6.974026684164479in"}
 
+## Experiments 1, 2, 3a, 3b, 4a, and 4b: Car Options
 
-Mauna Lani Bay Hotel & Bungalows - 3 nights with flight and car $1037 $876 (Kohala Coast, Hawaii). Discount, Ocean View, Includes EXCLUSIVE up to 5-Day FREE mid-size car rental.
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2012 Toyota Camry - XLE FWD - **\$11,500** (Used)                                                                                                                                                                                                                           | 2017 Jaguar F-PACE S - AWD S 4dr SUV - **\$42,000** (New)                                                                                                                                                                                                                    | 2017 Chevrolet Malibu LS - LS 4dr Sedan - **\$19,800** (New)                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                            |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2012 Toyota Camry - XLE FWD.jpg](media/image17.jpeg){width="2.099290244969379in" height="1.5744674103237095in"}                              | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Jaguar F-PACE S - AWD S 4dr SUV.jpg](media/image18.jpeg){width="2.070921916010499in" height="1.5531911636045495in"}                      | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Chevrolet Malibu LS - LS 4dr Sedan.jpg](media/image19.jpeg){width="2.2836876640419947in" height="1.7127657480314962in"}                |
++:===========================================================================================================================================================================================================================================================================:+:============================================================================================================================================================================================================================================================================:+:==========================================================================================================================================================================================================================================================================:+
+| 2017 Subaru WRX STI Limited - AWD STI Limited 4dr Sedan - ~~\$31,700~~ **\$29,700** (New)                                                                                                                                                                                   | 2008 Honda Accord LX - LX 4dr Sedan 5A - ~~\$9,575~~ **\$8,595** (Used)                                                                                                                                                                                                      | 2017 Land Rover Range Rover Sport SVR - AWD SVR 4dr SUV - ~~\$89,989~~ **\$85,989** (New)                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                            |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Subaru WRX STI Limited - AWD STI Limited 4dr Sedan.jpg](media/image20.jpeg){width="2.0137117235345583in" height="1.5102843394575678in"} | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2008 Honda Accord LX - LX 4dr Sedan 5A.jpg](media/image21.jpeg){width="2.170213254593176in" height="1.6276596675415573in"}                    | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Land Rover Range Rover Sport SVR - AWD SVR 4dr SUV.jpg](media/image22.jpeg){width="2.113474409448819in" height="1.5851060804899388in"} |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2007 Ford Escape - XLS AWD 4dr SUV (2.3L I4 5M)​ - ~~\$5,420~~ **\$4,780** (Used)                                                                                                                                                                                            | 2014 BMW 5 Series 550i xDrive - AWD 550i xDrive 4dr Sedan​ - **\$34,000** (Used)                                                                                                                                                                                              | 2017 Hyundai Elantra - SE - **\$17,800** (New)                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                            |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2007 Ford Escape - XLS AWD 4dr SUV (2.3L I4 5M).jpg](media/image23.jpeg){width="2.085106080489939in" height="1.5638298337707786in"}          | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2014 BMW 5 Series 550i xDrive - AWD 550i xDrive 4dr Sedan.jpg](media/image24.jpeg){width="2.241134076990376in" height="1.6808508311461068in"} | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Hyundai Elantra - SE.jpg](media/image25.jpeg){width="2.1841458880139983in" height="1.638109142607174in"}                               |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2016 Porsche 911 - Turbo S Cabriolet​ - **\$178,000** (New)                                                                                                                                                                                                                  | 2017 Nissan Sentra SV - SV 4dr Sedan - **\$13,915** (New)                                                                                                                                                                                                                    | 2015 Mitsubishi Lancer ES - ES 4dr Sedan CVT - **\$8,977** (Used)                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                            |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2016 Porsche 911 - Turbo S Cabriolet.jpg](media/image26.jpeg){width="2.382305336832896in" height="1.419093394575678in"}                      | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Nissan Sentra SV - SV 4dr Sedan.jpg](media/image27.jpeg){width="2.202128171478565in" height="1.477202537182852in"}                       | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2015 Mitsubishi Lancer ES - ES 4dr Sedan CVT.jpg](media/image28.jpeg){width="2.1411537620297465in" height="1.6058650481189851in"}           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2008 Volvo S80 T6 - AWD T6 4dr Sedan Luxury - **\$8,900** (Used)                                                                                                                                                                                                            | 2017 Jeep Cherokee - Altitude - **\$22,390** (New)                                                                                                                                                                                                                           | 2017 Ford Taurus SEL - SEL 4dr Sedan - **\$26,734** (New)                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                            |
+| ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2008 Volvo S80 T6 - AWD T6 4dr Sedan Luxury.jpg](media/image29.jpeg){width="2.2162259405074365in" height="1.6595745844269467in"}             | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Jeep Cherokee - Altitude.jpg](media/image30.jpeg){width="2.2262620297462816in" height="1.669695975503062in"}                             | ![C:\\Users\\faffonso\\Dropbox\\Felipe\\USP - Mestrado FEA\\1S 2017 (Miami Semester)\\Process Benefit Goals Interaction\\Cars\\2017 Ford Taurus SEL - SEL 4dr Sedan.jpg](media/image31.jpeg){width="2.2626181102362204in" height="1.6489370078740158in"}                   |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+Below is an example of a participant's screen view with 10 options. As previously mentioned, the actual sizes and number of options that are simultaneously displayed (i.e., able to be compared without scrolling the page down) depends on the participant's monitor size, screen resolution, and current level of internet browser zoom.
 
-SAVOY - 4 nights with flight $1211 $876 (Rome) 27% OFF! 4th night FREE, Includes daily breakfast for ALL, Kids 7 & younger stay FREE.
+![](media/image32.png){width="6.010416666666667in" height="7.249919072615923in"}
 
+**\**
 
-Blue Lagoon 7 Night Cruise - 7 nights with flight $3962 (Fiji). Lagoon Cruises in a Hibiscus Deck, all meals, cruise entertainment, shore excursions and activities included in the cruise schedule.
-
-
-Hyatt Zilara Cancun - 3 nights with flight $2882+ (Cancun, Mexico). Oceanfront Junior Suite, All-Inclusive: includes all meals, drinks, and activities.
-
-
-Beaches Turks & Caicos Resort Villages & Spa - 3 nights with flight $2702 (Turks & Caicos, Caribbean). Includes all meals, unlimited premium spirits & activities.
-
-
-The Confidante - By Hyatt - 3 nights with flight $384 (Miami Beach, Florida). Stays 5 nights or longer and receive Exclusive $100 Off per booking.
-
-
-Sheraton Buganvilias Resort & Convention Center - 3 nights with flight $409 (Puerto Vallarta, Mexico). Exclusive $100 Off per booking, Kids 12 & younger stay FREE, FREE Wi-Fi.
-
-Sheraton Puerto Rico Hotel & Casino - 3 nights with flight $539 $498 (Old San Juan, Puerto Rico). 20% off on Zen spa treatment, FREE Wi-Fi, Kids 17 & younger stay FREE.
-
-
-Mystique, A Luxury Collection Hotel - 3 nights with flight $2276 (Santorini, Greece). A one-of-a-kind experience on the iconic Greek island of Santorini.
-
-
-Walt Disney World Dolphin - 3 nights with flight $937 $707 (Disney). Cheap! Exclusive $50 Off per booking
-
-
-Flamingo Las Vegas - 3 nights with flight from $352 (Las Vegas). A self-contained casino and resort offering everything a vacationer could want.
-
-
-Hilton San Diego Bayfront - 3 nights with flight $466 (San Diego Bay Front, CA). Port/Coronado Bridge View, Stays of 5 nights or longer receive Exclusive $100 Off.
-
-
-Below, an example of a participant’s screen view displaying 6 options (with one selected option. Depending on the participant’s screen resolution, monitor size, and internet browser zoom level, there could be more or less options on the screen simultaneously. Participants could scroll down (and up) through the options. There were 3 columns (except for the first page, where participants only had two available options to choose from).
-
-### Experiments 1, 2, 3a, 3b, 4a, and 4b: Car Options
-
-2012 Toyota Camry - XLE FWD - $11,500 (Used)
-
-2017 Jaguar F-PACE S - AWD S 4dr SUV - $42,000 (New)
-
-2017 Chevrolet Malibu LS - LS 4dr Sedan - $19,800 (New)
-
-2017 Subaru WRX STI Limited - AWD STI Limited 4dr Sedan - $31,700 $29,700 (New)
-
-2008 Honda Accord LX - LX 4dr Sedan 5A - $9,575 $8,595 (Used)
-
-2017 Land Rover Range Rover Sport SVR - AWD SVR 4dr SUV - $89,989 $85,989 (New)
-
-
-2007 Ford Escape - XLS AWD 4dr SUV (2.3L I4 5M)​ - $5,420 $4,780 (Used)
-
-
-2014 BMW 5 Series 550i xDrive - AWD 550i xDrive 4dr Sedan​ - $34,000 (Used)
-
-2017 Hyundai Elantra - SE - $17,800 (New)
-
-2016 Porsche 911 - Turbo S Cabriolet​ - $178,000 (New)
-
-
-2017 Nissan Sentra SV - SV 4dr Sedan - $13,915 (New)
-
-
-2015 Mitsubishi Lancer ES - ES 4dr Sedan CVT - $8,977 (Used)
-
-2008 Volvo S80 T6 - AWD T6 4dr Sedan Luxury - $8,900 (Used)
-
-
-2017 Jeep Cherokee - Altitude - $22,390 (New)
-
-
-2017 Ford Taurus SEL - SEL 4dr Sedan - $26,734 (New)
-
-
-Below is an example of a participant’s screen view with 10 options. As previously mentioned, the actual sizes and number of options that are simultaneously displayed (i.e., able to be compared without scrolling the page down) depends on the participant’s monitor size, screen resolution, and current level of internet browser zoom.
-
-
-### Experiment 5: Movie Options (Easy Condition)
+## Experiment 5: Movie Options (Easy Condition)
 
 The options were displayed in two columns.
 
-Mission: Impossible - Fallout
-
-
-The Sisters Brothers
-
-
-Genre: Action, ThrillerLength: 2h 27m
-
-
-Genre: Comedy, WesternLength: 2h 1m
-Fast Color
-
-Changeland
-
-
-Genre: Science Fiction, ThrillerLength: 1h 42m
-
-
-Genre: Comedy, DramaLength: 1h 26m
-
-
-The Good Guy
-
-Running With the Devil
-
-
-Genre: ComedyLength: 1h 42m
-
-
-Genre: Action, CrimeLength: 1h 40m
-
-All Square
-
-
-The Lincoln Lawyer
-
-
-Genre: ComedyLength: 1h 39m
-
-
-Genre: Crime, LegalLength: 2h 0m
-
-
-High-Rise
-
-
-Leap Year
-
-
-Genre: Comedy, DramaLength: 1h 59m
-
-
-Genre: Comedy, RomanceLength: 1h 40m
-What Men Want
-
-And So It Goes
-
-
-Genre: Comedy, RomanceLength: 1h 57m
-
-
-Genre: Comedy, RomanceLength: 1h 34m
-
-
-Fighting With My Family
-
-
-Backtrace
-
-
-Genre: Comedy, DramaLength: 1h 48m
-
-
-Genre: Adventure, ThrillerLength: 1h 27m
-
-The Commuter
-
-
-Daylight's End
-
-
-Genre: Mystery, ThrillerLength: 1h 45m
-
-
-Genre: Action, HorrorLength: 1h 45m
-
-
-Arbitrage
-
-
-Under the Tree
-
-
-Genre: Drama, ThrillerLength: 1h 47m
-
-
-Genre: ComedyLength: 1h 29m
-
-Dog Days
-
-
-The Osiris Child
-
-
-Genre: Comedy, RomanceLength: 1h 53m
-
-
-Genre: Action, Science FictionLength: 1h 39m
-
-
-The Prince
-
-
-The Colony
-
-
-Genre: Action, ThrillerLength: 1h 33m
-
-
-Genre: Horror, ThrillerLength: 1h 33m
-I Kill Giants
-
-Black Rock
-
-
-Genre: Fantasy, ThrillerLength: 1h 46m
-
-
-Genre: Thriller, Horror Length: 1h 19m
-
-
-Along With the Gods: The Two Worlds
-
-
-Genre: Fantasy, AdventureLength: 2h 20m
-
-Below is an example of a participant’s screen view with 4 options:
-
-
-### Experiment 5: Movie Options (Moderate Condition)
-
-
-Mission: Impossible - Fallout
-Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions.
-
-
-The Sisters Brothers
-Based on Patrick Dewitt’s acclaimed novel, Eli and Charlie Sisters are hired to kill a prospector who has stolen from their boss. The story, a genre-hybrid with comedic elements, takes place in Oregon in 1851.
-
-
-Genre: Action, ThrillerReleased: 2018Length: 2h 27mMPAA Rating: PG-13
-
-
-Genre: Comedy, WesternReleased: 2018Length: 2h 1mMPAA Rating: R
-
-Fast Color
-Hunted by mysterious forces and a local sheriff, a young woman with supernatural abilities flees back to her family-and unearths the depths of the power within her.
-
-Changeland
-Directed by and starring Seth Green, the film follows two estranged best friends on a life-changing trip to Thailand. This epic journey reminds them that there's no problem that friendship and a few rounds in a Thai boxing ring can't fix.
-
-Genre: Science Fiction, ThrillerReleased: 2018Length: 1h 42mMPAA Rating: PG-13
-
-
-Genre: Comedy, DramaReleased: 2019Length: 1h 26mMPAA Rating: R
-
-The Good Guy
-The girlfriend of a hotshot Wall Street trader finds herself falling for his protege.
-
-
-Running With the Devil
-When a cocaine shipment is compromised to the dismay of a drug cartel's CEO, known simply as The Boss, he orders his most trusted henchman on a dangerous journey to audit the company's supply chain.
-
-
-Genre: ComedyReleased: 2010Length: 1h 31mMPAA Rating: R
-
-
-Genre: Action, CrimeReleased: 2019Length: 1h 40mMPAA Rating: R
-
-All Square
-A down-on-his-luck bookie befriends an ex-girlfriend's son and begins taking bets on his youth league baseball games, creating chaos in the community.
-
-
-The Lincoln Lawyer
-Michael "Mick" Haller, is a slick, charismatic Los Angeles criminal defense attorney who operates out of the back of his Lincoln Continental sedan.
-
-
-Genre: ComedyReleased: 2018Length: 1h 40mMPAA Rating: TVMA
-
-
-Genre: Crime, LegalReleased: 2015Length: 1h 54mMPAA Rating: R
-
-High-Rise
-Life seems like paradise to the solitude-seeking Laing. But, as power outages become more frequent and building flaws emerge, mainly on the lower floors, social strata begins to crumble and the building descends into a class war.
-
-
-Leap Year
-Amy Adams and Matthew Goode star in Leap Year, a romantic comedy that follows one woman’s determined quest to get married to the perfect guy…despite what fate has in store for her.
-
-
-Genre: Comedy, DramaReleased: 2015Length: 1h 59mMPAA Rating: R
-
-
-Genre: Comedy, RomanceReleased: 2010Length: 1h 40mMPAA Rating: PG
-What Men Want
-A woman is boxed out by the male sports agents in her profession, but gains an unexpected edge over them when she develops the ability to hear their thoughts.
-
-
-And So It Goes
-A self-absorbed realtor enlists the help of his neighbor when he's suddenly left in charge of the granddaughter he never knew existed until his estranged son drops her off at his home.
-
-
-Genre: Comedy, RomanceReleased: 2019Length: 1h 57mMPAA Rating: R
-
-
-Genre: Comedy, RomanceReleased: 2014Length: 1h 34mMPAA Rating: PG-13
-Fighting With My Family
-Former wrestler Ricky makes a living performing with his family. When they get the chance to audition for WWE, the family's dream seems to be coming true. However, they find out that becoming a WWE Superstar demands more than they ever imagined possible.
-
-
-Backtrace
-Twenty years after a botched robbery, three grifters kidnap an amnesia patient to jog his memory and find the long-lost money.
-
-
-Genre: Comedy, DramaReleased: 2010Length: 1h 48mMPAA Rating: PG-13
-
-
-Genre: Adventure, ThrillerReleased: 2018Length: 1h 27mMPAA Rating: R
-
-The Commuter
-A man who gets caught up in a criminal conspiracy during his daily commute home and works against the clock to stop a deadly attack to save the lives of his fellow train passengers.
-
-
-Daylight's End
-A rogue drifter agrees to guide a band of survivors to sanctuary after a plague turns most of humanity into monsters.
-
-
-Genre: Mystery, ThrillerReleased: 2018Length: 1h 45mMPAA Rating: PG-13
-
-
-Genre: Action, HorrorReleased: 2016Length: 1h 45mMPAA Rating: TVMA
-Arbitrage
-Richard Gere leads an all-star cast in an electrifying thriller about a hedge-fund magnate whose fortunes turn when a deadly error threatens to destroy both his financial empire and his family.
-
-Under the Tree
-After moving back home, a man gets sucked into a dispute between his parents and their neighbors over an old and beautiful tree. What starts as a typical spat unexpectedly and violently reaches a boiling point, soon spiraling out of control.
-
-
-Genre: Drama, ThrillerReleased: 2012Length: 1h 47mMPAA Rating: R
-
-
-Genre: ComedyReleased: 2017Length: 1h 29mMPAA Rating: PG
-Dog Days
-Dog Days is a hilarious and heartfelt comedy that follows the lives of multiple dog owners and their beloved fluffy pals around Los Angeles. When these human and canines’ paths start to intertwine, their lives begin changing in ways they never expected.
-
-The Osiris Child
-When a dangerous outbreak threatens to destroy everyone living on a newly colonized planet, Lt. Kane Sommerville goes against orders and leaves his station to rescue his young daughter before it's too late.
-
-
-Genre: Comedy, RomanceReleased: 2018Length: 1h 53mMPAA Rating: PG
-
-
-Genre: Action, Science FictionReleased: 2017Length: 1h 39mMPAA Rating: R
-
-The Prince
-A retired assassin is drawn back into the life he gave up when his daughter is kidnapped. To rescue her, he must confront his former rival.
-
-The Colony
-Years ago, winter came and left. Survivors have tried to build a new society underground, but they soon learn the real danger is not from the ice and cold, but from their fellow survivors.
-
-
-Genre: Action, ThrillerReleased: 2014Length: 1h 33mMPAA Rating: R
-
-
-Genre: Horror, ThrillerReleased: 2013Length: 1h 33mMPAA Rating: R
-I Kill Giants
-A teen must face her fears in increasingly dangerous ways when horrible giants threaten to destroy her small town.
-
-Black Rock
-Three childhood friends set aside their personal issues and reunite for a girls' weekend on a remote island off the coast of Maine. One wrong move turns their weekend getaway into a deadly fight for survival.
-
-
-Genre: Fantasy, ThrillerReleased: 2017Length: 1h 46mMPAA Rating: R
-
-
-Genre: Thriller, HorrorReleased: 2013Length: 1h 19mMPAA Rating: R
-
-
-Along With the Gods: The Two Worlds
-In this action-packed fantasy epic, a firefighter is taken to the afterlife by three guardians, where only after passing seven trials and proving he lived a noble life will he be able to reincarnate
-
-
-Genre: Fantasy, AdventureReleased: 2017Length: 2h 20mMPAA Rating: PG
-
-Below is an example of a participant’s screen view with two options.
-
-### Experiment 5: Movie Options (Difficult Condition)
++---------------------------------------------------------------------------------------------------------------------------------------+---+---------------------------------------------------------------------------------------------------------------------------+
+| Mission: Impossible - Fallout                                                                                                         |   | The Sisters Brothers                                                                                                      |
++:============================================================:+:==============================:+:=====================================:+:=:+:============================================================:+:==============================:+:=========================:+
+| ![](media/image33.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Action, Thriller\                                           |   | ![](media/image34.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Comedy, Western\                                |
+|                                                              | **Length: **2h 27m                                                     |   |                                                              | **Length: **2h 1m                                          |
++--------------------------------------------------------------+------------------------------------------------------------------------+---+--------------------------------------------------------------+------------------------------------------------------------+
+| Fast Color                                                                                                                            |   | Changeland                                                                                                                |
++-----------------------------------------------------------------------------------------------+---------------------------------------+---+-----------------------------------------------------------------------------------------------+---------------------------+
+| ![](media/image35.jpeg){width="1.5625in" height="2.34375in"}                                  | **Genre: **Science Fiction, Thriller\ |   | ![](media/image36.jpeg){width="1.5625in" height="2.34375in"}                                  | **Genre: **Comedy, Drama\ |
+|                                                                                               | **Length: **1h 42m                    |   |                                                                                               | **Length: **1h 26m        |
++-----------------------------------------------------------------------------------------------+---------------------------------------+---+-----------------------------------------------------------------------------------------------+---------------------------+
+
++-----------------------------------------------------------------------------------+---+------------------------------------------------------------------------------------------+
+| The Good Guy                                                                      |   | Running With the Devil                                                                   |
++:============================================================:+:==================:+:=:+:============================================================:+:=========================:+
+| ![](media/image37.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Comedy\ |   | ![](media/image38.jpeg){width="1.5625in" height="2.25in"}    | **Genre: **Action, Crime\ |
+|                                                              | **Length: **1h 42m |   |                                                              | **Length: **1h 40m        |
++--------------------------------------------------------------+--------------------+---+--------------------------------------------------------------+---------------------------+
+| All Square                                                                        |   | The Lincoln Lawyer                                                                       |
++--------------------------------------------------------------+--------------------+---+--------------------------------------------------------------+---------------------------+
+| ![](media/image39.jpeg){width="1.5625in" height="2.34375in"} | **Genre:** Comedy\ |   | ![](media/image40.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Crime, Legal\  |
+|                                                              | **Length: **1h 39m |   |                                                              | **Length: **2h 0m         |
++--------------------------------------------------------------+--------------------+---+--------------------------------------------------------------+---------------------------+
+
++------------------------------------------------------------------------------------------+--------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| High-Rise                                                                                |                    | Leap Year                                                                                                                      |
++:============================================================:+:=========================:+:==============:+:=:+:==============================:+:==============================:+:==============================:+:===========================:+
+| ![](media/image41.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Comedy, Drama\ |                    | ![](media/image42.jpeg){width="1.5625in" height="2.34375in"}    | **Genre: **Comedy, Romance\                                  |
+|                                                              | **Length: **1h 59m        |                    |                                                                 | **Length: **1h 40m                                           |
++--------------------------------------------------------------+---------------------------+----------------+---+--------------------------------+--------------------------------+--------------------------------------------------------------+
+| What Men Want                                                                                             |                                    | And So It Goes                                                                                |
++--------------------------------------------------------------+--------------------------------------------+------------------------------------+-----------------------------------------------------------------+-----------------------------+
+| ![](media/image43.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Comedy, Romance\                |                                    | ![](media/image44.jpeg){width="1.5625in" height="2.34375in"}    | **Genre: **Comedy, Romance\ |
+|                                                              | **Length: **1h 57m                         |                                    |                                                                 | **Length: **1h 34m          |
++--------------------------------------------------------------+--------------------------------------------+------------------------------------+-----------------------------------------------------------------+-----------------------------+
+
++------------------------------------------------------------------------------------------+---------------------+-------------------------------------------------------------------------------------------------------------------------------+
+| Fighting With My Family                                                                  |                     | Backtrace                                                                                                                     |
++:============================================================:+:=========================:+:===============:+:=:+:==============================:+:==============================:+:==============================:+:==========================:+
+| ![](media/image45.jpeg){width="1.5625in" height="2.25in"}    | **Genre: **Comedy, Drama\ |                     | ![](media/image46.jpeg){width="1.5625in" height="2.34375in"}    | **Genre: **Adventure, Thriller\                             |
+|                                                              | **Length: **1h 48m        |                     |                                                                 | **Length: **1h 27m                                          |
++--------------------------------------------------------------+---------------------------+-----------------+---+--------------------------------+--------------------------------+-------------------------------------------------------------+
+| The Commuter                                                                                               |                                    | Daylight\'s End                                                                              |
++--------------------------------------------------------------+---------------------------------------------+------------------------------------+-----------------------------------------------------------------+----------------------------+
+| ![](media/image47.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Mystery, Thriller\               |                                    | ![](media/image48.jpeg){width="1.5625in" height="2.34375in"}    | **Genre: **Action, Horror\ |
+|                                                              | **Length: **1h 45m                          |                                    |                                                                 | **Length: **1h 45m         |
++--------------------------------------------------------------+---------------------------------------------+------------------------------------+-----------------------------------------------------------------+----------------------------+
+
++--------------------------------------------------------------------------------------------+---+----------------------------------------------------------------------------------------------------+
+| Arbitrage                                                                                  |   | Under the Tree                                                                                     |
++:============================================================:+:===========================:+:=:+:============================================================:+:===================================:+
+| ![](media/image49.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Drama, Thriller\ |   | ![](media/image50.jpeg){width="1.5625in" height="2.34375in"} | **Genre: **Comedy\                  |
+|                                                              | **Length: **1h 47m          |   |                                                              | **Length: **1h 29m                  |
++--------------------------------------------------------------+-----------------------------+---+--------------------------------------------------------------+-------------------------------------+
+| Dog Days                                                                                   |   | The Osiris Child                                                                                   |
++--------------------------------------------------------------+-----------------------------+---+--------------------------------------------------------------+-------------------------------------+
+| ![](media/image51.jpeg){width="1.5625in" height="2.34375in"} | **Genre:** Comedy, Romance\ |   | ![](media/image52.jpeg){width="1.5625in" height="2.34375in"} | **Genre:** Action, Science Fiction\ |
+|                                                              | **Length: **1h 53m          |   |                                                              | **Length: **1h 39m                  |
++--------------------------------------------------------------+-----------------------------+---+--------------------------------------------------------------+-------------------------------------+
+
++---------------------------------------------------------------------------------------------+------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| The Prince                                                                                  |                                                      | The Colony                                                                                     |
++:============================================================:+:============================:+:===============:+:=:+:==============================:+:==============================:+:==============================:+:============================:+
+| ![](media/image53.jpeg){width="1.5625in" height="2.34375in"} | **Genre:** Action, Thriller\ |                                                      | ![](media/image54.jpeg){width="1.5625in" height="2.34375in"}    | **Genre:** Horror, Thriller\ |
+|                                                              | **Length: **1h 33m           |                                                      |                                                                 | **Length: **1h 33m           |
++--------------------------------------------------------------+------------------------------+-----------------+---+--------------------------------+-----------------------------------------------------------------+------------------------------+
+| I Kill Giants                                                                                                 |   | Black Rock                                                                                                                      |
++--------------------------------------------------------------+------------------------------------------------+---+-----------------------------------------------------------------+---------------------------------------------------------------+
+| ![](media/image55.jpeg){width="1.5625in" height="2.34375in"} | **Genre:** Fantasy, Thriller\                  |   | ![](media/image56.jpeg){width="1.5625in" height="2.34375in"}    | **Genre:** Thriller, Horror\                                  |
+|                                                              | **Length: **1h 46m                             |   |                                                                 | **Length: **1h 19m                                            |
++--------------------------------------------------------------+------------------------------------------------+---+-----------------------------------------------------------------+---------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------+
+| Along With the Gods: The Two Worlds                                                           |
++:============================================================:+:==============================:+
+| ![](media/image57.jpeg){width="1.5625in" height="2.34375in"} | **Genre:** Fantasy, Adventure\ |
+|                                                              | **Length: **2h 20m             |
++--------------------------------------------------------------+--------------------------------+
+
+Below is an example of a participant's screen view with 4 options:
+
+![](media/image58.png){width="6.489583333333333in" height="3.8229166666666665in"}
+
+## Experiment 5: Movie Options (Moderate Condition)
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Mission: Impossible - Fallout                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                     | The Sisters Brothers                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                              |
+| Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions.                                                                                                                                                                                                                    |                                                                                                                                                                                     | Based on Patrick Dewitt's acclaimed novel, Eli and Charlie Sisters are hired to kill a prospector who has stolen from their boss. The story, a genre-hybrid with comedic elements, takes place in Oregon in 1851.                                                                                            |
++:==================================================================:+:==================================================================:+:==================================================================:+:==================================================================:+:=================================================:+:=====================================:+:=====================================:+:=========================:+:=:+:================================:+:================================:+:========================================:+:=================================================:+:=================================================:+:=================================================:+:=================================================:+:=================================================:+
+| ![](media/image33.jpeg){width="1.5625in" height="2.34375in"}       | **Genre: **Action, Thriller\                                                                                                                                                                                                                                     |                                                                                                                                                                                     | ![](media/image34.jpeg){width="1.5625in" height="2.34375in"}                                                                                     | **Genre: **Comedy, Western\                                                                                                                               |
+|                                                                    | **Released:** 2018\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Released:** 2018\                                                                                                                                       |
+|                                                                    | **Length: **2h 27m\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Length**: 2h 1m\                                                                                                                                        |
+|                                                                    | **MPAA Rating: **PG-13                                                                                                                                                                                                                                           |                                                                                                                                                                                     |                                                                                                                                                  | **MPAA Rating: **R                                                                                                                                        |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fast Color                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                     | Changeland                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                              |
+| Hunted by mysterious forces and a local sheriff, a young woman with supernatural abilities flees back to her family-and unearths the depths of the power within her.                                                                                                                                                                  |                                                                                                                                                                                     | Directed by and starring Seth Green, the film follows two estranged best friends on a life-changing trip to Thailand. This epic journey reminds them that there\'s no problem that friendship and a few rounds in a Thai boxing ring can\'t fix.                                                             |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+| ![](media/image35.jpeg){width="1.3333333333333333in" height="2.0in"}                                                                                                                                         | **Genre: **Science Fiction, Thriller\                                                                                  |                                                                                                                                                                                     | ![](media/image36.jpeg){width="1.3229166666666667in" height="1.984375546806649in"}                                                                                                                   | **Genre: **Comedy, Drama\                                                                             |
+|                                                                                                                                                                                                              | **Released:** 2018\                                                                                                    |                                                                                                                                                                                     |                                                                                                                                                                                                      | **Released:** 2019\                                                                                   |
+|                                                                                                                                                                                                              | **Length:** 1h 42m\                                                                                                    |                                                                                                                                                                                     |                                                                                                                                                                                                      | **Length**: 1h 26m\                                                                                   |
+|                                                                                                                                                                                                              | **MPAA Rating: **PG-13                                                                                                 |                                                                                                                                                                                     |                                                                                                                                                                                                      | **MPAA Rating: **R                                                                                    |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+| The Good Guy                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                     | Running With the Devil                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                              |
+| The girlfriend of a hotshot Wall Street trader finds herself falling for his protege.                                                                                                                                                                                                                                                 |                                                                                                                                                                                     | When a cocaine shipment is compromised to the dismay of a drug cartel\'s CEO, known simply as The Boss, he orders his most trusted henchman on a dangerous journey to audit the company\'s supply chain.                                                                                                     |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image37.jpeg){width="1.5625in" height="2.34375in"}       | **Genre: **Comedy\                                                                                                                                                                                                                                               |                                                                                                                                                                                     | ![](media/image38.jpeg){width="1.5625in" height="2.25in"}                                                                                        | **Genre: **Action, Crime\                                                                                                                                 |
+|                                                                    | **Released:** 2010\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Released:** 2019\                                                                                                                                       |
+|                                                                    | **Length**: 1h 31m\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Length: **1h 40m\                                                                                                                                       |
+|                                                                    | **MPAA Rating: **R                                                                                                                                                                                                                                               |                                                                                                                                                                                     |                                                                                                                                                  | **MPAA Rating: **R                                                                                                                                        |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| All Square                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                     | The Lincoln Lawyer                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                              |
+| A down-on-his-luck bookie befriends an ex-girlfriend\'s son and begins taking bets on his youth league baseball games, creating chaos in the community.                                                                                                                                                                               |                                                                                                                                                                                     | Michael \"Mick\" Haller, is a slick, charismatic Los Angeles criminal defense attorney who operates out of the back of his Lincoln Continental sedan.                                                                                                                                                        |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image39.jpeg){width="1.5625in" height="2.34375in"}       | **Genre: **Comedy\                                                                                                                                                                                                                                               |                                                                                                                                                                                     | ![](media/image40.jpeg){width="1.5625in" height="2.34375in"}                                                                                     | **Genre: **Crime, Legal\                                                                                                                                  |
+|                                                                    | **Released:** 2018\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Released:** 2015\                                                                                                                                       |
+|                                                                    | **Length**: 1h 40m\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Length**: 1h 54m\                                                                                                                                       |
+|                                                                    | **MPAA Rating:** TVMA                                                                                                                                                                                                                                            |                                                                                                                                                                                     |                                                                                                                                                  | **MPAA Rating:** R                                                                                                                                        |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| High-Rise                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                     | Leap Year                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                              |
+| Life seems like paradise to the solitude-seeking Laing. But, as power outages become more frequent and building flaws emerge, mainly on the lower floors, social strata begins to crumble and the building descends into a class war.                                                                                                 |                                                                                                                                                                                     | Amy Adams and Matthew Goode star in Leap Year, a romantic comedy that follows one woman's determined quest to get married to the perfect guy...despite what fate has in store for her.                                                                                                                       |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image41.jpeg){width="1.5625in" height="2.34375in"}       | **Genre: **Comedy, Drama\                                                                                                                                                                                                                                        |                                                                                                                                                                                     | ![](media/image42.jpeg){width="1.5625in" height="2.34375in"}                                                                                     | **Genre:** Comedy, Romance\                                                                                                                               |
+|                                                                    | **Released:** 2015\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Released:** 2010\                                                                                                                                       |
+|                                                                    | **Length**: 1h 59m\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Length**: 1h 40m\                                                                                                                                       |
+|                                                                    | **MPAA Rating:** R                                                                                                                                                                                                                                               |                                                                                                                                                                                     |                                                                                                                                                  | **MPAA Rating:** PG                                                                                                                                       |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| What Men Want                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                     | And So It Goes                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                              |
+| A woman is boxed out by the male sports agents in her profession, but gains an unexpected edge over them when she develops the ability to hear their thoughts.                                                                                                                                                                        |                                                                                                                                                                                     | A self-absorbed realtor enlists the help of his neighbor when he\'s suddenly left in charge of the granddaughter he never knew existed until his estranged son drops her off at his home.                                                                                                                    |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image43.jpeg){width="1.5625in" height="2.1875in"}        | **Genre: **Comedy, Romance\                                                                                                                                                                                                                                      |                                                                                                                                                                                     | ![](media/image44.jpeg){width="1.5625in" height="2.1979166666666665in"}                                                                          | **Genre:** Comedy, Romance\                                                                                                                               |
+|                                                                    | **Released:** 2019\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Released:** 2014\                                                                                                                                       |
+|                                                                    | **Length: **1h 57m\                                                                                                                                                                                                                                              |                                                                                                                                                                                     |                                                                                                                                                  | **Length**: 1h 34m\                                                                                                                                       |
+|                                                                    | **MPAA Rating: **R                                                                                                                                                                                                                                               |                                                                                                                                                                                     |                                                                                                                                                  | **MPAA Rating:** PG-13                                                                                                                                    |
++--------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fighting With My Family                                                                                                                                                                                                                                                           |                                                                                                                                                                                                      | Backtrace                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                 |
+| Former wrestler Ricky makes a living performing with his family. When they get the chance to audition for WWE, the family\'s dream seems to be coming true. However, they find out that becoming a WWE Superstar demands more than they ever imagined possible.                   |                                                                                                                                                                                                      | Twenty years after a botched robbery, three grifters kidnap an amnesia patient to jog his memory and find the long-lost money.                                                                                                                                                                                                                  |
++--------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image45.jpeg){width="1.5625in" height="2.25in"}          | **Genre:** Comedy, Drama\                                                                                                                                                                                    |                                                                                                                                                                                                      | ![](media/image46.jpeg){width="1.5625in" height="2.34375in"}                                                                    | **Genre:** Adventure, Thriller\                                                                                                                                                                               |
+|                                                                    | **Released:** 2010\                                                                                                                                                                                          |                                                                                                                                                                                                      |                                                                                                                                 | **Released:** 2018\                                                                                                                                                                                           |
+|                                                                    | **Length**: 1h 48m\                                                                                                                                                                                          |                                                                                                                                                                                                      |                                                                                                                                 | **Length**: 1h 27m\                                                                                                                                                                                           |
+|                                                                    | **MPAA Rating:** PG-13                                                                                                                                                                                       |                                                                                                                                                                                                      |                                                                                                                                 | **MPAA Rating:** R                                                                                                                                                                                            |
++--------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The Commuter                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                          | Daylight\'s End                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                 |
+| A man who gets caught up in a criminal conspiracy during his daily commute home and works against the clock to stop a deadly attack to save the lives of his fellow train passengers.                                                                                                                                                                                         |                                                                                                          | A rogue drifter agrees to guide a band of survivors to sanctuary after a plague turns most of humanity into monsters.                                                                                                                                                                                                                           |
++--------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image47.jpeg){width="1.5625in" height="2.34375in"}       | **Genre:** Mystery, Thriller\                                                                                                                                                                                                                                                                            |                                                                                                          | ![](media/image48.jpeg){width="1.5625in" height="2.34375in"}                                                                    | **Genre:** Action, Horror\                                                                                                                                                                                    |
+|                                                                    | **Released:** 2018\                                                                                                                                                                                                                                                                                      |                                                                                                          |                                                                                                                                 | **Released:** 2016\                                                                                                                                                                                           |
+|                                                                    | **Length**: 1h 45m\                                                                                                                                                                                                                                                                                      |                                                                                                          |                                                                                                                                 | **Length**: 1h 45m\                                                                                                                                                                                           |
+|                                                                    | **MPAA Rating:** PG-13                                                                                                                                                                                                                                                                                   |                                                                                                          |                                                                                                                                 | **MPAA Rating: **TVMA                                                                                                                                                                                         |
++--------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+--------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Arbitrage                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                    | Under the Tree                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                    |                                                                                                                                                                                                                                                                   |
+| Richard Gere leads an all-star cast in an electrifying thriller about a hedge-fund magnate whose fortunes turn when a deadly error threatens to destroy both his financial empire and his family.                                                                                                                                                                                                                                                 |                                                                                                                    | After moving back home, a man gets sucked into a dispute between his parents and their neighbors over an old and beautiful tree. What starts as a typical spat unexpectedly and violently reaches a boiling point, soon spiraling out of control.                 |
++-----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+
+| ![](media/image49.jpeg){width="1.5625in" height="2.34375in"}                                                                            | **Genre:** Drama, Thriller\                                                                                                                                                                                                                                                                             |                                                                                                                    | ![](media/image50.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                  | **Genre:** Comedy\                                |
+|                                                                                                                                         | **Released:** 2012\                                                                                                                                                                                                                                                                                     |                                                                                                                    |                                                                                                                                                                                                               | **Released:** 2017\                               |
+|                                                                                                                                         | **Length**: 1h 47m\                                                                                                                                                                                                                                                                                     |                                                                                                                    |                                                                                                                                                                                                               | **Length**: 1h 29m\                               |
+|                                                                                                                                         | **MPAA Rating:** R                                                                                                                                                                                                                                                                                      |                                                                                                                    |                                                                                                                                                                                                               | **MPAA Rating: **PG                               |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+---+----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+
+| Dog Days                                                                                                                                                                                                                                                                                                                                                                                                              |                               | The Osiris Child                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                                                       |                               |                                                                                                                                                                                                                                                                                                                                                                                    |
+| Dog Days is a hilarious and heartfelt comedy that follows the lives of multiple dog owners and their beloved fluffy pals around Los Angeles. When these human and canines' paths start to intertwine, their lives begin changing in ways they never expected.                                                                                                                                                         |                               | When a dangerous outbreak threatens to destroy everyone living on a newly colonized planet, Lt. Kane Sommerville goes against orders and leaves his station to rescue his young daughter before it\'s too late.                                                                                                                                                                    |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image51.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                 | **Genre:** Comedy, Romance\                                                                                                                                                                            |                               | ![](media/image52.jpeg){width="1.5625in" height="2.34375in"}                                                                                                       | **Genre:** Action, Science Fiction\                                                                                                                                                                           |
+|                                                                                                                                                                                                              | **Released:** 2018\                                                                                                                                                                                    |                               |                                                                                                                                                                    | **Released:** 2017\                                                                                                                                                                                           |
+|                                                                                                                                                                                                              | **Length**: 1h 53m\                                                                                                                                                                                    |                               |                                                                                                                                                                    | **Length**: 1h 39m\                                                                                                                                                                                           |
+|                                                                                                                                                                                                              | **MPAA Rating: **PG                                                                                                                                                                                    |                               |                                                                                                                                                                    | **MPAA Rating:** R                                                                                                                                                                                            |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The Prince                                                                                                                                      |   | The Colony                                                                                                                                                                                                                  |
+|                                                                                                                                                 |   |                                                                                                                                                                                                                             |
+| A retired assassin is drawn back into the life he gave up when his daughter is kidnapped. To rescue her, he must confront his former rival.     |   | Years ago, winter came and left. Survivors have tried to build a new society underground, but they soon learn the real danger is not from the ice and cold, but from their fellow survivors.                                |
++:======================================================================:+:======================================================================:+:=:+:=======================================================================:+:=======================================================================:+:=======================================================================:+
+| ![](media/image53.jpeg){width="1.5625in" height="2.34375in"}           | **Genre:** Action, Thriller\                                           |   | ![](media/image54.jpeg){width="1.5625in" height="2.34375in"}            | **Genre:** Horror, Thriller\                                                                                                                      |
+|                                                                        | **Released:** 2014\                                                    |   |                                                                         | **Released:** 2013\                                                                                                                               |
+|                                                                        | **Length**: 1h 33m\                                                    |   |                                                                         | **Length**: 1h 33m\                                                                                                                               |
+|                                                                        | **MPAA Rating:** R                                                     |   |                                                                         | **MPAA Rating:** R                                                                                                                                |
++------------------------------------------------------------------------+------------------------------------------------------------------------+---+-------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| I Kill Giants                                                                                                                                   |   | Black Rock                                                                                                                                                                                                                  |
+|                                                                                                                                                 |   |                                                                                                                                                                                                                             |
+| A teen must face her fears in increasingly dangerous ways when horrible giants threaten to destroy her small town.                              |   | Three childhood friends set aside their personal issues and reunite for a girls\' weekend on a remote island off the coast of Maine. One wrong move turns their weekend getaway into a deadly fight for survival.           |
++------------------------------------------------------------------------+------------------------------------------------------------------------+---+---------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| ![](media/image55.jpeg){width="1.5625in" height="2.34375in"}           | **Genre:** Fantasy, Thriller\                                          |   | ![](media/image56.jpeg){width="1.5625in" height="2.34375in"}                                                                                      | **Genre: **Thriller, Horror\                                            |
+|                                                                        | **Released:** 2017\                                                    |   |                                                                                                                                                   | **Released:** 2013\                                                     |
+|                                                                        | **Length**: 1h 46m\                                                    |   |                                                                                                                                                   | **Length: **1h 19m\                                                     |
+|                                                                        | **MPAA Rating:** R                                                     |   |                                                                                                                                                   | **MPAA Rating: **R                                                      |
++------------------------------------------------------------------------+------------------------------------------------------------------------+---+---------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Along With the Gods: The Two Worlds                                                                                                                                                                       |
+|                                                                                                                                                                                                           |
+| In this action-packed fantasy epic, a firefighter is taken to the afterlife by three guardians, where only after passing seven trials and proving he lived a noble life will he be able to reincarnate    |
++:===================================================================================================:+:===================================================================================================:+
+| ![](media/image57.jpeg){width="1.5625in" height="2.34375in"}                                        | **Genre: **Fantasy, Adventure\                                                                      |
+|                                                                                                     | **Released:** 2017\                                                                                 |
+|                                                                                                     | **Length: **2h 20m\                                                                                 |
+|                                                                                                     | **MPAA Rating: **PG                                                                                 |
++-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+
+Below is an example of a participant's screen view with two options.![](media/image59.png){width="7.08715113735783in" height="3.025974409448819in"}
+
+## 
+
+## Experiment 5: Movie Options (Difficult Condition)
 
 The options were displayed in two columns.
 
-Mission: Impossible - Fallout
-Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions. Arms dealer John Lark and a group of terrorists known as the Apostles plan to use three plutonium cores for a simultaneous nuclear attack on the Vatican, Jerusalem and Mecca, Saudi Arabia. When the weapons go missing, Ethan and his crew find themselves in a desperate race against time to prevent them from falling into the wrong hands.
-
-
-The Sisters Brothers
-It's 1851, and Charlie and Eli Sisters are both brothers and assassins, boys grown to men in a savage and hostile world. The Sisters brothers find themselves on a journey through the Northwest, bringing them to the mountains of Oregon, a dangerous brothel in the small town of Mayfield, and eventually, the gold rush land of California -- an adventure that tests the deadly family ties that bind.
-
-
-Genre: Action, ThrillerReleased: July 27, 2018Length: 2h 27mIMDb Rating: 7.7/10Google users: 94% liked this movieRotten Tomatoes Rating: 97%Metacritic: 86%Box office: 791.1 million USDBudget: 178 million USDDirector: Christopher McQuarrieAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG-13
-
-
-Genre: Comedy, WesternReleased: September 19, 2018Length: 2h 1mIMDb Rating: 7.0/10Google users: 81% liked this movieRotten Tomatoes Rating: 87%Metacritic: 78%Box office: N/ABudget: 38 million USDDirector: Jacques AudiardAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-Fast Color
-Hunted by mysterious forces, a young woman who has supernatural abilities must go on the run when her powers are discovered. With nowhere else to go, she flees back to her family and the farmhouse she abandoned long ago. There, while being pursued by the local sheriff, she begins to mend the broken relationships with her mother and daughter and learns that the power she needed was inside her all along.
-
-
-Changeland
-On the eve of his anniversary, Brandon discovers his wife is having an affair. Distraught and without hesitation he jumps on a plane with his childhood friend Dan on a prepaid trip to Thailand. Once in Thailand, the pair go on a series of excursions and tours intended for a happy couple. Upon their journey they meet two eccentric tour guides Ian and Pen who show them the wonders of Thailand and bring the two friends back together through life, love, and good fun.
-
-
-Genre: Science Fiction, ThrillerReleased: April 19, 2019Length: 1h 42mIMDb Rating: 5.9/10Google users: 87% liked this movieRotten Tomatoes Rating: 82%Metacritic: 64%Box office: N/ABudget: N/ADirector: Julia HartAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG-13
-
-
-Genre: Comedy, DramaReleased: June 7, 2019Length: 1h 26mIMDb Rating: 5.7/10Google users: 77% liked this movieRotten Tomatoes Rating: 63%Metacritic: 42%Box office: N/ABudget: N/ADirector: Seth GreenAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-The Good Guy
-Beth (Alexis Bledel), an urban conservationist, wants it all: a good job, good friends, and a good guy to share her life and love of New York. When Beth meets Tommy (Scott Porter), a Wall Street whiz, she falls head over heels in love. It seems that everything is falling into place, but romantic complications arise when Beth meets Daniel, Tommy's sensitive and handsome colleague.
-
-
-Running With the Devil
-When a cocaine shipment is compromised to the dismay of a drug cartel's CEO, known simply as The Boss, he orders his most trusted henchman on a dangerous journey to audit the company's supply chain. As the drugs make their perilous trek across international borders, past gangsters, refiners, and couriers, they are also being tracked by Federal Agents. When The Cook realizes where the network is breaking down, it may be too late to keep the cartel satisfied.
-
-
-Genre: ComedyReleased: February 19, 2010Length: 1h 42mIMDb Rating: 5.8/10Google users: 75% liked this movieRotten Tomatoes Rating: 35%Metacritic: 47%Box office: N/ABudget: 3.2 million USDDirector: Julio DePietroAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-Genre: Action, CrimeReleased: October 24, 2019Length: 1h 40mIMDb Rating: 5.4/10Google users: 68% liked this movieRotten Tomatoes Rating: 25%Metacritic: 42%Box office: N/ABudget: N/ADirector: Jason CabellAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-All Square
-John Zbikowski is a down-on-his-luck, small town bookie who develops an unlikely friendship with Brian, his ex-girlfriend's 12-year-old son. When Zbikowski's clients don't pay their debts, he tries to recoup his earnings by taking bets on Brian's baseball games.
-
-
-The Lincoln Lawyer
-Mick Haller (Matthew McConaughey) is a charismatic defense attorney who does business out of his Lincoln Continental sedan. Mick spends most of his time defending petty crooks and other bottom-feeders, so it comes as quite a surprise when he lands the case of a lifetime: defending a Beverly Hills playboy (Ryan Phillippe) who is accused of attempted murder. However, what Mick initially thinks is an open-and-shut case with a big monetary reward develops into something more sinister.
-
-
-Genre: ComedyReleased: October 12, 2018Length: 1h 39mIMDb Rating: 5.8/10Google users: 82% liked this movieRotten Tomatoes Rating: 91%Metacritic: 65%Box office: N/ABudget: N/ADirector: John HyamsAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: TVMA
-
-
-Genre: Crime, LegalReleased: March 10, 2011Length: 2h 0mIMDb Rating: 7.3/10Google users: 91% liked this movieRotten Tomatoes Rating: 84%Metacritic: 63%Box office: 87.1 million USDBudget: 40 million USDDirector: Brad FurmanAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-High-Rise
-HIGH-RISE stars Hiddleston as Dr. Robert Laing, the newest resident of a luxurious apartment in a high-tech concrete skyscraper whose lofty location places him amongst the upper class. Laing quickly settles into high society life and meets the building's eccentric tenants. Life seems like paradise to the solitude-seeking Laing. But as power outages become more frequent and building flaws emerge, particularly on the lower floors, the regimented social strata begins to crumble and the building becomes a battlefield in a literal class war.
-
-
-Leap Year
-When yet another anniversary passes without a marriage proposal from her boyfriend, Anna (Amy Adams) decides to take action. Aware of a Celtic tradition that allows women to pop the question on Feb. 29, she plans to follow her lover to Dublin and ask him to marry her. Fate has other plans, however, and Anna winds up on the other side of the Emerald Isle with handsome, but surly, Declan -- an Irishman who may just lead Anna down the road to true love.
-
-
-Genre: Comedy, DramaReleased: May 13, 2016Length: 1h 59mIMDb Rating: 5.6/10Google users: 74% liked this movieRotten Tomatoes Rating: 60%Metacritic: 65%Box office: 4.1 million USDBudget: 8 million USDDirector: Ben WheatleyAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-Genre: Comedy, RomanceReleased: January 8, 2010Length: 1h 40mIMDb Rating: 6.5/10Google users: 93% liked this movieRotten Tomatoes Rating: 23%Metacritic: 33%Box office: 32.6 million USDBudget: 19 million USDDirector: Anand TuckerAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG
-
-
-What Men Want
-Passed up for a well-deserved promotion, sports agent Ali Davis wonders what else she needs to do to succeed in a man's world. Hoping to find answers from a psychic, Ali drinks a weird concoction that suddenly allows her to hear what men are thinking. Using her newfound ability, Ali starts to turn the tables on her obnoxious male colleagues while racing to sign the next basketball superstar.
-
-
-And So It Goes
-Nobody likes real-estate agent Oren Little (Michael Douglas), and he prefers it that way. He's deliberately mean to anyone who crosses his path and wants nothing more than to sell one final house and retire. Oren's life turns upside-down when his estranged son drops off a granddaughter (Sterling Jerins) he didn't know existed. Oren has no idea how to take care of a child, so he pawns the girl off on his neighbor, Leah (Diane Keaton) -- but he learns how to open his heart eventually.
-
-
-Genre: Comedy, RomanceReleased: February 8, 2019Length: 1h 57mIMDb Rating: 5.2/10Google users: 82% liked this movieRotten Tomatoes Rating: 42%Metacritic: 49%Box office: 72.2 million USDBudget: 20 million USDDirector: Adam ShankmanAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-Genre: Comedy, RomanceReleased: July 25, 2014Length: 1h 34mIMDb Rating: 5.8/10Google users: 86% liked this movieRotten Tomatoes Rating: 18%Metacritic: 38%Box office: 25.3 million USDBudget: 18 million USDDirector: Rob ReinerAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG-13
-
-
-Fighting With My Family
-Born into a tight-knit wrestling family, Paige and her brother Zak are ecstatic when they get the once-in-a-lifetime opportunity to try out for the WWE. But when only Paige earns a spot in the competitive training program, she must leave her loved ones behind and face this new cutthroat world alone. Paige's journey pushes her to dig deep and ultimately prove to the world that what makes her different is the very thing that can make her a star.
-
-
-Backtrace
-After suffering a brain injury from a bank heist gone wrong, MacDonald develops amnesia and is put into a prison psychiatric ward. Following his seventh year of incarceration, he is coerced by an inmate and a ward doctor to break out of prison, and he is injected with a serum that forces him to relive the life he has forgotten. MacDonald must now elude a local detective, a toughened FBI agent, and the drug's dangerous side effects to recover the stolen money.
-
-
-Genre: Comedy, DramaReleased: February 27, 2019Length: 1h 48mIMDb Rating: 7.1/10Google users: 91% liked this movieRotten Tomatoes Rating: 93%Metacritic: 68%Box office: 41.5 million USDBudget: 11 million USDDirector: Stephen MerchantAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG-13
-
-
-Genre: Adventure, ThrillerReleased: December 14, 2018Length: 1h 27mIMDb Rating: 3.7/10Google users: 59% liked this movieRotten Tomatoes Rating: 11%Metacritic: 45%Box office: 1.2 million USDBudget: N/ADirector: Brian A. MillerAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-The Commuter
-Insurance salesman Michael is on his daily commute home, which quickly becomes anything but routine. After being contacted by a mysterious stranger, Michael is forced to uncover the identity of a hidden passenger on the train before the last stop. As he works against the clock to solve the puzzle, he realizes a deadly plan is unfolding, and he is unwittingly caught up in a criminal conspiracy that carries life and death stakes for everyone on the train.
-
-
-Daylight's End
-Years after a mysterious plague has devastated the planet and turned most of humanity into blood-hungry creatures, a rogue drifter on a vengeful hunt stumbles across a band of survivors in an abandoned police station and reluctantly agrees to try to help them defend themselves and escape to the sanctuary they so desperately need.
-
-
-Genre: Mystery, ThrillerReleased: January 12, 2018Length: 1h 45mIMDb Rating: 6.3/10Google users: 86% liked this movieRotten Tomatoes Rating: 56%Metacritic: 56%Box office: 119.9 million USDBudget: 40 million USDDirector: Jaume Collet-SerraAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG-13
-
-
-Genre: Action, HorrorReleased: April 16, 2016Length: 1h 45mIMDb Rating: 5.4/10Google users: 85% liked this movieRotten Tomatoes Rating: N/AMetacritic: N/ABox office: N/ABudget: 2 million USDDirector: William KaufmanAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: TVMA
-
-
-Arbitrage
-As he approaches his 60th birthday, New York hedge-fund magnate Robert Miller (Richard Gere) is the picture of success -- at least on the surface. In reality, Miller is in over his head, trying desperately to sell his empire to a big bank before the authorities and his family uncover the depth of his fraud. Unexpectedly, a critical error forces Miller to juggle family, business and crime with the aid of a former associate, but a detective's (Tim Roth) suspicions mean it may already be too late.
-
-
-Under the Tree
-UNDER THE TREE follows a man who is accused of adultery and forced to move in with his parents. While he fights for custody of his four-year-old daughter, he is gradually sucked into a dispute between his parents and their neighbors over an old and beautiful tree. What starts as a typical spat between suburban neighbors unexpectedly and violently reaches a boiling point, soon spiraling out of control.
-
-
-Genre: Drama, ThrillerReleased: September 14, 2012Length: 1h 47mIMDb Rating: 6.6/10Google users: 81% liked this movieRotten Tomatoes Rating: 88%Metacritic: 73%Box office: 35.5 million USDBudget: 12 million USDDirector: Nicholas JareckiAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-Genre: ComedyReleased: August 31, 2012Length: 1h 29mIMDb Rating: 6.6/10Google users: 78% liked this movieRotten Tomatoes Rating: 85%Metacritic: 75%Box office: 612,628 USDBudget: N/ADirector: Hafsteinn GunnarAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG
-
-
-Dog Days
-Elizabeth is a charming anchorwoman who seeks advice from her dog's therapist. Tara is a spunky barista who dreams of a life beyond the coffee shop. Daisy is a dog walker who's enamoured with a client. Garrett pines for a woman while trying to keep his adopt-a-dog business afloat. The beloved canines in their lives soon start to influence their careers, friendships and romantic relationships in funny and unexpected ways.
-
-
-The Osiris Child
-When a dangerous outbreak threatens to destroy everyone living on a newly colonized planet, Lt. Kane Sommerville (Daniel MacPherson) goes against orders and leaves his station to rescue his young daughter (Teagan Croft). Desperate to get to her before it's too late, Kane enlists the help of an escaped prisoner (Kellan Lutz) as they battle their way through the chaos of a planet on the verge of annihilation. With the odds stacked against them, saving his little girl may be humanity's last chance at survival.
-
-
-Genre: Comedy, RomanceReleased: August 8, 2018Length: 1h 53mIMDb Rating: 6.2/10Google users: 90% liked this movieRotten Tomatoes Rating: 63%Metacritic: 47%Box office: 7.6 million USDBudget: 10 million USDDirector: Ken MarinoAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG
-
-
-Genre: Action, Science FictionReleased: May 18, 2017Length: 1h 39mIMDb Rating: 5.6/10Google users: 80% liked this movieRotten Tomatoes Rating: 63%Metacritic: 55%Box office: N/ABudget: N/ADirector: Shane AbbessAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: N/A
-
-
-The Prince
-Jason Patric, Bruce Willis, and John Cusack star in the noir, crime thriller The Prince. Paul (Jason Patric) is a mafia hit-man in New Orleans, and with a baby on the way, he wants out. Paul thinks the only way to do that is to kill his boss (Bruce Willis). With a car bomb in place, Paul waits for his boss to leave for the day, but is shocked to see the bosses wife and daughter get into the car instead. After the tragedy, Paul and his family flea and for 18 years, live in peace, but all that changes when his daughter goes down to New Orleans for a weekend getaway and disappears. When his daughter goes missing, Paul is forced to reconnects with his old gangster contacts in order to save her life.
-
-
-The Colony
-By 2045, humans have built weather machines to control the warming climate due to climate change and global warming. The machines break down when one day it begins to snow and doesn't stop. Whatever humans remain live in underground bunkers to escape the extreme cold. Their challenges are controlling disease and producing sufficient food. Two soldiers, Briggs (Laurence Fishburne) and Mason (Bill Paxton) are the leaders of one such bunker, Colony 7. Briggs, Sam (Kevin Zegers) and Graydon (Atticus Dean Mitchell) travel to nearby Colony 5 after receiving a distress signal. Briggs leaves Sam's lover Kai (Charlotte Sullivan) in charge of the colony while he's gone, much to Mason's chagrin. Upon arrival, they find Colony 5 covered in blood.
-
-
-Genre: Action, ThrillerReleased: August 22, 2014Length: 1h 33mIMDb Rating: 4.6/10Google users: 76% liked this movieRotten Tomatoes Rating: 63%Metacritic: N/ABox office: N/ABudget: 18 million USDDirector: Randall EmmettAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-Genre: Horror, ThrillerReleased: September 20, 2013Length: 1h 33mIMDb Rating: 5.3/10Google users: 79% liked this movieRotten Tomatoes Rating: N/AMetacritic: N/ABox office: N/ABudget: 16 million USDDirector: Jeff RenfroeAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-I Kill Giants
-Barbara Thorson (Madison Wolfe) is a teenage girl who escapes the realities of school and a troubled family life by retreating into her magical world of fighting evil giants. With the help of her new friend Sophia (Sydney Wade) and her school counselor (Zoe Saldana), Barbara learns to face her fears and battle the giants that threaten her world.
-
-
-Black Rock
-Sarah (Kate Bosworth) has tricked her two best friends, Lou (Lake Bell) and Abby (Katie Aselton, also the director) — who are embroiled in a longtime feud — into showing up for a camping trip with her on the tiny Maine island where they spent summers as kids. Reluctantly, the two agree to the reunion, and soon they’re all traipsing through the woods in search of their old buried time capsule, with Abby and Lou pausing to open old wounds and bicker. One wrong move turns their weekend getaway into a deadly fight for survival.
-
-
-Genre: Fantasy, ThrillerReleased: March 23, 2018Length: 1h 46mIMDb Rating: 6.2/10Google users: 73% liked this movieRotten Tomatoes Rating: 77%Metacritic: 74%Box office: N/ABudget: N/ADirector: Anders WalterAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-Genre: Thriller, HorrorReleased: May 17, 2013Length: 1h 19mIMDb Rating: 4.7/10Google users: 68% liked this movieRotten Tomatoes Rating: 52%Metacritic: 46%Box office: N/ABudget: N/ADirector: Katie AseltonAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: R
-
-
-Along With the Gods: The Two Worlds
-After dying unexpectedly, firefighter Ja-hong is taken to the afterlife by three guardians, where only after passing seven trials and proving he lived a noble life will he be able to reincarnate. Based on the wildly popular webcomic, ALONG WITH THE GODS: THE TWO WORLDS is a star-studded, action-packed fantasy epic about life, death, rebirth, and the unseen forces that guide us through all.
-
-
-Genre: Fantasy, AdventureReleased: December 20, 2017Length: 2h 20mIMDb Rating: 7.3/10Google users: 95% liked this movieRotten Tomatoes Rating: 63%Metacritic: 60%Box office: 1.11 million USDBudget: N/ADirector: Yong-hwa KimAvailable on: YouTube, Google Play, Amazon Prime, Vudu, HuluMPAA Rating: PG
-
-
-Below is an example of a participant’s screen view with three options.
-
-
-### Experiment 6: Laptop Options (Easy Condition)
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Mission: Impossible - Fallout                                                                                                                                                                                                                                                                                                                                                                                                                                               |   | The Sisters Brothers                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions. Arms dealer John Lark and a group of terrorists known as the Apostles plan to use three plutonium cores for a simultaneous nuclear attack on the Vatican, Jerusalem and Mecca, Saudi Arabia. When the weapons go missing, Ethan and his crew find themselves in a desperate race against time to prevent them from falling into the wrong hands.         |   | It\'s 1851, and Charlie and Eli Sisters are both brothers and assassins, boys grown to men in a savage and hostile world. The Sisters brothers find themselves on a journey through the Northwest, bringing them to the mountains of Oregon, a dangerous brothel in the small town of Mayfield, and eventually, the gold rush land of California \-- an adventure that tests the deadly family ties that bind.                                                                                |
++:=======================================================================================================================================================:+:=======================================================================================================================================================:+:=======================================================================================================================================================:+:=:+:=============================================================================================================================================================:+:=============================================================================================================================================================:+:=============================================================================================================================================================:+
+| ![](media/image33.jpeg){width="1.5625in" height="2.34375in"}                                                                                            | **Genre: **Action, Thriller\                                                                                                                                                                                                                                                                                      |   | ![](media/image34.jpeg){width="1.5625in" height="2.34375in"}                                                                                                  | **Genre: **Comedy, Western\                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                         | **Released:** July 27, 2018\                                                                                                                                                                                                                                                                                      |   |                                                                                                                                                               | **Released:** September 19, 2018\                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                         | **Length: **2h 27m\                                                                                                                                                                                                                                                                                               |   |                                                                                                                                                               | **Length: **2h 1m\                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                         | **IMDb Rating: **7.7/10\                                                                                                                                                                                                                                                                                          |   |                                                                                                                                                               | **IMDb Rating: **7.0/10\                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                         | **Google users: **94% liked this movie\                                                                                                                                                                                                                                                                           |   |                                                                                                                                                               | **Google users:** 81% liked this movie\                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                         | **Rotten Tomatoes Rating: **97%\                                                                                                                                                                                                                                                                                  |   |                                                                                                                                                               | **Rotten Tomatoes Rating:** 87%\                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                         | **Metacritic:** 86%\                                                                                                                                                                                                                                                                                              |   |                                                                                                                                                               | **Metacritic:** 78%\                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                         | **Box office: **791.1 million USD\                                                                                                                                                                                                                                                                                |   |                                                                                                                                                               | **Box office: **N/A\                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                         | **Budget**: 178 million USD\                                                                                                                                                                                                                                                                                      |   |                                                                                                                                                               | **Budget: **38 million USD\                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                         | **Director:** Christopher McQuarrie\                                                                                                                                                                                                                                                                              |   |                                                                                                                                                               | **Director:** Jacques Audiard\                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                         | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                                                                                 |   |                                                                                                                                                               | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                                                                                             |
+|                                                                                                                                                         | **MPAA Rating: **PG-13                                                                                                                                                                                                                                                                                            |   |                                                                                                                                                               | **MPAA Rating: **R                                                                                                                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+---------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fast Color                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |   | Changeland                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Hunted by mysterious forces, a young woman who has supernatural abilities must go on the run when her powers are discovered. With nowhere else to go, she flees back to her family and the farmhouse she abandoned long ago. There, while being pursued by the local sheriff, she begins to mend the broken relationships with her mother and daughter and learns that the power she needed was inside her all along.                                                       |   | On the eve of his anniversary, Brandon discovers his wife is having an affair. Distraught and without hesitation he jumps on a plane with his childhood friend Dan on a prepaid trip to Thailand. Once in Thailand, the pair go on a series of excursions and tours intended for a happy couple. Upon their journey they meet two eccentric tour guides Ian and Pen who show them the wonders of Thailand and bring the two friends back together through life, love, and good fun.           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](media/image35.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                                                                      | **Genre: **Science Fiction, Thriller\                                                                                                                   |   | ![](media/image36.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                                                                                  | **Genre: **Comedy, Drama\                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                   | **Released:** April 19, 2019\                                                                                                                           |   |                                                                                                                                                                                                                                                                                                                               | **Released:** June 7, 2019\                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                   | **Length: **1h 42m\                                                                                                                                     |   |                                                                                                                                                                                                                                                                                                                               | **Length: **1h 26m\                                                                                                                                           |
+|                                                                                                                                                                                                                                                                                                                   | **IMDb Rating: **5.9/10\                                                                                                                                |   |                                                                                                                                                                                                                                                                                                                               | **IMDb Rating: **5.7/10\                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                   | **Google users: **87% liked this movie\                                                                                                                 |   |                                                                                                                                                                                                                                                                                                                               | **Google users: **77% liked this movie\                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                   | **Rotten Tomatoes Rating:** 82%\                                                                                                                        |   |                                                                                                                                                                                                                                                                                                                               | **Rotten Tomatoes Rating:** 63%\                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                   | **Metacritic:** 64%\                                                                                                                                    |   |                                                                                                                                                                                                                                                                                                                               | **Metacritic:** 42%\                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                   | **Box office:** N/A\                                                                                                                                    |   |                                                                                                                                                                                                                                                                                                                               | **Box office: **N/A\                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                   | **Budget:** N/A\                                                                                                                                        |   |                                                                                                                                                                                                                                                                                                                               | **Budget:** N/A\                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                   | **Director:** Julia Hart\                                                                                                                               |   |                                                                                                                                                                                                                                                                                                                               | **Director:** Seth Green\                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                   | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                       |   |                                                                                                                                                                                                                                                                                                                               | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                             |
+|                                                                                                                                                                                                                                                                                                                   | **MPAA Rating: **PG-13                                                                                                                                  |   |                                                                                                                                                                                                                                                                                                                               | **MPAA Rating: **R                                                                                                                                            |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The Good Guy                                                                                                                                                                                                                                                                                                                                                                                        |   | Running With the Devil                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                                                                                     |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Beth (Alexis Bledel), an urban conservationist, wants it all: a good job, good friends, and a good guy to share her life and love of New York. When Beth meets Tommy (Scott Porter), a Wall Street whiz, she falls head over heels in love. It seems that everything is falling into place, but romantic complications arise when Beth meets Daniel, Tommy\'s sensitive and handsome colleague.     |   | When a cocaine shipment is compromised to the dismay of a drug cartel\'s CEO, known simply as The Boss, he orders his most trusted henchman on a dangerous journey to audit the company\'s supply chain. As the drugs make their perilous trek across international borders, past gangsters, refiners, and couriers, they are also being tracked by Federal Agents. When The Cook realizes where the network is breaking down, it may be too late to keep the cartel satisfied.     |
++:================================================================================================================================================================================================:+:================================================================================================================================================================================================:+:=:+:========================================================================================================================================================================================================================================:+:========================================================================================================================================================================================================================================:+
+| ![](media/image37.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                     | **Genre: **Comedy\                                                                                                                                                                               |   | ![](media/image38.jpeg){width="1.5625in" height="2.25in"}                                                                                                                                                                                | **Genre: **Action, Crime\                                                                                                                                                                                                                |
+|                                                                                                                                                                                                  | **Released:** February 19, 2010\                                                                                                                                                                 |   |                                                                                                                                                                                                                                          | **Released:** October 24, 2019\                                                                                                                                                                                                          |
+|                                                                                                                                                                                                  | **Length: **1h 42m\                                                                                                                                                                              |   |                                                                                                                                                                                                                                          | **Length: **1h 40m\                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                  | **IMDb Rating: **5.8/10\                                                                                                                                                                         |   |                                                                                                                                                                                                                                          | **IMDb Rating: **5.4/10\                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                  | **Google users:** 75% liked this movie\                                                                                                                                                          |   |                                                                                                                                                                                                                                          | **Google users:** 68% liked this movie\                                                                                                                                                                                                  |
+|                                                                                                                                                                                                  | **Rotten Tomatoes Rating:** 35%\                                                                                                                                                                 |   |                                                                                                                                                                                                                                          | **Rotten Tomatoes Rating:** 25%\                                                                                                                                                                                                         |
+|                                                                                                                                                                                                  | **Metacritic:** 47%\                                                                                                                                                                             |   |                                                                                                                                                                                                                                          | **Metacritic:** 42%\                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                  | **Box office: **N/A\                                                                                                                                                                             |   |                                                                                                                                                                                                                                          | **Box office: **N/A\                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                  | **Budget: **3.2 million USD\                                                                                                                                                                     |   |                                                                                                                                                                                                                                          | **Budget: **N/A\                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                  | **Director:** Julio DePietro\                                                                                                                                                                    |   |                                                                                                                                                                                                                                          | **Director:** Jason Cabell\                                                                                                                                                                                                              |
+|                                                                                                                                                                                                  | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                |   |                                                                                                                                                                                                                                          | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                        |
+|                                                                                                                                                                                                  | **MPAA Rating: **R                                                                                                                                                                               |   |                                                                                                                                                                                                                                          | **MPAA Rating: **R                                                                                                                                                                                                                       |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| All Square                                                                                                                                                                                                                                                                    |   | The Lincoln Lawyer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                               |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| John Zbikowski is a down-on-his-luck, small town bookie who develops an unlikely friendship with Brian, his ex-girlfriend\'s 12-year-old son. When Zbikowski\'s clients don\'t pay their debts, he tries to recoup his earnings by taking bets on Brian\'s baseball games.    |   | Mick Haller (Matthew McConaughey) is a charismatic defense attorney who does business out of his Lincoln Continental sedan. Mick spends most of his time defending petty crooks and other bottom-feeders, so it comes as quite a surprise when he lands the case of a lifetime: defending a Beverly Hills playboy (Ryan Phillippe) who is accused of attempted murder. However, what Mick initially thinks is an open-and-shut case with a big monetary reward develops into something more sinister.     |
++:=====================================================================================================================================:+:=====================================================================================================================================:+:=:+:===================================================================================================================================================================================================================================================:+:===================================================================================================================================================================================================================================================:+
+| ![](media/image39.jpeg){width="1.5625in" height="2.34375in"}                                                                          | **Genre:** Comedy\                                                                                                                    |   | ![](media/image40.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                        | **Genre: **Crime, Legal\                                                                                                                                                                                                                            |
+|                                                                                                                                       | **Released:** October 12, 2018\                                                                                                       |   |                                                                                                                                                                                                                                                     | **Released:** March 10, 2011\                                                                                                                                                                                                                       |
+|                                                                                                                                       | **Length: **1h 39m\                                                                                                                   |   |                                                                                                                                                                                                                                                     | **Length: **2h 0m\                                                                                                                                                                                                                                  |
+|                                                                                                                                       | **IMDb Rating: **5.8/10\                                                                                                              |   |                                                                                                                                                                                                                                                     | **IMDb Rating: **7.3/10\                                                                                                                                                                                                                            |
+|                                                                                                                                       | **Google users:** 82% liked this movie\                                                                                               |   |                                                                                                                                                                                                                                                     | **Google users:** 91% liked this movie\                                                                                                                                                                                                             |
+|                                                                                                                                       | **Rotten Tomatoes Rating:** 91%\                                                                                                      |   |                                                                                                                                                                                                                                                     | **Rotten Tomatoes Rating:** 84%\                                                                                                                                                                                                                    |
+|                                                                                                                                       | **Metacritic:** 65%\                                                                                                                  |   |                                                                                                                                                                                                                                                     | **Metacritic:** 63%\                                                                                                                                                                                                                                |
+|                                                                                                                                       | **Box office: **N/A\                                                                                                                  |   |                                                                                                                                                                                                                                                     | **Box office: **87.1 million USD\                                                                                                                                                                                                                   |
+|                                                                                                                                       | **Budget: **N/A\                                                                                                                      |   |                                                                                                                                                                                                                                                     | **Budget:** 40 million USD\                                                                                                                                                                                                                         |
+|                                                                                                                                       | **Director:** John Hyams\                                                                                                             |   |                                                                                                                                                                                                                                                     | **Director:** Brad Furman\                                                                                                                                                                                                                          |
+|                                                                                                                                       | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                     |   |                                                                                                                                                                                                                                                     | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                   |
+|                                                                                                                                       | **MPAA Rating: **TVMA                                                                                                                 |   |                                                                                                                                                                                                                                                     | **MPAA Rating: **R                                                                                                                                                                                                                                  |
++---------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| High-Rise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |   | Leap Year                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| HIGH-RISE stars Hiddleston as Dr. Robert Laing, the newest resident of a luxurious apartment in a high-tech concrete skyscraper whose lofty location places him amongst the upper class. Laing quickly settles into high society life and meets the building\'s eccentric tenants. Life seems like paradise to the solitude-seeking Laing. But as power outages become more frequent and building flaws emerge, particularly on the lower floors, the regimented social strata begins to crumble and the building becomes a battlefield in a literal class war.     |   | When yet another anniversary passes without a marriage proposal from her boyfriend, Anna (Amy Adams) decides to take action. Aware of a Celtic tradition that allows women to pop the question on Feb. 29, she plans to follow her lover to Dublin and ask him to marry her. Fate has other plans, however, and Anna winds up on the other side of the Emerald Isle with handsome, but surly, Declan \-- an Irishman who may just lead Anna down the road to true love.     |
++:================================================================================================================================================================================================================================================================================:+:================================================================================================================================================================================================================================================================================:+:=:+:====================================================================================================================================================================================================================================:+:====================================================================================================================================================================================================================================:+
+| ![](media/image41.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                                     | **Genre: **Comedy, Drama\                                                                                                                                                                                                                                                        |   | ![](media/image42.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                         | **Genre: **Comedy, Romance\                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                  | **Released:** May 13, 2016\                                                                                                                                                                                                                                                      |   |                                                                                                                                                                                                                                      | **Released:** January 8, 2010\                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                  | **Length: **1h 59m\                                                                                                                                                                                                                                                              |   |                                                                                                                                                                                                                                      | **Length: **1h 40m\                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                  | **IMDb Rating: **5.6/10\                                                                                                                                                                                                                                                         |   |                                                                                                                                                                                                                                      | **IMDb Rating: **6.5/10\                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                  | **Google users:** 74% liked this movie\                                                                                                                                                                                                                                          |   |                                                                                                                                                                                                                                      | **Google users:** 93% liked this movie\                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                  | **Rotten Tomatoes Rating:** 60%\                                                                                                                                                                                                                                                 |   |                                                                                                                                                                                                                                      | **Rotten Tomatoes Rating:** 23%\                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                  | **Metacritic:** 65%\                                                                                                                                                                                                                                                             |   |                                                                                                                                                                                                                                      | **Metacritic:** 33%\                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                  | **Box office: **4.1 million USD\                                                                                                                                                                                                                                                 |   |                                                                                                                                                                                                                                      | **Box office: **32.6 million USD\                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                  | **Budget:** 8 million USD\                                                                                                                                                                                                                                                       |   |                                                                                                                                                                                                                                      | **Budget:** 19 million USD\                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                  | **Director:** Ben Wheatley\                                                                                                                                                                                                                                                      |   |                                                                                                                                                                                                                                      | **Director:** Anand Tucker\                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                  | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                                                |   |                                                                                                                                                                                                                                      | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                  | **MPAA Rating: **R                                                                                                                                                                                                                                                               |   |                                                                                                                                                                                                                                      | **MPAA Rating: **PG                                                                                                                                                                                                                  |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| What Men Want                                                                                                                                                                                                                                                                                                                                                                                                   |   | And So It Goes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                 |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Passed up for a well-deserved promotion, sports agent Ali Davis wonders what else she needs to do to succeed in a man\'s world. Hoping to find answers from a psychic, Ali drinks a weird concoction that suddenly allows her to hear what men are thinking. Using her newfound ability, Ali starts to turn the tables on her obnoxious male colleagues while racing to sign the next basketball superstar.     |   | Nobody likes real-estate agent Oren Little (Michael Douglas), and he prefers it that way. He\'s deliberately mean to anyone who crosses his path and wants nothing more than to sell one final house and retire. Oren\'s life turns upside-down when his estranged son drops off a granddaughter (Sterling Jerins) he didn\'t know existed. Oren has no idea how to take care of a child, so he pawns the girl off on his neighbor, Leah (Diane Keaton) \-- but he learns how to open his heart eventually.     |
++:======================================================================================================================================================================================================:+:======================================================================================================================================================================================================:+:=:+:======================================================================================================================================================================================================================================================:+:======================================================================================================================================================================================================================================================:+
+| ![](media/image43.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                           | **Genre: **Comedy, Romance\                                                                                                                                                                            |   | ![](media/image44.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                           | **Genre: **Comedy, Romance\                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                        | **Released:** February 8, 2019\                                                                                                                                                                        |   |                                                                                                                                                                                                                                                        | **Released:** July 25, 2014\                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                        | **Length: **1h 57m\                                                                                                                                                                                    |   |                                                                                                                                                                                                                                                        | **Length: **1h 34m\                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                        | **IMDb Rating: **5.2/10\                                                                                                                                                                               |   |                                                                                                                                                                                                                                                        | **IMDb Rating: **5.8/10\                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                        | **Google users:** 82% liked this movie\                                                                                                                                                                |   |                                                                                                                                                                                                                                                        | **Google users:** 86% liked this movie\                                                                                                                                                                                                                |
+|                                                                                                                                                                                                        | **Rotten Tomatoes Rating:** 42%\                                                                                                                                                                       |   |                                                                                                                                                                                                                                                        | **Rotten Tomatoes Rating:** 18%\                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                        | **Metacritic:** 49%\                                                                                                                                                                                   |   |                                                                                                                                                                                                                                                        | **Metacritic:** 38%\                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                        | **Box office:** 72.2 million USD\                                                                                                                                                                      |   |                                                                                                                                                                                                                                                        | **Box office:** 25.3 million USD\                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                        | **Budget:** 20** **million USD\                                                                                                                                                                        |   |                                                                                                                                                                                                                                                        | **Budget:** 18** **million USD\                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                        | **Director:** Adam Shankman\                                                                                                                                                                           |   |                                                                                                                                                                                                                                                        | **Director:** Rob Reiner\                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                        | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                      |   |                                                                                                                                                                                                                                                        | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                      |
+|                                                                                                                                                                                                        | **MPAA Rating: **R                                                                                                                                                                                     |   |                                                                                                                                                                                                                                                        | **MPAA Rating: **PG-13                                                                                                                                                                                                                                 |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fighting With My Family                                                                                                                                                                                                                                                                                                                                                                                                                                             |   | Backtrace                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Born into a tight-knit wrestling family, Paige and her brother Zak are ecstatic when they get the once-in-a-lifetime opportunity to try out for the WWE. But when only Paige earns a spot in the competitive training program, she must leave her loved ones behind and face this new cutthroat world alone. Paige\'s journey pushes her to dig deep and ultimately prove to the world that what makes her different is the very thing that can make her a star.    |   | After suffering a brain injury from a bank heist gone wrong, MacDonald develops amnesia and is put into a prison psychiatric ward. Following his seventh year of incarceration, he is coerced by an inmate and a ward doctor to break out of prison, and he is injected with a serum that forces him to relive the life he has forgotten. MacDonald must now elude a local detective, a toughened FBI agent, and the drug\'s dangerous side effects to recover the stolen money.    |
++:================================================================================================================================================================================================================================:+:================================================================================================================================================================================================================================:+:=:+:========================================================================================================================================================================================================================================:+:========================================================================================================================================================================================================================================:+
+| ![](media/image45.jpeg){width="1.5625in" height="2.25in"}                                                                                                                                                                        | **Genre: **Comedy, Drama\                                                                                                                                                                                                        |   | ![](media/image46.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                             | **Genre: **Adventure, Thriller\                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                  | **Released:** February 27, 2019\                                                                                                                                                                                                 |   |                                                                                                                                                                                                                                          | **Released:** December 14, 2018\                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                  | **Length: **1h 48m\                                                                                                                                                                                                              |   |                                                                                                                                                                                                                                          | **Length: **1h 27m\                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                  | **IMDb Rating: **7.1/10\                                                                                                                                                                                                         |   |                                                                                                                                                                                                                                          | **IMDb Rating: **3.7/10\                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                  | **Google users:** 91% liked this movie\                                                                                                                                                                                          |   |                                                                                                                                                                                                                                          | **Google users:** 59% liked this movie\                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                  | **Rotten Tomatoes Rating:** 93%\                                                                                                                                                                                                 |   |                                                                                                                                                                                                                                          | **Rotten Tomatoes Rating:** 11%\                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                  | **Metacritic:** 68%\                                                                                                                                                                                                             |   |                                                                                                                                                                                                                                          | **Metacritic:** 45%\                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                  | **Box office:** 41.5 million USD\                                                                                                                                                                                                |   |                                                                                                                                                                                                                                          | **Box office:** 1.2 million USD\                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                  | **Budget:** 11** **million USD\                                                                                                                                                                                                  |   |                                                                                                                                                                                                                                          | **Budget:** N/A\                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                  | **Director:** Stephen Merchant\                                                                                                                                                                                                  |   |                                                                                                                                                                                                                                          | **Director:** Brian A. Miller\                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                  | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                |   |                                                                                                                                                                                                                                          | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                        |
+|                                                                                                                                                                                                                                  | **MPAA Rating: **PG-13                                                                                                                                                                                                           |   |                                                                                                                                                                                                                                          | **MPAA Rating: **R                                                                                                                                                                                                                       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The Commuter                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |   | Daylight\'s End                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |   |                                                                                                                                                                                                                                                                                                                                                 |
+| Insurance salesman Michael is on his daily commute home, which quickly becomes anything but routine. After being contacted by a mysterious stranger, Michael is forced to uncover the identity of a hidden passenger on the train before the last stop. As he works against the clock to solve the puzzle, he realizes a deadly plan is unfolding, and he is unwittingly caught up in a criminal conspiracy that carries life and death stakes for everyone on the train.     |   | Years after a mysterious plague has devastated the planet and turned most of humanity into blood-hungry creatures, a rogue drifter on a vengeful hunt stumbles across a band of survivors in an abandoned police station and reluctantly agrees to try to help them defend themselves and escape to the sanctuary they so desperately need.     |
++:=====================================================================================================================================================================================================================================:+:=====================================================================================================================================================================================================================================:+:=:+:======================================================================================================================================================================:+:======================================================================================================================================================================:+
+| ![](media/image47.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                          | **Genre: **Mystery, Thriller\                                                                                                                                                                                                         |   | ![](media/image48.jpeg){width="1.5625in" height="2.34375in"}                                                                                                           | **Genre: **Action, Horror\                                                                                                                                             |
+|                                                                                                                                                                                                                                       | **Released:** January 12, 2018\                                                                                                                                                                                                       |   |                                                                                                                                                                        | **Released:** April 16, 2016\                                                                                                                                          |
+|                                                                                                                                                                                                                                       | **Length: **1h 45m\                                                                                                                                                                                                                   |   |                                                                                                                                                                        | **Length: **1h 45m\                                                                                                                                                    |
+|                                                                                                                                                                                                                                       | **IMDb Rating: **6.3/10\                                                                                                                                                                                                              |   |                                                                                                                                                                        | **IMDb Rating: **5.4/10\                                                                                                                                               |
+|                                                                                                                                                                                                                                       | **Google users:** 86% liked this movie\                                                                                                                                                                                               |   |                                                                                                                                                                        | **Google users:** 85% liked this movie\                                                                                                                                |
+|                                                                                                                                                                                                                                       | **Rotten Tomatoes Rating:** 56%\                                                                                                                                                                                                      |   |                                                                                                                                                                        | **Rotten Tomatoes Rating:** N/A\                                                                                                                                       |
+|                                                                                                                                                                                                                                       | **Metacritic:** 56%\                                                                                                                                                                                                                  |   |                                                                                                                                                                        | **Metacritic:** N/A\                                                                                                                                                   |
+|                                                                                                                                                                                                                                       | **Box office:** 119.9 million USD\                                                                                                                                                                                                    |   |                                                                                                                                                                        | **Box office: **N/A\                                                                                                                                                   |
+|                                                                                                                                                                                                                                       | **Budget:** 40 million USD\                                                                                                                                                                                                           |   |                                                                                                                                                                        | **Budget:** 2 million USD\                                                                                                                                             |
+|                                                                                                                                                                                                                                       | **Director:** Jaume Collet-Serra\                                                                                                                                                                                                     |   |                                                                                                                                                                        | **Director:** William Kaufman\                                                                                                                                         |
+|                                                                                                                                                                                                                                       | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                     |   |                                                                                                                                                                        | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                      |
+|                                                                                                                                                                                                                                       | **MPAA Rating: **PG-13                                                                                                                                                                                                                |   |                                                                                                                                                                        | **MPAA Rating: **TVMA                                                                                                                                                  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Arbitrage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |   | Under the Tree                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |   |                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| As he approaches his 60th birthday, New York hedge-fund magnate Robert Miller (Richard Gere) is the picture of success \-- at least on the surface. In reality, Miller is in over his head, trying desperately to sell his empire to a big bank before the authorities and his family uncover the depth of his fraud. Unexpectedly, a critical error forces Miller to juggle family, business and crime with the aid of a former associate, but a detective\'s (Tim Roth) suspicions mean it may already be too late.     |   | UNDER THE TREE follows a man who is accused of adultery and forced to move in with his parents. While he fights for custody of his four-year-old daughter, he is gradually sucked into a dispute between his parents and their neighbors over an old and beautiful tree. What starts as a typical spat between suburban neighbors unexpectedly and violently reaches a boiling point, soon spiraling out of control.    |
++:===========================================================================================================================================================================================================================================================:+:===========================================================================================================================================================================================================================================================:+:=:+:==========================================================================================================================================================================================================:+:==========================================================================================================================================================================================================:+
+| ![](media/image49.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                | **Genre: **Drama, Thriller\                                                                                                                                                                                                                                 |   | ![](media/image50.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                               | **Genre: **Comedy\                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                             | **Released:** September 14, 2012\                                                                                                                                                                                                                           |   |                                                                                                                                                                                                            | **Released:** August 31, 2012\                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                             | **Length: **1h 47m\                                                                                                                                                                                                                                         |   |                                                                                                                                                                                                            | **Length: **1h 29m\                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                             | **IMDb Rating: **6.6/10\                                                                                                                                                                                                                                    |   |                                                                                                                                                                                                            | **IMDb Rating: **6.6/10\                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                             | **Google users:** 81% liked this movie\                                                                                                                                                                                                                     |   |                                                                                                                                                                                                            | **Google users:** 78% liked this movie\                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                             | **Rotten Tomatoes Rating:** 88%\                                                                                                                                                                                                                            |   |                                                                                                                                                                                                            | **Rotten Tomatoes Rating:** 85%\                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                             | **Metacritic:** 73%\                                                                                                                                                                                                                                        |   |                                                                                                                                                                                                            | **Metacritic:** 75%\                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                             | **Box office:** 35.5 million USD\                                                                                                                                                                                                                           |   |                                                                                                                                                                                                            | **Box office:** 612,628 USD\                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                             | **Budget:** 12 million USD\                                                                                                                                                                                                                                 |   |                                                                                                                                                                                                            | **Budget:** N/A\                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                             | **Director:** Nicholas Jarecki\                                                                                                                                                                                                                             |   |                                                                                                                                                                                                            | **Director:** Hafsteinn Gunnar\                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                             | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                           |   |                                                                                                                                                                                                            | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                          |
+|                                                                                                                                                                                                                                                             | **MPAA Rating: **R                                                                                                                                                                                                                                          |   |                                                                                                                                                                                                            | **MPAA Rating: **PG                                                                                                                                                                                        |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Dog Days                                                                                                                                                                                                                                                                                                                                                                                                                                      |   | The Osiris Child                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                               |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Elizabeth is a charming anchorwoman who seeks advice from her dog\'s therapist. Tara is a spunky barista who dreams of a life beyond the coffee shop. Daisy is a dog walker who\'s enamoured with a client. Garrett pines for a woman while trying to keep his adopt-a-dog business afloat. The beloved canines in their lives soon start to influence their careers, friendships and romantic relationships in funny and unexpected ways.    |   | When a dangerous outbreak threatens to destroy everyone living on a newly colonized planet, Lt. Kane Sommerville (Daniel MacPherson) goes against orders and leaves his station to rescue his young daughter (Teagan Croft). Desperate to get to her before it\'s too late, Kane enlists the help of an escaped prisoner (Kellan Lutz) as they battle their way through the chaos of a planet on the verge of annihilation. With the odds stacked against them, saving his little girl may be humanity\'s last chance at survival.    |
++:=====================================================================================================================================================================================================================:+:=====================================================================================================================================================================================================================:+:=:+:=================================================================================================================================================================================================================================================================:+:=================================================================================================================================================================================================================================================================:+
+| ![](media/image51.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                          | **Genre:** Comedy, Romance\                                                                                                                                                                                           |   | ![](media/image52.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                      | **Genre:** Action, Science Fiction\                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                       | **Released:** August 8, 2018\                                                                                                                                                                                         |   |                                                                                                                                                                                                                                                                   | **Released:** May 18, 2017\                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                       | **Length: **1h 53m\                                                                                                                                                                                                   |   |                                                                                                                                                                                                                                                                   | **Length: **1h 39m\                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                       | **IMDb Rating: **6.2/10\                                                                                                                                                                                              |   |                                                                                                                                                                                                                                                                   | **IMDb Rating:** 5.6/10\                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                       | **Google users:** 90% liked this movie\                                                                                                                                                                               |   |                                                                                                                                                                                                                                                                   | **Google users:** 80% liked this movie\                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                       | **Rotten Tomatoes Rating:** 63%\                                                                                                                                                                                      |   |                                                                                                                                                                                                                                                                   | **Rotten Tomatoes Rating:** 63%\                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                       | **Metacritic:** 47%\                                                                                                                                                                                                  |   |                                                                                                                                                                                                                                                                   | **Metacritic:** 55%\                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                       | **Box office:** 7.6 million USD\                                                                                                                                                                                      |   |                                                                                                                                                                                                                                                                   | **Box office:** N/A\                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                       | **Budget:** 10 million USD\                                                                                                                                                                                           |   |                                                                                                                                                                                                                                                                   | **Budget:** N/A\                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                       | **Director:** Ken Marino\                                                                                                                                                                                             |   |                                                                                                                                                                                                                                                                   | **Director:** Shane Abbess\                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                       | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                     |   |                                                                                                                                                                                                                                                                   | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                       | **MPAA Rating:** PG                                                                                                                                                                                                   |   |                                                                                                                                                                                                                                                                   | **MPAA Rating:** N/A                                                                                                                                                                                                                                              |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The Prince                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   | The Colony                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Jason Patric, Bruce Willis, and John Cusack star in the noir, crime thriller The Prince. Paul (Jason Patric) is a mafia hit-man in New Orleans, and with a baby on the way, he wants out. Paul thinks the only way to do that is to kill his boss (Bruce Willis). With a car bomb in place, Paul waits for his boss to leave for the day, but is shocked to see the bosses wife and daughter get into the car instead. After the tragedy, Paul and his family flea and for 18 years, live in peace, but all that changes when his daughter goes down to New Orleans for a weekend getaway and disappears. When his daughter goes missing, Paul is forced to reconnects with his old gangster contacts in order to save her life.    |   | By 2045, humans have built weather machines to control the warming climate due to climate change and global warming. The machines break down when one day it begins to snow and doesn\'t stop. Whatever humans remain live in underground bunkers to escape the extreme cold. Their challenges are controlling disease and producing sufficient food. Two soldiers, Briggs (Laurence Fishburne) and Mason (Bill Paxton) are the leaders of one such bunker, Colony 7. Briggs, Sam (Kevin Zegers) and Graydon (Atticus Dean Mitchell) travel to nearby Colony 5 after receiving a distress signal. Briggs leaves Sam\'s lover Kai (Charlotte Sullivan) in charge of the colony while he\'s gone, much to Mason\'s chagrin. Upon arrival, they find Colony 5 covered in blood.      |
++:================================================================================================================================================================================================================================================================================================================================================================:+:================================================================================================================================================================================================================================================================================================================================================================:+:=:+:=======================================================================================================================================================================================================================================================================================================================================================================================:+:=======================================================================================================================================================================================================================================================================================================================================================================================:+
+| ![](media/image53.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                                                                                                                     | **Genre:** Action, Thriller\                                                                                                                                                                                                                                                                                                                                     |   | ![](media/image54.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                                                                                                                                            | **Genre:** Horror, Thriller\                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Released:** August 22, 2014\                                                                                                                                                                                                                                                                                                                                   |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Released:** September 20, 2013\                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Length: **1h 33m\                                                                                                                                                                                                                                                                                                                                              |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Length: **1h 33m\                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                  | **IMDb Rating:** 4.6/10\                                                                                                                                                                                                                                                                                                                                         |   |                                                                                                                                                                                                                                                                                                                                                                                         | **IMDb Rating:** 5.3/10\                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Google users:** 76% liked this movie\                                                                                                                                                                                                                                                                                                                          |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Google users:** 79% liked this movie\                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Rotten Tomatoes Rating:** 63%\                                                                                                                                                                                                                                                                                                                                 |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Rotten Tomatoes Rating: **N/A\                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Metacritic:** N/A\                                                                                                                                                                                                                                                                                                                                             |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Metacritic:** N/A\                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Box office:** N/A\                                                                                                                                                                                                                                                                                                                                             |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Box office:** N/A\                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Budget:** 18 million USD\                                                                                                                                                                                                                                                                                                                                      |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Budget:** 16 million USD\                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Director:** Randall Emmett\                                                                                                                                                                                                                                                                                                                                    |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Director:** Jeff Renfroe\                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                  | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                                                                                                                                |   |                                                                                                                                                                                                                                                                                                                                                                                         | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                                                                  | **MPAA Rating:** R                                                                                                                                                                                                                                                                                                                                               |   |                                                                                                                                                                                                                                                                                                                                                                                         | **MPAA Rating:** R                                                                                                                                                                                                                                                                                                                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| I Kill Giants                                                                                                                                                                                                                                                                                                                                                   |   | Black Rock                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                 |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Barbara Thorson (Madison Wolfe) is a teenage girl who escapes the realities of school and a troubled family life by retreating into her magical world of fighting evil giants. With the help of her new friend Sophia (Sydney Wade) and her school counselor (Zoe Saldana), Barbara learns to face her fears and battle the giants that threaten her world.     |   | Sarah (Kate Bosworth) has tricked her two best friends, Lou (Lake Bell) and Abby (Katie Aselton, also the director) --- who are embroiled in a longtime feud --- into showing up for a camping trip with her on the tiny Maine island where they spent summers as kids. Reluctantly, the two agree to the reunion, and soon they're all traipsing through the woods in search of their old buried time capsule, with Abby and Lou pausing to open old wounds and bicker. One wrong move turns their weekend getaway into a deadly fight for survival.     |
++:==============================================================================================================================================================================:+:==============================================================================================================================================================================:+:=:+:===========================================================================================================================================================================================================================================================================:+:===========================================================================================================================================================================================================================================================================:+
+| ![](media/image55.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                   | **Genre:** Fantasy, Thriller\                                                                                                                                                  |   | ![](media/image56.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                                                                                                | **Genre:** Thriller, Horror\                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                | **Released:** March 23, 2018\                                                                                                                                                  |   |                                                                                                                                                                                                                                                                             | **Released:** May 17, 2013\                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                | **Length: **1h 46m\                                                                                                                                                            |   |                                                                                                                                                                                                                                                                             | **Length: **1h 19m\                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                | **IMDb Rating:** 6.2/10\                                                                                                                                                       |   |                                                                                                                                                                                                                                                                             | **IMDb Rating:** 4.7/10\                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                | **Google users:** 73% liked this movie\                                                                                                                                        |   |                                                                                                                                                                                                                                                                             | **Google users:** 68% liked this movie\                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                | **Rotten Tomatoes Rating: **77%\                                                                                                                                               |   |                                                                                                                                                                                                                                                                             | **Rotten Tomatoes Rating: **52%\                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                | **Metacritic:** 74%\                                                                                                                                                           |   |                                                                                                                                                                                                                                                                             | **Metacritic:** 46%\                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                | **Box office:** N/A\                                                                                                                                                           |   |                                                                                                                                                                                                                                                                             | **Box office:** N/A\                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                | **Budget:** N/A\                                                                                                                                                               |   |                                                                                                                                                                                                                                                                             | **Budget:** N/A\                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                | **Director:** Anders Walter\                                                                                                                                                   |   |                                                                                                                                                                                                                                                                             | **Director:** Katie Aselton\                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                              |   |                                                                                                                                                                                                                                                                             | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                                                                                           |
+|                                                                                                                                                                                | **MPAA Rating:** R                                                                                                                                                             |   |                                                                                                                                                                                                                                                                             | **MPAA Rating:** R                                                                                                                                                                                                                                                          |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Along With the Gods: The Two Worlds                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                             |
+| After dying unexpectedly, firefighter Ja-hong is taken to the afterlife by three guardians, where only after passing seven trials and proving he lived a noble life will he be able to reincarnate. Based on the wildly popular webcomic, ALONG WITH THE GODS: THE TWO WORLDS is a star-studded, action-packed fantasy epic about life, death, rebirth, and the unseen forces that guide us through all.    |
++:====================================================================================================================================================================================================:+:====================================================================================================================================================================================================:+
+| ![](media/image57.jpeg){width="1.5625in" height="2.34375in"}                                                                                                                                         | **Genre:** Fantasy, Adventure\                                                                                                                                                                       |
+|                                                                                                                                                                                                      | **Released:** December 20, 2017\                                                                                                                                                                     |
+|                                                                                                                                                                                                      | **Length: **2h 20m\                                                                                                                                                                                  |
+|                                                                                                                                                                                                      | **IMDb Rating:** 7.3/10\                                                                                                                                                                             |
+|                                                                                                                                                                                                      | **Google users:** 95% liked this movie\                                                                                                                                                              |
+|                                                                                                                                                                                                      | **Rotten Tomatoes Rating: **63%\                                                                                                                                                                     |
+|                                                                                                                                                                                                      | **Metacritic:** 60%\                                                                                                                                                                                 |
+|                                                                                                                                                                                                      | **Box office:** 1.11 million USD\                                                                                                                                                                    |
+|                                                                                                                                                                                                      | **Budget:** N/A\                                                                                                                                                                                     |
+|                                                                                                                                                                                                      | **Director:** Yong-hwa Kim\                                                                                                                                                                          |
+|                                                                                                                                                                                                      | **Available on: **YouTube, Google Play, Amazon Prime, Vudu, Hulu\                                                                                                                                    |
+|                                                                                                                                                                                                      | **MPAA Rating:** PG                                                                                                                                                                                  |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Below is an example of a participant's screen view with three options.
+
+![](media/image60.png){width="6.489583333333333in" height="5.59375in"}
+
+**\**
+
+## Experiment 6: Laptop Options (Easy Condition)
 
 The options were displayed in three columns.
-Laptop
-UTZ
-MPS
-YZZ
-Processor
-7th Gen Intel Core i3-7350K
-7th Gen Intel Core i5-7600K
-7th Gen Intel Core i7-7700K
-Memory
-2GB DDR3 RAM
-2GB DDR4 RAM
-4GB DDR3 RAM
-Storage
-128GB SSD
-128GB SSD
-128GB SSD + 128GB HDD
-GPU Type
-Integrated
-Integrated
-Integrated
-GPU Card
-Intel HD Graphics 400
-Intel HD Graphics 500
-Intel HD Graphics 620
-Battery Life
-1.5 hours
-1.5 hours
-1.5 hours
-Screen Size
-12"
-12"
-13"
-Resolution
-HD (1366 x 768)
-HD (1366 x 768)
-Full HD (1920 x 1080)
-Avg. Customer Review
-2.0/5
-2.2/5
-2.5/5
 
-Laptop
-NPS
-MGS
-HPE
-Processor
-8th Gen Intel Core i3-8350K
-8th Gen Intel Core i5-8600K
-8th Gen Intel Core i7-8700K
-Memory
-4GB DDR4 RAM
-8GB DDR3 RAM
-8GB DDR4 RAM
-Storage
-256GB SSD
-256GB SSD
-256GB SSD + 256GB HDD
-GPU Type
-Integrated
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-GPU Card
-Intel Iris Plus Graphics 650
-GeForce 9 series GTX 950
-GeForce 9 series GTX 980
-Battery Life
-2 hours
-2 hours
-2 hours
-Screen Size
-13"
-13"
-14"
-Resolution
-Full HD (1920 x 1080)
-Full HD (1920 x 1080)
-Full HD (1920 x 1080)
-Avg. Customer Review
-3.0/5
-3.2/5
-3.5/5
+  ----------------------------------------------------------------------------------------------------------------
+          Laptop                    **UTZ**                       **MPS**                       **YZZ**
+  ---------------------- ----------------------------- ----------------------------- -----------------------------
+        Processor         7th Gen Intel Core i3-7350K   7th Gen Intel Core i5-7600K   7th Gen Intel Core i7-7700K
 
-Laptop
-YMM
-XPT
-XPX
-Processor
-8th Gen Intel Core i9-8950HK
-9th Gen Intel Core i3-9350KF
-9th Gen Intel Core i5-9600K
-Memory
-12GB DDR3 RAM
-12GB DDR4 RAM
-16GB DDR3 RAM
-Storage
-512GB SSD
-512GB SSD
-512GB SSD + 512GB HDD
-GPU Type
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-GPU Card
-GeForce 10 series GTX 1050
-GeForce 16 series GTX 1660
-GeForce 16 series GTX 1660
-Battery Life
-3 hours
-3 hours
-4 hours
-Screen Size
-14"
-14"
-15"
-Resolution
-Full HD (1920 x 1080)
-Full HD (1920 x 1080)
-Full HD (1920 x 1080)
-Avg. Customer Review
-3.5/5
-3.8/5
-3.8/5
+          Memory                 2GB DDR3 RAM                  2GB DDR4 RAM                  4GB DDR3 RAM
 
-Laptop
-YZP
-NPP
-UXT
-Processor
-9th Gen Intel Core i7-9700K
-9th Gen Intel Core i9-9900K
-10th Gen Intel Core i3-10110U
-Memory
-16GB DDR4 RAM
-24GB DDR3 RAM
-24GB DDR4 RAM
-Storage
-1TB SSD
-1TB SSD
-1TB SSD + 1TB HDD
-GPU Type
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-GPU Card
-GeForce 20 series RTX 2060
-GeForce 20 series RTX 2060S
-GeForce 20 series RTX 2070
-Battery Life
-5 hours
-6 hours
-7 hours
-Screen Size
-15"
-15"
-15"
-Resolution
-Full HD (1920 x 1080)
-4K UHD (3840 x 2160)
-4K UHD (3840 x 2160)
-Avg. Customer Review
-4.0/5
-4.0/5
-4.2/5
+         Storage                   128GB SSD                     128GB SSD               128GB SSD + 128GB HDD
 
-Laptop
-MPE
-UZS
-MPX
-Processor
-10th Gen Intel Core i5-10210U
-10th Gen Intel Core i7-10710U
-10th Gen Intel Core i9-10900K
-Memory
-32GB DDR3 RAM
-32GB DDR4 RAM
-64GB DDR4 RAM
-Storage
-2TB SSD
-2TB SSD
-2TB SSD + 2TB HDD
-GPU Type
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-GPU Card
-GeForce 20 series RTX 2070S
-GeForce 20 series RTX 2080
-GeForce 20 series RTX 2080S
-Battery Life
-8 hours
-9 hours
-10 hours
-Screen Size
-17"
-17"
-17"
-Resolution
-4K UHD (3840 x 2160)
-4K UHD (3840 x 2160)
-4K UHD (3840 x 2160)
-Avg. Customer Review
-4.5/5
-4.8/5
-4.8/5
-Example of a participant’s view – 6 options:
+         GPU Type                 Integrated                    Integrated                    Integrated
 
+         GPU Card            Intel HD Graphics 400         Intel HD Graphics 500         Intel HD Graphics 620
 
-### Experiment 6: Laptop Options (Difficult Condition)
+       Battery Life                1.5 hours                     1.5 hours                     1.5 hours
 
+       Screen Size                   12\"                          12\"                          13\"
 
-Laptop
-UTZ
-MPS
-YZZ
-Processor
-8th Gen Intel Core i9-8950HK
-9th Gen Intel Core i7-9700K
-7th Gen Intel Core i3-7350K
-Memory
-4GB DDR3 RAM
-8GB DDR4 RAM
-12GB DDR4 RAM
-Storage
-512GB SSD
-128GB SSD
-2TB SSD
-GPU Type
-Integrated
-Dedicated (NVIDIA)
-Integrated
-GPU Card
-Intel HD Graphics 400
-GeForce 20 series RTX2070
-Intel HD Graphics 500
-Battery Life
-8 hours
-1.5 hours
-2 hours
-Screen Size
-14"
-15"
-13"
-Resolution
-Full HD (1920 x 1080)
-4K UHD (3840 x 2160)
-Full HD (1920 x 1080)
-Avg. Customer Review
-4.8/5
-4.0/5
-4.8/5
+        Resolution              HD (1366 x 768)               HD (1366 x 768)            Full HD (1920 x 1080)
 
-Laptop
-NPS
-MGS
-HPE
-Processor
-9th Gen Intel Core i5-9600K
-8th Gen Intel Core i3-8350K
-7th Gen Intel Core i5-7600K
-Memory
-2GB DDR3 RAM
-12GB DDR3 RAM
-2GB DDR4 RAM
-Storage
-128GB SSD + 128GB HDD
-128GB SSD
-1TB SSD + 1TB HDD
-GPU Type
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-GPU Card
-GeForce 9 series GTX 980
-GeForce 16 series GTX 1660
-GeForce 20 series RTX2070S
-Battery Life
-9 hours
-2 hours
-10 hours
-Screen Size
-12"
-17"
-14"
-Resolution
-Full HD (1920 x 1080)
-Full HD (1920 x 1080)
-4K UHD (3840 x 2160)
-Avg. Customer Review
-3.2/5
-3.8/5
-4.0/5
+   Avg. Customer Review              2.0/5                         2.2/5                         2.5/5
+  ----------------------------------------------------------------------------------------------------------------
 
-Laptop
-YMM
-XPT
-XPX
-Processor
-10th Gen Intel Core i9-10900K
-10th Gen Intel Core i7-10710U
-8th Gen Intel Core i5-8600K
-Memory
-24GB DDR3 RAM
-16GB DDR3 RAM
-16GB DDR4 RAM
-Storage
-256GB SSD
-256GB SSD + 256GB HDD
-512GB SSD
-GPU Type
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-GPU Card
-GeForce 20 series RTX2060
-GeForce 9 series GTX 950
-GeForce 20 series RTX2080S
-Battery Life
-1.5 hours
-4 hours
-6 hours
-Screen Size
-12"
-17"
-14"
-Resolution
-Full HD (1920 x 1080)
-HD (1366 x 768)
-4K UHD (3840 x 2160)
-Avg. Customer Review
-2.0/5
-4.5/5
-2.2/5
+  -----------------------------------------------------------------------------------------------------------------
+          Laptop                    **NPS**                        **MGS**                       **HPE**
+  ---------------------- ------------------------------ ----------------------------- -----------------------------
+        Processor         8th Gen Intel Core i3-8350K    8th Gen Intel Core i5-8600K   8th Gen Intel Core i7-8700K
 
-Laptop
-YZP
-NPP
-UXT
-Processor
-9th Gen Intel Core i3-9350KF
-7th Gen Intel Core i7-7700K
-10th Gen Intel Core i3-10110U
-Memory
-64GB DDR4 RAM
-4GB DDR4 RAM
-32GB DDR3 RAM
-Storage
-256GB SSD
-2TB SSD + 2TB HDD
-1TB SSD
-GPU Type
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-Dedicated (NVIDIA)
-GPU Card
-GeForce 20 series RTX2060S
-GeForce 10 series GTX 1050
-GeForce 16 series GTX 1660
-Battery Life
-3 hours
-7 hours
-1.5 hours
-Screen Size
-13"
-15"
-15"
-Resolution
-4K UHD (3840 x 2160)
-Full HD (1920 x 1080)
-Full HD (1920 x 1080)
-Avg. Customer Review
-3.8/5
-3.5/5
-3.5/5
-Laptop
-MPE
-UZS
-MPX
-Processor
-10th Gen Intel Core i5-10210U
-8th Gen Intel Core i7-8700K
-9th Gen Intel Core i9-9900K
-Memory
-24GB DDR4 RAM
-32GB DDR4 RAM
-8GB DDR3 RAM
-Storage
-1TB SSD
-512GB SSD + 512GB HDD
-2TB SSD
-GPU Type
-Integrated
-Integrated
-Dedicated (NVIDIA)
-GPU Card
-Intel HD Graphics 620
-Intel Iris Plus Graphics 650
-GeForce 20 series RTX2080
-Battery Life
-2 hours
-5 hours
-3 hours
-Screen Size
-17"
-15"
-13"
-Resolution
-HD (1366 x 768)
-4K UHD (3840 x 2160)
-Full HD (1920 x 1080)
-Avg. Customer Review
-2.5/5
-4.2/5
-3.0/5
+          Memory                  4GB DDR4 RAM                  8GB DDR3 RAM                  8GB DDR4 RAM
 
+         Storage                   256GB SSD                      256GB SSD               256GB SSD + 256GB HDD
 
-Example of a participant’s view – 5 options:
+         GPU Type                  Integrated                Dedicated (NVIDIA)            Dedicated (NVIDIA)
 
+         GPU Card         Intel Iris Plus Graphics 650    GeForce 9 series GTX 950      GeForce 9 series GTX 980
 
-## Appendix E: Additional Details About The Sequential Search Procedure
+       Battery Life                 2 hours                        2 hours                       2 hours
+
+       Screen Size                    13\"                          13\"                          14\"
+
+        Resolution           Full HD (1920 x 1080)          Full HD (1920 x 1080)         Full HD (1920 x 1080)
+
+   Avg. Customer Review              3.0/5                          3.2/5                         3.5/5
+  -----------------------------------------------------------------------------------------------------------------
+
+  ------------------------------------------------------------------------------------------------------------------
+          Laptop                    **YMM**                        **XPT**                        **XPX**
+  ---------------------- ------------------------------ ------------------------------ -----------------------------
+        Processor         8th Gen Intel Core i9-8950HK   9th Gen Intel Core i3-9350KF   9th Gen Intel Core i5-9600K
+
+          Memory                 12GB DDR3 RAM                  12GB DDR4 RAM                  16GB DDR3 RAM
+
+         Storage                   512GB SSD                      512GB SSD                512GB SSD + 512GB HDD
+
+         GPU Type              Dedicated (NVIDIA)             Dedicated (NVIDIA)            Dedicated (NVIDIA)
+
+         GPU Card          GeForce 10 series GTX 1050     GeForce 16 series GTX 1660    GeForce 16 series GTX 1660
+
+       Battery Life                 3 hours                        3 hours                        4 hours
+
+       Screen Size                    14\"                           14\"                          15\"
+
+        Resolution           Full HD (1920 x 1080)          Full HD (1920 x 1080)          Full HD (1920 x 1080)
+
+   Avg. Customer Review              3.5/5                          3.8/5                          3.8/5
+  ------------------------------------------------------------------------------------------------------------------
+
+  ------------------------------------------------------------------------------------------------------------------
+          Laptop                    **YZP**                       **NPP**                        **UXT**
+  ---------------------- ----------------------------- ----------------------------- -------------------------------
+        Processor         9th Gen Intel Core i7-9700K   9th Gen Intel Core i9-9900K   10th Gen Intel Core i3-10110U
+
+          Memory                 16GB DDR4 RAM                 24GB DDR3 RAM                  24GB DDR4 RAM
+
+         Storage                    1TB SSD                       1TB SSD                   1TB SSD + 1TB HDD
+
+         GPU Type             Dedicated (NVIDIA)            Dedicated (NVIDIA)             Dedicated (NVIDIA)
+
+         GPU Card         GeForce 20 series RTX 2060    GeForce 20 series RTX 2060S    GeForce 20 series RTX 2070
+
+       Battery Life                 5 hours                       6 hours                        7 hours
+
+       Screen Size                   15\"                          15\"                           15\"
+
+        Resolution           Full HD (1920 x 1080)         4K UHD (3840 x 2160)           4K UHD (3840 x 2160)
+
+   Avg. Customer Review              4.0/5                         4.0/5                          4.2/5
+  ------------------------------------------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------------------------------------------------
+          Laptop                     **MPE**                         **UZS**                         **MPX**
+  ---------------------- ------------------------------- ------------------------------- -------------------------------
+        Processor         10th Gen Intel Core i5-10210U   10th Gen Intel Core i7-10710U   10th Gen Intel Core i9-10900K
+
+          Memory                  32GB DDR3 RAM                   32GB DDR4 RAM                   64GB DDR4 RAM
+
+         Storage                     2TB SSD                         2TB SSD                    2TB SSD + 2TB HDD
+
+         GPU Type              Dedicated (NVIDIA)              Dedicated (NVIDIA)              Dedicated (NVIDIA)
+
+         GPU Card          GeForce 20 series RTX 2070S     GeForce 20 series RTX 2080      GeForce 20 series RTX 2080S
+
+       Battery Life                  8 hours                         9 hours                        10 hours
+
+       Screen Size                    17\"                            17\"                            17\"
+
+        Resolution            4K UHD (3840 x 2160)            4K UHD (3840 x 2160)            4K UHD (3840 x 2160)
+
+   Avg. Customer Review               4.5/5                           4.8/5                           4.8/5
+  ----------------------------------------------------------------------------------------------------------------------
+
+Example of a participant's view -- 6 options:
+
+![](media/image61.png){width="6.215683508311461in" height="3.2924529746281714in"}
+
+**\**
+
+## Experiment 6: Laptop Options (Difficult Condition)
+
+  -----------------------------------------------------------------------------------------------------------------
+          Laptop                    **UTZ**                        **MPS**                       **YZZ**
+  ---------------------- ------------------------------ ----------------------------- -----------------------------
+        Processor         8th Gen Intel Core i9-8950HK   9th Gen Intel Core i7-9700K   7th Gen Intel Core i3-7350K
+
+          Memory                  4GB DDR3 RAM                  8GB DDR4 RAM                  12GB DDR4 RAM
+
+         Storage                   512GB SSD                      128GB SSD                      2TB SSD
+
+         GPU Type                  Integrated                Dedicated (NVIDIA)                Integrated
+
+         GPU Card            Intel HD Graphics 400        GeForce 20 series RTX2070       Intel HD Graphics 500
+
+       Battery Life                 8 hours                       1.5 hours                      2 hours
+
+       Screen Size                    14\"                          15\"                          13\"
+
+        Resolution           Full HD (1920 x 1080)          4K UHD (3840 x 2160)          Full HD (1920 x 1080)
+
+   Avg. Customer Review              4.8/5                          4.0/5                         4.8/5
+  -----------------------------------------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------------------------------------------
+          Laptop                    **NPS**                       **MGS**                       **HPE**
+  ---------------------- ----------------------------- ----------------------------- -----------------------------
+        Processor         9th Gen Intel Core i5-9600K   8th Gen Intel Core i3-8350K   7th Gen Intel Core i5-7600K
+
+          Memory                 2GB DDR3 RAM                  12GB DDR3 RAM                 2GB DDR4 RAM
+
+         Storage             128GB SSD + 128GB HDD               128GB SSD                 1TB SSD + 1TB HDD
+
+         GPU Type             Dedicated (NVIDIA)            Dedicated (NVIDIA)            Dedicated (NVIDIA)
+
+         GPU Card          GeForce 9 series GTX 980     GeForce 16 series GTX 1660    GeForce 20 series RTX2070S
+
+       Battery Life                 9 hours                       2 hours                      10 hours
+
+       Screen Size                   12\"                          17\"                          14\"
+
+        Resolution           Full HD (1920 x 1080)         Full HD (1920 x 1080)         4K UHD (3840 x 2160)
+
+   Avg. Customer Review              3.2/5                         3.8/5                         4.0/5
+  ----------------------------------------------------------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------------------------
+          Laptop                     **YMM**                         **XPT**                        **XPX**
+  ---------------------- ------------------------------- ------------------------------- -----------------------------
+        Processor         10th Gen Intel Core i9-10900K   10th Gen Intel Core i7-10710U   8th Gen Intel Core i5-8600K
+
+          Memory                  24GB DDR3 RAM                   16GB DDR3 RAM                  16GB DDR4 RAM
+
+         Storage                    256GB SSD                 256GB SSD + 256GB HDD                512GB SSD
+
+         GPU Type              Dedicated (NVIDIA)              Dedicated (NVIDIA)             Dedicated (NVIDIA)
+
+         GPU Card           GeForce 20 series RTX2060       GeForce 9 series GTX 950      GeForce 20 series RTX2080S
+
+       Battery Life                 1.5 hours                        4 hours                        6 hours
+
+       Screen Size                    12\"                            17\"                           14\"
+
+        Resolution            Full HD (1920 x 1080)              HD (1366 x 768)             4K UHD (3840 x 2160)
+
+   Avg. Customer Review               2.0/5                           4.5/5                          2.2/5
+  --------------------------------------------------------------------------------------------------------------------
+
+  ---------------------------------------------------------------------------------------------------------------------
+          Laptop                     **YZP**                        **NPP**                         **UXT**
+  ---------------------- ------------------------------- ------------------------------ -------------------------------
+        Processor         9th Gen Intel Core i3-9350KF    7th Gen Intel Core i7-7700K    10th Gen Intel Core i3-10110U
+
+          Memory                  64GB DDR4 RAM                   4GB DDR4 RAM                   32GB DDR3 RAM
+
+         Storage                    256GB SSD                  2TB SSD + 2TB HDD                    1TB SSD
+
+         GPU Type              Dedicated (NVIDIA)              Dedicated (NVIDIA)             Dedicated (NVIDIA)
+
+         GPU Card          GeForce 20 series RTX2060S      GeForce 10 series GTX 1050     GeForce 16 series GTX 1660
+
+       Battery Life                  3 hours                        7 hours                        1.5 hours
+
+       Screen Size                    13\"                            15\"                           15\"
+
+        Resolution            4K UHD (3840 x 2160)           Full HD (1920 x 1080)           Full HD (1920 x 1080)
+
+   Avg. Customer Review               3.8/5                          3.5/5                           3.5/5
+
+          Laptop                     **MPE**                        **UZS**                         **MPX**
+
+        Processor         10th Gen Intel Core i5-10210U   8th Gen Intel Core i7-8700K     9th Gen Intel Core i9-9900K
+
+          Memory                  24GB DDR4 RAM                  32GB DDR4 RAM                   8GB DDR3 RAM
+
+         Storage                     1TB SSD                 512GB SSD + 512GB HDD                  2TB SSD
+
+         GPU Type                  Integrated                      Integrated                 Dedicated (NVIDIA)
+
+         GPU Card             Intel HD Graphics 620       Intel Iris Plus Graphics 650     GeForce 20 series RTX2080
+
+       Battery Life                  2 hours                        5 hours                         3 hours
+
+       Screen Size                    17\"                            15\"                           13\"
+
+        Resolution               HD (1366 x 768)              4K UHD (3840 x 2160)           Full HD (1920 x 1080)
+
+   Avg. Customer Review               2.5/5                          4.2/5                           3.0/5
+  ---------------------------------------------------------------------------------------------------------------------
+
+Example of a participant's view -- 5 options:
+
+![](media/image62.png){width="6.5in" height="3.188888888888889in"}
+
+**\**
+
+# APPENDIX E: ADDITIONAL DETAILS ABOUT THE SEQUENTIAL SEARCH PROCEDURE
 
 As we mentioned in the text and in the methodological appendix A, the choice tasks started with two options (randomly drawn from the pool of options). Participants saw these two options and a third box providing an opportunity to see an additional option. The complete pool of options for all categories we used are available in the methodological detail appendix D. In addition to exemplifying the procedure (in order to provide a better sense of what participants saw), we will provide instructions on programming the sequential search paradigm on Qualtrics.
-The figure below shows the first stage of a sequential search task in which the following two options were randomly drawn: “The Westin New York” and “Fiji Hideaway Resort & Spa”.
+
+The figure below shows the first stage of a sequential search task in which the following two options were randomly drawn: "The Westin New York" and "Fiji Hideaway Resort & Spa".
+
+![](media/image63.png){width="6.5in" height="4.430555555555555in"}
 
 At this point, the participant can either choose one of the options or look at another option before deciding. Notice that there are two questions on the page: one with the two options and another with the option to look at another option. In addition, although there are two options, there are three columns.
-On the Qualtrics end, the first step to be done on the first page of the vacation packages sequential search task is programmed by creating a multiple-choice question with 15 choices, multiple answer type (more on this below), in column position, and with 3 columns (assuming one wants 3 columns). All options (recall that there are 15 vacation packages) should be included in the question. To program the random draw of two options, use the “advanced randomization” feature, and randomly insert 2 options from the entire list of options.
 
-The second step is to create the “Look at another option before deciding” question, which should be also a multiple-answer question type. If the participant chooses one of the options, he/she needs to click the arrow button to be directed to the end of the block. This is programmed using the Skip Logic feature on Qualtrics. Below is one example of how the Skip Logic should be programmed. This question should be placed right after the choice set question.
+On the Qualtrics end, the first step to be done on the first page of the vacation packages sequential search task is programmed by creating a multiple-choice question with 15 choices, multiple answer type (more on this below), in column position, and with 3 columns (assuming one wants 3 columns). All options (recall that there are 15 vacation packages) should be included in the question. To program the random draw of two options, use the "advanced randomization" feature, and randomly insert 2 options from the entire list of options.
 
-If the participant decides to look at another option, he/she needs to click the arrow button to proceed to the second page of the sequential search task. This procedure cannot have the “Force Response” feature activated because participants should be able to either choose one of the options or to look at another option before deciding. If “force response” is active in either of the Qualtrics questions (the choice set or the look at another option), the participant will not be able to properly engage in a sequential search. However, not having the “Force Response” option leaves open the possibility of participants mis clicking the arrow button having selected neither any option, nor the option to look at another option.
-In addition, because there are two different questions (the choice set and the look at another option questions), there is the possibility that some participants will select one of the options, but instead of clicking the arrow button, they will click “look at another option” without unselecting their chosen options, making it ambiguous for the researcher whether he or she really chose an option or wanted to see an additional option. Finally, the choice set option should be multiple answer (and not single answer) because once a participant chooses an option in a single answer setting, she/he cannot “unselect” the option – the participant can only change the option, but if he/she decides not to choose anything (and look for another option), he/she is not able to do it. This issue does not occur with multiple answer questions. However, this opens up the possibility that participants could choose two options instead of one.
-As it can be noted, there are several minor issues that must be accounted for when a sequential search task is programmed on Qualtrics. To avoid all such problems, and provide participants with a proper sequential search task (i.e., to ensure participants will either choose one of the options or decide to look at an additional option), two sets of custom validations should be programmed in both of the questions: two in the choice set option and two in the “look at another option” option. They are equivalent, but both should be programmed. The logic is as follows: validation will pass only if (a) only one of the options is selected [selected count = 1] and “look at another option” is not selected, or (b) none of the options are selected and “look at another option” is selected. This custom validation should be equally applied both to the choice set question and the look at another option question.
-In the figure below, we exemplify how this validation should be applied. The “Q1_Vac” is the variable name for our first choice set question, and “V1” is the variable name for the “look at another option” question.
+![](media/image64.png){width="6.495833333333334in" height="3.5479166666666666in"}
 
+The second step is to create the "Look at another option before deciding" question, which should be also a multiple-answer question type. If the participant chooses one of the options, he/she needs to click the arrow button to be directed to the end of the block. This is programmed using the Skip Logic feature on Qualtrics. Below is one example of how the Skip Logic should be programmed. This question should be placed right after the choice set question.
+
+![](media/image65.png){width="5.417390638670166in" height="1.6825164041994751in"}
+
+If the participant decides to look at another option, he/she needs to click the arrow button to proceed to the second page of the sequential search task. This procedure cannot have the "Force Response" feature activated because participants should be able to either choose one of the options or to look at another option before deciding. If "force response" is active in either of the Qualtrics questions (the choice set or the look at another option), the participant will not be able to properly engage in a sequential search. However, not having the "Force Response" option leaves open the possibility of participants mis clicking the arrow button having selected neither any option, nor the option to look at another option.
+
+In addition, because there are two different questions (the choice set and the look at another option questions), there is the possibility that some participants will select one of the options, but instead of clicking the arrow button, they will click "look at another option" without unselecting their chosen options, making it ambiguous for the researcher whether he or she really chose an option or wanted to see an additional option. Finally, the choice set option should be multiple answer (and not single answer) because once a participant chooses an option in a single answer setting, she/he cannot "unselect" the option -- the participant can only change the option, but if he/she decides not to choose anything (and look for another option), he/she is not able to do it. This issue does not occur with multiple answer questions. However, this opens up the possibility that participants could choose two options instead of one.
+
+As it can be noted, there are several minor issues that must be accounted for when a sequential search task is programmed on Qualtrics. To avoid all such problems, and provide participants with a proper sequential search task (i.e., to ensure participants will either choose one of the options or decide to look at an additional option), two sets of custom validations should be programmed in both of the questions: two in the choice set option and two in the "look at another option" option. They are equivalent, but both should be programmed. The logic is as follows: validation will pass only if (a) only one of the options is selected \[selected count = 1\] and "look at another option" is not selected, or (b) none of the options are selected and "look at another option" is selected. This custom validation should be equally applied both to the choice set question and the look at another option question.
+
+In the figure below, we exemplify how this validation should be applied. The "Q1_Vac" is the variable name for our first choice set question, and "V1" is the variable name for the "look at another option" question.
+
+![](media/image66.png){width="3.8243667979002627in" height="2.913043525809274in"}
 
 This entire process creates the first page of the sequential search setting. In a choice set with 15 options there should be 14 pages (2 options on the first page + 1 option per page in subsequent page), and each page should be programmed in relation to the previous one for the random drawing procedure to work properly. We will explain more about this below.
-If the participant in our example (who saw “The Westin New York” and “Fiji Hideaway Resort & Spa”) decides to terminate search and choose one of the options, he/she will be directed to the next block in the survey (the block where manipulation checks and mediators should be located). If the participant decides to look at another option, the following is one possibility of what occurs (there are several possibilities depending on which vacation package is randomly drawn):
 
-In this case, the “Beaches Turks & Caicos Resorts” was randomly drawn (without reposition) from the pool of options. That is: of the remaining 13 options (all vacation packages except for The Westin and Fiji Hideaway), one vacation package was randomly drawn. In addition to all specifications previously mentioned, there are several additional programming features that should be done for this to happen. Note that these are done on a separate page (after a page break), with two copies of the previous choice set and “look at another option” question.
-First, the advanced randomization should be adjusted to randomly insert 1 option from the list (instead of two). This makes the survey insert only one option instead of two from the choice set. Second, the to-be-inserted randomly drawn option will come from the choice set question on the second page and should NOT include the previously displayed options (“The Westin” and “Fiji Hideway”). This is programmed by altering the “Display Logic” of each of the options (not the question) to “display the choice option only if the option was not displayed”. For example:
+If the participant in our example (who saw "The Westin New York" and "Fiji Hideaway Resort & Spa") decides to terminate search and choose one of the options, he/she will be directed to the next block in the survey (the block where manipulation checks and mediators should be located). If the participant decides to look at another option, the following is one possibility of what occurs (there are several possibilities depending on which vacation package is randomly drawn):
+
+![](media/image67.png){width="6.026087051618548in" height="4.565627734033246in"}
+
+In this case, the "Beaches Turks & Caicos Resorts" was randomly drawn (without reposition) from the pool of options. That is: of the remaining 13 options (all vacation packages except for The Westin and Fiji Hideaway), one vacation package was randomly drawn. In addition to all specifications previously mentioned, there are several additional programming features that should be done for this to happen. Note that these are done on a separate page (after a page break), with two copies of the previous choice set and "look at another option" question.
+
+First, the advanced randomization should be adjusted to randomly insert 1 option from the list (instead of two). This makes the survey insert only one option instead of two from the choice set. Second, the to-be-inserted randomly drawn option will come from the choice set question on the second page and should NOT include the previously displayed options ("The Westin" and "Fiji Hideway"). This is programmed by altering the "Display Logic" of each of the options (not the question) to "display the choice option only if the option was not displayed". For example:
+
+![](media/image68.png){width="6.495833333333334in" height="1.6958333333333333in"}
 
 This display logic, when set in the page 2 choice set question, does the following: if Fiji Hideaway was displayed at page 1, then it should not be displayed as a random draw on page two. This prevents duplication of choice alternatives. This should be applied to every single option in the choice set: if the choice option appeared on the previous page, then it should not be displayed as a random draw on the current page.
-Third, although we do not want the options to being duplicated, we want participants to be able to select the options that were displayed previously (i.e., we want to carry forward the displayed choices from page one to page two). To do this, the “carry forward choices” should be enabled in the choice set question (on page 2) such that the question will carry forward displayed choices from page 1.
+
+Third, although we do not want the options to being duplicated, we want participants to be able to select the options that were displayed previously (i.e., we want to carry forward the displayed choices from page one to page two). To do this, the "carry forward choices" should be enabled in the choice set question (on page 2) such that the question will carry forward displayed choices from page 1.
+
+![](media/image69.png){width="6.495833333333334in" height="0.48680555555555555in"}
 
 These additional programming steps do the following: while maintaining the previously displayed two options, it randomly draws an additional option from the remaining options in the choice set (i.e., the options that were not already displayed).
-Again, if the participant chooses one of the options, he/she is directed to the end of the block. If the participant decides to look at another option, the following page is displayed (in addition to the “look at another option” and arrow buttons:
+
+Again, if the participant chooses one of the options, he/she is directed to the end of the block. If the participant decides to look at another option, the following page is displayed (in addition to the "look at another option" and arrow buttons:
+
+![](media/image70.png){width="4.260869422572179in" height="3.7759601924759405in"}
 
 As discussed in the methodological detail appendix A, the order of the options that are displayed is in a column-major order array representation. The new (i.e., the recently randomly drawn options) are always the options that appear first. The third page (i.e., the page with four options) requires an extension of the programming that was done on the second page. Again, the choice set question should randomly insert one option out of the remaining options. Each of the options should have an additional layer of display logic such that each option can be displayed only if the option has not appeared both in pages one and two. Thus, for each of the options, the following display logic should be configured:
 
-In addition, the choice set question on page 3 should carry forward choices displayed on page two. Setting up carry forward choices will bring both the two initial options from page 1 and the third option that appeared on page 2. Below is an example of a 5th page (6 options) from the participant’s perspective.
+![](media/image71.png){width="5.8956517935258095in" height="1.7453904199475065in"}
+
+In addition, the choice set question on page 3 should carry forward choices displayed on page two. Setting up carry forward choices will bring both the two initial options from page 1 and the third option that appeared on page 2. Below is an example of a 5th page (6 options) from the participant's perspective.
+
+![](media/image72.png){width="5.572916666666667in" height="5.34375in"}
 
 This requires the following display logic (for each of the options):
 
-This goes on recursively, until page 14th. On page 14th, there is no “look at another option” variable. Rather, there is a “please select one of the options above” text. On this page, each of the options has a display logic that makes an option be able to be randomly selected only if this option has not appeared in any of the previously displayed pages.
-When there are several options being displayed, the options do not show simultaneously on the screen. Such as e-commerce websites, the participant should scroll down (and up) to keep checking the pages. Hence, the larger the monitor/screen resolution, the more options the participant is able to see. We note that it is relatively easy for participants to change the zoom level while using internet browsers (e.g., Google chrome users can press Ctrl and use “+” or “-“ to increase or decrease the page magnification).
+![](media/image73.png){width="6.5in" height="2.4166666666666665in"}
+
+This goes on recursively, until page 14th. On page 14th, there is no "look at another option" variable. Rather, there is a "please select one of the options above" text. On this page, each of the options has a display logic that makes an option be able to be randomly selected only if this option has not appeared in any of the previously displayed pages.
+
+When there are several options being displayed, the options do not show simultaneously on the screen. Such as e-commerce websites, the participant should scroll down (and up) to keep checking the pages. Hence, the larger the monitor/screen resolution, the more options the participant is able to see. We note that it is relatively easy for participants to change the zoom level while using internet browsers (e.g., Google chrome users can press Ctrl and use "+" or "-" to increase or decrease the page magnification).
+
 Finally, one may wonder how to process the data that is generated by Qualtrics to analyze the number of options considered, the choice of best option considered (which requires a ranking), the use of a satisficing (choice of the best option considered), the selected option, and the time spent per alternative. We will exemplify how to process the data using the vacation packages example (i.e., 15 options), but these methods can be extrapolated to any number of options (assuming one makes the necessary adjustments).
-First, a timer question should be added on each page (e.g., right before the choice set questions). Next, it is important that the choice set, “look at another option”, and time variables are named and listed in a specific way. We suggest, and illustrate, using the following:
-Choice set: named as “Qi_Vac”, with i being the number of the page. The first page (where 2 options are randomly drawn) should be Q1_Vac, the second page (with 3 options) should be Q3_Vac, and so on, until Q14_Vac (the page with 15 options). In addition, the values of each option should be recoded from 1 to 15. Hence, Fiji Hideaway would be 1, …, and Hilton San Diego Bayfront (the complete stimuli is available on this methodological detail appendix) would be 15.
-Look at another option: named as Vi, with i being the number of page. There will be 13 variables (there is no option to look at another option at page 14). Example: V1, V2, …, V13. The value should be “1” if selected and 0 otherwise.
-Time variables: similar logic to the “look at another option” one, but for all 14 pages, e.g., T1, …, T14.
-To process the number of options considered, sum V1 to V13, and then add two. The logic is: each time the participant clicks “look at another option”, an additional option is revealed. However, the decision making process starts with the evaluation/comparison of two options. On SPSS, the syntax code would be:
+
+First, a timer question should be added on each page (e.g., right before the choice set questions). Next, it is important that the choice set, "look at another option", and time variables are named and listed in a specific way. We suggest, and illustrate, using the following:
+
+Choice set: named as "Qi_Vac", with i being the number of the page. The first page (where 2 options are randomly drawn) should be Q1_Vac, the second page (with 3 options) should be Q3_Vac, and so on, until Q14_Vac (the page with 15 options). In addition, the values of each option should be recoded from 1 to 15. Hence, Fiji Hideaway would be 1, ..., and Hilton San Diego Bayfront (the complete stimuli is available on this methodological detail appendix) would be 15.
+
+Look at another option: named as Vi, with i being the number of page. There will be 13 variables (there is no option to look at another option at page 14). Example: V1, V2, ..., V13. The value should be "1" if selected and 0 otherwise.
+
+Time variables: similar logic to the "look at another option" one, but for all 14 pages, e.g., T1, ..., T14.
+
+To process the number of options considered, sum V1 to V13, and then add two. The logic is: each time the participant clicks "look at another option", an additional option is revealed. However, the decision making process starts with the evaluation/comparison of two options. On SPSS, the syntax code would be:
+
 COMPUTE DV=sum(V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,V12,V13)+2.
+
 EXECUTE.
+
 To process the time variables, sum from T1_Page_Submit to T14_Page_Submit. The code should be similar to the one used in the DV.
+
 To process the selected option, one should merge the answers from Q1_Vac to Q14_Vac. The syntax code is:
+
 DO IF DV = 2.
+
 COMPUTE SelectedVacation=Q1_Vac.
+
 ELSE IF DV=3.
+
 COMPUTE SelectedVacation=Q2_Vac.
+
 ELSE IF DV=4.
+
 COMPUTE SelectedVacation=Q3_Vac.
+
 ELSE IF DV=5.
+
 COMPUTE SelectedVacation=Q4_Vac.
+
 ELSE IF DV=6.
+
 COMPUTE SelectedVacation=Q5_Vac.
+
 ELSE IF DV=7.
+
 COMPUTE SelectedVacation=Q6_Vac.
+
 ELSE IF DV=8.
+
 COMPUTE SelectedVacation=Q7_Vac.
+
 ELSE IF DV=9.
+
 COMPUTE SelectedVacation=Q8_Vac.
+
 ELSE IF DV=10.
+
 COMPUTE SelectedVacation=Q9_Vac.
+
 ELSE IF DV=11.
+
 COMPUTE SelectedVacation=Q10_Vac.
+
 ELSE IF DV=12.
+
 COMPUTE SelectedVacation=Q11_Vac.
+
 ELSE IF DV=13.
+
 COMPUTE SelectedVacation=Q12_Vac.
+
 ELSE IF DV=14.
+
 COMPUTE SelectedVacation=Q13_Vac.
+
 ELSE IF DV=15.
+
 COMPUTE SelectedVacation=Q14_Vac.
+
 END IF.
-Then, the “SelectedVacation” should be transformed to account for options that were selected based on a carry forward choices. When choices are carried forward within Qualtrics, they are coded in a different way. If there are 15 choices on page 1 (and they are coded from 1 to 15), and these choices are carried over from page 1 to page 2, these choices will have values from 16 to 30 (because 1 to 15 will be the codes associated with the options that can be potentially drawn from the choice set on page 2). In a similar vein, page 3 will have choices from 1 to 15 (the potentially drawn ones), 16 to 30 (the ones carried forward from the previous page – page 2), and 31 to 45 (the ones carried forward from page one to page two to page three). This keeps recursively increasing, generating a total of 210 codes for 15 unique choices/vacation packages. Note that 210 is 15 codes times 14 pages. To reorganize these values (that will be found in the SelectedVacation variable), run a recode on SPSS as follows. Note: this code assumes the choices were coded from 1 to 15 from the beginning.
+
+Then, the "SelectedVacation" should be transformed to account for options that were selected based on a carry forward choices. When choices are carried forward within Qualtrics, they are coded in a different way. If there are 15 choices on page 1 (and they are coded from 1 to 15), and these choices are carried over from page 1 to page 2, these choices will have values from 16 to 30 (because 1 to 15 will be the codes associated with the options that can be potentially drawn from the choice set on page 2). In a similar vein, page 3 will have choices from 1 to 15 (the potentially drawn ones), 16 to 30 (the ones carried forward from the previous page -- page 2), and 31 to 45 (the ones carried forward from page one to page two to page three). This keeps recursively increasing, generating a total of 210 codes for 15 unique choices/vacation packages. Note that 210 is 15 codes times 14 pages. To reorganize these values (that will be found in the SelectedVacation variable), run a recode on SPSS as follows. Note: this code assumes the choices were coded from 1 to 15 from the beginning.
+
 RECODE SelectedVacation (16=1).
+
 RECODE SelectedVacation (17=2).
+
 RECODE SelectedVacation (18=3).
+
 RECODE SelectedVacation (19=4).
+
 RECODE SelectedVacation (20=5).
+
 RECODE SelectedVacation (21=6).
+
 RECODE SelectedVacation (22=7).
+
 RECODE SelectedVacation (23=8).
+
 RECODE SelectedVacation (24=9).
+
 RECODE SelectedVacation (25=10).
+
 RECODE SelectedVacation (26=11).
+
 RECODE SelectedVacation (27=12).
+
 RECODE SelectedVacation (28=13).
+
 RECODE SelectedVacation (29=14).
+
 RECODE SelectedVacation (30=15).
+
 RECODE SelectedVacation (31=1).
+
 RECODE SelectedVacation (32=2).
+
 RECODE SelectedVacation (33=3).
-… (we suggest using Microsoft Excel along with the concatenate function to easily expand this code. Please contact the first author for more information.)
+
+... (we suggest using Microsoft Excel along with the concatenate function to easily expand this code. Please contact the first author for more information.)
+
 RECODE SelectedVacation (208=13).
+
 RECODE SelectedVacation (209=14).
+
 RECODE SelectedVacation (210=15).
 
 Next, we also suggest applying the value labels:
+
 VALUE LABELS
+
 SelectedVacation
-1 'FijiHideaway'
-2 'MaunaLani'
-3 'HyattZilara'
-4 'SheratonBungavilias'
-5 'WaltDisney'
-6 'HotelPalazzo'
-7 'SAVOY'
-8 'BeachesTurks'
-9 'SheratonPuerto'
-10 'FlamingoLasVegas'
-11 'TheWestin'
-12 'BlueLagoon'
-13 'TheConfidante'
-14 'Mystique'
-15 'HiltonSanDiego'
-Finally, for the choice of last option considered (satisficing) and choice of best option, a variety of approaches are available. These measures require downloading the “Display Order Data” from Qualtrics. They generate a variety of “display order” variables that show which options the participant saw, as well as the order of these options, for each page. The choice of last option considered is assessed by comparing the selected option with the option that is displayed as first on the last page participants saw before making a choice. For instance, if the participant made a choice once reaching page 7 (8 options), then the choice of this participant would have to be compared with all the display order variables of page 7, and the researcher should assess whether the display order variable with the number 1 is equal to the selected option. The choice of best option is assessed by making additional comparisons and collecting post-choice rankings of the options. First, one should use a procedure assessing participants’ preferences in such a way that one could acquire a ranking (e.g., from 1 to 15) of all the vacation packages. Then, by checking the options the participant saw/considered (i.e., by looking at the display orders of the last page saw by the participant), one could make an additional ranking (out of the options participant saw). If the participant has chosen the option with the lowest ranking number (i.e., the most preferred one), then this participant has chosen the best option in his or her consideration set.
 
+1 \'FijiHideaway\'
 
-## Appendix F: Additional Methodological Details And Analyses For Experiment 1
+2 \'MaunaLani\'
+
+3 \'HyattZilara\'
+
+4 \'SheratonBungavilias\'
+
+5 \'WaltDisney\'
+
+6 \'HotelPalazzo\'
+
+7 \'SAVOY\'
+
+8 \'BeachesTurks\'
+
+9 \'SheratonPuerto\'
+
+10 \'FlamingoLasVegas\'
+
+11 \'TheWestin\'
+
+12 \'BlueLagoon\'
+
+13 \'TheConfidante\'
+
+14 \'Mystique\'
+
+15 \'HiltonSanDiego\'
+
+Finally, for the choice of last option considered (satisficing) and choice of best option, a variety of approaches are available. These measures require downloading the "Display Order Data" from Qualtrics. They generate a variety of "display order" variables that show which options the participant saw, as well as the order of these options, for each page. The choice of last option considered is assessed by comparing the selected option with the option that is displayed as first on the last page participants saw before making a choice. For instance, if the participant made a choice once reaching page 7 (8 options), then the choice of this participant would have to be compared with all the display order variables of page 7, and the researcher should assess whether the display order variable with the number 1 is equal to the selected option. The choice of best option is assessed by making additional comparisons and collecting post-choice rankings of the options. First, one should use a procedure assessing participants' preferences in such a way that one could acquire a ranking (e.g., from 1 to 15) of all the vacation packages. Then, by checking the options the participant saw/considered (i.e., by looking at the display orders of the last page saw by the participant), one could make an additional ranking (out of the options participant saw). If the participant has chosen the option with the lowest ranking number (i.e., the most preferred one), then this participant has chosen the best option in his or her consideration set.
+
+# APPENDIX F: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR EXPERIMENT 1 
 
 This methodological detail appendix contains information on the benefit goals pretest, manipulation checks for the decision process goals, choice shares, analyses of replicates and replicate positions, and decision time measures.
-Benefit Goals Pretests
+
+## Benefit Goals Pretests
+
 We conducted two pretests to select pairs of benefit goals that could be conflicting (and complementary) both for vacation packages and cars. This allowed us to use a common pair of benefit goals for two product categories in the same experiment. This pretest is relevant for experiments 1, 2, 3a, 3b, 4a, and 4b because they manipulate decision difficulty/ease using conflicting/complementary benefit goals.
-Benefit Goals Pretests – Vacation Packages. In the vacation packages pretest, which was conducted in two separate samples (n = 75 undergraduate students, n = 55 MTurk participants), we asked participants:
-Below are pairs of benefits people could look for when searching for a vacation package. We want to know how easy you think it would be to find both benefits in a vacation package. In other words, you should indicate how easy or hard it is to find a vacation package with both benefits at the same time. You will notice that some benefits are generally complementary (they can co-occur in several instances), whereas other benefits are generally conflicting (it is unlikely that they can co-occur).
 
-The pretested pairs of benefits were: “economical and prestigious,” “economical and fun,” “economical and relaxing,” “economical and safe,” “prestigious and fun,” “prestigious and relaxing,” and “prestigious and safe.” For each pair, the scale used was (1 = Few vacation packages have both benefits, 9 = Many vacation packages have both benefits). Lower scores represent benefits perceived as conflicting, whereas higher scores represent benefits perceived as complementary.
-In both samples, the “economical and prestigious” pair was perceived to be the most conflicting, whereas the “prestigious and fun” pair was perceived to be the most complementary. First, “economical and prestigious” had the lowest mean when compared to the other pairs. Second, t-tests found that the “economical and prestigious” score was significantly lower than all the other measured pair of benefits’ scores. The opposite pattern emerged with respect to the “prestigious and fun” pair. First, “prestigious and fun” had the highest mean when compared to the other pairs. Second, t-tests found that the “prestigious and fun” score was significantly higher than all the other measured pair of benefits’ scores.
-**Table MDA-F 1**
-presents the pretest results for the undergraduate student sample, whereas table MDA-F 2 presents the pretest results for the MTurk sample. Along with the means and standard deviations, the tables compare “economical and prestigious” with all the other pairs (4th column), and “prestigious and fun” with all the other pairs (5th column). In summary, this pretest shows that “prestige” and “economical” (“thrift” in main manuscript) are conflicting goals when people are searching for vacation packages, whereas “prestige” and “fun” are complementary goals.
+[]{#_Toc40265033 .anchor}**Benefit Goals Pretests --** **Vacation Packages.** In the vacation packages pretest, which was conducted in two separate samples (n = 75 undergraduate students, n = 55 MTurk participants), we asked participants:
 
-**Table MDA-F 1**
-(METHODOLOGICAL DETAIL APPENDIX F 1)
+> *Below are pairs of benefits people could look for when searching for a vacation package. We want to know how easy you think it would be to find both benefits in a vacation package. In other words, you should indicate how easy or hard it is to find a vacation package with both benefits at the same time. You will notice that some benefits are generally complementary (they can co-occur in several instances), whereas other benefits are generally conflicting (it is unlikely that they can co-occur).*
 
-EXPERIMENTS 1 AND 2 – VACATION PACKAGES BENEFIT GOALS PRETEST UNDERGRADUATE STUDENT SAMPLE (n = 75)
-Benefit Pair
-Mean
-SD
-Comparison (Economical and Prestige vs. Others)
-Comparison (Prestige and Fun vs. Others)
-Economical and Prestigious
-3.28
-2.85
--
-t(74) = 7.75, p < .001
-Economical and Safe
-4.63
-2.50
-t(74) = -2.90, p = .005
-t(74) = 5.27, p < .001
-Prestigious and Safe
-4.77
-2.49
-t(74) = -3.40, p = .001
-t(74) = 5.41, p < .001
-Economical and Fun
-4.87
-2.16
-t(74) = -4.15, p < .001
-t(74) = 5.31, p < .001
-Economical and Relaxing
-5.05
-2.51
-t(74) = -3.98, p < .001
-t(74) = 4.85, p < .001
-Prestigious and Relaxing
-5.35
-2.18
-t(74) = -4.73, p < .001
-t(74) = 4.06, p < .001
-Prestigious and Fun
-6.96
-2.43
-t(74) = -7.75, p < .001
--
+The pretested pairs of benefits were: "economical and prestigious," "economical and fun," "economical and relaxing," "economical and safe," "prestigious and fun," "prestigious and relaxing," and "prestigious and safe." For each pair, the scale used was (1 = Few vacation packages have both benefits, 9 = Many vacation packages have both benefits). Lower scores represent benefits perceived as conflicting, whereas higher scores represent benefits perceived as complementary.
 
-**Table MDA-F 2**
-(METHODOLOGICAL DETAIL APPENDIX F 2)
+In both samples, the "economical and prestigious" pair was perceived to be the most conflicting, whereas the "prestigious and fun" pair was perceived to be the most complementary. First, "economical and prestigious" had the lowest mean when compared to the other pairs. Second, t-tests found that the "economical and prestigious" score was significantly lower than all the other measured pair of benefits' scores. The opposite pattern emerged with respect to the "prestigious and fun" pair. First, "prestigious and fun" had the highest mean when compared to the other pairs. Second, t-tests found that the "prestigious and fun" score was significantly higher than all the other measured pair of benefits' scores.
 
-EX EXPERIMENTS 1 AND 2 – VACATION PACKAGES BENEFIT GOALS PRETEST MTURK SAMPLE (n = 55)
-Benefit Pair
-Mean
-SD
-Comparison (Economical and Prestige vs. Others)
-Comparison (Prestige and Fun vs. Others)
-Economical and Prestigious
-4.18
-2.45
--
-t(54) = 7.48, p < .001
-Economical and Relaxing
-5.82
-2.06
-t(54) = -4.00, p < .001
-t(54) = 5.05, p < .001
-Economical and Fun
-5.84
-2.18
-t(54) = -4.14, p < .001
-t(54) = 4.60, p < .001
-Prestigious and Safe
-6.16
-2.36
-t(54) = -4.99, p < .001
-t(54) = 3.48, p < .001
-Economical and Safe
-6.24
-2.04
-t(54) = -4.76, p < .001
-t(54) = 4.00, p < .001
-Prestigious and Relaxing
-6.31
-2.37
-t(54) = -4.79, p < .001
-t(54) = 3.18, p < .001
-Prestigious and Fun
-7.33
-1.53
-t(54) = -7.48, p < .001
--
+Table MDA-F 1 presents the pretest results for the undergraduate student sample, whereas table MDA-F 2 presents the pretest results for the MTurk sample. Along with the means and standard deviations, the tables compare "economical and prestigious" with all the other pairs (4th column), and "prestigious and fun" with all the other pairs (5th column). In summary, this pretest shows that "prestige" and "economical" ("thrift" in main manuscript) are conflicting goals when people are searching for vacation packages, whereas "prestige" and "fun" are complementary goals.
 
-Benefit Goals Pretests – Cars. In the cars pretest, conducted in two separate samples (n = 75 undergraduate students, n = 55 MTurk participants), we asked participants:
-Below are pairs of benefits people could look for when searching for a car. We want to know how easy you think it would be to find both benefits in a car. In other words, you should indicate how easy or hard it is to find a car with both benefits at the same time. You will notice that some benefits are generally complementary (they can co-occur in several instances), whereas other benefits are generally conflicting (it is unlikely that they can co-occur).
+TABLE MDA-F 1 (METHODOLOGICAL DETAIL APPENDIX F 1)
 
-The pretested pairs of benefits were the same pairs used in the vacation packages pretest: “economical and prestigious,” “economical and fun,” “economical and relaxing,” “economical and safe,” “prestigious and fun,” “prestigious and relaxing,” and “prestigious and safe.” For each pair, the scale used was (1 = Few cars have both benefits, 9 = Many cars have both benefits). Lower scores represent benefits perceived as conflicting, whereas higher scores represent benefits perceived as complementary.
-As in the vacation packages pretest, the “economical and prestigious” pair was perceived to be the most conflicting, whereas the “prestigious and fun” pair was perceived to be the most complementary. These results were consistent across both undergraduate student and MTurk samples. Therefore, we chose “prestige” and “economical” (“thrift” in main manuscript) as conflicting benefit goals for both vacation packages and cars. Moreover, “prestige” and “fun” were chosen as complementary goals for both product replicates. Tables MDA-F 3 and MDA-F 4 present results that are parallel to the vacation packages pretest.
-**Table MDA-F 3**
-(METHODOLOGICAL DETAIL APPENDIX F 3)
+EXPERIMENTS 1 AND 2 -- VACATION PACKAGES BENEFIT GOALS PRETEST UNDERGRADUATE STUDENT SAMPLE (n = 75)
 
-EXPERIMENTS 1 AND 2 – CARS BENEFIT GOALS PRETEST UNDERGRADUATE STUDENT SAMPLE (n = 75)
-Benefit Pair
-Mean
-SD
-Comparison (Economical and Prestige vs. Others)
-Comparison (Prestige and Fun vs. Others)
-Economical and prestigious
-3.37
-2.78
--
-t(74) = 8.72, p < .001
-Prestigious and safe
-4.79
-2.43
-t(74) = -3.52, p = .001
-t(74) = 6.09, p < .001
-Prestigious and relaxing
-5.03
-2.42
-t(74) = -3.95, p < .001
-t(74) = 5.26, p < .001
-Economical and safe
-5.03
-2.53
-t(74) = -3.65, p < .001
-t(74) = 5.26, p < .001
-Economical and fun
-5.08
-2.38
-t(74) = -4.10, p < .001
-t(74) = 5.55, p < .001
-Economical and relaxing
-6.03
-2.69
-t(74) = -6.49, p < .001
-t(74) = 2.99, p = .004
-Prestigious and fun
-7.25
-2.33
-t(74) = -8.72, p < .001
--
++:--------------------------:+:----------:+:--------:+:-----------------------------------------------------:+:----------------------------------------------:+
+| **Benefit Pair**           | > **Mean** | > **SD** | > **Comparison (Economical and Prestige vs. Others)** | > **Comparison (Prestige and Fun vs. Others)** |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Prestigious | 3.28       | 2.85     | > \-                                                  | > *t*(74) = 7.75, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Safe        | 4.63       | 2.50     | > *t*(74) = -2.90, *p* = .005                         | > *t*(74) = 5.27, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and Safe       | 4.77       | 2.49     | > *t*(74) = -3.40, *p* = .001                         | > *t*(74) = 5.41, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Fun         | 4.87       | 2.16     | > *t*(74) = -4.15, *p* \< .001                        | > *t*(74) = 5.31, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Relaxing    | 5.05       | 2.51     | > *t*(74) = -3.98, *p* \< .001                        | > *t*(74) = 4.85, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and Relaxing   | 5.35       | 2.18     | > *t*(74) = -4.73, *p* \< .001                        | > *t*(74) = 4.06, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and Fun        | 6.96       | 2.43     | > *t*(74) = -7.75, *p* \< .001                        | > \-                                           |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
 
-**Table MDA-F 4**
-(METHODOLOGICAL DETAIL APPENDIX F 4)
+TABLE MDA-F 2 (METHODOLOGICAL DETAIL APPENDIX F 2)
 
-EXPERIMENTS 1 AND 2 – CARS BENEFIT GOALS PRETEST
+EX EXPERIMENTS 1 AND 2 -- VACATION PACKAGES BENEFIT GOALS PRETEST MTURK SAMPLE (n = 55)
+
++:--------------------------:+:----------:+:--------:+:-----------------------------------------------------:+:----------------------------------------------:+
+| **Benefit Pair**           | > **Mean** | > **SD** | > **Comparison (Economical and Prestige vs. Others)** | > **Comparison (Prestige and Fun vs. Others)** |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Prestigious | 4.18       | 2.45     | > \-                                                  | > *t*(54) = 7.48, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Relaxing    | 5.82       | 2.06     | > *t*(54) = -4.00, *p* \< .001                        | > *t*(54) = 5.05, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Fun         | 5.84       | 2.18     | > *t*(54) = -4.14, *p* \< .001                        | > *t*(54) = 4.60, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and Safe       | 6.16       | 2.36     | > *t*(54) = -4.99, *p* \< .001                        | > *t*(54) = 3.48, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and Safe        | 6.24       | 2.04     | > *t*(54) = -4.76, *p* \< .001                        | > *t*(54) = 4.00, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and Relaxing   | 6.31       | 2.37     | > *t*(54) = -4.79, *p* \< .001                        | > *t*(54) = 3.18, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and Fun        | 7.33       | 1.53     | > *t*(54) = -7.48, *p* \< .001                        | > \-                                           |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+
+[]{#_Toc40103410 .anchor}**Benefit Goals Pretests -- Cars.** In the cars pretest, conducted in two separate samples (n = 75 undergraduate students, n = 55 MTurk participants), we asked participants:
+
+> *Below are pairs of benefits people could look for when searching for a car. We want to know how easy you think it would be to find both benefits in a car. In other words, you should indicate how easy or hard it is to find a car with both benefits at the same time. You will notice that some benefits are generally complementary (they can co-occur in several instances), whereas other benefits are generally conflicting (it is unlikely that they can co-occur).*
+
+The pretested pairs of benefits were the same pairs used in the vacation packages pretest: "economical and prestigious," "economical and fun," "economical and relaxing," "economical and safe," "prestigious and fun," "prestigious and relaxing," and "prestigious and safe." For each pair, the scale used was (1 = Few cars have both benefits, 9 = Many cars have both benefits). Lower scores represent benefits perceived as conflicting, whereas higher scores represent benefits perceived as complementary.
+
+As in the vacation packages pretest, the "economical and prestigious" pair was perceived to be the most conflicting, whereas the "prestigious and fun" pair was perceived to be the most complementary. These results were consistent across both undergraduate student and MTurk samples. Therefore, we chose "prestige" and "economical" ("thrift" in main manuscript) as conflicting benefit goals for both vacation packages and cars. Moreover, "prestige" and "fun" were chosen as complementary goals for both product replicates. Tables MDA-F 3 and MDA-F 4 present results that are parallel to the vacation packages pretest.
+
+TABLE MDA-F 3 (METHODOLOGICAL DETAIL APPENDIX F 3)
+
+EXPERIMENTS 1 AND 2 -- CARS BENEFIT GOALS PRETEST UNDERGRADUATE STUDENT SAMPLE (n = 75)
+
++:--------------------------:+:----------:+:--------:+:-----------------------------------------------------:+:----------------------------------------------:+
+| **Benefit Pair**           | > **Mean** | > **SD** | > **Comparison (Economical and Prestige vs. Others)** | > **Comparison (Prestige and Fun vs. Others)** |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and prestigious | 3.37       | 2.78     | > \-                                                  | > *t*(74) = 8.72, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and safe       | 4.79       | 2.43     | > *t*(74) = -3.52, *p* = .001                         | > *t*(74) = 6.09, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and relaxing   | 5.03       | 2.42     | > *t*(74) = -3.95, *p* \< .001                        | > *t*(74) = 5.26, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and safe        | 5.03       | 2.53     | > *t*(74) = -3.65, *p* \< .001                        | > *t*(74) = 5.26, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and fun         | 5.08       | 2.38     | > *t*(74) = -4.10, *p* \< .001                        | > *t*(74) = 5.55, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and relaxing    | 6.03       | 2.69     | > *t*(74) = -6.49, *p* \< .001                        | > *t*(74) = 2.99, *p* = .004                   |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and fun        | 7.25       | 2.33     | > *t*(74) = -8.72, *p* \< .001                        | > \-                                           |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+
+TABLE MDA-F 4 (METHODOLOGICAL DETAIL APPENDIX F 4)
+
+EXPERIMENTS 1 AND 2 -- CARS BENEFIT GOALS PRETEST
+
 MTURK SAMPLE (n = 55)
-Benefit Pair
-Mean
-SD
-Comparison (Economical and Prestige vs. Others)
-Comparison (Prestige and Fun vs. Others)
-Economical and prestigious
-3.65
-2.43
--
-t(54) = 8.49, p < .001
-Economical and relaxing
-5.64
-2.07
-t(54) = -5.12, p < .001
-t(54) = 3.25, p = .002
-Economical and fun
-5.73
-2.56
-t(54) = -5.47, p < .001
-t(54) = 2.44, p = .018
-Prestigious and safe
-5.78
-2.39
-t(54) = -4.39, p < .001
-t(54) = 3.30, p = .002
-Economical and safe
-5.96
-2.30
-t(54) = -4.33, p < .001
-t(54) = 2.83, p = .007
-Prestigious and relaxing
-5.98
-2.23
-t(54) = -5.09, p < .001
-t(54) = 2.81, p = .007
-Prestigious and fun
-6.91
-1.76
-t(54) = -8.49, p < .001
--
 
-Manipulation Check
-Decision Process Goals. We measured the focus on maximizing accuracy (“During the [product category] choice task, how focused were you in being as accurate as possible in your choice?” 1 = not at all focused, 9 = very focused) and focus on minimizing effort (“During the [product category] choice task, how focused were you in putting in as less effort as possible in your choice?” 1 = not at all focused, 9 = very focused). We averaged the focus on maximizing accuracy (α = .87) and minimizing effort (α = .88) scores across replicates.
-As expected, participants in the maximize accuracy condition were more focused on being accurate than participants in the minimize effort condition (Maccuracy = 7.43, SDaccuracy = 1.63; Meffort = 5.90, SDeffort = 2.40; F(1, 196) = 27.12, p < .001, ω̂²_p = .12). There was no decision process goal by decision difficulty interaction (F(1, 196) = 1.57, p = .21). Also as expected, participants in the minimize effort condition were more focused on limiting effort than participants in the maximize accuracy condition (Maccuracy = 2.86, SDaccuracy = 1.91; Meffort = 5.17, SDeffort = 2.35; F(1, 196) = 59.21, p < .001, ω̂²_p = .23). There was no decision process goal by decision difficulty interaction (F(1, 196) = 3.22, p = .074).
-Decision Difficulty. Please see the methodological detail appendix H for more information on the decision difficulty manipulation check.
-Choice Shares
++:--------------------------:+:----------:+:--------:+:-----------------------------------------------------:+:----------------------------------------------:+
+| **Benefit Pair**           | > **Mean** | > **SD** | > **Comparison (Economical and Prestige vs. Others)** | > **Comparison (Prestige and Fun vs. Others)** |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and prestigious | 3.65       | 2.43     | > \-                                                  | > *t*(54) = 8.49, *p* \< .001                  |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and relaxing    | 5.64       | 2.07     | > *t*(54) = -5.12, *p* \< .001                        | > *t*(54) = 3.25, *p* = .002                   |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and fun         | 5.73       | 2.56     | > *t*(54) = -5.47, *p* \< .001                        | > *t*(54) = 2.44, *p* = .018                   |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and safe       | 5.78       | 2.39     | > *t*(54) = -4.39, *p* \< .001                        | > *t*(54) = 3.30, *p* = .002                   |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Economical and safe        | 5.96       | 2.30     | > *t*(54) = -4.33, *p* \< .001                        | > *t*(54) = 2.83, *p* = .007                   |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and relaxing   | 5.98       | 2.23     | > *t*(54) = -5.09, *p* \< .001                        | > *t*(54) = 2.81, *p* = .007                   |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+| Prestigious and fun        | 6.91       | 1.76     | > *t*(54) = -8.49, *p* \< .001                        | > \-                                           |
++----------------------------+------------+----------+-------------------------------------------------------+------------------------------------------------+
+
+## Manipulation Check 
+
+[]{#_Toc40103412 .anchor}**Decision Process Goals*.*** We measured the focus on maximizing accuracy ("During the \[product category\] choice task, how focused were you in being as accurate as possible in your choice?" 1 = not at all focused, 9 = very focused) and focus on minimizing effort ("During the \[product category\] choice task, how focused were you in putting in as less effort as possible in your choice?" 1 = not at all focused, 9 = very focused). We averaged the focus on maximizing accuracy (*α* = .87) and minimizing effort (*α* = .88) scores across replicates.
+
+As expected, participants in the maximize accuracy condition were more focused on being accurate than participants in the minimize effort condition (*M*~accuracy~ = 7.43, SD~accuracy~ = 1.63; *M*~effort~ = 5.90, SD~effort~ = 2.40; *F*(1, 196) = 27.12, *p* \< .001, $\widehat{\omega}$~p~^2^ = .12). There was no decision process goal by decision difficulty interaction (*F*(1, 196) = 1.57, *p* = .21). Also as expected, participants in the minimize effort condition were more focused on limiting effort than participants in the maximize accuracy condition (*M*~accuracy~ = 2.86, SD~accuracy~ = 1.91; *M*~effort~ = 5.17, SD~effort~ = 2.35; *F*(1, 196) = 59.21, *p* \< .001, $\widehat{\omega}$~p~^2^ = .23). There was no decision process goal by decision difficulty interaction (*F*(1, 196) = 3.22, *p* = .074).
+
+[]{#_Toc40265037 .anchor}**Decision Difficulty.** Please see the methodological detail appendix H for more information on the decision difficulty manipulation check.
+
+## Choice Shares
+
 The choice shares per condition for experiment 1 are presented in table MDA-F 5. The choice shares show that the options had a similar level of attractiveness, so that there were not objectively dominant or dominated options. A choice set with objectively dominant or dominated options could influence decision difficulty, and, in turn, the pursuit of decision process goals, introducing potential confounds. This happens because dominant or dominated options facilitate comparisons (i.e., it is easier to form evaluations), potentially reducing other manipulations of decision difficulty/ease. In fact, our choice sets in experiment 6 have dominant/dominated options because we use a decision difficulty operationalization that relies on such choice set characteristics (i.e., positive/negative correlation between attribute levels among options), suggesting that unless one wants to manipulate difficulty using a manipulation that is related to dominant/dominated options, the options should have a similar level of attractiveness.
 
-**Table MDA-F 5**
-(METHODOLOGICAL DETAIL APPENDIX F 5)
+TABLE MDA-F 5 (METHODOLOGICAL DETAIL APPENDIX F 5)
 
-EXPERIMENT 1 – CHOICE SHARES PER CONDITION
+EXPERIMENT 1 -- CHOICE SHARES PER CONDITION
 
+![](media/image74.emf){width="6.46448053368329in" height="7.509433508311461in"}
 
-Product Replicate Analyses
+**\**
+
+## Product Replicate Analyses
+
 Experiment 1 included two product replicates: vacation packages and cars. The analyses collapsed across these replicates. The following are the tests for replicate interactions with other independent variables.
-Product Replicates (number of options considered). There was no three-way interaction between product replicate, process goal, and decision difficulty (F(1, 196) = .97, p = .33), nor were there any second-order interactions between decision difficulty and product replicates (F(1, 196) = .40, p = .53) or the process goal and product replicates (F(1, 196) = 0.00, p = .99).
-Product Replicate Position (number of options considered). There was no three-way interaction between product replicate position, process goal, and decision difficulty (F(1, 196) = .00, p = .95), nor were there any second-order interactions between decision difficulty and product replicate position (F(1, 196 = .79, p = .37) or the process goal and product replicate position (F(1, 196) = .10, p = .75).
-Product Replicates (choice of best option considered). Given that participants who choose the best option for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model, which is a generalized form of logistic regression for choices observed in a repeated measures design (Ge, Häubl, and Elrod 2011; Liang and Zeger 1986), showed no replicate by process goal by decision difficulty interaction (β = .06, Wald = .01, p = .94).
-Product Replicate Position (choice of best option considered). Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision difficulty interaction (β = -.39, Wald = .25, p = .62).
-Product Replicates (satisficing/choice of last option considered). Given that participants who satisfice for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate by process goal by decision difficulty interaction (β = 1.26, Wald = .27, p = .60).
-Product Replicate Position (satisficing/choice of last option considered). Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision difficulty interaction (β = -2.03, Wald = 3.18, p = .08).
-Time Measures
-An ANOVA revealed a replicate by process goal by decision difficulty interaction (F(1, 196) = 5.90, p = .02, = .02). This effect was unexpected. There was a process goal by decision difficulty interaction for both the vacation packages (F(1, 196) = 14.06, p < .001, = .06) and cars (F(1, 196) = 10.87, p = .001, = .05), and the pattern of results was the same for both replicates. Additional analyses revealed that participants spent more time during the vacation packages choice task (M = 51.55, SD = 47.12) than in the cars choice task (M = 34.17, SD = 27.57; F(1, 196) = 53.25, p < .001, = .21), and this has driven the three-way interaction. Because the pattern was the same across replicates, we collapsed for the further analyses. An ANOVA revealed a significant process goal by decision difficulty interaction (F(1, 196) = 15.29, p < .001,ω̂²_p = .07). In the maximize accuracy goal condition, decision difficulty - conflicting benefit goals (M = 42.08, SD = 30.58) decreased the time spent on search relative to the baseline goal group (M = 60.92, SD = 43.79; F(1, 196) = 8.34, p = .004,ω̂²_p = .06). In the minimize effort goal condition, decision difficulty - conflicting benefit goals (M = 43.74, SD = 30.44) increased the time spent on search relative to baseline goal group (M = 26.51, SD = 23.27; F(1, 196) = 6.98, p = .009,ω̂²_p = .03). Finally, an ANOVA revealed no replicate position by process goal by decision difficulty interaction (F(1, 196) = 1.32, p = .25).
 
+[]{#_Toc40103415 .anchor}**Product Replicates (number of options considered).** There was no three-way interaction between product replicate, process goal, and decision difficulty (*F*(1, 196) = .97, *p* = .33), nor were there any second-order interactions between decision difficulty and product replicates (*F*(1, 196) = .40, *p* = .53) or the process goal and product replicates (*F*(1, 196) = 0.00, *p* = .99).
 
-## Appendix G: Methodological Details And Additional Analyses For Experiment 2
+[]{#_Toc40103416 .anchor}**Product Replicate Position (number of options considered).** There was no three-way interaction between product replicate position, process goal, and decision difficulty (*F*(1, 196) = .00, *p* = .95), nor were there any second-order interactions between decision difficulty and product replicate position (*F*(1, 196 = .79, *p* = .37) or the process goal and product replicate position (*F*(1, 196) = .10, *p* = .75).
+
+[]{#_Toc40265404 .anchor}**Product Replicates (choice of best option considered).** Given that participants who choose the best option for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model, which is a generalized form of logistic regression for choices observed in a repeated measures design (Ge, Häubl, and Elrod 2011; Liang and Zeger 1986), showed no replicate by process goal by decision difficulty interaction (β = .06, Wald = .01, p = .94).
+
+[]{#_Toc40265405 .anchor}**Product Replicate Position (choice of best option considered).** Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision difficulty interaction (β = -.39, Wald = .25, *p* = .62).
+
+[]{#_Toc40265406 .anchor}**Product Replicates (satisficing/choice of last option considered).** Given that participants who satisfice for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate by process goal by decision difficulty interaction (β = 1.26, Wald = .27, p = .60).
+
+[]{#_Toc40265407 .anchor}**Product Replicate Position (satisficing/choice of last option considered).** Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision difficulty interaction (β = -2.03, Wald = 3.18, *p* = .08).
+
+## Time Measures 
+
+An ANOVA revealed a replicate by process goal by decision difficulty interaction (*F*(1, 196) = 5.90, *p* = .02, ${\widehat{\omega}}_{p}^{2}$ = .02). This effect was unexpected. There was a process goal by decision difficulty interaction for both the vacation packages (*F*(1, 196) = 14.06, *p* \< .001, ${\widehat{\omega}}_{p}^{2}$ = .06) and cars (*F*(1, 196) = 10.87, *p* = .001, ${\widehat{\omega}}_{p}^{2}$ = .05), and the pattern of results was the same for both replicates. Additional analyses revealed that participants spent more time during the vacation packages choice task (*M* = 51.55, *SD* = 47.12) than in the cars choice task (*M* = 34.17, *SD* = 27.57; *F*(1, 196) = 53.25, *p* \< .001, ${\widehat{\omega}}_{p}^{2}$ = .21), and this has driven the three-way interaction. Because the pattern was the same across replicates, we collapsed for the further analyses. An ANOVA revealed a significant process goal by decision difficulty interaction (*F*(1, 196) = 15.29, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .07). In the maximize accuracy goal condition, decision difficulty - conflicting benefit goals (*M* = 42.08, *SD* = 30.58) decreased the time spent on search relative to the baseline goal group (*M* = 60.92, *SD* = 43.79; *F*(1, 196) = 8.34, *p* = .004,$\ \widehat{\omega}$~p~^2^ = .06). In the minimize effort goal condition, decision difficulty - conflicting benefit goals (*M* = 43.74, *SD* = 30.44) increased the time spent on search relative to baseline goal group (*M* = 26.51, *SD* = 23.27; *F*(1, 196) = 6.98, *p* = .009,$\ \widehat{\omega}$~p~^2^ = .03). Finally, an ANOVA revealed no replicate position by process goal by decision difficulty interaction (*F*(1, 196) = 1.32, *p* = .25).
+
+**\**
+
+# APPENDIX G: METHODOLOGICAL DETAILS AND ADDITIONAL analyses for experiment 2
 
 This methodological detail appendix contains information on the decision process goal manipulation check, choice shares, analyses of replicates and replicate positions, and the time measures.
-Manipulation Check
-Decision Process Goals. We measured the focus on maximizing accuracy (“During the [product category] choice task, how focused were you in being as accurate as possible in your choice?” 1 = not at all focused, 9 = very focused) and focus on minimizing effort (“During the [product category] choice task, how focused were you in putting in as less effort as possible in your choice?” 1 = not at all focused, 9 = very focused).
-We averaged the focus on maximizing accuracy (α = .78) and minimizing effort (α = .81) scores across replicates. As expected, participants in the maximize accuracy condition were more focused on being accurate than participants in the minimize effort condition (Maccuracy = 7.93, SDaccuracy = 1.13; Meffort = 6.95, SDeffort = 2.01; F(1, 442) = 39.99, p < .001, ω̂²_p = .08). There was no decision process goal by decision ease interaction (F(1, 442) = 1.69, p = .19). As expected, participants in the minimize effort condition were more focused on limiting effort than participants in the maximize accuracy condition (Meffort = 6.41, SDeffort = 2.20; Maccuracy = 4.00, SDaccuracy = 2.80; F(1, 442) = 101.67, p < .001, ω̂²_p = .19). There was no decision process goal by decision ease interaction (F(1, 442) = .16, p = .69).
-Decision Difficulty. Please see the methodological detail appendix I for more information on the decision ease manipulation check.
-Choice Shares.
+
+## Manipulation Check
+
+[]{#_Toc40265050 .anchor}**Decision Process Goals.** We measured the focus on maximizing accuracy ("During the \[product category\] choice task, how focused were you in being as accurate as possible in your choice?" 1 = not at all focused, 9 = very focused) and focus on minimizing effort ("During the \[product category\] choice task, how focused were you in putting in as less effort as possible in your choice?" 1 = not at all focused, 9 = very focused).
+
+We averaged the focus on maximizing accuracy (*α* = .78) and minimizing effort (*α* = .81) scores across replicates. As expected, participants in the maximize accuracy condition were more focused on being accurate than participants in the minimize effort condition (*M*~accuracy~ = 7.93, SD~accuracy~ = 1.13; *M*~effort~ = 6.95, SD~effort~ = 2.01; *F*(1, 442) = 39.99, *p* \< .001, $\widehat{\omega}$~p~^2^ = .08). There was no decision process goal by decision ease interaction (*F*(1, 442) = 1.69, *p* = .19). As expected, participants in the minimize effort condition were more focused on limiting effort than participants in the maximize accuracy condition (*M*~effort~ = 6.41, SD~effort~ = 2.20; *M*~accuracy~ = 4.00, SD~accuracy~ = 2.80; *F*(1, 442) = 101.67, *p* \< .001, $\widehat{\omega}$~p~^2^ = .19). There was no decision process goal by decision ease interaction (*F*(1, 442) = .16, *p* = .69).
+
+[]{#_Toc40265051 .anchor}**Decision Difficulty.** Please see the methodological detail appendix I for more information on the decision ease manipulation check.
+
+[]{#_Toc40265052 .anchor}**Choice Shares***.*
+
 The choice shares per condition for experiment 2 are presented in table MDA-G 1. The choice shares show that the options had a similar level of attractiveness, so that there were not objectively dominant or dominated options.
-**Table MDA-G 1**
-(METHODOLOGICAL DETAIL APPENDIX G – 1)
 
-EXPERIMENT 2 – CHOICE SHARES PER CONDITION
+TABLE MDA-G 1 (METHODOLOGICAL DETAIL APPENDIX G -- 1)
 
-Product Replicate Analyses
-Product Replicates (number of options considered). There was no three-way interaction between product replicate, process goal, and decision ease (F(1, 442) = .295, p = .59), nor were there any second-order interactions between the decision ease and product replicates (F(1, 442 = 1.41, p = .24) or the process goal and product replicates (F(1, 442) = .62, p = .43).
-Product Replicate Position (number of options considered). There was a three-way interaction between product replicate position, process goal, and decision ease (F(1, 442) = 7.65, p = .006, ω̂²_p = .02). There were no second-order interactions between the decision ease and product replicate position (F(1, 442 = .005, p = .94) or the process goal and product replicate position (F(1, 442) = 2.55, p = .11). To further investigate the nature of this interaction, we performed separate ANOVAs on each product replicate position. The pattern for both product replicate positions was the same. That is, a separate analysis on each of the positions shows results consistent with H3.
-For the replicate positioned as the first, an ANOVA revealed a significant decision process goal by decision ease interaction (F(1, 442) = 4.77, p = .029,ω̂²_p = .01). To test if the pattern was consistent with H3, we assessed if the consideration of complementary benefit goals – decision ease - facilitated the pursuit of the process goals. In the maximize accuracy condition, decision ease - complementary benefit goals (M = 9.39, SD = 5.02) increased the number of options considered relative to the baseline goal control group (M = 8.37, SD = 5.40; F(1, 442) = 3.01, p = .084,ω̂²_p = .01), but the effect was marginally significant. In the minimize effort condition, the direction of the means indicated that decision ease - complementary benefit goals (M = 3.59, SD = 3.16) decreased the number of options considered relative to the baseline goal control group (M = 4.39, SD = 4.39; F(1, 442) = 1.84, p = .18), but the effect was not significant. Therefore, it appears that the effect was weaker for the replicate positioned as the first.
-For the replicate positioned as the second, an ANOVA revealed a significant decision process goal by decision ease interaction (F(1, 442) = 20.33, p < .001,ω̂²_p = .042). To test if the pattern was consistent with H3, we assessed if the consideration of complementary benefit goals – decision ease - facilitated the pursuit of the process goals. In the maximize accuracy condition, decision ease - complementary benefit goals (M = 10.94, SD = 4.41) increased the number of options considered relative to the baseline goal control group (M = 8.92, SD = 5.57; F(1, 442) = 11.70, p = .001,ω̂²_p = .02). In the minimize effort condition, decision ease - complementary benefit goals (M = 3.61, SD = 3.16) decreased the number of options considered relative to the baseline goal control group (M = 5.35, SD = 4.14; F(1, 442) = 8.74, p = .003,ω̂²_p = .02).
+EXPERIMENT 2 -- CHOICE SHARES PER CONDITION
+
+![](media/image75.emf){width="6.156842738407699in" height="7.142857611548556in"}
+
+##  Product Replicate Analyses
+
+[]{#_Toc40265054 .anchor}**Product Replicates (number of options considered).** There was no three-way interaction between product replicate, process goal, and decision ease (*F*(1, 442) = .295, *p* = .59), nor were there any second-order interactions between the decision ease and product replicates (*F*(1, 442 = 1.41, *p* = .24) or the process goal and product replicates (*F*(1, 442) = .62, *p* = .43).
+
+[]{#_Toc40265055 .anchor}**Product Replicate Position (number of options considered)***.* There was a three-way interaction between product replicate position, process goal, and decision ease (*F*(1, 442) = 7.65, *p* = .006, $\widehat{\omega}$~p~^2^ = .02). There were no second-order interactions between the decision ease and product replicate position (*F*(1, 442 = .005, *p* = .94) or the process goal and product replicate position (*F*(1, 442) = 2.55, *p* = .11). To further investigate the nature of this interaction, we performed separate ANOVAs on each product replicate position. The pattern for both product replicate positions was the same. That is, a separate analysis on each of the positions shows results consistent with H3.
+
+For the replicate positioned as the first, an ANOVA revealed a significant decision process goal by decision ease interaction (*F*(1, 442) = 4.77, *p* = .029,$\ \widehat{\omega}$~p~^2^ = .01). To test if the pattern was consistent with H3, we assessed if the consideration of complementary benefit goals -- decision ease - facilitated the pursuit of the process goals. In the maximize accuracy condition, decision ease - complementary benefit goals (*M* = 9.39, *SD* = 5.02) increased the number of options considered relative to the baseline goal control group (*M* = 8.37, *SD* = 5.40; *F*(1, 442) = 3.01, *p* = .084,$\ \widehat{\omega}$~p~^2^ = .01), but the effect was marginally significant. In the minimize effort condition, the direction of the means indicated that decision ease - complementary benefit goals (*M* = 3.59, *SD* = 3.16) decreased the number of options considered relative to the baseline goal control group (*M* = 4.39, *SD* = 4.39; *F*(1, 442) = 1.84, *p* = .18), but the effect was not significant. Therefore, it appears that the effect was weaker for the replicate positioned as the first.
+
+For the replicate positioned as the second, an ANOVA revealed a significant decision process goal by decision ease interaction (*F*(1, 442) = 20.33, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .042). To test if the pattern was consistent with H3, we assessed if the consideration of complementary benefit goals -- decision ease - facilitated the pursuit of the process goals. In the maximize accuracy condition, decision ease - complementary benefit goals (*M* = 10.94, *SD* = 4.41) increased the number of options considered relative to the baseline goal control group (*M* = 8.92, *SD* = 5.57; *F*(1, 442) = 11.70, *p* = .001,$\ \widehat{\omega}$~p~^2^ = .02). In the minimize effort condition, decision ease - complementary benefit goals (*M* = 3.61, *SD* = 3.16) decreased the number of options considered relative to the baseline goal control group (*M* = 5.35, *SD* = 4.14; *F*(1, 442) = 8.74, *p* = .003,$\ \widehat{\omega}$~p~^2^ = .02).
+
 Taken together, the findings suggest that the pattern predicted by H3 is present in both replicate positions. However, the effect was stronger for the replicate positioned as the second. Although speculations can be made (e.g., the floor effect implied by fig 3c., the effect of complementary goals in facilitating decision process goal pursuit is weaker than the effect of conflicting goals in inhibiting decision process goal pursuit), the interaction found does not change the pattern of results. Thus, we collapsed across replicates for the analyses in the main text.
-Product Replicates (choice of best option considered). Given that participants who choose the best option for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model, which is a generalized form of logistic regression for choices observed in a repeated measures design (Ge, Häubl, and Elrod 2011; Liang and Zeger 1986), showed no replicate by process goal by decision ease interaction (β = .22, Wald = .19, p = .66).
-Product Replicate Position (choice of best option considered). Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision ease interaction (β = -.01, Wald = .000, p = .99).
-Product Replicates (satisficing/choice of last option considered). Given that participants who satisfice for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate by process goal by decision ease interaction (β = .31, Wald = .14, p = .71).
-Product Replicate Position (satisficing/choice of last option considered). Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision ease interaction (β = -.05, Wald = .01, p = .95).
-Time Measures
-An ANOVA revealed no replicate by process goal by decision ease interaction (F(1, 442) = .23, p = .63) or a replicate position by process goal by decision ease interaction (F(1, 442) = 3.33, p = .07). An ANOVA revealed a significant process goal by decision ease interaction (F(1, 442) = 10.24, p = .001,ω̂²_p = .02). In the maximize accuracy goal condition, decision ease - complementary benefit goals (M = 86.75, SD = 57.46) increased the time spent on search relative to the baseline goal group (M = 73.25, SD = 63.09; F(1, 442) = 4.45, p = .036,ω̂²_p = .01). In the minimize effort goal condition, decision ease - complementary benefit goals (M = 25.83, SD = 23.32) decreased the time spent on search relative to baseline goal group (M = 41.30, SD = 36.21; F(1, 442) = 5.84, p = .016,ω̂²_p = .10).
 
+[]{#_Toc40265056 .anchor}**Product Replicates (choice of best option considered).** Given that participants who choose the best option for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model, which is a generalized form of logistic regression for choices observed in a repeated measures design (Ge, Häubl, and Elrod 2011; Liang and Zeger 1986), showed no replicate by process goal by decision ease interaction (β = .22, Wald = .19, *p* = .66).
 
-## Appendix H: Methodological Details And Additional Analyses For Experiments 3A And 3B
+[]{#_Toc40265419 .anchor}**Product Replicate Position (choice of best option considered).** Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the best option, 1 = best option. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision ease interaction (β = -.01, Wald = .000, *p* = .99).
+
+[]{#_Toc40265420 .anchor}**Product Replicates (satisficing/choice of last option considered).** Given that participants who satisfice for one product replicate need not do the same for the other product replicate, we tested for a product replicate interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate by process goal by decision ease interaction (β = .31, Wald = .14, *p* = .71).
+
+[]{#_Toc40265421 .anchor}**Product Replicate Position (satisficing/choice of last option considered).** Given that participants who choose the best option for the first product replicate need not do the same for the second product replicate, we tested for a product replicate position interaction. We coded choice as: 0 = not the last option seen, 1 = last option seen. A generalized estimating equations (GEE) model showed no replicate position by process goal by decision ease interaction (β = -.05, Wald = .01, *p* = .95).
+
+## Time Measures 
+
+An ANOVA revealed no replicate by process goal by decision ease interaction (*F*(1, 442) = .23, *p* = .63) or a replicate position by process goal by decision ease interaction (*F*(1, 442) = 3.33, *p* = .07). An ANOVA revealed a significant process goal by decision ease interaction (*F*(1, 442) = 10.24, *p* = .001,$\ \widehat{\omega}$~p~^2^ = .02). In the maximize accuracy goal condition, decision ease - complementary benefit goals (*M* = 86.75, *SD* = 57.46) increased the time spent on search relative to the baseline goal group (*M* = 73.25, *SD* = 63.09; *F*(1, 442) = 4.45, *p* = .036,$\ \widehat{\omega}$~p~^2^ = .01). In the minimize effort goal condition, decision ease - complementary benefit goals (*M* = 25.83, *SD* = 23.32) decreased the time spent on search relative to baseline goal group (*M* = 41.30, *SD* = 36.21; *F*(1, 442) = 5.84, *p* = .016,$\ \widehat{\omega}$~p~^2^ = .10).
+
+**\**
+
+# APPENDIX H: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENTS 3A AND 3B 
 
 This methodological detail appendix contains information on the manipulation checks and the analyses of replicates alternative-explanation mediators.
-Manipulation Check
-Decision Difficulty (3a). Decision difficulty was measured by asking participants: “Please indicate your opinion about the car (vacation package) decision task” using a four-item, nine-point semantic differential scale: “very easy/very difficult,” “not problematic at all/very problematic,” “very simple/very complex,” “not complicated at all/very complicated” (α = .97; Laroche et al., 2005). There was a main effect of the decision difficulty manipulation on the decision difficulty measure (F(3, 192) = 24.84, p < .001, ω̂²_p = .27). Participants in the difficult – two conflicting goals condition (M = 5.58, SD = 2.38) perceived the decision to be more difficult than participants in the two baseline - one goal conditions (Mprestige = 2.92, SDprestige = 1.45; Mthrift = 3.31, SDthrift = 1.60; (F(1, 192) = 64.85, p < .001) and baseline – no goal condition (M = 3.13, SD = 1.52; F(1, 192) = 48.09, p < .001). The two baseline – one goal conditions did not differ from each other (F(1, 192) = .1.18, p = .28), and these two conditions did not differ from the baseline – no goal condition (F(1, 192) = .002, p = .96). These results suggest that making a choice while considering conflicting benefit goals increases decision difficulty relative to when the choice is made while considering a single or a baseline/naturally activated baseline benefit goal.
-Decision Difficulty (3b). We used the same items from experiment 3a to measure decision difficulty (α = .97). There was a main effect of the decision difficulty manipulation on the measure of decision difficulty (F(3, 200) = 10.55, p < .001, ω̂²_p = .12). Participants in the difficult – two conflicting goals condition (M = 4.77, SD = 2.08) perceived the decision to be more difficult than participants in the baseline - one goal conditions (Mprestige = 3.17, SDprestige = 1.70; Mthrift = 3.02, SDthrift = 1.52; (F(1, 200) = 29.66, p < .001) and baseline – no goal condition (M = 3.28, SD = 1.73; F(1, 200) = 18.70, p < .001). The two baseline – one goal conditions did not differ from each other (F(1, 192) = .18, p = .67), and these two conditions did not differ from the baseline – no goal condition (F(1, 200) = .40, p = .53).
-Product Replicates (3a). There was no product replicate by benefit goal interaction on the number of options considered (F(3, 192) = .753, p = .52), decision difficulty (F(3, 192) = .248, p = .86), decision uncertainty (F(3, 192) = 1.01, p = .39), process accountability (F(3, 192) = 1.23, p = .30), outcome accountability (F(3, 192) = 1.00, p = .39), involvement (F(3, 192) = 1.41, p = .24), and importance (F(3, 192) = .84, p = .47) measures. Thus, we collapsed across replicates for the analyses.
-Product Replicates (3b). There was no product replicate by benefit goal interaction on the number of options considered (F(3, 200) = .38, p = .79), decision difficulty (F(3, 200) = 2.07, p = .105), decision uncertainty (F(3, 200) = 1.54, p = .21), process accountability (F(3, 200) = 261, p = .85), outcome accountability (F(3, 200) = 1.20, p = .31), involvement (F(3, 200) = .183, p = .91), and importance (F(3, 200) = .65, p = .59) measures. Thus, we collapsed across replicates for the analyses.
-Alternative Explanations
-Measures. Four additional alternative-hypothesis mediators were measured. Process accountability (α3a = .69; α3b = .81) and outcome accountability (α3a = .73; α3b = .81) were measured using four nine-point Likert items: “When making this decision, I concentrated on the process (outcome) of choosing,” “I believed that I would have to explain the process (outcome) of choosing to the researcher,” “I worried mostly about using (getting) the correct decision process (outcome), not about the final outcome (decision process),” “I was concerned mostly about using (getting) the correct decision process (outcome),” [1 = Strongly Disagree, 9 = Strongly Agree] (Zhang & Mittal, 2005). Decision importance was measured using a single semantic differential item (1 = not important at all, 9 = very important). Involvement in the choice task (α3a = .96; α3b = .97) was measured using three semantic differential items (1 = not involved at all, 9 = very involved; 1 = not interested at all, 9 = very interested; 1 = not engaged at all, 9 = very engaged) (Wilcox, Kramer, & Sen, 2011).
-Alternative Explanations (3a). There was no effect of the benefit goal manipulation on outcome accountability (F(3, 192) = .54, p = .66), importance (F(3, 192) = .91, p = .44), and involvement (F(3, 192) = 2.46, p = .064). There was an unexpected effect on process accountability (F(3, 192) = 3.22, p = .024). Participants in the conflicting goals condition (M = 5.77, SD = 1.37) had higher levels of process accountability than participants in the baseline goal condition (M = 4.92, SD = 1.67; F(1, 192) = 8.56, p = .004). There were no differences in process accountability between the conflicting goals condition (M = 5.77) and one goal conditions (Mprestige = 5.50, SDprestige = 1.38; Mthrift = 5.19, SDthrift = 1.36; F(1, 192) = 2.87, p = .092). A mediation analysis showed process accountability did not mediate the influence of the planned contrast on the number of options considered (indirect effect 95% CI: -.09 to .04).
-Alternative Explanations (3b). There was no effect of the benefit goal manipulation on process accountability (F(3, 200) = 1.40, p = .25), outcome accountability (F(3, 200) = .79, p = .501), and involvement (F(3, 200) = 2.30, p = .078). There was an unexpected effect on decision importance (F(3, 200) = 2.67, p = .048). Participants in the conflicting goals condition (M = 6.19, SD = 1.51) perceived the decision to be more important than participants in the one goal conditions (Mprestige = 5.72, SDprestige = 2.40; Mthrift = 5.05, SDthrift = 2.04; F(1, 200) = 4.94, p = .027). There were no differences in decision importance between the conflicting goals condition (M = 6.19) and baseline goal condition (M = 5.34, SD = 2.23; F(1, 200) = 3.46, p = .064). A mediation analysis with the two mediators, which allow a contrast between the two indirect effects, showed decision importance unexpectedly mediated the influence of the planned contrast on the number of options considered (95% CI: .01 to .10). A 95% confidence interval of the difference between decision uncertainty and decision importance mediators indicated the indirect effect of decision uncertainty (ab = -.14) was significantly stronger than the indirect effect of decision importance (ab = .01) [contrast CI: -.22 to -.09] (Hayes, 2013; Preacher & Hayes, 2008).
 
+## Manipulation Check
 
-## Appendix I: Methodological Details And Additional Analyses For Experiments 4A And 4B
+[]{#_Toc40265064 .anchor}**Decision Difficulty (3a).** *Decision difficulty* was measured by asking participants: "Please indicate your opinion about the car (vacation package) decision task" using a four-item, nine-point semantic differential scale: "very easy/very difficult," "not problematic at all/very problematic," "very simple/very complex," "not complicated at all/very complicated" (*α* = .97; Laroche et al., 2005). There was a main effect of the decision difficulty manipulation on the decision difficulty measure (*F*(3, 192) = 24.84, *p* \< .001, $\widehat{\omega}$~p~^2^ = .27). Participants in the difficult -- two conflicting goals condition (*M* = 5.58, *SD* = 2.38) perceived the decision to be more difficult than participants in the two baseline - one goal conditions (*M*~prestige~ = 2.92, *SD*~prestige~ = 1.45; *M*~thrift~ = 3.31, *SD*~thrift~ = 1.60; (*F*(1, 192) = 64.85, *p \<* .001) and baseline -- no goal condition (*M* = 3.13, *SD* = 1.52; *F*(1, 192) = 48.09, *p* \< .001). The two baseline -- one goal conditions did not differ from each other (*F*(1, 192) = .1.18, *p* = .28), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 192) = .002, *p* = .96). These results suggest that making a choice while considering conflicting benefit goals increases decision difficulty relative to when the choice is made while considering a single or a baseline/naturally activated baseline benefit goal.
+
+[]{#_Toc40265065 .anchor}**Decision Difficulty (3b).** We used the same items from experiment 3a to measure decision difficulty (*α* = .97). There was a main effect of the decision difficulty manipulation on the measure of decision difficulty (*F*(3, 200) = 10.55, *p* \< .001, $\widehat{\omega}$~p~^2^ = .12). Participants in the difficult -- two conflicting goals condition (*M* = 4.77, *SD* = 2.08) perceived the decision to be more difficult than participants in the baseline - one goal conditions (*M*~prestige~ = 3.17, *SD*~prestige~ = 1.70; *M*~thrift~ = 3.02, *SD*~thrift~ = 1.52; (*F*(1, 200) = 29.66, *p \<* .001) and baseline -- no goal condition (*M* = 3.28, *SD* = 1.73; *F*(1, 200) = 18.70, *p* \< .001). The two baseline -- one goal conditions did not differ from each other (*F*(1, 192) = .18, *p* = .67), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 200) = .40, *p* = .53).
+
+[]{#_Toc40265066 .anchor}**Product Replicates (3a).** There was no product replicate by benefit goal interaction on the number of options considered (*F*(3, 192) = .753, *p* = .52), decision difficulty (*F*(3, 192) = .248, *p* = .86), decision uncertainty (*F*(3, 192) = 1.01, *p* = .39), process accountability (*F*(3, 192) = 1.23, *p* = .30), outcome accountability (*F*(3, 192) = 1.00, *p* = .39), involvement (*F*(3, 192) = 1.41, *p* = .24), and importance (*F*(3, 192) = .84, *p* = .47) measures. Thus, we collapsed across replicates for the analyses.
+
+[]{#_Toc40265067 .anchor}**Product Replicates (3b)***.* There was no product replicate by benefit goal interaction on the number of options considered (*F*(3, 200) = .38, *p* = .79), decision difficulty (*F*(3, 200) = 2.07, *p* = .105), decision uncertainty (*F*(3, 200) = 1.54, *p* = .21), process accountability (*F*(3, 200) = 261, *p* = .85), outcome accountability (*F*(3, 200) = 1.20, *p* = .31), involvement (*F*(3, 200) = .183, *p* = .91), and importance (*F*(3, 200) = .65, *p* = .59) measures. Thus, we collapsed across replicates for the analyses.
+
+## Alternative Explanations 
+
+[]{#_Toc40265069 .anchor}**Measures***.* Four additional alternative-hypothesis mediators were measured. *Process accountability* (*α*~3a~ = .69; *α*~3b~ = .81) and *outcome accountability* (*α*~3a~ = .73; *α*~3b~ = .81) were measured using four nine-point Likert items: "When making this decision, I concentrated on the process (outcome) of choosing," "I believed that I would have to explain the process (outcome) of choosing to the researcher," "I worried mostly about using (getting) the correct decision process (outcome), not about the final outcome (decision process)," "I was concerned mostly about using (getting) the correct decision process (outcome)," \[1 = Strongly Disagree, 9 = Strongly Agree\] (Zhang & Mittal, 2005). *Decision importance* was measured using a single semantic differential item (1 = not important at all, 9 = very important). *Involvement in the choice task* (*α*~3a~ = .96; *α*~3b~ = .97) was measured using three semantic differential items (1 = not involved at all, 9 = very involved; 1 = not interested at all, 9 = very interested; 1 = not engaged at all, 9 = very engaged) (Wilcox, Kramer, & Sen, 2011).
+
+[]{#_Toc40265070 .anchor}**Alternative Explanations (3a)*.*** There was no effect of the benefit goal manipulation on outcome accountability (*F*(3, 192) = .54, *p* = .66), importance (*F*(3, 192) = .91, *p* = .44), and involvement (*F*(3, 192) = 2.46, *p* = .064). There was an unexpected effect on process accountability (*F*(3, 192) = 3.22, *p* = .024). Participants in the conflicting goals condition (*M* = 5.77, SD = 1.37) had higher levels of process accountability than participants in the baseline goal condition (*M* = 4.92, SD = 1.67; *F*(1, 192) = 8.56, *p* = .004). There were no differences in process accountability between the conflicting goals condition (*M* = 5.77) and one goal conditions (*M*~prestige~ = 5.50, SD~prestige~ = 1.38; *M*~thrift~ = 5.19, SD~thrift~ = 1.36; *F*(1, 192) = 2.87, *p* = .092). A mediation analysis showed process accountability did not mediate the influence of the planned contrast on the number of options considered (indirect effect 95% CI: -.09 to .04).
+
+[]{#_Toc40265071 .anchor}**Alternative Explanations (3b)***.* There was no effect of the benefit goal manipulation on process accountability (*F*(3, 200) = 1.40, *p* = .25), outcome accountability (*F*(3, 200) = .79, *p* = .501), and involvement (*F*(3, 200) = 2.30, *p* = .078). There was an unexpected effect on decision importance (*F*(3, 200) = 2.67, *p* = .048). Participants in the conflicting goals condition (*M* = 6.19, SD = 1.51) perceived the decision to be more important than participants in the one goal conditions (*M*~prestige~ = 5.72, SD~prestige~ = 2.40; *M*~thrift~ = 5.05, SD~thrift~ = 2.04; *F*(1, 200) = 4.94, *p* = .027). There were no differences in decision importance between the conflicting goals condition (*M* = 6.19) and baseline goal condition (*M* = 5.34, SD = 2.23; *F*(1, 200) = 3.46, *p* = .064). A mediation analysis with the two mediators, which allow a contrast between the two indirect effects, showed decision importance unexpectedly mediated the influence of the planned contrast on the number of options considered (95% CI: .01 to .10). A 95% confidence interval of the difference between *decision uncertainty* and *decision importance* mediators indicated the indirect effect of *decision uncertainty* (*ab* = -.14) was significantly stronger than the indirect effect of *decision importance* (*ab* = .01) \[contrast CI: -.22 to -.09\] (Hayes, 2013; Preacher & Hayes, 2008).
+
+# APPENDIX I: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENTS 4A AND 4B 
 
 This methodological detail appendix contains information on the manipulation checks and on analyses of replicates alternative-explanation mediators.
-Manipulation Check
-Decision Ease (4a). We measured decision ease (α = .94) rather than decision difficulty (as in experiments 3a and 3b) by flipping the scale endpoints: “very difficult/very easy,” “very problematic/not problematic at all,” “very complex/very simple,” “very complicated/not complicated at all.” There was a main effect of the decision ease manipulation on the decision ease measure (F(3, 244) = 3.41, p = .018, ω̂²_p = .03). Participants in the ease – two complementary goals condition (M = 7.21, SD = 1.38) perceived the decision to be easier than participants in the baseline - one goal conditions (Mprestige = 6.76, SDprestige = 1.37; Mfun = 6.69, SDfun = 1.34; F(1, 244) = 4.71, p = .031) or baseline – no goal condition (M = 6.39, SD = 1.65; F(1, 244) = 9.97, p = .002). The two baseline – one goal conditions did not differ from each other (F(1, 244) = .08, p = .78), and these two conditions did not differ from the baseline – no goal condition (F(1, 244) = 2.21, p = .14).
-Decision Ease (4b). We used the same decision ease measures from experiment 4a (α = .94). here was a main effect of the decision ease manipulation on the decision ease measure (F(3, 416) = 5.27, p = .001, ω̂²_p = .03). Participants in the ease – two complementary goals condition (M = 7.77, SD = 1.08) perceived the decision to be easier than participants in the baseline - one goal conditions (Mprestige = 7.06, SDprestige = 1.50; Mfun = 7.24, SDfun = 1.46; F(1, 416) = 14.47, p < .001) or baseline – no goal condition (M = 7.25, SD = 1.41; F(1, 416) = 7.62, p = .006). The two baseline – one goal conditions did not differ from each other (F(1, 244) = .84, p = .36), and these two conditions did not differ from the baseline – no goal condition(F(1, 416) = .34, p = .56).
-Product Replicate Analyses
-Product Replicates (4a). There was no product replicate by benefit goal interaction on the number of options considered (F(3, 244) = .20, p = .90), decision ease (F(3, 244) = .20, p = .90), decision certainty (F(3, 244) = .31, p = .82), process accountability (F(3, 244) = .30, p = .83), outcome accountability (F(3, 244) = 1.52, p = .21), involvement (F(3, 244) = .73, p = .54), and importance (F(3, 244) = .98, p = .40) measures. Thus, we collapsed across replicates for the analyses.
-Product Replicates (4b). There was no product replicate by benefit goal interaction on the number of options considered (F(3, 416) = 1.00, p = .39), decision certainty (F(3, 416) = 1.91, p = .13), process accountability (F(3, 416) = .58, p = .63), outcome accountability (F(3, 416) = 1.37, p = .25), involvement (F(3, 416) = .191, p = .90), and importance (F(3, 416) = 1.38, p = .25) measures. There was an unexpected interaction on the decision ease measure (F(3, 416) = 4.20, p = .006). To further explore this interaction effect, we compared the decision ease for each of the replicates for each benefit goal condition. We found that for participants in the complementary goals condition, the decision was easier for cars (M = 8.00, SD = 1.21) than for vacation packages (M = 7.52, SD = 1.53; F(1, 416) = 6.18, p = .013). For participants in the baseline goal condition, the decision was easier for vacation packages (M = 7.48, SD = 1.57) than for cars (M = 7.01, SD = 1.98; F(1, 416) = 5.74, p = .017). There was no difference in decision ease across replicates for participants in the have fun (F(1, 416) = 1.19, p = .28) and prestige one goal conditions (F(1, 416) = .26, p = .61). Since this interaction does not change the interpretation of the results, we collapsed across replicates for the analyses.
-Alternative Explanations
-Measures. Four additional alternative-hypothesis mediators were measured. Process accountability (α4a = .78; α4b = .71) and outcome accountability (α4a = .73; α4b = .73) were measured using four nine-point Likert items: “When making this decision, I concentrated on the process (outcome) of choosing,” “I believed that I would have to explain the process (outcome) of choosing to the researcher,” “I worried mostly about using (getting) the correct decision process (outcome), not about the final outcome (decision process),” “I was concerned mostly about using (getting) the correct decision process (outcome),” [1 = Strongly Disagree, 9 = Strongly Agree] (Zhang & Mittal, 2005). Decision importance was measured using a single semantic differential item (1 = not important at all, 9 = very important). Involvement in the choice task (α4a = .95; α4b = .97) was measured using three semantic differential items (1 = not involved at all, 9 = very involved; 1 = not interested at all, 9 = very interested; 1 = not engaged at all, 9 = very engaged) (Wilcox, Kramer, & Sen, 2011).
-Alternative Explanations (4a). There was no effect of the benefit goal manipulation on process accountability (F(3, 244) = 1.43, p = .24), outcome accountability (F(3, 244) = 1.44, p = .23), importance (F(3, 244) = .39, p = .76), and involvement (F(3, 244) = 1.95, p = .122).
-Alternative Explanations (4b). There was no effect of the benefit goal manipulation on process accountability (F(3, 416 = 1.60, p = .19), outcome accountability (F(3, 416) = 2.45, p = .063), and importance (F(3, 416) = 2.08, p = .10). There was an unexpected effect on involvement (F(3, 416) = 4.59, p = .004). There were no differences in involvement between the complementary goals (M = 7.20, SD = 1.87) and one-goal conditions (Mprestige = 7.35, SDprestige = 1.54; Mfun = 7.38, SDfun = 1.50; F(1, 416) = .66, p = .42). However, involvement levels in the baseline goal condition (M = 6.58, SD = 2.13) were significantly lower than both the complementary goals (M = 7.20; F(1, 416) = 6.40, p = .012) and one-goal (Mprestige = 7.35, Mfun = 7.38; F(1, 416) = 13.54, p < .001) conditions. A mediation analysis showed involvement did not mediate the influence of the planned contrast on the number of options considered (indirect effect 95% CI: -.01 to .02).
 
+## Manipulation Check
 
-## Appendix J: Methodological Details And Additional Analyses For Experiment 5
+[]{#_Toc40265075 .anchor}**Decision Ease (4a).** We measured *decision ease* (*α* = .94) rather than *decision difficulty* (as in experiments 3a and 3b) by flipping the scale endpoints: "very difficult/very easy," "very problematic/not problematic at all," "very complex/very simple," "very complicated/not complicated at all." There was a main effect of the decision ease manipulation on the decision ease measure (*F*(3, 244) = 3.41, *p* = .018, $\widehat{\omega}$~p~^2^ = .03). Participants in the ease -- two complementary goals condition (*M* = 7.21, *SD* = 1.38) perceived the decision to be easier than participants in the baseline - one goal conditions (*M*~prestige~ = 6.76, *SD*~prestige~ = 1.37; *M*~fun~ = 6.69, *SD*~fun~ = 1.34; *F*(1, 244) = 4.71, *p* = .031) or baseline -- no goal condition (*M* = 6.39, *SD* = 1.65; *F*(1, 244) = 9.97, *p* = .002). The two baseline -- one goal conditions did not differ from each other (*F*(1, 244) = .08, *p* = .78), and these two conditions did not differ from the baseline -- no goal condition (*F*(1, 244) = 2.21, *p* = .14).
+
+[]{#_Toc40265076 .anchor}**Decision Ease (4b).** We used the same decision ease measures from experiment 4a (*α* = .94). here was a main effect of the decision ease manipulation on the decision ease measure (*F*(3, 416) = 5.27, *p* = .001, $\widehat{\omega}$~p~^2^ = .03). Participants in the ease -- two complementary goals condition (*M* = 7.77, *SD* = 1.08) perceived the decision to be easier than participants in the baseline - one goal conditions (*M*~prestige~ = 7.06, *SD*~prestige~ = 1.50; *M*~fun~ = 7.24, *SD*~fun~ = 1.46; *F*(1, 416) = 14.47, *p \<* .001) or baseline -- no goal condition (*M* = 7.25, *SD* = 1.41; *F*(1, 416) = 7.62, *p* = .006). The two baseline -- one goal conditions did not differ from each other (*F*(1, 244) = .84, *p* = .36), and these two conditions did not differ from the baseline -- no goal condition(*F*(1, 416) = .34, *p =* .56).
+
+## Product Replicate Analyses
+
+[]{#_Toc40265078 .anchor}**Product Replicates (4a).** There was no product replicate by benefit goal interaction on the number of options considered (*F*(3, 244) = .20, *p* = .90), decision ease (*F*(3, 244) = .20, *p* = .90), decision certainty (*F*(3, 244) = .31, *p* = .82), process accountability (*F*(3, 244) = .30, *p* = .83), outcome accountability (*F*(3, 244) = 1.52, *p* = .21), involvement (*F*(3, 244) = .73, *p* = .54), and importance (*F*(3, 244) = .98, *p* = .40) measures. Thus, we collapsed across replicates for the analyses.
+
+[]{#_Toc40265079 .anchor}**Product Replicates (4b).** There was no product replicate by benefit goal interaction on the number of options considered (*F*(3, 416) = 1.00, *p* = .39), decision certainty (*F*(3, 416) = 1.91, *p* = .13), process accountability (*F*(3, 416) = .58, *p* = .63), outcome accountability (*F*(3, 416) = 1.37, *p* = .25), involvement (*F*(3, 416) = .191, *p* = .90), and importance (*F*(3, 416) = 1.38, *p* = .25) measures. There was an unexpected interaction on the decision ease measure (*F*(3, 416) = 4.20, *p* = .006). To further explore this interaction effect, we compared the decision ease for each of the replicates for each benefit goal condition. We found that for participants in the complementary goals condition, the decision was easier for cars (*M* = 8.00, *SD* = 1.21) than for vacation packages (*M* = 7.52, *SD* = 1.53; *F*(1, 416) = 6.18, *p* = .013). For participants in the baseline goal condition, the decision was easier for vacation packages (*M* = 7.48, *SD* = 1.57) than for cars (*M* = 7.01, *SD* = 1.98; *F*(1, 416) = 5.74, *p* = .017). There was no difference in decision ease across replicates for participants in the have fun (*F*(1, 416) = 1.19, *p* = .28) and prestige one goal conditions (*F*(1, 416) = .26, *p* = .61). Since this interaction does not change the interpretation of the results, we collapsed across replicates for the analyses.
+
+## Alternative Explanations 
+
+[]{#_Toc40265081 .anchor}**Measures.** Four additional alternative-hypothesis mediators were measured. *Process accountability* (*α*~4a~ = .78; *α*~4b~ = .71) and *outcome accountability* (*α*~4a~ = .73; *α*~4b~ = .73) were measured using four nine-point Likert items: "When making this decision, I concentrated on the process (outcome) of choosing," "I believed that I would have to explain the process (outcome) of choosing to the researcher," "I worried mostly about using (getting) the correct decision process (outcome), not about the final outcome (decision process)," "I was concerned mostly about using (getting) the correct decision process (outcome)," \[1 = Strongly Disagree, 9 = Strongly Agree\] (Zhang & Mittal, 2005). *Decision importance* was measured using a single semantic differential item (1 = not important at all, 9 = very important). *Involvement in the choice task* (*α*~4a~ = .95; *α*~4b~ = .97) was measured using three semantic differential items (1 = not involved at all, 9 = very involved; 1 = not interested at all, 9 = very interested; 1 = not engaged at all, 9 = very engaged) (Wilcox, Kramer, & Sen, 2011).
+
+[]{#_Toc40265082 .anchor}**Alternative Explanations (4a).** There was no effect of the benefit goal manipulation on process accountability (*F*(3, 244) = 1.43, *p* = .24), outcome accountability (*F*(3, 244) = 1.44, *p* = .23), importance (*F*(3, 244) = .39, *p* = .76), and involvement (*F*(3, 244) = 1.95, *p* = .122).
+
+[]{#_Toc40265083 .anchor}**Alternative Explanations (4b)*.*** There was no effect of the benefit goal manipulation on process accountability (*F*(3, 416 = 1.60, *p* = .19), outcome accountability (*F*(3, 416) = 2.45, *p* = .063), and importance (*F*(3, 416) = 2.08, *p* = .10). There was an unexpected effect on involvement (*F*(3, 416) = 4.59, *p* = .004). There were no differences in involvement between the complementary goals (*M* = 7.20, SD = 1.87) and one-goal conditions (*M*~prestige~ = 7.35, SD~prestige~ = 1.54; *M*~fun~ = 7.38, SD~fun~ = 1.50; *F*(1, 416) = .66, *p* = .42). However, involvement levels in the baseline goal condition (*M* = 6.58, SD = 2.13) were significantly lower than both the complementary goals (*M* = 7.20; *F*(1, 416) = 6.40, *p* = .012) and one-goal (*M*~prestige~ = 7.35, *M*~fun~ = 7.38; *F*(1, 416) = 13.54, *p \<* .001) conditions. A mediation analysis showed involvement did not mediate the influence of the planned contrast on the number of options considered (indirect effect 95% CI: -.01 to .02).
+
+**\**
+
+# APPENDIX J: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENT 5 
 
 This methodological detail appendix contains information on the manipulation checks for the decision process goals and decision difficulty, choice shares, and the time measures.
-Manipulation Check
-Decision Process Goal (maximize accuracy). We measured the focus on maximizing accuracy (“During the movie choice task, how focused were you in being as accurate as possible in your choice?” 1 = not at all focused, 9 = very focused). There was a main effect of the decision process goal manipulation on the maximize accuracy focus measure (F(2, 531) = 31.77, p < .001,ω̂²_p = .10). As expected, participants in the maximize accuracy condition (M = 7.51, SD = 1.87) were more focused on being accurate than participants in the baseline process goal (M = 6.64, SD = 2.20; F(1, 531) = 14.22, p < .001,ω̂²_p = .02) and minimize effort process goal conditions (M = 5.67, SD = 2.46; F(1, 531) = 63.48, p < .001,ω̂²_p = .11). In addition, participants in the baseline process goal condition were more focused on being accurate than participants in the minimize effort process goal condition (F(1, 531) = 17.61, p < .001,ω̂²_p = .03). There was no main effect of decision difficulty (F(2, 531) = .77, p = .87) or interaction (F(4, 531) = .31, p = .87). Thus, people became more focused on being accurate when a maximize accuracy goal was active than when no decision process goal or a minimize effort process goal was active.
-Decision Process Goal (minimize effort). We measured the focus on minimizing effort (“During the movie choice task, how focused were you in putting in as less effort as possible in your choice?” 1 = not at all focused, 9 = very focused). There was a main effect of the decision process goal manipulation on the minimize effort focus measure (F(2, 531) = 38.38, p < .001,ω̂²_p = .12). As expected, participants in the minimize effort condition (M = 6.94, SD = 2.15) were more focused on minimizing effort than participants in the baseline process goal (M = 4.66, SD = 2.86; F(1, 531) = 64.41, p < .001,ω̂²_p = .11) and maximize accuracy process goal conditions (M = 4.94, SD = 3.00; F(1, 531) = 49.79, p < .001,ω̂²_p = .08). There was no difference between participants in the baseline process goal and maximize accuracy process goal conditions (F(1, 531) = .94, p = .33). There was no main effect of decision difficulty (F(2, 531) = .47, p = .63) or interaction (F(4, 531) = 1.64, p = .16). Thus, people became more focused on minimizing effort when a minimize effort goal was active than when no decision process goal or a maximize accuracy goal was active.
-Decision Difficulty. As in the previous experiments, decision difficulty was measured by asking participants: “Please indicate your opinion about the car (vacation package) decision task” using a four-item, nine-point semantic differential scale: “very easy/very difficult,” “not problematic at all/very problematic,” “very simple/very complex,” “not complicated at all/very complicated” (α = .91; Laroche et al., 2005). There was a main effect of the decision difficulty manipulation on the decision difficulty measure (F(2, 531) = 84.35, p < .001,ω̂²_p = .24). Participants in the difficult condition (M = 5.69, SD = 2.08) perceived the decision to be more difficult than participants in the moderate (M = 3.93, SD = 2.19; F(1, 531) = 69.19, p < .001,ω̂²_p = .11) and easy (M = 3.00, SD = 1.67; F(1, 531) = 164.05, p < .001,ω̂²_p = .23) conditions. In addition, participants in the moderate condition perceived the decision to be more difficult than participants in the easy condition (F(1, 531) = 20.07, p < .001,ω̂²_p = .04). There was no main effect of process goal (F(2, 531) = .79, p = .45) or interaction (F(4, 531) = 1.19, p = .32). Thus, the larger the amount of information, the more difficult the decision was perceived to be.
-Process Goal Abandonment. To assess decision process goal abandonment, we asked participants: “To what extent were you trying to maximize accuracy (minimize effort) during the movie search process?” (1 = not at all, 9 = very much), and “To what extent did you give up on maximizing accuracy (minimizing effort) during the movie search process?” (1 = not at all, 9 = very much).
-There was no interaction between process goal and decision difficulty on perceptions of maximize accuracy pursuit during search (F(4, 531) = .451, p = .77). There was no main effect of decision difficulty (F(2, 531) = .016, p = .98). There was a main effect of process goal (F(2, 531) = 83.19, p < .001; = .24) such that participants in the maximize accuracy condition (M = 7.27, SD = 1.80) reported trying to maximize accuracy to a greater extent than participants in the baseline (M = 5.88, SD = 1.99; F(1, 531) = 39.84, p < .001; = .07) and minimize effort (M = 4.42, SD = 2.42; F(1, 531) = 166.36, p < .001; = .24) conditions.
-There was no interaction between process goal and decision difficulty on perceptions of minimize effort pursuit during search (F(4, 531) = 1.49, p = .21). There was no main effect of decision difficulty (F(2, 531) = .309, p = .74). There was a main effect of process goal (F(2, 531) = 51.02, p < .001; = .02) such that participants in minimize effort condition (M = 6.64, SD = 2.34) reported trying to minimize effort to a greater extent than participants in the baseline (M = 4.14, SD = 2.58; F(1, 531) = 83.82, p < .001; = .01) and maximize accuracy (M = 4.38, SD = 2.81; F(1, 531) = 68.64, p < .001; = .01) conditions.
-There was no interaction between process goal and decision difficulty on perceptions of maximize accuracy abandonment (F(4, 531) = 1.06, p = .38). There was no main effect of decision difficulty (F(2, 531) = 1.59, p = .21). There was a main effect of process goal (F(2, 531) = 19.79, p < .001; = .07) such that participants in the minimize effort condition (M = 6.06, SD = 2.42) reported giving up on maximize accuracy to a greater extent than participants in the baseline (M = 4.66, SD = 2.82; F(1, 531) = 24.88, p < .001; = .04) and maximize accuracy (M = 4.43, SD = 2.74; F(1, 531) = 33.80, p < .001; = .06) conditions.
-There was no interaction between process goal and decision difficulty on perceptions of maximize accuracy abandonment (F(4, 531) = .744, p = .56). There was no main effect of decision difficulty (F(2, 531) = 2.10, p = .12) or process goal (F(2, 531) = .91, p = .41).
-Choice Shares
+
+## Manipulation Check
+
+[]{#_Toc40265087 .anchor}**Decision Process Goal (maximize accuracy).** We measured the focus on maximizing accuracy ("During the movie choice task, how focused were you in being as accurate as possible in your choice?" 1 = not at all focused, 9 = very focused**).** There was a main effect of the decision process goal manipulation on the maximize accuracy focus measure (*F*(2, 531) = 31.77, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .10). As expected, participants in the maximize accuracy condition (*M* = 7.51, *SD* = 1.87) were more focused on being accurate than participants in the baseline process goal (*M* = 6.64, *SD* = 2.20; *F*(1, 531) = 14.22, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .02) and minimize effort process goal conditions (*M* = 5.67, *SD* = 2.46; *F*(1, 531) = 63.48, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .11). In addition, participants in the baseline process goal condition were more focused on being accurate than participants in the minimize effort process goal condition (*F*(1, 531) = 17.61, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .03). There was no main effect of decision difficulty (*F*(2, 531) = .77, *p* = .87) or interaction (*F*(4, 531) = .31, *p* = .87). Thus, people became more focused on being accurate when a maximize accuracy goal was active than when no decision process goal or a minimize effort process goal was active.
+
+[]{#_Toc40265088 .anchor}**Decision Process Goal (minimize effort).** We measured the focus on minimizing effort ("During the movie choice task, how focused were you in putting in as less effort as possible in your choice?" 1 = not at all focused, 9 = very focused). There was a main effect of the decision process goal manipulation on the minimize effort focus measure (*F*(2, 531) = 38.38, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .12). As expected, participants in the minimize effort condition (*M* = 6.94, *SD* = 2.15) were more focused on minimizing effort than participants in the baseline process goal (*M* = 4.66, *SD* = 2.86; *F*(1, 531) = 64.41, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .11) and maximize accuracy process goal conditions (*M* = 4.94, *SD* = 3.00; *F*(1, 531) = 49.79, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .08). There was no difference between participants in the baseline process goal and maximize accuracy process goal conditions (*F*(1, 531) = .94, *p* = .33). There was no main effect of decision difficulty (*F*(2, 531) = .47, *p* = .63) or interaction (*F*(4, 531) = 1.64, *p* = .16). Thus, people became more focused on minimizing effort when a minimize effort goal was active than when no decision process goal or a maximize accuracy goal was active.
+
+[]{#_Toc40265089 .anchor}**Decision Difficulty.** As in the previous experiments, d*ecision difficulty* was measured by asking participants: "Please indicate your opinion about the car (vacation package) decision task" using a four-item, nine-point semantic differential scale: "very easy/very difficult," "not problematic at all/very problematic," "very simple/very complex," "not complicated at all/very complicated" (*α* = .91; Laroche et al., 2005). There was a main effect of the decision difficulty manipulation on the decision difficulty measure (*F*(2, 531) = 84.35, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .24). Participants in the difficult condition (*M* = 5.69, *SD* = 2.08) perceived the decision to be more difficult than participants in the moderate (*M* = 3.93, *SD* = 2.19; *F*(1, 531) = 69.19, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .11) and easy (*M* = 3.00, *SD* = 1.67; *F*(1, 531) = 164.05, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .23) conditions. In addition, participants in the moderate condition perceived the decision to be more difficult than participants in the easy condition (*F*(1, 531) = 20.07, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .04). There was no main effect of process goal (*F*(2, 531) = .79, *p* = .45) or interaction (*F*(4, 531) = 1.19, *p* = .32). Thus, the larger the amount of information, the more difficult the decision was perceived to be.
+
+[]{#_Toc40265090 .anchor}**Process Goal Abandonment.** To assess decision process goal abandonment, we asked participants: "To what extent were you trying to maximize accuracy (minimize effort) during the movie search process?" (1 = not at all, 9 = very much), and "To what extent did you give up on maximizing accuracy (minimizing effort) during the movie search process?" (1 = not at all, 9 = very much).
+
+There was no interaction between process goal and decision difficulty on perceptions of maximize accuracy pursuit during search (*F*(4, 531) = .451, *p* = .77). There was no main effect of decision difficulty (*F*(2, 531) = .016, *p* = .98). There was a main effect of process goal (*F*(2, 531) = 83.19, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .24) such that participants in the maximize accuracy condition (*M* = 7.27, *SD* = 1.80) reported trying to maximize accuracy to a greater extent than participants in the baseline (*M* = 5.88, *SD* = 1.99; *F*(1, 531) = 39.84, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .07) and minimize effort (*M* = 4.42, *SD* = 2.42; *F*(1, 531) = 166.36, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .24) conditions.
+
+There was no interaction between process goal and decision difficulty on perceptions of minimize effort pursuit during search (*F*(4, 531) = 1.49, *p* = .21). There was no main effect of decision difficulty (*F*(2, 531) = .309, *p* = .74). There was a main effect of process goal (*F*(2, 531) = 51.02, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .02) such that participants in minimize effort condition (*M* = 6.64, *SD* = 2.34) reported trying to minimize effort to a greater extent than participants in the baseline (*M* = 4.14, *SD* = 2.58; *F*(1, 531) = 83.82, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .01) and maximize accuracy (*M* = 4.38, *SD* = 2.81; *F*(1, 531) = 68.64, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .01) conditions.
+
+There was no interaction between process goal and decision difficulty on perceptions of maximize accuracy abandonment (*F*(4, 531) = 1.06, *p* = .38). There was no main effect of decision difficulty (*F*(2, 531) = 1.59, *p* = .21). There was a main effect of process goal (*F*(2, 531) = 19.79, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .07) such that participants in the minimize effort condition (*M* = 6.06, *SD* = 2.42) reported giving up on maximize accuracy to a greater extent than participants in the baseline (*M* = 4.66, *SD* = 2.82; *F*(1, 531) = 24.88, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .04) and maximize accuracy (*M* = 4.43, *SD* = 2.74; *F*(1, 531) = 33.80, *p* \< .001; ${\widehat{\omega}}_{p}^{2}$ = .06) conditions.
+
+There was no interaction between process goal and decision difficulty on perceptions of maximize accuracy abandonment (*F*(4, 531) = .744, *p* = .56). There was no main effect of decision difficulty (*F*(2, 531) = 2.10, *p* = .12) or process goal (*F*(2, 531) = .91, *p* = .41).
+
+## Choice Shares 
+
 The choice shares per condition for experiment 5 are presented in table MDA-G 1. The choice shares show that the options had a similar level of attractiveness, so that there were not objectively dominant or dominated options.
-**Table MDA-J 1**
-(METHODOLOGICAL DETAIL APPENDIX J – 1)
 
-EXPERIMENT 5 – CHOICE SHARES PER CONDITION
+TABLE MDA-J 1 (METHODOLOGICAL DETAIL APPENDIX J -- 1)
 
-Maximize Accuracy
+EXPERIMENT 5 -- CHOICE SHARES PER CONDITION
 
-Small
-Moderate
-Large
-Mission Impossible
-13.3%
-11.7%
-16.7%
-Fast Color
-5.0%
-3.3%
-3.3%
-The Good Guy
-0.0%
-3.3%
-8.3%
-All Square
-5.0%
-3.3%
-0.0%
-High-Rise
-1.7%
-0.0%
-3.3%
-What Men Want
-5.0%
-1.7%
-6.7%
-Fighting With My Family
-5.0%
-0.0%
-1.7%
-The Commuter
-6.7%
-3.3%
-6.7%
-Arbitrage
-1.7%
-5.0%
-1.7%
-Dog Days
-5.0%
-8.3%
-0.0%
-The Prince
-1.7%
-3.3%
-3.3%
-I Kill Giants
-1.7%
-5.0%
-5.0%
-Along With the Gods The Two Worlds
-6.7%
-3.3%
-5.0%
-The Sisters Brothers
-1.7%
-5.0%
-5.0%
-Changeland
-0.0%
-6.7%
-1.7%
-Running With the Devil
-1.7%
-3.3%
-1.7%
-The Lincoln Lawyer
-11.7%
-1.7%
-6.7%
-Leap Year
-5.0%
-3.3%
-5.0%
-And So It Goes
-6.7%
-1.7%
-3.3%
-Backtrace
-0%
-0%
-0%
-Daylights End
-1.7%
-3.3%
-5.0%
-Under the Tree
-1.7%
-6.7%
-1.7%
-The Osiris Child
-5.0%
-1.7%
-3.3%
-The Colony
-1.7%
-5.0%
-3.3%
-Black Rock
-5.0%
-10.0%
-1.7%
++-------------------------------------+--------------------------------+
+|                                     | Maximize Accuracy              |
++:===================================:+:========:+:========:+:========:+
+|                                     | Small    | Moderate | Large    |
++-------------------------------------+----------+----------+----------+
+| Mission Impossible                  | 13.3%    | 11.7%    | 16.7%    |
++-------------------------------------+----------+----------+----------+
+| Fast Color                          | 5.0%     | 3.3%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| The Good Guy                        | 0.0%     | 3.3%     | 8.3%     |
++-------------------------------------+----------+----------+----------+
+| All Square                          | 5.0%     | 3.3%     | 0.0%     |
++-------------------------------------+----------+----------+----------+
+| High-Rise                           | 1.7%     | 0.0%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| What Men Want                       | 5.0%     | 1.7%     | 6.7%     |
++-------------------------------------+----------+----------+----------+
+| Fighting With My Family             | 5.0%     | 0.0%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| The Commuter                        | 6.7%     | 3.3%     | 6.7%     |
++-------------------------------------+----------+----------+----------+
+| Arbitrage                           | 1.7%     | 5.0%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| Dog Days                            | 5.0%     | 8.3%     | 0.0%     |
++-------------------------------------+----------+----------+----------+
+| The Prince                          | 1.7%     | 3.3%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| I Kill Giants                       | 1.7%     | 5.0%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| Along With the Gods The Two Worlds  | 6.7%     | 3.3%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| The Sisters Brothers                | 1.7%     | 5.0%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| Changeland                          | 0.0%     | 6.7%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| Running With the Devil              | 1.7%     | 3.3%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| The Lincoln Lawyer                  | 11.7%    | 1.7%     | 6.7%     |
++-------------------------------------+----------+----------+----------+
+| Leap Year                           | 5.0%     | 3.3%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| And So It Goes                      | 6.7%     | 1.7%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Backtrace                           | 0%       | 0%       | 0%       |
++-------------------------------------+----------+----------+----------+
+| Daylights End                       | 1.7%     | 3.3%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| Under the Tree                      | 1.7%     | 6.7%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| The Osiris Child                    | 5.0%     | 1.7%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| The Colony                          | 1.7%     | 5.0%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Black Rock                          | 5.0%     | 10.0%    | 1.7%     |
++-------------------------------------+----------+----------+----------+
+|                                     |          |          |          |
++-------------------------------------+----------+----------+----------+
+|                                     | Baseline                       |
++-------------------------------------+----------+----------+----------+
+|                                     | Small    | Moderate | Large    |
++-------------------------------------+----------+----------+----------+
+| Mission Impossible                  | 13.9%    | 4.9%     | 11.7%    |
++-------------------------------------+----------+----------+----------+
+| Fast Color                          | 3.9%     | 3.3%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| The Good Guy                        | 3.9%     | 8.2%     | 8.3%     |
++-------------------------------------+----------+----------+----------+
+| All Square                          | 2.8%     | 3.3%     | 0.0%     |
++-------------------------------------+----------+----------+----------+
+| High-Rise                           | 1.7%     | 1.6%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| What Men Want                       | 4.4%     | 3.3%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| Fighting With My Family             | 2.2%     | 4.9%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| The Commuter                        | 5.6%     | 0.0%     | 10.0%    |
++-------------------------------------+----------+----------+----------+
+| Arbitrage                           | 2.8%     | 9.8%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Dog Days                            | 4.4%     | 4.9%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| The Prince                          | 2.8%     | 1.6%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| I Kill Giants                       | 3.9%     | 1.6%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| Along With the Gods: The Two Worlds | 5.0%     | 4.9%     | 8.3%     |
++-------------------------------------+----------+----------+----------+
+| The Sisters Brothers                | 3.9%     | 1.6%     | 11.7%    |
++-------------------------------------+----------+----------+----------+
+| Changeland                          | 2.8%     | 6.6%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| Running With the Devil              | 2.2%     | 3.3%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| The Lincoln Lawyer                  | 6.7%     | 3.3%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Leap Year                           | 4.4%     | 6.6%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| And So It Goes                      | 3.9%     | 3.3%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Backtrace                           | 0%       | 1.6%     | 0.0%     |
++-------------------------------------+----------+----------+----------+
+| Daylights End                       | 3.3%     | 4.9%     | 5.0%     |
++-------------------------------------+----------+----------+----------+
+| Under the Tree                      | 3.3%     | 1.6%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+| The Osiris Child                    | 3.3%     | 8.2%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| The Colony                          | 3.3%     | 3.3%     | 0.0%     |
++-------------------------------------+----------+----------+----------+
+| Black Rock                          | 5.6%     | 3.3%     | 1.7%     |
++-------------------------------------+----------+----------+----------+
+|                                     |          |          |          |
++-------------------------------------+----------+----------+----------+
+|                                     |          |          |          |
++-------------------------------------+----------+----------+----------+
+|                                     | Minimize Effort                |
++-------------------------------------+----------+----------+----------+
+|                                     | Small    | Moderate | Large    |
++-------------------------------------+----------+----------+----------+
+| Mission Impossible                  | 6.8%     | 7.8%     | 11.5%    |
++-------------------------------------+----------+----------+----------+
+| Fast Color                          | 3.4%     | 3.9%     | 1.6%     |
++-------------------------------------+----------+----------+----------+
+| The Good Guy                        | 1.7%     | 6.1%     | 0.0%     |
++-------------------------------------+----------+----------+----------+
+| All Square                          | 0.0%     | 1.1%     | 6.6%     |
++-------------------------------------+----------+----------+----------+
+| High-Rise                           | 8.5%     | 3.9%     | 1.6%     |
++-------------------------------------+----------+----------+----------+
+| What Men Want                       | 3.4%     | 2.8%     | 1.6%     |
++-------------------------------------+----------+----------+----------+
+| Fighting With My Family             | 6.8%     | 4.4%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| The Commuter                        | 3.4%     | 4.4%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Arbitrage                           | 1.7%     | 5.0%     | 1.6%     |
++-------------------------------------+----------+----------+----------+
+| Dog Days                            | 5.1%     | 4.4%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| The Prince                          | 3.4%     | 2.2%     | 1.6%     |
++-------------------------------------+----------+----------+----------+
+| I Kill Giants                       | 5.1%     | 2.8%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Along With the Gods: The Two Worlds | 0.0%     | 4.4%     | 0.0%     |
++-------------------------------------+----------+----------+----------+
+| The Sisters Brothers                | 1.7%     | 5.0%     | 9.8%     |
++-------------------------------------+----------+----------+----------+
+| Changeland                          | 8.5%     | 6.7%     | 1.6%     |
++-------------------------------------+----------+----------+----------+
+| Running With the Devil              | 1.7%     | 3.3%     | 6.6%     |
++-------------------------------------+----------+----------+----------+
+| The Lincoln Lawyer                  | 1.7%     | 2.8%     | 6.6%     |
++-------------------------------------+----------+----------+----------+
+| Leap Year                           | 3.4%     | 3.9%     | 4.9%     |
++-------------------------------------+----------+----------+----------+
+| And So It Goes                      | 6.8%     | 4.4%     | 4.9%     |
++-------------------------------------+----------+----------+----------+
+| Backtrace                           | 3.4%     | 1.7%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Daylights End                       | 6.8%     | 5.6%     | 1.6%     |
++-------------------------------------+----------+----------+----------+
+| Under the Tree                      | 1.7%     | 1.7%     | 6.6%     |
++-------------------------------------+----------+----------+----------+
+| The Osiris Child                    | 5.1%     | 5.6%     | 6.6%     |
++-------------------------------------+----------+----------+----------+
+| The Colony                          | 6.8%     | 3.3%     | 3.3%     |
++-------------------------------------+----------+----------+----------+
+| Black Rock                          | 3.4%     | 2.8%     | 4.9%     |
++-------------------------------------+----------+----------+----------+
 
+## Time Measures
 
-Baseline
+An ANOVA revealed a significant interaction (*F*(4, 531) = 16.41, *p* \< .001,$\ \widehat{\omega}$~p~^2^ = .09). The patterns are similar to those observed on the number of options considered. Participants in the maximize accuracy - difficult condition (*M* = 67.75, *SD* = 74.31) spent less time during search than participants in the moderate condition (*M* = 100.57, *SD* = 83.99; *F*(1, 531) = 7.25, *p* = .007,$\ \widehat{\omega}$~p~^2^ = .01). The difference between participants in the maximize accuracy -- easy condition (*M* = 118.97, *SD* = 77.54) and participants in the moderate condition was directional, but not significant (*F*(1, 531) = 2.28, *p* = .13).
 
-Small
-Moderate
-Large
-Mission Impossible
-13.9%
-4.9%
-11.7%
-Fast Color
-3.9%
-3.3%
-5.0%
-The Good Guy
-3.9%
-8.2%
-8.3%
-All Square
-2.8%
-3.3%
-0.0%
-High-Rise
-1.7%
-1.6%
-1.7%
-What Men Want
-4.4%
-3.3%
-1.7%
-Fighting With My Family
-2.2%
-4.9%
-1.7%
-The Commuter
-5.6%
-0.0%
-10.0%
-Arbitrage
-2.8%
-9.8%
-3.3%
-Dog Days
-4.4%
-4.9%
-3.3%
-The Prince
-2.8%
-1.6%
-1.7%
-I Kill Giants
-3.9%
-1.6%
-1.7%
-Along With the Gods: The Two Worlds
-5.0%
-4.9%
-8.3%
-The Sisters Brothers
-3.9%
-1.6%
-11.7%
-Changeland
-2.8%
-6.6%
-5.0%
-Running With the Devil
-2.2%
-3.3%
-5.0%
-The Lincoln Lawyer
-6.7%
-3.3%
-3.3%
-Leap Year
-4.4%
-6.6%
-1.7%
-And So It Goes
-3.9%
-3.3%
-3.3%
-Backtrace
-0%
-1.6%
-0.0%
-Daylights End
-3.3%
-4.9%
-5.0%
-Under the Tree
-3.3%
-1.6%
-1.7%
-The Osiris Child
-3.3%
-8.2%
-3.3%
-The Colony
-3.3%
-3.3%
-0.0%
-Black Rock
-5.6%
-3.3%
-1.7%
+The difference between participants in the baseline process goal - difficult condition (*M* = 47.87, *SD* = 43.12) and participants in the moderate condition was directional, but not significant (*M* = 67.52, *SD* = 76.30; *F*(1, 531) = 2.58, *p* = .11). Participants in the baseline process goal -- easy condition (*M* = 95.07, *SD* = 78.57) spent more time on search than participants in the moderate condition was significant (*F*(1, 531) = 5.15, *p* = .024, ${\widehat{\omega}}_{p}^{2}$ = .01).
 
+Participants in the minimize effort - difficult condition (*M* = 89.39, *SD* = 63.39) spent less time during search than participants in the moderate condition (*M* = 61.63, *SD* = 53.57; *F*(1, 531) = 5.14, *p* = .024,$\ \widehat{\omega}$~p~^2^ = .01). Participants in the minimize effort -- easy condition (*M* = 28.17, *SD* = 27.81) spent more time on search than participants in the moderate condition was significant (*F*(1, 531) = 7.59, *p* = .006,$\ \widehat{\omega}$~p~^2^ = .01).
 
-Minimize Effort
-
-Small
-Moderate
-Large
-Mission Impossible
-6.8%
-7.8%
-11.5%
-Fast Color
-3.4%
-3.9%
-1.6%
-The Good Guy
-1.7%
-6.1%
-0.0%
-All Square
-0.0%
-1.1%
-6.6%
-High-Rise
-8.5%
-3.9%
-1.6%
-What Men Want
-3.4%
-2.8%
-1.6%
-Fighting With My Family
-6.8%
-4.4%
-3.3%
-The Commuter
-3.4%
-4.4%
-3.3%
-Arbitrage
-1.7%
-5.0%
-1.6%
-Dog Days
-5.1%
-4.4%
-3.3%
-The Prince
-3.4%
-2.2%
-1.6%
-I Kill Giants
-5.1%
-2.8%
-3.3%
-Along With the Gods: The Two Worlds
-0.0%
-4.4%
-0.0%
-The Sisters Brothers
-1.7%
-5.0%
-9.8%
-Changeland
-8.5%
-6.7%
-1.6%
-Running With the Devil
-1.7%
-3.3%
-6.6%
-The Lincoln Lawyer
-1.7%
-2.8%
-6.6%
-Leap Year
-3.4%
-3.9%
-4.9%
-And So It Goes
-6.8%
-4.4%
-4.9%
-Backtrace
-3.4%
-1.7%
-3.3%
-Daylights End
-6.8%
-5.6%
-1.6%
-Under the Tree
-1.7%
-1.7%
-6.6%
-The Osiris Child
-5.1%
-5.6%
-6.6%
-The Colony
-6.8%
-3.3%
-3.3%
-Black Rock
-3.4%
-2.8%
-4.9%
-
-Time Measures
-An ANOVA revealed a significant interaction (F(4, 531) = 16.41, p < .001,ω̂²_p = .09). The patterns are similar to those observed on the number of options considered. Participants in the maximize accuracy - difficult condition (M = 67.75, SD = 74.31) spent less time during search than participants in the moderate condition (M = 100.57, SD = 83.99; F(1, 531) = 7.25, p = .007,ω̂²_p = .01). The difference between participants in the maximize accuracy – easy condition (M = 118.97, SD = 77.54) and participants in the moderate condition was directional, but not significant (F(1, 531) = 2.28, p = .13).
-The difference between participants in the baseline process goal - difficult condition (M = 47.87, SD = 43.12) and participants in the moderate condition was directional, but not significant (M = 67.52, SD = 76.30; F(1, 531) = 2.58, p = .11). Participants in the baseline process goal – easy condition (M = 95.07, SD = 78.57) spent more time on search than participants in the moderate condition was significant (F(1, 531) = 5.15, p = .024, = .01).
-Participants in the minimize effort - difficult condition (M = 89.39, SD = 63.39) spent less time during search than participants in the moderate condition (M = 61.63, SD = 53.57; F(1, 531) = 5.14, p = .024,ω̂²_p = .01). Participants in the minimize effort – easy condition (M = 28.17, SD = 27.81) spent more time on search than participants in the moderate condition was significant (F(1, 531) = 7.59, p = .006,ω̂²_p = .01).
-
-
-## Appendix K: Methodological Details And Additional Analyses For Experiment 6
+# APPENDIX K: METHODOLOGICAL DETAILS AND ADDITIONAL ANALYSES FOR EXPERIMENT 6 
 
 This methodological detail appendix contains information on the process goal accessibility prime manipulation, manipulation checks for the decision process goals and decision difficulty, and time measures.
-Process Goal Accessibility Prime Manipulations
-8 Options – Effort/Accuracy Trade-Off Not Salient. “Imagine you are scrolling through your preferred movie streaming service searching for a movie to watch. We want you to make a choice among 8 movies. You will enter a random drawing for a 1/100 chance of winning a gift card to watch this movie (we will contact winners after data collection is finished via the bonus payment feature). Hence, please choose as you would do in a real life situation. We encourage you to search for additional information about the movies (using a new tab) if you want. Please take your time!”
-50 Options – Effort/Accuracy Trade-Off Salient. “Imagine you are scrolling through your preferred movie streaming service searching for a movie to watch. We want you to make a choice among 50 movies. You will enter a random drawing for a 1/100 chance of winning a gift card to watch this movie (we will contact winners after data collection is finished via the bonus payment feature). Hence, please choose as you would do in a real life situation. We encourage you to search for additional information about the movies (using a new tab) if you want. Please take your time!”
-Stimuli for Process Goal Accessibility Prime Manipulations
+
+## Process Goal Accessibility Prime Manipulations
+
+[]{#_Toc40265096 .anchor}**8 Options -- Effort/Accuracy Trade-Off Not Salient.** "Imagine you are scrolling through your preferred movie streaming service searching for a movie to watch. We want you to make a choice among 8 movies. You will enter a random drawing for a 1/100 chance of winning a gift card to watch this movie (we will contact winners after data collection is finished via the bonus payment feature). Hence, please choose as you would do in a real life situation. We encourage you to search for additional information about the movies (using a new tab) if you want. Please take your time!"
+
+[]{#_Toc47432333 .anchor}**50 Options -- Effort/Accuracy Trade-Off Salient.** "Imagine you are scrolling through your preferred movie streaming service searching for a movie to watch. We want you to make a choice among 50 movies. You will enter a random drawing for a 1/100 chance of winning a gift card to watch this movie (we will contact winners after data collection is finished via the bonus payment feature). Hence, please choose as you would do in a real life situation. We encourage you to search for additional information about the movies (using a new tab) if you want. Please take your time!"
+
+## Stimuli for Process Goal Accessibility Prime Manipulations
+
 Below are the 50 movies. Participants in the trade-off not salient condition saw 8 options (randomly drawn) from the 50 movies. Participants in the trade-off salient condition saw the 50 options. All participants had to choose one of the options. The options were displayed in 8 columns and in random order. The options are resized in the methodological web appendix for conciseness.
 
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   ![](media/image76.jpeg){width="1.0in" height="1.5028346456692914in"}  ![](media/image77.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image78.jpeg){width="1.0in" height="1.5071303587051619in"}    ![](media/image79.jpeg){width="1.0in" height="1.5028346456692914in"}   ![](media/image80.jpeg){width="1.0in" height="1.502836832895888in"}
+  ---------------------------------------------------------------------- ---------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------- -----------------------------------------------------------------------
+   ![](media/image52.jpeg){width="1.0in" height="1.5071292650918635in"}  ![](media/image54.jpeg){width="1.0in" height="1.502836832895888in"}    ![](media/image81.jpeg){width="1.0in" height="1.502836832895888in"}     ![](media/image82.jpeg){width="1.0in" height="1.502836832895888in"}    ![](media/image83.jpeg){width="1.0in" height="1.5071292650918635in"}
 
-Manipulation Check
-Decision Difficulty. Decision difficulty was measured by asking participants: “Please indicate your opinion about the laptop decision task” using a four-item, nine-point semantic differential scale: “very easy/very difficult,” “not problematic at all/very problematic,” “very simple/very complex,” “not complicated at all/very complicated” (α = .95). There was a main effect of the decision difficulty manipulation on the decision difficulty measure (F(1, 588) = 94.72, p < .001, ω̂²_p = .14), such that participants in the difficult condition (M = 4.67, SD = 2.47) perceived the decision to be more difficult than participants in the easy condition (M = 2.83, SD = 2.14). There was no main effect of process goal accessibility prime (F(1, 588) = .001, p = .98) or decision process goal (F(2, 588) = 1.66, p = .19). These results indicate that the negative correlation made the decision more difficult.
-Decision Process Goal (maximize accuracy). We measured focus on maximizing accuracy (“During the [product category] choice task, how focused were you in being as accurate as possible in your choice?” 1 = not at all focused, 9 = very focused). There was a main effect of the decision process goal manipulation on the maximize accuracy measure (F(2, 588) = 93.12, p < .001, ω̂²_p = .24). Participants in the maximize accuracy condition (M = 8.10, SD = 1.14) were more focused on being accurate than participants in the baseline process goal (M = 6.24, SD = 2.56; F(1, 588) = 67.14, p < .001, ω̂²_p = .10) and minimize effort process goal conditions (M = 5.02, SD = 2.76; F(1, 588) = 184.10, p < .001, ω̂²_p = .24). Participants in the baseline process goal condition were more focused on being accurate than participants in the minimize effort process goal condition (F(1, 588) = 28.88, p < .001, ω̂²_p = .05). There was no main effect of decision difficulty (F(1, 588) = .105, p = .75) or process goal accessibility prime (F(1, 588) = 1.49, p = .22). Thus, people become more focused on being accurate when a maximize accuracy goal was active than when no decision process goal or a minimize effort process goal was active.
-Decision Process Goal (minimize effort). We measured focus on minimizing effort (“During the [product category] choice task, how focused were you in putting in as less effort as possible in your choice?” 1 = not at all focused, 9 = very focused). There was a main effect of the decision process goal manipulation on the minimize effort measure (F(2, 588) = 55.36, p < .001, ω̂²_p = .16). Participants in the minimize effort condition (M = 6.66, SD = 2.22) were more focused on minimizing effort than participants in the baseline process goal (M = 4.81, SD = 2.87; F(1, 588) = 47.75, p < .001, ω̂²_p = .07) and maximize accuracy process goal conditions (M = 3.90, SD = 2.91; F(1, 588) = 106.86, p < .001, ω̂²_p = .15). Participants in the maximize accuracy condition were less focused on minimizing effort than participants in the baseline decision process goal condition (F(1, 588) = 11.74, p = .001, ω̂²_p = .02). There was no main effect of decision difficulty (F(1, 588) = .706, p = .40). There was a main effect of process goal accessibility prime (F(1, 588) = 4.91, p = .03) such that participants in the trade-off salient condition (M = 5.37, SD = 2.92) were more focused on minimizing effort than participants in trade-off not salient condition (M = 4.88, SD = 2.90). This effect was expected, as a more difficult decision should encourage a desire to minimize effort. Thus, people become more focused on minimizing effort when a minimize effort goal was active than when no decision process goal or a maximize accuracy goal was active.
-Effort-Accuracy Trade-Off Focus. We measured the extent to which participants focused on the effort-accuracy tradeoff during search (α = .78) using three items: “To which extent did try to balance between maximizing accuracy and minimizing effort during the laptop search process?”, “To which extent did you focus on the trade-off between maximizing accuracy and minimizing effort during the laptop search process?”, and “To which extent did you consider the trade-off between searching for the best option available and searching for an option that was good enough?” (1 = not at all, 9 = very much).
-There was a main effect of the process goal accessibility manipulation on the trade-off measure (F(1, 588) = 98.48, p < .001, ω̂²_p = .14), such that participants in the trade-off salient condition (M = 6.29, SD = 1.98) were more focused on the effort-accuracy trade-off during the choice task than participants in the trade-off not salient condition (M = 4.88, SD = 1.54). This indicated that the process goal accessibility manipulation was successful. As expected, there was also a main effect of the decision process goal manipulation on the trade-off measure (F(2, 588) = 16.72, p < .001, ω̂²_p = .05), such that participants in the baseline decision process goal (M = 6.15, SD = 1.64) were more focused on the effort-accuracy trade-off than participants in the maximize accuracy (M = 5.21, SD = 1.97; F(1, 588) = 29.96, p < .001, ω̂²_p = .09) and minimize effort (M = 5.40, SD = 1.96; F(1, 588) = 19.15, p < .001, ω̂²_p = .06) conditions. This indicated that people without a deliberately manipulated decision process goal naturally considered the effort/accuracy trade-off. There was no main effect of decision difficulty (F(1, 588) = .16, p = .69).
-Process Goal Abandonment. To assess decision process goal abandonment, we asked participants: “To what extent were you trying to maximize accuracy (minimize effort) during the movie search process?” (1 = not at all, 9 = very much), and “To what extent did you give up on maximizing accuracy (minimizing effort) during the movie search process?” (1 = not at all, 9 = very much).
-There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of maximize accuracy pursuit during search (F(2, 588) = 1.96, p = .14). There was no decision difficulty by process goal accessibility prime interaction (F(1, 588) = .079, p = .78). There was no decision difficulty by process goal interaction (F(2, 588) = 1.10, p = .34). There was no main effect of decision difficulty (F(1, 588) = .60, p = .44).
-There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of minimize effort pursuit during search (F(2, 588) = .23, p = .79). There was no decision difficulty by process goal accessibility prime interaction (F(1, 588) = .29, p = .59). There was no decision difficulty by process goal interaction (F(2, 588) = .04, p = .96). There was no main effect of decision difficulty (F(1, 588) = 1.13, p = .29).
-There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of maximize accuracy abandonment (F(2, 588) = .67, p = .51). There was no decision difficulty by process goal accessibility prime interaction (F(1, 588) = 1.83, p = .18). There was no decision difficulty by process goal interaction (F(2, 588) = 1.48, p = .23). There was no main effect of decision difficulty (F(1, 588) = 2.10, p = .15).
-There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of minimize effort abandonment (F(2, 588) = .38, p = .68). There was no decision difficulty by process goal accessibility prime interaction (F(1, 588) = 2.06, p = .15). There was no decision difficulty by process goal interaction (F(2, 588) = 1.56, p = .21). There was no main effect of decision difficulty (F(1, 588) = 2.24, p = .14).
+   ![](media/image84.jpeg){width="1.0in" height="1.502836832895888in"}   ![](media/image85.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image86.jpeg){width="1.0in" height="1.5071292650918635in"}    ![](media/image87.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image37.jpeg){width="1.0in" height="1.502836832895888in"}
 
+   ![](media/image88.jpeg){width="1.0in" height="1.5071292650918635in"}  ![](media/image39.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image89.jpeg){width="1.0in" height="1.502836832895888in"}     ![](media/image90.jpeg){width="1.0in" height="1.502836832895888in"}    ![](media/image41.jpeg){width="1.0in" height="1.5071292650918635in"}
 
-Choice Shares
+   ![](media/image91.jpeg){width="1.0in" height="1.502836832895888in"}   ![](media/image92.jpeg){width="1.0in" height="1.502836832895888in"}    ![](media/image43.jpeg){width="1.0in" height="1.5071292650918635in"}    ![](media/image45.jpeg){width="1.0in" height="1.4414413823272092in"}   ![](media/image47.jpeg){width="1.0in" height="1.502836832895888in"}
+
+   ![](media/image49.jpeg){width="1.0in" height="1.502836832895888in"}   ![](media/image93.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image51.jpeg){width="1.0in" height="1.502836832895888in"}     ![](media/image94.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image56.jpeg){width="1.0in" height="1.5071292650918635in"}
+
+   ![](media/image53.jpeg){width="1.0in" height="1.502836832895888in"}   ![](media/image95.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image55.jpeg){width="1.0in" height="1.5111122047244094in"}    ![](media/image57.jpeg){width="1.0in" height="1.502836832895888in"}    ![](media/image34.jpeg){width="1.0in" height="1.5071292650918635in"}
+
+   ![](media/image96.jpeg){width="1.0in" height="1.502836832895888in"}   ![](media/image97.jpeg){width="1.0in" height="1.502836832895888in"}    ![](media/image36.jpeg){width="1.0in" height="1.5071292650918635in"}    ![](media/image38.jpeg){width="1.0in" height="1.447415791776028in"}    ![](media/image40.jpeg){width="1.0in" height="1.5071292650918635in"}
+
+   ![](media/image98.jpeg){width="1.0in" height="1.5071292650918635in"}  ![](media/image99.jpeg){width="1.0in" height="1.502836832895888in"}    ![](media/image42.jpeg){width="1.0in" height="1.5111122047244094in"}    ![](media/image44.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image100.jpeg){width="1.0in" height="1.502836832895888in"}
+
+   ![](media/image46.jpeg){width="1.0in" height="1.502836832895888in"}   ![](media/image48.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image101.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image50.jpeg){width="1.0in" height="1.5071292650918635in"}   ![](media/image102.jpeg){width="1.0in" height="1.5071292650918635in"}
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Manipulation Check
+
+[]{#_Toc40265100 .anchor}**Decision Difficulty.** *Decision difficulty* was measured by asking participants: "Please indicate your opinion about the laptop decision task" using a four-item, nine-point semantic differential scale: "very easy/very difficult," "not problematic at all/very problematic," "very simple/very complex," "not complicated at all/very complicated" (*α* *=* .95). There was a main effect of the decision difficulty manipulation on the decision difficulty measure (*F*(1, 588) = 94.72, *p* \< .001, $\widehat{\omega}$~p~^2^ = .14), such that participants in the difficult condition (*M* = 4.67, *SD* = 2.47) perceived the decision to be more difficult than participants in the easy condition (*M* = 2.83, *SD* = 2.14). There was no main effect of process goal accessibility prime (*F*(1, 588) = .001, *p* = .98) or decision process goal (*F*(2, 588) = 1.66, *p* = .19). These results indicate that the negative correlation made the decision more difficult.
+
+[]{#_Toc40265101 .anchor}**Decision Process Goal (maximize accuracy).** We measured focus on maximizing accuracy ("During the \[product category\] choice task, how focused were you in being as accurate as possible in your choice?" 1 = not at all focused, 9 = very focused). There was a main effect of the decision process goal manipulation on the maximize accuracy measure (*F*(2, 588) = 93.12, *p* \< .001, $\widehat{\omega}$~p~^2^ = .24). Participants in the maximize accuracy condition (*M* = 8.10, *SD* = 1.14) were more focused on being accurate than participants in the baseline process goal (*M* = 6.24, *SD* = 2.56; *F*(1, 588) = 67.14, *p* \< .001, $\widehat{\omega}$~p~^2^ = .10) and minimize effort process goal conditions (*M* = 5.02, *SD* = 2.76; *F*(1, 588) = 184.10, *p* \< .001, $\widehat{\omega}$~p~^2^ = .24). Participants in the baseline process goal condition were more focused on being accurate than participants in the minimize effort process goal condition (*F*(1, 588) = 28.88, *p* \< .001, $\widehat{\omega}$~p~^2^ = .05). There was no main effect of decision difficulty (*F*(1, 588) = .105, *p* = .75) or process goal accessibility prime (*F*(1, 588) = 1.49, *p* = .22). Thus, people become more focused on being accurate when a maximize accuracy goal was active than when no decision process goal or a minimize effort process goal was active.
+
+[]{#_Toc40265102 .anchor}**Decision Process Goal (minimize effort).** We measured focus on minimizing effort ("During the \[product category\] choice task, how focused were you in putting in as less effort as possible in your choice?" 1 = not at all focused, 9 = very focused). There was a main effect of the decision process goal manipulation on the minimize effort measure (*F*(2, 588) = 55.36, *p* \< .001, $\widehat{\omega}$~p~^2^ = .16). Participants in the minimize effort condition (*M* = 6.66, *SD* = 2.22) were more focused on minimizing effort than participants in the baseline process goal (*M* = 4.81, *SD* = 2.87; *F*(1, 588) = 47.75, *p* \< .001, $\widehat{\omega}$~p~^2^ = .07) and maximize accuracy process goal conditions (*M* = 3.90, *SD* = 2.91; *F*(1, 588) = 106.86, *p* \< .001, $\widehat{\omega}$~p~^2^ = .15). Participants in the maximize accuracy condition were less focused on minimizing effort than participants in the baseline decision process goal condition (*F*(1, 588) = 11.74, *p* = .001, $\widehat{\omega}$~p~^2^ = .02). There was no main effect of decision difficulty (*F*(1, 588) = .706, *p* = .40). There was a main effect of process goal accessibility prime (*F*(1, 588) = 4.91, *p* = .03) such that participants in the trade-off salient condition (*M* = 5.37, *SD* = 2.92) were more focused on minimizing effort than participants in trade-off not salient condition (*M* = 4.88, *SD* = 2.90). This effect was expected, as a more difficult decision should encourage a desire to minimize effort. Thus, people become more focused on minimizing effort when a minimize effort goal was active than when no decision process goal or a maximize accuracy goal was active.
+
+[]{#_Toc40265103 .anchor}**Effort-Accuracy Trade-Off Focus.** We measured the extent to which participants focused on the effort-accuracy tradeoff during search (*α =* .78) using three items: "To which extent did try to balance between maximizing accuracy and minimizing effort during the laptop search process?", "To which extent did you focus on the trade-off between maximizing accuracy and minimizing effort during the laptop search process?", and "To which extent did you consider the trade-off between searching for the best option available and searching for an option that was good enough?" (1 = not at all, 9 = very much).
+
+There was a main effect of the process goal accessibility manipulation on the trade-off measure (*F*(1, 588) = 98.48, *p* \< .001, $\widehat{\omega}$~p~^2^ = .14), such that participants in the trade-off salient condition (*M* = 6.29, *SD* = 1.98) were more focused on the effort-accuracy trade-off during the choice task than participants in the trade-off not salient condition (*M* = 4.88, *SD* = 1.54). This indicated that the process goal accessibility manipulation was successful. As expected, there was also a main effect of the decision process goal manipulation on the trade-off measure (*F*(2, 588) = 16.72, *p* \< .001, $\widehat{\omega}$~p~^2^ = .05), such that participants in the baseline decision process goal (*M* = 6.15, *SD* = 1.64) were more focused on the effort-accuracy trade-off than participants in the maximize accuracy (*M* = 5.21, *SD* = 1.97; *F*(1, 588) = 29.96, *p* \< .001, $\widehat{\omega}$~p~^2^ = .09) and minimize effort (*M* = 5.40, *SD* = 1.96; *F*(1, 588) = 19.15, p \< .001, $\widehat{\omega}$~p~^2^ = .06) conditions. This indicated that people without a deliberately manipulated decision process goal naturally considered the effort/accuracy trade-off. There was no main effect of decision difficulty (*F*(1, 588) = .16, *p* = .69).
+
+[]{#_Toc40265104 .anchor}**Process Goal Abandonment.** To assess decision process goal abandonment, we asked participants: "To what extent were you trying to maximize accuracy (minimize effort) during the movie search process?" (1 = not at all, 9 = very much), and "To what extent did you give up on maximizing accuracy (minimizing effort) during the movie search process?" (1 = not at all, 9 = very much).
+
+There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of maximize accuracy pursuit during search (*F*(2, 588) = 1.96, *p* = .14). There was no decision difficulty by process goal accessibility prime interaction (*F*(1, 588) = .079, *p* = .78). There was no decision difficulty by process goal interaction (*F*(2, 588) = 1.10, *p* = .34). There was no main effect of decision difficulty (*F*(1, 588) = .60, *p* = .44).
+
+There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of minimize effort pursuit during search (*F*(2, 588) = .23, *p* = .79). There was no decision difficulty by process goal accessibility prime interaction (*F*(1, 588) = .29, *p* = .59). There was no decision difficulty by process goal interaction (*F*(2, 588) = .04, *p* = .96). There was no main effect of decision difficulty (*F*(1, 588) = 1.13, *p* = .29).
+
+There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of maximize accuracy abandonment (*F*(2, 588) = .67, *p* = .51). There was no decision difficulty by process goal accessibility prime interaction (*F*(1, 588) = 1.83, *p* = .18). There was no decision difficulty by process goal interaction (*F*(2, 588) = 1.48, *p* = .23). There was no main effect of decision difficulty (*F*(1, 588) = 2.10, *p* = .15).
+
+There was no process goal accessibility prime by process goal by decision difficulty interaction on perceptions of minimize effort abandonment (*F*(2, 588) = .38, *p* = .68). There was no decision difficulty by process goal accessibility prime interaction (*F*(1, 588) = 2.06, *p* = .15). There was no decision difficulty by process goal interaction (*F*(2, 588) = 1.56, *p* = .21). There was no main effect of decision difficulty (*F*(1, 588) = 2.24, *p* = .14).
+
+## Choice Shares 
+
 We note that the laptop options are listed from dominated to dominant options in the ease columns. Thus, although participants do not necessarily see all the options, the higher shares indicate that these options are more likely to be chosen (provided they appear).
 
-Trade-Off Not Salient
-
-Maximize Accuracy
-Baseline (No Goal)
-Minimize Effort
-
-Ease
-Difficulty
-Ease
-Difficulty
-Ease
-Difficulty
-UTZ
-0.0%
-14.0%
-2.0%
-16.0%
-4.0%
-14.0%
-MPS
-2.0%
-0.0%
-0.0%
-8.0%
-4.0%
-6.0%
-YZZ
-2.0%
-0.0%
-2.0%
-4.0%
-2.0%
-12.0%
-NPS
-2.0%
-0.0%
-2.0%
-8.0%
-2.0%
-2.0%
-MGS
-4.0%
-10.0%
-2.0%
-0.0%
-0.0%
-2.0%
-HPE
-0.0%
-2.0%
-0.0%
-12.0%
-6.0%
-2.0%
-YMM
-2.0%
-4.0%
-0.0%
-2.0%
-0.0%
-2.0%
-XPT
-2.0%
-18.0%
-2.0%
-6.0%
-2.0%
-12.0%
-XPX
-8.0%
-6.0%
-2.0%
-2.0%
-12.0%
-6.0%
-YZP
-4.0%
-6.0%
-14.0%
-14.0%
-10.0%
-12.0%
-NPP
-6.0%
-2.0%
-10.0%
-10.0%
-0.0%
-2.0%
-UXT
-6.0%
-10.0%
-8.0%
-4.0%
-4.0%
-4.0%
-MPE
-8.0%
-4.0%
-16.0%
-0.0%
-16.0%
-10.0%
-UZS
-22.0%
-18.0%
-12.0%
-8.0%
-10.0%
-12.0%
-MPX
-32.0%
-6.0%
-28.0%
-6.0%
-28.0%
-2.0%
-
-Trade-Off Salient
-
-Maximize Accuracy
-Baseline (No Goal)
-Minimize Effort
-
-Ease
-Difficulty
-Ease
-Difficulty
-Ease
-Difficulty
-UTZ
-2.0%
-22.0%
-4.0%
-4.0%
-2.0%
-13.0%
-MPS
-2.0%
-4.0%
-2.0%
-8.0%
-0.0%
-4.3%
-YZZ
-2.0%
-6.0%
-4.0%
-6.0%
-4.0%
-5.0%
-NPS
-0.0%
-8.0%
-0.0%
-4.0%
-2.0%
-5.3%
-MGS
-6.0%
-4.0%
-2.0%
-2.0%
-4.0%
-4.0%
-HPE
-2.0%
-10.0%
-8.0%
-8.0%
-6.0%
-6.7%
-YMM
-4.0%
-6.0%
-0.0%
-4.0%
-4.0%
-4.0%
-XPT
-6.0%
-8.0%
-4.0%
-12.0%
-6.0%
-10.7%
-XPX
-2.0%
-4.0%
-6.0%
-8.0%
-4.0%
-5.7%
-YZP
-6.0%
-6.0%
-6.0%
-10.0%
-8.0%
-10.0%
-NPP
-10.0%
-6.0%
-14.0%
-8.0%
-0.0%
-6.0%
-UXT
-6.0%
-4.0%
-4.0%
-4.0%
-6.0%
-5.3%
-MPE
-2.0%
-4.0%
-10.0%
-10.0%
-12.0%
-6.0%
-UZS
-14.0%
-6.0%
-12.0%
-8.0%
-22.0%
-10.3%
-MPX
-36.0%
-2.0%
-24.0%
-4.0%
-20.0%
-3.7%
-
-Time Measures
-There was no three-way interaction between process goal accessibility prime, decision difficulty, and decision process goal (F(2, 588) = .184, p = .83). Although there was a main effect of decision process goal (F(2, 588) = 6.22, p = .01), the results are not consistent with the previous time measures results reported in this methodological detail appendix. While we did not make any predictions regarding the time measures, it is possible that some characteristics of the choice sets (e.g., presence of dominated/dominant alternatives, different levels of attribute trade-off, etc.) influenced the amount of time the participants spent on each page in different ways. We note that the correlation between the number of options considered and time spent during the search process is correlated (r = .483, p < .001). Thus, it could be that a larger sample is needed to observe time effects for an inter-attribute correlation manipulation of decision difficulty.
-
-
-## Appendix L: Means And Standard Deviations
-
-
-### Experiment 1
-
-
-Maximize Accuracy
-
-Minimize Effort
-
-
-Baseline
-
-Difficult
-
-Baseline
-
-Difficult
-
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Options
-9.07
-4.63
-
-7.24
-4.43
-
-4.63
-3.28
-
-6.72
-4.54
-
-Time
-60.92
-43.79
-
-42.08
-30.58
-
-26.51
-23.27
-
-43.74
-30.44
-
-Last Option
-0.38
-0.54
-
-0.43
-0.55
-
-0.67
-0.65
-
-0.35
-0.53
-
-Best Option
-1.49
-0.72
-
-1.21
-0.72
-
-1.46
-0.67
-
-1.25
-0.73
-
-### Experiment 2
-
-
-Baseline
-
-Easy
-
-Baseline
-
-Easy
-
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Options
-8.64
-5.07
-
-10.16
-4.3
-
-4.87
-3.4
-
-3.6
-2.83
-
-Time
-73.25
-63.09
-
-86.75
-57.47
-
-41.3
-36.31
-
-25.83
-23.32
-
-Last Option
-0.39
-0.53
-
-0.25
-0.46
-
-0.49
-0.7
-
-1.12
-0.64
-
-Best Option
-1.13
-0.78
-
-1.53
-0.69
-
-1.14
-0.76
-
-0.7
-0.73
-
-### Experiment 3
-
-
-Baseline
-
-One Goal (Prestige)
-
-One Goal (Thrift)
-
-Two Conflicting Goals
-
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Accuracy goal
-
-
-3a
-Options
-9.91
-4.56
-
-9.31
-4.75
-
-9.65
-4.55
-
-6.34
-4.23
-3a
-Uncertainty
-2.95
-1.37
-
-2.98
-1.27
-
-3.23
-1.29
-
-5.76
-2.22
-
-Effort goal
-
-
-Options
-4.24
-3.25
-
-4.01
-2.83
-
-3.78
-2.49
-
-5.64
-3.07
-
-Uncertainty
-3.59
-1.6
-
-3.3
-1.64
-
-3.47
-1.95
-
-5.27
-1.71
-
-### Experiment 4
-
-
-Baseline Goal
-
-One Goal (Prestige)
-
-One Goal (Fun)
-
-Two Comple-mentary Goals
-
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Accuracy goal
-
-
-4a
-Options
-7.59
-3.55
-
-8.69
-4.09
-
-8.54
-3.52
-
-9.9
-4.36
-4a
-Certainty
-6.76
-1.24
-
-6.99
-1.44
-
-7.27
-1.01
-
-7.62
-0.95
-
-Effort goal
-
-
-4b
-Options
-4.56
-2.9
-
-4.13
-2.79
-
-4.23
-2.6
-
-3.52
-1.74
-4b
-Certainty
-6.99
-1.44
-
-7.12
-1.38
-
-7.02
-1.41
-
-7.47
-1.19
-### Experiment 5
-
-
-Decision Difficulty/Ease
-
-Easy
-
-Moderate
-
-Difficult
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-Maximize Accuracy
-
-
-Options
-16.52
-8.99
-
-12.1
-9.11
-
-8.92
-7.93
-Uncertainty
-3.21
-1.72
-
-4.37
-2.59
-
-6.34
-1.51
-Time
-118.97
-77.54
-
-100.57
-83.99
-
-67.75
-74.31
-Last Option
-0.24
-0.43
-
-0.29
-0.46
-
-0.26
-0.44
-Best Option
-0.77
-0.43
-
-0.62
-0.49
-
-0.4
-0.49
-Baseline
-
-
-Options
-12.48
-8.52
-
-9.32
-7.38
-
-6.41
-4.99
-Uncertainty
-3.8
-1.91
-
-4.32
-1.91
-
-5.62
-2.06
-Time
-95.07
-78.57
-
-67.52
-76.3
-
-47.87
-43.12
-Last Option
-0.37
-0.49
-
-0.4
-0.5
-
-0.55
-0.5
-Best Option
-0.67
-0.47
-
-0.47
-0.5
-
-0.31
-0.46
-Minimize Effort
-
-
-Options
-4.43
-3.9
-
-7.45
-5.73
-
-10.61
-6.6
-Uncertainty
-3.63
-2.08
-
-4.65
-2.13
-
-5.71
-2.43
-Time
-28.17
-27.81
-
-61.63
-53.57
-
-89.39
-63.39
-Last Option
-0.67
-0.48
-
-0.45
-0.5
-
-0.26
-0.44
-Best Option
-0.38
-0.49
-
-0.38
-0.49
-
-0.37
-0.49
-### Experiment 6
-
-
-Trade-Off Not Salient
-
-Trade-Off Salient
-
-Easy
-
-Difficult
-
-Easy
-
-Difficult
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-
-Mean
-SD
-Maximize Accuracy
-
-
-Options
-8.02
-4.75
-
-5.96
-3.73
-
-7.84
-4.59
-
-5.58
-3.73
-Uncertainty
-3.9
-2.16
-
-5.64
-1.99
-
-4.68
-2.1
-
-5.63
-2.6
-Time
-83.17
-64.05
-
-70.56
-111.54
-
-77.66
-73.33
-
-61.37
-52.76
-Baseline
-
-
-Options
-7.14
-3.85
-
-4.88
-3.1
-
-6.94
-4.18
-
-4.86
-3.94
-Uncertainty
-3.67
-2.07
-
-4.76
-2.06
-
-4.06
-1.73
-
-5.17
-1.9
-Time
-63.48
-40.12
-
-58.37
-65.15
-
-85.37
-199.62
-
-66.94
-99.23
-Minimize Effort
-
-
-Options
-4.2
-1.76
-
-6.08
-4.65
-
-4.74
-3.22
-
-3.16
-1.25
-Uncertainty
-3.41
-1.72
-
-4.45
-2.52
-
-3.38
-1.92
-
-5.41
-2.28
-Time
-43.62
-41.24
-
-60.87
-56.25
-
-41.52
-38.22
-
-34.38
-29
-
-## Appendix M: Data Collection Plan and Exclusions
-
-### Experiment 1
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                       | Trade-Off Not Salient                                                                                                                                                         |
++:======:+:============:+:=============:+:=============:+:=============:+:=============:+:=============:+:=============:+:=============:+:=============:+:=============:+:=============:+:=============:+
+|                       | Maximize Accuracy                                             | Baseline (No Goal)                                            | Minimize Effort                               |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+|                       | Ease                          | Difficulty                    | Ease                          | Difficulty                    | Ease                          | Difficulty    |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| UTZ                   | 0.0%                          | 14.0%                         | 2.0%                          | 16.0%                         | 4.0%                          | 14.0%         |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| MPS                   | 2.0%                          | 0.0%                          | 0.0%                          | 8.0%                          | 4.0%                          | 6.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| YZZ                   | 2.0%                          | 0.0%                          | 2.0%                          | 4.0%                          | 2.0%                          | 12.0%         |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| NPS                   | 2.0%                          | 0.0%                          | 2.0%                          | 8.0%                          | 2.0%                          | 2.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| MGS                   | 4.0%                          | 10.0%                         | 2.0%                          | 0.0%                          | 0.0%                          | 2.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| HPE                   | 0.0%                          | 2.0%                          | 0.0%                          | 12.0%                         | 6.0%                          | 2.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| YMM                   | 2.0%                          | 4.0%                          | 0.0%                          | 2.0%                          | 0.0%                          | 2.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| XPT                   | 2.0%                          | 18.0%                         | 2.0%                          | 6.0%                          | 2.0%                          | 12.0%         |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| XPX                   | 8.0%                          | 6.0%                          | 2.0%                          | 2.0%                          | 12.0%                         | 6.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| YZP                   | 4.0%                          | 6.0%                          | 14.0%                         | 14.0%                         | 10.0%                         | 12.0%         |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| NPP                   | 6.0%                          | 2.0%                          | 10.0%                         | 10.0%                         | 0.0%                          | 2.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| UXT                   | 6.0%                          | 10.0%                         | 8.0%                          | 4.0%                          | 4.0%                          | 4.0%          |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| MPE                   | 8.0%                          | 4.0%                          | 16.0%                         | 0.0%                          | 16.0%                         | 10.0%         |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| UZS                   | 22.0%                         | 18.0%                         | 12.0%                         | 8.0%                          | 10.0%                         | 12.0%         |
++-----------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+| MPX                   | 32.0%                         | 6.0%                          | 28.0%                         | 6.0%                          | 28.0%                         | 2.0%          |
++--------+--------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+---------------+
+|        | Trade-Off Salient                                                                                                                                                                            |
++--------+--------------------------------------------------------------+---------------------------------------------------------------+---------------------------------------------------------------+
+|        | Maximize Accuracy                                            | Baseline (No Goal)                                            | Minimize Effort                                               |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+|        | Ease                         | Difficulty                    | Ease                          | Difficulty                    | Ease                          | Difficulty                    |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| UTZ    | 2.0%                         | 22.0%                         | 4.0%                          | 4.0%                          | 2.0%                          | 13.0%                         |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| MPS    | 2.0%                         | 4.0%                          | 2.0%                          | 8.0%                          | 0.0%                          | 4.3%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| YZZ    | 2.0%                         | 6.0%                          | 4.0%                          | 6.0%                          | 4.0%                          | 5.0%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| NPS    | 0.0%                         | 8.0%                          | 0.0%                          | 4.0%                          | 2.0%                          | 5.3%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| MGS    | 6.0%                         | 4.0%                          | 2.0%                          | 2.0%                          | 4.0%                          | 4.0%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| HPE    | 2.0%                         | 10.0%                         | 8.0%                          | 8.0%                          | 6.0%                          | 6.7%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| YMM    | 4.0%                         | 6.0%                          | 0.0%                          | 4.0%                          | 4.0%                          | 4.0%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| XPT    | 6.0%                         | 8.0%                          | 4.0%                          | 12.0%                         | 6.0%                          | 10.7%                         |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| XPX    | 2.0%                         | 4.0%                          | 6.0%                          | 8.0%                          | 4.0%                          | 5.7%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| YZP    | 6.0%                         | 6.0%                          | 6.0%                          | 10.0%                         | 8.0%                          | 10.0%                         |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| NPP    | 10.0%                        | 6.0%                          | 14.0%                         | 8.0%                          | 0.0%                          | 6.0%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| UXT    | 6.0%                         | 4.0%                          | 4.0%                          | 4.0%                          | 6.0%                          | 5.3%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| MPE    | 2.0%                         | 4.0%                          | 10.0%                         | 10.0%                         | 12.0%                         | 6.0%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| UZS    | 14.0%                        | 6.0%                          | 12.0%                         | 8.0%                          | 22.0%                         | 10.3%                         |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+| MPX    | 36.0%                        | 2.0%                          | 24.0%                         | 4.0%                          | 20.0%                         | 3.7%                          |
++--------+------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+
+## Time Measures
+
+There was no three-way interaction between process goal accessibility prime, decision difficulty, and decision process goal (*F*(2, 588) = .184, *p* = .83). Although there was a main effect of decision process goal (*F*(2, 588) = 6.22, *p* = .01), the results are not consistent with the previous time measures results reported in this methodological detail appendix. While we did not make any predictions regarding the time measures, it is possible that some characteristics of the choice sets (e.g., presence of dominated/dominant alternatives, different levels of attribute trade-off, etc.) influenced the amount of time the participants spent on each page in different ways. We note that the correlation between the number of options considered and time spent during the search process is correlated (*r* = .483, *p* \< .001). Thus, it could be that a larger sample is needed to observe time effects for an inter-attribute correlation manipulation of decision difficulty.
+
+**\**
+
+# APPENDIX L: MEANS AND STANDARD DEVIATIONS 
+
++----+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|    | **Experiment 1**                                                                                                                                     |
++:==:+===============+:========:+:========:+:========:+:==========:+:==========:+==========+:=========:+:=========:+:========:+:============:+:============:+
+|    |               | Maximize Accuracy                                        |          | Minimize Effort                                                |
++----+---------------+---------------------+----------+-------------------------+----------+-----------------------+----------+-----------------------------+
+|    |               | Baseline            |          | Difficult               |          | Baseline              |          | Difficult                   |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    |               | Mean     | SD       |          | Mean       | SD         |          | Mean      | SD        |          | Mean         | SD           |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Options       | 9.07     | 4.63     |          | 7.24       | 4.43       |          | 4.63      | 3.28      |          | 6.72         | 4.54         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Time          | 60.92    | 43.79    |          | 42.08      | 30.58      |          | 26.51     | 23.27     |          | 43.74        | 30.44        |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Last Option   | 0.38     | 0.54     |          | 0.43       | 0.55       |          | 0.67      | 0.65      |          | 0.35         | 0.53         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Best Option   | 1.49     | 0.72     |          | 1.21       | 0.72       |          | 1.46      | 0.67      |          | 1.25         | 0.73         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | **Experiment 2**                                                                                                                                     |
++----+---------------+---------------------+----------+-------------------------+----------+-----------------------+----------+-----------------------------+
+|    |               | Baseline            |          | Easy                    |          | Baseline              |          | Easy                        |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    |               | Mean     | SD       |          | Mean       | SD         |          | Mean      | SD        |          | Mean         | SD           |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Options       | 8.64     | 5.07     |          | 10.16      | 4.3        |          | 4.87      | 3.4       |          | 3.6          | 2.83         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Time          | 73.25    | 63.09    |          | 86.75      | 57.47      |          | 41.3      | 36.31     |          | 25.83        | 23.32        |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Last Option   | 0.39     | 0.53     |          | 0.25       | 0.46       |          | 0.49      | 0.7       |          | 1.12         | 0.64         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Best Option   | 1.13     | 0.78     |          | 1.53       | 0.69       |          | 1.14      | 0.76      |          | 0.7          | 0.73         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | **Experiment 3**                                                                                                                                     |
++----+---------------+---------------------+----------+-------------------------+----------+-----------------------+----------+-----------------------------+
+|    |               | Baseline            |          | One Goal (Prestige)     |          | One Goal (Thrift)     |          | Two Conflicting Goals       |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    |               | Mean     | SD       |          | Mean       | SD         |          | Mean      | SD        |          | Mean         | SD           |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Accuracy goal |          |          |          |            |            |          |           |           |          |              |              |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+| 3a | Options       | 9.91     | 4.56     |          | 9.31       | 4.75       |          | 9.65      | 4.55      |          | 6.34         | 4.23         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+| 3a | Uncertainty   | 2.95     | 1.37     |          | 2.98       | 1.27       |          | 3.23      | 1.29      |          | 5.76         | 2.22         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Effort goal   |          |          |          |            |            |          |           |           |          |              |              |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Options       | 4.24     | 3.25     |          | 4.01       | 2.83       |          | 3.78      | 2.49      |          | 5.64         | 3.07         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Uncertainty   | 3.59     | 1.6      |          | 3.3        | 1.64       |          | 3.47      | 1.95      |          | 5.27         | 1.71         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | **Experiment 4**                                                                                                                                     |
++----+---------------+---------------------+----------+-------------------------+----------+-----------------------+----------+-----------------------------+
+|    |               | Baseline Goal       |          | One Goal (Prestige)     |          | One Goal (Fun)        |          | Two Comple-mentary Goals    |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    |               | Mean     | SD       |          | Mean       | SD         |          | Mean      | SD        |          | Mean         | SD           |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Accuracy goal |          |          |          |            |            |          |           |           |          |              |              |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+| 4a | Options       | 7.59     | 3.55     |          | 8.69       | 4.09       |          | 8.54      | 3.52      |          | 9.9          | 4.36         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+| 4a | Certainty     | 6.76     | 1.24     |          | 6.99       | 1.44       |          | 7.27      | 1.01      |          | 7.62         | 0.95         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+|    | Effort goal   |          |          |          |            |            |          |           |           |          |              |              |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+| 4b | Options       | 4.56     | 2.9      |          | 4.13       | 2.79       |          | 4.23      | 2.6       |          | 3.52         | 1.74         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+| 4b | Certainty     | 6.99     | 1.44     |          | 7.12       | 1.38       |          | 7.02      | 1.41      |          | 7.47         | 1.19         |
++----+---------------+----------+----------+----------+------------+------------+----------+-----------+-----------+----------+--------------+--------------+
+
++---------------------------------------------------------------------------------------------------------------------------+
+| **Experiment 5**                                                                                                          |
++:=================:+:==========:+:==========:+:==========:+:==========:+:==========:+:==========:+:==========:+:==========:+
+|                   | Decision Difficulty/Ease                                                                              |
++-------------------+-------------------------+------------+-------------------------+------------+-------------------------+
+|                   | Easy                    |            | Moderate                |            | Difficult               |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+|                   | Mean       | SD         |            | Mean       | SD         |            | Mean       | SD         |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Maximize Accuracy |            |            |            |            |            |            |            |            |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Options           | 16.52      | 8.99       |            | 12.1       | 9.11       |            | 8.92       | 7.93       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Uncertainty       | 3.21       | 1.72       |            | 4.37       | 2.59       |            | 6.34       | 1.51       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Time              | 118.97     | 77.54      |            | 100.57     | 83.99      |            | 67.75      | 74.31      |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Last Option       | 0.24       | 0.43       |            | 0.29       | 0.46       |            | 0.26       | 0.44       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Best Option       | 0.77       | 0.43       |            | 0.62       | 0.49       |            | 0.4        | 0.49       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Baseline          |            |            |            |            |            |            |            |            |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Options           | 12.48      | 8.52       |            | 9.32       | 7.38       |            | 6.41       | 4.99       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Uncertainty       | 3.8        | 1.91       |            | 4.32       | 1.91       |            | 5.62       | 2.06       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Time              | 95.07      | 78.57      |            | 67.52      | 76.3       |            | 47.87      | 43.12      |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Last Option       | 0.37       | 0.49       |            | 0.4        | 0.5        |            | 0.55       | 0.5        |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Best Option       | 0.67       | 0.47       |            | 0.47       | 0.5        |            | 0.31       | 0.46       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Minimize Effort   |            |            |            |            |            |            |            |            |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Options           | 4.43       | 3.9        |            | 7.45       | 5.73       |            | 10.61      | 6.6        |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Uncertainty       | 3.63       | 2.08       |            | 4.65       | 2.13       |            | 5.71       | 2.43       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Time              | 28.17      | 27.81      |            | 61.63      | 53.57      |            | 89.39      | 63.39      |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Last Option       | 0.67       | 0.48       |            | 0.45       | 0.5        |            | 0.26       | 0.44       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+| Best Option       | 0.38       | 0.49       |            | 0.38       | 0.49       |            | 0.37       | 0.49       |
++-------------------+------------+------------+------------+------------+------------+------------+------------+------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Experiment 6**                                                                                                                                                  |
++:=================:+:=========:+:=========:+:=========:+:=========:+:=========:+:=========:+:=========:+:=========:+:=========:+:=========:+:=========:+:=========:+
+|                   | Trade-Off Not Salient                                     |           | Trade-Off Salient                                                     |
++-------------------+-----------------------+-----------+-----------------------+-----------+-----------------------+-----------+-----------------------------------+
+|                   | Easy                  |           | Difficult             |           | Easy                  |           | Difficult                         |
+|                   +-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+|                   | Mean      | SD        |           | Mean      | SD        |           | Mean      | SD        |           | Mean      | SD        |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Maximize Accuracy |           |           |           |           |           |           |           |           |           |           |           |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Options           | 8.02      | 4.75      |           | 5.96      | 3.73      |           | 7.84      | 4.59      |           | 5.58      | 3.73      |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Uncertainty       | 3.9       | 2.16      |           | 5.64      | 1.99      |           | 4.68      | 2.1       |           | 5.63      | 2.6       |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Time              | 83.17     | 64.05     |           | 70.56     | 111.54    |           | 77.66     | 73.33     |           | 61.37     | 52.76     |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Baseline          |           |           |           |           |           |           |           |           |           |           |           |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Options           | 7.14      | 3.85      |           | 4.88      | 3.1       |           | 6.94      | 4.18      |           | 4.86      | 3.94      |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Uncertainty       | 3.67      | 2.07      |           | 4.76      | 2.06      |           | 4.06      | 1.73      |           | 5.17      | 1.9       |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Time              | 63.48     | 40.12     |           | 58.37     | 65.15     |           | 85.37     | 199.62    |           | 66.94     | 99.23     |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Minimize Effort   |           |           |           |           |           |           |           |           |           |           |           |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Options           | 4.2       | 1.76      |           | 6.08      | 4.65      |           | 4.74      | 3.22      |           | 3.16      | 1.25      |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Uncertainty       | 3.41      | 1.72      |           | 4.45      | 2.52      |           | 3.38      | 1.92      |           | 5.41      | 2.28      |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Time              | 43.62     | 41.24     |           | 60.87     | 56.25     |           | 41.52     | 38.22     |           | 34.38     | 29        |           |
++-------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+
+# APPENDIX m: data collection plan and exclusions
+
+**Experiment 1**
 
 We sought to collect data from a total of 200 participants (50 per cell in a 4 between-subject conditions). Participants were 200 undergraduate students from a U.S. university who participated in exchange for course credit. No participants were excluded from the analyses.
-### Experiment 2
 
-Participants in experiment 2 were 446 U.S. members of Amazon Mechanical Turk (MTurk) who were paid $1.20 to participate in a 2 (decision process goal: maximize accuracy vs. minimize effort) x 2 (decision ease: baseline vs. ease) x 2 (product replicate: vacation package, car) mixed design. We aimed to collect data from a total of 450 participants (approximately 110 per cell in 4 between-subject conditions). The sample size was more than twice as large as the sample in experiment 1 because we anticipated the influence of a floor effect in the minimize effort condition. The small anticipated mean difference between the baseline and easy conditions, in the minimize effort condition, necessitated a larger sample size. Four participants did not complete the study (i.e., submitted a HIT code without completing the study). No participant who completed the study was excluded from the analyses.
-### Experiment 3a and 3b
+**Experiment 2**
 
-Amazon Mechanical Turk (MTurk) workers were paid $1.20 to participate in experiments 3a (n = 196) and 3b (n = 204). Consistent with experiment 1, we aimed to collect data on 50 participants per condition across 4 between-subject conditions. All participants who completed the dependent measures were retained in the analysis.
-The design was a 4 (decision difficulty: baseline – no goal vs. baseline - one goal [prestige] vs. baseline - one goal [thrift] vs. difficult - two conflicting goals [prestige and thrift]) x 2 (product replicate: vacation package, car) mixed design. Decision difficulty was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 3a pursued a maximize accuracy goal and participants in experiment 3b pursued a minimize effort goal.
-### Experiment 4a and 4b
+Participants in experiment 2 were 446 U.S. members of Amazon Mechanical Turk (MTurk) who were paid \$1.20 to participate in a 2 (decision process goal: maximize accuracy vs. minimize effort) x 2 (decision ease: baseline vs. ease) x 2 (product replicate: vacation package, car) mixed design. We aimed to collect data from a total of 450 participants (approximately 110 per cell in 4 between-subject conditions). The sample size was more than twice as large as the sample in experiment 1 because we anticipated the influence of a floor effect in the minimize effort condition. The small anticipated mean difference between the baseline and easy conditions, in the minimize effort condition, necessitated a larger sample size. Four participants did not complete the study (i.e., submitted a HIT code without completing the study). No participant who completed the study was excluded from the analyses.
 
-Amazon Mechanical Turk (MTurk) workers were paid $1.20 to participate in experiments 4a (n = 248) and 4b (n = 420). Sample sizes were determined by anticipated mean differences and standard deviations. All participants who completed the dependent measures were retained.
-The design was a 4 (decision ease: baseline - no goal vs. baseline - one goal [prestige] vs. baseline - one goal [have fun] vs. ease – two complementary goals [prestige and have fun]) x 2 (product replicate: vacation package, car) mixed design. Decision ease was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 4a pursued a maximize accuracy goal and participants in experiment 4b pursued a minimize effort goal.
-### Experiment 5
+**Experiment 3a and 3b**
 
-Participants were 540 U.S. members of Amazon Mechanical Turk (MTurk) who were paid $1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 3 (decision difficulty: easy vs. moderate vs. difficult) between-subjects design. We preregistered 50 valid responses per cell. We anticipated some participants would fail the attention check and requested 60 participants per cell (N = 540). The data collection program was written so that those who failed the attention check (N = 72) exited the survey prior to receiving the manipulations / dependent measures. The screened participants were not counted in the MTurk tally, so 540 valid responses were collected. No participant who completed the study was excluded from the analyses. As in experiment 1, the dependent measures were the number of options considered, choice of the best option considered, and use of a satisficing strategy – choice of the last option considered. These measures were assessed in an incentive-compatible choice task. Participants made a movie choice and entered a random drawing for the opportunity to receive a code to redeem the movie.
-### Experiment 6
+Amazon Mechanical Turk (MTurk) workers were paid \$1.20 to participate in experiments 3a (n = 196) and 3b (n = 204). Consistent with experiment 1, we aimed to collect data on 50 participants per condition across 4 between-subject conditions. All participants who completed the dependent measures were retained in the analysis.
 
-Participants were 600 U.S. members of Amazon Mechanical Turk (MTurk) who were paid $1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 2 (decision difficulty: easy vs. difficult) x 2 (process goal accessibility prime: trade-off not salient vs trade-off salient) between-subjects design. We preregistered and collected 50 per cell. This was the final sample after screening out (before random assignment) participants who failed the attention check at the beginning of the survey (total = 76). No participants were excluded from the analyses. The dependent measure was the number of options considered.
+The design was a 4 (decision difficulty: baseline -- no goal vs. baseline - one goal \[prestige\] vs. baseline - one goal \[thrift\] vs. difficult - two conflicting goals \[prestige and thrift\]) x 2 (product replicate: vacation package, car) mixed design. Decision difficulty was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 3a pursued a maximize accuracy goal and participants in experiment 3b pursued a minimize effort goal.
 
+**Experiment 4a and 4b**
 
-### Appendix References
+Amazon Mechanical Turk (MTurk) workers were paid \$1.20 to participate in experiments 4a (n = 248) and 4b (n = 420). Sample sizes were determined by anticipated mean differences and standard deviations. All participants who completed the dependent measures were retained.
+
+The design was a 4 (decision ease: baseline - no goal vs. baseline - one goal \[prestige\] vs. baseline - one goal \[have fun\] vs. ease -- two complementary goals \[prestige and have fun\]) x 2 (product replicate: vacation package, car) mixed design. Decision ease was a between-subject factor and the product replicate was a within-subject factor. Participants in experiment 4a pursued a maximize accuracy goal and participants in experiment 4b pursued a minimize effort goal.
+
+**Experiment 5**
+
+Participants were 540 U.S. members of Amazon Mechanical Turk (MTurk) who were paid \$1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 3 (decision difficulty: easy vs. moderate vs. difficult) between-subjects design. We preregistered 50 valid responses per cell. We anticipated some participants would fail the attention check and requested 60 participants per cell (N = 540). The data collection program was written so that those who failed the attention check (N = 72) exited the survey prior to receiving the manipulations / dependent measures. The screened participants were not counted in the MTurk tally, so 540 valid responses were collected. No participant who completed the study was excluded from the analyses. As in experiment 1, the dependent measures were the number of options considered, choice of the best option considered, and use of a satisficing strategy -- choice of the last option considered. These measures were assessed in an incentive-compatible choice task. Participants made a movie choice and entered a random drawing for the opportunity to receive a code to redeem the movie.
+
+**Experiment 6**
+
+Participants were 600 U.S. members of Amazon Mechanical Turk (MTurk) who were paid \$1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 2 (decision difficulty: easy vs. difficult) x 2 (process goal accessibility prime: trade-off not salient vs trade-off salient) between-subjects design.. We preregistered and collected 50 per cell. This was the final sample after screening out (before random assignment) participants who failed the attention check at the beginning of the survey (total = 76). No participants were excluded from the analyses. The dependent measure was the number of options considered.
+
+# 
+
+# REFERENCES
 
 Briley, D. A., Morris, M. W., & Simonson, I. (2000). Reasons as carriers of culture: Dynamic versus dispositional models of cultural influence on decision making. Journal of Consumer Research, 27, 157-178. https://doi.org/10.1086/314318
 
-Ge, X., Haubl, G., & Elrod, T. (2012). What to say when: influencing consumer choice by delaying the presentation of favorable information. Journal of Consumer Research, 38, 1004-1021. https://doi.org/10.1086/661937
+Ge, X., Häubl, G., & Elrod, T. (2012). What to say when: influencing consumer choice by delaying the presentation of favorable information. Journal of Consumer Research, 38, 1004-1021. https://doi.org/10.1086/661937
 
 Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73, 13-22. https://doi.org/10.1093/biomet/73.1.13
 
-Simonson, I., & Nowlis, S. M. (2000). The role of explanations and need for uniqueness in consumer decision making: Unconventional choices based on reasons. Journal of Consumer Research, 27, 49-68. https://doi.org/10.1086/314308
+Simonson, I., & Nowlis, S. M. (2000). The role of explanations and need for uniqueness in consumer decision making: Unconventional choices based on reasons. *Journal of Consumer Research*, 27, 49-68. https://doi.org/10.1086/314308
