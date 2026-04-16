@@ -11,7 +11,7 @@ citation: "Hernandez, José Mauro da Costa, Scott A. Wright, and Felipe M. Affon
 bibtex: |
   @article{hernandez2019advertising,
     title={The Importance of Advertising Skepticism for Brand Extension Appeals},
-    author={Hernandez, Jos{'e} Mauro da Costa and Wright, Scott A. and Affonso, Felipe M.},
+    author={Hernandez, Jos'{e} Mauro da Costa and Wright, Scott A. and Affonso, Felipe M.},
     journal={Psychology \& Marketing},
     volume={36},
     number={7},
