@@ -1,5 +1,5 @@
 ---
-title: "Simple is Eco-Friendly, but Complex is Effective: Inferences from Visual Complexity in Package Design"
+title: "Simple is Eco-Friendly but Complex is Effective: Inferences from Visual Complexity in Package Design"
 authors: "Soo Yon Ryu, Felipe M. Affonso, Aner Sela"
 journal: "Journal of Advertising"
 year: 2025
@@ -617,7 +617,7 @@ The same pattern was observed for each of the replicates individually. In the ef
 
 ### Discussion
 
-This study is a conceptual replication of study 2 by providing evidence of generalizability and robustness for our effect, showing that people are more likely to choose a visually complex (vs. simple) option when considering an efficacy (vs. eco-friendliness) evaluation criterion. The effect holds across different product categories, including food and non-food consumer packaged goods. These results extend the generalizability of our findings beyond previous research that has focused on food (Ton et al. 2023).
+This study is a conceptual replication of study 2 by providing evidence of generalizability and robustness for our effect, showing that people are more likely to choose a visually complex (vs. simple) option when considering an efficacy (vs. eco-friendliness) evaluation criterion. The effect holds across different product categories, including food and non-food consumer packaged goods. These results extend the generalizability of our findings beyond previous research that has focused on food (Ton et al. 2024).
 
 ## Web Appendix E: Additional Details for Studies 3a and 3b
 

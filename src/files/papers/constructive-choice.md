@@ -31,7 +31,7 @@ Correspondence concerning this article should be addressed to Felipe M. Affonso,
 
 ## Abstract
 
-The impact of decision difficulty on search behavior depends on the relative accessibility of maximize accuracy and minimize effort goals in memory. The default assumption, derived from constructive choice theory, is that maximize accuracy and minimize effort goals are both accessible. Thus, the two goals compete to influence a decision process. When this is the case, an increase in decision difficulty discourages search and the opportunity to make an accurate decision suffers. The alternative assumption, derived from goal systems theory, is that maximize accuracy and minimize effort goals can be differentially accessible. When one of these goals is more accessible, decision difficulty signals poor goal progress and reduces goal pursuit. That is, when a maximize accuracy (minimize effort) goal is more accessible, decision difficulty reduces (increases) search. Six studies show that goal systems theory holds when a maximize accuracy or minimize effort goal is more accessible, i.e., is deliberately pursued. The results have implications for how decision difficulty influences information search, satisficing, and choice quality.
+The impact of decision difficulty on search behavior depends on the relative accessibility of maximize accuracy and minimize effort goals in memory. The default assumption, derived from constructive choice theory, is that maximize accuracy and minimize effort goals are both accessible. Thus, the two goals compete to influence a decision process. When this is the case, an increase in decision difficulty discourages search and the opportunity to make an accurate decision suffers. The alternative assumption, derived from goal systems theory, is that maximize accuracy and minimize effort goals can be differentially accessible. When one of these goals is more accessible, decision difficulty signals poor goal progress and reduces goal pursuit. That is, when a maximize accuracy (minimize effort) goal is more accessible, decision difficulty reduces (increases) search. Six studies show that goal systems theory holds when a maximize accuracy or minimize effort goal is more accessible, that is, is deliberately pursued. The results have implications for how decision difficulty influences information search, satisficing, and choice quality.
 
 **Keywords:** decision difficulty; goal systems theory; information search; maximize accuracy; minimize effort
 
@@ -415,9 +415,9 @@ Adam, K. (2001). Learning while searching for the best alternative. Journal of E
 
 Berridge, K. C., & Aldridge, J. W. (2008). Special review: Decision utility, the brain, and pursuit of hedonic goals. Social Cognition, 26, 621-646. https://doi.org/10.1521/soco.2008.26.5.621
 
-Bettman, J. R., Luce, M. F., & Payne, J. W. (1998). Constructive consumer choice processes. Journal of Consumer Research, 25, 187–217. https://doi.org/10.1086/209535
-
 Bettman, J. R., Johnson, E. J., Luce, M. F., & Payne, J. W. (1993). Correlation, conflict, and choice. Journal of Experimental Psychology: Learning, Memory, and Cognition, 19, 931–951. https://doi.org/10.1037/0278-7393.19.4.931
+
+Bettman, J. R., Luce, M. F., & Payne, J. W. (1998). Constructive consumer choice processes. Journal of Consumer Research, 25, 187–217. https://doi.org/10.1086/209535
 
 Briley, D. A., Morris, M. W., & Simonson, I. (2000). Reasons as carriers of culture: Dynamic versus dispositional models of cultural influence on decision making. Journal of Consumer Research, 27, 157-178. https://doi.org/10.1086/314318
 
@@ -531,9 +531,9 @@ Werner, K. M., Milyavskaya, M., Foxen-Craft, E., & Koestner, R. (2016). Some goa
 
 Wilks, S. S. (1938). Weighting systems for linear functions of correlated variables when there is no dependent variable. Psychometrika, 3, 23-40. http://dx.doi.org/10.1007/BF02287917
 
-Wright, P. (1975). Consumer choice strategies: Simplifying vs. optimizing. Journal of Marketing Research, 12, 60–67. https://doi.org/10.2307/3150659
-
 Wigfield, A., & Eccles, J. S. (2000). Expectancy–value theory of achievement motivation. Contemporary Educational Psychology, 25, 68-81. https://doi.org/10.1006/ceps.1999.1015
+
+Wright, P. (1975). Consumer choice strategies: Simplifying vs. optimizing. Journal of Marketing Research, 12, 60–67. https://doi.org/10.2307/3150659
 
 Zhang, Y., Fishbach, A., & Dhar, R. (2007). When thinking beats doing: The role of optimistic expectations in goal-based choice. Journal of Consumer Research, 34, 567-578. https://doi.org/10.1086/520071
 
@@ -541,7 +541,7 @@ Zhang, Y., & Mittal, V. (2005). Decision difficulty: Effects of procedural and o
 
 Zhang, Y., & Tu, Y. (2011). The impact of associative strength on performance in goal pursuit. Journal of Experimental Social Psychology, 47, 1088-1095. https://doi.org/10.1016/j.jesp.2011.04.013
 
-Zwick, R., Rapoport A., Lo, A. K. C., & Muthukrishnan, A. V. (2003) Consumer sequential search: Not enough or too much? Marketing Science, 22, 503-519. https://doi.org/10.1287/mksc.22.4.503.24909
+Zwick, R., Rapoport, A., Lo, A. K. C., & Muthukrishnan, A. V. (2003). Consumer sequential search: Not enough or too much? Marketing Science, 22, 503-519. https://doi.org/10.1287/mksc.22.4.503.24909
 
 
 ## Figures
@@ -3363,7 +3363,7 @@ The design was a 4 (decision ease: baseline - no goal vs. baseline - one goal [p
 Participants were 540 U.S. members of Amazon Mechanical Turk (MTurk) who were paid $1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 3 (decision difficulty: easy vs. moderate vs. difficult) between-subjects design. We preregistered 50 valid responses per cell. We anticipated some participants would fail the attention check and requested 60 participants per cell (N = 540). The data collection program was written so that those who failed the attention check (N = 72) exited the survey prior to receiving the manipulations / dependent measures. The screened participants were not counted in the MTurk tally, so 540 valid responses were collected. No participant who completed the study was excluded from the analyses. As in experiment 1, the dependent measures were the number of options considered, choice of the best option considered, and use of a satisficing strategy – choice of the last option considered. These measures were assessed in an incentive-compatible choice task. Participants made a movie choice and entered a random drawing for the opportunity to receive a code to redeem the movie.
 ### Experiment 6
 
-Participants were 600 U.S. members of Amazon Mechanical Turk (MTurk) who were paid $1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 2 (decision difficulty: easy vs. difficult) x 2 (process goal accessibility prime: trade-off not salient vs trade-off salient) between-subjects design.. We preregistered and collected 50 per cell. This was the final sample after screening out (before random assignment) participants who failed the attention check at the beginning of the survey (total = 76). No participants were excluded from the analyses. The dependent measure was the number of options considered.
+Participants were 600 U.S. members of Amazon Mechanical Turk (MTurk) who were paid $1.20 to participate in a 3 (decision process goal: maximize accuracy vs. baseline vs. minimize effort) x 2 (decision difficulty: easy vs. difficult) x 2 (process goal accessibility prime: trade-off not salient vs trade-off salient) between-subjects design. We preregistered and collected 50 per cell. This was the final sample after screening out (before random assignment) participants who failed the attention check at the beginning of the survey (total = 76). No participants were excluded from the analyses. The dependent measure was the number of options considered.
 
 
 ### Appendix References
