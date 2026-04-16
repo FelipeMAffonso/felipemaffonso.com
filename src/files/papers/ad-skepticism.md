@@ -1,4 +1,4 @@
----
+
 title: "The Importance of Advertising Skepticism for Brand Extension Appeals"
 authors: "José Mauro da Costa Hernandez, Scott A. Wright, Felipe M. Affonso"
 journal: "Psychology & Marketing"
@@ -15,12 +15,11 @@ bibtex: |
     journal={Psychology \& Marketing},
     volume={36},
     number={7},
-    pages={687--699},
+    pages={687699},
     year={2019},
     publisher={Wiley},
     doi={10.1002/mar.21205}
   }
----
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1002/mar.21205).
 
@@ -71,22 +70,18 @@ This is consistent with the theorizing of Aaker and Keller (1990) and Dacin and 
 
 To summarize, it is expected that evaluations will decrease as advertising skepticism increases and that this decline will be steeper for moderately similar brand extensions compared to highly similar or highly dissimilar brand extensions. This hypothesis is also consistent with the findings of Barone et al. (2000), which suggest that the effect of mood is larger for moderately similar brand extensions compared to highly similar or highly dissimilar brand extensions. Therefore, it is hypothesized that:
 
-
 H1.Individuals low in advertising skepticism will evaluate brand extensions more favorably than individuals high in advertising skepticism. This difference in brand extension evaluations will be larger for moderately similar brand extensions compared to highly similar or dissimilar brand extensions.
 
 Based on associative network theory, previous research shows that there is a reciprocal spillover effect of extension evaluations onto parent brand cognitions (e.g., brand dilution effects), and vice-versa (Gürhan-Canli & Maheswaran, 1998). Consequently, a similar relationship is anticipated between brand extension similarity and advertising skepticism in terms of parent brand evaluations:
-
 
 H2.Individuals low in advertising skepticism will evaluate parent brands more favorably than individuals high in advertising skepticism. This difference in parent brand evaluations will be larger for moderately similar brand extensions compared to highly similar or highly dissimilar brand extensions.
 
 1.2 The mediating role of brand transfer
 Brand transfer refers to the extent to which consumers perceive that the parent brand can transfer its core skills to make a new product (Aaker & Keller, 1990; Barone et al., 2000). Brand transfer is commonly established and reinforced through advertising (Aaker & Keller, 1990; Broniarczyk & Alba, 1994). Prior brand extension research demonstrates how other individual-level variables influence brand transfer. For example, the study of Barone et al. (2000) on the moderating effect of mood and brand extension similarity identifies perceived similarity and perceived competency as significant mediators driving extension evaluations. Consistent with this research, we expect that advertising skepticism will interact with brand extension similarity in such a way as to influence the affective transfer process through perceptions of parent brand skills in making the extension (i.e., brand transfer). Specifically, given their tendency to critically evaluate, discount, and counter-argue advertisements, we predict that consumers who are more (less) skeptical of advertising will be less (more) likely to believe that the parent brand can make the extension when exposed to advertisements featuring new brand extensions. Applying the same rationale used for brand extension evaluations and parent brand evaluations, we hypothesize that the difference in perceptions of brand transfer between high and low skeptics will be larger for moderately similar brand extensions compared to highly similar or highly dissimilar brand extensions. If correct, the mediation effect of brand transfer should be moderated by advertising skepticism, but only for moderately similar brand extensions. Formally:
 
-
 H3.The effect of advertising skepticism on brand extension and parent brand evaluations will be mediated by perceptions of brand transfer for moderately similar brand extensions but not for highly similar or highly dissimilar brand extensions.
 
 The conceptual framework proposed here is consistent with the theorizing of Aaker and Keller (1990) regarding brand extension transfer, that is, brand evaluations are more favorable when brand transfer is high. If so, then enhancing perceptions that the parent can successfully make the extension should have a positive influence on evaluations of brand extension by those consumers who are highly skeptical of advertising. Brand transfer may be enhanced either by reinforcing parent brand skills that could be used to make the extension (e.g., “Disposable Baby Wipes by Pampers: Made by the world leader in baby products”), or by reinforcing brand extension features shared with the parent brand (e.g., “Disposable Baby Wipes by Pampers: made with the best material of baby diapers”; Aaker & Keller, 1990). As a way of overcoming the suspicion of high skeptics, this research emphasizes brand extension features shared with the parent brand that could suggest to consumers that the parent brand can indeed produce the extension. We predict that the effect of this strategy will be larger for high skeptics than for low skeptics, because low skeptics are more likely to believe in the advertisement arguments. Formally, we predict that:
-
 
 H4.Increasing brand transfer will result in more positive extension evaluations for individuals high in advertising skepticism, but not for individuals low in advertising skepticism.
 
@@ -357,10 +352,7 @@ Zdravkovic, S., Magnusson, P., & Stanley, S. M. (2010). Dimensions of fit betwee
 International Journal of Research in Marketing, 27(2), 151–160.
 How to cite this article: Hernandez JMdC, Wright SA, Affonso FM. The importance of advertising skepticism for brand extension appeals. *Psychology & Marketing*. 2019;36:687-699. https://doi.org/10.1002/mar.21205
 
----
-
 # Supplementary Materials
-
 
 Online Appendix 1
 
@@ -368,59 +360,59 @@ Online Appendix 1
 
 Table 1 - Perceived Quality, Consumption Frequency, and Brand Awareness by Brand
 
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Brand           | Perceived Quality | Consumption Frequency | Brand Awareness (%) |
 |                 |                   |                       |                     |
 |                 | Mean (SD)         | Mean (SD)             |                     |
 +:================+:==================+:======================+:====================+
 | Nutella         | 6.2 (1.3)         | 4.0 (2.1)             | 97%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Pringles        | 6.2 (1.3)         | 3.7 (2.1)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Diamante Negro  | 6.1 (1.0)         | 5.7 (1.4)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | **BIS**         | **6.0 (1.3)**     | **4.3 (1.7)**         | **100%**            |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Ovomaltine      | 5.9 (1.5)         | 4.1 (1.9)             | 97%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Halls           | 5.9 (1.4)         | 5.3 (2.1)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Lacta           | 5.8 (1.0)         | 4.9 (1.7)             | 57%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Bauducco        | 5.7 (1.1)         | 4.0 (1.8)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Pullman         | 5.7 (1.0)         | 4.9 (1.4)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Elma Chips      | 5.6 (1.2)         | 4.5 (1.7)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Trakinas        | 5.6 (1.2)         | 4.2 (1.0)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Ruffles         | 5.5 (1.3)         | 4.0 (2.0)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Doritos         | 5.4 (1.7)         | 4.2 (2.1)             | 97%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Hallman's       | 5.4 (1.5)         | 4.5 (2.0)             | 93%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Toddy           | 5.4 (1.3)         | 4.3 (2.1)             | 93%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Tic Tac         | 5.3 (1.4)         | 3.5 (1.6)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Kellogg's       | 5.3 (1.2)         | 3.6 (1.6)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Activia         | 5.3 (1.2)         | 2.6 (1.8)             | 77%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Garoto          | 5.3 (1.1)         | 4.6 (1.7)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Chocooky        | 5.2 (2.0)         | 2.8 (1.8)             | 60%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Tostines        | 5.0 (1.1)         | 3.0 (1.8)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Bono            | 4.6 (1.5)         | 2.7 (1.6)             | 90%                 |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 | Nabisco         | 4.5 (1.3)         | 2.4 (1.2)             | 100%                |
-+-----------------+-------------------+-----------------------+---------------------+
++++++
 
-**NOTE---** **bold text denotes the brand selected for Study 1.**
+**NOTE** **bold text denotes the brand selected for Study 1.**
 
 Online Appendix 2
 
@@ -428,63 +420,63 @@ Online Appendix 2
 
 Table 1 - Perceived Similarity between Chocolate Snacks and Other Product Categories
 
-+--------------------+----------------------+-------------------------+
+++++
 | Product Category   | Perceived Similarity |                         |
 |                    |                      |                         |
 |                    | Mean (SD)            |                         |
 +:===================+:====================:+=========================+
 | **Ice-cream**      | **5.1 (1.3)**        | **High Similarity**     |
-+--------------------+----------------------+-------------------------+
+++++
 | Ice Cream Topping  | 5.0 (1.3)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Powdered Chocolate | 4.8 (1.2)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Chocolate Candy    | 4.7 (1.3)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Flavored Milk      | 4.3 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | **Chocolate Bar**  | **3.8 (1.1)**        | **Moderate Similarity** |
-+--------------------+----------------------+-------------------------+
+++++
 | Toffee             | 3.6 (1.4)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Chocolate Spread   | 3.5 (1.2)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Cereals            | 3.2 (1.0)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Cake Mix           | 3.0 (1.2)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Cereal Bar         | 3.0 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Crackers           | 2.8 (1.3)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Jelly Powder       | 2.8 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Yogurt             | 2.5 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Strawberry Jam     | 2.4 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Bubble Gum         | 2.3 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Marmelade          | 2.2 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Whipped Cream      | 2.1 (1.1)            |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Gummy Candy        | 2.0 (.9)             |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Instant Coffee     | 1.8 (.7)             |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Sliced Bread       | 1.6 (.8)             |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Bottled Water      | 1.6 (.8)             |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Sweetener          | 1.6 (.7)             |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | Potato Chips       | 1.5 (.8)             |                         |
-+--------------------+----------------------+-------------------------+
+++++
 | **Canned Tea**     | **1.3 (.8)**         | **Low Similarity**      |
-+--------------------+----------------------+-------------------------+
+++++
 
-**NOTE---** **bold text denotes the brand extensions selected for Study 1.**
+**NOTE** **bold text denotes the brand extensions selected for Study 1.**
 
 Online Appendix 3
 
@@ -500,13 +492,13 @@ Studies 1- 3
 
 ***Attitude toward the parent brand*:**
 
-- *terrible---excellent*
+- *terribleexcellent*
 
-- *unpleasant---pleasant*
+- *unpleasantpleasant*
 
-- *inferior---superior*
+- *inferiorsuperior*
 
-- *unsatisfactory---satisfactory*
+- *unsatisfactorysatisfactory*
 
 - Measured on a 7-point, semantic differential scale.
 
@@ -552,73 +544,73 @@ Online Appendix 5
 
 Table 1 - Perceived Similarity between Computers and Other Product Categories
 
-+------------------------+----------------------+-------------------------+
+++++
 | Product Category       | Perceived Similarity |                         |
 |                        |                      |                         |
 |                        | Mean (SD)            |                         |
 +:=======================+:====================:+:========================+
 | **All-in-one Printer** | **6.5 (1.0)**        | **High Similarity**     |
-+------------------------+----------------------+-------------------------+
+++++
 | Cell Phone             | 6.1 (1.9)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Earphones              | 6.1 (1.7)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | 3D Printer             | 5.6 (1.8)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Speakers               | 5.6 (1.7)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | MP3 Player             | 5.5 (1.8)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | HDTV                   | 5.4 (1.8)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Blu-Ray                | 5.3 (1.8)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Home Theater           | 5.2 (1.9)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Digital Camera         | 4.9 (1.9)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Video Game Console     | 4.9 (1.6)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Video Camera           | 4.8 (1.8)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Car Stereo             | 4.2 (2.2)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | GPS                    | 4.1 (2.3)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | **Espresso Machine**   | **3.8 (1.5)**        | **Moderate Similarity** |
-+------------------------+----------------------+-------------------------+
+++++
 | Air Conditioner        | 3.3 (2.2)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Wristwatch             | 3.1 (2.2)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Furniture              | 3.0 (2.3)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Refrigerator           | 2.5 (1.9)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Electric Shaver        | 2.2 (1.8)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Wine Cooler Cellar     | 2.1 (1.8)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Dryer                  | 2.1 (1.9)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Washing Machine        | 2.0 (1.9)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Tennis Shoes           | 1.9 (1.7)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Handheld Vacuum        | 1.8 (1.5)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Bicycle                | 1.8 (1.7)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Cooktop                | 1.7 (1.2)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | **Sunglasses**         | **1.7 (1.5)**        | **Low Similarity**      |
-+------------------------+----------------------+-------------------------+
+++++
 | Perfume                | 1.6 (1.5)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 | Luggage Set            | 1.3 (1.0)            |                         |
-+------------------------+----------------------+-------------------------+
+++++
 
-**NOTE---** **bold text denotes the brand extensions selected for Study 2.**
+**NOTE** **bold text denotes the brand extensions selected for Study 2.**
 
 Online Appendix 6
 
@@ -626,40 +618,40 @@ Online Appendix 6
 
 Table 1 - Extension Characteristics by Brand Extension Transfer (Low vs. High)
 
-+---------------------------------------------------------------------------------------------------+-----------------+-----------------+--------------+
++++++
 | Characteristic                                                                                    | Low Transfer    | High Transfer   | Significance |
 |                                                                                                   |                 |                 |              |
 |                                                                                                   | Mean (SD)       | Mean (SD)       |              |
-+-------------------------------------+-------------------------------------------------------------+                 |                 |              |
++++                 |                 |              |
 | Low anchor = 1                      | High anchor = 7                                             |                 |                 |              |
 +=====================================+=============================================================+:===============:+:===============:+:============:+
 | Terrible                            | Excellent                                                   | 6.03 (.85)      | 6.10 (1.05)     | p = .99      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Cheap                               | Expensive                                                   | 6.23 (1.10)     | 6.66 (.61)      | p = .23      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Low quality                         | High quality                                                | 6.53 (.73)      | 6.38 (.73)      | p = .80      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Difficult to operate                | Easy to operate                                             | 5.52 (1.50)     | 4.92 (1.38)     | p = .15      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | **Low technology**                  | **High technology**                                         | **6.24 (.83)**  | **6.77 (.51)**  | **p \< .01** |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Simple                              | Sophisticated                                               | 6.20 (.91)      | 6.50 (.76)      | p = .21      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Ugly                                | Beautiful                                                   | 6.36 (.86)      | 6.19 (.63)      | p = .43      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Inelegant                           | Elegant                                                     | 6.40 (.76)      | 6.62 (.57)      | p = .26      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Old-fashioned                       | Modern                                                      | 6.60 (.64)      | 6.62 (.57)      | p = .93      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | **Does not look like a computer**   | **Looks like a computer**                                   | **3.16 (1.46)** | **4.77 (1.68)** | **p \< .01** |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Non-economical                      | Economical                                                  | 4.68 (1.68)     | 3.96 (1.76)     | p = .14      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | **Non-customizable**                | **Customizable**                                            | **4.20 (1.38)** | **5.92 (1.52)** | **p \< .01** |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | Equal to the others                 | Different from the others                                   | 5.28 (1.17)     | 5.85 (1.35)     | p = .12      |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 | **Any company can manufacture it.** | **Only a highly technological company can manufacture it.** | **5.12 (1.01)** | **5.88 (.86)**  | **p \< .01** |
-+-------------------------------------+-------------------------------------------------------------+-----------------+-----------------+--------------+
+++++++
 
-**NOTE---** **bold text denotes statistically significant differences (*p* \< .05).**
+**NOTE** **bold text denotes statistically significant differences (*p* \< .05).**

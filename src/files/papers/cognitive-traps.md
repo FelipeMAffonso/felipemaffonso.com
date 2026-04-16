@@ -1,11 +1,10 @@
----
+
 title: "Brief Commentary: A Framework for Detecting AI Agents in Online Research"
 authors: "Felipe M. Affonso"
 journal: "Journal of Consumer Research"
 year: 2026
 doi: "10.1093/jcr/ucag006"
 citation: "Affonso, Felipe M. (2026), \"Brief Commentary: A Framework for Detecting AI Agents in Online Research,\" Journal of Consumer Research."
----
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1093/jcr/ucag006).
 
@@ -16,7 +15,6 @@ Felipe M. Affonso
 Forthcoming, *Journal of Consumer Research*
 
 Felipe M. Affonso (<felipe.affonso@okstate.edu>) is Assistant Professor of Marketing, Spears School of Business, Oklahoma State University, 316 Business Building, Stillwater, OK 74078, USA. Felipe gratefully acknowledges Chris Janiszewski for comments on an early version of this article, Andrew Gordon for insightful conversations on AI agent detection and data collection, and the JCR review team for insightful comments. Supplementary materials are included in the Web Appendix accompanying the online version of this article. Please address correspondence to Felipe M. Affonso.
-
 
 **ABSTRACT**
 
@@ -58,13 +56,13 @@ The Cognitive Trap Framework provides a methodology for detecting vision-enabled
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE. ---* Light orange boxes show results from our implementation. The cycle is ongoing: new AI evaluation research documents new constraints, generating new traps.
+*NOTE. * Light orange boxes show results from our implementation. The cycle is ongoing: new AI evaluation research documents new constraints, generating new traps.
 
 ## Step 1: Identify Architectural Constraints
 
 The process begins with systematic research of computer science benchmarks and vision-language model evaluations for documented architectural constraints showing either large performance gaps between models and humans or systematic model failures irrespective of human benchmarks. Such constraints are ubiquitous because a key goal of artificial intelligence research is to build machines that think like people (Lake et al. 2017), and research across multiple fields investigates how models perform on human-like capabilities such as intuitive physics, causal reasoning, and spatial judgments (Schulze Buschoff et al. 2025). When these evaluations reveal that models fail at tasks humans accomplish effortlessly, they document exploitable constraints.
 
-We recommend prioritizing constraints that show large human-model performance gaps, are validated across multiple model architectures (ensuring the constraint reflects a general limitation across architectures), and are amenable to implementation through standard survey stimuli. We identified five constraints meeting these criteria through systematic search of AI and computer science literature (see web appendix B for the full search methodology and extended descriptions). *Training data overfitting* occurs when learned statistical regularities about familiar visual patterns override actual perception, causing models to report canonical illusion patterns even when obvious visual deviations are present (Shinozaki et al. 2025; Ullman 2024). *Spatiotemporal reasoning* requires integrating visual information across temporal frames to predict motion, where models achieve only 63.5% accuracy versus 99.7% for humans (Zhou et al. 2025). *Spatial reasoning with mental simulation* involves constructing imaginary paths and computing geometric relationships, tasks on which models achieve near-zero accuracy while humans perform effortlessly (Qi et al. 2025; Stogiannidis, McDonagh, and Tsaftaris 2025). *Cross-modal binding* requires identifying which single object possesses multiple combined features, and because models process different feature types through separate pathways, they achieve only 58--61% accuracy where humans exceed 95% (Campbell et al. 2024; Kamath, Hessel, and Chang 2023). *Compositional counting* demands simultaneously filtering by multiple attributes while counting, a combination that models fail to execute across many objects (Guo et al. 2025).
+We recommend prioritizing constraints that show large human-model performance gaps, are validated across multiple model architectures (ensuring the constraint reflects a general limitation across architectures), and are amenable to implementation through standard survey stimuli. We identified five constraints meeting these criteria through systematic search of AI and computer science literature (see web appendix B for the full search methodology and extended descriptions). *Training data overfitting* occurs when learned statistical regularities about familiar visual patterns override actual perception, causing models to report canonical illusion patterns even when obvious visual deviations are present (Shinozaki et al. 2025; Ullman 2024). *Spatiotemporal reasoning* requires integrating visual information across temporal frames to predict motion, where models achieve only 63.5% accuracy versus 99.7% for humans (Zhou et al. 2025). *Spatial reasoning with mental simulation* involves constructing imaginary paths and computing geometric relationships, tasks on which models achieve near-zero accuracy while humans perform effortlessly (Qi et al. 2025; Stogiannidis, McDonagh, and Tsaftaris 2025). *Cross-modal binding* requires identifying which single object possesses multiple combined features, and because models process different feature types through separate pathways, they achieve only 5861% accuracy where humans exceed 95% (Campbell et al. 2024; Kamath, Hessel, and Chang 2023). *Compositional counting* demands simultaneously filtering by multiple attributes while counting, a combination that models fail to execute across many objects (Guo et al. 2025).
 
 ## Step 2: Design Survey-Compatible Implementations (Cognitive Traps)
 
@@ -74,20 +72,20 @@ We implemented seven visual stimuli operationalizing the five constraints. Table
 
 **TABLE 1.** REPRESENTATIVE COGNITIVE TRAP IMPLEMENTATIONS
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
                                                                                                                                                                                                                                                                      **Modified Muller-Lyer** *Training Data Overfitting*                                                                                                                                                                                                                                                                     **The Moving Robot** *Spatiotemporal Reasoning*
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                                                                                                                                                                                                                                                        [Modified Muller-Lyer stimulus: Two horizontal lines with arrowhead endpoints. The blue line (above) is objectively longer than the red line (below). Unlike the canonical Muller-Lyer illusion where lines only appear different but are actually equal, here the blue line is genuinely longer. Image not included; see published paper.]                                                                                                                                                                                                                                                      [Moving Robot stimulus: A four-frame sequence showing a robot inside a square. In Steps 1-3, the robot moves progressively from the upper-left area toward the center with constant speed and trajectory. Step 4 is left empty for the participant to predict the robot's location. Image not included; see published paper.]
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
    Adapted from Ullman (2024). This modified Muller-Lyer illusion presents two lines with arrowhead endpoints where the blue line (above) is objectively longer than the red line (below). Participants are asked which line is longer. The correct answer is the blue line (A\*), but models typically report that both lines are equal, defaulting to the canonical Muller-Lyer pattern where lines only appear different but are actually equal. Because models have memorized this pattern from training data, they apply it indiscriminately even when the perceptual property differs.  The four-frame sequence above shows a robot moving progressively toward the center of a square with constant speed and trajectory, with Step 4 left empty. Participants predict where the robot will be on Step 4. The correct answer is mostly around the center (E\*), but models typically predict incorrect quadrant locations, failing to integrate visual motion information across the temporal sequence. Humans effortlessly extrapolate the trajectory, while models achieve only 63.5% accuracy on this class of spatiotemporal prediction versus 99.7% for humans (Zhou et al. 2025).
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
                                                                                                                                                                                                                                                                          **Surrounded Planets** *Cross-Modal Binding*                                                                                                                                                                                                                                                                         **Colliding Oranges** *Spatial Reasoning*
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                                                                                                                                                                                                                                                      [Surrounded Planets stimulus: Six colored planets (orange, purple, blue, red, green, gray) each surrounded by several geometric shapes. Five planets have 5 shapes surrounding them; one planet (orange) has only 4 shapes. The shapes overlap and occlude each other, requiring participants to bind color, spatial proximity, and count. Image not included; see published paper.]                                                                                                                                                                                                                                                    [Colliding Oranges stimulus: A 2D display containing colored shapes including circles and a green triangle. The largest circle is positioned to the right. Participants predict which objects would be in the way if the largest circle moved in a straight line to the left toward the smallest circle. The correct answer is the green triangle. Image not included; see published paper.]
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                                                                                                                   Six colored planets are each surrounded by several geometric shapes. Five planets have 5 shapes surrounding them; one planet has only 4. The task requires counting shapes around each planet and identifying the one with fewer shapes. Models struggle to correctly bind shapes to specific planets when visual elements overlap and occlude each other.                                                                                                                  A set of shapes in a 2D display where the participant predicts which objects would collide if the largest circle moved in a straight line toward the smallest circle. This requires mental simulation of physical movement and spatial reasoning about object positions and sizes.
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
 
 Three implementations targeting training data overfitting were adopted from Ullman (2024), who introduced the concept of "illusion-illusions": modified versions of canonical visual illusions where the perceptual property matches reality, eliminating the illusory mismatch. The Modified Café Wall presents dividing lines between offset rows of squares that are genuinely diagonal, the Modified Muller-Lyer presents two lines with arrowhead endpoints where one is objectively longer (Table 1), and the Modified Ebbinghaus presents two central circles surrounded by context circles where one is genuinely larger. In each case, models default to the canonical illusion response (lines are straight, lines are equal, circles are equal) because they have memorized these patterns from training data, overriding the visual evidence actually present in the image.
 
@@ -103,9 +101,9 @@ The validation establishes whether cognitive traps reliably produce model failur
 
 **TABLE 2.** COGNITIVE TRAP VALIDATION RESULTS
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
   **Cognitive Trap**      **Human**   **GPT-5.1**   **GPT-5.1†**   **Gemini 2.5 Pro**   **Gemini 2.5 Flash**   **Claude Sonnet 4.5**   **Claude Haiku 4.5**   **Pooled**
-  ---------------------- ----------- ------------- -------------- -------------------- ---------------------- ----------------------- ---------------------- -------------
+          
   Modified Cafe Wall        84.8%         0%            20%                0%                    0%                     40%                    30%             **15.0%**
 
   Modified Muller-Lyer      90.1%         0%            30%                0%                    0%                     0%                      0%             **5.0%**
@@ -121,9 +119,9 @@ The validation establishes whether cognitive traps reliably produce model failur
   *Shape Overload*         *46.8%*       *20%*         *70%*             *50%*                 *10%*                   *50%*                  *40%*           ***40.0%***
 
   **Average**             **86.8%**    **20.0%**     **51.7%**         **13.3%**              **0.0%**               **26.7%**              **23.3%**          **22.5%**
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
 
-*NOTE.------*Human sample: 171 Prolific participants who passed all attention checks. Ten independent trials per trap per model (420 total). † = extended thinking variant. Pooled = average across all six models. Average = mean accuracy across the six retained traps (excludes Shape Overload). All six retained traps exceed both retention criteria (human \>75%, human-model gap \>30pp). Shape Overload (italicized) failed both criteria and was excluded; see web appendix B.4.
+*NOTE.*Human sample: 171 Prolific participants who passed all attention checks. Ten independent trials per trap per model (420 total). † = extended thinking variant. Pooled = average across all six models. Average = mean accuracy across the six retained traps (excludes Shape Overload). All six retained traps exceed both retention criteria (human \>75%, human-model gap \>30pp). Shape Overload (italicized) failed both criteria and was excluded; see web appendix B.4.
 
 *Expanded Model Validation.* To assess whether model improvements erode trap effectiveness over time, we expanded testing of the six retained traps to 34 vision-language models spanning March 2024 through February 2026 (2,040 trials total). Researchers applying the framework only need to validate against models available at deployment, but this nearly two-year span provides a longitudinal view of trap durability as architectures improve. All six retained traps continued to satisfy both retention criteria, with human-model gaps ranging from 41.9 to 76.0 percentage points. Full results for all 34 models appear in web appendix C.
 
@@ -135,7 +133,7 @@ Two patterns in the expanded validation provide insight on whether models are im
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE. ---* Average cognitive trap pass rate (%) for 34 vision-language models plotted against release date. Each dot represents one model colored by provider (Anthropic, OpenAI, Google), with frontier models labeled. The OLS trend line shows no significant overall improvement (+0.51 pp/month, *p* = .282). The dashed line marks the 86.8% average human baseline on the six retained traps. The best-performing model (Gemini 3 Flash with extended thinking, 65.0%) remains 21.8 percentage points below human performance. Full model-level results appear in web appendix C.
+*NOTE. * Average cognitive trap pass rate (%) for 34 vision-language models plotted against release date. Each dot represents one model colored by provider (Anthropic, OpenAI, Google), with frontier models labeled. The OLS trend line shows no significant overall improvement (+0.51 pp/month, *p* = .282). The dashed line marks the 86.8% average human baseline on the six retained traps. The best-performing model (Gemini 3 Flash with extended thinking, 65.0%) remains 21.8 percentage points below human performance. Full model-level results appear in web appendix C.
 
 ## Step 4: Deploy in Research Context
 
@@ -159,9 +157,9 @@ This study provides a demonstration of the framework's Step 4 while validating i
 
 **TABLE 3.** DETECTION METHOD PERFORMANCE AGAINST DEPLOYED AI AGENTS
 
-  --------------------------------------------------------------------------------
+  
   **Detection Method**                  **Agents Detected**   **Detection Rate**
-  ------------------------------------- --------------------- --------------------
+    
   **Cognitive Traps (3+ failures)**     **511**               **97.1%**
 
   Traditional Methods (Any)             12                    2.3%
@@ -177,9 +175,9 @@ This study provides a demonstration of the framework's Step 4 while validating i
   CAPTCHA (score \< 0.5)                24                    4.6%
 
   Fast Completion (\< 40% median)       1                     0.2%
-  --------------------------------------------------------------------------------
+  
 
-*NOTE. ---* Cognitive trap threshold: failing 3 or more of 6 visual perception tasks. Traditional Methods (Any) = agents failing at least one traditional check.
+*NOTE. * Cognitive trap threshold: failing 3 or more of 6 visual perception tasks. Traditional Methods (Any) = agents failing at least one traditional check.
 
 The three-failure threshold was selected by evaluating all possible cut-points against the deployment data. Requiring only two failures achieves near-perfect agent detection (99.4%) but flags 13.3% of humans, a rate likely including many false positives. Requiring four failures reduces false positives to 1.9% but drops sensitivity to 89.2%, missing 57 agents. The sharp decline between 3+ and 4+ occurs because many agents pass exactly three traps while failing three, placing the three-failure threshold at a natural break in the score distribution where sensitivity exceeds 95% and the false positive rate remains below 5%. Researchers with different priorities can adjust this threshold: exploratory studies with large samples may tolerate the 2+ threshold's higher false positive rate to maximize agent removal, while theory-testing studies with smaller samples might prefer the 4+ threshold's lower false positive rate despite reduced sensitivity.
 
@@ -187,9 +185,9 @@ The three-failure threshold was selected by evaluating all possible cut-points a
 
 **TABLE 4.** INDIVIDUAL COGNITIVE TRAP PERFORMANCE: HUMAN VS. AGENT DISCRIMINATION
 
-  -------------------------------------------------------------------------------------------------------------
+  
   **Trap**                **Agent Failure Rate**   **Human Pass Rate**   **Discrimination**  **χ²**   ***p***
-  ---------------------- ------------------------ --------------------- -------------------- -------- ---------
+       
   Modified Muller-Lyer       94.1% (495/526)        92.8% (934/1007)          86.9 pp        1113.9   \<.001
 
   Modified Cafe Wall         94.9% (499/526)        88.4% (890/1007)          83.2 pp        992.8    \<.001
@@ -201,9 +199,9 @@ The three-failure threshold was selected by evaluating all possible cut-points a
   Surrounded Planets         55.5% (292/526)        96.5% (972/1007)          52.0 pp        554.5    \<.001
 
   Colliding Oranges          50.6% (266/526)        88.7% (893/1007)          39.2 pp        283.4    \<.001
-  -------------------------------------------------------------------------------------------------------------
+  
 
-*NOTE .---* Discrimination = Human Pass Rate minus Agent Pass Rate. All chi-square tests significant at *p* \< .001.
+*NOTE .* Discrimination = Human Pass Rate minus Agent Pass Rate. All chi-square tests significant at *p* \< .001.
 
 *CAPTCHA Comparison.* To benchmark cognitive traps against the most commonly available automated detection tool, we conducted an ROC-style analysis of reCAPTCHA v3 scores collected during our study. At the standard 0.5 threshold recommended by Google, CAPTCHA detected only 4.6% of agents (24/526), a rate comparable to traditional attention checks and far below cognitive traps. Lowering the threshold improves detection but at substantial cost: the optimal threshold maximizing Youden's J was 0.90, which detected 93.9% of agents (494/526) but simultaneously flagged 12.4% of humans (125/1,007), a false positive rate three times higher than cognitive traps (12.4% vs. 4.1%) while detecting fewer agents (93.9% vs. 97.1%). The AUC was 0.898, indicating useful but imperfect discrimination. The underperformance reflects massive overlap in the score distributions: 75.5% of agents (397/526) clustered between 0.80-0.89, a range that also contained 8.4% of human participants. Full ROC analysis appears in web appendix D.
 
@@ -281,7 +279,6 @@ Third, platform heterogeneity in agent performance means that no single trap ach
 
 The entire behavioral research literature depends on measuring genuine human behavior, and when autonomous agents can complete studies while passing all conventional quality checks, the validity of the scientific ecosystem is at stake. The Cognitive Trap Framework provides a methodology for continuous adaptation: as models improve and specific traps lose effectiveness, researchers apply the same four-step process to newly documented constraints from the ongoing AI evaluation ecosystem. The tools for autonomous survey completion are commercially available today and the economic incentives for fraud are present, but the architectural constraints that cognitive traps exploit are equally present, giving researchers a foundation for detection that evolves alongside the threat. As detection methods improve and are defeated, and new methods emerge in response, the resulting cycle will itself document the co-evolution of human ingenuity and machine capability. This framework provides a foundation for that ongoing process, and we hope it will also inspire the development of new methods.
 
-
 **DATA COLLECTION STATEMENT**
 
 The human validation study (202 Prolific participants completing all seven cognitive traps) was conducted in November 2025. The initial model validation, in which all seven cognitive traps were tested against six frontier vision-language models through standalone chat interface sessions (420 trials), was also conducted in November 2025. Data for the Prolific main study (1,007 human participants) were collected in November 2025 using Qualtrics. The 526 AI agent deployments (Google Project Mariner, Perplexity Comet, ChatGPT Agent, and Claude Sonnet 4.5 via Cursor Agent) were conducted on the author's own Qualtrics survey instance in November 2025; no agents were deployed on live recruitment platforms. The expanded model validation, in which the six retained cognitive traps were tested against 34 vision-language models via programmatic API calls (2,040 trials), was conducted in February 2026. The MTurk replication (263 participants) and the CloudResearch Connect replication (506 participants) were both conducted in February 2026. All data were collected and analyzed by the author. Raw data, analysis code, agent deployment scripts, the Qualtrics survey file (.qsf), data dictionaries, and pre-registration documents are available on the Open Science Framework (<https://osf.io/f2jhx/>).
@@ -290,41 +287,41 @@ The human validation study (202 Prolific participants completing all seven cogni
 
 Acien, Alejandro, Aythami Morales, Julian Fierrez, and Ruben Vera-Rodriguez (2022), "[BeCAPTCHA-Mouse: Synthetic Mouse Trajectories and Improved Bot Detection](https://doi.org/10.1016/j.patcog.2022.108643)," *Pattern Recognition*, 127, 108643.
 
-Bonnamy, James, Bethany Carr, Michelle D. Lazarus, and Clifford Connell (2025), "[Survey Sabotage: Insights into Reducing the Risk of Fraudulent Responses in Online Surveys](https://doi.org/10.1002/ase.70015)," *Anatomical Sciences Education*, 18(8), 767--73.
+Bonnamy, James, Bethany Carr, Michelle D. Lazarus, and Clifford Connell (2025), "[Survey Sabotage: Insights into Reducing the Risk of Fraudulent Responses in Online Surveys](https://doi.org/10.1002/ase.70015)," *Anatomical Sciences Education*, 18(8), 76773.
 
 Campbell, Declan, Sunayana Rane, Tyler Giallanza, Nicolò De Sabbata, Kia Ghods, Amogh Joshi, Alexander Ku, Steven M. Frankland, Thomas L. Griffiths, Jonathan D. Cohen, and Taylor Webb (2024), "Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem," in *Proceedings of the 38th International Conference on Neural Information Processing Systems*, Red Hook, NY, USA.
 
-Chmielewski, Michael and Sarah C. Kucker (2020), "[An MTurk Crisis? Shifts in Data Quality and the Impact on Study Results](https://doi.org/10.1177/1948550619875149)," *Social Psychological and Personality Science*, 11(4), 464--73.
+Chmielewski, Michael and Sarah C. Kucker (2020), "[An MTurk Crisis? Shifts in Data Quality and the Impact on Study Results](https://doi.org/10.1177/1948550619875149)," *Social Psychological and Personality Science*, 11(4), 46473.
 
-Dhar, Ravi (1997), "[Consumer Preference for a No-Choice Option](https://doi.org/10.1086/209506)," *Journal of Consumer Research*, 24(2), 215--31.
+Dhar, Ravi (1997), "[Consumer Preference for a No-Choice Option](https://doi.org/10.1086/209506)," *Journal of Consumer Research*, 24(2), 21531.
 
-Goodrich, Brittney, Marieke Fenton, Jerrod Penn, John Bovay, and Travis Mountain (2023), "[Battling Bots: Experiences and Strategies to Mitigate Fraudulent Responses in Online Surveys](https://doi.org/10.1002/aepp.13353)," *Applied Economic Perspectives and Policy*, 45(2), 762--84.
+Goodrich, Brittney, Marieke Fenton, Jerrod Penn, John Bovay, and Travis Mountain (2023), "[Battling Bots: Experiences and Strategies to Mitigate Fraudulent Responses in Online Surveys](https://doi.org/10.1002/aepp.13353)," *Applied Economic Perspectives and Policy*, 45(2), 76284.
 
 Gordon, Andrew (2026), *Authenticity Checks: How We Tested the Most Accurate Method for Identifying Agentic AI*, Prolific.
 
 Guo, Xuyang, Zekai Huang, Zhenmei Shi, Zhao Song, and Jiahao Zhang (2025), "Your Vision-Language Model Can't Even Count to 20: Exposing the Failures of VLMs in Compositional Counting," <https://arxiv.org/abs/2510.04401>.
 
-Hara, Kotaro, Abigail Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch, and Jeffrey P. Bigham (2018), "[A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk](https://doi.org/10.1145/3173574.3174023)," in *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*, Montreal, QC, Canada: ACM, 1--14.
+Hara, Kotaro, Abigail Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch, and Jeffrey P. Bigham (2018), "[A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk](https://doi.org/10.1145/3173574.3174023)," in *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*, Montreal, QC, Canada: ACM, 114.
 
-Iliou, Christos, Theodoros Kostoulas, Theodora Tsikrika, Vasilis Katos, Stefanos Vrochidis, and Ioannis Kompatsiaris (2021), "[Detection of Advanced Web Bots by Combining Web Logs with Mouse Behavioural Biometrics](https://doi.org/10.1145/3447815)," *Digital Threats: Research and Practice*, 2(3), 1--26.
+Iliou, Christos, Theodoros Kostoulas, Theodora Tsikrika, Vasilis Katos, Stefanos Vrochidis, and Ioannis Kompatsiaris (2021), "[Detection of Advanced Web Bots by Combining Web Logs with Mouse Behavioural Biometrics](https://doi.org/10.1145/3447815)," *Digital Threats: Research and Practice*, 2(3), 126.
 
 Kamath, Amita, Jack Hessel, and Kai-Wei Chang (2023), "What's 'up' with Vision-Language Models? Investigating Their Struggle with Spatial Reasoning," <http://arxiv.org/abs/2310.19785>.
 
 Kay, Cameron S. (2025), "[Why You Shouldn't Trust Data Collected on MTurk](https://doi.org/10.3758/s13428-025-02852-7)," *Behavior Research Methods*, 57, 340.
 
-Kennedy, Ryan, Scott Clifford, Tyler Burleigh, Philip D. Waggoner, Ryan Jewell, and Nicholas J. G. Winter (2020), "[The Shape of and Solutions to the MTurk Quality Crisis](https://doi.org/10.1017/psrm.2020.6)," *Political Science Research and Methods*, 8(4), 614--29.
+Kennedy, Ryan, Scott Clifford, Tyler Burleigh, Philip D. Waggoner, Ryan Jewell, and Nicholas J. G. Winter (2020), "[The Shape of and Solutions to the MTurk Quality Crisis](https://doi.org/10.1017/psrm.2020.6)," *Political Science Research and Methods*, 8(4), 61429.
 
 Lake, Brenden M., Tomer D. Ullman, Joshua B. Tenenbaum, and Samuel J. Gershman (2017), "[Building Machines That Learn and Think Like People](https://doi.org/10.1017/S0140525X16001837)," *Behavioral and Brain Sciences*, 40, e253.
 
-Malhotra, N. (2008), "[Completion Time and Response Order Effects in Web Surveys](https://doi.org/10.1093/poq/nfn050)," *Public Opinion Quarterly*, 72(5), 914--34.
+Malhotra, N. (2008), "[Completion Time and Response Order Effects in Web Surveys](https://doi.org/10.1093/poq/nfn050)," *Public Opinion Quarterly*, 72(5), 91434.
 
-Moss, Aaron J., Cheskie Rosenzweig, Jonathan Robinson, Shalom N. Jaffe, and Leib Litman (2023), "[Is It Ethical to Use Mechanical Turk for Behavioral Research? Relevant Data from a Representative Survey of MTurk Participants and Wages](https://doi.org/10.3758/s13428-022-02005-0)," *Behavior Research Methods*, 55(8), 4048--67.
+Moss, Aaron J., Cheskie Rosenzweig, Jonathan Robinson, Shalom N. Jaffe, and Leib Litman (2023), "[Is It Ethical to Use Mechanical Turk for Behavioral Research? Relevant Data from a Representative Survey of MTurk Participants and Wages](https://doi.org/10.3758/s13428-022-02005-0)," *Behavior Research Methods*, 55(8), 404867.
 
-Oppenheimer, Daniel M., Tom Meyvis, and Nicolas Davidenko (2009), "[Instructional Manipulation Checks: Detecting Satisficing to Increase Statistical Power](https://doi.org/10.1016/j.jesp.2009.03.009)," *Journal of Experimental Social Psychology*, 45(4), 867--72.
+Oppenheimer, Daniel M., Tom Meyvis, and Nicolas Davidenko (2009), "[Instructional Manipulation Checks: Detecting Satisficing to Increase Statistical Power](https://doi.org/10.1016/j.jesp.2009.03.009)," *Journal of Experimental Social Psychology*, 45(4), 86772.
 
 Ouyang, Long, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, et al. (2022), "Training Language Models to Follow Instructions with Human Feedback," <http://arxiv.org/abs/2203.02155>.
 
-Panizza, Folco, Yara Kyrychenko, and Jon Roozenbeek (2026), "[Survey-Taking AI Tools Surpass Human Abilities. Here's What We Can Do about It](https://doi.org/10.1038/d41586-026-00386-2)," *Nature*, 650, 293--95.
+Panizza, Folco, Yara Kyrychenko, and Jon Roozenbeek (2026), "[Survey-Taking AI Tools Surpass Human Abilities. Here's What We Can Do about It](https://doi.org/10.1038/d41586-026-00386-2)," *Nature*, 650, 29395.
 
 Phillips, Sara (2026), "[AI Chatbots Are Infiltrating Social-Science Surveys](https://doi.org/10.1038/d41586-026-00221-8)," *Nature*, 650, 17.
 
@@ -332,7 +329,7 @@ Qi, Jianing, Jiawei Liu, Hao Tang, and Zhigang Zhu (2025), "Beyond Semantics: Re
 
 Rilla, Raluca, Tobias Werner, Hiromu Yakura, Iyad Rahwan, and Anne-Marie Nussberger (2025), "Recognising, Anticipating, and Mitigating LLM Pollution of Online Behavioural Research," <http://arxiv.org/abs/2508.01390>.
 
-Schulze Buschoff, Luca M., Elif Akata, Matthias Bethge, and Eric Schulz (2025), "[Visual Cognition in Multimodal Large Language Models](https://doi.org/10.1038/s42256-024-00963-y)," *Nature Machine Intelligence*, 7(1), 96--106.
+Schulze Buschoff, Luca M., Elif Akata, Matthias Bethge, and Eric Schulz (2025), "[Visual Cognition in Multimodal Large Language Models](https://doi.org/10.1038/s42256-024-00963-y)," *Nature Machine Intelligence*, 7(1), 96106.
 
 Searles, Andrew, Yoshimichi Nakatsuka, Ercan Ozturk, Andrew Paverd, Gene Tsudik, and Ai Enkoji (2023), "An Empirical Study & Evaluation of Modern CAPTCHAs," <http://arxiv.org/abs/2307.12108>.
 
@@ -414,11 +411,7 @@ Zhou, Shijie, Alexander Vilesov, Xuehai He, Ziyu Wan, Shuwang Zhang, Aditya Naga
 
 [^4]: Cognitive traps test visual-cognitive integration, which raises accessibility considerations. Participants with visual impairments may legitimately fail these tasks. We recommend addressing this through measurement (vision screening questions) and sensitivity analysis.
 
-
----
-
 # Web Appendix
-
 
 WEB APPENDIX
 
@@ -454,9 +447,9 @@ The choice of failure threshold involves a trade-off between sensitivity (detect
 
 **TABLE WA-A1:** DETECTION PERFORMANCE ACROSS ALL THRESHOLDS
 
-  -----------------------------------------------------------------------------------------------------------------
+  
   **Threshold**    **Agent Detection**   **Human Flagging**   **Interpretation**
-  ---------------- --------------------- -------------------- -----------------------------------------------------
+     
   1+ failures      100.0% (526/526)      40.1% (404/1007)     Perfect sensitivity but flags too many humans
 
   2+ failures      99.4% (523/526)       13.3% (134/1007)     Near-perfect detection; likely many false positives
@@ -468,7 +461,7 @@ The choice of failure threshold involves a trade-off between sensitivity (detect
   5+ failures      60.5% (318/526)       0.6% (6/1007)        Very conservative; misses 208 agents
 
   All 6 failures   26.0% (137/526)       0.2% (2/1007)        Extreme; detects only complete failures
-  -----------------------------------------------------------------------------------------------------------------
+  
 
 The sharp drop between 3+ and 4+ thresholds (97.1% to 89.2%) indicates many agents pass exactly three traps. The 3+ threshold maintains greater than 95% sensitivity while flagging only 4.1% of humans. We selected this threshold because it achieves a positive predictive value of 92.6% (meaning flagged cases are likely genuine agents) while maintaining high sensitivity.
 
@@ -480,9 +473,9 @@ Table WA-A2 presents complete performance data for all traditional detection met
 
 **TABLE WA-A2:** COMPLETE DETECTION METHOD PERFORMANCE
 
-  -------------------------------------------------------------------------------------------------------------------------
+  
   **Method**                         **Detection Rate**    **Why It Failed**
-  ---------------------------------- --------------------- ----------------------------------------------------------------
+    
   **Cognitive Traps (3+)**           **97.1% (511/526)**   **Exploits architectural constraints**
 
   Instructional Manipulation Check   0.2% (1/526)          Agents read all text carefully
@@ -498,7 +491,7 @@ Table WA-A2 presents complete performance data for all traditional detection met
   CAPTCHA (score \< 0.5)             4.6% (24/526)         Execute through real browsers with genuine interaction signals
 
   Fast Completion (\< 40% median)    0.2% (1/526)          Model inference is genuinely slow
-  -------------------------------------------------------------------------------------------------------------------------
+  
 
 All 12 agents flagged by traditional checks also failed cognitive traps, meaning traditional methods added zero incremental detection beyond what cognitive traps already captured. The 42-fold performance gap (97.1% vs. 2.3%) demonstrates the fundamental difference between exploiting architectural constraints versus detecting behavioral patterns.
 
@@ -508,7 +501,7 @@ All 12 agents flagged by traditional checks also failed cognitive traps, meaning
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*Cognitive traps (green, 97.1%) and CAPTCHA at the optimal 0.90 threshold (93.9%) are the only methods exceeding 5% detection. All traditional attention checks (IMC, obvious answer, memory, straight-lining) and timing analysis detect fewer than 2% of agents. CAPTCHA at the standard 0.5 threshold detects only 4.6%.
+*NOTE.*Cognitive traps (green, 97.1%) and CAPTCHA at the optimal 0.90 threshold (93.9%) are the only methods exceeding 5% detection. All traditional attention checks (IMC, obvious answer, memory, straight-lining) and timing analysis detect fewer than 2% of agents. CAPTCHA at the standard 0.5 threshold detects only 4.6%.
 
 Importantly, although the ROC curve suggests that CAPTCHA at its optimal threshold (0.90, identified by Youden\'s J) achieves a detection rate comparable to cognitive traps, this comparison omits a critical difference in specificity: at that threshold, CAPTCHA produces a 12.4% false positive rate, three times the 4.1% rate of cognitive traps. The apparent parity in sensitivity thus comes at a substantially higher cost to legitimate respondents.
 
@@ -520,9 +513,9 @@ The second targets inattentive humans who skip instructions, rush through questi
 
 **TABLE WA-A3:** ARCHITECTURAL DIFFERENCES ENABLING EVASION
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
   **Human Process**          **Traditional Check Exploit**                 **Agent Analog**                                           **Why Check Fails**
-  -------------------------- --------------------------------------------- ---------------------------------------------------------- ----------------------------------------------
+     
   **Attention allocation**   Detect when attention lapses                  No attention; all text processed uniformly                 Models don't "attend" selectively
 
   **Working memory**         Test recall of earlier content                No working memory; each inference processes full context   Models re-process the full context each time
@@ -532,8 +525,7 @@ The second targets inattentive humans who skip instructions, rush through questi
   **Motivation**             Assume low motivation produces carelessness   No motivational states; response follows training          Models don't have motivation
 
   **Reading strategy**       Assume humans skim or skip                    Complete text processing as architectural requirement      Models must process full input
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+  
 
 ### Why Each Method Fails in Detail
 
@@ -555,9 +547,9 @@ Table WA-A4 provides detailed performance data for each trap showing how each co
 
 **TABLE WA-A4:** INDIVIDUAL COGNITIVE TRAP PERFORMANCE (MAIN STUDY)
 
-  --------------------------------------------------------------------------------------------------------------------------------------
+  
   **Trap**             **Agent Failure**   **Human Pass**     **Discrimination**   **Constraint Exploited**
-  -------------------- ------------------- ------------------ -------------------- -----------------------------------------------------
+      
   Muller-Lyer          94.1% (495/526)     92.8% (934/1007)   86.9 pp              Training data overfitting on canonical illusions
 
   Cafe Wall            94.9% (499/526)     88.4% (890/1007)   83.2 pp              Training data overfitting on canonical illusions
@@ -569,7 +561,7 @@ Table WA-A4 provides detailed performance data for each trap showing how each co
   Surrounded Planets   55.5% (292/526)     96.5% (972/1007)   52.0 pp              Cross-modal feature binding with occlusion
 
   Colliding Oranges    50.6% (266/526)     88.7% (893/1007)   39.2 pp              Spatial reasoning (geometric path computation)
-  --------------------------------------------------------------------------------------------------------------------------------------
+  
 
 NOTE. All differences significant at *p* \< .001. Discrimination = Human Pass Rate minus (100% - Agent Failure Rate).
 
@@ -579,7 +571,7 @@ NOTE. All differences significant at *p* \< .001. Discrimination = Human Pass Ra
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*Traps ordered by discrimination (human-agent gap). The Moving Robot shows the highest agent failure (99.6%) with 77.5 pp discrimination, while Colliding Oranges shows the lowest discrimination (39.2 pp) because some agent platforms partially resolve its spatial reasoning constraint.
+*NOTE.*Traps ordered by discrimination (human-agent gap). The Moving Robot shows the highest agent failure (99.6%) with 77.5 pp discrimination, while Colliding Oranges shows the lowest discrimination (39.2 pp) because some agent platforms partially resolve its spatial reasoning constraint.
 
 The illusion-based traps (Muller-Lyer, Cafe Wall, Ebbinghaus) showed highest agent failure rates (77.6-94.9%) because these canonical patterns appear extensively in training data from psychology textbooks and vision research. Models learn these patterns so thoroughly during pre-training that they report the illusion even when visual modifications remove it. The Moving Robot showed near-perfect agent failure (99.6%) because spatiotemporal reasoning requires constructing dynamic mental models of motion trajectories, a capability not achieved by feedforward architectures processing static images independently. The spatial reasoning traps (Surrounded Planets, Colliding Oranges) showed more moderate but substantial discrimination (39.2-52.0pp), with some platforms demonstrating better performance on these tasks, reflecting recent architectural improvements in spatial processing.
 
@@ -589,9 +581,9 @@ Table WA-A5 shows detection rates for each agent platform using the 3+ threshold
 
 **TABLE WA-A5:** DETECTION RATES BY PLATFORM
 
-  ------------------------------------------------------------------------------------------------
+  
   **Platform**             **N**     **Detected (3+)**   **Detection Rate**   **95% CI**
-  ------------------------ --------- ------------------- -------------------- --------------------
+      
   Google Project Mariner   134       134                 100.0%               \[97.3, 100.0\]
 
   Claude Sonnet 4.5        132       132                 100.0%               \[97.2, 100.0\]
@@ -601,7 +593,7 @@ Table WA-A5 shows detection rates for each agent platform using the 3+ threshold
   ChatGPT Agent            129       121                 93.8%                \[88.1, 97.3\]
 
   **All Platforms**        **526**   **511**             **97.1%**            **\[95.4, 98.4\]**
-  ------------------------------------------------------------------------------------------------
+  
 
 NOTE. Chi-square test: χ²(3) = 16.0, *p* = .001.
 
@@ -613,7 +605,7 @@ Mariner and Claude showed perfect detection (100%), while Perplexity and ChatGPT
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*Each bar shows the percentage of agents from that platform achieving a given score (0-6 correct). The dashed line marks the 3-failure threshold (score of 3+). Mariner and Claude cluster near zero, while ChatGPT and Perplexity show higher but still predominantly sub-threshold scores. No agent from any platform scored 6/6.
+*NOTE.*Each bar shows the percentage of agents from that platform achieving a given score (0-6 correct). The dashed line marks the 3-failure threshold (score of 3+). Mariner and Claude cluster near zero, while ChatGPT and Perplexity show higher but still predominantly sub-threshold scores. No agent from any platform scored 6/6.
 
 ## A.6 Individual Trap Performance by Platform
 
@@ -621,9 +613,9 @@ Table WA-A6 presents individual trap failure rates across platforms, revealing w
 
 **TABLE WA-A6:** INDIVIDUAL TRAP FAILURE RATES BY PLATFORM
 
-  -----------------------------------------------------------------------------------------------------------
+  
   **Trap**                    **Mariner**   **Perplexity**   **ChatGPT**   **Claude**   **Chi-sq**   **p**
-  --------------------------- ------------- ---------------- ------------- ------------ ------------ --------
+        
   **Robust Constraints:**                                                                            
 
   Moving Robot                99.3%         99.2%            100.0%        100.0%       2.0          .577
@@ -639,7 +631,7 @@ Table WA-A6 presents individual trap failure rates across platforms, revealing w
   Colliding Oranges           75.4%         29.8%            34.9%         61.4%        74.5         \<.001
 
   Surrounded Planets          81.3%         51.1%            17.1%         71.2%        127.6        \<.001
-  -----------------------------------------------------------------------------------------------------------
+  
 
 Robust constraints produce near-uniform failure across platforms. The Moving Robot (99.2-100.0% failure) represents a fundamental limitation in current architectures regardless of implementation. The illusion-based traps (87.0-100.0% failure) reflect pervasive training data overfitting across all model families.
 
@@ -651,9 +643,9 @@ Table WA-A7 shows the distribution of cognitive trap scores (0-6 correct) for ea
 
 **TABLE WA-A7:** TOTAL COGNITIVE TRAP SCORE DISTRIBUTION
 
-  ---------------------------------------------------------------------------------------------------------
+  
   **Score**         **Mariner**   **Perplexity**   **ChatGPT**   **Claude**   **All Agents**   **Humans**
-  ----------------- ------------- ---------------- ------------- ------------ ---------------- ------------
+        
   6 (all correct)   0.0%          0.0%             0.0%          0.0%         0.0%             59.9%
 
   5                 0.0%          0.8%             1.6%          0.0%         0.6%             26.8%
@@ -669,7 +661,7 @@ Table WA-A7 shows the distribution of cognitive trap scores (0-6 correct) for ea
   0 (all failed)    56.7%         6.9%             4.7%          34.8%        26.0%            0.2%
 
   **Mean (SD)**     **0.50**      **1.89**         **1.76**      **0.99**     **1.28**         **5.40**
-  ---------------------------------------------------------------------------------------------------------
+  
 
 The distributions show clear separation between agents and humans. Among humans, 86.7% scored 5-6 (passing at least 5 of 6 traps), while no platform's mean score exceeded 1.89/6. Even the best-performing platforms (Perplexity at *M* = 1.89, ChatGPT at *M* = 1.76) averaged fewer than 2 correct responses, compared to 5.40 for humans. This separation explains the high sensitivity (97.1%) and low false positive rate (4.1%) at the 3+ failure threshold.
 
@@ -735,51 +727,51 @@ Table WA-B1 presents the complete set of implementations with exact stimuli, que
 
 **TABLE WA-B1.** COMPLETE COGNITIVE TRAP IMPLEMENTATIONS
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | **Cognitive Trap Description**                                                                                                                                               | **Cognitive Trap Stimulus**                                                                                                                                         | **Question and Response Options**                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | **(\* = correct answer)**                                                                                                                                                                                                                                                                                                                                           |
 +==============================================================================================================================================================================+=====================================================================================================================================================================+=====================================================================================================================================================================================================================================================================================================================================================================+
-| Modified Café Wall Illusion with genuinely slanted lines (*Data Overfitting*) -- from Ullman (2024)                                                                          | [Stimulus: Alternating rows of offset black and white squares with gray dividing lines between them. Unlike the canonical Cafe Wall illusion where lines only appear slanted, here the gray lines are genuinely diagonal/slanted. 84.8% human accuracy; 15.0% pooled model accuracy. See published paper.]                    | Are all the gray lines PERFECTLY STRAIGHT / HORIZONTAL or SLANTED / DIAGONAL?                                                                                                                                                                                                                                                                                       |
+| Modified Café Wall Illusion with genuinely slanted lines (*Data Overfitting*)  from Ullman (2024)                                                                          | [Stimulus: Alternating rows of offset black and white squares with gray dividing lines between them. Unlike the canonical Cafe Wall illusion where lines only appear slanted, here the gray lines are genuinely diagonal/slanted. 84.8% human accuracy; 15.0% pooled model accuracy. See published paper.]                    | Are all the gray lines PERFECTLY STRAIGHT / HORIZONTAL or SLANTED / DIAGONAL?                                                                                                                                                                                                                                                                                       |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | A\) Straight / Horizontal                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | B\*) Slanted / Diagonal                                                                                                                                                                                                                                                                                                                                             |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Modified Muller-Lyer illusion with a blue line objectively longer than a red line (*Data Overfitting*) -- adapted from Ullman (2024)                                         | [Stimulus: Two horizontal lines with arrowhead endpoints. The blue line (above) is objectively longer than the red line (below). Models default to reporting both lines are equal, memorizing the canonical pattern. 90.1% human accuracy; 5.0% pooled model accuracy. See published paper.]  | Which is longer, the blue line or the red line?                                                                                                                                                                                                                                                                                                                     |
+++++
+| Modified Muller-Lyer illusion with a blue line objectively longer than a red line (*Data Overfitting*)  adapted from Ullman (2024)                                         | [Stimulus: Two horizontal lines with arrowhead endpoints. The blue line (above) is objectively longer than the red line (below). Models default to reporting both lines are equal, memorizing the canonical pattern. 90.1% human accuracy; 5.0% pooled model accuracy. See published paper.]  | Which is longer, the blue line or the red line?                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | A\*) Blue Line                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | B\) Red Line                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | C\) NONE (they are the same size)                                                                                                                                                                                                                                                                                                                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Modified Ebbinghaus illusion with a red circle objectively bigger than a blue circle (*Data Overfitting*) -- from Ullman (2024)                                              | [Stimulus: Two central circles each surrounded by context circles. The red circle is objectively bigger than the blue circle. In the canonical Ebbinghaus illusion the circles only appear different but are actually equal; here the red circle is genuinely larger. Models default to reporting both are the same size. 90.1% human accuracy; 40.0% pooled model accuracy. See published paper.] | Which is bigger, the blue circle or the red circle?                                                                                                                                                                                                                                                                                                                 |
+++++
+| Modified Ebbinghaus illusion with a red circle objectively bigger than a blue circle (*Data Overfitting*)  from Ullman (2024)                                              | [Stimulus: Two central circles each surrounded by context circles. The red circle is objectively bigger than the blue circle. In the canonical Ebbinghaus illusion the circles only appear different but are actually equal; here the red circle is genuinely larger. Models default to reporting both are the same size. 90.1% human accuracy; 40.0% pooled model accuracy. See published paper.] | Which is bigger, the blue circle or the red circle?                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | A\) Blue Circle                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | B\*) Red Circle                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | C\) NONE (they are the same size)                                                                                                                                                                                                                                                                                                                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | The Moving Robot, a four-frame sequence showing a robot moving progressively toward center with constant speed and trajectory; frame 4 empty (*Spatiotemporal Reasoning*)    | [Stimulus: Four panels labeled Step 1 through Step 4, each showing a square. In Steps 1-3, a small robot figure moves progressively from the upper-left toward the center with constant speed and trajectory. Step 4 is blank. The correct answer is E (mostly around the center). Models achieve only 6.7% accuracy; humans achieve 77.2%. See published paper.]                 | Across each step, the robot moves with the same speed and trajectory. Where is it most likely that the robot will be located on Step 4? A) Mostly on the bottom right of the square; B) Mostly on the bottom left of the square; C) Mostly on the upper right of the square; D) Mostly on the upper left of the square; \*E) Mostly around the center of the square |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              | NOTE: The four steps were displayed side-by-side                                                                                                                    | F\) Off-screen (outside the square)                                                                                                                                                                                                                                                                                                                                 |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | The Colliding Oranges, which involves a set of shapes in a 2D display where the user predicts which shape(s) will be in the way (*Spatial Reasoning with Mental Simulation)* | [Stimulus: A 2D display containing colored circles of varying sizes and a green triangle. The largest circle is on the right side, the smallest on the left. Participants must mentally simulate the largest circle moving straight left toward the smallest circle and determine which objects lie in its path. The correct answer is the green triangle. 86.5% human accuracy; 31.7% pooled model accuracy. See published paper.]                    | The largest circle will move straight to the left towards the smallest circle. What are the objects in the way, if any? That is, which objects, if any, would the largest circle collide with?                                                                                                                                                                      |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | A\*) Green Triangle                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | B, C, D, ...) Other object combinations                                                                                                                                                                                                                                                                                                                             |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | The Surrounded Planets, which involves six colored planets surrounded by occluding geometric shapes which need to be counted (*Cross-Modal Binding with Occluded Stimulus)*  | [Stimulus: Six colored planets (orange, purple, blue, red, green, gray) arranged in 3 columns, each surrounded by geometric shapes that overlap and occlude each other. Five planets have 5 shapes surrounding them; one planet (orange) has only 4 shapes. The task requires counting shapes around each planet and identifying the one with fewer. 91.8% human accuracy; 36.7% pooled model accuracy. See published paper.]     | Look at the 6 planets in this image. Each planet is surrounded by several shapes. Don\'t worry about the color, size, or type of shape - just count how many shapes surround each planet. Five planets have 5 shapes surrounding them. One planet has 4 shapes surrounding it. What color is the planet that has only 4 shapes surrounding it?                      |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              | NOTE: The six planets were displayed in 3 columns                                                                                                                   | A\*) Orange, B-F) Purple, Blue, Red, Green, Gray                                                                                                                                                                                                                                                                                                                    |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | The Shape Overload, which involves identifying the shape with the most colors and counting how many of these shapes are displayed (*Compositional Counting*)                 | [Stimulus: A dense display containing circles, rectangles, triangles, and hexagons in various colors. One shape type appears in more different colors than the other three. Participants must identify which shape appears in the most colors and then count all instances of that shape (correct answer: 14). This trap was excluded from deployment because human accuracy was only 46.8%, below the 75% threshold. See published paper.]                              | This image contains circles, rectangles, triangles, and hexagons in various colors.                                                                                                                                                                                                                                                                                 |
 |                                                                                                                                                                              |                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                              |                                                                                                                                                                     | One of these shape types appears in more different colors than the other three. Identify which shape appears with most colors. Then, count how many of those shapes are in the image. What is the count? (Open-ended; A: 14)                                                                                                                                        |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 
 **B.4 Shape Overload: Exclusion Rationale**
 
@@ -871,9 +863,9 @@ Table WA-C1 presents pass rates for all 34 models ordered chronologically by rel
 
 **TABLE WA-C1:** COMPLETE COGNITIVE TRAP PASS RATES ACROSS 34 MODELS
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
   **Model**                **Provider**   **Release**    **Cafe Wall**   **Muller-Lyer**   **Ebbinghaus**   **Robot**   **Oranges**   **Planets**    **Avg**
-  ------------------------ -------------- ------------- --------------- ----------------- ---------------- ----------- ------------- ------------- -----------
+           
   claude-haiku-3.0         Anthropic      Mar 2024           100%              0%               50%            90%          0%            0%          40.0%
 
   gpt-4o                   OpenAI         May 2024            0%               0%                0%            0%           0%            0%          0.0%
@@ -945,7 +937,7 @@ Table WA-C1 presents pass rates for all 34 models ordered chronologically by rel
   **Human (*N* = 171)**                                    **84.8%**        **90.1%**        **90.1%**      **77.2%**    **86.5%**     **91.8%**    **86.8%**
 
   **Pooled (34 models)**                                   **20.0%**        **14.1%**        **48.2%**      **5.3%**     **30.3%**     **37.6%**    **25.9%**
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
 
 NOTE. † = extended thinking variant. Ten independent trials per trap per model. Human sample: 171 attentive Prolific participants (validation study). Pooled = unweighted average across all 34 models.
 
@@ -959,9 +951,9 @@ An OLS regression of model-level average accuracy on release date (measured in m
 
 **TABLE WA-C2:** PER-TRAP TEMPORAL SLOPES (OLS REGRESSION ON RELEASE DATE)
 
-  --------------------------------------------------------------------------------------------------------------------
+  
   **Trap**                **Slope (pp/month)**   **SE**   ***p***   **Direction**   **Interpretation**
-  ---------------------- ---------------------- -------- ---------- --------------- ----------------------------------
+       
   Modified Cafe Wall             −3.14            0.99    .003\*\*  Declining       Models getting *worse* over time
 
   Moving Robot                   −1.51            0.40    .001\*\*  Declining       Models getting *worse* over time
@@ -973,7 +965,7 @@ An OLS regression of model-level average accuracy on release date (measured in m
   Colliding Oranges              +2.92            1.00    .006\*\*  Improving       Models getting better over time
 
   Surrounded Planets             +2.71            1.15     .022\*   Improving       Models getting better over time
-  --------------------------------------------------------------------------------------------------------------------
+  
 
 NOTE. Dependent variable: model pass rate (%) for each trap. Independent variable: release date in months since January 2024. *N* = 34 models. \* *p* \< .05, \*\* *p* \< .01.
 
@@ -987,9 +979,9 @@ Twelve of the 34 models are extended-thinking variants that engage in deliberati
 
 **TABLE WA-C3:** EFFECT OF EXTENDED THINKING ON COGNITIVE TRAP PERFORMANCE
 
-  ---------------------------------------------------------------------------------------
+  
   **Base Model**          **Provider**    **Standard**    **Thinking**    **Difference**
-  ----------------------- -------------- --------------- --------------- ----------------
+      
   gemini-2.5-pro          Google              15.0%           1.7%           −13.3 pp
 
   gemini-2.5-flash        Google              1.7%            6.7%           +5.0 pp
@@ -1015,7 +1007,7 @@ Twelve of the 34 models are extended-thinking variants that engage in deliberati
   claude-sonnet-4.6       Anthropic           23.3%           16.7%          −6.6 pp
 
   **Mean**                                  **22.6%**       **31.4%**      **+8.8 pp**
-  ---------------------------------------------------------------------------------------
+  
 
 NOTE. Difference = Thinking accuracy minus Standard accuracy. Positive values indicate thinking improves performance.
 
@@ -1027,7 +1019,7 @@ Extended thinking improves average accuracy by 8.8 percentage points across the 
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*Each row represents one of 12 base models with paired standard (circle) and extended-thinking (diamond) variants. Green lines indicate improvement, red lines indicate decline. Models sorted by magnitude of thinking effect. Eight of 12 pairs show improvement (mean +8.8 pp), while four show declines. The largest gain is Claude Sonnet 4.5 (+30.0 pp); the largest decline is GPT-5.1 (−20.0 pp). The dashed line marks the 86.8% human baseline, which no thinking model reaches.
+*NOTE.*Each row represents one of 12 base models with paired standard (circle) and extended-thinking (diamond) variants. Green lines indicate improvement, red lines indicate decline. Models sorted by magnitude of thinking effect. Eight of 12 pairs show improvement (mean +8.8 pp), while four show declines. The largest gain is Claude Sonnet 4.5 (+30.0 pp); the largest decline is GPT-5.1 (−20.0 pp). The dashed line marks the 86.8% human baseline, which no thinking model reaches.
 
 ## C.5 Provider Comparison
 
@@ -1035,9 +1027,9 @@ Table WA-C4 presents average performance by provider, revealing distinct capabil
 
 **TABLE WA-C4:** AVERAGE PASS RATES BY PROVIDER
 
-  -------------------------------------------------------------------------------------------------------------------------
+  
   **Trap**                **Anthropic (*n* = 12)**   **OpenAI (*n* = 12)**   **Google (*n* = 10)**   **Pooled (*N* = 34)**
-  ---------------------- -------------------------- ----------------------- ----------------------- -----------------------
+      
   Modified Cafe Wall               18.3%                     16.7%                   26.0%                   20.0%
 
   Modified Muller-Lyer             18.3%                     0.0%                    26.0%                   14.1%
@@ -1051,17 +1043,17 @@ Table WA-C4 presents average performance by provider, revealing distinct capabil
   Surrounded Planets               20.0%                     56.7%                   36.0%                   37.6%
 
   **Overall**                    **31.7%**                 **21.2%**               **24.7%**               **25.9%**
-  -------------------------------------------------------------------------------------------------------------------------
+  
 
 The most striking provider-specific pattern involves the Modified Ebbinghaus trap: Anthropic models achieve 79.2% accuracy (near human levels of 90.1%), while OpenAI models achieve only 20.0% and Google models 45.0%. This suggests that Anthropic's architecture has partially resolved the training data overfitting constraint for the Ebbinghaus illusion specifically, while the constraint persists in other model families. Conversely, OpenAI models show zero accuracy on the Modified Muller-Lyer across all 12 models tested (120 trials), indicating complete and persistent failure to overcome training data overfitting for this particular illusion despite substantial architectural differences across the GPT-4o through GPT-5.2 range. See Figure WA-C2.
 
 **FIGURE WA-C2.** AVERAGE COGNITIVE TRAP PASS RATES BY PROVIDER
 
-*Heatmap with rows for each trap and columns for Anthropic (n=12), OpenAI (n=12), Google (n=10), and a Human baseline. Key values: Modified Cafe Wall -- Anthropic 18.3%, OpenAI 16.7%, Google 26.0%, Human 84.8%. Modified Muller-Lyer -- Anthropic 18.3%, OpenAI 0.0%, Google 26.0%, Human 90.1%. Modified Ebbinghaus -- Anthropic 79.2%, OpenAI 20.0%, Google 45.0%, Human 90.1%. Moving Robot -- Anthropic 8.3%, OpenAI 4.2%, Google 3.0%, Human 77.2%. Colliding Oranges -- Anthropic 45.8%, OpenAI 30.0%, Google 12.0%, Human 86.5%. Surrounded Planets -- Anthropic 20.0%, OpenAI 56.7%, Google 36.0%, Human 91.8%. Overall -- Anthropic 31.7%, OpenAI 21.2%, Google 24.7%, Human 86.8%. OpenAI shows zero accuracy on Muller-Lyer across all 12 models (120 trials). Anthropic models achieve 79.2% on Ebbinghaus, near human levels.*
+*Heatmap with rows for each trap and columns for Anthropic (n=12), OpenAI (n=12), Google (n=10), and a Human baseline. Key values: Modified Cafe Wall  Anthropic 18.3%, OpenAI 16.7%, Google 26.0%, Human 84.8%. Modified Muller-Lyer  Anthropic 18.3%, OpenAI 0.0%, Google 26.0%, Human 90.1%. Modified Ebbinghaus  Anthropic 79.2%, OpenAI 20.0%, Google 45.0%, Human 90.1%. Moving Robot  Anthropic 8.3%, OpenAI 4.2%, Google 3.0%, Human 77.2%. Colliding Oranges  Anthropic 45.8%, OpenAI 30.0%, Google 12.0%, Human 86.5%. Surrounded Planets  Anthropic 20.0%, OpenAI 56.7%, Google 36.0%, Human 91.8%. Overall  Anthropic 31.7%, OpenAI 21.2%, Google 24.7%, Human 86.8%. OpenAI shows zero accuracy on Muller-Lyer across all 12 models (120 trials). Anthropic models achieve 79.2% on Ebbinghaus, near human levels.*
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*Heatmap compares performance across Anthropic (*n* = 12 models), OpenAI (*n* = 12), and Google (*n* = 10) for each trap and overall. Human baseline shown for reference. Provider-specific patterns reveal distinct capability profiles across model families.
+*NOTE.*Heatmap compares performance across Anthropic (*n* = 12 models), OpenAI (*n* = 12), and Google (*n* = 10) for each trap and overall. Human baseline shown for reference. Provider-specific patterns reveal distinct capability profiles across model families.
 
 The Moving Robot trap shows the most uniform cross-provider failure, with all three providers averaging below 9% accuracy. Spatiotemporal reasoning remains the most robust constraint category for detection purposes, producing near-universal failure regardless of provider, model generation, or thinking variant.
 
@@ -1083,9 +1075,9 @@ The optimal CAPTCHA threshold maximizing Youden's J (sensitivity + specificity -
 
 **TABLE WA-D1:** COMPARISON OF DETECTION METHODS AT OPTIMAL OPERATING POINTS
 
-  --------------------------------------------------------------------------------
+  
   **Method**                         **Sensitivity**   **FPR**   **Specificity**
-  ---------------------------------- ----------------- --------- -----------------
+     
   Cognitive Traps (3+ failures)      97.1% (511/526)   4.1%      95.9%
 
   CAPTCHA (optimal threshold 0.90)   93.9% (494/526)   12.4%     87.6%
@@ -1093,7 +1085,7 @@ The optimal CAPTCHA threshold maximizing Youden's J (sensitivity + specificity -
   CAPTCHA (standard threshold 0.5)   4.6% (24/526)     1.0%      99.0%
 
   Traditional methods (any)          2.3% (12/526)     N/A       N/A
-  --------------------------------------------------------------------------------
+  
 
 The standard 0.5 threshold used by most researchers detects only 4.6% of agents, rendering CAPTCHA ineffective as a detection tool against vision-enabled agents at conventional settings.
 
@@ -1103,7 +1095,7 @@ The standard 0.5 threshold used by most researchers detects only 4.6% of agents,
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*Cognitive traps achieve the best combination: highest sensitivity (97.1%) with low false positives (4.1%). CAPTCHA at the optimal 0.90 threshold approaches cognitive trap sensitivity (93.9%) but at three times the false positive rate (12.4%). CAPTCHA at the standard 0.5 threshold and traditional methods both detect fewer than 5% of agents.
+*NOTE.*Cognitive traps achieve the best combination: highest sensitivity (97.1%) with low false positives (4.1%). CAPTCHA at the optimal 0.90 threshold approaches cognitive trap sensitivity (93.9%) but at three times the false positive rate (12.4%). CAPTCHA at the standard 0.5 threshold and traditional methods both detect fewer than 5% of agents.
 
 ## D.3 Threshold Sweep
 
@@ -1111,9 +1103,9 @@ Table WA-D2 presents detection performance across a range of CAPTCHA thresholds,
 
 **TABLE WA-D2:** CAPTCHA DETECTION PERFORMANCE BY THRESHOLD
 
-  --------------------------------------------------------------------------------------
+  
   **Threshold**   **Agents Detected**   **Humans Flagged**   **Sensitivity**   **FPR**
-  --------------- --------------------- -------------------- ----------------- ---------
+      
   \< 0.50         24/526                10/1007              4.6%              1.0%
 
   \< 0.60         64/526                17/1007              12.2%             1.7%
@@ -1125,7 +1117,7 @@ Table WA-D2 presents detection performance across a range of CAPTCHA thresholds,
   \< 0.90         494/526               125/1007             93.9%             12.4%
 
   \< 0.95         494/526               125/1007             93.9%             12.4%
-  --------------------------------------------------------------------------------------
+  
 
 The jump at the 0.90 threshold (from 18.4% to 93.9% sensitivity) occurs because 397 agents (75.5%) cluster in the 0.80-0.89 score range. Below 0.80, only a trickle of agents are captured (mostly Perplexity agents with lower scores). Above 0.90, nearly all agents fall below the threshold, but so do 12.4% of humans.
 
@@ -1135,7 +1127,7 @@ The main problem with CAPTCHA as a detection tool is the overlap in score distri
 
 (i) **Agent score distribution:** - Below 0.50: 4.6% (24/526) - 0.50-0.79: 13.9% (73/526) - 0.80-0.89: 75.5% (397/526) - 0.90-1.00: 6.1% (32/526)
 
-<!-- -->
+<! >
 
 (i) **Human score distribution:** - Below 0.50: 1.0% (10/1007) - 0.50-0.79: 3.0% (30/1007) - 0.80-0.89: 8.4% (85/1007) - 0.90-1.00: 87.6% (882/1007)
 
@@ -1145,9 +1137,9 @@ The distributions separate cleanly below 0.80 and above 0.90, but the 0.80-0.89 
 
 **TABLE WA-D3:** CAPTCHA SCORES BY AGENT PLATFORM
 
-  ----------------------------------------------------------------------
+  
   **Platform**       **Mean**   **SD**   **Below 0.5**   **Below 0.9**
-  ------------------ ---------- -------- --------------- ---------------
+      
   Google Mariner     0.9000     0.0000   0 (0.0%)        134 (100.0%)
 
   Perplexity Comet   0.6901     0.2115   20 (15.3%)      125 (95.4%)
@@ -1155,7 +1147,7 @@ The distributions separate cleanly below 0.80 and above 0.90, but the 0.80-0.89 
   ChatGPT Agent      0.8698     0.0835   0 (0.0%)        126 (97.7%)
 
   Claude/Cursor      0.8689     0.1285   4 (3.0%)        109 (82.6%)
-  ----------------------------------------------------------------------
+  
 
 Google Mariner scored exactly 0.90 on every single trial (*N* = 134), suggesting the Mariner framework produces a deterministic CAPTCHA interaction pattern. Perplexity showed the most variance (SD = 0.2115) and the highest proportion below the standard threshold (15.3%). ChatGPT and Claude produced similar mean scores (approximately 0.87) with moderate variance.
 
@@ -1205,9 +1197,9 @@ Table WA-E1 presents the optimal configuration for each battery size (number of 
 
 **TABLE WA-E1:** OPTIMAL CONFIGURATION BY BATTERY SIZE
 
-  ------------------------------------------------------------------------------------------------------------------------
+  
   **\# Traps**   **Best Configuration**                       **Threshold**   **Sensitivity**   **FPR**   **Youden's J**
-  -------------- -------------------------------------------- --------------- ----------------- --------- ----------------
+       
   2              Muller-Lyer + Moving Robot                   2+/2            93.7%             2.6%      0.911
 
   3              Muller-Lyer + Moving Robot + Planets         2+/3            96.8%             4.0%      0.928
@@ -1217,7 +1209,7 @@ Table WA-E1 presents the optimal configuration for each battery size (number of 
   5              CW + ML + Ebb + Robot + Planets              3+/5            96.2%             2.6%      0.936
 
   6              All six traps                                3+/6            97.1%             4.1%      0.931
-  ------------------------------------------------------------------------------------------------------------------------
+  
 
 The optimal 5-trap configuration (J=0.936) slightly outperforms the full 6-trap deployment (J=0.931), demonstrating that adding the weakest-performing trap (Colliding Oranges) marginally reduces overall performance by introducing false positives without proportional sensitivity gains.
 
@@ -1225,9 +1217,9 @@ The optimal 5-trap configuration (J=0.936) slightly outperforms the full 6-trap 
 
 **TABLE WA-E2:** RECOMMENDED CONFIGURATIONS BY RESEARCH CONTEXT
 
-  ------------------------------------------------------------------------------------------------------------------
+  
   **Research Priority**                      **Configuration**                           **Sensitivity**   **FPR**
-  ------------------------------------------ ------------------------------------------- ----------------- ---------
+     
   Maximum detection, FPR \<= 5%              4 traps (ML+Ebb+Robot+Planets), thresh 2+   97.7%             5.0%
 
   Maximum detection, FPR \<= 2%              4 traps (CW+ML+Robot+Planets), thresh 3+    94.5%             2.0%
@@ -1237,7 +1229,7 @@ The optimal 5-trap configuration (J=0.936) slightly outperforms the full 6-trap 
   Balanced (as deployed in this study)       6 traps (all), thresh 3+                    97.1%             4.1%
 
   Optimal by Youden's J                      5 traps (drop Oranges), thresh 3+           96.2%             2.6%
-  ------------------------------------------------------------------------------------------------------------------
+  
 
 For most research contexts, we recommend three to four traps from different constraint categories with a majority-failure threshold. This achieves detection rates above 95% with false positive rates below 5%, representing a substantial improvement over both traditional methods and CAPTCHA. Researchers with severe survey length constraints can use the two-trap minimum viable battery (Muller-Lyer and Moving Robot, both must fail) and still achieve 93.7% detection.
 
@@ -1245,15 +1237,15 @@ For most research contexts, we recommend three to four traps from different cons
 
 **TABLE WA-E3:** CONSTRAINT DIVERSITY WITHIN 3-TRAP BATTERIES
 
-  ------------------------------------------------------------------------------------------------
+  
   **Constraint Diversity**   **Best Configuration**            **J**   **Sensitivity**   **FPR**
-  -------------------------- --------------------------------- ------- ----------------- ---------
+      
   1 category                 CW + ML + Ebb (all overfitting)   0.912   94.5%             3.3%
 
   2 categories               ML + Ebb + Robot (2 types)        0.920   97.3%             5.3%
 
   3 categories               ML + Robot + Planets (3 types)    0.928   96.8%             4.0%
-  ------------------------------------------------------------------------------------------------
+  
 
 Diversity helps, but choosing high-discrimination traps matters more than constraint diversity per se. The improvement from one to three constraint categories (J = 0.912 to 0.928) is real but modest. Researchers should prioritize individual trap quality over adherence to diversity requirements.
 
@@ -1267,23 +1259,23 @@ The main text reports choice deferral results for three groups: humans who passe
 
 **TABLE WA-F1:** CHOICE DEFERRAL BY GROUP AND CONDITION
 
-+----------------+------------------------------+------------------------------+------------------------------+
++++++
 | **Outcome**    | **Passed Humans**            | **Failed Humans**            | **AI Agents**                |
-+----------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 |                | **Dominated** | **Conflict** | **Dominated** | **Conflict** | **Dominated** | **Conflict** |
 +================+===============+==============+===============+==============+===============+==============+
 | Chose Laptop A | 94.0%         | 44.0%        | 89.5%         | 54.5%        | 100.0%        | 60.1%        |
-+----------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | Chose Laptop B | 0.8%          | 32.0%        | 5.3%          | 31.8%        | 0.0%          | 39.2%        |
-+----------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | Deferred       | 5.2%          | 24.0%        | 5.3%          | 13.6%        | 0.0%          | 0.7%         |
-+----------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | N              | 482           | 484          | 19            | 22           | 258           | 268          |
-+----------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | Chi-sq         | 66.83         |              | 0.139         |              | 0.465         |              |
-+----------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | p              | \< .0001      |              | .709          |              | .496          |              |
-+----------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 
 The choice deferral effect replicates cleanly among passed-trap humans: 5.2% deferral under domination versus 24.0% under conflict (χ²(1) = 66.83, *p* \< .001), consistent with Dhar's (1997) theoretical prediction. Among agents, deferral is near zero regardless of condition (0.0% vs. 0.7%, *p* = .496), showing that machines do not experience the subjective uncertainty that drives deferral.
 
@@ -1293,19 +1285,19 @@ The 41 failed-trap "humans" show an intermediate pattern (5.3% vs. 13.6%, *p* =
 
 **TABLE WA-F2:** DECISION TIMES (SECONDS) BY GROUP AND CONDITION
 
-+------------------+------------------------------+------------------------------+------------------------------+
++++++
 | **Statistic**    | **Passed Humans**            | **Failed Humans**            | **AI Agents**                |
-+------------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 |                  | **Dominated** | **Conflict** | **Dominated** | **Conflict** | **Dominated** | **Conflict** |
 +==================+===============+==============+===============+==============+===============+==============+
 | Mean             | 53.3          | 64.6         | 72.4          | 97.0         | 36.3          | 36.3         |
-+------------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | SD               | 69.9          | 116.8        | 48.4          | 147.6        | 16.7          | 17.0         |
-+------------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | Median           | 34.2          | 41.6         | 65.9          | 43.3         | 35.7          | 34.7         |
-+------------------+---------------+--------------+---------------+--------------+---------------+--------------+
+++++++++
 | Condition effect | *t* = 1.83, p = .067         | *t* = 0.69, p = .492         | t = -0.02, p = .984          |
-+------------------+------------------------------+------------------------------+------------------------------+
++++++
 
 Decision times provide evidence that failed-trap "humans" are genuine humans. In the conflict condition, failed-trap participants averaged 97.0 seconds, compared to 64.6 seconds for passed-trap humans (*t* = 1.26, *p* = .210, not significantly different) and 36.3 seconds for agents (*t* = 6.35, *p* \< .001, clearly different). Their timing profile is human-like: substantial variability (SD = 147.6), sensitivity to conflict (higher mean in conflict vs. dominated, though not significant), and clearly slower than agents.
 
@@ -1315,9 +1307,9 @@ Agents showed no condition sensitivity in decision times (*M* = 36.3 seconds in 
 
 **TABLE WA-F3:** TRADITIONAL CHECK PERFORMANCE BY GROUP
 
-  ----------------------------------------------------------------------------------
+  
   **Check**                   **Passed Humans**   **Failed "Humans"**   **Agents**
-  --------------------------- ------------------- --------------------- ------------
+     
   IMC Pass Rate               99.6%               97.6%                 99.8%
 
   Obvious Answer Pass Rate    99.3%               92.7%                 99.8%
@@ -1329,7 +1321,7 @@ Agents showed no condition sensitivity in decision times (*M* = 36.3 seconds in 
   CAPTCHA Mean Score          0.972               0.971                 0.833
 
   CAPTCHA SD                  0.098               0.129                 0.154
-  ----------------------------------------------------------------------------------
+  
 
 Failed-trap "humans" show traditional check performance that is statistically indistinguishable from passed-trap humans. Their CAPTCHA scores (*M* = 0.971) are virtually identical to passed humans (*M* = 0.972, *t* = 0.10, *p* = .923). Their IMC pass rates are lower (97.6% vs. 99.6%) but well within the range of normal human performance. In contrast, agents show a distinctive CAPTCHA profile (*M* = 0.833) and perfect or near-perfect traditional check performance (reflecting that traditional checks exploit human attention limitations, which agents do not share).
 
@@ -1337,9 +1329,9 @@ This convergence of evidence (human-like decision times, human-like CAPTCHA scor
 
 ## F.2 Total Score Distribution Among Failed-Trap "Humans"
 
-  -------------------------------------------
+  
   **Score**   **N**   **% of Failed Group**
-  ----------- ------- -----------------------
+    
   0           2       4.9%
 
   1           4       9.8%
@@ -1347,21 +1339,21 @@ This convergence of evidence (human-like decision times, human-like CAPTCHA scor
   2           13      31.7%
 
   3           22      53.7%
-  -------------------------------------------
+  
 
 Most flagged participants (22/41, 53.7%) scored exactly 3/6, meaning they just barely failed the 3+ threshold. Only 6/41 (14.6%) scored 0 or 1, which would be more concerning from a contamination perspective. The concentration at the threshold boundary is consistent with natural variation in visual-cognitive performance, as agents would be expected to show a more distributed score pattern.
 
 ## F.3 Total Survey Completion Times
 
-  -----------------------------------------------------
+  
   **Group**            **Mean**   **Median**   **SD**
-  -------------------- ---------- ------------ --------
-  Passed Humans        538.6s     367.0s       --
+     
+  Passed Humans        538.6s     367.0s       
 
-  Failed "Humans"      693.7s     631.0s       --
+  Failed "Humans"      693.7s     631.0s       
 
-  Agents               635.3s     597.5s       --
-  -----------------------------------------------------
+  Agents               635.3s     597.5s       
+  
 
 Failed-trap "humans" took the longest overall (*M* = 693.7 seconds), exceeding both passed humans (538.6s) and agents (635.3s). This pattern is consistent with slower or more careful processing by participants who find the visual tasks genuinely challenging.
 
@@ -1371,9 +1363,9 @@ Among agents who committed to a choice (excluding the 2 who deferred), platforms
 
 **TABLE WA-F4:** AGENT CHOICE PATTERNS BY PLATFORM (CONFLICT CONDITION)
 
-  ----------------------------------------------------------------------------------------------------
+  
   **Platform**     **N**   **Chose A**   **Chose B**   **Defer**   **A:B Ratio**   **Decision Time**
-  ---------------- ------- ------------- ------------- ----------- --------------- -------------------
+        
   Mariner          68      70.6%         26.5%         2.9%        2.7:1           30.8s
 
   Perplexity       66      39.4%         60.6%         0.0%        1:1.5           47.1s
@@ -1383,7 +1375,7 @@ Among agents who committed to a choice (excluding the 2 who deferred), platforms
   Claude           64      31.2%         68.8%         0.0%        1:2.2           48.3s
 
   Overall agents   268     60.1%         39.2%         0.7%        1.5:1           36.3s
-  ----------------------------------------------------------------------------------------------------
+  
 
 Overall chi-square for platform differences: χ²(3) = 75.69, *p* \< .001.
 
@@ -1423,9 +1415,9 @@ Cognitive traps flagged 200 of 263 MTurk respondents (76.0%) at the pre-register
 
 **TABLE WA-G1:** TOTAL SCORE DISTRIBUTION ON MTURK
 
-  ------------------------------------------------
+  
   **Score**   **N**   **%**    **Cumulative %**
-  ----------- ------- -------- -------------------
+     
   6           5       1.9%     100.0%
 
   5           14      5.3%     98.1%
@@ -1439,7 +1431,7 @@ Cognitive traps flagged 200 of 263 MTurk respondents (76.0%) at the pre-register
   1           42      16.0%    17.1%
 
   0           3       1.1%     1.1%
-  ------------------------------------------------
+  
 
 The score distribution is left-shifted relative to Prolific, with the modal score at 2 (32.3% of respondents). Among the 200 flagged respondents, 65.0% scored below the threshold (0, 1, or 2), indicating that the majority did not narrowly miss passing but rather showed pervasive failure across multiple traps.
 
@@ -1449,9 +1441,9 @@ All six traps showed substantially lower pass rates on MTurk compared to Prolifi
 
 **TABLE WA-G2:** INDIVIDUAL TRAP PASS RATES: MTURK VS. PROLIFIC VS. AGENTS
 
-  -----------------------------------------------------------------------------------------------------------
+  
   **Trap**               **MTurk**     **Prolific**   **Agents**      **MTurk-Prolific**   **MTurk-Agents**
-  ---------------------- ------------- -------------- --------------- -------------------- ------------------
+       
   Modified Cafe Wall     31.2% (82)    88.4% (890)    5.1% (27) -     57.2 pp +            26.0 pp
 
   Modified Muller-Lyer   71.1% (187)   92.8% (934)    5.9% (31) -     21.7 pp +            65.2 pp
@@ -1465,7 +1457,7 @@ All six traps showed substantially lower pass rates on MTurk compared to Prolifi
   Surrounded Planets     43.3% (114)   96.5% (972)    44.5% (234) -   53.2 pp -            1.1 pp
 
   **Average**            **44.2%**     **90.0%**      **21.3%** \*    \*-45.8 pp\*\* \*    \*+22.9 pp\*\*
-  -----------------------------------------------------------------------------------------------------------
+  
 
 NOTE. Agent *N* = 526. Agent pass rates represent pooled performance across four deployed agents (Google Mariner, Perplexity, ChatGPT, Claude).
 
@@ -1491,9 +1483,9 @@ Table WA-G3 presents flagging rates under alternative thresholds for the MTurk s
 
 **TABLE WA-G3:** THRESHOLD SENSITIVITY ON MTURK (*N* = 263)
 
-  --------------------------------------------------------
+  
   **Threshold**     **Flagged**   **Rate**
-  ----------------- ------------- ------------------------
+    
   1+ failures       258           98.1%
 
   2+ failures       244           92.8%
@@ -1505,7 +1497,7 @@ Table WA-G3 presents flagging rates under alternative thresholds for the MTurk s
   5+ failures       45            17.1%
 
   6 failures        3             1.1%
-  --------------------------------------------------------
+  
 
 Even the most lenient threshold (1+ failures) flags 98.1% of MTurk respondents, and the most stringent threshold (6 failures, meaning zero correct) captures 1.1% of the sample (3 respondents). The near-universal failure at the 2+ threshold (92.8%) suggests that the contamination on MTurk is not limited to marginal cases near the three-failure boundary, with most respondents fail multiple traps.
 
@@ -1525,9 +1517,9 @@ Cognitive traps flagged 9 of 506 CloudResearch Connect respondents (1.8%) at the
 
 **TABLE WA-G4:** TOTAL SCORE DISTRIBUTION ON CLOUDRESEARCH CONNECT
 
-  -----------------------------------------------
+  
   **Score**   **N**   **%**    **Cumulative %**
-  ----------- ------- -------- ------------------
+     
   6           387     76.5%    100.0%
 
   5           90      17.8%    23.5%
@@ -1541,8 +1533,7 @@ Cognitive traps flagged 9 of 506 CloudResearch Connect respondents (1.8%) at the
   1           0       0.0%     0.0%
 
   0           0       0.0%     0.0%
-  -----------------------------------------------
-
+  
 
 ### G.3.4 Individual Trap Pass Rates
 
@@ -1550,9 +1541,9 @@ All six traps showed pass rates at or above Prolific levels.
 
 **TABLE WA-G5:** INDIVIDUAL TRAP PASS RATES: CLOUDRESEARCH CONNECT VS. PROLIFIC VS. AGENTS
 
-  ---------------------------------------------------------------------------------------------------------------
+  
   **Trap**               **Connect**   **Prolific**   **Agents**      **Connect-Prolific**   **Connect-Agents**
-  ---------------------- ------------- -------------- --------------- ---------------------- --------------------
+       
   Modified Cafe Wall     96.0% (486)   88.4% (890)    5.1% (27) +     7.6 pp +               90.9 pp
 
   Modified Muller-Lyer   97.4% (493)   92.8% (934)    5.9% (31) +     4.6 pp +               91.5 pp
@@ -1566,7 +1557,7 @@ All six traps showed pass rates at or above Prolific levels.
   Surrounded Planets     98.2% (497)   96.5% (972)    44.5% (234) +   1.7 pp +               53.7 pp
 
   **Average**            **94.7%**     **90.0%**      **21.3%** \*    \*+4.7 pp\*\* \*       \*+73.4 pp\*\*
-  ---------------------------------------------------------------------------------------------------------------
+  
 
 NOTE. Agent *N* = 526. Agent pass rates represent pooled performance across four deployed agents.
 
@@ -1586,9 +1577,9 @@ Table WA-G6 presents flagging rates under alternative thresholds for the CloudRe
 
 **TABLE WA-G6:** THRESHOLD SENSITIVITY ON CLOUDRESEARCH CONNECT (*N* = 506)
 
-  -------------------------------------------------------
+  
   **Threshold**     **Flagged**   **Rate**
-  ----------------- ------------- -----------------------
+    
   1+ failures       119           23.5%
 
   2+ failures       29            5.7%
@@ -1600,7 +1591,7 @@ Table WA-G6 presents flagging rates under alternative thresholds for the CloudRe
   5+ failures       0             0.0%
 
   6 failures        0             0.0%
-  -------------------------------------------------------
+  
 
 The CloudResearch distribution mirrors Prolific's high-quality profile. At the pre-registered three-failure threshold, only 1.8% of respondents are flagged. Even at the more lenient 2+ threshold, the flagging rate remains low at 5.7%, and the 1+ threshold (flagging anyone who failed at least one trap) captures 23.5% of the sample, primarily reflecting the 90 respondents who scored 5/6 (failing only one trap), consistent with normal variation in visual-cognitive ability rather than AI contamination. At the more stringent end, only 4 respondents (0.8%) failed 4 or more traps and none failed 5 or more.
 
@@ -1610,9 +1601,9 @@ The CloudResearch distribution mirrors Prolific's high-quality profile. At the p
 
 **TABLE WA-G7:** COGNITIVE TRAP FLAGGING RATES ACROSS ALL FOUR DATASETS
 
-  ------------------------------------------------------------------------------------
+  
   **Dataset**             **N**   **Flagged**   **Rate**   **z vs. Prolific**
-  ----------------------- ------- ------------- ---------- ---------------------------
+      
   Prolific                1,007   41            4.1%       (reference)
 
   CloudResearch Connect   506     9             1.8%       *z* = -2.35, *p* = .019
@@ -1620,7 +1611,7 @@ The CloudResearch distribution mirrors Prolific's high-quality profile. At the p
   Amazon MTurk            263     200           76.0%      *z* = 26.51, *p* \< .001
 
   Agents                  526     511           97.1%      *z* = -36.04, *p* \< .001
-  ------------------------------------------------------------------------------------
+  
 
 NOTE. All pairwise comparisons significant. MTurk vs. CloudResearch: *z* = 21.96, *p* \< .001; MTurk vs. Agents: *z* = -9.36, *p* \< .001; CloudResearch vs. Agents: *z* = -30.63, *p* \< .001.
 
@@ -1630,7 +1621,7 @@ NOTE. All pairwise comparisons significant. MTurk vs. CloudResearch: *z* = 21.9
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*(A) Cognitive trap flagging rates range from 1.8% (Connect) to 97.1% (Agents). (B) reCAPTCHA v3 scores: MTurk (0.635) falls well below the 0.5 standard threshold, while other samples score above 0.83. (C) Choice deferral in the conflict condition replicates on Prolific (24.0%) and Connect (26.6%) but is near zero on MTurk (1.6%) and among Agents (0.7%). (D) Traditional attention checks show near-ceiling pass rates on all platforms except MTurk.
+*NOTE.*(A) Cognitive trap flagging rates range from 1.8% (Connect) to 97.1% (Agents). (B) reCAPTCHA v3 scores: MTurk (0.635) falls well below the 0.5 standard threshold, while other samples score above 0.83. (C) Choice deferral in the conflict condition replicates on Prolific (24.0%) and Connect (26.6%) but is near zero on MTurk (1.6%) and among Agents (0.7%). (D) Traditional attention checks show near-ceiling pass rates on all platforms except MTurk.
 
 The three-platform comparison reveals extreme variation in suspected AI contamination across recruitment platforms. CloudResearch Connect produced the lowest flagging rate (1.8%), significantly lower than Prolific, suggesting that its participant verification procedures effectively screen out AI-mediated responses. MTurk showed catastrophic contamination: more than three-quarters of respondents failed the pre-registered cognitive trap threshold. This 42-fold gap between MTurk and CloudResearch Connect (76.0% vs. 1.8%) demonstrates that platform choice is a first-order determinant of data quality in online behavioral research.
 
@@ -1638,9 +1629,9 @@ The three-platform comparison reveals extreme variation in suspected AI contamin
 
 **TABLE WA-G8:** TRADITIONAL ATTENTION CHECK PASS RATES BY DATASET
 
-  --------------------------------------------------------------------------------
+  
   **Check**                 **Prolific**   **MTurk**    **Connect**   **Agents**
-  ------------------------- -------------- ------------ ------------- ------------
+      
   IMC (puppy name)          99.5%          84.4%        99.4%         99.8%
 
   Obvious (heart attack)    99.0%          55.9%        100.0%        99.8%
@@ -1648,7 +1639,7 @@ The three-platform comparison reveals extreme variation in suspected AI contamin
   Memory (planet color)     90.4%          60.5%        91.3%         99.2%
 
   Straight-lining (PANAS)   99.9%          96.2%        99.2%         98.7%
-  --------------------------------------------------------------------------------
+  
 
 NOTE. Agent *N* = 526.
 
@@ -1660,9 +1651,9 @@ The method independence analysis (Section G.4.5) sharpens this picture: 44.5% of
 
 **TABLE WA-G9:** CHOICE DEFERRAL IN CONFLICT CONDITION BY DATASET
 
-  ------------------------------------------------------------------------------------------
+  
   **Dataset**             **N (conflict)**   **Deferral Rate**   **χ² (condition effect)**
-  ----------------------- ------------------ ------------------- ---------------------------
+     
   Prolific (full)         506                23.5%               χ² = 67.13, *p* \< .001
 
   Prolific (clean only)   484                24.0%               χ² = 66.83, *p* \< .001
@@ -1676,15 +1667,15 @@ The method independence analysis (Section G.4.5) sharpens this picture: 44.5% of
   MTurk (clean only)      35                 0.0%                N/A (zero cells)
 
   Agents                  268                0.7%                χ² = 0.46, *p* = .495
-  ------------------------------------------------------------------------------------------
+  
 
 The choice deferral results provide a second independent validation signal. Prolific and CloudResearch Connect produce nearly identical deferral rates (23.5% and 26.6%) that replicate the classical finding from Dhar (1997). MTurk produces near-zero deferral, mirroring the agent pattern from the main study (0.7% in conflict condition). This convergence suggests that a substantial proportion of MTurk respondents do not experience the subjective uncertainty that drives human choice deferral, a pattern consistent with either AI-mediated responding or the extreme inattentiveness documented on the platform (Kay 2025).
 
 ### G.4.4 reCAPTCHA Score Comparison
 
-  --------------------------------------------------------------------------
+  
   **Dataset**              **Mean**   **SD**    **Median**   **Below 0.5**
-  ------------------------ ---------- --------- ------------ ---------------
+      
   Prolific                 0.972      0.099     1.000        1.0%
 
   CloudResearch Connect    0.984      0.049     1.000        0.0%
@@ -1692,7 +1683,7 @@ The choice deferral results provide a second independent validation signal. Prol
   Amazon MTurk             0.635      0.320     0.800        34.9%
 
   Agents                   0.833      0.154     0.900        4.6%
-  --------------------------------------------------------------------------
+  
 
 MTurk CAPTCHA scores (*M* = 0.635) are substantially lower than both Prolific (0.972) and CloudResearch (0.984), and lower even than the agent distribution (*M* = 0.833). Over a third of MTurk respondents score below the standard 0.5 threshold (34.9%), compared to near-zero on Prolific (1.0%) and CloudResearch (0.0%), and 4.6% of agents. The fact that MTurk respondents produce lower CAPTCHA scores than deployed AI agents is consistent with the heterogeneous mix interpretation: LLM-based agents generate browsing behavior that reCAPTCHA tends to score favorably (agent median 0.900), whereas simpler automated systems or highly careless respondents produce the anomalous interaction patterns that reCAPTCHA was designed to detect. The MTurk distribution, which likely blends multiple respondent types, falls below the agent average because it includes a substantial component that neither modern LLM agents nor attentive humans would produce.
 
@@ -1722,15 +1713,15 @@ Providers also differ substantially in how variable their models are across trap
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
-*NOTE.------*Colors indicate provider (Anthropic, OpenAI, Google); diamonds indicate extended thinking variants. The dashed regression line is essentially flat (*r* = .23, *p* = .18), confirming that computational expenditure does not predict cognitive trap performance. The dotted line marks the 86.8% human baseline.
+*NOTE.*Colors indicate provider (Anthropic, OpenAI, Google); diamonds indicate extended thinking variants. The dashed regression line is essentially flat (*r* = .23, *p* = .18), confirming that computational expenditure does not predict cognitive trap performance. The dotted line marks the 86.8% human baseline.
 
 Table WA-H1 presents the complete model ranking by accuracy, with cost and duration data for each model. Cost per trial spans three orders of magnitude, from \$0.00005 (Gemini 2.5 Flash Lite) to \$0.0476 (Claude Opus 4.6 with extended thinking), yet this 950-fold range in computational expenditure produces no systematic accuracy advantage.
 
 **TABLE WA-H1:** MODEL-LEVEL COMPUTATIONAL EFFICIENCY (RANKED BY ACCURACY)
 
-  ------------------------------------------------------------------------------------------------------------------
+  
   **Model**                **Provider**    **Accuracy**   **Cost/Trial**   **Avg Duration**   **Avg Output Tokens**
-  ------------------------ -------------- -------------- ---------------- ------------------ -----------------------
+       
   Gemini 3 Flash†          Google             65.0%          \$0.0002            7.5s                   2
 
   GPT-5.2†                 OpenAI             48.3%          \$0.0024            2.0s                   4
@@ -1798,7 +1789,7 @@ Table WA-H1 presents the complete model ranking by accuracy, with cost and durat
   GPT-4.1 Mini             OpenAI              0.0%          \$0.0007            1.9s                   2
 
   GPT-4o                   OpenAI              0.0%          \$0.0024            2.3s                   1
-  ------------------------------------------------------------------------------------------------------------------
+  
 
 NOTE. † = extended thinking variant. Cost/Trial = mean API cost per single-trap trial. Duration = mean response time per trial. Output Tokens = mean tokens generated per response.
 
@@ -1808,9 +1799,9 @@ The aggregate null result masks a constraint-specific pattern that reveals why c
 
 **TABLE WA-H2:** COMPUTATIONAL SIGNATURES BY CONSTRAINT TYPE
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
   **Constraint**               **Traps**   **N Correct**   **N Wrong**   **Dur (Correct)**   **Dur (Wrong)**   **Dur *d***   **Cost (Correct)**   **Cost (Wrong)**   **Cost *d***
-  --------------------------- ----------- --------------- ------------- ------------------- ----------------- ------------- -------------------- ------------------ --------------
+           
   Training Data Overfitting        3            280            740             4.2s               4.8s            −0.11           \$0.0040            \$0.0043          −0.03
 
   Spatial Reasoning                1            103            237             20.0s              7.7s            +0.57           \$0.0310            \$0.0050          +1.03
@@ -1818,7 +1809,7 @@ The aggregate null result masks a constraint-specific pattern that reveals why c
   Cross-Modal Binding              1            128            212             12.8s              5.5s            +0.77           \$0.0134            \$0.0074          +0.35
 
   Spatiotemporal Reasoning         1            18             322             3.9s               6.0s            −0.32           \$0.0016            \$0.0056          −0.48
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
 
 NOTE. Cohen's *d* is positive when correct trials are longer/costlier, negative when incorrect trials are. Training Data Overfitting includes Modified Cafe Wall, Modified Muller-Lyer, and Modified Ebbinghaus. Spatial Reasoning = Colliding Oranges. Cross-Modal Binding = Surrounded Planets. Spatiotemporal Reasoning = Moving Robot.
 
@@ -1838,9 +1829,9 @@ web appendix C.4 reports that extended thinking improves accuracy by a mean of +
 
 **TABLE WA-H3:** EXTENDED THINKING COST-BENEFIT
 
-  ------------------------------------------------------------------------------------------------------------------------------------------
+  
   **Base Model**          **Provider**    **Std Acc**   **Think Acc**    **Diff**     **Cost Mult**   **Std Duration**   **Think Duration**
-  ----------------------- -------------- ------------- --------------- ------------- --------------- ------------------ --------------------
+         
   Gemini 2.5 Pro          Google             15.0%          1.7%         −13.3 pp         1.0x              4.8s               10.5s
 
   Gemini 2.5 Flash        Google             1.7%           6.7%          +5.0 pp         1.1x              3.1s                6.8s
@@ -1866,7 +1857,7 @@ web appendix C.4 reports that extended thinking improves accuracy by a mean of +
   Claude Sonnet 4.6       Anthropic          23.3%          16.7%         −6.7 pp         0.9x              2.8s                2.2s
 
   **Mean**                                 **22.6%**      **31.4%**     **+8.8 pp**     **2.3x**                        
-  ------------------------------------------------------------------------------------------------------------------------------------------
+  
 
 NOTE. Cost Mult = ratio of thinking cost to standard cost per trial. Duration is the mean response time per trial. Positive differences indicate thinking improves performance.
 
@@ -1898,17 +1889,17 @@ Vision impairment showed the strongest association with cognitive trap failure a
 
 **TABLE WA-I1:** VISION IMPAIRMENT AND COGNITIVE TRAP FAILURE
 
-  ---------------------------------------------------------------------------------------------
+  
   **Vision Status**        **N**   **Failed 3+ Traps**   **Failure Rate**   **Relative Risk**
-  ------------------------ ------- --------------------- ------------------ -------------------
+      
   No impairment            980     37                    3.8%               Reference
 
   Uncorrected impairment   12      3                     25.0%              6.58x
 
-  Unsure                   14      0                     0.0%               --
+  Unsure                   14      0                     0.0%               
 
-  Prefer not to say        1       1                     100.0%             --
-  ---------------------------------------------------------------------------------------------
+  Prefer not to say        1       1                     100.0%             
+  
 
 NOTE. Chi-square test: χ²(3) = 37.8, *p* \< .001.
 
@@ -1922,9 +1913,9 @@ Age showed a non-significant overall correlation with cognitive trap performance
 
 **TABLE WA-I2:** COGNITIVE TRAP FAILURE RATES BY AGE GROUP
 
-  ----------------------------------------------------------
+  
   **Age Group**   **N**   **Failed 3+**   **Failure Rate**
-  --------------- ------- --------------- ------------------
+     
   18-30           168     13              7.7%
 
   31-40           271     4               1.5%
@@ -1934,7 +1925,7 @@ Age showed a non-significant overall correlation with cognitive trap performance
   51-60           178     8               4.5%
 
   61+             156     8               5.1%
-  ----------------------------------------------------------
+  
 
 The youngest age group (18-30) showed the highest failure rate at 7.7%, contradicting the concern that cognitive traps would systematically exclude older adults. The pattern is U-shaped, with the lowest failure rate in the 31-40 group (1.5%) and gradual increases in both younger and older groups. The elevated rate among younger participants may reflect greater familiarity with AI tools and willingness to experiment with agent-based completion, though device differences or cohort effects cannot be ruled out.
 
@@ -1944,9 +1935,9 @@ Table WA-I3 shows human pass rates on individual traps across age groups, reveal
 
 **TABLE WA-I3:** HUMAN PASS RATE BY TRAP AND AGE GROUP
 
-  -------------------------------------------------------------------------------------
+  
   **Age**   **Cafe Wall**   **M-L**   **Ebb**   **Robot**   **Oranges**   **Planets**
-  --------- --------------- --------- --------- ----------- ------------- -------------
+        
   18-30     86.9%           91.7%     95.8%     77.4%       83.3%         95.8%
 
   31-40     95.2%           93.7%     97.4%     82.3%       88.6%         96.7%
@@ -1956,7 +1947,7 @@ Table WA-I3 shows human pass rates on individual traps across age groups, reveal
   51-60     86.5%           89.3%     95.5%     73.0%       92.7%         97.2%
 
   61+       82.7%           93.6%     90.4%     73.7%       89.7%         95.5%
-  -------------------------------------------------------------------------------------
+  
 
 The Moving Robot shows the most age sensitivity, with pass rates declining from 82.3% (ages 31-40) to 73.0% (ages 51-60). The Ebbinghaus shows the clearest decline in the 61+ group (90.4% vs. approximately 97% for other groups). Overall, age effects are modest, and no single trap drives the U-shaped pattern in overall failure rates.
 
@@ -1970,9 +1961,9 @@ Color blindness showed a small, non-significant elevation in failure rates (χ²
 
 **TABLE WA-I4:** COLOR BLINDNESS AND COGNITIVE TRAP FAILURE
 
-  --------------------------------------------------------------
+  
   **Color Vision**    **N**   **Failed 3+**   **Failure Rate**
-  ------------------- ------- --------------- ------------------
+     
   Not color blind     970     38              3.9%
 
   Color blind         14      1               7.1%
@@ -1980,7 +1971,7 @@ Color blindness showed a small, non-significant elevation in failure rates (χ²
   Unsure              19      1               5.3%
 
   Prefer not to say   4       1               25.0%
-  --------------------------------------------------------------
+  
 
 The small sample of color-blind participants (*N* = 14) limits statistical power. Only one additional person in the color-blind group failed compared to base rates. The Colliding Oranges trap is the most likely source of difficulty for color-blind participants because it requires distinguishing the "largest orange circle" from the "smallest yellow circle" among multiple colored shapes, a task that may be challenging for participants with red-green color deficiency.
 
@@ -1996,13 +1987,13 @@ We recommend that researchers: (1) include vision screening questions in surveys
 
 For studies where visual perception directly relates to the research question (e.g., package design evaluation, visual aesthetics research), exclusion of vision-impaired participants makes stronger sense for both data quality and construct validity. For studies where the research question does not involve visual processing, inclusion with sensitivity analysis is preferable to maintain sample representativeness.
 
-# REFERENCES -- WEB APPENDIX
+# REFERENCES  WEB APPENDIX
 
-Brinkmann, Levin, Fabian Baumann, Jean-François Bonnefon, Maxime Derex, Thomas F. Müller, Anne-Marie Nussberger, Agnieszka Czaplicka, Alberto Acerbi, Thomas L. Griffiths, Joseph Henrich, Joel Z. Leibo, Richard McElreath, Pierre-Yves Oudeyer, Jonathan Stray, and Iyad Rahwan (2023), "[Machine Culture](https://doi.org/10.1038/s41562-023-01742-2)," *Nature Human Behaviour*, 7(11), 1855--68.
+Brinkmann, Levin, Fabian Baumann, Jean-François Bonnefon, Maxime Derex, Thomas F. Müller, Anne-Marie Nussberger, Agnieszka Czaplicka, Alberto Acerbi, Thomas L. Griffiths, Joseph Henrich, Joel Z. Leibo, Richard McElreath, Pierre-Yves Oudeyer, Jonathan Stray, and Iyad Rahwan (2023), "[Machine Culture](https://doi.org/10.1038/s41562-023-01742-2)," *Nature Human Behaviour*, 7(11), 185568.
 
 Campbell, Declan, Sunayana Rane, Tyler Giallanza, Nicolò De Sabbata, Kia Ghods, Amogh Joshi, Alexander Ku, Steven M. Frankland, Thomas L. Griffiths, Jonathan D. Cohen, and Taylor Webb (2024), "Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem," in *Proceedings of the 38th International Conference on Neural Information Processing Systems*, Red Hook, NY, USA: Curran Associates Inc., <https://arxiv.org/abs/2411.00238>.
 
-Dhar, Ravi (1997), "[Consumer Preference for a No-Choice Option](https://doi.org/10.1086/209506)," *Journal of Consumer Research*, 24(2), 215--31.
+Dhar, Ravi (1997), "[Consumer Preference for a No-Choice Option](https://doi.org/10.1086/209506)," *Journal of Consumer Research*, 24(2), 21531.
 
 Douglas, Benjamin D., Patrick J. Ewell, and Markus Brauer (2023), "[Data Quality in Online Human-Subjects Research: Comparisons Between MTurk, Prolific, CloudResearch, Qualtrics, and SONA](https://doi.org/10.1371/journal.pone.0279720)," *PLOS ONE*, 18(3), e0279720.
 
@@ -2014,7 +2005,7 @@ Kay, Cameron S. (2025), "[Why You Shouldn't Trust Data Collected on MTurk](https
 
 Qi, Jianing, Jiawei Liu, Hao Tang, and Zhigang Zhu (2025), "Beyond Semantics: Rediscovering Spatial Awareness in Vision-Language Models," <http://arxiv.org/abs/2503.17349>.
 
-Rahwan, Iyad, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-François Bonnefon, Cynthia Breazeal, Jacob W. Crandall, Nicholas A. Christakis, Iain D. Couzin, Matthew O. Jackson, Nicholas R. Jennings, Ece Kamar, Isabel M. Kloumann, Hugo Larochelle, David Lazer, Richard McElreath, Alan Mislove, David C. Parkes, Alex Pentland, Margaret E. Roberts, Azim Shariff, Joshua B. Tenenbaum, and Michael Wellman (2019), "[Machine Behaviour](https://doi.org/10.1038/s41586-019-1138-y)," *Nature*, 568(7753), 477--86.
+Rahwan, Iyad, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-François Bonnefon, Cynthia Breazeal, Jacob W. Crandall, Nicholas A. Christakis, Iain D. Couzin, Matthew O. Jackson, Nicholas R. Jennings, Ece Kamar, Isabel M. Kloumann, Hugo Larochelle, David Lazer, Richard McElreath, Alan Mislove, David C. Parkes, Alex Pentland, Margaret E. Roberts, Azim Shariff, Joshua B. Tenenbaum, and Michael Wellman (2019), "[Machine Behaviour](https://doi.org/10.1038/s41586-019-1138-y)," *Nature*, 568(7753), 47786.
 
 Shinozaki, Taiga, Tomoki Doi, Amane Watahiki, Satoshi Nishida, and Hitomi Yanaka (2025), "Do Large Vision-Language Models Distinguish Between the Actual and Apparent Features of Illusions?" in *Proceedings of the 47th Annual Meeting of the Cognitive Science Society*, <https://arxiv.org/abs/2506.05765>.
 
@@ -2022,9 +2013,9 @@ Stogiannidis, Ilias, Steven McDonagh, and Sotirios A. Tsaftaris (2025), "Mind th
 
 Ullman, Tomer (2024), "The Illusion-Illusion: Vision Language Models See Illusions Where There Are None," <http://arxiv.org/abs/2412.18613>.
 
-Watson, David, Lee Anna Clark, and Auke Tellegen (1988), "[Development and Validation of Brief Measures of Positive and Negative Affect: The PANAS Scales](https://doi.org/10.1037/0022-3514.54.6.1063)," *Journal of Personality and Social Psychology*, 54(6), 1063--70.
+Watson, David, Lee Anna Clark, and Auke Tellegen (1988), "[Development and Validation of Brief Measures of Positive and Negative Affect: The PANAS Scales](https://doi.org/10.1037/0022-3514.54.6.1063)," *Journal of Personality and Social Psychology*, 54(6), 106370.
 
-Webb, Margaret A. and June P. Tangney (2022), "[Too Good to Be True: Bots and Bad Data from Mechanical Turk](https://doi.org/10.1177/17456916221120027)," *Perspectives on Psychological Science*, 19(2), 233--50.
+Webb, Margaret A. and June P. Tangney (2022), "[Too Good to Be True: Bots and Bad Data from Mechanical Turk](https://doi.org/10.1177/17456916221120027)," *Perspectives on Psychological Science*, 19(2), 23350.
 
 Zhou, Jijie and Yuhan Hu (2025), "Beyond Words: Infusing Conversational Agents with Human-Like Typing Behaviors," <https://arxiv.org/abs/2510.08912>.
 

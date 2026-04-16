@@ -1,4 +1,4 @@
----
+
 title: "Serendipity: Chance Encounters in the Marketplace Enhance Consumer Satisfaction"
 authors: "Aekyoung Kim, Felipe M. Affonso, Juliano Laran, Kristina M. Durante"
 journal: "Journal of Marketing"
@@ -15,12 +15,11 @@ bibtex: |
     journal={Journal of Marketing},
     volume={85},
     number={4},
-    pages={141--157},
+    pages={141157},
     year={2021},
     publisher={SAGE Publications},
     doi={10.1177/00222429211000344}
   }
----
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1177/00222429211000344).
 
@@ -73,7 +72,7 @@ As an additional example, consider experiences such as going to a museum. If a c
 
 **Attenuating and Enhancing the Effects of Serendipity**
 
-There are different ways in which marketers can attenuate or enhance the effects of serendipity (Figure 1). Marketers can manipulate variables that make the properties of serendipity more or less salient or variables that impact how desirable serendipity is. In terms of the properties of serendipity, the current research manipulates the valence of the encounter (i.e., positive vs. negative; Study 2) and how random consumers perceive the encounter to be (i.e., the encounter was the result of random events vs. planned by the marketer; Study 3). Manipulating valence and perceived randomness allows us to investigate the premise that, for an encounter to be serendipitous, it needs to be a good surprise and attributed to some degree of chance, respectively. In terms of how desirable serendipity is, we manipulate the amount of diagnostic information consumers receive about the product option, which can dampen the serendipity effect (Study 4). We show that sometimes all the properties of serendipity are present, but marketers should be careful to not provide information that can make serendipity undesirable, leading consumers to prefer making their own choice. Altogether, these variables directly address what makes serendipitous encounters so enjoyable -- the properties must be present and serendipity must be desirable.
+There are different ways in which marketers can attenuate or enhance the effects of serendipity (Figure 1). Marketers can manipulate variables that make the properties of serendipity more or less salient or variables that impact how desirable serendipity is. In terms of the properties of serendipity, the current research manipulates the valence of the encounter (i.e., positive vs. negative; Study 2) and how random consumers perceive the encounter to be (i.e., the encounter was the result of random events vs. planned by the marketer; Study 3). Manipulating valence and perceived randomness allows us to investigate the premise that, for an encounter to be serendipitous, it needs to be a good surprise and attributed to some degree of chance, respectively. In terms of how desirable serendipity is, we manipulate the amount of diagnostic information consumers receive about the product option, which can dampen the serendipity effect (Study 4). We show that sometimes all the properties of serendipity are present, but marketers should be careful to not provide information that can make serendipity undesirable, leading consumers to prefer making their own choice. Altogether, these variables directly address what makes serendipitous encounters so enjoyable  the properties must be present and serendipity must be desirable.
 
 First, the encounter must be positive. While surprise can make an experience more positive due to its unexpected nature (Goldsmith and Amir 2010), it cannot make all experiences more positive (Laran and Tsiros 2013). In fact, a surprise can amplify negative affect when the event does not have utility to the consumer or imposes a cost (Kim and Mattila 2010). This means that negative encounters are not serendipitous, even if the element of surprise is present. Thus, we predict that when an unexpected encounter is positive, it will generate feelings of serendipity and improve consumer outcomes compared to when the encounter is chosen by the consumer. When an unexpected encounter is negative, it will not generate feelings of serendipity, and may diminish consumer outcomes compared to when the consumer chooses the encounter. Formally:
 
@@ -191,7 +190,7 @@ Study 4 examined information as a moderator of the effect of serendipity on cons
 
 *Participants and Design*. Four hundred participants were recruited from Amazon's Mechanical Turk and paid a small monetary compensation. After eliminating seven outliers based on the criterion outlined in Study 1, the final sample size was 393 (55.2% men; 19 to 79 years, M = 40.66, SD = 13.56). This study had a 2 (condition: personal choice vs. serendipity) × 2 (information: nondiagnostic vs. diagnostic) × 5 (song replicate) between-subjects design.
 
-*Procedure.* Participants were told that they would complete a study about Brain.fm -- a functional music platform backed by scientific research to help listeners focus and concentrate. Then, participants read a section named "What is functional music, anyway?", and that Brain.fm develops music to improve concentration. Participants were also told that functional music involves tempo, pitch, neural phase-locking value, induced brain wave, 3D externalized sound, and brain modulation rate. We included this information so participants could understand whether the information they were about to receive was diagnostic or not.
+*Procedure.* Participants were told that they would complete a study about Brain.fm  a functional music platform backed by scientific research to help listeners focus and concentrate. Then, participants read a section named "What is functional music, anyway?", and that Brain.fm develops music to improve concentration. Participants were also told that functional music involves tempo, pitch, neural phase-locking value, induced brain wave, 3D externalized sound, and brain modulation rate. We included this information so participants could understand whether the information they were about to receive was diagnostic or not.
 
 In the nondiagnostic information condition, participants read about three attributes of functional music that were not relevant to the superiority of one song over others (e.g., "initial composition - humans compose the musical content"). In the diagnostic information condition, participants read about three attributes that were relevant to the superiority of one song over others (e.g., "neural phase-locking value - refers to the extent to which populations of neurons engage in various kinds of coordinated activity"), and saw the range of values that would make a song highly functional. Key to the manipulation, all participants then saw the title, neural phase-locking value, induced brain wave, and brain modulation rate of five songs, the latest three pieces of information being the three attributes participants in the diagnostic condition had just learned about. Thus, each song had three attributes, and participants in the diagnostic (nondiagnostic) condition had just been presented (not presented) with information about which attribute values made a song highly functional.
 
@@ -267,107 +266,107 @@ Despite these limitations, we consistently found that serendipity leads to posit
 
 **REFERENCES**
 
-Botti, Simona and Ann L. McGill (2006), "When Choosing Is Not Deciding: The Effect of Perceived Responsibility on Satisfaction," *Journal of Consumer Research*, 33 (2), 211--19.
+Botti, Simona and Ann L. McGill (2006), "When Choosing Is Not Deciding: The Effect of Perceived Responsibility on Satisfaction," *Journal of Consumer Research*, 33 (2), 21119.
 
-Botti, Simona and Sheena S. Iyengar (2006), "The Dark Side of Choice: When Choice Impairs Social Welfare," *Journal of Public Policy and Marketing*, 25 (1), 24--38.
+Botti, Simona and Sheena S. Iyengar (2006), "The Dark Side of Choice: When Choice Impairs Social Welfare," *Journal of Public Policy and Marketing*, 25 (1), 2438.
 
 Brehm, Jack W. (1972), *Responses to Loss of Freedom: A Theory of Psychological Reactance*. Morristown, NJ: General Learning Press.
 
-Calvo, Manuel G. and M. Dolores Castillo (2001), "Selective Interpretation in Anxiety: Uncertainty for Threatening Events," *Cognition and Emotion*, 15 (May), 299--320.
+Calvo, Manuel G. and M. Dolores Castillo (2001), "Selective Interpretation in Anxiety: Uncertainty for Threatening Events," *Cognition and Emotion*, 15 (May), 299320.
 
-Carmon, Ziv, Klaus Wertenbroch, and Marcel Zeelenberg (2003), "Option Attachment: When Deliberating Makes Choosing Feel Like Losing," *Journal of Consumer Research*, 30 (1), 15--29.
+Carmon, Ziv, Klaus Wertenbroch, and Marcel Zeelenberg (2003), "Option Attachment: When Deliberating Makes Choosing Feel Like Losing," *Journal of Consumer Research*, 30 (1), 1529.
 
-Celma, Oscar (2010), "Music Recommendation," in *Music Recommendation and Discovery: The Long Tail, Long Fail, and Long Play in the Digital Music Space*, Oscar Celma, ed. Berlin, Germany: Springer-Verlag Berlin Heidelberg, 43--85.
+Celma, Oscar (2010), "Music Recommendation," in *Music Recommendation and Discovery: The Long Tail, Long Fail, and Long Play in the Digital Music Space*, Oscar Celma, ed. Berlin, Germany: Springer-Verlag Berlin Heidelberg, 4385.
 
-Chernev, Alexander (2003), "When More Is Less and Less Is More: The Role of Ideal Point Availability and Assortment in Consumer Choice," *Journal of Consumer Research*, 30 (2), 170--83.
+Chernev, Alexander (2003), "When More Is Less and Less Is More: The Role of Ideal Point Availability and Assortment in Consumer Choice," *Journal of Consumer Research*, 30 (2), 17083.
 
 Cunha, Miguel Pina (2005), "Serendipity: Why Some Organizations Are Luckier than Others," working paper, Universidade Nova de Lisboa, FEUNL Working Paper Series.
 
-Cutright, Keisha M. and Adriana Samper (2014), "Doing It the Hard Way: How Low Control Drives Preferences for High-Effort Products and Services," *Journal of Consumer Research*, 41 (3), 730--45.
+Cutright, Keisha M. and Adriana Samper (2014), "Doing It the Hard Way: How Low Control Drives Preferences for High-Effort Products and Services," *Journal of Consumer Research*, 41 (3), 73045.
 
 Durante, Kristina and Juliano Laran (2016), \"The Effect of Stress on Consumer Saving and Spending,\" *Journal of Marketing Research*, 53 (October), 814-28.
 
-Faraji-Rad, Ali, and Michel Tuan Pham (2017), "Uncertainty Increases the Reliance on Affect in Decisions," *Journal of Consumer Research*, 44 (1), 1--21.
+Faraji-Rad, Ali, and Michel Tuan Pham (2017), "Uncertainty Increases the Reliance on Affect in Decisions," *Journal of Consumer Research*, 44 (1), 121.
 
-Feather, Norman T. and Jerrold G. Simon. (1971), "Attribution of Responsibility and Valence of Outcome in Relation to Initial Confidence and Success and Failure of Self and Other," *Journal of Personality and Social Psychology*, 18 (2), 173--88.
+Feather, Norman T. and Jerrold G. Simon. (1971), "Attribution of Responsibility and Valence of Outcome in Relation to Initial Confidence and Success and Failure of Self and Other," *Journal of Personality and Social Psychology*, 18 (2), 17388.
 
 Feldman, Jack M. and John G. Lynch (1988), "Self-Generated Validity and Other Effects of Measurement on Belief, Attitude, Intention, and Behavior," *Journal of Applied Psychology*, 73 (3), 421-35.
 
-Ge, Yong, Hui Xiong, Alexander Tuzhilin, Keli Xiao, Marco Gruteser, and Michael Pazzani (2010), "An Energy-Efficient Mobile Recommender System," in *Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, Bharat Rao and Balaji Krishnapuram, eds. New York, NY: Association for Computing Machinery, 899--908.
+Ge, Yong, Hui Xiong, Alexander Tuzhilin, Keli Xiao, Marco Gruteser, and Michael Pazzani (2010), "An Energy-Efficient Mobile Recommender System," in *Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, Bharat Rao and Balaji Krishnapuram, eds. New York, NY: Association for Computing Machinery, 899908.
 
-Goldsmith, Kelly and On Amir (2010), "Can Uncertainty Improve Promotions?" *Journal of Marketing Research*, 47 (6), 1070--77.
+Goldsmith, Kelly and On Amir (2010), "Can Uncertainty Improve Promotions?" *Journal of Marketing Research*, 47 (6), 107077.
 
-Heilman, Carrie M., Kent Nakamoto, and Ambar G. Rao (2002), "Pleasant Surprises: Consumer Response to Unexpected In-Store Coupons," *Journal of Marketing Research*, 39 (2), 242--52.
+Heilman, Carrie M., Kent Nakamoto, and Ambar G. Rao (2002), "Pleasant Surprises: Consumer Response to Unexpected In-Store Coupons," *Journal of Marketing Research*, 39 (2), 24252.
 
-Herlocker, Jonathan L., Joseph A. Konstan, Loren G. Terveen, and John T. Riedl (2004), "Evaluating Collaborative Filtering Recommender Systems," *ACM Transactions on Information Systems (TOIS)*, 22 (1), 5--53.
+Herlocker, Jonathan L., Joseph A. Konstan, Loren G. Terveen, and John T. Riedl (2004), "Evaluating Collaborative Filtering Recommender Systems," *ACM Transactions on Information Systems (TOIS)*, 22 (1), 553.
 
-Iyengar, Sheena S. and Mark R. Lepper (1999), "Rethinking the Value of Choice: A Cultural Perspective on Intrinsic Motivation," *Journal of Personality and Social Psychology*, 76 (3), 349--66.
+Iyengar, Sheena S. and Mark R. Lepper (1999), "Rethinking the Value of Choice: A Cultural Perspective on Intrinsic Motivation," *Journal of Personality and Social Psychology*, 76 (3), 34966.
 
-Kim, Min Gyung and Anna S. Mattila (2010), "The Impact of Mood States and Surprise Cues on Satisfaction," *International Journal of Hospitality Management*, 29 (3), 432--36.
+Kim, Min Gyung and Anna S. Mattila (2010), "The Impact of Mood States and Surprise Cues on Satisfaction," *International Journal of Hospitality Management*, 29 (3), 43236.
 
-King, Laura A., Joshua A. Hicks, Jennifer L. Krull, and Amber K. Del Gaiso (2006), "Positive Affect and the Experience of Meaning in Life,\" *Journal of Personality and Social Psychology*, 90 (1), 179--96.
+King, Laura A., Joshua A. Hicks, Jennifer L. Krull, and Amber K. Del Gaiso (2006), "Positive Affect and the Experience of Meaning in Life,\" *Journal of Personality and Social Psychology*, 90 (1), 17996.
 
 Krantz, David L. (1998), "Taming Chance: Social Science and Everyday Narratives," *Psychological Inquiry* 9 (2), 87-94.
 
-Kray, Laura J., Linda G. George, Katie A. Liljenquist, Adam D. Galinsky, Philip E. Tetlock, and Neal J. Roese (2010), "From What Might Have Been to What Must Have Been: Counterfactual Thinking Creates Meaning," *Journal of Personality and Social Psychology*, 98 (1), 106--18.
+Kray, Laura J., Linda G. George, Katie A. Liljenquist, Adam D. Galinsky, Philip E. Tetlock, and Neal J. Roese (2010), "From What Might Have Been to What Must Have Been: Counterfactual Thinking Creates Meaning," *Journal of Personality and Social Psychology*, 98 (1), 10618.
 
 Hayes, Andrew F. (2018), *An Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach*, 2nd ed. New York, NY: Guilford.
 
-Heine, Steven J., Travis Proulx, and Kathleen D. Vohs (2006), "The Meaning Maintenance Model: On the Coherence of Social Motivations," *Personality and Social Psychology Review*, 10 (2), 88--110.
+Heine, Steven J., Travis Proulx, and Kathleen D. Vohs (2006), "The Meaning Maintenance Model: On the Coherence of Social Motivations," *Personality and Social Psychology Review*, 10 (2), 88110.
 
-Kotkov, Denis, Shuaiqiang Wang, and Jari Veijalainen (2016), "A Survey of Serendipity in Recommender Systems," *Knowledge-Based Systems*, 111, 180--92.
+Kotkov, Denis, Shuaiqiang Wang, and Jari Veijalainen (2016), "A Survey of Serendipity in Recommender Systems," *Knowledge-Based Systems*, 111, 18092.
 
-Lambert, Nathaniel M., Tyler F. Stillman, Joshua A. Hicks, Shanmukh Kamble, Roy F. Baumeister, and Frank D. Fincham (2013), "To Belong Is to Matter: Sense of Belonging Enhances Meaning in Life," *Personality and Social Psychology Bulletin*, 39 (11), 1418--27.
+Lambert, Nathaniel M., Tyler F. Stillman, Joshua A. Hicks, Shanmukh Kamble, Roy F. Baumeister, and Frank D. Fincham (2013), "To Belong Is to Matter: Sense of Belonging Enhances Meaning in Life," *Personality and Social Psychology Bulletin*, 39 (11), 141827.
 
-Laran, Juliano and Michael Tsiros (2013), "An Investigation of the Effectiveness of Uncertainty in Marketing Promotions Involving Free Gifts," *Journal of Marketing*, 77 (2), 112--23.
+Laran, Juliano and Michael Tsiros (2013), "An Investigation of the Effectiveness of Uncertainty in Marketing Promotions Involving Free Gifts," *Journal of Marketing*, 77 (2), 11223.
 
-Lee, Wei-Po, Chih-Hung Liu, and Cheng-Che Lu (2002), "Intelligent Agent-Based Systems for Personalized Recommendations in Internet Commerce," *Expert Systems with Applications*, 22 (4), 275--84.
+Lee, Wei-Po, Chih-Hung Liu, and Cheng-Che Lu (2002), "Intelligent Agent-Based Systems for Personalized Recommendations in Internet Commerce," *Expert Systems with Applications*, 22 (4), 27584.
 
-Leong, Tuck, Frank Vetere, and Steve Howard (2008), "Abdicating Choice: The Rewards of Letting Go," *Digital Creativity*, 19 (4), 233--43.
+Leong, Tuck, Frank Vetere, and Steve Howard (2008), "Abdicating Choice: The Rewards of Letting Go," *Digital Creativity*, 19 (4), 23343.
 
-Lindgreen, Adam, and Joëlle Vanhamme (2003), "To Surprise or Not to Surprise Your Customers: The Use of Surprise as a Marketing Tool," *Journal of Customer Behaviour*, 2 (2), 219--42.
+Lindgreen, Adam, and Joëlle Vanhamme (2003), "To Surprise or Not to Surprise Your Customers: The Use of Surprise as a Marketing Tool," *Journal of Customer Behaviour*, 2 (2), 21942.
 
-Loewenstein, George (1994), "The Psychology of Curiosity: A Review and Reinterpretation," *Psychological Bulletin*, 116 (July), 75--98.
+Loewenstein, George (1994), "The Psychology of Curiosity: A Review and Reinterpretation," *Psychological Bulletin*, 116 (July), 7598.
 
-Meade, Adam W. and S. Bartholomew Craig (2012), "Identifying Careless Responses in Survey Data," *Psychological Methods*, 17 (3), 437--55.
+Meade, Adam W. and S. Bartholomew Craig (2012), "Identifying Careless Responses in Survey Data," *Psychological Methods*, 17 (3), 43755.
 
-Makri, Stephann, and Ann Blandford (2012), "Coming across Information Serendipitously--Part 1: A Process Model," *Journal of Documentation*, 68 (5), 684--705.
+Makri, Stephann, and Ann Blandford (2012), "Coming across Information SerendipitouslyPart 1: A Process Model," *Journal of Documentation*, 68 (5), 684705.
 
-Matt, Christian, Alexander Benlian, Thomas Hess, and Christian Weiß (2014), "Escaping from the Filter Bubble? The Effects of Novelty and Serendipity on Users' Evaluations of Online Recommendations," in *Proceedings of the 35th International Conference on Information Systems (ICIS2014)*, Michael D. Myers and Detmar W. Straub, eds. Auckland, New Zealand: Association for Information Systems, 1503--20.
+Matt, Christian, Alexander Benlian, Thomas Hess, and Christian Weiß (2014), "Escaping from the Filter Bubble? The Effects of Novelty and Serendipity on Users' Evaluations of Online Recommendations," in *Proceedings of the 35th International Conference on Information Systems (ICIS2014)*, Michael D. Myers and Detmar W. Straub, eds. Auckland, New Zealand: Association for Information Systems, 150320.
 
-McCay-Peet, Lori, and Elaine G. Toms (2010), "The Process of Serendipity in Knowledge Work," in *Proceedings of the Third Symposium on Information Interaction in Context*, Nicholas J. Belkin, ed. New York, NY: Association for Computing Machinery, 377--82.
+McCay-Peet, Lori, and Elaine G. Toms (2010), "The Process of Serendipity in Knowledge Work," in *Proceedings of the Third Symposium on Information Interaction in Context*, Nicholas J. Belkin, ed. New York, NY: Association for Computing Machinery, 37782.
 
-Mellers, Barbara A., Alan Schwartz, Katty Ho, and Ilana Ritov (1997), "Decision Affect Theory: Emotional Reactions to the Outcomes of Risky Options," *Psychological Science*, 8 (6), 423--29.
+Mellers, Barbara A., Alan Schwartz, Katty Ho, and Ilana Ritov (1997), "Decision Affect Theory: Emotional Reactions to the Outcomes of Risky Options," *Psychological Science*, 8 (6), 42329.
 
-Melo, Ricardo, and Miguel Carvalhais (2013), "The Design of Horacle: Inducing Serendipity on the Web," in *xCoAx 2013: Proceedings of the First Conference on Computation, Communication, Aesthetics and X*, Mario Verdicchio and Miguel Carvalhais, eds., Porto, Portugal: Universidade do Porto, 183--91.
+Melo, Ricardo, and Miguel Carvalhais (2013), "The Design of Horacle: Inducing Serendipity on the Web," in *xCoAx 2013: Proceedings of the First Conference on Computation, Communication, Aesthetics and X*, Mario Verdicchio and Miguel Carvalhais, eds., Porto, Portugal: Universidade do Porto, 18391.
 
 Merriam-Webster Dictionary (2020), "Serendipity," (accessed May 22, 2020), https://www.merriam-webster.com/dictionary/serendipity.
 
-Morewedge, Carey K., Colleen E. Giblin, and Michael I. Norton (2014), "The (Perceived) Meaning of Spontaneous Thoughts," *Journal of Experimental Psychology. General*, 143 (4), 1742--54.
+Morewedge, Carey K., Colleen E. Giblin, and Michael I. Norton (2014), "The (Perceived) Meaning of Spontaneous Thoughts," *Journal of Experimental Psychology. General*, 143 (4), 174254.
 
 Parker, Mina (2008), *Silver Linings: Meditations on Finding Joy and Beauty in Unexpected Places*. Newburyport, MA: Conari Press.
 
-Raghunathan, Rajagopal and Julie R. Irwin (2001), "Walking the Hedonic Product Treadmill: Default Contrast and Mood-Based Assimilation in Judgments of Predicted Happiness with a Target Product," *Journal of Consumer Research*, 28 (3), 355--68.
+Raghunathan, Rajagopal and Julie R. Irwin (2001), "Walking the Hedonic Product Treadmill: Default Contrast and Mood-Based Assimilation in Judgments of Predicted Happiness with a Target Product," *Journal of Consumer Research*, 28 (3), 35568.
 
-Reisenzein, Rainer, Gernot Horstmann, and Achim Schützwohl (2019), "The Cognitive‐Evolutionary Model of Surprise: A Review of the Evidence," *Topics in Cognitive Science*, 11 (1), 50--74.
+Reisenzein, Rainer, Gernot Horstmann, and Achim Schützwohl (2019), "The Cognitive‐Evolutionary Model of Surprise: A Review of the Evidence," *Topics in Cognitive Science*, 11 (1), 5074.
 
-Rindfleisch, Aric, James E. Burroughs, and Nancy Wong (2009), "The Safety of Objects: Materialism, Existential Insecurity, and Brand Connection," *Journal of Consumer Research*, 36 (1), 1--16.
+Rindfleisch, Aric, James E. Burroughs, and Nancy Wong (2009), "The Safety of Objects: Materialism, Existential Insecurity, and Brand Connection," *Journal of Consumer Research*, 36 (1), 116.
 
-Shanahan, Michael J. and Erik J. Porfeli (2006), "Chance Events in the Life Course," *Advances in Life Course Research*, 11, 97--119.­­­
+Shanahan, Michael J. and Erik J. Porfeli (2006), "Chance Events in the Life Course," *Advances in Life Course Research*, 11, 97119.­­­
 
-Sharot, Tali, Benedetto De Martino, and Raymond J. Dolan (2009), "How Choice Reveals and Shapes Expected Hedonic Outcome," *Journal of Neuroscience*, 29 (12), 3760--65.
+Sharot, Tali, Benedetto De Martino, and Raymond J. Dolan (2009), "How Choice Reveals and Shapes Expected Hedonic Outcome," *Journal of Neuroscience*, 29 (12), 376065.
 
-Stiensmeier-Pelster, Joachim, Alice Martini, and Rainer Reisenzein (1995), "The Role of Surprise in the Attribution Process," *Cognition and Emotion*, 9 (1), 5--31.
+Stiensmeier-Pelster, Joachim, Alice Martini, and Rainer Reisenzein (1995), "The Role of Surprise in the Attribution Process," *Cognition and Emotion*, 9 (1), 531.
 
-Valenzuela, Ana, Barbara Mellers, and Judi Strebel (2010), "Pleasurable Surprises: A Cross-Cultural Study of Consumer Responses to Unexpected Incentives," *Journal of Consumer Research*, 36 (5), 792--805.
+Valenzuela, Ana, Barbara Mellers, and Judi Strebel (2010), "Pleasurable Surprises: A Cross-Cultural Study of Consumer Responses to Unexpected Incentives," *Journal of Consumer Research*, 36 (5), 792805.
 
 VanBergen, Noah and Juliano Laran (2016), \"Loss of Control and Self-Regulation: The Role of Childhood Lessons,\" *Journal of Consumer Research*, 43 (December), 534-48.
 
 Walpole, Horace (1754), Letter to Horace Mann, 28 January 1754, in *Horace Walpole's Correspondence: Yale Edition \[Electronic Version\],* Volume 20, p. 407-08, edited by Wilmarth S. Lewis, The Lewis Walpole Library, Yale University, https://images.library.yale.edu/hwcorrespondence/page.asp?vol=20&seq=435.
 
-Westbrook, Robert A., and Richard L. Oliver (1991), "The Dimensionality of Consumption Emotion Patterns and Consumer Satisfaction," *Journal of Consumer Research*, 18 (1), 84--91.
+Westbrook, Robert A., and Richard L. Oliver (1991), "The Dimensionality of Consumption Emotion Patterns and Consumer Satisfaction," *Journal of Consumer Research*, 18 (1), 8491.
 
-Zhang, Yuan Cao, Diarmuid Ó. Séaghdha, Daniele Quercia, and Tamas Jambor (2012), "Auralist: Introducing Serendipity into Music Recommendation," in *Proceedings of the Fifth ACM International Conference on Web Search and Data Mining*, Eytan Adar and Jaime Teevan, eds. New York, NY: Association for Computing Machinery, 13--22.
+Zhang, Yuan Cao, Diarmuid Ó. Séaghdha, Daniele Quercia, and Tamas Jambor (2012), "Auralist: Introducing Serendipity into Music Recommendation," in *Proceedings of the Fifth ACM International Conference on Web Search and Data Mining*, Eytan Adar and Jaime Teevan, eds. New York, NY: Association for Computing Machinery, 1322.
 
 **\
 FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
@@ -375,7 +374,6 @@ FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
 *Conceptual framework showing how marketplace encounters that are positive, unexpected, and attributed to some degree of chance generate feelings of serendipity (good surprise, attributions to chance, feeling lucky), which in turn improve consumer outcomes (satisfaction, enjoyment, meaningfulness, willingness to pay, willingness to recommend, and interest). The framework also depicts moderators: valence of the encounter (positive vs. negative; Study 2), degree of randomness (high vs. low; Study 3), and diagnostic information (nondiagnostic vs. diagnostic; Study 4). Solid lines indicate the focal relationships (H1a, H1b), and dashed lines indicate the moderating relationships (H2, H3, H4).*
 
 *Note: Figure image not included in machine-readable version. See published paper for the visual.*
-
 
 **FIGURE 2: STUDY 2 RESULTS**
 
@@ -385,15 +383,11 @@ FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
 
 *Notes*: Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01. Unbracketed comparisons are not significantly different from one another.
 
-
 **FIGURE 4: STUDY 4 RESULTS**
 
 *Notes*: Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
 
 [^1]: As indicated in the Web Appendix procedures, we also measured meaningfulness in Studies 2, 3, and Supplemental Studies C-1 and D-1. This measure follows the same pattern as the main dependent variables, and was more central in a previous version of this paper. For this reason, the results for the subsequent studies are only discussed in the Web Appendix.
-
-
----
 
 # Web Appendix
 
@@ -417,7 +411,7 @@ WEB APPENDIX
 
 [Effects of the Painting Replicates [12](#effects-of-the-painting-replicates)](#effects-of-the-painting-replicates)
 
-[Pretest -- Positive and Negative Paintings [12](#pretest-positive-and-negative-paintings)](#pretest-positive-and-negative-paintings)
+[Pretest  Positive and Negative Paintings [12](#pretest-positive-and-negative-paintings)](#pretest-positive-and-negative-paintings)
 
 [Meaningfulness Measure Analysis [13](#meaningfulness-measure-analysis)](#meaningfulness-measure-analysis)
 
@@ -431,7 +425,7 @@ WEB APPENDIX
 
 [Effects of the Movie Trailer Replicates [20](#effects-of-the-movie-trailer-replicates)](#effects-of-the-movie-trailer-replicates)
 
-[Mediation by Feelings of Serendipity -- Interest in the Platform [20](#mediation-by-feelings-of-serendipity-interest-in-the-platform)](#mediation-by-feelings-of-serendipity-interest-in-the-platform)
+[Mediation by Feelings of Serendipity  Interest in the Platform [20](#mediation-by-feelings-of-serendipity-interest-in-the-platform)](#mediation-by-feelings-of-serendipity-interest-in-the-platform)
 
 [Meaningfulness Measure Analysis [21](#meaningfulness-measure-analysis-1)](#meaningfulness-measure-analysis-1)
 
@@ -459,11 +453,11 @@ WEB APPENDIX
 
 [Alternative Explanations [46](#alternative-explanations-2)](#alternative-explanations-2)
 
-[Mediation Analyses -- Interest in the Platform [46](#mediation-analyses-interest-in-the-platform)](#mediation-analyses-interest-in-the-platform)
+[Mediation Analyses  Interest in the Platform [46](#mediation-analyses-interest-in-the-platform)](#mediation-analyses-interest-in-the-platform)
 
-[Mediation Analyses -- Willingness to Recommend [47](#mediation-analyses-willingness-to-recommend)](#mediation-analyses-willingness-to-recommend)
+[Mediation Analyses  Willingness to Recommend [47](#mediation-analyses-willingness-to-recommend)](#mediation-analyses-willingness-to-recommend)
 
-[Mediation Analyses -- Willingness to Pay [48](#mediation-analyses-willingness-to-pay)](#mediation-analyses-willingness-to-pay)
+[Mediation Analyses  Willingness to Pay [48](#mediation-analyses-willingness-to-pay)](#mediation-analyses-willingness-to-pay)
 
 [Main Results without Exclusion Criterion [48](#main-results-without-exclusion-criterion-3)](#main-results-without-exclusion-criterion-3)
 
@@ -489,29 +483,29 @@ In this section, we report details of the replicate interactions and main effect
 
 Because we did not make any a priori predictions about replicate main effects, we report the main effects, means and SDs (Table WA-1), and means that differ from each other using Sidak correction to control for family-wise error rate. We also report the simple effects per company replicate in Table WA-1. Overall, the results suggest that the effect of condition (serendipity vs. personal choice) on the measured consumer outcomes is consistent across companies. After the table, we report the post-hoc tests with Sidak corrections for replicate main effects.
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++
 | **Table WA-1: Means, SDs, and Simple Effects of Condition per Company Replicate**                                                                                                                         |
 +:============:+:===============:+:=============:+:======================:+:=============:+:======================:+:==============:+:======================:+:===================:+:======================:+
 | **Company**  | **Condition**   | **Satisfaction**                       | **Meaningfulness**                     | **Willingness to Recommend**            | **Willingness to Extend Subscription**       |
-|              |                 +---------------+------------------------+---------------+------------------------+----------------+------------------------+---------------------+------------------------+
+|              |                 +++++++++
 |              |                 | **Mean (SD)** | **Simple Main Effect** | **Mean (SD)** | **Simple Main Effect** | **Mean (SD)**  | **Simple Main Effect** | **Mean (SD)**       | **Simple Main Effect** |
-+--------------+-----------------+---------------+------------------------+---------------+------------------------+----------------+------------------------+---------------------+------------------------+
++++++++++++
 | Birchbox     | Serendipity     | 5.94 (.96)    | *p* = .013             | 5.10 (1.30)   | *p* = .029             | 5.88 (1.26)    | *p* \< .001            | 5.44 (1.52)         | *p* = .020             |
-|              +-----------------+---------------+                        +---------------+                        +----------------+                        +---------------------+                        |
+|              +++                        ++                        ++                        ++                        |
 |              | Personal Choice | 5.48 (1.51)   |                        | 4.67 (1.44)   |                        | 5.12 (1.71)    |                        | 4.87 (1.88)         |                        |
-+--------------+-----------------+---------------+------------------------+---------------+------------------------+----------------+------------------------+---------------------+------------------------+
++++++++++++
 | Stitchfix    | Serendipity     | 5.83 (1.37)   | *p* = .003             | 4.90 (1.49)   | *p* = .053             | 5.80 (1.45)    | *p* = .006             | 5.22 (1.74)         | *p* = .025             |
-|              +-----------------+---------------+                        +---------------+                        +----------------+                        +---------------------+                        |
+|              +++                        ++                        ++                        ++                        |
 |              | Personal Choice | 5.29 (1.60)   |                        | 4.51 (1.54)   |                        | 5.21 (1.76)    |                        | 4.66 (2.02)         |                        |
-+--------------+-----------------+---------------+------------------------+---------------+------------------------+----------------+------------------------+---------------------+------------------------+
++++++++++++
 | The Tie Bar  | Serendipity     | 6.09 (1.08)   | *p* = .038             | 5.32 (1.31)   | *p* = .041             | 5.73 (1.34)    | *p* = .011             | 5.46 (1.65)         | *p* = .016             |
-|              +-----------------+---------------+                        +---------------+                        +----------------+                        +---------------------+                        |
+|              +++                        ++                        ++                        ++                        |
 |              | Personal Choice | 5.71 (1.53)   |                        | 4.92 (1.41)   |                        | 5.19 (1.65)    |                        | 4.86 (1.70)         |                        |
-+--------------+-----------------+---------------+------------------------+---------------+------------------------+----------------+------------------------+---------------------+------------------------+
++++++++++++
 | FabFitFun    | Serendipity     | 6.17 (.92)    | *p* = .010             | 5.17 (1.23)   | *p* = .052             | 6.09 (1.06)    | *p* = .005             | 5.69 (1.49)         | *p* = .001             |
-|              +-----------------+---------------+                        +---------------+                        +----------------+                        +---------------------+                        |
+|              +++                        ++                        ++                        ++                        |
 |              | Personal Choice | 5.70 (1.31)   |                        | 4.79 (1.52)   |                        | 5.49 (1.79)    |                        | 4.91 (1.96)         |                        |
-+--------------+-----------------+---------------+------------------------+---------------+------------------------+----------------+------------------------+---------------------+------------------------+
++++++++++++
 
 For the satisfaction measure, there was a main effect of the company replicate (F(3, 803) = 3.55, *p* = .014). Post-hoc tests with Sidak correction revealed that people were less satisfied with Stitchfix (M = 5.56, SD = 1.51) than with The Tie Bar (M = 5.90, SD = 1.34; *p* = .061) and FabFitFun (M = 5.93, SD = 1.16; *p* = .028). For the meaningfulness measure, there was a main effect of the company replicate (F(3, 803) = 3.09, *p* = .026). Post-hoc tests with Sidak correction revealed that people reported less meaningfulness from the Stitchfix consumption experience (M = 4.70, SD = 1.52) than The Tie Bar (M = 5.12, SD = 1.37; *p* = .021).
 
@@ -521,91 +515,91 @@ There was no main effect of the company replicate for willingness to recommend (
 
 In Study 1, participants responded to a series of control items designed to test the influence of alternative factors on the results. None of the covariates changed the results. Table WA-2 reports details for the covariates. Tables WA-3 reports the analyses of the dependent variables with covariates.
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **TABLE WA-2 -- DETAILS OF COVARIATES**                                                                                                                                                                                     |
+++
+| **TABLE WA-2  DETAILS OF COVARIATES**                                                                                                                                                                                     |
 +:=====================:+:===============:+:===================:+:================:+:===================:+:===================:+:======================:+:=============================:+:===================================:+
 | **Company**           | **Condition**   | **Product Cost**    | **Product Type** | **Product Quality** | **No. of Products** | **Time from Purchase** | **Attitudes Towards Company** | **Satisfaction w/Purchase Process** |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 | **M (SD)**          | **M (SD)**       | **M (SD)**          | **M (SD)**          | **M (SD)**             | **M (SD)**                    | **M (SD)**                          |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Birchbox              | Serendipity     | \$29.13 (\$33.14)   | 6.16 (2.16)      | 7.19 (1.33)         | 5.82 (2.30)         | 24.84 (39.64)          | 7.78 (1.25)                   | 5.76                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.13)                              |
-|                       +-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                       +++++++++
 |                       | Personal choice | \$33.26 (\$49.27)   | 5.95 (2.08)      | 6.82 (1.80)         | 5.27 (1.65)         | 34.67 (61.72)          | 7.26 (1.63)                   | 5.53                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.40)                              |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Stitchfix             | Serendipity     | \$108.16 (\$88.69)  | 5.89 (1.85)      | 7.01 (1.37)         | 4.18 (1.62)         | 27.71 (44.26)          | 7.59 (1.46)                   | 5.59                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.21)                              |
-|                       +-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                       +++++++++
 |                       | Personal choice | \$103.16 (\$90.63)  | 5.87 (1.83)      | 6.78 (1.68)         | 4.12 (1.58)         | 24.52 (26.31)          | 7.19 (1.75)                   | 5.15                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.44)                              |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | The Tie Bar           | Serendipity     | \$118.59 (\$134.41) | 5.50 (2.24)      | 7.55 (1.25)         | 3.94 (2.11)         | 32.33 (36.92)          | 7.82 (1.34)                   | 5.68                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.21)                              |
-|                       +-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                       +++++++++
 |                       | Personal choice | \$92.57 (\$87.43)   | 5.77 (5.50)      | 7.10 (1.61)         | 4.32 (5.72)         | 29.31 (32.21)          | 7.50 (1.50)                   | 5.52                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.21)                              |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | FabFitFun             | Serendipity     | \$51.81 (\$37.95)   | 6.19 (1.94)      | 7.20 (1.52)         | 6.98 (3.47)         | 34.62 (43.08)          | 7.85 (1.42)                   | 5.74                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.10)                              |
-|                       +-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                       +++++++++
 |                       | Personal choice | \$55.94 (\$57.25)   | 6.17 (2.00)      | 6.90 (1.82)         | 7.40 (4.83)         | 32.51 (29.80)          | 7.52 (1.59)                   | 5.49                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.39)                              |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Total                 | Serendipity     | \$76.26 (\$91.39)   | 6.00 (2.01)      | 7.24 (1.38)         | 5.25 (2.76)         | 29.82 (41.12)          | 7.76 (1.37)                   | 5.70                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.16)                              |
-|                       +-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                       +++++++++
 |                       | Personal choice | \$71.31 (\$78.31)   | 5.88 (2.05)      | 6.90 (1.73)         | 5.30 (4.14)         | 30.25 (39.87)          | 7.37 (1.62)                   | 5.42                                |
 |                       |                 |                     |                  |                     |                     |                        |                               |                                     |
 |                       |                 |                     |                  |                     |                     |                        |                               | (1.37)                              |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Condition Main Effect |                 | *p* = .304          | *p* = .370       | *p* = .002          | *p* = .837          | *p* = .894             | *p* \< .001                   | *p* = .002                          |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Replicate Main Effect |                 | *p* \< .001         | *p* = .042       | *p* = .044          | *p* \< .001         | *p* = .316             | *p* = .170                    | *p* = .116                          |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Interaction Effect    |                 | *p* = .179          | *p* = .896       | *p* = .899          | *p* = .409          | *p* = .296             | *p* = .902                    | *p* = .715                          |
-+-----------------------+-----------------+---------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 
 Table WA-3 lists the effects of the 2 (condition) × 4 (company) ANOVAs on each of the dependent variables when each of the covariates is included in the model. As can be seen from the condition p-values, the results remain unchanged even when the covariates are accounted for. In addition, the covariates do not change the lack of condition by company interaction, suggesting that the pattern remains the same for all companies investigated in the study.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **TABLE WA-3 -- ANALYSES INCLUDING COVARIATES**                                                                                                                                                                                        |
+++
+| **TABLE WA-3  ANALYSES INCLUDING COVARIATES**                                                                                                                                                                                        |
 +:==================================:+:================:+:================:+:================:+:===================:+:===================:+:======================:+:=============================:+:===================================:+
 | **DV**                             | **Effect on DV** | **Product Cost** | **Product Type** | **Product Quality** | **No. of Products** | **Time from Purchase** | **Attitudes Towards Company** | **Satisfaction w/Purchase Process** |
-+------------------------------------+------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Satisfaction                       | Condition        | *p* \< .001      | *p* \< .001      | *p* \< .001         | *p* \< .001         | *p* \< .001            | *p* = .001                    | *p* \< .001                         |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Replicate        | *p =* .003       | *p =* .014       | *p =* .058          | *p =* .022          | *p =* .012             | *p =* .132                    | *p =* .022                          |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Interaction      | *p =* .900       | *p =* .932       | *p =* .475          | *p =* .942          | *p =* .944             | *p =* .870                    | *p =* .988                          |
-+------------------------------------+------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Meaningfulness                     | Condition        | *p* \< .001      | *p* \< .001      | *p* \< .001         | *p* \< .001         | *p* \< .001            | *p* = .017                    | *p* = .007                          |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Replicate        | *p =* .011       | *p =* .020       | *p =* .362          | *p =* .029          | *p =* .020             | *p =* .132                    | *p =* .056                          |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Interaction      | *p =* .989       | *p =* .999       | *p =* .966          | *p =* .998          | *p =* 1.00             | *p =* .987                    | *p =* .739                          |
-+------------------------------------+------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Willingness to Recommend           | Condition        | *p* \< .001      | *p* \< .001      | *p* \< .001         | *p* \< .001         | *p* \< .001            | *p* \< .001                   | *p* \< .001                         |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Replicate        | *p =* .017       | *p =* .182       | *p =* .001          | *p =* .236          | *p =* .096             | *p =* .040                    | *p =* .006                          |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Interaction      | *p =* .816       | *p =* .913       | *p =* .761          | *p =* .916          | *p =* .937             | *p =* .974                    | *p =* .501                          |
-+------------------------------------+------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 | Willingness to Extend Subscription | Condition        | *p* \< .001      | *p* \< .001      | *p* \< .001         | *p* \< .001         | *p* \< .001            | *p* \< .001                   | *p* \< .001                         |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Replicate        | *p =* .067       | *p =* .273       | *p =* .157          | *p =* .301          | *p =* .141             | *p =* .632                    | *p =* .579                          |
-|                                    +------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+|                                    +++++++++
 |                                    | Interaction      | *p =* .868       | *p =* .895       | *p =* .795          | *p =* .907          | *p =* .877             | *p =* .684                    | *p =* .560                          |
-+------------------------------------+------------------+------------------+------------------+---------------------+---------------------+------------------------+-------------------------------+-------------------------------------+
+++++++++++
 
 We also note that the effect of condition remains significant when we include all covariates at the same time in the model for the satisfaction (*p* = .001), meaningfulness (*p* = .030), willingness to recommend (*p* \< .001), and willingness to extend subscription (*p* = .001). Finally, the indirect effect of serendipity in the mediation analysis remained significant even when we included all covariates in the model for satisfaction (β = .09, SE = .03, 95% CI: \[.04 to .16\]), meaningfulness (β = .12, SE = .04, 95% CI: \[.05 to .20\]), willingness to recommend (β = .10, SE = .03, 95% CI: \[.04 to .16\]), and willingness to extend subscription (β = .09, SE = .03, 95% CI: \[.03 to .15\]). These results provide evidence for the unique influence of serendipity, which occurs even when important factors such as cost and quality are accounted for.
 
@@ -613,31 +607,31 @@ We also note that the effect of condition remains significant when we include al
 
 The Table below presents all the key analyses from the main text, with and without the exclusion criterion. When conducting such analyses, we also checked the pattern of results (descriptive statistics), which did not change.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+++
 | **Study 1**                                                                                                                                              |
 +:============================================:+:=========================================:+:=========================================:+:=================:+
 | **Analysis**                                 | **Excluding \>3SD P's**                   | **Not Excluding \>3SD P's**               | **Any change?**   |
 |                                              |                                           |                                           |                   |
 |                                              | **(N = 811)**                             | **(N = 829)**                             |                   |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Satisfaction                                 | F(1, 803) = 25.58, *p* \< .001            | F(1, 821) = 25.83, *p* \< .001            | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Willingness to Recommend                     | F(1, 803) = 34.30, *p* \< .001            | F(1, 821) = 34.66, *p* \< .001            | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Willingness to Extend Subscription           | F(1, 803) = 25.82, *p* \< .001            | F(1, 821) = 25.86, *p* \< .001            | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Meaningfulness                               | F(1, 803) = 16.48, *p* \< .001            | F(1, 821) = 16.72, *p* \< .001            | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Feelings of Serendipity                      | F(1, 803) = 25.89, *p* \< .001            | F(1, 821) = 25.51, *p* \< .001            | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Satisfaction Mediation                       | β = .32, SE = .07, 95% CI: \[.19 to .47\] | β = .32, SE = .07, 95% CI: \[.19 to .45\] | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Willingness to Recommend Mediation           | β = .35, SE = .07, 95% CI: \[.21 to .50\] | β = .36, SE = .08, 95% CI: \[.21 to .51\] | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Willingness to Extend Subscription Mediation | β = .37, SE = .08, 95% CI: \[.22 to .52\] | β = .35, SE = .07, 95% CI: \[.21 to .50\] | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 | Meaningfulness Mediation                     | β = .36, SE = .07, 95% CI: \[.22 to .50\] | β = .35, SE = .07, 95% CI: \[.21 to .49\] | No                |
-+----------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------+
++++++
 
 ## Materials
 
@@ -661,17 +655,15 @@ FabFitFun
 
 I did not receive a box at any of these stores over the past month.
 
-
 Hello and welcome.
 
 We are interested in how people process moments of their life.
 
 When you are ready to begin this task, please click below.
 
+Earlier, you indicated that \[company name  piped text\] recently selected products for you and you received your purchase in the mail. We would like to know about this consumption experience more in detail.
 
-Earlier, you indicated that \[company name -- piped text\] recently selected products for you and you received your purchase in the mail. We would like to know about this consumption experience more in detail.
-
-Please think about the time when you recently received a package from \[company name -- piped text\]. Take a minute to remember what it felt like to receive the products and then describe the products and how you felt when you opened the box.
+Please think about the time when you recently received a package from \[company name  piped text\]. Take a minute to remember what it felt like to receive the products and then describe the products and how you felt when you opened the box.
 
 You will be able to proceed after 30 seconds, but you can write as much as you want.
 
@@ -680,7 +672,6 @@ You will be able to proceed after 30 seconds, but you can write as much as you w
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
 
 **\[Personal Choice Condition\]**
 
@@ -700,17 +691,15 @@ FabFitFun
 
 I did not select products at any of these stores over the past month.
 
-
 Hello and welcome.
 
 We are interested in how people process moments of their life.
 
 When you are ready to begin this task, please click below.
 
+Earlier, you indicated that you recently selected products from \[company name  piped text\] and received your purchase in the mail. We would like to know about this consumption experience more in detail.
 
-Earlier, you indicated that you recently selected products from \[company name -- piped text\] and received your purchase in the mail. We would like to know about this consumption experience more in detail.
-
-Please think about the time when you recently received a package from \[company name -- piped text\]. Take a minute to remember what it felt like to receive the products and then describe the products and how you felt when you opened the box.
+Please think about the time when you recently received a package from \[company name  piped text\]. Take a minute to remember what it felt like to receive the products and then describe the products and how you felt when you opened the box.
 
 You will be able to proceed after 30 seconds, but you can write as much as you want. 
 
@@ -720,11 +709,9 @@ You will be able to proceed after 30 seconds, but you can write as much as you w
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-
 How satisfied were you with the products you received? (1 = "not at all," and 7 = "very satisfied")
 
-
-Now, we would like to ask you a few questions related to your consumption experience with \[company name -- piped text\]. Considering this consumption experience, please answer the questions below.
+Now, we would like to ask you a few questions related to your consumption experience with \[company name  piped text\]. Considering this consumption experience, please answer the questions below.
 
 Please indicate the extent to which you agree with the statements below.
 
@@ -736,8 +723,7 @@ I feel that these products were an unexpected discovery. (1 = "strongly disagree
 
 I feel that there was some element of chance involved in having received these exact products. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
-Now, we have a few more questions related to your consumption experience with \[company name -- piped text\]. Considering this consumption experience, please answer the questions below.
+Now, we have a few more questions related to your consumption experience with \[company name  piped text\]. Considering this consumption experience, please answer the questions below.
 
 The experience with the products I received was meaningful. (1 = "strongly disagree," and 7 = "strongly agree")
 
@@ -747,18 +733,13 @@ I felt that the fact that I got these products was \"meant to be.\" (1 = "strong
 
 These products are meaningful to me (1 = "strongly disagree," and 7 = "strongly agree")
 
+How likely are you to purchase an additional 6-month subscription from \[company name  piped text\]? (1 = "not likely at all," and 7 = "very likely")
 
-How likely are you to purchase an additional 6-month subscription from \[company name -- piped text\]? (1 = "not likely at all," and 7 = "very likely")
-
-
-How likely are you to recommend \[company name -- piped text\] subscription service to a friend? (1 = "not likely at all," and 7 = "very likely")
-
+How likely are you to recommend \[company name  piped text\] subscription service to a friend? (1 = "not likely at all," and 7 = "very likely")
 
 How high were your expectations about the products before you got them? (1 = "very low," and 7 = "very high")
 
-
 How satisfied did you expect to be with the products before you got it them? (1 = "not at all," and 7 = "very satisfied")
-
 
 How much did you pay for the product? \$ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -768,22 +749,17 @@ What are your perceptions of the product? This product is ...
 
 (1 = "low quality," and 9 = "high quality")
 
-
 How many products did you get in your recent package? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 How long did it take for your package to arrive? (1 = "not much (quick delivery)," and 7 = "A lot (slow delivery")  
 
-
 How long ago you did you buy the product? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ days ago
-
 
 In general, what are your perceptions of the company where you bought the product?\
  \
 the company is                       . (1 = "very negative," and 9 = "very positive")
 
-
 How satisfied are you with the purchase process? (1 = "not at all satisfied," and 7 = "very satisfied")
-
 
 # Web Appendix B: Additional Methodological Details and Analyses for Study 2
 
@@ -793,7 +769,7 @@ How satisfied are you with the purchase process? (1 = "not at all satisfied," an
 
 *Feelings of Serendipity.* A 3 (condition) × 2 (valence) × 2 (painting replicate) ANOVA did not reveal a three-way interaction (F(2, 435) = .642, *p* = . 527), nor two-way interactions between the painting replicate and condition (F(2, 435) = .200, *p* = .819) or valence (F(1, 435) = .088, *p* = .766), nor a main effect of painting replicate (F(1, 435) = 2.35, *p* = .126). Thus, we collapsed across replicates for the subsequent analyses.
 
-## Pretest -- Positive and Negative Paintings
+## Pretest  Positive and Negative Paintings
 
 We conducted a pretest to ensure that the negative paintings were indeed seen as more negative. A separate sample (N = 119) was randomly assigned to seeing one of the four paintings described in Study 2's procedure. After seeing the paintings, participants responded to three items using 7-point scales: "What are your perceptions of the painting?" (1 = "unattractive," and 7 = "attractive"; 1 = "unappealing," and 7 = "appealing"; and 1 = "negative", and 7 = "positive") (α = .96). A 2 (valence) × 2 (painting replicate) ANOVA only revealed a main effect of valence (F(1, 115) = 23.28, *p* \< .001), such that participants perceived seeing the positive paintings (M = 5.44, SD = 1.41) as more positive than the negative paintings (M = 3.86, SD = 2.08). There was no painting replicate by valence interaction or a replicate main effect (all F's \< 1).
 
@@ -813,23 +789,23 @@ We collapsed across replicates to analyze alternative explanations. There was on
 
 The Table below presents all the key analyses form the main text, with and without the exclusion criterion.
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++
 | **Study 2**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 +:========================:+:=====================================================================================================================================================================================================================================:+:=====================================================================================================================================================================================================================================:+:=========================================================================================================================================:+
 | **Analysis**             | **Excluding \>3SD P's**                                                                                                                                                                                                               | **Not Excluding \>3SD P's**                                                                                                                                                                                                           | **Any change?**                                                                                                                           |
 |                          |                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                       |                                                                                                                                           |
 |                          | **(N = 447)**                                                                                                                                                                                                                         | **(N = 462)**                                                                                                                                                                                                                         |                                                                                                                                           |
-+--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++++++
 | Enjoyment                | Interaction was significant (F(2, 441) = 3.92, *p* = .021; Positive Valence Simple Main effects: Serendipity vs. Baseline (F(1, 441) = 4.17, *p* = .042), Serendipity vs. Personal Choice (F(1, 441) = 4.32, *p* = .038).             | Interaction was significant (F(2, 456) = 3.77, *p* = .024; Positive Valence Simple Main effects: Serendipity vs. Baseline (F(1, 456) = 4.35, *p* = .038), Serendipity vs. Personal Choice (F(1, 456) = 4.24, *p* = .040).             | No                                                                                                                                        |
-+--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++++++
 | Serendipity              | Interaction marginally significant (F(2, 441) = 2.39, *p* = .093; Positive Valence Simple Main effects: Serendipity vs. Baseline (F(1, 441) = 13.80, *p* \< .001), Serendipity vs. Personal Choice (F(1, 441) = 6.31, *p* = .012).    | Interaction was not significant (F(2, 456) = 2.19, *p* = .113; Positive Valence Simple Main effects: Serendipity vs. Baseline (F(1, 456) = 13.16, *p* \< .001), Serendipity vs. Personal Choice (F(1, 456) = 6.28, *p* = .013).       | The interaction goes from marginally significant to not significant if we do not screen participants. The simple effects remain the same. |
-+--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++++++
 | Meaningfulness           | Interaction was marginally significant (F(2, 441) = 2.78, *p* = .063; Positive Valence Simple Main effects: Serendipity vs. Baseline (F(1, 441) = 10.27, *p* = .001), Serendipity vs. Personal Choice (F(1, 441) = 2.39, *p* = .123). | Interaction was marginally significant (F(2, 456) = 2.79, *p* = .062; Positive Valence Simple Main effects: Serendipity vs. Baseline (F(1, 456) = 10.28, *p* = .001), Serendipity vs. Personal Choice (F(1, 456) = 2.47, *p* = .116). | No                                                                                                                                        |
-+--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++++++
 | Enjoyment Mediation      | Positive painting: pathway was significant when comparing the serendipity to the personal choice (β = 8.85, SE = 3.11, 95% CI: \[2.69 to 14.86\]) and baseline (β = 13.05, SE = 3.35, 95% CI: \[6.46 to 19.79\]) conditions           | Positive painting: pathway was significant when comparing the serendipity to the personal choice (β = 8.66, SE = 3.03, 95% CI: \[2.60 to 14.61\]) and baseline (β = 12.42, SE = 3.23, 95% CI: \[6.13 to 18.71\]) conditions           | No                                                                                                                                        |
-+--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++++++
 | Meaningfulness Mediation | Positive painting: pathway was significant when comparing the serendipity to the personal choice (β = .53, SE = .17, 95% CI: \[.16 to .90\]) and baseline (β = .78, SE = .21, 95% CI: \[.38 to 1.21\]) conditions                     | Positive painting: pathway was significant when comparing the serendipity to the personal choice (β = .52, SE = .19, 95% CI: \[.16 to .89\]) and baseline (β = .75, SE = .20, 95% CI: \[.36 to 1.14\]) conditions                     | No                                                                                                                                        |
-+--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++++++
 
 ## Materials
 
@@ -841,11 +817,9 @@ In this study, we are interested in how people respond in different situations.
 
 Click below to start the study.
 
-
 **\[Baseline Condition\]**
 
 Imagine you enter an art gallery. You will see and rate a painting on the next page.
-
 
 Please see and rate this painting.
 
@@ -853,22 +827,20 @@ Please see and rate this painting.
 
 Once you view the painting, click below to rate this painting.
 
-
 **\[Personal Choice Condition\]**
 
 Imagine you enter an art gallery. Two of the paintings the gallery features appear below. Please select one of these two paintings to view.
 
-  -------------------------------------------------------------------------
+  
    **Moving Around** by Gerald Chodak   **On the Border** by Gerald Chodak
-  ------------------------------------ ------------------------------------
+   
          *[Painting thumbnail]*                *[Painting thumbnail]*
 
-  -------------------------------------------------------------------------
+  
 
 *Note: Painting images not included in machine-readable version. Participants viewed paintings by Gerald Chodak ("Moving Around" and "On the Border") in either positive or negative valence versions. A pretest confirmed that positive paintings were rated as more positive than negative paintings (see Web Appendix B). See published paper for the visual stimuli.*
 
 **Click below to proceed.**
-
 
 Please see this painting.
 
@@ -876,19 +848,17 @@ Please see this painting.
 
 Once you view the painting, click below to proceed.
 
-
 **\[Serendipity** **Condition\]**
 
 Imagine you enter an art gallery. Two of the paintings the gallery features appear below.
 
-  -------------------------------------------------------------------------
+  
   **Moving Around** by Gerald Chodak   **On the Border** by Gerald Chodak
-  ------------------------------------ ------------------------------------
+   
 
-  -------------------------------------------------------------------------
+  
 
 Click below to proceed.
-
 
 Imagine that you walk down a hallway in the art gallery and turn a corner. Just as you turn the corner, you happen to find this painting on the wall.
 
@@ -896,59 +866,47 @@ Imagine that you walk down a hallway in the art gallery and turn a corner. Just 
 
 Once you view the painting, click below to proceed.
 
-
 **\[Positive Valence Condition\]**
 
-  -------------------------------------------------------------------------
+  
   **Moving Around** by Gerald Chodak   **On the Border** by Gerald Chodak
-  ------------------------------------ ------------------------------------
+   
 
-  -------------------------------------------------------------------------
+  
 
 See paintings at <https://www.artbygerrychodak.com/product/moving-around/> (Moving Around) and <https://www.artbygerrychodak.com/product/coastline-2/> (On the Border)
 
 **\[Negative Valence Condition\]**
 
-  -------------------------------------------------------------------------
+  
   **Moving Around** by Gerald Chodak   **On the Border** by Gerald Chodak
-  ------------------------------------ ------------------------------------
+   
 
-  -------------------------------------------------------------------------
+  
 
 See paintings at <https://i.imgur.com/hGwBWMV.png> (moving around) or <https://hamiltoncs.org/forever-wild/wp-content/uploads/2016/10/Picture1-300x247.png> (on the border)
 
-
 How much did you enjoy the painting? (0 = "I hated it," and 100 = "I loved it")
-
 
 Please indicate your agreement with the following statements:
 
 The way I came across this painting made it seem more meaningful. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
 Getting to see the painting I just saw was a good surprise. (1 = "strongly disagree," and 7 = "strongly agree")
-
 
 I came across this painting by luck. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
 This painting was an unexpected discovery. (1 = "strongly disagree," and 7 = "strongly agree")
-
 
 To what extent did you feel attached to the other option? (1 = "not at all attached," and 7 = "very much attached")
 
-
 To what extent did you feel regretful about the painting you saw? (1 = "not at all regretful," and 7 = "very much regretful")
-
 
 How much did you scrutinize the painting? (1 = "not at all," and 7 = "very much")
 
-
 How stressed were you with the painting selection process? (1 = "not at all stressful," and 7 = "very much stressful")
 
-
 How frustrated were you with the painting selection process? (1 = "not at all frustrated," and 7 = "very much frustrated")
-
 
 # Web Appendix C: Additional Methodological Details and Analyses for Study 3
 
@@ -960,7 +918,7 @@ How frustrated were you with the painting selection process? (1 = "not at all fr
 
 *Feelings of Serendipity.* A 2 (initial selection randomness) × 2 (final selection randomness) × 5 (movie trailer replicate) ANOVA did not reveal a three-way interaction (F(4, 369) = 1.08, *p* = .368), nor two-way interactions between the movie trailer replicate and initial (F(4, 369) = .611, *p* = .655) or final (F(4, 369) = .380, *p* = .823) selection randomness, nor a main effect of the movie trailer replicate (F(4, 369) = .194, *p* = .942). Thus, we collapsed across trailers for the feelings of serendipity analyses.
 
-## Mediation by Feelings of Serendipity -- Interest in the Platform
+## Mediation by Feelings of Serendipity  Interest in the Platform
 
 We conducted a bootstrapping moderated mediation analysis using the degree of randomness in the initial selection as the independent variable, degree of randomness in the final selection as the moderator, serendipity as the mediator, and interest in the platform as the dependent variable (Process Model 8; Hayes 2018). For the first interest in the platform measure (yes vs. no), the index of moderated mediation was significant (Index = .27; 95% CI: \[.01 to .64\]). When there was a high degree of randomness in the final selection, the pathway to interest through feelings of serendipity was significant (β = .27, SE = .11, 95% CI: \[.11 to .51\]). When there was a low degree of randomness in the final selection, the pathway to interest through feelings of serendipity was not significant (β = .00, SE = .11, 95% CI: \[-.24 to .21\]). For the second interest in the platform measure (presence of a valid e-mail address), the index of moderated mediation was significant (Index = .22; 95% CI: \[.02 to .55\]). When there was a high degree of randomness in the final selection, the pathway to interest through feelings of serendipity was significant (β = .22, SE = .10, 95% CI: \[.08 to .45\]). When there was a low degree of randomness in the final selection, the pathway to interest through feelings of serendipity was not significant (β = .00, SE = .09, 95% CI: \[-.19 to 19\]).
 
@@ -980,27 +938,27 @@ There were no significant main effects nor an interaction on regret (*p*'s \> .3
 
 The Table below presents all the key analyses form the main text, with and without the exclusion criterion.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++
 | **Study 3**                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +:===================================================:+:=====================================================================================================================================================================================================:+:====================================================================================================================================================================================================:+:=================:+
 | **Analysis**                                        | **Excluding \>3SD P's**                                                                                                                                                                               | **Not Excluding \>3SD P's**                                                                                                                                                                          | **Any change?**   |
 |                                                     |                                                                                                                                                                                                       |                                                                                                                                                                                                      |                   |
 |                                                     | **(N = 389)**                                                                                                                                                                                         | **(N = 400)**                                                                                                                                                                                        |                   |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 | Enjoyment                                           | Main effect of randomness in the final selection (F(1, 385) = 40.08, *p* \< .001; The interaction was significant (F(1, 385) = 4.05, *p* = .045)                                                      | Main effect of randomness in the final selection (F(1, 396) = 36.44, *p* \< .001; The interaction was significant (F(1, 396) = 4.23, *p* = .040)                                                     | No                |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 | Interest in the Platform (Yes vs. No)               | Interaction: ß = 1.28, *Wald* = 5.13, *p* = .024; High (vs. low) randomness in the initial selection when movie was randomly chosen: (P~high~ = 34.3% vs. P~low~ = 15.2%): *Wald* = 10.05, *p* = .002 | Interaction: ß = 1.32, *Wald* = 5.61, *p* = .018; High (vs. low) randomness in the initial selection when movie was randomly chosen: (P~high~ = 34.3% vs. P~low~ = 15.7%): *Wald* = 9.71, *p* = .002 | No                |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 | Interest in the Platform (Presence of Valid E-Mail) | Interaction: ß = 1.05, *Wald* = 2.59, *p* = .108; High (vs. low) randomness in the initial selection when movie was randomly chosen: (P~high~ = 21.2% vs. P~low~ = 11.4%): *Wald* = 3.60, *p* = .058  | Interaction: ß = 1.04, *Wald* = 2.70, *p* = .101; High (vs. low) randomness in the initial selection when movie was randomly chosen: (P~high~ = 20.6% vs. P~low~ = 12.0%): *Wald* = 2.83, *p* = .093 | No                |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 | Serendipity                                         | Main effect of randomness in the final selection (F(1, 385) = 64.90, *p* \< .001; The interaction was significant (F(1, 385) = 4.74, *p* = .030)                                                      | Main effect of randomness in the final selection (F(1, 396) = 63.95, *p* \< .001; The interaction was significant (F(1, 396) = 4.34, *p* = .038                                                      | No                |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 | Enjoyment Mediation                                 | Path when movie was randomly chosen: β = 8.23, SE = 2.17, 95% CI: \[4.07 to 12.57\]                                                                                                                   | Path when movie was randomly chosen: β = 8.47, SE = 3.93, 95% CI: \[4.27 to 12.86\]                                                                                                                  | No                |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 | Interest (Yes vs. No) Mediation                     | Path when movie was randomly chosen: β = .26, SE = .11, 95% CI: \[.10 to .51\]                                                                                                                        | Path when movie was randomly chosen: β = .25, SE = .10, 95% CI: \[.09 to .49\]                                                                                                                       | No                |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 | Interest (Valid E-Mail) Mediation                   | Path when movie was randomly chosen: β = .22, SE = .10, 95% CI: \[.08 to .45\]                                                                                                                        | Path when movie was randomly chosen: β = .19, SE = .09, 95% CI: \[.05 to .41\]                                                                                                                       | No                |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++++++
 
 ## Materials
 
@@ -1023,7 +981,6 @@ In this study, you will perform a task that resembles how this platform is used.
 
 Please click the arrow button to proceed.
 
-
 **WELCOME TO MOVIE TRAILER ZONE!**
 
  
@@ -1036,7 +993,6 @@ In order to proceed, please create a username. Then, please click the arrow butt
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-
 **\*\[piped username from the previous page\], choose 5 movies you like.**\
 \
 It will help us find trailers for the movies we think you might like!
@@ -1047,16 +1003,13 @@ Participants saw a 10 x 5 matrix with several movie covers. The names of the mov
 
 Conan the Barbarian, Mission Impossible: Fallout, Fast Color, Final Cut, Creed II, The Osiris Child, The Colony, Judgment Day, Detroit, Antz, How to Train your Dragon: The Hidden World, Chicken Run, Good Will Hunting, Rodeo & Juliet, The Good Guy, My Best Friend's Wedding, All Square, Fun with Dick and Jane, Fox Fire, High Rise, Crypto, Frozen Ground, What Men Want, Fighting with my Family, The Commuter, Arbitrage, Bridget Jones, Dog Days, Wonder, Block Rock, The Prince, Into the Ashes, I Kill Giants, Along with the Gods, The Sisters Brothers, Hero, 50/50, Changeland, Running with the Devil, Lincoln Lawyer, Spinning Man, Big Wedding, Leap Year, And So It Goes, We Die Young, The Backtrace, Daylight's End, Damsel, Under The Tree, The Treasure.
 
-
 Thank you for letting us know about your preferences. We are building your profile based on your movie selections. Please wait. The page will advance automatically in a few seconds. It might take 10 seconds or a little bit longer depending on your movie selections.
 
 Loading spinner icon (loading spinner gif URL: <https://gph.is/1Qb3vhn>)
 
-
 Thank you for letting us know about your preferences. Your profile is ready. Now, we need to examine your preferences in order to make a recommendation. On the next page, while we analyze your preferences, you will answer some general questions that will not be used in developing recommendations. Then, you will experience the platform \"as is\".
 
 Please click the arrow button to proceed to the next page.
-
 
 **MOVIE TRAILER ZONE**
 
@@ -1108,7 +1061,6 @@ War
 
 Western
 
-
 **MOVIE TRAILER ZONE**
 
  
@@ -1118,7 +1070,6 @@ Western
  Preparing your recommendation\...
 
 \*The page advanced automatically after 10 seconds (marketer salience: salient vs. non-salient) × 2 (degree of randomness: high vs. low)
-
 
 **MOVIE TRAILER RECOMMENDATION**
 
@@ -1168,44 +1119,31 @@ Wildlife
 
 <https://youtu.be/So8R1GfCtJo>
 
-
 How much did you enjoy the movie trailer (0 = "I hated it," and 100 = "I loved it")
 
-
 Do you want to sign up to receive more information about the streaming platform? If so, please leave your e-mail below. We will only send you one email with more information about the platform. (Yes vs. No; The yes option had a text entry box)
-
 
 Please indicate your agreement with the following statements
 
 The way I came across this movie trailer made it seem more meaningful (1 = "strongly disagree," and 7 = "strongly agree").
 
-
 Getting to watch this movie trailer was a good surprise (1 = "strongly disagree," and 7 = "strongly agree").
-
 
 The movie trailer was an unexpected discovery (1 = "strongly disagree," and 7 = "strongly agree").
 
-
 I came across this movie trailer by luck (1 = "strongly disagree," and 7 = "strongly agree").
-
 
 Based on how the service works, there was a low chance that I would be watching the specific movie trailer that was selected for me (1 = "strongly disagree," and 7 = "strongly agree").
 
-
 The movie trailer was selected through a random process (1 = "strongly disagree," and 7 = "strongly agree").
-
 
 To what extent did you feel regretful about the movie trailer you watched? (1 = "not at all," and 7 = "very much")
 
-
 How stressed were you with the movie trailer selection process? (1 = "not at all," and 7 = "very much")
-
 
 How frustrated were you with the movie trailer selection process? (1 = "not at all," and 7 = "very much")
 
-
 While watching the movie trailer, how much did you scrutinize the movie trailer? (1 = "not at all," and 7 = "very much")
-
 
 While watching the movie trailer, how many thoughts did you have in your mind? (1 = "not at all," and 7 = "very much")
 
@@ -1259,7 +1197,6 @@ All participants were given standard behavioral lab instructions thanking them f
 
 What is your computer / station number? (dropdown list question where participants could indicate their computer station number)
 
-
 **\[No Surprise Condition\]**
 
 **CONSUMER PREFERENCE STUDY**\
@@ -1287,14 +1224,13 @@ In this session, you will participate in a consumer preference study. There are 
 \
 After making your choice, please click the arrow button to continue.
 
-  -----------------------------------------------------------------------
+  
   Marketing Five Senses Study         Consumer Feelings Study
-  ----------------------------------- -----------------------------------
+   
 
-  -----------------------------------------------------------------------
+  
 
 \*Independent of what they chose, all participants completed the same study next.
-
 
 **CONSUMER PREFERENCE STUDY**
 
@@ -1323,7 +1259,6 @@ more than 6 meals a day
 
 more than 6 meals a day
 
-
 At which times do you usually eat meals?
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1331,7 +1266,6 @@ At which times do you usually eat meals?
 At which times do you usually eat snacks?
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
 
 Which meals do you usually partake?
 
@@ -1361,7 +1295,6 @@ canned foods
 
 other \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-
 \*Upon finishing the filler questions, all participants were told to raise their hands so the research assistant would approach their cubicle to give them a code required to proceed to the next page.
 
 Thank you for your participation so far. Please raise your hand. The experimenter will approach your desk and give you the code required to proceed to the next page. Please keep your hand up and the experimenter will approach your desk very soon!
@@ -1370,7 +1303,7 @@ Thank you for your participation so far. Please raise your hand. The experimente
 
 \*After raising their hands, participants were approached by the research assistant and received six Utz Mini Twist Pretzels placed inside a Styrofoam bowl. The bowl was covered by a Napkin and a paper card that read: "Here are some pretzels for you! Please type the code "pretzels" to continue with the study."
 
-+-----------------------------------------------------------------------------------+
+++
 | **Here are some pretzels for you!**                                               |
 |                                                                                   |
 | *[Photo of paper card reading "Here are some pretzels for you!" placed above a napkin covering a Styrofoam bowl]* |
@@ -1386,39 +1319,29 @@ Paper card (that was put above the napkin for each Styrofoam bowl)
 
 Pretzels inside the Styrofoam bowls
 
-
 Please eat your pretzels for the next minute or so. You will be able to proceed to the next page after 30 seconds, but take your time.
 
 If there are reasons you cannot eat pretzels (e.g., an allergy), please let us know in the box below. Otherwise, leave the box blank.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-
 How much did you enjoy the pretzels? (0 = "I hated it," and 100 = "I loved it")
-
 
 Please indicate your agreement with the following statements:
 
 The way I came across these pretzels made it seem more meaningful. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
 Getting to taste these pretzels was a good surprise. (1 = "strongly disagree," and 7 = "strongly agree")
-
 
 I came across these pretzels by luck. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
 The pretzels were an unexpected discovery. (1 = "strongly disagree," and 7 = "strongly agree")
-
 
 When I started doing the study, there was a low chance that I would be eating these pretzels (1 = "strongly disagree," and 7 = "strongly agree").
 
-
 How responsible did you feel for the fact that you ended up eating pretzels? (1 = "not at all," and 7 = "very much")
 
-
 To which extent was it your choice to eat the pretzels? (1 = "not at all," and 7 = "very much")
-
 
 # Web Appendix D: Additional Methodological Details and Analyses for Study 4
 
@@ -1448,19 +1371,19 @@ We conducted a bootstrapping moderated mediation analysis using PROCESS model 15
 
 We collapsed across replicates for the alternative explanation analyses. There was a main effect of condition on regret (F(1, 389) = 7.18, *p* = .008), such that participants felt more regretful when they made a personal choice (M = 2.25, SD = 1.74) than when the song was randomly selected to them (M = 1.83, SD = 1.32). There was no interaction (F(1, 389) = .00, *p* = .992) or main effect of information (F(1, 389) = .137, *p* = .712). Participants also scrutinized the songs marginally more in the personal choice (M = 3.88, SD = 1.94) than in the serendipity condition (M = 3.54, SD = 1.97; F(1, 389) = 3.04, *p* = .082), with no other effects (F's \< 1). Participants had more positive expectations when they made a personal choice (M = 4.43, SD = 1.46) than in the serendipity condition (M = 3.89, SD = 1.41; F(1, 389) = 13.73, *p* \< .001). While some differences were found, they cannot explain the pattern of results on any of the dependent measures, and none of the indices of moderated mediation were significant.
 
-## Mediation Analyses -- Interest in the Platform
+## Mediation Analyses  Interest in the Platform
 
 We conducted two bootstrapping mediation analyses using PROCESS model 15 (Hayes 2018) with specifications similar to those described in the main text. For the serendipity mediator, the index of moderated mediation was significant (Index = -.39; 95% CI: \[-.67 to -.16\]). When the information was nondiagnostic, the pathway to interest in the platform through feelings of serendipity was positive (β = .51, SE = .13, 95% CI: \[.27 to .78\]). When the information was diagnostic, the pathway to interest in the platform through feelings of serendipity was not significant (β = .12, SE = .07, 95% CI: \[-.01 to .27\]).
 
 For the perceived knowledge mediator, the index of moderated mediation was significant (Index = -.57; 95% CI: \[-1.01 to -.20\]). When participants made a personal choice, the pathway to interest in the platform through perceived knowledge to make a personal choice was positive (β = .56, SE = .16, 95% CI: \[.27 to .89\]). When participants listened to a serendipitously selected song, the pathway to interest through perceived knowledge was nonsignificant (β = .01, SE = .12, 95% CI: \[-.27 to .22\]).
 
-## Mediation Analyses -- Willingness to Recommend
+## Mediation Analyses  Willingness to Recommend
 
 We conducted two bootstrapping mediation analyses using PROCESS model 15 (Hayes 2018) with specifications similar to those described in the main text. For the serendipity mediator, the index of moderated mediation was significant (Index = -36; 95% CI: \[-.61 to -.15\]). When the information was nondiagnostic, the pathway to willingness to recommend in the platform through feelings of serendipity was positive (β = .54, SE = .13, 95% CI: \[.28 to .80\]). Unexpectedly, when the information was diagnostic, the pathway to willingness to recommend in the platform through feelings of serendipity was significant (β = .18, SE = .07, 95% CI: \[.05 to .32\]). While feelings of serendipity drove participants' willingness to recommend regardless of the information type, serendipity was a stronger driver for willingness to recommend in the moderate information quantity condition (pairwise contrast between indirect effects: -.36, contrast 95% CI: \[-.62 to -.15\]).
 
 For the perceived knowledge mediator, the index of moderated mediation was significant (Index = -.52; 95% CI: \[-.92 to -.18\]). When participants made a personal choice, the pathway to willingness to recommend through perceived knowledge to make a personal choice was positive (β = .45, SE = .13, 95% CI: \[.21 to .73\]). When participants listened to a serendipitously selected song, the pathway to willingness to recommend through perceived knowledge was nonsignificant (β = -.07, SE = .12, 95% CI: \[-.31 to .15\]).
 
-## Mediation Analyses -- Willingness to Pay
+## Mediation Analyses  Willingness to Pay
 
 We conducted two bootstrapping mediation analyses using PROCESS model 15 (Hayes 2018) with specifications similar to those described in the main text. For the serendipity mediator, the index of moderated mediation was marginally significant (Index = -.28; 90% CI: \[-.60 to -.02\]). When the information was nondiagnostic, the pathway to willingness to pay through feelings of serendipity was positive (β = .41, SE = .15, 90% CI: \[.19 to .68\]). When the information was diagnostic, the pathway to willingness to pay through feelings of serendipity was not significant (β = .13, SE = .11, 90% CI: \[-.05 to .31\]).
 
@@ -1470,44 +1393,43 @@ For the perceived knowledge mediator, the index of moderated mediation was signi
 
 The Table below presents all the key analyses form the main text, with and without the exclusion criterion.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++
 | **Study 4**                                                                                                                                                                                                                      |
 +:==================================:+:==================================================================================:+:==================================================================================:+:=================:+
 | **Analysis**                       | **Excluding \>3SD P's**                                                            | **Not Excluding \>3SD P's**                                                        | **Any change?**   |
 |                                    |                                                                                    |                                                                                    |                   |
 |                                    | **(N = 393)**                                                                      | **(N = 400)**                                                                      |                   |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Satisfaction                       | The interaction was significant (F(1, 389) = 23.01, *p* \< .001)                   | The interaction was significant (F(1, 396) = 25.21, *p* \< .001)                   | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Interest in the Platform           | The interaction was significant (F(1, 389) = 22.56, *p* \< .001)                   | The interaction was significant (F(1, 396) = 24.78, *p* \< .001)                   | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Willingness to Recommend           | The interaction was significant (F(1, 389) = 34.37, *p* \< .001)                   | The interaction was significant (F(1, 396) = 37.66, *p* \< .001)                   | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Willingness to Pay                 | The interaction was significant (F(1, 389) = 8.74, *p* = .003)                     | The interaction was significant (F(1, 396) = 8.36, *p* = .004)                     | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Serendipity                        | The main effect of serendipity was significant (F(1, 389) = 19.64, *p* \< .001)    | The main effect of serendipity was significant (F(1, 396) = 19.95, *p* \< .001)    | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Satisfaction Mediation             | Path when information was nondiagnostic: β = .49, SE = .12, 95% CI: \[.26 to .75\] | Path when information was nondiagnostic: β = .50, SE = .12, 95% CI: \[.26 to .74\] | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Interest in the Platform Mediation | Path when information was nondiagnostic: β = .51, SE = .13, 95% CI: \[.27 to .78\] | Path when information was nondiagnostic: β = .51, SE = .13, 95% CI: \[.27 to .77\] | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Willingness to Recommend Mediation | Path when information was nondiagnostic: β = .54, SE = .13, 95% CI: \[.28 to .80\] | Path when information was nondiagnostic: β = .54, SE = .13, 95% CI: \[.30 to .81\] | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 | Willingness to Pay Mediation       | Path when information was nondiagnostic: β = .41, SE = .15, 90% CI: \[.19 to .68\] | Path when information was nondiagnostic: β = .41, SE = .14, 90% CI: \[.15 to .72\] | No                |
-+------------------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------------------+
++++++
 
 ## Materials
 
 Design: 2 (condition: personal choice vs. serendipity) × 2 (information: nondiagnostic vs. diagnostic) × 5 (song replicate) between-subjects design.
 
-**BRAIN.FM -- FUNCTIONAL MUSIC FOR THE BRAIN**
+**BRAIN.FM  FUNCTIONAL MUSIC FOR THE BRAIN**
 
 You will now complete a study about Brain.fm, a subscription-based platform that provides music designed for the brain.
 
 Please put your headphones on and make sure they are working.
 
 When you are ready to begin please click the arrow button.
-
 
 We want to make sure your headphones are working properly. A sound should be playing in the background. What is this sound about? **Make sure your volume is adjusted and that the song is not muted on the browser/tab.**
 
@@ -1525,13 +1447,11 @@ Please indicate the sound that is playing on the background.
 
 \*The following rain song was playing: <https://www.youtube.com/embed/Mr9T-943BnE>. Participants couldn't see any information (we hid the embedded video). Participants could only proceed if they chose Rain.
 
-
-Music is a potent phenomenon in human auditory perception and cognition. It can make us awake or put us to sleep. Importantly, music can also be purposefully designed to help us shape our behavior. At Brain.fm, we develop sounds that could be useful---to help us study, to push us in a workout, to get us to sleep, or many other possible functions.\
+Music is a potent phenomenon in human auditory perception and cognition. It can make us awake or put us to sleep. Importantly, music can also be purposefully designed to help us shape our behavior. At Brain.fm, we develop sounds that could be usefulto help us study, to push us in a workout, to get us to sleep, or many other possible functions.\
 \
 On the next pages, you will see a description of Brain.fm, a platform that provides music designed for the brain. Be sure to read the information very carefully - you need to learn about this platform in order to successfully complete the study.
 
-(there was an image to increase immersion -- it was an animated gif extracted from Brain.fm real website - <http://web.archive.org/web/20200715180602/https://www.brain.fm/assets/img/focus-animation_bcba3d519ff8406664b93fe49a8fa2e8.gif>).
-
+(there was an image to increase immersion  it was an animated gif extracted from Brain.fm real website - <http://web.archive.org/web/20200715180602/https://www.brain.fm/assets/img/focus-animation_bcba3d519ff8406664b93fe49a8fa2e8.gif>).
 
 **BRAIN.FM - FUNCTIONAL MUSIC TO IMPROVE FOCUS**
 
@@ -1553,11 +1473,11 @@ Broadly speaking, \"functional music\" is a music category where songs are used 
 
 - **Initial Composition:** First, humans compose the musical content (the Art: melodies, harmonies, chord progressions, sound design, instrument choices, etc.) We have found no substitute for the talent of brilliant musicians in laying the foundation for a new piece of music. 
 
-<!-- -->
+<! >
 
 - **Algorithm-Based Arrangement**: Then, a patented algorithmic system (A.I.) arranges these motifs over long timescales, and adds the acoustic features which constitute our core technology (the Science: modulation to alter brain activity, 3D spatialization, salience reduction, etc.) 
 
-<!-- -->
+<! >
 
 - **Field Experiment Testing:** Finally, compositions are tested via large-scale experiments to ensure they have the properties required to help listeners attain and sustain desired mental states over long periods of time.
 
@@ -1565,16 +1485,15 @@ Broadly speaking, \"functional music\" is a music category where songs are used 
 
 - **Neural Phase-Locking Value (NPLV**): ranging from 4000 to 13000, NPLV refers to the extent to which populations of neurons engage in various kinds of coordinated activity. When the neurons are highly coordinated (high NPLV), people can maintain a higher level of concentration and be less distracted.
 
-<!-- -->
+<! >
 
 - **Induced Brain Wave:** There are five human brain waves - Delta (0.1 - 3 Hz), Theta (4 - 7 Hz), Alpha (8 - 15 Hz), Beta (16 - 30 Hz), and Gamma (31 - 100 Hz). Theta waves are for intuition and memory. Alpha waves are for visualization and creativity. Beta waves are for alertness and concentration. Gamma waves are for insight and peak focus.
 
-<!-- -->
+<! >
 
 - **Brain Modulation Rate:** The higher the modulation rate, the quicker it is for the effect of a certain song to kick in. Songs with low modulation rate take 15 minutes to start generating noticeable effects. Medium modulation rate songs take 10 minutes, and high modulation rate songs take 5 minutes to generate noticeable effects on brain and behavior.
 
 Once you read and understand, click the arrow button. It will be available after some seconds.
-
 
 Now that you know more about the platform, you will experience a sample of one of the platform\'s available songs.
 
@@ -1618,7 +1537,6 @@ Please see the five songs available for a listening sample. We will randomly sel
 
 \*The songs participants listened to are 2-minute excerpts of functional songs used by the real Brain.fm service. The songs are akin to ambient and binaural beats songs together. More information available upon request\*
 
-
 \*Participants in the personal choice condition listened to the song they chose, and participants in the serendipity condition listened to a song randomly selected within Qualtrics.
 
 The song is playing on the background\...
@@ -1630,24 +1548,19 @@ The song is playing on the background\...
 
 \*The song information (title and three attributes) was displayed here\*
 
-
 "How satisfied are you with the song you just listened to?" (1 = "not at all satisfied," and 7 = "very satisfied")
 
 "How satisfied are you with the song listening experience in general?" (1 = "not at all satisfied," and 7 = "very satisfied")
 
-
 "How interested would you be in subscribing to Brain.fm's platform?" (1 = "not at all," and 7 = "very interested")
 
-
 "How likely are you to recommend Brain.fm's subscription service to a friend?" (1 = "not likely at all," and 7 = "very likely).
-
 
 Brain.fm has several subscription options, and such as other platforms (e.g., Spotify, Apple Music), the monthly plan costs between \$5 and \$15.
 
 How much are you willing to pay for a one-month subscription to Brain.fm?
 
 (Slider scale from 5 to 15).
-
 
 Please consider your experience with Brain.fm and how the Brain.fm platform works. Please indicate the extent to which you agree with the statements below.
 
@@ -1661,7 +1574,6 @@ Please consider your experience with Brain.fm and how the Brain.fm platform work
 
 song I just listened to" (1 = "strongly disagree," and 7 = "strongly agree").
 
-
 Please consider your experience with Brain.fm and the information that was provided to you. Please indicate the extent to which you agree with the statements below.
 
 "From the information provided about functional music, I was knowledgeable enough to choose a song to listen to," (1 = "strongly disagree," and 7 = "strongly agree").
@@ -1672,24 +1584,17 @@ Please consider your experience with Brain.fm and the information that was provi
 
 "When it comes to functional music, the information provided allowed me to distinguish the good from the bad" (1 = "strongly disagree," and 7 = "strongly agree").
 
-
 To what extent did you feel regretful about the song you listened to? (1 = "not at all," and 7 = "very much")
-
 
 "While listening to the song, how much did you scrutinize the song?" (1 = "not at all," and 7 = "very much")
 
-
 "How high were your expectations about the songs before you listened to one of them?" (1 = "very low," and 7 = "very high")
-
 
 "How satisfied did you expect to like the song before you listened to it?" (1 = "not at all," and 7 = "very satisfied")
 
-
 "To which extent did you make your own song choice?" (1 = "not at all," and 7 = "very much")
 
-
 "How much information was provided about what attributes are necessary for a good functional song?" (1 = "not much," and 7 = "very much")
-
 
 # Web Appendix D-1: Additional Study on the Role of Information 
 
@@ -1741,29 +1646,29 @@ The results are consistent with our theory, and also with the results of Botti a
 
 The Table below presents all the key analyses form the main text, with and without the exclusion criterion.
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++
 | **Study D-1**                                                                                                                                                                                                                                                                                                                             |
 +:=========================================:+:========================================================================================================================:+:========================================================================================================================:+:=======================================:+
 | **Analysis**                              | **Excluding \>3SD P's**                                                                                                  | **Not Excluding \>3SD P's**                                                                                              | **Any change?**                         |
 |                                           |                                                                                                                          |                                                                                                                          |                                         |
 |                                           | **(N = 524)**                                                                                                            | **(N = 537)**                                                                                                            |                                         |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Enjoyment                                 | The interaction was significant (F(1, 520) = 6.50, *p* = .011)                                                           | The interaction was significant (F(1, 533) = 6.14, *p* = .014)                                                           | No                                      |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Meaningfulness                            | The interaction was marginally significant (F(1, 520) = 2.77, *p* = .097)                                                | The interaction was not significant (F(1, 533) = 2.35, *p* = .126)                                                       | Yes. Interaction became non-significant |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Serendipity                               | The interaction was marginally significant (F(1, 520) = 3.31, *p* = .069)                                                | The interaction was marginally significant (F(1, 533) = 3.89, *p* = .049)                                                | Yes. Interaction became significant     |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Responsibility                            | Main effect of responsibility F(1, 520) = 86.17, p \< .001                                                               | Main effect of responsibility F(1, 533) = 82.73, p \< .001                                                               | No                                      |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Enjoyment Mediation (Serendipity)         | Path when information was moderate: β = 2.02, SE = 1.23, 95% CI: \[.01 to 4.02\]                                         | Path when information was moderate: β = 2.30, SE = 1.23, 95% CI: \[.27 to 4.36\]                                         | No                                      |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Enjoyment Mediation (Responsibility)      | Paths - moderate: β = -3.15, SE = .70, 90% CI: \[-4.37 to -2.08\]; high: β = -4.51, SE = .76, 90% CI: \[-5.81 to -3.31\] | Paths - moderate: β = -2.99, SE = .67, 90% CI: \[-4.14 to -1.97\]; high: β = -4.53, SE = .75, 90% CI: \[-5.81 to -3.39\] | No                                      |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Meaningfulness Mediation (Serendipity)    | Path when information was moderate: β = .15, SE = .09, 95% CI: \[.01 to .29\]                                            | Path when information was moderate: β = .17, SE = .09, 95% CI: \[.02 to .32\]                                            | No                                      |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 | Meaningfulness Mediation (Responsibility) | Paths - moderate: β = -.33, SE = .06, 90% CI: \[-.42 to -.24\]; high: β = -.38, SE = .06, 90% CI: \[-.48 to -.28\]       | Paths - moderate: β = -.32, SE = .06, 90% CI: \[-.42 to -.23\]; high: β = -.38, SE = .06, 90% CI: \[-.48 to -.29\]       | No                                      |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+
++++++
 
 ## Materials
 
@@ -1774,7 +1679,6 @@ Design: 2 (condition: personal choice vs. serendipity) × 2 (attribute informati
 In this study, we are interested in how people respond in different situations.
 
 Please put your headphones on or make sure that your speakers are working. When you are ready to begin please click the arrow.
-
 
 **\[Personal Choice, Moderate Information Quantity Condition\]**
 
@@ -1803,7 +1707,6 @@ Please select one of these five songs.  
 **Lay down** by DMA\'s (2016, Alternative/Indie) - Overall rating: average - Uniqueness: average - Lyrics meaningfulness: low - Vocals: high
 
 **Next stop** by Bleached (2013, Alternative/Indie) - Overall rating: average - Uniqueness: high - Lyrics meaningfulness: average - Vocals: low
-
 
 *Participants heard the song they chose.*
 
@@ -1871,7 +1774,6 @@ Please see these five songs below.
 - Lyrics meaningfulness: average\
 - Vocals: low
 
-
 *Participants heard one of the songs.*
 
 **The call** by All Tvvins (2016, Electropop)
@@ -1890,43 +1792,32 @@ Please see these five songs below.
 
 <https://www.youtube.com/embed/GBJ4TyZz7As>
 
-
 How much did you enjoy the song? (0 = "I hated it," and 100 = "I loved it")
-
 
 Please indicate your agreement with the following statements:
 
 The way I came across this song made it seem more meaningful. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
 Please indicate your agreement with the following statements:
 
 Getting to hear this one song I just heard was a good surprise. (1 = "strongly disagree," and 7 = "strongly agree")
-
 
 Please indicate your agreement with the following statements:
 
 I came across this song by luck. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
 Please indicate your agreement with the following statements:
 
 This song was an unexpected discovery. (1 = "strongly disagree," and 7 = "strongly agree")
 
-
 How responsible did you feel for the song you heard? (1 = "not at all," and 7 = "very much")
-
 
 How accountable did you feel for the song you heard? (1 = "not at all," and 7 = "very much")
 
-
 How much did you blame yourself for the song you heard? (1 = "not at all," and 7 = "very much")
-
 
 How much did you congratulate yourself for the song you heard? (1 = "not at all," and 7 = "very much")
 
-
 How stressed were you with the painting selection process? (1 = "not at all stressful," 7 = "very much stressful")
-
 
 How frustrated were you with the painting selection process? (1 = "not at all frustrated," 7 = "very much frustrated")

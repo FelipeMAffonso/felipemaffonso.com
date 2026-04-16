@@ -1,4 +1,4 @@
----
+
 title: "Consumer Responses to Infectious Disease Cues: An Integrative Framework and Research Agenda"
 authors: "Felipe M. Affonso"
 journal: "European Journal of Marketing"
@@ -15,12 +15,11 @@ bibtex: |
     journal={European Journal of Marketing},
     volume={59},
     number={4},
-    pages={973--998},
+    pages={973998},
     year={2025},
     publisher={Emerald Publishing},
     doi={10.1108/EJM-01-2024-0070}
   }
----
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1108/EJM-01-2024-0070).
 
@@ -31,7 +30,6 @@ bibtex: |
 FELIPE M. AFFONSO
 
 Felipe M. Affonso (felipe.affonso@okstate.edu) is an Assistant Professor of Marketing, Spears School of Business, Oklahoma State University, Stillwater, OK 74078. Correspondence concerning this article should be addressed to Felipe M. Affonso, (352) 727-2536. The author thanks Chris Janiszewski, Aner Sela, Richard Lutz, and Amir Erez for comments on an earlier version of the manuscript. In addition, the author dedicates this paper to the loving memory of Wagner Vinicius Pretola.
-
 
 **Consumer Responses to Infectious Disease Cues: An Integrative Framework and Research Agenda**
 
@@ -55,13 +53,13 @@ Consumers frequently encounter infectious disease cues in daily life, from shopp
 
 The pathogen-avoidance psychology literature suggests that encountering disease cues activates the \"behavioral immune system\" - an evolved set of psychological mechanisms that detect and respond to infection risks (Schaller & Neuberg, 2012; Ackerman et al., 2018). Drawing on this literature, we propose that disease cues trigger fundamental shifts in affect (e.g., heightened disgust and anxiety), cognition (e.g., narrowed cognitive scope), and motivation (e.g., self-protection goals). These shifts systematically influence consumer responses across multiple domains: self-regulation and control, social behavior and identity processes, information processing, evaluative processes, and prosocial and sustainable behaviors.
 
-This research makes several contributions. First, it provides an integrative framework explaining how disease cues influence consumer behavior through specific psychological mechanisms -- affect, cognition, and motivation. By delineating these basic processes, we provide a theoretical foundation that not only explains existing work but helps predict novel responses for future research. Second, it extends behavioral immune system theory by identifying novel consequences in consumer domains. Third, it advances understanding of threat responses in consumer behavior by highlighting the unique aspects of disease threats. Finally, it offers practical insights for marketers navigating both health crises and everyday disease concerns.
+This research makes several contributions. First, it provides an integrative framework explaining how disease cues influence consumer behavior through specific psychological mechanisms  affect, cognition, and motivation. By delineating these basic processes, we provide a theoretical foundation that not only explains existing work but helps predict novel responses for future research. Second, it extends behavioral immune system theory by identifying novel consequences in consumer domains. Third, it advances understanding of threat responses in consumer behavior by highlighting the unique aspects of disease threats. Finally, it offers practical insights for marketers navigating both health crises and everyday disease concerns.
 
 # THE PSYCHOLOGY OF DISEASE AVOIDANCE
 
 **Disease Avoidance as a Motivational Mechanism**
 
-The evolutionary arms race between disease-causing pathogens---bacteria, fungi, protozoa, worms, viruses, helminths---and their host's immune system has been ongoing since the first living organisms (Jalasvuori & Bamford, 2008; Wolfe et al., 2007). Disease-causing pathogens imposed powerful selection pressures on humans (Gangestad & Buss, 1993), shaping natural selection and genetic variation in populations over millennia (Karlsson et al., 2014). The impact of infectious diseases has always been significant; for instance, the Bubonic Plague decimated 30 to 60% of the European population (Dobson & Carper, 1996), the Spanish flu killed between 40 and 100 million people worldwide (Olson et al., 2005), and infectious diseases continue to kill millions annually. These pathogen threats necessitated the development of adaptations to fight infection (Fumagalli et al., 2011; Thornhill & Fincher, 2014).
+The evolutionary arms race between disease-causing pathogensbacteria, fungi, protozoa, worms, viruses, helminthsand their host's immune system has been ongoing since the first living organisms (Jalasvuori & Bamford, 2008; Wolfe et al., 2007). Disease-causing pathogens imposed powerful selection pressures on humans (Gangestad & Buss, 1993), shaping natural selection and genetic variation in populations over millennia (Karlsson et al., 2014). The impact of infectious diseases has always been significant; for instance, the Bubonic Plague decimated 30 to 60% of the European population (Dobson & Carper, 1996), the Spanish flu killed between 40 and 100 million people worldwide (Olson et al., 2005), and infectious diseases continue to kill millions annually. These pathogen threats necessitated the development of adaptations to fight infection (Fumagalli et al., 2011; Thornhill & Fincher, 2014).
 
 The primary defense against infection is the biological immune system, which operates through physiological processes that secrete molecules (e.g., cytokines) to promote inflammation, detect and neutralize pathogens, and heal injuries (Akira et al., 2006; Janeway, 2001). However, mobilizing a biological immune response imposes serious fitness costs: it is metabolically expensive, temporarily incapacitating, and reactive, defending only after pathogens have invaded the body (Lochmiller & Deerenberg, 2000; McDade, 2005). Furthermore, pathogens evolve rapidly to evade immune responses. These shortcomings highlight the adaptive value of a motivational system that facilitates behavioral avoidance of pathogens, which is evolutionarily advantageous by preventing infection altogether (Cremer et al., 2007; Hart, 1990; Meunier, 2015).
 
@@ -77,23 +75,23 @@ Motivational systems also influence attention and cognition. Infection-connoting
 
 Can pathogen-avoidance motivations influence responses to stimuli who pose no objectively meaningful risk of infection at all? Extant research on social psychology shows this is the case. For example, Ackerman et al. (2009) found that cues related to infectious diseases increased overgeneralization bias, where people exhibit heightened sensitivity to deviations in facial symmetry and other morphological features, even in contexts unrelated to infection risk. This suggests that disease-avoidance motivations can be triggered by superficial perceptual cues, leading to broader implications for judgment and decision-making. This system\'s broad influence extends to non-obvious responses, impacting attentional processes, judgment, social cognition, and moral judgments. Please see Table 1 for a summary of research on people's responses to infectious disease cues in social psychology.
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Table 1.** People's Responses to Infectious Disease Cues -- Summary of Research Findings in Social Psychology^1^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+++
+| **Table 1.** People's Responses to Infectious Disease Cues  Summary of Research Findings in Social Psychology^1^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +:=====================================================================================================================================:+:===================================================================================================================================================================================================================================================================================================================================================================:+:==============================================================================================================================================================================================:+
 | **Domain**                                                                                                                            | **Findings**                                                                                                                                                                                                                                                                                                                                                        | **Citations**                                                                                                                                                                                  |
-+---------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Attentional Processes                                                                                                                 | Overgeneralization bias toward features resembling infection symptoms and cues associated with disease; narrowed attention to these cues; greater sensitivity towards morphological deviance of geometric shapes; sensitivity towards processing dissimilarities rather than similarities; socially dense environments perceived as more crowded and confining      | Ackerman et al. (2009); Makhanova et al. (2015); Nussinson et al. (2018); Ryan (2012)                                                                                                          |
-+---------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Judgement and Decision-Making                                                                                                         | Devaluation of objects and environments associated with unfamiliar people; desire for health and attractiveness improvements; decreased global risk tolerance; increased motivation for status acquisition                                                                                                                                                          | Ackerman et al. (2018); Brown and Sacco (2020) Mortensen et al. (2010); Prokosch et al. (2019)                                                                                                 |
-+---------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Social Cognition and Social Interaction                                                                                               | Increased dissimilarity between ingroups and outgroups; aversion and stigmatization expressed toward outgroup members (e.g., elderly, obese, disabled); increased prejudice towards people with morphological anomalies; greater preference for healthy, symmetrical, attractive mates; reduced preference for extraverts; increased concern about one's self-image | Ackerman et al. (2018); Brown and Sacco (2016); Faulkner et al. (2004); Gangestad and Buss (1993); Huang et al. (2011); Murray et al. (2013); Navarrete and Fessler (2006); Park et al. (2007) |
-+---------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Social Influence and Moral Judgements                                                                                                 | Higher conformity to cultural norms; more social conservatism; stringent punishment for violating moral norms                                                                                                                                                                                                                                                       | Horberg et al. (2009); Murray and Schaller (2012); Murray et al. (2013); Terrizzi et al. (2013)                                                                                                |
-+---------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | We note that the findings on people's responses to infectious disease cues are more extensive than what the table outlines. See Murray and Schaller (2016) and Ackerman et al. (2018) for social psychology-focused reviews, and Murray et al. (2019) for a review focused on the physiological foundations of the pathogen-avoidance system focused on three different levels: sensory, cellular, and genetic.                                                                                                                                                                                                                                                                                              |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Source: Author's own work                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++
 
 Two principles explain these wide-ranging effects: the Smoke Detector Principle and the Functional Flexibility Principle (Murray & Schaller, 2016; Schaller & Park, 2011). The Smoke Detector Principle suggests the system detects and responds to inferred infection risks from perceptual cues, even if they pose no real threat (Michalak & Ackerman, 2020; Ryan, 2012). This leads to a high sensitivity to various cues (e.g., sneezing, skin lesions), even in contexts where infection is unlikely or biologically impossible.
 
@@ -114,7 +112,6 @@ The emerging body of research examining consumer responses to disease cues has e
 **The Need for a Comprehensive Framework for Consumer Responses to Disease Cues**
 
 Despite these valuable insights and the importance of this phenomenon, there remains a significant gap in integrating these effects into a cohesive framework to predict consumer behavior across various contexts. With the goal of filling this gap, the next section is organized as follows. First, we define the construct of disease avoidance motivation and describe three assumptions that sustain the literature on pathogen-avoidance behavior. Then, we propose that disease cues trigger fundamental changes in affect, cognition, and motivation - three basic psychological processes through which disease cues influence consumer behavior. Finally, we identify different categories of consumer responses that emerge from these psychological changes, and develop formal propositions for future research.
-
 
 # CONSUMER RESPONSES TO DISEASE CUES: PROPOSITION OF A FRAMEWORK
 
@@ -212,7 +209,7 @@ Disease cues also trigger feelings of low control and uncertainty (Prokosch et a
 
 **P3:** *Disease cues increase compensatory consumption behavior.*
 
-*Boundary Conditions -- Self-Regulation and Control.* The effects proposed above are likely moderated by consumers\' perceived control over disease threats. When individuals believe they can effectively manage or prevent infection through their own actions, the psychological impact of disease cues may be attenuated, consistent with research on perceived control and threat response (Kay et al., 2008). This moderation occurs because perceived controllability reduces both anxiety (Bandura, 1988; Langer, 1975) and the need for compensatory behaviors (Kay et al., 2010; Cutright, 2012). Conversely, when disease threats are perceived as uncontrollable, the narrowing of temporal focus (Griskevicius et al., 2011), impairment of self-control (Baumeister et al., 2018), and drive for compensatory consumption (Mandel et al., 2017) become amplified due to heightened vulnerability perceptions (Fritsche et al., 2008; Kay et al., 2008). These effects align with research showing that perceived control moderates responses to various threats (Cutright & Wu, 2023) and influences self-regulatory behavior (Bandura, 1991). Individual differences in health self-efficacy (Schwarzer & Jerusalem, 1995) and contextual factors affecting perceived disease controllability thus represent critical boundary conditions for these effects.
+*Boundary Conditions  Self-Regulation and Control.* The effects proposed above are likely moderated by consumers\' perceived control over disease threats. When individuals believe they can effectively manage or prevent infection through their own actions, the psychological impact of disease cues may be attenuated, consistent with research on perceived control and threat response (Kay et al., 2008). This moderation occurs because perceived controllability reduces both anxiety (Bandura, 1988; Langer, 1975) and the need for compensatory behaviors (Kay et al., 2010; Cutright, 2012). Conversely, when disease threats are perceived as uncontrollable, the narrowing of temporal focus (Griskevicius et al., 2011), impairment of self-control (Baumeister et al., 2018), and drive for compensatory consumption (Mandel et al., 2017) become amplified due to heightened vulnerability perceptions (Fritsche et al., 2008; Kay et al., 2008). These effects align with research showing that perceived control moderates responses to various threats (Cutright & Wu, 2023) and influences self-regulatory behavior (Bandura, 1991). Individual differences in health self-efficacy (Schwarzer & Jerusalem, 1995) and contextual factors affecting perceived disease controllability thus represent critical boundary conditions for these effects.
 
 **Consumer Response Category: Social Behavior and Identity-Related Processes**
 
@@ -228,7 +225,7 @@ Disease cues systematically alter how consumers process and utilize social infor
 
 **P6**: *Disease cues decrease susceptibility to social influence in consumer decisions.*
 
-*Boundary Conditions -- Social Behavior and Identity-Related Processes.* The effects proposed above are likely moderated by whether social others are perceived as ingroup or outgroup members. This distinction is crucial because ingroup members are typically perceived as sharing similar pathogen avoidance practices and immunity profiles (Faulkner et al., 2004; Schaller & Neuberg, 2012), while outgroup members may be viewed as potential sources of novel pathogens (Park et al., 2007; Murray & Schaller, 2012). Research on coalitional psychology suggests that shared immunity markers serve as important cues for group categorization (Kurzban & Leary, 2001; Van Vugt & Park, 2009). Consequently, while disease cues generally increase social avoidance and personal identity focus with outgroup members (Navarrete & Fessler, 2006; Neuberg et al., 2011), these effects may reverse for ingroup members. With ingroups, disease threats can increase social affiliation as people seek safety in familiar others (Murray et al., 2013; Schaller & Park, 2011), enhance collective identity expression through shared immunity perceptions (Thornhill & Fincher, 2014; Miller & Maner, 2012), and strengthen within-group influence as people rely more heavily on trusted others for guidance (Murray & Schaller, 2012). These patterns align with broader research showing that threats can simultaneously increase ingroup cohesion while amplifying outgroup avoidance (Navarrete et al., 2004; Van Vugt & Park, 2009). The nature of social relationships - particularly ingroup versus outgroup distinctions - thus represents a critical boundary condition for understanding how disease cues shape social consumer behavior.
+*Boundary Conditions  Social Behavior and Identity-Related Processes.* The effects proposed above are likely moderated by whether social others are perceived as ingroup or outgroup members. This distinction is crucial because ingroup members are typically perceived as sharing similar pathogen avoidance practices and immunity profiles (Faulkner et al., 2004; Schaller & Neuberg, 2012), while outgroup members may be viewed as potential sources of novel pathogens (Park et al., 2007; Murray & Schaller, 2012). Research on coalitional psychology suggests that shared immunity markers serve as important cues for group categorization (Kurzban & Leary, 2001; Van Vugt & Park, 2009). Consequently, while disease cues generally increase social avoidance and personal identity focus with outgroup members (Navarrete & Fessler, 2006; Neuberg et al., 2011), these effects may reverse for ingroup members. With ingroups, disease threats can increase social affiliation as people seek safety in familiar others (Murray et al., 2013; Schaller & Park, 2011), enhance collective identity expression through shared immunity perceptions (Thornhill & Fincher, 2014; Miller & Maner, 2012), and strengthen within-group influence as people rely more heavily on trusted others for guidance (Murray & Schaller, 2012). These patterns align with broader research showing that threats can simultaneously increase ingroup cohesion while amplifying outgroup avoidance (Navarrete et al., 2004; Van Vugt & Park, 2009). The nature of social relationships - particularly ingroup versus outgroup distinctions - thus represents a critical boundary condition for understanding how disease cues shape social consumer behavior.
 
 **Consumer Response Category: Information Processing**
 
@@ -254,7 +251,7 @@ Disease cues also fundamentally reshape how consumers engage with different sens
 
 **P10:** *Disease cues increase reliance on visual and auditory stimuli while decreasing engagement with tactile, gustatory, and olfactory stimuli*.
 
-*Boundary Conditions -- Evaluative Processes.* The effects proposed above are likely moderated by product category characteristics. For safety and reliability attributes, the moderating role of product category involvement is particularly relevant. In high-involvement categories where poor choices have significant consequences, disease cues should produce especially strong emphasis on safety and reliability (Dawar & Lei, 2009). However, in low-involvement categories where decisions are less consequential, the effect may be attenuated as the perceived need for protection is lower.
+*Boundary Conditions  Evaluative Processes.* The effects proposed above are likely moderated by product category characteristics. For safety and reliability attributes, the moderating role of product category involvement is particularly relevant. In high-involvement categories where poor choices have significant consequences, disease cues should produce especially strong emphasis on safety and reliability (Dawar & Lei, 2009). However, in low-involvement categories where decisions are less consequential, the effect may be attenuated as the perceived need for protection is lower.
 
 For sensory engagement, the perceived necessity of the product likely serves as a key boundary condition (Argo et al., 2006; Krishna, 2012). While disease cues generally reduce engagement with close-contact sensory information, this effect may weaken or reverse for essential products where proper evaluation requires multiple sensory inputs (e.g., fresh produce, clothing). In such cases, consumers might develop compensatory strategies to enable necessary sensory engagement while maintaining a sense of safety, consistent with research on coping mechanisms under threat (Lazarus & Folkman, 1984; McEwen, 2007).
 
@@ -303,7 +300,6 @@ Finally, our framework does not differentiate between different diseases or clas
 **Conclusion**
 
 Understanding consumer responses to infectious disease cues has become increasingly critical for marketing theory and practice. Our framework integrates insights from evolutionary psychology and consumer behavior to explain how disease cues systematically influence consumer decision-making through fundamental shifts in psychological processes. These insights can help marketers better predict and address consumer responses during health crises while suggesting promising directions for future research.
-
 
 **ACKNOWLEDGEMENTS**
 
@@ -423,9 +419,9 @@ Horberg, E. J., Oveis, C., Keltner, D., & Cohen, A. B. (2009). Disgust and the m
 
 Huang, J. Y., & Bargh, J. A. (2014). The selfish goal: Autonomously operating motivational structures as the proximate cause of human judgment and behavior. *Behavioral and Brain Sciences, 37*(2), 121-135.
 
-Huang, J. Y., Ackerman, J. M., & Sedlovskaya, A. (2017). (De) contaminating product preferences: A multi‐method investigation into pathogen threat\'s influence on used product preferences. *Journal of Experimental Social Psychology, 70,* 143--152.
+Huang, J. Y., Ackerman, J. M., & Sedlovskaya, A. (2017). (De) contaminating product preferences: A multi‐method investigation into pathogen threat\'s influence on used product preferences. *Journal of Experimental Social Psychology, 70,* 143152.
 
-Huang, J. Y., Sedlovskaya, A., Ackerman, J. M., & Bargh, J. A. (2011). Immunizing against prejudice: Effects of disease protection on attitudes toward out‐groups. *Psychological Science, 22*(12), 1550--1556.
+Huang, J. Y., Sedlovskaya, A., Ackerman, J. M., & Bargh, J. A. (2011). Immunizing against prejudice: Effects of disease protection on attitudes toward out‐groups. *Psychological Science, 22*(12), 15501556.
 
 Huang, Y., & Sengupta, J. (2020). The influence of disease cues on preference for typical versus atypical products. *Journal of Consumer Research, 47*(3), 393-411.
 
@@ -503,13 +499,13 @@ Morales, A. C., & Fitzsimons, G. J. (2007). Product contagion: Changing consumer
 
 Morii, D., Miura, A., & Komori, M. (2023). The impact of television on-air time on hand hygiene compliance behaviors during COVID-19 outbreak. *American Journal of Infection Control, 51*(9), 975-979.
 
-Mortensen, C. R., Becker, D. V., Ackerman, J. M., Neuberg, S. L., & Kenrick, D. T. (2010). Infection breeds reticence: The effects of disease salience on self‐perceptions of personality and behavioral avoidance tendencies. *Psychological Science, 21*(3), 440--447.
+Mortensen, C. R., Becker, D. V., Ackerman, J. M., Neuberg, S. L., & Kenrick, D. T. (2010). Infection breeds reticence: The effects of disease salience on self‐perceptions of personality and behavioral avoidance tendencies. *Psychological Science, 21*(3), 440447.
 
 Murray, D. R., Prokosch, M. L., & Airington, Z. (2019). PsychoBehavioroimmunology: Connecting the behavioral immune system to its physiological foundations. *Frontiers in Psychology, 10,* 200.
 
-Murray, D. R., & Schaller, M. (2012). Threat(s) and conformity deconstructed: Perceived threat of infectious disease and its implications for conformist attitudes and behavior. *European Journal of Social Psychology, 42*(2), 180--188.
+Murray, D. R., & Schaller, M. (2012). Threat(s) and conformity deconstructed: Perceived threat of infectious disease and its implications for conformist attitudes and behavior. *European Journal of Social Psychology, 42*(2), 180188.
 
-Murray, D. R., & Schaller, M. (2016). The behavioral immune system: Implications for social cognition, social interaction, and social influence. *Advances in Experimental Social Psychology, 53,* 75--129.
+Murray, D. R., & Schaller, M. (2016). The behavioral immune system: Implications for social cognition, social interaction, and social influence. *Advances in Experimental Social Psychology, 53,* 75129.
 
 Murray, D. R., Schaller, M., & Suedfeld, P. (2013). Pathogens and politics: Further evidence that parasite prevalence predicts authoritarianism. *PLOS ONE, 8*(5), e62275.
 
@@ -517,7 +513,7 @@ Navarrete, C. D., & Fessler, D. M. (2006). Disease avoidance and ethnocentrism: 
 
 Nussinson, R., Mentser, S., & Rosenberg, N. (2018). Sensitivity to deviance and to dissimilarity: Basic cognitive processes under activation of the behavioral immune system. *Evolutionary Psychology, 16*(4), 1474704918813433.
 
-Oaten, M., Stevenson, R. J., & Case, T. I. (2009). Disgust as a disease‐avoidance mechanism. *Psychological Bulletin, 135*(2), 303--321.
+Oaten, M., Stevenson, R. J., & Case, T. I. (2009). Disgust as a disease‐avoidance mechanism. *Psychological Bulletin, 135*(2), 303321.
 
 Olson, D. R., Simonsen, L., Edelson, P. J., & Morse, S. S. (2005). Epidemiological evidence of an early wave of the 1918 influenza pandemic in New York City. *Proceedings of the National Academy of Sciences, 102*(31), 11059-11063.
 
@@ -533,7 +529,7 @@ Raghunathan, R., & Pham, M. T. (1999). All negative moods are not equal: Motivat
 
 Reed II, A., Forehand, M. R., Puntoni, S., & Warlop, L. (2012). Identity-based consumer behavior. *International Journal of Research in Marketing, 29*(4), 310-321.
 
-Rozin, P., Haidt, J., & McCauley, C. R. (2000). Disgust. In M. Lewis & J. M. Haviland-Jones (Eds.), *Handbook of emotions* (2nd ed., pp. 637--653). New York: Guilford Press.
+Rozin, P., Haidt, J., & McCauley, C. R. (2000). Disgust. In M. Lewis & J. M. Haviland-Jones (Eds.), *Handbook of emotions* (2nd ed., pp. 637653). New York: Guilford Press.
 
 Ryan, R. M. (Ed.). (2012). *The Oxford handbook of human motivation.* OUP USA.
 
@@ -541,9 +537,9 @@ Sackett, A. M., Meyvis, T., Nelson, L. D., Converse, B. A., & Sackett, A. L. (20
 
 Schaller, M., Duncan, L. A. (2007). The behavioral immune system: Its evolution and social psychological implications. In *The Evolution of the Social Mind: Evolutionary Psychology and Social Cognition* (pp. 1-79). New York: Psychology Press.
 
-Schaller, M., Neuberg, S. L. (2012). Danger, disease, and the nature of prejudice(s). *Advances in Experimental Social Psychology, 46,* 1--54.
+Schaller, M., Neuberg, S. L. (2012). Danger, disease, and the nature of prejudice(s). *Advances in Experimental Social Psychology, 46,* 154.
 
-Schaller, M., Park, J. H. (2011). The behavioral immune system (and why it matters). *Current Directions in Psychological Science, 20*(2), 99--103.
+Schaller, M., Park, J. H. (2011). The behavioral immune system (and why it matters). *Current Directions in Psychological Science, 20*(2), 99103.
 
 Schaller, M., Park, J. H., & Kenrick, D. T. (2007). Human evolution and social cognition. In *Oxford Handbook of Evolutionary Psychology* (pp. 491-504).
 
@@ -559,7 +555,7 @@ Streicher, M. C., Estes, Z., & Büttner, O. B. (2021). Exploratory shopping: Att
 
 Sun, H., Chen, R., & Guo, Z. (2024). Does survival threat make us irrational? The effects of disease cues on sunk cost bias. *Journal of Consumer Affairs, 58*(1), 342-363.
 
-Terrizzi, J. A., Shook, N. J., & McDaniel, M. A. (2013). The behavioral immune system and social conservatism: A meta-analysis. *Evolution and Human Behavior, 34*(2), 99--108.
+Terrizzi, J. A., Shook, N. J., & McDaniel, M. A. (2013). The behavioral immune system and social conservatism: A meta-analysis. *Evolution and Human Behavior, 34*(2), 99108.
 
 Thornhill, R., & Fincher, C. L. (2014). The parasite-stress theory of sociality, the behavioral immune system, and human social and cognitive uniqueness. *Evolutionary Behavioral Sciences, 8*(4), 257.
 
@@ -585,7 +581,7 @@ White, K., Habib, R., & Hardisty, D. J. (2019). How to SHIFT consumer behaviors 
 
 Wilson, J. (2000). Volunteering. *Annual Review of Sociology, 26*(1), 215-240.
 
-Wolfe, N. D., Dunavan, C. P., & Diamond, J. (2007). Origins of major human infectious diseases. *Nature, 447*, 279--283.
+Wolfe, N. D., Dunavan, C. P., & Diamond, J. (2007). Origins of major human infectious diseases. *Nature, 447*, 279283.
 
 Woody, E. Z., & Szechtman, H. (2011). Adaptation to potential threat: The evolution, neurobiology, and psychopathology of the security motivation system. *Neuroscience & Biobehavioral Reviews, 35*(4), 1019-1033.
 

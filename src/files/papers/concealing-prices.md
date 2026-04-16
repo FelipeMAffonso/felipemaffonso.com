@@ -1,11 +1,10 @@
----
+
 title: "Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions"
 authors: "Felipe M. Affonso, Amin Shiri, Diego Aparicio, Minzhe Xu, Xiang Wang, Chris Janiszewski, Marco Bertini"
 journal: "Journal of Consumer Research"
 year: 2025
 doi: "10.1093/jcr/ucaf051"
 citation: "Affonso, Felipe M., Amin Shiri, Diego Aparicio, Minzhe Xu, Xiang Wang, Chris Janiszewski, and Marco Bertini (2025), \"Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions,\" Journal of Consumer Research."
----
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1093/jcr/ucaf051).
 
@@ -26,7 +25,6 @@ Chris Janiszewski
 Marco Bertini
 
 Felipe M. Affonso (<felipe.affonso@okstate.edu>) is Assistant Professor of Marketing, Spears School of Business, Oklahoma State University, USA. Amin Shiri (<amin.shiri@tamu.edu>) is a doctoral student in Marketing, Mays Business School, Texas A&M University, USA. Diego Aparicio (<daparicio@iese.edu>) is Assistant Professor of Marketing, IESE Business School, University of Navarra, Spain. Minzhe Xu (<minzhexu@iastate.edu>) is Assistant Professor of Marketing, Ivy College of Business, Iowa State University, USA. Xiang Wang (<xiang.wang@ln.edu.hk>) is Assistant Professor of Marketing, Lingnan University, China. Chris Janiszewski (<chris.janiszewski@warrington.ufl.edu>) is the Russell Berrie Eminent Scholar Chair and Professor of Marketing, University of Florida, USA. Marco Bertini (<marco.bertini@esade.edu>) is Professor of Marketing, Esade, Universitat Ramon Llull, Spain. The first three authors contributed equally to this research. Supplementary materials are included in the Web Appendix accompanying the online version of this article.
-
 
 Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions
 
@@ -54,13 +52,13 @@ This article presents the first systematic empirical investigation into a longst
 
 *Keywords*: Price disclosure, price obfuscation, consumer expectations, pricing, retailing.
 
-A classic retail tactic is to withhold prices from consumers. Window displays have long invited passersby to "ask inside for prices." Print catalogs prompted readers to "contact us for prices." More recently, e-commerce websites urge shoppers to "add to cart to see price." Despite its persistence, businesses continue to debate whether "obfuscating" prices---defined as "actions that firms take to make price search more costly" (Ellison 2016, p. 288)---enhances or harms sales performance. Some proponents argue that "it is downright stupid to show your prices" alongside products (Silva 2018), claiming consumers must first internalize a product's value before being exposed to its cost. Conversely, opponents insist that retailers should be forthcoming and "own" the price conversation (Hubspot 2017), reasoning that delaying price disclosure creates confusion, eroding trust and drawing unwanted attention to cost.
+A classic retail tactic is to withhold prices from consumers. Window displays have long invited passersby to "ask inside for prices." Print catalogs prompted readers to "contact us for prices." More recently, e-commerce websites urge shoppers to "add to cart to see price." Despite its persistence, businesses continue to debate whether "obfuscating" pricesdefined as "actions that firms take to make price search more costly" (Ellison 2016, p. 288)enhances or harms sales performance. Some proponents argue that "it is downright stupid to show your prices" alongside products (Silva 2018), claiming consumers must first internalize a product's value before being exposed to its cost. Conversely, opponents insist that retailers should be forthcoming and "own" the price conversation (Hubspot 2017), reasoning that delaying price disclosure creates confusion, eroding trust and drawing unwanted attention to cost.
 
 Prior research has found that obfuscating a part of the price can be beneficial for retailers, especially when enough consumers in a market are unwilling or unable to determine what they should pay. For instance, advertising a low base price while obscuring ancillary charges (e.g., delivery costs, service fees, taxes) can lead to increased sales compared to disclosing the total cost upfront (Chiles 2021). This occurs because some consumers commit to the purchase before seeing the additional charges, while others disregard the charges once revealed. However, academic research has largely overlooked the impact of concealing the entire price of a product.
 
 We propose that delaying price disclosure influences sales by amplifying the impact of price beliefs on expected prices. Consumers hold pre-existing price beliefs based on product type (e.g., discount, luxury), quality level (e.g., low, high), retailer (e.g., discount, premium), or the economic environment (e.g., high inflation). When the disclosure of a price is delayed, consumers rely more heavily on these pre-existing beliefs to form price expectations. Consequently, expensive-price beliefs (inexpensive-price beliefs) shift price expectations upward (downward), making an offer price seem more (less) appealing once the price is revealed, thus increasing (decreasing) the likelihood of purchase. Consistent with these hypotheses, we show that delayed (vs. immediate) price disclosure increases purchase intentions when consumers hold expensive-price beliefs. We demonstrate this effect in a field study at the online store of a mainstream retailer (study 1), and in lab experiments where the product is premium (study 2) or sold by a premium retailer (study 5). We also show that delayed (vs. immediate) price disclosure decreases purchase intentions when consumers hold inexpensive-price beliefs. We demonstrate this effect in a field study investigating the sales promotions of a mainstream retailer (study 3), and in lab experiments where the product is on deal (study 4) or sold by a discount retailer (study 5). We also test a practical boundary condition of our effects: the disclosure of a minimum advertised price (MAP) policy as a reason for delaying the price, which moderates the effect of a delayed price (study 6).
 
-Our research offers three key contributions. First, our research offers retailers insights into optimal price disclosure timing, moving beyond the reliance on anecdotes and post-hoc justifications that have previously dominated the debate. Second, it extends the price obfuscation literature by examining the understudied tactic of full price concealment and revealing its unique effect on shifting price expectations. Contrary to the common belief that obfuscation is universally beneficial, our findings demonstrate predictable situations where it is detrimental. Finally, our findings engage with the broader management conversation about friction in the customer journey. Contrary to the prevailing advice to pursue "zero-friction" experiences---as exemplified by Facebook's (2023) vision for retail---our studies show that introducing specific forms of friction (delaying price disclosure) can be positive.
+Our research offers three key contributions. First, our research offers retailers insights into optimal price disclosure timing, moving beyond the reliance on anecdotes and post-hoc justifications that have previously dominated the debate. Second, it extends the price obfuscation literature by examining the understudied tactic of full price concealment and revealing its unique effect on shifting price expectations. Contrary to the common belief that obfuscation is universally beneficial, our findings demonstrate predictable situations where it is detrimental. Finally, our findings engage with the broader management conversation about friction in the customer journey. Contrary to the prevailing advice to pursue "zero-friction" experiencesas exemplified by Facebook's (2023) vision for retailour studies show that introducing specific forms of friction (delaying price disclosure) can be positive.
 
 **PRICE OBFUSCATION**
 
@@ -74,11 +72,11 @@ Beyond the digital world, in physical retail settings, research indicates that d
 
 Obfuscating an Entire Price
 
-To our knowledge, there are only two articles that study the obfuscation of an entire price. First, Lynch and Ariely (2000) manipulated price "usability" such that participants in the high usability condition saw prices upfront and could sort products according to this information, while those in the low usability condition saw prices at a later stage (and, therefore, had no sorting option). They found that "increasing price usability had no reliable effect" on price sensitivity (Lynch and Ariely 2000, p. 100), but this conclusion relied on one laboratory experiment with a sample of 72 participants for an eight-cell between-subjects design. Second, Karmarkar, Shiv, and Knutson (2015) used functional magnetic resonance imaging to study the relationship between product primacy (product information before price information) or price primacy (price information before product information) and brain activity. While the authors found that product primacy shifted the focus of participants from assessing monetary worth to assessing product liking, the effect on purchase intentions was unclear. In addition, although price primacy has been demonstrated in laboratory settings, it is uncommon in real-world contexts---unlike the obfuscation of an entire price, which is frequently observed in practice.
+To our knowledge, there are only two articles that study the obfuscation of an entire price. First, Lynch and Ariely (2000) manipulated price "usability" such that participants in the high usability condition saw prices upfront and could sort products according to this information, while those in the low usability condition saw prices at a later stage (and, therefore, had no sorting option). They found that "increasing price usability had no reliable effect" on price sensitivity (Lynch and Ariely 2000, p. 100), but this conclusion relied on one laboratory experiment with a sample of 72 participants for an eight-cell between-subjects design. Second, Karmarkar, Shiv, and Knutson (2015) used functional magnetic resonance imaging to study the relationship between product primacy (product information before price information) or price primacy (price information before product information) and brain activity. While the authors found that product primacy shifted the focus of participants from assessing monetary worth to assessing product liking, the effect on purchase intentions was unclear. In addition, although price primacy has been demonstrated in laboratory settings, it is uncommon in real-world contextsunlike the obfuscation of an entire price, which is frequently observed in practice.
 
 Research Opportunity
 
-In summary, the price obfuscation debate---whether businesses should reveal prices upfront or later in the purchase process---spans various sectors and retail formats, generates conflicting opinions, yet lacks substantial empirical evidence. The existing literature on price obfuscation highlights two key avenues for new research. First, while all obfuscation strategies inherently delay price discovery, the practice of delaying the disclosure of an entire price is sufficiently common to merit focused investigation. Second, if delayed price disclosure indeed alters purchase behavior, current explanations within the price obfuscation literature may be insufficient. When businesses withhold the full price, it is unlikely that consumers pre-commit to a purchase or misrepresent price information once revealed. Therefore, a deeper examination of this tactic is warranted.
+In summary, the price obfuscation debatewhether businesses should reveal prices upfront or later in the purchase processspans various sectors and retail formats, generates conflicting opinions, yet lacks substantial empirical evidence. The existing literature on price obfuscation highlights two key avenues for new research. First, while all obfuscation strategies inherently delay price discovery, the practice of delaying the disclosure of an entire price is sufficiently common to merit focused investigation. Second, if delayed price disclosure indeed alters purchase behavior, current explanations within the price obfuscation literature may be insufficient. When businesses withhold the full price, it is unlikely that consumers pre-commit to a purchase or misrepresent price information once revealed. Therefore, a deeper examination of this tactic is warranted.
 
 **PRICE EXPECTATIONS**
 
@@ -98,7 +96,7 @@ Manufacturers and retailers can proactively influence price beliefs and alter co
 
 [The figure shows three bell-curve (normal) distributions along a horizontal axis labeled "Expected Price" (from Low to High) and a vertical axis labeled "Number of Customers with E($)." Three distributions are shown, each shifted along the horizontal axis: Distribution B (leftmost) represents the adjustment for inexpensive-price beliefs. Distribution C (center) represents the baseline price expectation based on price history and product attributes. Distribution D (rightmost) represents the adjustment for expensive-price beliefs. Each distribution peak is marked with a vertical dashed line. Labels above the distributions read: "Adjustment for inexpensive-price belief" (over B), "Price expectation based on price history and product attributes" (over C), and "Adjustment for expensive-price belief" (over D).]
 
-NOTE.---- Curve C illustrates the baseline distribution of a target market's price expectations, derived from price history and product attributes. Curve B (D) represents adjustments to price expectations owing to the target market's belief that prices will be inexpensive (expensive).
+NOTE. Curve C illustrates the baseline distribution of a target market's price expectations, derived from price history and product attributes. Curve B (D) represents adjustments to price expectations owing to the target market's belief that prices will be inexpensive (expensive).
 
 Discount retailers are positioned to encourage consumers to believe they offer lower prices (i.e., distribution B in figure 1). Discount retailers design their spaces to convey an image of affordability, frugality, or essential quality to attract customers who desire or require low price points (Chang and Wang 2014; Grace and O'Cass 2005). Similarly, low-end retailers offer product assortments comprised primarily of "value" or "economy" alternatives to signal that they cater to a budget-conscious clientele (Simonson 1999). These actions encourage and reinforce inexpensive-price beliefs.
 
@@ -110,7 +108,7 @@ When the price is delayed, as opposed to disclosed immediately, price beliefs ca
 
 The predicted influence of price beliefs and price delays on price expectations is illustrated in figure 2. The top panel shows a situation where the belief is that prices will be expensive. This belief shifts the distribution of consumers' price expectations from distribution C (i.e., baseline price expectation based on price history and product attributes) to distribution D (i.e., adjustment for expensive-price belief). A price delay amplifies the relative weight of the expensive-price belief in the price expectation judgment, further shifting consumer price expectations to distribution E (i.e., amplification of the expensive-price belief). The bottom panel of figure 2 shows the opposite effect. When the belief is that prices will be inexpensive, the distribution of consumers' price expectations shifts from distribution C (i.e., baseline price expectation based on price history and product attributes) to distribution B (i.e., adjustment for inexpensive-price belief). A price delay amplifies the relative weight of the inexpensive-price belief in the price expectation judgment, so that the price expectation shifts from distribution B to distribution A (i.e., amplification of the inexpensive-price belief).
 
-Shifts in price expectations should influence consumer purchase behavior and, by extension, the overall sales in a target market. To illustrate, consider the top panel of figure 2. When an expensive-price belief shifts consumers' price expectations from distribution C to distribution D, more consumers will have expectations exceeding the offer price (OP). When considering the offer price, these consumers should experience a favorable price expectation disconfirmation (i.e., \[E(\$)~D~ -- OP\] is positive) because the offer price is below their expected price (Kalyanaram and Winer 1995). Consumers with a favorable price expectation disconfirmation should be more willing to purchase the product because the offer price is better than expected. A price delay, which further shifts price expectations to distribution E, should increase the number of consumers with a favorable expectation disconfirmation even further, leading to higher sales. Of course, this prediction assumes homogeneity in consumer price beliefs---specifically, that all consumers in the target market share expensive-price beliefs, as consumers with inexpensive price beliefs would shift their price expectations downward.
+Shifts in price expectations should influence consumer purchase behavior and, by extension, the overall sales in a target market. To illustrate, consider the top panel of figure 2. When an expensive-price belief shifts consumers' price expectations from distribution C to distribution D, more consumers will have expectations exceeding the offer price (OP). When considering the offer price, these consumers should experience a favorable price expectation disconfirmation (i.e., \[E(\$)~D~  OP\] is positive) because the offer price is below their expected price (Kalyanaram and Winer 1995). Consumers with a favorable price expectation disconfirmation should be more willing to purchase the product because the offer price is better than expected. A price delay, which further shifts price expectations to distribution E, should increase the number of consumers with a favorable expectation disconfirmation even further, leading to higher sales. Of course, this prediction assumes homogeneity in consumer price beliefsspecifically, that all consumers in the target market share expensive-price beliefs, as consumers with inexpensive price beliefs would shift their price expectations downward.
 
 Similar predictions can be made in the lower panel of figure 2: inexpensive-price beliefs should shift price expectations downward (distribution B), and even more so with a price delay (distribution A). This results in fewer consumers willing to purchase the product, as more of them will experience an unfavorable price expectation disconfirmation. Again, heterogeneity in price beliefs will weaken this effect.
 
@@ -118,7 +116,7 @@ Similar predictions can be made in the lower panel of figure 2: inexpensive-pric
 
 [The figure contains two panels. Top panel ("Expensive Price Belief Effect"): Three overlapping bell-curve distributions (C, D, E) are plotted on axes with "Number of Customers with E($)" (vertical) and Expected Price (horizontal). Distribution C is leftmost with mean E($)_C, D is shifted right with mean E($)_D, and E is further right with mean E($)_E. The Offer Price (OP) is marked between E($)_C and E($)_D. A horizontal arrow labeled "Delay" shows the rightward shift from D to E. Below the axis, a bar indicates "Unfavorable E($) Disconfirmation" to the left of OP and "Favorable E($) Disconfirmation" to the right. Bottom panel ("Inexpensive Price Belief Effect"): Three distributions (A, B, C) are shown, with A leftmost (mean E($)_A), B in the middle (mean E($)_B), and C rightmost (mean E($)_C). OP is marked to the right of E($)_C. A horizontal arrow labeled "Delay" shows the leftward shift from B to A. Below, the bar shows "Unfavorable E($) Disconfirmation" to the left of OP and "Favorable E($) Disconfirmation" to the right.]
 
-NOTE.---- In the top panel of the figure, E(\$)~C~ is the mean expected price of all target market consumers in the absence of price beliefs. E(\$)~D~ is the mean expected price of all target market consumers in the presence of expensive-price beliefs. E(\$)~E~ is the mean expected price, of all target market consumers, in the presence of expensive-price beliefs and a price delay. OP is the offer price. Consumers with price expectations to the right (left) of the offer price should experience a favorable (unfavorable) price expectation disconfirmation and be more (less) likely to purchase the product. The bottom panel shows corresponding effects for target market consumers with inexpensive-price beliefs. In summary, when the dependent variable is purchase intention, it should increase (decrease) as favorable (unfavorable) price expectation disconfirmation becomes more extreme.
+NOTE. In the top panel of the figure, E(\$)~C~ is the mean expected price of all target market consumers in the absence of price beliefs. E(\$)~D~ is the mean expected price of all target market consumers in the presence of expensive-price beliefs. E(\$)~E~ is the mean expected price, of all target market consumers, in the presence of expensive-price beliefs and a price delay. OP is the offer price. Consumers with price expectations to the right (left) of the offer price should experience a favorable (unfavorable) price expectation disconfirmation and be more (less) likely to purchase the product. The bottom panel shows corresponding effects for target market consumers with inexpensive-price beliefs. In summary, when the dependent variable is purchase intention, it should increase (decrease) as favorable (unfavorable) price expectation disconfirmation becomes more extreme.
 
 The hypotheses represented in figure 2 are summarized below.
 
@@ -140,7 +138,7 @@ We test the hypotheses as follows. Study 1 is a field study that tests H1a (i.e.
 
 **STUDY 1: DELAYING PRICE IN AN ONLINE STORE INCREASES SALES**
 
-Study 1 tests H1a -- that when consumers believe a product will be expensive, a delayed price (versus an immediate price) will increase sales. This field study was conducted in the online store of Fravega, an Argentinian retailer.[^2] Fravega is a mid-tier retailer of household appliances and technology products, similar to Best Buy in the United States. Privately held Fravega had estimated sales of \$2.3B in 2024 (\$188M in e-commerce). Fravega established its online channel in 2014 and routinely conducts up to five online A/B tests per month. This partnership provided us with a real-world setting to test our hypothesis.
+Study 1 tests H1a  that when consumers believe a product will be expensive, a delayed price (versus an immediate price) will increase sales. This field study was conducted in the online store of Fravega, an Argentinian retailer.[^2] Fravega is a mid-tier retailer of household appliances and technology products, similar to Best Buy in the United States. Privately held Fravega had estimated sales of \$2.3B in 2024 (\$188M in e-commerce). Fravega established its online channel in 2014 and routinely conducts up to five online A/B tests per month. This partnership provided us with a real-world setting to test our hypothesis.
 
 In 2020, the year these data were collected, the inflation rate in Argentina was 42%. Thus, consumers' price beliefs associated with Fravega (i.e., mid-tier retailer), the product category and product line (see below), and the economic environment, were likely expensive-price beliefs.
 
@@ -172,23 +170,23 @@ Given that the daily unit sales and daily revenue are log transformed, as requir
 
 *Daily Log Sales Revenue (pesos)*. Relative to the immediate-PD, the delayed-PD increased the daily log sales revenue (*M*~immediate\ log~ = 7.806, *M*~delayed\ log~ = 9.054, *β* = 1.248, *SE* = .514, *t*(55) = 2.43, *p* = .018, *r*^2^ = .097; *M*~immediate\ raw~ = 21893.77 pesos, *M*~delayed\ raw~ = 29109.71 pesos).[^5]^,^[^6]
 
-**TABLE 1.** ONLINE STORE STUDY --- SUMMARY OF RESULTS
+**TABLE 1.** ONLINE STORE STUDY  SUMMARY OF RESULTS
 
-+--------------+:-------------:+:-------------:+:--------:+:--------:+:---------:+:---------:+:--------:+:--------:+
+++::+::+::+::+::+::+::+::+
 |              | Probability Daily Purchase    | Log Daily Units     | Log Daily Revenue     | Bounce Rate (%)     |
-+--------------+---------------+---------------+----------+----------+-----------+-----------+----------+----------+
+++++++++++
 | Delay Prices | .143          | \*\*          | .1480    | ^†^      | 1.248     | \*        | 3.001    | \*\*     |
-+--------------+---------------+---------------+----------+----------+-----------+-----------+----------+----------+
+++++++++++
 |              | (.054)        |               | (.082)   |          | (.514)    |           | (.560)   |          |
-+--------------+---------------+---------------+----------+----------+-----------+-----------+----------+----------+
+++++++++++
 | Constant     | .804          | \*\*          | 1.111    | \*\*     | 7.806     | \*\*      | 20.868   | \*\*     |
-+--------------+---------------+---------------+----------+----------+-----------+-----------+----------+----------+
+++++++++++
 |              | (.038)        |               | (.058)   |          | (.363)    |           | (.340)   |          |
-+--------------+---------------+---------------+----------+----------+-----------+-----------+----------+----------+
+++++++++++
 | Observations | 112                           | 112                 | 112       |           | 112                 |
-+--------------+-------------------------------+---------------------+-----------+-----------+---------------------+
++++++++
 
-> NOTE.---The dependent variables are computed daily by experimental condition and collapsed across the two product categories. Units sold and sales revenue are log-transformed. Standard errors are in parentheses. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
+> NOTE.The dependent variables are computed daily by experimental condition and collapsed across the two product categories. Units sold and sales revenue are log-transformed. Standard errors are in parentheses. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
 
 *Daily Bounce Rate*. The daily bounce rate was higher in the delayed-PD condition (23.869%) than the immediate-PD condition (20.868%; β = 3.001, *SE* = .560, *t*(55) = 5.36, *p* \< .001, *r*^2^ = .344). Note that higher bounce rates decrease, rather than increase, the likelihood that a sale will occur in the delayed-PD condition, making the hypothesis test conservative.
 
@@ -226,7 +224,7 @@ Results
 
 *Mediation.* We ran a mediation analysis (PROCESS model 4; Hayes 2022) with 5,000 bootstrapped samples, using price disclosure (0 = immediate, 1 = delayed) as the independent variable, the likelihood of purchasing the espresso machine as the dependent variable, and price expectation disconfirmation as the mediator. Consistent with H1b, the indirect effect via price expectation disconfirmation (β = 5.86, *SE* = 1.98, 95% CI = \[2.00, 9.81\]) was significant.
 
-*Post-Test: Expensive-Price Beliefs.* A post-test similar to that of Study 1 was used to confirm delayed prices led to an expectation of higher prices. We showed 89 Prolific participants interested in espresso machines the same scenario and product from Study 2's delayed-PD condition. We told participants: "Imagine you are shopping online and interested in this espresso machine. You can't see the price yet---this happens in situations where the price tag is missing and you have to ask for more information, or when you have to add the product to the shopping cart to see the price. Does the fact that you are not seeing the price lead you to believe that..." 1 = "The price is so low, they do not want to initially show it," to 7 = "The price is so high, they do not want to initially show it." We found that the mean score was higher than the midpoint (*M* = 5.83, *t*(88) = 16.82, *p* \< .001), suggesting that expensive-price beliefs influenced price expectations in the delayed-PD condition.
+*Post-Test: Expensive-Price Beliefs.* A post-test similar to that of Study 1 was used to confirm delayed prices led to an expectation of higher prices. We showed 89 Prolific participants interested in espresso machines the same scenario and product from Study 2's delayed-PD condition. We told participants: "Imagine you are shopping online and interested in this espresso machine. You can't see the price yetthis happens in situations where the price tag is missing and you have to ask for more information, or when you have to add the product to the shopping cart to see the price. Does the fact that you are not seeing the price lead you to believe that..." 1 = "The price is so low, they do not want to initially show it," to 7 = "The price is so high, they do not want to initially show it." We found that the mean score was higher than the midpoint (*M* = 5.83, *t*(88) = 16.82, *p* \< .001), suggesting that expensive-price beliefs influenced price expectations in the delayed-PD condition.
 
 *Alternative Explanations.* It is possible the withholding prices encouraged consumers to make favorable inferences about product quality or the retailer. Using a procedure similar to Study 2's (condition: immediate-PD vs. delayed-PD), we asked 235 people interested in espresso machines about perceived product quality and customer service expectations (see Web Appendix B for details). There was no effect of condition on perceived product quality (*F*(1, 233) = .915, *p* = .340) and customer service expectations (*F*(1, 233) = .354, *p* = .552).
 
@@ -236,7 +234,7 @@ Study 2 provided evidence for H1a and H1b. In a setting where information about 
 
 **STUDY 3: DELAYING PRICE IN A SALES FLYER REDUCES SALES**
 
-Study 3 tested H2a -- that when consumers have inexpensive-price beliefs, a delayed price (vs. an immediate price) will decrease sales. Study 3 was conducted in cooperation with Fravega in December 2021. In this instance, the retailer e-mailed a daily sales flyer (on seven consecutive days) to a database of over 700,000 current (high potential customers in the customer database) and prospective customers. Similar to many e-mail sales flyers, the flyer featured a limited selection of products (from 8 to 12 unique products each day, changing each day over the seven-day week, resulting in 70 unique advertised products) offered at a discount. To help communicate the opportunity for a deal, the first word of the e-mail subject line included the word "Deals" or similar terminology. Thus, the price beliefs associated with the purchase opportunity were likely inexpensive. The influence of inexpensive-price beliefs on price expectations, when there are price delays, will be verified in a post-test.
+Study 3 tested H2a  that when consumers have inexpensive-price beliefs, a delayed price (vs. an immediate price) will decrease sales. Study 3 was conducted in cooperation with Fravega in December 2021. In this instance, the retailer e-mailed a daily sales flyer (on seven consecutive days) to a database of over 700,000 current (high potential customers in the customer database) and prospective customers. Similar to many e-mail sales flyers, the flyer featured a limited selection of products (from 8 to 12 unique products each day, changing each day over the seven-day week, resulting in 70 unique advertised products) offered at a discount. To help communicate the opportunity for a deal, the first word of the e-mail subject line included the word "Deals" or similar terminology. Thus, the price beliefs associated with the purchase opportunity were likely inexpensive. The influence of inexpensive-price beliefs on price expectations, when there are price delays, will be verified in a post-test.
 
 Method
 
@@ -252,23 +250,23 @@ Results
 
 We estimate the model *DM~i~ = α + βPD + ε~i~*; where *DM~i~* denotes the dependent measure of consumer *i*, and *PD* is an indicator variable for the manipulation of price disclosure equal to 0 in the immediate-PD condition and 1 in the delayed-PD condition. Table 2 summarizes the results. Precision is shown at four digits because the parameter estimates are small.
 
-**TABLE 2.** E-MAIL STUDY --- SUMMARY OF RESULTS
+**TABLE 2.** E-MAIL STUDY  SUMMARY OF RESULTS
 
-+--------------+:----------------:+:----------------:+:-------------:+:-------------:+:--------------:+:--------------:+
+++::+::+::+::+::+::+
 |              | Probability (%) Weekly Purchase     | Per-User Log Weekly Units     | Per-User Log Weekly Revenue     |
-+--------------+------------------+------------------+---------------+---------------+----------------+----------------+
+++++++++
 | Delay Prices | -.2974           | \*\*             | -.0022        | \*\*          | -.0306         | \*\*           |
-+--------------+------------------+------------------+---------------+---------------+----------------+----------------+
+++++++++
 |              | (.0352)          |                  | (.0003)       |               | (.0035)        |                |
-+--------------+------------------+------------------+---------------+---------------+----------------+----------------+
+++++++++
 | Constant     | 2.6075           | \*\*             | .0186         | \*\*          | .2549          | \*\*           |
-+--------------+------------------+------------------+---------------+---------------+----------------+----------------+
+++++++++
 |              | (.0257)          |                  | (.0002)       |               | (.0025)        |                |
-+--------------+------------------+------------------+---------------+---------------+----------------+----------------+
+++++++++
 | Observations | 771,583          |                  | 771,583       |               | 771,583        |                |
-+--------------+------------------+------------------+---------------+---------------+----------------+----------------+
+++++++++
 
-> NOTE.---The dependent variables are computed weekly by participant (i.e., collapsed across all 70 products). Weekly units sold and weekly sales revenue are log-transformed. Standard errors are in parentheses. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
+> NOTE.The dependent variables are computed weekly by participant (i.e., collapsed across all 70 products). Weekly units sold and weekly sales revenue are log-transformed. Standard errors are in parentheses. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
 
 *Binary Weekly Purchase Indicator*. Relative to the immediate-PD, the delayed-PD decreased the percentage of customers who made a purchase during the week (*M*~immediate~ = 2.6075%, *M*~delayed~ = 2.3101%, *β* = -.2977, *SE* = .0352, *t*(771581) = -8.43, *p* \< .001, *r*^2^ = .0001).
 
@@ -312,7 +310,7 @@ Results
 
 *Mediation.* We ran a mediation analysis (PROCESS model 4; Hayes 2022) with 5,000 bootstrapped samples, using price disclosure (0 = immediate, 1 = delayed) as the independent variable, the likelihood of purchasing the espresso machine as the dependent variable, and price expectation disconfirmation as the mediator. Consistent with H2b, the indirect effect via price expectation disconfirmation (β = -3.34, *SE* = 1.42, 95% CI = \[-6.40, -.95\]) was significant.
 
-*Post-Test: Inexpensive-Price Beliefs.* A post-test similar to those in prior studies was used to confirm delayed prices led to an expectation of lower prices. We showed 82 Prolific participants interested in espresso machines the same scenario from Study 4's delayed-PD condition. We then asked participants: "Imagine you receive an email advertising this espresso machine on sale. The e-mail advertising does not show the price---you have to click to see the deal. Does the fact that you are not seeing the price lead you to believe that..." (1 = "The price is so low, they do not want to initially show it," to 7 = "The price is so high, they do not want to initially show it.") We found that the mean score was lower than the midpoint (*M* = 3.32, *t*(81) = -3.06, *p* = .003), suggesting that inexpensive-price beliefs influenced price expectations in the delayed-PD condition.
+*Post-Test: Inexpensive-Price Beliefs.* A post-test similar to those in prior studies was used to confirm delayed prices led to an expectation of lower prices. We showed 82 Prolific participants interested in espresso machines the same scenario from Study 4's delayed-PD condition. We then asked participants: "Imagine you receive an email advertising this espresso machine on sale. The e-mail advertising does not show the priceyou have to click to see the deal. Does the fact that you are not seeing the price lead you to believe that..." (1 = "The price is so low, they do not want to initially show it," to 7 = "The price is so high, they do not want to initially show it.") We found that the mean score was lower than the midpoint (*M* = 3.32, *t*(81) = -3.06, *p* = .003), suggesting that inexpensive-price beliefs influenced price expectations in the delayed-PD condition.
 
 *Alternative Explanations.* It is possible that withholding prices encouraged consumers to make unfavorable inferences about product quality or the retailer. Using a procedure similar to Study 4's (condition: immediate-PD vs. delayed-PD), we asked 256 people interested in espresso machines their perceived product quality and customer service expectations (see Web Appendix D for additional details). There was no effect of condition on perceived product quality (*F*(1, 254) = .829, *p* = .364) and customer service expectations (*F*(1, 254) = .420, *p* = .517).
 
@@ -358,7 +356,7 @@ Results
 
 [Bar chart showing purchase likelihood (y-axis, scale 1-7) across three Store Image conditions (Premium, National, Discount) with two bars each (white = Delayed Price Disclosure, gray = Immediate Price Disclosure). Error bars represent +/- 1 SE. Premium condition: Delayed-PD M = 6.08, Immediate-PD M = 5.79 (p = .010). National condition: Delayed-PD M = 6.06, Immediate-PD M = 5.72 (p = .002). Discount condition: Delayed-PD M = 5.40, Immediate-PD M = 5.79 (p < .001). The pattern shows that delayed price disclosure increases purchase likelihood for Premium and National retailers but decreases it for Discount retailers.]
 
-> NOTE.--- Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
+> NOTE. Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\**p* \< .01.
 
 *Mediation.* Accordingly, we conducted a moderated mediation analysis (PROCESS Model 8, Hayes 2022; 5,000 bootstrapped samples) with Price Disclosure as the independent variable (0 = Immediate-PD, 1 = Delayed-PD), Store Image as the moderator, price expectation disconfirmation as the mediator, and purchase likelihood as the dependent variable. The index of moderated mediation is significant when comparing the Discount condition to the Premium (*Index* = .17; 95% CI: \[.09 to .27\]) and National (*Index* = .17; 95% CI: \[.09 to .28\]) conditions. In the Premium condition, the pathway to purchase likelihood through price expectation disconfirmation is positive and significant (*β* = .09, *SE* = .03, 95% CI: \[.03 to .15\]). In the National condition, the same pathway is also positive and significant (*β* = .09, *SE* = .03, 95% CI: \[.03 to .15\]). In the Discount condition, however, the pathway to purchase likelihood through expectation disconfirmation is negative and significant (*β* = -.08, *SE* = .03, 95% CI: \[-.14 to -.04\]). This pattern indicates that participants expected a higher (lower) price for their chosen option in the Premium and National (Discount) store image condition(s), which in turn increased (decreased) purchase likelihood.
 
@@ -376,7 +374,7 @@ This study (and its conceptual replication) manipulated price beliefs through st
 
 **STUDY 6: THE MODERATING ROLE OF MINIMUM ADVERTISED PRICE POLICIES**
 
-A Minimum Advertised Price (MAP) policy is an agreement between a manufacturer and a retailer that stipulates the lowest price that can be advertised for a product. Retailers retain the right to sell at a price below the MAP, but they can only reveal it once consumers advance to the shopping cart---where the price is considered part of the sales agreement rather than a promotional hook. Consequently, many retailers that delay price disclosure because of a MAP policy prompt consumers to "Add to cart to see the price." Whereas some U.S. retailers in this situation simply delay price disclosure, other retailers, including Academy Sports + Outdoors and Walmart, explain "Price is too low to show" and attribute it directly to the MAP policy, providing reasons for the price delay. (See web appendix H for examples.)
+A Minimum Advertised Price (MAP) policy is an agreement between a manufacturer and a retailer that stipulates the lowest price that can be advertised for a product. Retailers retain the right to sell at a price below the MAP, but they can only reveal it once consumers advance to the shopping cartwhere the price is considered part of the sales agreement rather than a promotional hook. Consequently, many retailers that delay price disclosure because of a MAP policy prompt consumers to "Add to cart to see the price." Whereas some U.S. retailers in this situation simply delay price disclosure, other retailers, including Academy Sports + Outdoors and Walmart, explain "Price is too low to show" and attribute it directly to the MAP policy, providing reasons for the price delay. (See web appendix H for examples.)
 
 The goal of this experiment was to test the possibility that attributing delayed-PD to a MAP policy moderates its effect on purchase intentions. When consumers have expensive-price beliefs, an assumption that will be confirmed in a post-test to be discussed later, a price delay increases purchase intention (H1a) owing to a favorable price expectation disconfirmation (H1b). Yet, attributing the delayed disclosure to a MAP policy may signal to consumers that the price is likely low, effectively replacing an expensive-price belief with an inexpensive-price belief. When consumers have inexpensive-price beliefs, a price delay decreases purchase intention (H2a) owing to an unfavorable price expectation disconfirmation (H2b). Thus, attributing a price delay to a MAP policy can make the beneficial effects of a price delay (when the MAP policy is not disclosed) become detrimental (when the MAP policy is disclosed).
 
@@ -402,9 +400,9 @@ Results
 
 [Bar chart showing purchase likelihood (y-axis, scale 1-7) across three Price Disclosure conditions: Immediate-PD (M = 4.43), Delayed-PD (M = 5.01), and Delayed-PD MAP (M = 3.67). Error bars represent +/- 1 SE. Delayed-PD is significantly higher than Immediate-PD (p = .012). Delayed-PD MAP is significantly lower than both Immediate-PD (p < .001) and Delayed-PD (p < .001). The pattern shows that delayed price disclosure increases purchase likelihood for robot vacuum cleaners, but attributing the delay to a MAP policy reverses this effect.]
 
-> NOTE.--- Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\*p \< .01.
+> NOTE. Error bars = +/− 1 SE. ^†^*p* \< .10. \**p* \< .05. \*\*p \< .01.
 
-*Post-Test: Price Beliefs.* A post-test similar to those used in prior studies was used to confirm delayed prices (vs. delayed prices with MAP policy attribution) led to an expectation of higher (lower) prices. We showed 79 (vs. 80) Prolific participants interested in robot vacuum cleaners the same scenario from Study 6's delayed-PD (vs. delayed-PD with MAP attribution). We then asked participants: "Imagine you are shopping online and interested in this robot vacuum cleaner. You can't see the price yet---this happens in situations where the price tag is missing and you have to ask for more information, or when you have to add the product to the shopping cart to see the price. Does the fact that you are not seeing the price lead you to believe that..." (1 = "The price is so low, they do not want to initially show it," to 7 = "The price is so high, they do not want to initially show it."). We found that in the delayed-PD condition, the mean score was higher than the midpoint (*M* = 5.35, *t*(78) = 7.97, *p \<* .001), suggesting that expensive-price beliefs influenced price expectations in this condition. Likewise, in the delayed-PD with MAP condition, the mean score was lower than the midpoint (*M* = 3.29, *t*(79) = -3.12, *p* = .003), suggesting that inexpensive-price beliefs influenced price expectations in this condition. Web Appendix H provides additional details.
+*Post-Test: Price Beliefs.* A post-test similar to those used in prior studies was used to confirm delayed prices (vs. delayed prices with MAP policy attribution) led to an expectation of higher (lower) prices. We showed 79 (vs. 80) Prolific participants interested in robot vacuum cleaners the same scenario from Study 6's delayed-PD (vs. delayed-PD with MAP attribution). We then asked participants: "Imagine you are shopping online and interested in this robot vacuum cleaner. You can't see the price yetthis happens in situations where the price tag is missing and you have to ask for more information, or when you have to add the product to the shopping cart to see the price. Does the fact that you are not seeing the price lead you to believe that..." (1 = "The price is so low, they do not want to initially show it," to 7 = "The price is so high, they do not want to initially show it."). We found that in the delayed-PD condition, the mean score was higher than the midpoint (*M* = 5.35, *t*(78) = 7.97, *p \<* .001), suggesting that expensive-price beliefs influenced price expectations in this condition. Likewise, in the delayed-PD with MAP condition, the mean score was lower than the midpoint (*M* = 3.29, *t*(79) = -3.12, *p* = .003), suggesting that inexpensive-price beliefs influenced price expectations in this condition. Web Appendix H provides additional details.
 
 *Alternative Explanations.* We reran the same procedure from Study 6 (N = 300 valid responses), and once participants had the robot vacuum cleaner in their shopping cart, we asked the same product quality (α = .95) and expectations about customer service (α = .88) questions used in previous post-tests. There was no effect of price disclosure on perceived product quality (*F* \< 1) or expectations about customer service (*F* \< 1). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer. See Web Appendix H for details.
 
@@ -414,7 +412,7 @@ The results support our intuition that attributing delayed price disclosure to a
 
 **GENERAL DISCUSSION**
 
-Withholding prices has long been a staple tactic in retail, yet its effectiveness remains a subject of enduring debate among businesses. Surprisingly, despite its prevalence, academic research offers limited empirical guidance to resolve these conflicting perspectives. This article addresses this long-standing disconnect. A central finding of this research is that delayed price disclosure exerts a significant influence on consumer purchase behavior. However, the direction of this influence---whether it increases or decreases purchase likelihood---is contingent upon consumers' pre-existing price beliefs and their influence on price expectations. Holding back prices exacerbates the influence of price beliefs on price expectations (see figure 2), increasing the likelihood that shoppers experience a positive (if they have expensive-price beliefs) or negative (if they have inexpensive-price beliefs) disconfirmation once prices are revealed. This disconfirmation then carries through to purchase decisions.
+Withholding prices has long been a staple tactic in retail, yet its effectiveness remains a subject of enduring debate among businesses. Surprisingly, despite its prevalence, academic research offers limited empirical guidance to resolve these conflicting perspectives. This article addresses this long-standing disconnect. A central finding of this research is that delayed price disclosure exerts a significant influence on consumer purchase behavior. However, the direction of this influencewhether it increases or decreases purchase likelihoodis contingent upon consumers' pre-existing price beliefs and their influence on price expectations. Holding back prices exacerbates the influence of price beliefs on price expectations (see figure 2), increasing the likelihood that shoppers experience a positive (if they have expensive-price beliefs) or negative (if they have inexpensive-price beliefs) disconfirmation once prices are revealed. This disconfirmation then carries through to purchase decisions.
 
 Contributions
 
@@ -422,7 +420,7 @@ First, our research provides guidance to retailers questioning or exploring the 
 
 Second, our research extends and enriches the established literature on price obfuscation in economics and marketing. This body of work has predominantly focused on firms' strategies to complicate price discovery by advertising a low base price and concealing supplementary charges for add-ons, additional services, taxes, and related expenses. In such scenarios, it is plausible to assume that some consumers will opt to minimize search costs or commit computational errors, leading to the general finding that price obfuscation tends to inflate the final sales price. In contrast, our investigation examines the more fundamental phenomenon of shrouding the entire product price. When consumers are temporarily prevented from accessing any price information, the arguments centered on search costs and computational errors become less compelling. Instead, we propose and test an alternative explanatory framework for the impact of price obfuscation, one that yields a more nuanced understanding of when withholding prices proves advantageous versus detrimental. Specifically, we demonstrate that consumers' pre-existing price beliefs shape their price expectations, which in turn influence their purchase decisions through the mechanism of price expectation disconfirmation.
 
-Finally, our research offers valuable insights into the broader managerial debate surrounding the role of friction, or perceived hassle, in shopping experiences. Conventional wisdom often dictates the pursuit of frictionless purchase journeys, particularly when it comes to pricing and payment processes. However, our studies demonstrate that not all friction is inherently detrimental. Indeed, it may seem counterintuitive that a retailer could strategically benefit from introducing friction, yet this is precisely what delayed price disclosure accomplishes. This finding suggests a promising avenue for companies to explore: the implementation of an 'adaptive' approach to price disclosure, wherein the timing of price presentation is personalized based on individual shoppers' price beliefs. Such an approach could strike a balance between enhancing the shopping experience and achieving sales outcomes--- an optimal balance between friction and flow in the purchase journey (Bertini, Aparicio, and Aydinli 2024).
+Finally, our research offers valuable insights into the broader managerial debate surrounding the role of friction, or perceived hassle, in shopping experiences. Conventional wisdom often dictates the pursuit of frictionless purchase journeys, particularly when it comes to pricing and payment processes. However, our studies demonstrate that not all friction is inherently detrimental. Indeed, it may seem counterintuitive that a retailer could strategically benefit from introducing friction, yet this is precisely what delayed price disclosure accomplishes. This finding suggests a promising avenue for companies to explore: the implementation of an 'adaptive' approach to price disclosure, wherein the timing of price presentation is personalized based on individual shoppers' price beliefs. Such an approach could strike a balance between enhancing the shopping experience and achieving sales outcomes an optimal balance between friction and flow in the purchase journey (Bertini, Aparicio, and Aydinli 2024).
 
 Limitations and Future Research
 
@@ -430,7 +428,7 @@ To the best of our knowledge, this article reports the first empirical test of t
 
 Moreover, while our research emphasizes the role of price expectations as a key explanatory mechanism, we acknowledge that this is likely one of several contributing processes. To illustrate, consider research showing that price promotions can cause reward-seeking and impatience (Shaddy and Lee 2020), making consumers more present oriented. Consumers who are impatient might find delayed price disclosure frustrating, as it prevents them from quickly obtaining all the information they need to decide, leading to negative affect and/or abandonment of the purchase process. While this explanation is admittedly simplified, it offers a plausible alternative account for the effects observed in Study 3. Future research could investigate this and other possibilities.
 
-Beyond the role of price expectations, another critical moderator to consider is price importance---the relative weight consumers assign to price compared to other product benefits. When price is deemed less important in a purchase decision, delaying its disclosure may paradoxically enhance product appeal. In such instances, consumers are likely to focus more intently on the immediately available product features and advantages. Conversely, when price is a primary driver of the decision, delaying its disclosure could shift attention disproportionately to the missing information, potentially diminishing the perceived value of other product benefits. Consequently, understanding how and when price importance moderates the impact of the price delay effect represents a logical next step in this research stream.
+Beyond the role of price expectations, another critical moderator to consider is price importancethe relative weight consumers assign to price compared to other product benefits. When price is deemed less important in a purchase decision, delaying its disclosure may paradoxically enhance product appeal. In such instances, consumers are likely to focus more intently on the immediately available product features and advantages. Conversely, when price is a primary driver of the decision, delaying its disclosure could shift attention disproportionately to the missing information, potentially diminishing the perceived value of other product benefits. Consequently, understanding how and when price importance moderates the impact of the price delay effect represents a logical next step in this research stream.
 
 Our studies adopt a price delay duration that we think is meaningful to consumers, but conservative given that it extends only to the next logical step in the purchase process. Longer price delay durations are certainly possible, all the way to the moment of payment. Varying the duration of the price delay is an interesting extension of our work, one that would allow researchers to contrast the possibility of an escalation of beneficial shifts in price expectations with the risk of making the shopping experience less realistic or less natural to consumers.
 
@@ -438,96 +436,95 @@ Another promising avenue for future research lies in exploring whether delayed p
 
 Furthermore, it would be interesting to extend our research to consider competition. If prices are disclosed not only to consumers, but also to competitors, then is it better for a retailer to hide them from the more "public" places of the purchase process (a store shelf, a landing page, etc.)? The answer to this question probably depends on several factors, including the underlying pricing policy of the retailer and its competitors. For instance, a company with a policy of matching the lowest price might benefit from posting prices immediately because consumers who compare prices will have less friction in the shopping experience.
 
-Finally, identifying potential moderators of the price delay effect warrants further investigation. Individual differences, such as dispositional optimism or pessimism, could influence a consumer's propensity to utilize price beliefs when updating price expectations. Similarly, price knowledge and confidence may mitigate the effects of delayed price disclosure, as more knowledgeable consumers are likely less susceptible to revising their expectations during the delay. This implies price delay effects are less likely to manifest for fast-moving consumer goods, where consumers possess extensive price histories. Additionally, when a price delay is perceived as non-normative---deviating from standard practice in a given retail context---consumers may be less inclined to allow their price beliefs to sway their expectations, potentially attenuating the effects observed in our studies.
+Finally, identifying potential moderators of the price delay effect warrants further investigation. Individual differences, such as dispositional optimism or pessimism, could influence a consumer's propensity to utilize price beliefs when updating price expectations. Similarly, price knowledge and confidence may mitigate the effects of delayed price disclosure, as more knowledgeable consumers are likely less susceptible to revising their expectations during the delay. This implies price delay effects are less likely to manifest for fast-moving consumer goods, where consumers possess extensive price histories. Additionally, when a price delay is perceived as non-normativedeviating from standard practice in a given retail contextconsumers may be less inclined to allow their price beliefs to sway their expectations, potentially attenuating the effects observed in our studies.
 
 **DATA COLLECTION STATEMENT**
 
 Data from Study 1 were provided by Fravega, an Argentinian retailer of household and tech appliances, to the third author. Collected in spring 2020 by the company under the third author's supervision, these data were analyzed by the third author with input from the first and sixth authors. The posttest and alternative explanations tests for Study 1 were conducted in February 2025 by the first author, who also analyzed the data. Study 2's main study and pretest were conducted via Prolific in February 2025 by the first and second authors. The posttest and alternative explanations tests were conducted online in March 2025 by the same authors. All Study 2 data were analyzed by the first and second authors. Data for Study 3 were again provided by Fravega to the third author. Collected in December 2021 under the third author's supervision, these data were analyzed by the third author with input from the first and sixth authors. The posttest and alternative explanations tests for Study 3 were conducted in February 2025 by the first author, who also analyzed the data. Study 4's main study and pretest were conducted via Prolific in February 2025 by the first and second authors. The posttest and alternative explanations tests were conducted in March 2025 by the same authors, who analyzed all tests and study data. Study 5's main study and alternative explanations test were conducted via Prolific in March 2025 by the first author and analyzed by the first and second authors. The Web Appendix F study (i.e., Study 5 procedure with category-level price expectations) was conducted in April 2024 by the first author and analyzed by the first and second authors. The Web Appendix G study (a conceptual replication of Study 5) was also conducted in April 2024 by the first author and analyzed by the first and second authors. Data for Study 6 were collected via Prolific in August 2024 by the first author and analyzed by the first and second authors with input from all other authors. The posttest and alternative explanations tests for Study 6 were conducted in March 2025 by the first author and analyzed by the first and second authors. The raw data for all studies, code (SPSS for lab studies and STATA/R for field studies), Qualtrics survey files (.qsf), and preregistration documents for the lab surveys and studies are available on the Open Science Framework website: (<https://osf.io/xt42w/?view_only=f6169fde8e7b4578be228f18abf79e19>).
 
-
 **REFERENCES**
 
-Allard, Thomas and Dale Griffin (2017), "Comparative Price and the Design of Effective Product Communications," *Journal of Marketing*, 81 (5), 16--29.
+Allard, Thomas and Dale Griffin (2017), "Comparative Price and the Design of Effective Product Communications," *Journal of Marketing*, 81 (5), 1629.
 
-Bertini, Marco, Diego Aparicio, and Aylin Aydinli (2024), "Can Friction Improve Your Customers' Experiences?" *MIT Sloan Management Review*, 65 (2), 42--7.
+Bertini, Marco, Diego Aparicio, and Aylin Aydinli (2024), "Can Friction Improve Your Customers' Experiences?" *MIT Sloan Management Review*, 65 (2), 427.
 
-Biswas, Abhijit and Edward A. Blair (1991), "Contextual Effects of Reference Price in Retail Advertisements," *Journal of Marketing*, 55 (July), 1--12.
+Biswas, Abhijit and Edward A. Blair (1991), "Contextual Effects of Reference Price in Retail Advertisements," *Journal of Marketing*, 55 (July), 112.
 
-Blake, Tom, Sarah Moshary, Kane Sweeney, and Steve Tadelis (2021), "Price Salience and Product Choice," *Marketing Science*, 40 (4), 619--36.
+Blake, Tom, Sarah Moshary, Kane Sweeney, and Steve Tadelis (2021), "Price Salience and Product Choice," *Marketing Science*, 40 (4), 61936.
 
-Brown, Jennifer, Tanjim Hossain, and John Morgan (2010), "Shrouded Attributes and Information Suppression: Evidence from the Field," *The Quarterly Journal of Economics*, 125 (2), 859--76.
+Brown, Jennifer, Tanjim Hossain, and John Morgan (2010), "Shrouded Attributes and Information Suppression: Evidence from the Field," *The Quarterly Journal of Economics*, 125 (2), 85976.
 
-Carlin, Bruce I. (2009), "Strategic Price Complexity in Retail Financial Markets," *Journal of Financial Economics*, 91 (3), 278--87.
+Carlin, Bruce I. (2009), "Strategic Price Complexity in Retail Financial Markets," *Journal of Financial Economics*, 91 (3), 27887.
 
-Chang, Shu-Hao and Kai-Yu Wang (2014), "Investigating the Antecedents and Consequences of an Overall Store Price Image in Retail Settings," *Journal of Marketing Theory and Practice,* 22 (3), 299--314.
+Chang, Shu-Hao and Kai-Yu Wang (2014), "Investigating the Antecedents and Consequences of an Overall Store Price Image in Retail Settings," *Journal of Marketing Theory and Practice,* 22 (3), 299314.
 
-Cheng, Lillian L. and Kent B. Monroe (2013), "An Appraisal of Behavioral Price Research (Part 1): Price as a Physical Stimulus," *AMS Review*, 3 (3), 103--29.
+Cheng, Lillian L. and Kent B. Monroe (2013), "An Appraisal of Behavioral Price Research (Part 1): Price as a Physical Stimulus," *AMS Review*, 3 (3), 10329.
 
-Chetty, Raj, Adam Looney, and Kory Kroft (2009), "Salience and Taxation: Theory and Evidence," *American Economic Review*, 99 (4), 1145--77.
+Chetty, Raj, Adam Looney, and Kory Kroft (2009), "Salience and Taxation: Theory and Evidence," *American Economic Review*, 99 (4), 114577.
 
-Chiles, Bennet (2021), "Shrouded Prices and Firm Reputation: Evidence from the U.S. Hotel Industry," *Management Science*, 67 (2), 964--83.
+Chiles, Bennet (2021), "Shrouded Prices and Firm Reputation: Evidence from the U.S. Hotel Industry," *Management Science*, 67 (2), 96483.
 
-Chioveanu, Ioana and Jidong Zhou (2013), "Price Competition with Consumer Confusion," *Management Science*, 59 (11), 2450--69.
+Chioveanu, Ioana and Jidong Zhou (2013), "Price Competition with Consumer Confusion," *Management Science*, 59 (11), 245069.
 
-Deke, John (2014), "Using the Linear Probability Model to Estimate Impacts on Binary Outcomes in Randomized Controlled Trials" *Mathematica Policy Research*, 6, 1--5.
+Deke, John (2014), "Using the Linear Probability Model to Estimate Impacts on Binary Outcomes in Randomized Controlled Trials" *Mathematica Policy Research*, 6, 15.
 
-Ellison, Glenn (2005), "A Model of Add-On Pricing," *The Quarterly Journal of Economics*, 120 (2), 585--637.
+Ellison, Glenn (2005), "A Model of Add-On Pricing," *The Quarterly Journal of Economics*, 120 (2), 585637.
 
-Ellison, Glenn and Alexander Wolitzky (2012), "A Search Cost Model of Obfuscation," *The RAND Journal of Economics*, 43 (3), 416--21.
+Ellison, Glenn and Alexander Wolitzky (2012), "A Search Cost Model of Obfuscation," *The RAND Journal of Economics*, 43 (3), 41621.
 
-Ellison, Sara F. (2016), "Price Search and Obfuscation: An Overview of the Theory and Empirics," in *Handbook on the Economics of Retailing and Distribution*, ed. Emek Basker, Edward Elgar Publishing, Northampton, MA: 287--305.
+Ellison, Sara F. (2016), "Price Search and Obfuscation: An Overview of the Theory and Empirics," in *Handbook on the Economics of Retailing and Distribution*, ed. Emek Basker, Edward Elgar Publishing, Northampton, MA: 287305.
 
 Facebook (2023), "Zero Friction Future Retail," [https://www.facebook.com/business/m/facebook-iq/zero-friction-future](https://www.facebook.com/business/m/facebook-iq/zero-friction-future), accessed August 12, 2023.
 
-Gabaix, Xavier and David Laibson (2006), "Shrouded Attributes, Consumer Myopia, and Information Suppression in Competitive Markets," *The Quarterly Journal of Economics*, 121 (2), 505--40.
+Gabaix, Xavier and David Laibson (2006), "Shrouded Attributes, Consumer Myopia, and Information Suppression in Competitive Markets," *The Quarterly Journal of Economics*, 121 (2), 50540.
 
-Goldin, Jacob and Tatiana Homonoff (2013), "Smoke Gets in Your Eyes: Cigarette Tax Salience and Regressivity," *American Economic Journal: Economic Policy*, 5 (1), 302--36.
+Goldin, Jacob and Tatiana Homonoff (2013), "Smoke Gets in Your Eyes: Cigarette Tax Salience and Regressivity," *American Economic Journal: Economic Policy*, 5 (1), 30236.
 
-Grace, Debra and Aron O'Cass (2005), "An Examination of the Antecedents of Repatronage Intentions Across Different Retail Store Formats," *Journal of Retailing and Consumer Services*, 12 (4), 227--43.
+Grace, Debra and Aron O'Cass (2005), "An Examination of the Antecedents of Repatronage Intentions Across Different Retail Store Formats," *Journal of Retailing and Consumer Services*, 12 (4), 22743.
 
-Hamilton, Ryan (2024), "Consumer Price Evaluation Strategies: Internal References, External References, and Price Images in Consumer Price Perception," *Consumer Psychology Review*, 7 (1), 58--74.
+Hamilton, Ryan (2024), "Consumer Price Evaluation Strategies: Internal References, External References, and Price Images in Consumer Price Perception," *Consumer Psychology Review*, 7 (1), 5874.
 
-Hamilton, Ryan and Alexander Chernev (2013), "Low Prices Are Just the Beginning: Price Image in Retail Management," *Journal of Marketing*, 77 (6), 1--20.
+Hamilton, Ryan and Alexander Chernev (2013), "Low Prices Are Just the Beginning: Price Image in Retail Management," *Journal of Marketing*, 77 (6), 120.
 
 Hayes, Andrew F. (2022), *Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach*, 3^rd^ edition, New York, NY: The Guilford Press.
 
-Hossain, Tanjim and John Morgan (2006), "\...Plus Shipping and Handling: Revenue (Non) Equivalence in Field Experiments on eBay," *The B.E. Journal of Economic Analysis & Policy*, 5 (2), 1--30.
+Hossain, Tanjim and John Morgan (2006), "\...Plus Shipping and Handling: Revenue (Non) Equivalence in Field Experiments on eBay," *The B.E. Journal of Economic Analysis & Policy*, 5 (2), 130.
 
 Hubspot (2017), "Embrace the Controversial: Why You Should Publish Pricing on Your Website," [https://blog.hubspot.com/marketing/why-publish-pricing-on-website-var](https://blog.hubspot.com/marketing/why-publish-pricing-on-website-var), accessed August 12, 2023.
 
-Kalwani, Manohar U., Chi Kin Yim, Heikki J. Rinne, and Yoshi Sugita (1990), "A Price Expectations Model of Customer Brand Choice," *Journal of Marketing Research*, 27 (3), 251--62.
+Kalwani, Manohar U., Chi Kin Yim, Heikki J. Rinne, and Yoshi Sugita (1990), "A Price Expectations Model of Customer Brand Choice," *Journal of Marketing Research*, 27 (3), 25162.
 
-Kalyanaram, Gurumurthy and Russell S. Winer (1995), "Empirical Generalizations from Reference Price Research," *Marketing Science*, 14 (3), G161--9.
+Kalyanaram, Gurumurthy and Russell S. Winer (1995), "Empirical Generalizations from Reference Price Research," *Marketing Science*, 14 (3), G1619.
 
-Karmarkar, Uma R., Baba Shiv, and Brian Knutson (2015), "Cost Conscious? The Neural and Behavioral Impact of Price Primacy on Decision Making," *Journal of Marketing Research*, 52(4), 467--81.
+Karmarkar, Uma R., Baba Shiv, and Brian Knutson (2015), "Cost Conscious? The Neural and Behavioral Impact of Price Primacy on Decision Making," *Journal of Marketing Research*, 52(4), 46781.
 
-Lynch, John G., Jr. and Dan Ariely (2000), "Wine Online: Search Costs Affect Competition on Price, Quality, and Distribution," *Marketing Science*, 19 (1), 83--103.
+Lynch, John G., Jr. and Dan Ariely (2000), "Wine Online: Search Costs Affect Competition on Price, Quality, and Distribution," *Marketing Science*, 19 (1), 83103.
 
-Mazumdar, Tridib, S.P. Raj, and Indrajit Sinha (2005), "Reference Price Research: Review and Propositions," *Journal of Marketing*, 69 (4), 84--102.
+Mazumdar, Tridib, S.P. Raj, and Indrajit Sinha (2005), "Reference Price Research: Review and Propositions," *Journal of Marketing*, 69 (4), 84102.
 
-[Monroe, Kent B. (1973), "Buyers' Subjective Perceptions of Price," *Journal of Marketing Research*, 10 (February), 70--80.]
+[Monroe, Kent B. (1973), "Buyers' Subjective Perceptions of Price," *Journal of Marketing Research*, 10 (February), 7080.]
 
-Morwitz, Vicki G., Eric A. Greenleaf, and Eric J. Johnson (1998), "Divide and Prosper: Consumers' Reactions to Partitioned Prices," *Journal of Marketing Research*, 35 (4), 453--63.
+Morwitz, Vicki G., Eric A. Greenleaf, and Eric J. Johnson (1998), "Divide and Prosper: Consumers' Reactions to Partitioned Prices," *Journal of Marketing Research*, 35 (4), 45363.
 
-[Plassmann, Hilke, John O'Doherty, Baba Shiv, and Antonio Rangel (2008), "Marketing Actions Can Modulate Neural Representations of Experienced Pleasantness," *PNAS Proceedings of the National Academy of Sciences of the United States of America*, 105(3), 1050--1054.]
+[Plassmann, Hilke, John O'Doherty, Baba Shiv, and Antonio Rangel (2008), "Marketing Actions Can Modulate Neural Representations of Experienced Pleasantness," *PNAS Proceedings of the National Academy of Sciences of the United States of America*, 105(3), 10501054.]
 
 [Rao, Akshay R. (2005), "The Quality of Price as a Quality Cue," *Journal of Marketing Research*, 42(4), 401-405.]
 
-Santana, Shelle, Steven K. Dallas, and Vicki G. Morwitz (2020), "Consumer Reactions to Drip Pricing," *Marketing Science*, 39 (1), 188--210.
+Santana, Shelle, Steven K. Dallas, and Vicki G. Morwitz (2020), "Consumer Reactions to Drip Pricing," *Marketing Science*, 39 (1), 188210.
 
-Shaddy, Franklin and Leonard Lee (2020), "Price Promotions Cause Impatience*," Journal of Marketing Research*, 57 (1), 118--33.
+Shaddy, Franklin and Leonard Lee (2020), "Price Promotions Cause Impatience*," Journal of Marketing Research*, 57 (1), 11833.
 
 [Shirai, Miyuri and Robert Meyer (1997), "Learning and the Cognitive Algebra of Price Expectations," *Journal of Consumer Psychology*, 6(4), 365-388.]
 
 Silva, Pia (2018), "Should I put My Prices on My Website," *Forbes*, September 26.
 
-Simonson, Itamar (1999), "The Effect of Product Assortment on Buyer Preferences," *Journal of Retailing*, 75 (3), 347--70.
+Simonson, Itamar (1999), "The Effect of Product Assortment on Buyer Preferences," *Journal of Retailing*, 75 (3), 34770.
 
-Vigneron, Franck and Lester W. Johnson (1999), "A Review and a Conceptual Framework of Prestige-Seeking Consumer Behavior," *AMS Review*, 2 (1), 1--15.
+Vigneron, Franck and Lester W. Johnson (1999), "A Review and a Conceptual Framework of Prestige-Seeking Consumer Behavior," *AMS Review*, 2 (1), 115.
 
-Wiedmann, Klaus-Peter, Nadine Hennigs, and Astrid Siebels (2009), "Value-Based Segmentation of Luxury Consumption Behavior," *Psychology & Marketing*, 26 (7), 625--51.
+Wiedmann, Klaus-Peter, Nadine Hennigs, and Astrid Siebels (2009), "Value-Based Segmentation of Luxury Consumption Behavior," *Psychology & Marketing*, 26 (7), 62551.
 
-Winer, Russell S. (1986), "A Reference Price Model of Brand Choice for Frequently Purchased Products," *Journal of Consumer Research*, 13 (2), 250--6.
+Winer, Russell S. (1986), "A Reference Price Model of Brand Choice for Frequently Purchased Products," *Journal of Consumer Research*, 13 (2), 2506.
 
 **HEADINGS LIST**
 
@@ -719,13 +716,9 @@ Winer, Russell S. (1986), "A Reference Price Model of Brand Choice for Frequentl
 
 [^8]: Due to the high proportion of zero purchases (97.4% in control, 97.7% in treatment) and non-normal residual distributions, we conducted comprehensive alternative specifications including negative binomial, zero-inflated Poisson, hurdle models, Gamma GLM, and two-stage analyses to address potential distributional concerns. All specifications confirm consistent negative treatment effects. See Web Appendix C for complete details.
 
-[^9]: While the prices of the espresso machines varied from participant to participant depending on their IRP, each option had a fixed percentage relative to IRP---that is, one option from the set was always priced at 85% of the IRP, another option was always priced at 87.5% of the IRP, and so on. The presentation order was randomized.
-
-
----
+[^9]: While the prices of the espresso machines varied from participant to participant depending on their IRP, each option had a fixed percentage relative to IRPthat is, one option from the set was always priced at 85% of the IRP, another option was always priced at 87.5% of the IRP, and so on. The presentation order was randomized.
 
 # Web Appendix
-
 
 WEB APPENDIX
 
@@ -747,7 +740,7 @@ Marco Bertini
 
 TABLE OF CONTENTS
 
-[WEB APPENDIX A: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 1 [5](#web-appendix-a-additional-results-and-methodological-details-study-1)](#web-appendix-a-additional-results-and-methodological-details-study-1)
+[WEB APPENDIX A: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS  STUDY 1 [5](#web-appendix-a-additional-results-and-methodological-details-study-1)](#web-appendix-a-additional-results-and-methodological-details-study-1)
 
 [MODEL ROBUSTNESS CHECK [5](#model-robustness-check)](#model-robustness-check)
 
@@ -757,19 +750,19 @@ TABLE OF CONTENTS
 
 [ALTERNATIVE EXPLANATIONS TEST PROCEDURE AND RESULTS [10](#alternative-explanations-test-procedure-and-results)](#alternative-explanations-test-procedure-and-results)
 
-[WEB APPENDIX B: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 2 [12](#web-appendix-b-additional-results-and-methodological-details-study-2)](#web-appendix-b-additional-results-and-methodological-details-study-2)
+[WEB APPENDIX B: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS  STUDY 2 [12](#web-appendix-b-additional-results-and-methodological-details-study-2)](#web-appendix-b-additional-results-and-methodological-details-study-2)
 
-[MATERIALS -- MAIN STUDY [12](#materials-main-study)](#materials-main-study)
+[MATERIALS  MAIN STUDY [12](#materials-main-study)](#materials-main-study)
 
-[MATERIALS -- PRE-TEST PROCEDURE [16](#materials-pre-test-procedure)](#materials-pre-test-procedure)
+[MATERIALS  PRE-TEST PROCEDURE [16](#materials-pre-test-procedure)](#materials-pre-test-procedure)
 
-[MATERIALS -- POST-TEST PROCEDURE [18](#materials-post-test-procedure)](#materials-post-test-procedure)
+[MATERIALS  POST-TEST PROCEDURE [18](#materials-post-test-procedure)](#materials-post-test-procedure)
 
-[RESULTS -- COUNTERBALANCED MEDIATOR AND DEPENDENT VARIABLE [20](#results-counterbalanced-mediator-and-dependent-variable)](#results-counterbalanced-mediator-and-dependent-variable)
+[RESULTS  COUNTERBALANCED MEDIATOR AND DEPENDENT VARIABLE [20](#results-counterbalanced-mediator-and-dependent-variable)](#results-counterbalanced-mediator-and-dependent-variable)
 
 [ALTERNATIVE EXPLANATIONS TEST PROCEDURE AND RESULTS [21](#alternative-explanations-test-procedure-and-results-1)](#alternative-explanations-test-procedure-and-results-1)
 
-[WEB APPENDIX C: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 3 [23](#web-appendix-c-additional-results-and-methodological-details-study-3)](#web-appendix-c-additional-results-and-methodological-details-study-3)
+[WEB APPENDIX C: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS  STUDY 3 [23](#web-appendix-c-additional-results-and-methodological-details-study-3)](#web-appendix-c-additional-results-and-methodological-details-study-3)
 
 [EXAMPLES OF SALES FLYERS FROM FRÁVEGA [23](#examples-of-sales-flyers-from-frávega)](#examples-of-sales-flyers-from-frávega)
 
@@ -781,21 +774,21 @@ TABLE OF CONTENTS
 
 [ALTERNATIVE EXPLANATIONS TEST PROCEDURE AND RESULTS [38](#alternative-explanations-test-procedure-and-results-2)](#alternative-explanations-test-procedure-and-results-2)
 
-[WEB APPENDIX D: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 4 [39](#web-appendix-d-additional-results-and-methodological-details-study-4)](#web-appendix-d-additional-results-and-methodological-details-study-4)
+[WEB APPENDIX D: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS  STUDY 4 [39](#web-appendix-d-additional-results-and-methodological-details-study-4)](#web-appendix-d-additional-results-and-methodological-details-study-4)
 
-[MATERIALS -- MAIN STUDY [39](#materials-main-study-1)](#materials-main-study-1)
+[MATERIALS  MAIN STUDY [39](#materials-main-study-1)](#materials-main-study-1)
 
-[MATERIALS -- PRE-TEST PROCEDURE [43](#materials-pre-test-procedure-1)](#materials-pre-test-procedure-1)
+[MATERIALS  PRE-TEST PROCEDURE [43](#materials-pre-test-procedure-1)](#materials-pre-test-procedure-1)
 
-[MATERIALS -- POST-TEST PROCEDURE [45](#materials-post-test-procedure-1)](#materials-post-test-procedure-1)
+[MATERIALS  POST-TEST PROCEDURE [45](#materials-post-test-procedure-1)](#materials-post-test-procedure-1)
 
-[RESULTS -- COUNTERBALANCED MEDIATOR AND DEPENDENT VARIABLE [47](#results-counterbalanced-mediator-and-dependent-variable-1)](#results-counterbalanced-mediator-and-dependent-variable-1)
+[RESULTS  COUNTERBALANCED MEDIATOR AND DEPENDENT VARIABLE [47](#results-counterbalanced-mediator-and-dependent-variable-1)](#results-counterbalanced-mediator-and-dependent-variable-1)
 
 [ALTERNATIVE EXPLANATIONS TEST PROCEDURE AND RESULTS [48](#alternative-explanations-test-procedure-and-results-3)](#alternative-explanations-test-procedure-and-results-3)
 
 [WEB APPENDIX E: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS FOR STUDY 5 [50](#web-appendix-e-additional-results-and-methodological-details-for-study-5)](#web-appendix-e-additional-results-and-methodological-details-for-study-5)
 
-[MATERIALS -- MAIN STUDY [50](#materials-main-study-2)](#materials-main-study-2)
+[MATERIALS  MAIN STUDY [50](#materials-main-study-2)](#materials-main-study-2)
 
 [ALTERNATIVE EXPLANATIONS TEST PROCEDURE AND RESULTS [63](#alternative-explanations-test-procedure-and-results-4)](#alternative-explanations-test-procedure-and-results-4)
 
@@ -805,13 +798,13 @@ TABLE OF CONTENTS
 
 [MATERIALS [68](#materials)](#materials)
 
-[WEB APPENDIX G: CONCEPTUAL REPLICATION OF STUDY 5 - ERGONOMIC KEYBOARD [81](#web-appendix-g-conceptual-replication-of-study-5---ergonomic-keyboard)](#web-appendix-g-conceptual-replication-of-study-5---ergonomic-keyboard)
+[WEB APPENDIX G: CONCEPTUAL REPLICATION OF STUDY 5 - ERGONOMIC KEYBOARD [81](#web-appendix-g-conceptual-replication-of-study-5ergonomic-keyboard)](#web-appendix-g-conceptual-replication-of-study-5ergonomic-keyboard)
 
 [PROCEDURE AND RESULTS [81](#procedure-and-results-1)](#procedure-and-results-1)
 
 [MATERIALS [86](#materials-1)](#materials-1)
 
-[WEB APPENDIX H: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 6 [91](#web-appendix-h-additional-results-and-methodological-details-study-6)](#web-appendix-h-additional-results-and-methodological-details-study-6)
+[WEB APPENDIX H: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS  STUDY 6 [91](#web-appendix-h-additional-results-and-methodological-details-study-6)](#web-appendix-h-additional-results-and-methodological-details-study-6)
 
 [EXAMPLES OF MAP POLICY DISCLOSURE IN THE MARKETPLACE [91](#examples-of-map-policy-disclosure-in-the-marketplace)](#examples-of-map-policy-disclosure-in-the-marketplace)
 
@@ -821,7 +814,7 @@ TABLE OF CONTENTS
 
 [ALTERNATIVE EXPLANATIONS TEST PROCEDURE [102](#alternative-explanations-test-procedure)](#alternative-explanations-test-procedure)
 
-#  WEB APPENDIX A: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 1
+#  WEB APPENDIX A: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS  STUDY 1
 
 ## Model Robustness Check
 
@@ -829,25 +822,24 @@ As a robustness check, we estimate the model *Purchase~i,t~* = *α* + *βPD* + �
 
 The results are shown in Table WA-1. The results are similar to those in the main text. That is, the DPD condition increases the probability of a sale, compared to the IPD condition.
 
-**TABLE WA-1:** ONLINE STORE EXPERIMENT---LOGISTIC REGRESSION
+**TABLE WA-1:** ONLINE STORE EXPERIMENTLOGISTIC REGRESSION
 
-+---------------+-----------------------------+
++++
 |               | **Purchase Likelihood**     |
 +===============+=============:+=============:+
 | DPD           | 1.463        | \*           |
-+---------------+--------------+--------------+
+++++
 |               | (.685)       |              |
-+---------------+--------------+--------------+
+++++
 | Constant      | 1.409        | \*\*         |
-+---------------+--------------+--------------+
+++++
 |               | (.338)       |              |
-+---------------+--------------+--------------+
+++++
 | Observations  | 112                         |
-+---------------+-----------------------------+
++++
 
-Notes---Standard errors in parentheses.\
+NotesStandard errors in parentheses.\
 †p \< .10. \*p \< .05. \*\*p \< .01
-
 
 ## Two-Stage Analysis Decomposing Revenue and Units Conditional on Sales
 
@@ -855,11 +847,11 @@ We implemented a two-stage decomposition to address potential conflation of prob
 
 ## Post-test: Expensive-Price Beliefs
 
-Post-Test Stimuli -- Electric Kettle Section of Retailer's Website with Delayed Price Disclosure and English Translation
+Post-Test Stimuli  Electric Kettle Section of Retailer's Website with Delayed Price Disclosure and English Translation
 
 [Screenshot of the Fravega retailer website showing the "Electric kettles" category page. The page displays a grid of approximately 20 electric kettle products with thumbnail images, product names, and short descriptions in Spanish. No prices are visible on any product, consistent with the delayed price disclosure condition. The Fravega logo appears at the top.]
 
-Post-Test Stimuli -- Espresso Machine Section of Retailer's Website with Delayed Price Disclosure and English Translation
+Post-Test Stimuli  Espresso Machine Section of Retailer's Website with Delayed Price Disclosure and English Translation
 
 [Screenshot of the Fravega retailer website showing the "Espresso machines" category page. The page displays approximately 18 espresso machine and coffee maker products with thumbnail images and descriptions in Spanish. No prices are visible, consistent with the delayed price disclosure condition.]
 
@@ -869,16 +861,15 @@ Post-Test Procedure (for Electric Kettles) (Verifying Delayed Prices Led to an E
 
 \[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 In this scenario, you were browsing through a variety of electric kettles on a store website. Your search leads to a website displaying multiple electric kettles. The website shows pictures of the products and provides short descriptions, but there are no prices displayed - you have to click on the picture of the product in order to advance to a page that shows more information on the product, including the price. See below:
 
-(Stimuli from previous pages was displayed -- participants were only shown the website section with delayed price disclosure)
+(Stimuli from previous pages was displayed  participants were only shown the website section with delayed price disclosure)
 
 [Survey screenshot. Question: "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it," with unlabeled points 2-6. Radio buttons.]
 
 \*The Procedure for Espresso Machines was similar except for the product category
-
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -896,14 +887,13 @@ In this scenario, you were browsing through a variety of electric kettles on a s
 
 In the electric kettles post-test, there were no differences from the midpoint 4 on perceptions of product quality (*M* = 3.88, *SD* = .854 vs. 4; *t*(74) = -1.22, *p* = .227), trust in the retailer (*M* = 4.09, *SD* = .791 vs. 4; *t*(74) = 1.02, *p* = .310), and customer service expectations (*M* = 3.99, *SD* = .932 vs. 4; *t*(74) = -.125, *p* = .901). In the espresso machines post-test, there were no differences from the midpoint 4 on perceptions of product quality (*M* = 3.90, *SD* = 1.15 vs. 4; *t*(86) = -.838, *p* = .404), trust in the retailer (*M* = 4.13, *SD* = 1.03 vs. 4; *t*(86) = 1.14, *p* = .256), and customer service expectations (*M* = 4.01, *SD* = 1.11 vs. 4; *t*(86) = .097, *p* = .923).
 
+# Web Appendix B: Additional Results and Methodological Details  Study 2
 
-# Web Appendix B: Additional Results and Methodological Details -- Study 2
-
-## Materials -- Main Study
+## Materials  Main Study
 
 [Survey screenshot. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all, 2 = low interest, 3 = neutral, 4 = moderate interest, 5 = a lot of interest. Radio buttons.]\[Consistent with the preregistration, participants who did not choose a 4 or 5 were screened out and did not complete the study. They were paid regardless, consistent with Prolific's policies.\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **CONSUMER DECISION MAKING**
 
@@ -911,7 +901,7 @@ In this survey, we want you to imagine you are interested in buying an espresso 
 
 Click the arrow button to continue.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 This is the espresso machine you are interested in:
 
@@ -925,7 +915,7 @@ This is the espresso machine you are interested in:
 
 After some consideration, you decide to add the product to your shopping cart. Please click the next button to see the product in your shopping cart.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **DV (Counterbalanced with mediator):**
 
@@ -937,7 +927,7 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 [Survey screenshot. "If you were in this scenario, how likely would you be to purchase the option in your shopping cart (i.e., checkout)?" Slider: 0 = extremely unlikely, 50 = somewhat likely, 100 = extremely likely.]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **Mediator (Counterbalanced with DV):**
 
@@ -951,14 +941,13 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 [Demographics: "What is your age?" (text box) and "Gender" (Female / Male / Other or prefer not to specify). Radio buttons.]
 
-
-## Materials -- Pre-Test Procedure 
+## Materials  Pre-Test Procedure 
 
 This pre-test was conducted to set the stimulus price and verify expensive-price beliefs about the espresso machine.
 
 [Survey screenshot. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all, 2 = low interest, 3 = neutral, 4 = moderate interest, 5 = a lot of interest. Radio buttons.]\[Consistent with preregistration for the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **CONSUMER DECISION MAKING**
 
@@ -966,7 +955,7 @@ In this survey, we want you to imagine you are interested in buying an espresso 
 
 Click the arrow button to continue.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 This is the espresso machine you are interested in:
 
@@ -974,24 +963,23 @@ This is the espresso machine you are interested in:
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 This is the espresso machine you are interested in:
 
 [Breville espresso machine card (delayed-PD version)][Survey. "Relative to a typical espresso machine, I expect the price of this espresso machine to be..." Slider: 1 = much less expensive than a typical espresso machine, 50 = neither inexpensive or expensive as a typical espresso machine, 100 = much more expensive than a typical espresso machine.]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Gender and age
 
-
-## Materials -- Post-Test Procedure 
+## Materials  Post-Test Procedure 
 
 This pre-test was conducted to verify expensive-price beliefs about the delayed price disclosure
 
 [Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **CONSUMER DECISION MAKING**
 
@@ -999,7 +987,7 @@ In this survey, we want you to imagine you are interested in buying an espresso 
 
 Click the arrow button to continue.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 This is the espresso machine you are interested in:
 
@@ -1007,17 +995,15 @@ This is the espresso machine you are interested in:
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Gender and age
 
-
-## Results -- Counterbalanced Mediator and Dependent Variable
+## Results  Counterbalanced Mediator and Dependent Variable
 
 *Purchase Likelihood.* A 2 (condition) × 2 (measurement order) ANOVA revealed neither a main effect of mediator and dependent variable measurement order (*F*(1, 225) = 2.45, *p* = .119), nor an interaction effect (*F*(1, 225) = .155, *p* = .695). The only significant effect was the main effect of condition (immediate-PD vs. delayed-PD: *F*(1, 225) = 9.85, *p* = .002, $\eta_{p}^{2}$ *=* .042), which is reported in the main text (collapsed across the measurement order conditions).
 
 *Price Expectation Disconfirmation.* A 2 (condition) × 2 (measurement order) ANOVA revealed neither a main effect of mediator and dependent variable measurement order (*F*(1, 225) = .004, *p* = .951), nor an interaction effect (*F*(1, 225) = .540, *p* = .463). The only significant effect was the main effect of condition (immediate-PD vs. delayed-PD: *F*(1, 225) = 8.69, *p* = .004, $\eta_{p}^{2}$ *=* .037), which is reported in the main text (collapsed across the measurement order conditions).
-
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1033,22 +1019,21 @@ Gender and age
 
 [Survey. "Given this scenario, please indicate your perceptions about the retailer: I expect this retailer to provide..." Semantic differential scale (1-7): Poor Customer Service / Excellent Customer Service, Not to Ship on Time / Ship on Time, Make Product Returns Difficult / Make Product Returns Easy.]
 
-*Alternative Explanations Report.* One could argue that delaying the disclosure of a price could generate inferences about the product and/or retailer beyond price expectations. To alleviate this concern, we reran the same procedure from Study 2 (N = 235 valid responses) and asked the following questions once participants had the espresso machine in their shopping cart: perceived product quality - "I expect this product to..." \[1 = be unreliable vs. 7 = be reliable, 1 = be poor quality vs. 7 = be good quality, 1 = not be dependable vs. 7 = be dependable; α = .91; Dodds, Monroe, and Grewal (1991)), and expectations about customer service -- "I expect this retailer to provide..." \[1 = poor customer service vs. 7 = excellent customer service, 1 = not to ship on time vs. 7 = ship on time, 1 = make product returns difficult vs. 7 = make product returns easy; α = .88). There were no effects of delayed-PD (vs. immediate-PD) on perceived product quality (*M*~delayed~ = 6.14, *SD* = .93; *M*~immediate~ = 6.03, *SD* = .86; *F*(1, 233) = .915, *p* = .340) and expectations about customer service (*M*~delayed~ = 5.88, *SD* = 1.31; *M*~immediate~ = 5.80, *SD* = .95; *F*(1, 233) = .354, *p* = .552). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
+*Alternative Explanations Report.* One could argue that delaying the disclosure of a price could generate inferences about the product and/or retailer beyond price expectations. To alleviate this concern, we reran the same procedure from Study 2 (N = 235 valid responses) and asked the following questions once participants had the espresso machine in their shopping cart: perceived product quality - "I expect this product to..." \[1 = be unreliable vs. 7 = be reliable, 1 = be poor quality vs. 7 = be good quality, 1 = not be dependable vs. 7 = be dependable; α = .91; Dodds, Monroe, and Grewal (1991)), and expectations about customer service  "I expect this retailer to provide..." \[1 = poor customer service vs. 7 = excellent customer service, 1 = not to ship on time vs. 7 = ship on time, 1 = make product returns difficult vs. 7 = make product returns easy; α = .88). There were no effects of delayed-PD (vs. immediate-PD) on perceived product quality (*M*~delayed~ = 6.14, *SD* = .93; *M*~immediate~ = 6.03, *SD* = .86; *F*(1, 233) = .915, *p* = .340) and expectations about customer service (*M*~delayed~ = 5.88, *SD* = 1.31; *M*~immediate~ = 5.80, *SD* = .95; *F*(1, 233) = .354, *p* = .552). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
 
 **Reference Used in this Section:**
 
-Dodds, William B., Kent B. Monroe, and Dhruv Grewal (1991), "Effects of Price, Brand, and Store Information on Buyers' Product Evaluations," *Journal of Marketing Research*, 307--19.
+Dodds, William B., Kent B. Monroe, and Dhruv Grewal (1991), "Effects of Price, Brand, and Store Information on Buyers' Product Evaluations," *Journal of Marketing Research*, 30719.
 
-
-# Web Appendix C: Additional Results and Methodological Details -- Study 3
+# Web Appendix C: Additional Results and Methodological Details  Study 3
 
 ## Examples of Sales Flyers from Frávega
 
 Note: below we show part of two flyers used in the actual e-mail experiment (this specific flyer was sent on December 18, 2021).
 
-[Left: Fravega "Especial Navidad" (Christmas Special) email flyer showing products without prices -- Philips Lumea IPL, LG XBoom speaker, foam puzzle mat, and trampoline with "VER +" (See More) buttons but no prices. Right: Same Fravega Christmas flyer with prices visible -- showing 24% OFF $33,999, 9% OFF $72,999, 13% OFF $3,699, 26% OFF $31,990 with original prices crossed out.]
+[Left: Fravega "Especial Navidad" (Christmas Special) email flyer showing products without prices  Philips Lumea IPL, LG XBoom speaker, foam puzzle mat, and trampoline with "VER +" (See More) buttons but no prices. Right: Same Fravega Christmas flyer with prices visible  showing 24% OFF $33,999, 9% OFF $72,999, 13% OFF $3,699, 26% OFF $31,990 with original prices crossed out.]
 
-Note: the sales flyers below are from 2024 / 2025 but represent those in the field experiment. [Fravega promotional email: "Aprovecha las ofertas destacadas!" (Take advantage of featured deals!) showing fishing combo, gazebo, and beach chair with prices and discounts. "Descuentos semanales" (Weekly discounts) section below.] [Fravega promotional email: "Hasta 45% OFF" (Up to 45% OFF) with household products -- griddle, washing machine, Samsung A15 phone, TCL TV, cookware set, mattress. "Liquidacion semanal" (Weekly clearance) for bazaar, chairs, mattresses categories.] [Fravega promotional email: "Super ofertas en aires" (Super deals on air conditioning) showing pool equipment, air conditioners, and summer products. "Ofertas y descuentos" section below.] [Fravega "Mi Credito Fravega" financing flyer: Samsung Crystal UHD TV at 18 installments of $69,871, Samsung Galaxy A25 phone, Philco air conditioner, Whirlpool refrigerator with 10% off.] [Fravega "Mi Credito Fravega" financing flyer: Samsung Galaxy A25 5G phone at 12 installments of $49,999, PS5 Slim, Admiral air conditioner, Electrolux refrigerator with 12% off.] [Fravega "Mi Credito Fravega" financing flyer: PS5 Slim at 18 installments of $179,157, Samsung Galaxy A06, Electra air conditioner, Whirlpool refrigerator.] [Fravega "Cyber Monday" promotional email: Categories for refrigerators, furniture, small electronics, bazaar, bicycles, household, and technology with various discounts (up to 50% OFF).] [Fravega "Black Friday" promotional email: Categories for Christmas, toys, refrigerators, pools, mattresses, beauty, small electronics, home furnishing with discounts up to 45% OFF.]
+Note: the sales flyers below are from 2024 / 2025 but represent those in the field experiment. [Fravega promotional email: "Aprovecha las ofertas destacadas!" (Take advantage of featured deals!) showing fishing combo, gazebo, and beach chair with prices and discounts. "Descuentos semanales" (Weekly discounts) section below.] [Fravega promotional email: "Hasta 45% OFF" (Up to 45% OFF) with household products  griddle, washing machine, Samsung A15 phone, TCL TV, cookware set, mattress. "Liquidacion semanal" (Weekly clearance) for bazaar, chairs, mattresses categories.] [Fravega promotional email: "Super ofertas en aires" (Super deals on air conditioning) showing pool equipment, air conditioners, and summer products. "Ofertas y descuentos" section below.] [Fravega "Mi Credito Fravega" financing flyer: Samsung Crystal UHD TV at 18 installments of $69,871, Samsung Galaxy A25 phone, Philco air conditioner, Whirlpool refrigerator with 10% off.] [Fravega "Mi Credito Fravega" financing flyer: Samsung Galaxy A25 5G phone at 12 installments of $49,999, PS5 Slim, Admiral air conditioner, Electrolux refrigerator with 12% off.] [Fravega "Mi Credito Fravega" financing flyer: PS5 Slim at 18 installments of $179,157, Samsung Galaxy A06, Electra air conditioner, Whirlpool refrigerator.] [Fravega "Cyber Monday" promotional email: Categories for refrigerators, furniture, small electronics, bazaar, bicycles, household, and technology with various discounts (up to 50% OFF).] [Fravega "Black Friday" promotional email: Categories for Christmas, toys, refrigerators, pools, mattresses, beauty, small electronics, home furnishing with discounts up to 45% OFF.]
 
 ## Distributional Analysis and Alternative Specifications for Study 3
 
@@ -1072,7 +1057,7 @@ Given these distributional concerns, we implemented multiple alternative specifi
 
 **Summary**
 
-The consistency of negative treatment effects across all specifications---OLS, Poisson, negative binomial, zero-inflated Poisson, hurdle models, Gamma GLM, and two-stage approaches---provides evidence that our substantive conclusions about negative treatment effects in the email context are robust to distributional assumptions.
+The consistency of negative treatment effects across all specificationsOLS, Poisson, negative binomial, zero-inflated Poisson, hurdle models, Gamma GLM, and two-stage approachesprovides evidence that our substantive conclusions about negative treatment effects in the email context are robust to distributional assumptions.
 
 ## Model Robustness Check
 
@@ -1080,62 +1065,60 @@ As a robustness check, we estimate the model *Purchase~i~* = *α* + *βPD* + ε*
 
 The results are shown in Table WA-2. The results are similar to those in the main text. In particular, the DPD condition decreases the probability of a sale, compared to the IPD condition.
 
-**TABLE WA-2:** SALES FLYER EXPERIMENT---LOGISTIC REGRESSION
+**TABLE WA-2:** SALES FLYER EXPERIMENTLOGISTIC REGRESSION
 
-+---------------+-----------------------------+
++++
 |               | **Purchase Likelihood**     |
 +===============+=============:+=============:+
 | DPD           | -.124        | \*\*         |
-+---------------+--------------+--------------+
+++++
 |               | (.015)       |              |
-+---------------+--------------+--------------+
+++++
 | Constant      | -3.620       | \*\*         |
-+---------------+--------------+--------------+
+++++
 |               | (.010)       |              |
-+---------------+--------------+--------------+
+++++
 | Observations  | 771,583      |              |
-+---------------+--------------+--------------+
+++++
 
-Notes---Standard errors in parentheses.\
+NotesStandard errors in parentheses.\
 †p \< .10. \*p \< .05. \*\*p \< .01
 
 Additionally, as another robustness check, we estimate the regression models (i.e., same three DVs) while conditioning the sample on customers who have clicked the email at least once. The results, reported in Table WA-3, are similar. The data show lower sales across all three DVs in the DPD condition, compared to the IPD condition.
 
-**TABLE WA-3:** SALES FLYER EXPERIMENT---CONDITIONAL ON CLICKING
+**TABLE WA-3:** SALES FLYER EXPERIMENTCONDITIONAL ON CLICKING
 
-+---------------+-----------------------------+-------------------+-----------------------+
++++++
 |               | **Purchase Likelihood**     | **Units Sold**    | **Sales Revenue**     |
 +===============+=============:+=============:+========:+========:+==========:+==========:+
 | DPD           | -.537        | \*\*         | -.0039  | \*\*    | -.054     | \*\*      |
-+---------------+--------------+--------------+---------+---------+-----------+-----------+
+++++++++
 |               | (.052)       |              | (.0004) |         | (.005)    |           |
-+---------------+--------------+--------------+---------+---------+-----------+-----------+
+++++++++
 | Constant      | 3.158        | \*\*         | .0225   | \*\*    | .309      | \*\*      |
-+---------------+--------------+--------------+---------+---------+-----------+-----------+
+++++++++
 |               | (.038)       |              | (.0002) |         | (.004)    |           |
-+---------------+--------------+--------------+---------+---------+-----------+-----------+
+++++++++
 | Observations  | 414,414      |              | 414,414 |         | 414,414   |           |
-+---------------+--------------+--------------+---------+---------+-----------+-----------+
+++++++++
 
-Notes---Standard errors in parentheses. †p \< .10. \*p \< .05. \*\*p \< .01
+NotesStandard errors in parentheses. †p \< .10. \*p \< .05. \*\*p \< .01
 
 ## Post-test: Inexpensive-Price Beliefs
 
-Post-Test Stimuli -- Sales Flyer Similar to Those Used in the Field Study with English Translation
+Post-Test Stimuli  Sales Flyer Similar to Those Used in the Field Study with English Translation
 
 [Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]
-
 
 This post-test was conducted to verify delayed prices led to an expectation of lower prices
 
 [Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
-[Survey text: "When you open the e-mail, you see a sales flyer from a store you are familiar with. The sales flyer does not show the price -- you have to click to see the deals."]*(Stimulus from the previous page was displayed -- participants were shown the website sales flyer delayed price disclosure)
+[Survey text: "When you open the e-mail, you see a sales flyer from a store you are familiar with. The sales flyer does not show the price  you have to click to see the deals."]*(Stimulus from the previous page was displayed  participants were shown the website sales flyer delayed price disclosure)
 
 [Fravega promotional sales flyer (English translation provided alongside Spanish original).]
-
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1149,15 +1132,15 @@ This post-test was conducted to verify delayed prices led to an expectation of l
 
 *Alternative Explanations Report.* It is possible the withholding prices encouraged consumers to make unfavorable inferences about product quality or the retailer. Using a procedure similar to the post-test, we asked 100 Prolific participants whether the hidden price decreased/increased perceived product quality, their trust in the retailer, and customer service expectations. There were no differences from the midpoint 4 on perceptions of product quality (*M* = 3.91, *SD* = .986 vs. 4; *t*(99) = -.913, *p* = .363), trust in the retailer (*M* = 4.05, *SD* = .783 vs. 4; *t*(99) = .638, *p* = .525), and customer service expectations (*M* = 3.97, *SD* = .979 vs. 4; *t*(99) = -.306, *p* = .760).
 
-# Web Appendix D: Additional Results and Methodological Details -- Study 4
+# Web Appendix D: Additional Results and Methodological Details  Study 4
 
-## Materials -- Main Study
+## Materials  Main Study
 
 [Survey. "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it." Radio buttons.]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
-[Survey text/instruction continuing from previous page.]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Survey text/instruction continuing from previous page.]-page break-
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
@@ -1171,7 +1154,7 @@ When you open the e-mail, you see a promotion for a Breville espresso machine:
 
 After some consideration, you decide to click the promotion to see more information about the product. Click the next button to continue.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **DV (Counterbalanced with mediator):**
 
@@ -1179,7 +1162,7 @@ After some consideration, you decide to click the promotion to see more informat
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **Mediator (Counterbalanced with DV):**
 
@@ -1187,21 +1170,21 @@ After some consideration, you decide to click the promotion to see more informat
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Survey. "Relative to a typical espresso machine, I expect the price of this espresso machine to be..." Slider: 1 = much less expensive, 50 = neither inexpensive or expensive, 100 = much more expensive.]
 
-## Materials -- Pre-Test Procedure
+## Materials  Pre-Test Procedure
 
 This pre-test was conducted to set the price and verify inexpensive-price beliefs about the espresso machine.
 
 [Survey. "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it." Radio buttons.]\[Consistent with the main study preregistration, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
@@ -1209,27 +1192,27 @@ When you open the e-mail, you see a promotion for a Breville espresso machine:
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
 [Espresso machine product card or survey element from study materials.][Espresso machine product card or survey element from study materials.]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Gender and age
 
-## Materials -- Post-Test Procedure 
+## Materials  Post-Test Procedure 
 
 This post-test was conducted to verify inexpensive-price beliefs about the delayed price disclosure
 
 [Survey. "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it." Radio buttons.]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **CONSUMER DECISION MAKING**
 
-[Survey text/instruction continuing from previous page.]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Survey text/instruction continuing from previous page.]-page break-
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
@@ -1237,17 +1220,15 @@ When you open the e-mail, you see a promotion for a Breville espresso machine:
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Gender and age
 
-
-## Results -- Counterbalanced Mediator and Dependent Variable
+## Results  Counterbalanced Mediator and Dependent Variable
 
 *Purchase Likelihood.* A 2 (condition) × 2 (measurement order) ANOVA revealed neither a main effect of mediator and dependent variable measurement order (*F*(1, 219) = 2.95, *p* = .087), nor an interaction effect (*F*(1, 219) = 1.32, *p* = .251). The only significant effect was the main effect of condition (immediate-PD vs. delayed-PD: *F*(1, 219) = 14.15, *p* \< .001, $\eta_{p}^{2}$ *=* .061), which is reported in the main text (collapsed across the measurement order conditions).
 
 *Price Expectation Disconfirmation.* A 2 (condition) × 2 (measurement order) ANOVA revealed neither a main effect of mediator and dependent variable measurement order (*F*(1, 219) = .303, *p* = .583), nor an interaction effect (*F*(1, 219) = .450, *p* = .503). The only significant effect was the main effect of condition (immediate-PD vs. delayed-PD: *F*(1, 219) = 9.06, *p* = .003, $\eta_{p}^{2}$ *=* .040), which is reported in the main text (collapsed across the measurement order conditions).
-
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1263,11 +1244,11 @@ Gender and age
 
 # Web Appendix E: Additional RESULTS AND Methodological Details for Study 5
 
-## Materials -- Main Study
+## Materials  Main Study
 
 [Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Considering the variety of **espresso machines **available on the market, how much do you estimate the **average price** for a typical **espresso machine** to be?\
 Please base your estimate on your general knowledge and understanding of the market, **without looking up any prices **(there are no right or wrong answers!). Use numbers only.\
@@ -1277,7 +1258,7 @@ Note: an espresso machine brews coffee by forcing pressurized water near boiling
 
 \[Note: the participant's provided IRP was used as a parameter to price all options in the study\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **CONSUMER DECISION MAKING**
 
@@ -1287,12 +1268,12 @@ We are investigating consumers\' personal preferences. Please click the arrow bu
 
 In this survey, we want you to imagine you want to purchase an **espresso machine.**
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 On the next page, you will see a variety of **espresso machines**. These machines are brought to you by \"Whole Latte Love,\" your go-to place for everything coffee.\
 There are 12 (twelve) espresso machines. Please evaluate them as if you were really considering to purchase one of them - just as you would in real life. First, you will read a description of the retailer. Then, you will proceed to see the options.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Please read the retailer description below. The next button will be available after 20 seconds.
 
@@ -1307,7 +1288,7 @@ On the next page, you will see a selection of twelve **espresso machines.**
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailer---it\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
+Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailerit\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
 On the next page, you will see a selection of twelve **premium espresso machines.**
 
  **\[store image: discount\]**
@@ -1317,7 +1298,7 @@ On the next page, you will see a selection of twelve **premium espresso machine
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! Our selection is all about bringing you great coffee experiences for less. We've handpicked machines that deliver on taste, without the hefty price tag. With our constantly updated deals, you\'re sure to find the perfect espresso maker to fit even the tightest budget. Here, it\'s all about great coffee, great prices, and no compromise on quality. Ready for your next coffee adventure? Check out our offers and enjoy your favorite brew without overspending.\
 On the next page, you will see a selection of twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **\[store image: national\]**
 
@@ -1335,7 +1316,7 @@ Please select your preferred espresso machine. There are twelve **premium espre
 
 **\[store image: discount\]**
 
-["Whole Latte Love" logo on black background -- premium retailer image.]
+["Whole Latte Love" logo on black background  premium retailer image.]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! \
 Please select your preferred espresso machine. There are twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
@@ -1385,7 +1366,7 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **YOUR SHOPPING CART**
 
@@ -1393,16 +1374,15 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 \*The selected espresso machine was displayed again
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
-
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1414,7 +1394,7 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
@@ -1422,14 +1402,13 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 Further, there was a main effect of store information condition on customer service expectations (*F*(2, 770) = 3.34, *p* = .036), such that expectations of customer service were lower in the Discount condition (*M* = 6.07, *SD* = 1.09) than in the National (*M* = 6.28, *SD* = .88; *F*(1, 770) = 6.22; *p* = .012) and Premium (*M* = 6.23, *SD* = .96; *F*(1, 770) = 3.25; *p* = .074) conditions. There was no main effect of price disclosure on customer service expectations (*M*~immediate~ = 6.24, *SD* = .91; *M*~delayed~ = 6.15, *SD* = 1.03; *F*(1, 770) = 2.06, *p* = .152). Finally, there was no interaction between store information and price disclosure on customer service expectations (*F*(2, 770) = .511, *p* = .600). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
 
-
 # Web Appendix F: Study 5 Procedure with Pretest and Post-test of Category Expected Price
 
 ## Procedure and Results
 
 An implicit assumption of the studies we have presented thus far is that delayed-PD influences expected prices during the delay which, in turn, influences price expectation disconfirmation. The post-tests after studies 1 and 3 and the mediation tests in studies 2, 4, and 6 are consistent with this assumption. Yet, one could level the criticism that the experimental data (studies 2, 4, 6) use a procedure that could allow the mediator and dependent measure to cross-contaminate. That is, participants could infer price expectation disconfirmation from their purchase intention when purchase intention is measured first and vice versa.
 
-There are two ways to address this concern: (1) measure expected prices for the product category rather than a specific product and (2) use a pretest (i.e., measure product category price expectations before seeing products) -- posttest (i.e., measure product category price expectations after selecting a product) design. If the change in the product category expected price (posttest - pretest) is larger in the delayed-PD, then it would be evidence that price beliefs influenced expected prices to a greater extent when price disclosure is delayed and that this happens as a function of considering the product, not committing to purchase a specific product. That is, the procedure controls for the possibility that putting a product in the shopping cart creates a commitment to purchase that magnifies a price expectation disconfirmation.
+There are two ways to address this concern: (1) measure expected prices for the product category rather than a specific product and (2) use a pretest (i.e., measure product category price expectations before seeing products)  posttest (i.e., measure product category price expectations after selecting a product) design. If the change in the product category expected price (posttest - pretest) is larger in the delayed-PD, then it would be evidence that price beliefs influenced expected prices to a greater extent when price disclosure is delayed and that this happens as a function of considering the product, not committing to purchase a specific product. That is, the procedure controls for the possibility that putting a product in the shopping cart creates a commitment to purchase that magnifies a price expectation disconfirmation.
 
 *Participants and Design.* We randomly assigned 597 Prolific participants (51.9% female, *M~age~*= 40.86, *SD* = 13.81) to conditions in a 2 (Price Disclosure: Immediate vs. Delayed) × 3 (Store Image: Premium vs. National vs. Discount) between-subjects design. No participants failed the attention check.
 
@@ -1443,14 +1422,13 @@ The crucial dependent measure was the second category IRP minus the first catego
 
 There is one anomaly in the data. Price beliefs did not influence price expectations on the posttest IRP measure in the immediate conditions. We believe this was the case because participants stated price expectations in the pretest IRP and the immediate-PD was consistent with these expectations (i.e., prices were -15% to +15% for the participant's pretest IRP). The potential effects of price beliefs were countered when prices matched stated expectations.
 
-
 ## Materials 
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
-[Survey text/instruction continuing from previous page.]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Survey text/instruction continuing from previous page.]-page break-
 
 Please read the retailer description below. The next button will be available after 20 seconds.
 
@@ -1466,7 +1444,7 @@ On the next page, you will see a selection of twelve **espresso machines.**
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailer---it\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
+Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailerit\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
 On the next page, you will see a selection of twelve **premium espresso machines.**
 
  **\[store image: discount\]**
@@ -1477,7 +1455,7 @@ Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable dea
 \
 On the next page, you will see a selection of twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **\[store image: national\]**
 
@@ -1495,7 +1473,7 @@ Please select your preferred espresso machine. There are twelve **premium espre
 
 **\[store image: discount\]**
 
-["Whole Latte Love" logo on black background -- premium retailer image.]
+["Whole Latte Love" logo on black background  premium retailer image.]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! \
 Please select your preferred espresso machine. There are twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
@@ -1547,16 +1525,15 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Right after participants made their choice:
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
-
 
 # Web Appendix g: Conceptual Replication of Study 5 - Ergonomic Keyboard
 
@@ -1574,22 +1551,21 @@ Then, we showed participants six ergonomic computer keyboards, in a randomized d
 
 Participants in the immediate-PD condition could see the price for all options upfront. The prices ranged from \$59.99 to \$159.99. Participants in the delayed-PD condition read "Add to cart to see price" instead of seeing the price. Once participants selected their preferred option, they clicked "next" to proceed to the shopping cart, which displayed their chosen option. At this point, participants in the immediate-PD condition saw their selected option again and a subtotal highlighting the price. However, those in the delayed-PD condition saw the price and respective subtotal for the first time.
 
-*Measures.* The shopping cart displayed the option selected by each participant and a subtotal with the price. At this moment, we asked: "Please provide your overall evaluation for the keyboard you selected" (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; 1 = "very unfavorable" and 9 = "very favorable") (α = .95). Next, we measured (price) expectation disconfirmation---by asking participants the following: "Please look again at the option you selected and consider its price. How would you evaluate its price compared to how much you expect a similar ergonomic keyboard to cost? In other words: is the price of the option you selected cheaper, about the same, or more expensive than what you would expect it to cost?" (1 = "the price is much lower than what I would expect it to cost," 4 = "the price is about the same as what I would expect it to cost," 7 = "the price is much higher than what I would expect it to cost"). Note that, in this study, we measured price expectation disconfirmation in a slight different way compared to the studies in the main text: participants evaluated the price relative to their expectations (rather than indicated what they expectations were). Thus, lower (higher) scores indicate stronger positive (negative) price expectation disconfirmation.
+*Measures.* The shopping cart displayed the option selected by each participant and a subtotal with the price. At this moment, we asked: "Please provide your overall evaluation for the keyboard you selected" (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; 1 = "very unfavorable" and 9 = "very favorable") (α = .95). Next, we measured (price) expectation disconfirmationby asking participants the following: "Please look again at the option you selected and consider its price. How would you evaluate its price compared to how much you expect a similar ergonomic keyboard to cost? In other words: is the price of the option you selected cheaper, about the same, or more expensive than what you would expect it to cost?" (1 = "the price is much lower than what I would expect it to cost," 4 = "the price is about the same as what I would expect it to cost," 7 = "the price is much higher than what I would expect it to cost"). Note that, in this study, we measured price expectation disconfirmation in a slight different way compared to the studies in the main text: participants evaluated the price relative to their expectations (rather than indicated what they expectations were). Thus, lower (higher) scores indicate stronger positive (negative) price expectation disconfirmation.
 
 *Results.* First, a 2 (Store Information) × 2 (Price Disclosure) ANOVA on product evaluation revealed no main effect of price expectations (*F*(1, 396) = 2.30, *p* = .130), and no main effect of price disclosure (*F*(1, 396) = .014, *p* = .907). Consistent with our predictions, there was a significant interaction (*F*(1, 396) = 11.12, *p* \< .001, $\eta_{p}^{2}$ *=* .027). As shown in figure WA-G.1, in the Premium condition, participants evaluated the keyboard more positively in the delayed-PD condition (*M* = 7.23, *SD* = 1.02) than in the immediate-PD condition (*M* = 6.82, *SD* = 1.33; *F*(1, 396) = 5.18, *p* = .023, $\eta_{p}^{2}$ *=* .013). In the Discount condition, however, participants evaluated the keyboard more negatively in the delayed-PD condition (*M* = 7.00, *SD* = 1.54) than in the immediate-PD condition (*M* = 7.44, *SD* = 1.20; *F*(1, 396) = 5.96, *p* = .015, $\eta_{p}^{2}$ *=* .015).
 
-**FIGURE WA-G.1:** STUDY WA-G -- EVALUATION OF A KEYBOARD
+**FIGURE WA-G.1:** STUDY WA-G  EVALUATION OF A KEYBOARD
 
 [Survey. "Before seeing the actual price of the espresso machine..." Scale: 1 = "I expected a much lower price than its current price," 4 = "I expected a price equal or similar to its current price," 7 = "I expected a much higher price than its current price." Radio buttons.]
 
-NOTE.--- Error bars = +/− 1 SE. †p \< .10. \*p \< .05. \*\*p \< .01
+NOTE. Error bars = +/− 1 SE. †p \< .10. \*p \< .05. \*\*p \< .01
 
 Second, we examine expectation disconfirmation*.* A 2 (Store Information) × 2 (Price Disclosure) ANOVA on price expectation shift revealed a main effect of contextual information (*F*(1, 396) = 18.61, *p* \< .001, $\eta_{p}^{2}$ *=* .034), such that participants in the Discount condition reported the price of their chosen option to be lower than expected (*M* = 4.55, *SD* = 1.07) compared to participants in Premium condition (*M* = 4.98, *SD* = .99). There was no main effect of Price Disclosure (*F* \< 1). The effect of price expectations was qualified by a significant interaction (*F*(1, 396) = 16.94, *p* \< .001, $\eta_{p}^{2}$ *=* .041). In the Premium condition, participants rated the price of their chosen option as lower than expected in the delayed-PD condition (*M* = 4.74, *SD* = .90) than in the immediate-PD condition (*M* = 5.23, *SD* = 1.02; *F*(1, 396) = 11.81, *p* \< .001, $\eta_{p}^{2}$ *=* .029). In the Discount condition, however, participants rated the price of their chosen option as higher than expected in the delayed-PD condition (*M* = 4.72, *SD* = 1.10) than in the immediate-PD condition (*M* = 4.38, *SD* = 1.00; *F*(1, 396) = 5.68, *p* = .018, $\eta_{p}^{2}$ *=* .014).
 
 Accordingly, we proceeded with a moderated mediation analysis using PROCESS Model 8 (Hayes 2022) with price disclosure as the independent variable (0 = immediate-PD, 1 = delayed-PD), store information as the moderator, price expectation discrepancy as the mediator, and product evaluation the dependent variable (5000 bootstrapped samples). The index of moderated mediation was significant (*Index* = .14; 95% CI: \[.01 to .31\]). In the Premium condition, the pathway to evaluation through price expectation discrepancy was positive and significant (β = .09, *SE* = .05, 95% CI: \[.01 to .31\]). In the Discount condition, the pathway to evaluation through price expectation discrepancy was negative and significant (β = -.06, *SE* = -.15, 95% CI: \[-.15 to -.01\]).
 
 Overall, Study WA-G provides evidence of generalizability and robustness for our effect, showing that that, relative to immediate price disclosure, delayed price disclosure increased (vs. decreased) product evaluations when the store information was premium (vs. discount). These effects were driven by price expectation disconfirmations, which occurred as a function of the contextual information when the price disclosure was delayed (vs. immediate).
-
 
 ## Materials
 
@@ -1625,7 +1601,7 @@ Please select the category that best represents your occupation.
 
 \[Participants who didn't choose "Farming, fishing, and forestry" couldn't take the study.\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **CONSUMER DECISION MAKING**
 
@@ -1635,11 +1611,11 @@ We are investigating consumers\' personal preferences and opinions. Please click
 
 \[The next button showed up after participants spent two seconds on this page.\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 In this survey, we want you to imagine you want to purchase an ergonomic keyboard. On the next pages, you will see a variety of ergonomic keyboards. These keyboards are brought to you by Uplift. Please evaluate the keyboards as if you were really considering purchasing one of them - just as you would in real life. First, you will read a description of the retailer. Then, you will proceed to see the options.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Please read the retailer description below. The next button will be available after 20 seconds.
 
@@ -1647,8 +1623,7 @@ Please read the retailer description below. The next button will be available af
 
 **Uplift. Work better. Live healthier.**
 
-
-["UPLIFT" logo -- large black text with a light blue horizontal line underneath.]
+["UPLIFT" logo  large black text with a light blue horizontal line underneath.]
 
 We are committed to designing, manufacturing, and shipping the highest quality ergonomic office furniture. Every UPLIFT Desk product is built to last and offer the latest office furniture innovations. Each is designed by a world-class team of a dozen engineers that includes our founder and CEO Jon Paulsen, a Certified Professional Ergonomist (CPE) and mechanical engineer himself.\
 \
@@ -1680,12 +1655,11 @@ Sale ends 4/9, 3 PM Central. While supplies last. All advertised prices are the
 
  
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 \*Participants viewed the retailer information again, along with the following:
 
 Please select your preferred ergonomic keyboard to add it to your shopping cart. Your shopping cart will appear on the next page. The next button will appear after 30 seconds.
-
 
 **\[price disclosure: immediate\]**
 
@@ -1695,7 +1669,7 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **YOUR SHOPPING CART**
 
@@ -1703,23 +1677,21 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
 [Survey element or stimulus from study materials.]
 
-
-# Web Appendix h: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 6
+# Web Appendix h: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS  STUDY 6
 
 ## Examples of MAP Policy Disclosure in the Marketplace
 
 [Screenshots from Reddit r/assholedesign: (1) "I can't see the price of this shirt until I add it to my cart and checkout" showing a product listing with hidden price. (2) "Walmart won't let me see the price until I add the item to my cart" showing a Walmart product with "See price in cart" displayed instead of the actual price.][Image: Walmart won\'t let me see the price until I add the item to my cart : r/assholedesign]
-
 
 ## Materials
 
@@ -1755,7 +1727,7 @@ Please select the category that best represents your occupation.
 
 \[Participants who didn't choose "Farming, fishing, and forestry" couldn't take the study.\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **CONSUMER DECISION MAKING**
 
@@ -1763,13 +1735,13 @@ Please select the category that best represents your occupation.
 
 We are investigating consumers\' personal preferences. Please click the arrow button to continue.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 In this survey, we want you to imagine you want to purchase a robot vacuum cleaner.
 
 In this scenario, you are browsing through a variety of robot vacuum cleaners on a website. At some point, you found a robot vacuum cleaner that got you interested. Click the arrow button to continue.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 This is the robot vacuum stick that you got interested in. The following information is what you see before entering the product page.
 
@@ -1787,7 +1759,7 @@ This is the robot vacuum stick that you got interested in. The following informa
 
 You decided to see more information about the product. Click the next button to continue.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 Please read the product information below.
 
@@ -1799,7 +1771,7 @@ Please read the product information below.
 
 When you are done reading the product information, please click the next button.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 You are considering whether to add this product to your shopping cart or not.
 
@@ -1817,7 +1789,7 @@ You are considering whether to add this product to your shopping cart or not.
 
 After some consideration, you decide to add the product to your shopping cart. Please click the next button to see the product in your shopping cart.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **(Dependent Variable Page)**
 
@@ -1827,7 +1799,7 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 **(Mediator Page)**
 
@@ -1837,10 +1809,9 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
-
 
 ## Post-Test: Expensive and Inexpensive-Price Beliefs
 
@@ -1848,11 +1819,11 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 \[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
@@ -1866,10 +1837,9 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
-
 
 ## Alternative Explanations Test Procedure
 
@@ -1881,15 +1851,11 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 [Demographics: gender (Male / Female / Other) and age (text box).]
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+-page break-
 
 [Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
-
----
-
 # Data Collection Information
-
 
 **DATA COLLECTION INFORMATION**
 

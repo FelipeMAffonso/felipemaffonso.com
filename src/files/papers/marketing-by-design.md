@@ -1,4 +1,4 @@
----
+
 title: "Marketing by Design: The Influence of Perceptual Structure on Brand Performance"
 authors: "Felipe M. Affonso, Chris Janiszewski"
 journal: "Journal of Marketing"
@@ -15,12 +15,11 @@ bibtex: |
     journal={Journal of Marketing},
     volume={87},
     number={5},
-    pages={736--754},
+    pages={736754},
     year={2023},
     publisher={SAGE Publications},
     doi={10.1177/00222429221142281}
   }
----
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1177/00222429221142281).
 
@@ -33,7 +32,6 @@ CHRIS JANISZEWSKI
 Felipe M. Affonso (felipemarinelliaffonso@gmail.com) is Assistant Professor of Marketing, Spears School of Business, Oklahoma State University, Stillwater, OK 74078. Chris Janiszewski (chris.janiszewski@warrington.ufl.edu) is the Russell Berrie Eminent Scholar Chair and Professor of Marketing, Warrington College of Business Administration, University of Florida, Gainesville, FL 32601. Supplementary materials are included in the Web Appendix accompanying the online version of this article.
 
 The authors thank the Editor and the JM review team for their thoughtful comments and guidance throughout the review process. They are also grateful to Juliano Laran and Aner Sela for their helpful comments. This article is based on the first author's doctoral dissertation.
-
 
 **Marketing by Design: The Influence of Perceptual Structure on Brand Performance**
 
@@ -62,19 +60,19 @@ This research makes four contributions. First, we propose and provide evidence f
 
 **Figure 1.** The Influence of (Un)Structured Perceptions on Brand Performance
 
-[Image: see published version]
+[Conceptual framework diagram. At top center: "IV (Perceptual Structure)" box containing "**Structured** Perceptions of Visual Communications." A dashed arrow connects this to a list of operationalizations for structured perceptions (visual organizational principles): High Proximity, High Similarity, Symmetry, Common Region (Borders), Balance, Completeness, More Geometric, Organization, Regularity (Patterns). At left: "IV (Brand Positioning)" with two boxes: "Brand Promises **Utilitarian Benefits** (Functional, Instrumental, Useful)" and "Brand Promises **Hedonic Benefits** (Enjoyment, Experiential, Pleasure)." Center: "Mediator (Inferences)" with "Value Delivered by Utilitarian-Positioned Brands" and "Value Delivered by Hedonic-Positioned Brands." Right: "DV" box for "**Brand Performance** (Product Interest, Product Evaluations, Product Choice, Brand Equity, Financial Valuation)." At bottom: "**Unstructured** Perceptions of Visual Communications" connected to operationalizations: Low Proximity, Low Similarity, Asymmetry, Lack of Common Region (Borders), Lack of Balance, Lack of Completeness, More Organic, Disorganization, Irregularity (No Patterns). Arrows show: Structured perceptions + Utilitarian positioning encourages inferences about utilitarian value, leading to brand performance. Unstructured perceptions + Hedonic positioning encourages inferences about hedonic value, leading to brand performance.]
 
 **GESTALT THEORY**
 
 Historically, there have been two competing approaches to perception: a bottom-up reductionist approach and a top-down holistic approach. The reductionist approach assumes people initially perceive specific features in a visual display and then integrate the specific features into a perception (e.g., Feature-Integration Theory; Treisman and Gelade 1980). In contrast, the holistic approach assumes people perceive the most coherent, parsimonious organization of the available information (i.e., there is an emergent process that encompasses as much information as possible). This holistic approach, called Gestaltism, assumes that a perception is an act of trying to use the available information to generate a meaningful interpretation. A perception "consists of more or less definitively structured wholes and whole processes with their whole properties and laws" (Wertheimer 1924, p. 14).
 
-Gestalt theory has sought to understand (1) why one perception is subjectively experienced while alternative perceptions are not (e.g., why one sees 10 people as "a group" rather than as "10 individuals") and (2) why a perception is stable or not (e.g., why one continues to see "a group" instead of vacillating between seeing "a group" and "individuals") (Koffka 1935; Wagemans et al. 2012a; Wertheimer 1924). A Gestalt theorist assumes a visual perception emerges and is sustained owing to the relationships among the elements in a visual display (i.e., principles of visual organization). Principles of visual organization (e.g., proximity, similarity, symmetry) encourage the simplest -- a perceptual process that encourages the "grouping" of the elements in a display -- and most encompassing -- a perceptual process that allows grouped elements to be more than the sum of the elements -- organization of the information (Palmer 2002; Wagemans et al. 2012b). Importantly, Gestalt theorists do not view the principles of visual organization as causal. Instead, organizational principles are stimulus characteristics (an objective state of the environment) that perceptual processes (an internal process) are sensitive to. Hence, visual organizational principles can be directly manipulated to encourage structured or unstructured perceptions. Appendix H provides 30 pages of real-world examples of visual marketing communications with different levels of perceptual structure.
+Gestalt theory has sought to understand (1) why one perception is subjectively experienced while alternative perceptions are not (e.g., why one sees 10 people as "a group" rather than as "10 individuals") and (2) why a perception is stable or not (e.g., why one continues to see "a group" instead of vacillating between seeing "a group" and "individuals") (Koffka 1935; Wagemans et al. 2012a; Wertheimer 1924). A Gestalt theorist assumes a visual perception emerges and is sustained owing to the relationships among the elements in a visual display (i.e., principles of visual organization). Principles of visual organization (e.g., proximity, similarity, symmetry) encourage the simplest  a perceptual process that encourages the "grouping" of the elements in a display  and most encompassing  a perceptual process that allows grouped elements to be more than the sum of the elements  organization of the information (Palmer 2002; Wagemans et al. 2012b). Importantly, Gestalt theorists do not view the principles of visual organization as causal. Instead, organizational principles are stimulus characteristics (an objective state of the environment) that perceptual processes (an internal process) are sensitive to. Hence, visual organizational principles can be directly manipulated to encourage structured or unstructured perceptions. Appendix H provides 30 pages of real-world examples of visual marketing communications with different levels of perceptual structure.
 
 **THE PROPERTY OF STRUCTURE**
 
 Perceptual structure is a hypothesized property of a perception that is based on the Gestalt theory assumption that perceptions can vary in their degree of *gestaltet* (i.e., structure, design) (Koffka 1935; Wagemans et al. 2012b; Wertheimer 1924). The Gestalt and related literatures suggest structured perceptions have five characteristics: cohesive, homogeneous, predictable, stable, and systematic. Cohesive perceptions contain related or joined parts, whereas incohesive perceptions contain unrelated or contradictory parts (Milne and Szczerbinski 2009). Homogeneous perceptions contain elements that have common features (e.g., color, forms, lines, textures, contour, borders, shape, objects), whereas heterogeneous perceptions have elements with features that lack commonality (Pomerantz and Portillo 2011). Predictable perceptions contain repeated parts such that one part of the perception can be used to anticipate other parts of the perception. Stable perceptions consist of a single enduring perception, as opposed to vacillation between competing perceptions (Attneave 1971; Schwartz et al. 2012). Systematic perceptions have constituent parts that can be effectively segregated or categorized into manageable groups in a two-dimensional space (Palmer 1977). Each of these characteristics captures what a person experiences when they have a structured perception, though all characteristics may not be present in any single perception. Still, we expect measures of these characteristics to represent a unidimensional scale we call perceptual structure.
 
-Perceptual structure is anticipated to influence judgments in a manner similar to another property of a perception -- perceptual fluency. Perceptual fluency is a feeling of ease that can accompany the processing of perceptual information (Schwarz et al. 2021; Shapiro 1999). Perceptual fluency occurs when an image is previously exposed, has high contrast, or is salient relative to surrounding information so that its perception feels relatively effortless (Whittlesea and Williams 2000). Perceptual fluency influences judgments about the familiarity, recognition, liking, acceptability, risk, and truth of the content of a perception (Schwarz et al. 2021; Shapiro 1999). Perceptual fluency effects depend on context-dependent non-conscious attributions (Bornstein and D'Agostino 1994; Whittlesea and Williams 2000). For example, if a context requires a judgment about liking, and prior experience has created an association between processing fluency and liking, then a person can attribute fluency with a stimulus to liking. Importantly, attributions about fluency are only made if the fluency is diagnostic for the judgment. For example, fluent negative names are more likely to be judged as belonging to a criminal, but not to a senator (Klinger and Greenwald 1994). Similarly, fluent positive names are more likely to be judged a belonging to senator, but not to a criminal. Thus, nonconscious attributions about fluency depend on an alignment between the semantic content of the perception and the nature of the judgment to be made (Bornstein and D'Agostino 1994; Klinger and Greenwald 1994).
+Perceptual structure is anticipated to influence judgments in a manner similar to another property of a perception  perceptual fluency. Perceptual fluency is a feeling of ease that can accompany the processing of perceptual information (Schwarz et al. 2021; Shapiro 1999). Perceptual fluency occurs when an image is previously exposed, has high contrast, or is salient relative to surrounding information so that its perception feels relatively effortless (Whittlesea and Williams 2000). Perceptual fluency influences judgments about the familiarity, recognition, liking, acceptability, risk, and truth of the content of a perception (Schwarz et al. 2021; Shapiro 1999). Perceptual fluency effects depend on context-dependent non-conscious attributions (Bornstein and D'Agostino 1994; Whittlesea and Williams 2000). For example, if a context requires a judgment about liking, and prior experience has created an association between processing fluency and liking, then a person can attribute fluency with a stimulus to liking. Importantly, attributions about fluency are only made if the fluency is diagnostic for the judgment. For example, fluent negative names are more likely to be judged as belonging to a criminal, but not to a senator (Klinger and Greenwald 1994). Similarly, fluent positive names are more likely to be judged a belonging to senator, but not to a criminal. Thus, nonconscious attributions about fluency depend on an alignment between the semantic content of the perception and the nature of the judgment to be made (Bornstein and D'Agostino 1994; Klinger and Greenwald 1994).
 
 We propose that perceptual structure can also influence judgments, but that the scope of this influence is not as far-reaching as that of perceptual fluency. Perceptual structure should inform attributions about metacognitive confidence. Metacognitive confidence refers to the certainty one has about a thought or a belief (Petty et al. 2007). When metacognitive confidence is relatively low (i.e., there is ambiguity about the belief), people seek additional information that can improve confidence (Petty et al. 2007). Perceptual structure is one type of evidence that can alter confidence in a belief about a product claim. A structured perception is more cohesive, homogeneous, predictable, stable, and systematic. These characteristics should align with product-claim beliefs that are more objective, actionable, and stable over time. An unstructured perception is incohesive, heterogeneous, unpredictable, unstable, and unsystematic. These characteristics should align with product-claim beliefs that are more subjective, experiential, and dynamic over time. In each case, alignment of perceptual structure and the type of belief should increase confidence in the belief. In the next section, we provide more detail on the types of judgments perceptual structure could influence.
 
@@ -84,55 +82,53 @@ Two broad classes of consumption goals are utilitarian goals and hedonic goals (
 
 Of course, many product categories have both utilitarian and hedonic benefits, as exemplified by the research in consumer behavior (see table 1). Nonetheless, although consumption can produce both utilitarian and hedonic value (Babin et al. 1994; Hirschman and Holbrook 1982; Voss, Spangenberg, and Grohmann 2003), the weight placed on utilitarian or hedonic benefits should depend on whether the brand is positioned to provide primarily utilitarian or hedonic benefits (Botti and McGill 2011; Khan et al. 2005).
 
-
 **Table 1.** Hedonic and Utilitarian Products in Consumer Research
 
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Domain                       | Utilitarian Positioning           | Hedonic Positioning              | Reference                   |
 +==============================+===================================+==================================+=============================+
 | Activities                   | Exercise for health               | Exercise for fun                 | Woolley and Fishbach (2016) |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Activities                   | Play tennis for exercise          | Play tennis for enjoyment        | Lin, Wang, and Chou (2012)  |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Activities                   | Functional shopping experience    | Hedonic shopping experience      | Ballantine et al. (2010)    |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Services                     | Business hotel                    | Pleasure hotel                   | Kronrod and Danziger (2013) |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Services                     | Coffee shop for work              | Coffee shop for enjoying coffee  | Ratner and Hamilton (2015)  |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Services                     | Limited-service restaurant        | Full-service restaurant          | Brown (2020)                |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Cheesecake deLite (low fat)       | Bailey\'s Irish Cream Cheesecake | Okada (2005)                |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Functional suitcase               | Fashionable suitcase             | Huettl and Gierl (2008)     |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Nutritional beverage              | Refreshing and tasty beverage    | Chen, Lee, and Yap (2017)   |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Functional sneakers               | Stylish sneakers                 | Chen, Lee, and Yap (2017)   |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Earphones for studying            | Earphones for entertainment      | Kivetz and Zheng (2017)     |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Chocolate as an energy source     | Chocolate as a pleasurable snack | Kivetz and Zheng (2017)     |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Nutritious yogurt                 | Flavorful yogurt                 | Roy and Ng (2012)           |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Antiperspirant shower gel         | Perfumed shower gel              | Klein and Melnyk (2016)     |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Products                     | Insect-repellent candle           | Scented candle                   | Klein and Melnyk (2016)     |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Product Design               | Performance cell phone            | Personalized cell phone          | Chitturi et al. (2008)      |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Product Design               | Laptop with memory / battery life | Colorful, sleek laptop           | Lu, Liu, and Fang (2016)    |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Product Design               | Functional citrus juicer          | Stylish citrus juicer            | Hagtvedt and Patrick (2014) |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Online shopping              | Convenience, selection, savings   | Adventure/exploration            | To, Liao, and Lin (2007)    |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Online shopping              | Usefulness of shopping site       | Enjoyment of shopping site       | Childers et al. (2002)      |
-+------------------------------+-----------------------------------+----------------------------------+-----------------------------+
++++++
 | Note: See Web Appendix I for the reference list of research cited in this table.                    |                             |
-+-----------------------------------------------------------------------------------------------------+-----------------------------+
-
++++
 
 **Inferring Utilitarian Value from Structured Perceptions**
 
@@ -150,7 +146,7 @@ There is no direct evidence that unstructured perceptions can be used to make in
 >
 > **(b)** This effect is mediated by an increase in perceived hedonic value.
 
-Six studies[^1] were used to investigate the hypotheses. Study 1 is a large-scale field experiment that uses Facebook Ads to demonstrate that products with structured (unstructured) perceptions generate higher click-through rates when the product offers utilitarian (hedonic) benefits. Study 2 shows, across several different organizational principles, that products with structured (unstructured) perceptions are preferred when a buyer seeks utilitarian (hedonic) benefits. Study 3 uses industry brand equity data to show that structured (unstructured) perceptions of brand logos are associated with more brand value for brands offering utilitarian (hedonic) benefits. Study 4 demonstrates the process by mediation \-- a structured (unstructured) perception of the environment increases perceived utilitarian (hedonic) value, leading to higher evaluations when the product is positioned as utilitarian (hedonic). Studies 5a and 5b demonstrate the process by moderation \-- when diagnostic information about benefit performance is accessible (i.e., information on actual utilitarian/hedonic performance is available), so that inferences about benefits is unnecessary, consumers do not use a structured (unstructured) perception as a cue to infer utilitarian (hedonic) value. In all experimental studies, we use different principles of visual organization (e.g., similarity, symmetry, balance) as operationalizations that can be used to manipulate the perceptions of structure, which is our key independent variable.
+Six studies[^1] were used to investigate the hypotheses. Study 1 is a large-scale field experiment that uses Facebook Ads to demonstrate that products with structured (unstructured) perceptions generate higher click-through rates when the product offers utilitarian (hedonic) benefits. Study 2 shows, across several different organizational principles, that products with structured (unstructured) perceptions are preferred when a buyer seeks utilitarian (hedonic) benefits. Study 3 uses industry brand equity data to show that structured (unstructured) perceptions of brand logos are associated with more brand value for brands offering utilitarian (hedonic) benefits. Study 4 demonstrates the process by mediation \ a structured (unstructured) perception of the environment increases perceived utilitarian (hedonic) value, leading to higher evaluations when the product is positioned as utilitarian (hedonic). Studies 5a and 5b demonstrate the process by moderation \ when diagnostic information about benefit performance is accessible (i.e., information on actual utilitarian/hedonic performance is available), so that inferences about benefits is unnecessary, consumers do not use a structured (unstructured) perception as a cue to infer utilitarian (hedonic) value. In all experimental studies, we use different principles of visual organization (e.g., similarity, symmetry, balance) as operationalizations that can be used to manipulate the perceptions of structure, which is our key independent variable.
 
 **STUDY 1: LARGE-SCALE FIELD EXPERIMENT USING FACEBOOK ADS**
 
@@ -162,7 +158,7 @@ In Study 1, we provide initial evidence for H1a and H2a. We conducted a field ex
 
 *Stimuli*. We created a page for a fictitious fragrance store named PerfumeGallery.com and launched eight advertisements for the organization on Facebook. We used eight advertisements (two replicates for each perceptual structure x product positioning combination) to assess the robustness of our findings across different designs. All advertisements were reviewed and approved by Facebook, and the procedure of this and our other studies were approved by an Institutional Review Board.
 
-Each advertisement consisted of a brand name (Horizon -- 3.4oz Eau de Parfum), positioning claim, and package image. The utilitarian positioning claim was: "Long-lasting. Great for work and everyday occasions. Click to learn more." The hedonic positioning claim was: "Delightful. Great for special and fun occasions. Click to learn more." The (un)structured perception was manipulated by using a different set of design principles for each replicate. In the first replicate, we manipulated the symmetry, balance, organization, and regularity of several abstract blue lines. In the second replicate, we manipulated the proximity, similarity, symmetry, balance, organization, and regularity of a forest landscape. For the exact stimuli used in this and all other studies, see the Web Appendix.
+Each advertisement consisted of a brand name (Horizon  3.4oz Eau de Parfum), positioning claim, and package image. The utilitarian positioning claim was: "Long-lasting. Great for work and everyday occasions. Click to learn more." The hedonic positioning claim was: "Delightful. Great for special and fun occasions. Click to learn more." The (un)structured perception was manipulated by using a different set of design principles for each replicate. In the first replicate, we manipulated the symmetry, balance, organization, and regularity of several abstract blue lines. In the second replicate, we manipulated the proximity, similarity, symmetry, balance, organization, and regularity of a forest landscape. For the exact stimuli used in this and all other studies, see the Web Appendix.
 
 *Pretests*. We assessed whether the replicates (N = 100 per replicate) generated perceptions with different levels of structure. Five items measured the characteristics of perceptual structure: cohesiveness, homogeneity, predictability, stability, and systematic. Cohesiveness (i.e., the elements are perceived as interrelated) was measured with 1 = "incohesive" and 9 = "cohesive." Homogeneity (i.e., the common features of elements are fundamental to the perception) was measured with 1 = "heterogeneous" and 9 = "homogeneous." Predictability (i.e., the repetition of elements makes it possible to use one part of the image to anticipate other parts or the whole) was measured with 1 = "unpredictable" and 9 = "predictable". Stability (i.e., one perception is dominant, as opposed to vacillating between competing perceptions) was measured with 1 = "unstable" and 9 = "stable". Systematicity (i.e., the elements of the perception can be effectively segregated or categorized should there be a motivation to do so) was measured with 1 = "unsystematic" and 9 = "systematic". The definition of each measure was explained before soliciting the participant's rating (see Web Appendix A).
 
@@ -190,7 +186,7 @@ Study 2 (preregistration: <https://aspredicted.org/D3G_8PT>) sought to demonstra
 
 *Participants and Design.* Two hundred MTurk workers (58.3% male, M~age~ = 40.30) were randomly assigned to two conditions (shopping goal: utilitarian vs. hedonic). Participants made choices between brands with visual marketing communications that generated structured versus unstructured perceptions.
 
-*Stimuli*. The stimuli were 10 sets of options designed to generate structured versus unstructured perceptions (see Web Appendix B). A first pretest (N = 100; see table in Web Appendix B) confirmed the 10 sets of options varied on the structure scale (incohesive -- cohesive, heterogenous -- homogeneous, unpredictable -- predictable, unstable -- stable, unsystematic -- systematic) (F-values ranging from 5.69 to 31.64, p-values from .019 to \< .001). A second pretest (N = 270; Web Appendix B) ensured that the options were equally preferred in the absence of a utilitarian or hedonic shopping goal. We also show in Web Appendix B that the manipulation of perceptual structure is robust across different types of design manipulations.
+*Stimuli*. The stimuli were 10 sets of options designed to generate structured versus unstructured perceptions (see Web Appendix B). A first pretest (N = 100; see table in Web Appendix B) confirmed the 10 sets of options varied on the structure scale (incohesive  cohesive, heterogenous  homogeneous, unpredictable  predictable, unstable  stable, unsystematic  systematic) (F-values ranging from 5.69 to 31.64, p-values from .019 to \< .001). A second pretest (N = 270; Web Appendix B) ensured that the options were equally preferred in the absence of a utilitarian or hedonic shopping goal. We also show in Web Appendix B that the manipulation of perceptual structure is robust across different types of design manipulations.
 
 *Procedure*. We told participants we were investigating consumers' personal preferences and opinions, and that they would read different scenarios and make choices. For instance, in the spa replicate, participants who wanted a spa for a utilitarian (hedonic) goal were told: "Imagine you are looking for a spa where you can get a massage that provides immediate pain relief and reduces body fatigue \[is enjoyable and relaxes your body\]. Which spa would you choose?" Participants chose between a spa logo designed to generate an unstructured perception and a competing spa logo designed to generate a structured perception.
 
@@ -204,71 +200,71 @@ We coded participants' choices as 1 if they were consistent with our hypotheses,
 
 **Table 2.** Study 2: Choice Shares by Replicate
 
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++
 |                                           | **Spa Logos**                                                                                                                                                                                                                                                                                                                 |                                            |              | **Restaurant Environments**                                                                                                                                                                                                                                                                              |       |
 +:=========================================:+:===========================================================================================================================================================:+:===============================================================================================================================================================:+:==========================================:+:============:+:================================================================================================================================================:+:=====================================================================================================================================================:+:=====:+
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-|                                           | [Image: Logo, icon, company name Description automatically generated]                            | [Image: Logo, company name Description automatically generated]                         |                                            |              | [Image: see published version] |   ------------------------------------------------------------------------------------                                                                |       |
-|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   [Image: see published version]                                                                  |       |
-|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   ------------------------------------------------------------------------------------                                                                |       |
++++++++++
+|                                           | [Logo: "The Ark Spa" -- orange-colored stacked stones with a leaf design, unstructured perception.]                            | [Logo: brand with structured/unstructured design characteristics.]                         |                                            |              | [Brand logo or visual stimulus from study materials.] |                                                                   |       |
+|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   [Brand logo or visual stimulus from study materials.]                                                                  |       |
+|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |                                                                   |       |
 |                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |                                                                                                                                                       |       |
-|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   ------------------------------------------------------------------------------------                                                                |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |                                                                   |       |
++++++++++
 | **Goal**                                  | **Choice Shares**                                                                                                                                                                                                                                                                                                             | **Z**                                      | **Goal**     | **Choice Shares**                                                                                                                                                                                                                                                                                        | **Z** |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Util.**                                 | 43.0%                                                                                                                                                       | 57.0%                                                                                                                                                           |                                            | **Util.**    | 40%                                                                                                                                              | 60%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Hed.**                                  | 67.0%                                                                                                                                                       | 33.0%                                                                                                                                                           |                                            | **Hed.**     | 70%                                                                                                                                              | 30%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Consist.**                              | 62.0%                                                                                                                                                                                                                                                                                                                         | 3.39                                       | **Consist.** | 65.0%                                                                                                                                                                                                                                                                                                    | 4.24  |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++
 |                                           | **Grocery Store Logos**                                                                                                                                                                                                                                                                                                       |                                            |              | **Coffee Package Imagery**                                                                                                                                                                                                                                                                               |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-|                                           | [Image: see published version]                         | [Image: Chart, bubble chart Description automatically generated]                                    |                                            |              | [Image: see published version]                            | [Image: Text Description automatically generated]                                         |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
+|                                           | [Brand logo or visual stimulus from study materials.]                         | [Bubble chart or scatter plot from study data analysis.]                                    |                                            |              | [Brand logo or visual stimulus from study materials.]                            | [Brand name text label or experimental condition indicator.]                                         |       |
++++++++++
 | **Goal**                                  | **Choice Shares**                                                                                                                                                                                                                                                                                                             | **Z**                                      | **Goal**     | **Choice Shares**                                                                                                                                                                                                                                                                                        | **Z** |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Uti.**                                  | 33%                                                                                                                                                         | 67%                                                                                                                                                             |                                            | **Uti.**     | 31%                                                                                                                                              | 69%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Hed.**                                  | 62%                                                                                                                                                         | 38%                                                                                                                                                             |                                            | **Hed.**     | 63%                                                                                                                                              | 37%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Consist.**                              | 64.5%                                                                                                                                                                                                                                                                                                                         | 4.10                                       | **Consist.** | 66.0%                                                                                                                                                                                                                                                                                                    | 4.53  |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++
 |                                           | **Sunglasses Brand Names**                                                                                                                                                                                                                                                                                                    |                                            |              | **Perfume Packages**                                                                                                                                                                                                                                                                                     |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| [Image: see published version]                                                                                                                      | [Image: see published version]                                                                                                                          |              | [Image: see published version]                                                              |   --------------------------------------------------------------------------------------------------------------------------------------------------- |       |
-|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   [Image: see published version]   |       |
-|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   --------------------------------------------------------------------------------------------------------------------------------------------------- |       |
++++++++++
+| [Brand logo or visual stimulus from study materials.]                                                                                                                      | [Brand logo or visual stimulus from study materials.]                                                                                                                          |              | [Brand logo or visual stimulus from study materials.]                                                              |    |       |
+|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   [Brand logo or visual stimulus from study materials.]   |       |
+|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |    |       |
 |                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |                                                                                                                                                       |       |
-|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   --------------------------------------------------------------------------------------------------------------------------------------------------- |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |    |       |
++++++++++
 | **Goal**                                  | **Choice Shares**                                                                                                                                                                                                                                                                                                             | **Z**                                      | **Goal**     | **Choice Shares**                                                                                                                                                                                                                                                                                        | **Z** |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Uti.**                                  | 41%                                                                                                                                                         | 59%                                                                                                                                                             |                                            | **Uti.**     | 37%                                                                                                                                              | 63%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Hed.**                                  | 60%                                                                                                                                                         | 40%                                                                                                                                                             |                                            | **Hed.**     | 64%                                                                                                                                              | 36%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Consist.**                              | 59.5%                                                                                                                                                                                                                                                                                                                         | 2.69                                       | **Consist.** | 63.5%                                                                                                                                                                                                                                                                                                    | 3.82  |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++
 | **Spa Product Store Displays**                                                                                                                                                                                                                                                                                                                                                                                         |              | **Gift Shop Displays**                                                                                                                                                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-|                                           | [Image: see published version] | [Image: see published version] |                                            |              | [Image: see published version]             | [Image: see published version]      |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
+|                                           | [Brand logo or visual stimulus from study materials.] | [Brand logo or visual stimulus from study materials.] |                                            |              | [Brand logo or visual stimulus from study materials.]             | [Brand logo or visual stimulus from study materials.]      |       |
++++++++++
 | **Goal**                                  | **Choice Shares**                                                                                                                                                                                                                                                                                                             | **Z**                                      | **Goal**     | **Choice Shares**                                                                                                                                                                                                                                                                                        | **Z** |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Uti.**                                  | 36%                                                                                                                                                         | 64%                                                                                                                                                             |                                            | **Uti.**     | 46%                                                                                                                                              | 54%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Hed.**                                  | 62%                                                                                                                                                         | 38%                                                                                                                                                             |                                            | **Hed.**     | 66%                                                                                                                                              | 34%                                                                                                                                                   |       |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++++
 | **Consist.**                              | 63.0%                                                                                                                                                                                                                                                                                                                         | 3.68                                       | **Consist.** | 60.0%                                                                                                                                                                                                                                                                                                    | 2.83  |
-+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
++++++++
 
 Notes: Util. = Utilitarian shopping goal; Hed. = Hedonic shopping goal; Consist. = Percentage of hypothesis-consistent choices. Z = Test statistic (z-score) comparing the % of hypothesis-consistent choices to 50%. See Web Appendix B to see the replicates in high-resolution.
 
@@ -300,13 +296,13 @@ The data used in this study were collected from five sources: "BrandZ Top 100 Mo
 
 **Figure 2.** Study 3: The Influence of a Brand's Perceptual Structure and Positioning on BrandZ Valuation
 
-[Image: see published version]
+[Interaction plot. Y-axis: Log of BrandZ Valuation (range 1-5). X-axis: Hedonic-Utilitarian Index (1-9, M = 5.46, SD = 1.16). Two lines cross: a solid line for Structured (+1 SD) slopes upward from left to right, and a dashed line for Unstructured (-1 SD) slopes downward. A shaded region between the lines highlights the divergence. Johnson-Neyman points at 3.62 and 5.80 (both p < .05) are marked with vertical lines. The range of observed data spans approximately 3.62 to 5.80. The pattern shows that structured brand logos are associated with higher BrandZ valuations for more utilitarian brands, while unstructured logos are associated with higher valuations for more hedonic brands.]
 
 *Second Dependent Variable: Brand Asset Index.* A perceptual structure of the brand logo (continuous) × brand hedonic-utilitarian index (continuous) regression on customer-based brand equity (BAIndex) revealed a significant interaction (ß = .18, t(101) = 3.59, *p* \< .001). As Figure 3 shows, the floodlight analysis revealed that the J-N points (p \< .05) on the hedonic-utilitarian index moderator occurred at 4.66 (.69 SD below the mean) and 6.19 (.63 SD above the mean). Web Appendix C presents a series of robustness tests involving the BAIndex.
 
 **Figure 3.** Study 3: The Influence of a Brand's Perceptual Structure and Positioning on BAIndex
 
-[Image: see published version]
+[Interaction plot. Y-axis: Brand Asset Index (range 6-10). X-axis: Hedonic-Utilitarian Index (1-9, M = 5.46, SD = 1.15). Two lines: a solid line for Structured (+1 SD) slopes upward, a dashed line for Unstructured (-1 SD) is relatively flat but slightly declining. Johnson-Neyman points at 4.66 and 6.19 (both p < .05). The pattern shows that structured logos are associated with higher BAIndex scores for utilitarian brands, while unstructured logos are associated with higher BAIndex for hedonic brands.]
 
 **Discussion**
 
@@ -340,11 +336,13 @@ Then, we asked: "How aesthetically pleasing is The Spectrum Library?" with 1 = "
 
 There were no three-way interactions between perceptual structure, product positioning, and replicate on any of the dependent measures (all F's NS), so we collapsed across replicates.
 
-*Manipulation Check -- Positioning.* As expected, participants in the utilitarian positioning condition (M = 5.29, SD = 2.03) perceived the library to be more utilitarian than participants in the hedonic positioning condition (M = 4.21, SD = 1.77; F(1, 796) = 63.93, *p* \< .001). There was no main effect of perceptual structure (F(1, 796) = .174, *p* = .677) or an interaction of perceptual structure and positioning (F(1, 796) = 2.52, *p* = .113).
+*Manipulation Check  Positioning.* As expected, participants in the utilitarian positioning condition (M = 5.29, SD = 2.03) perceived the library to be more utilitarian than participants in the hedonic positioning condition (M = 4.21, SD = 1.77; F(1, 796) = 63.93, *p* \< .001). There was no main effect of perceptual structure (F(1, 796) = .174, *p* = .677) or an interaction of perceptual structure and positioning (F(1, 796) = 2.52, *p* = .113).
 
 *Evaluation.* A two-way ANOVA on product evaluation revealed the predicted interaction (F(1, 796) = 14.09, *p* \< .001, ${\widehat{\omega}}_{p}^{2}$ = .017; see Figure 4). As expected, structure increased evaluations when the library was positioned as utilitarian (M~structured~ = 8.25, SD~structured~ = 1.15 vs. M~unstructured~ = 7.79, SD~unstructured~ = 2.05; F(1, 796) = 8.47, *p* = .004, Cohen's d = .28), but decreased evaluations when the library was positioned as hedonic (M~structured~ = 7.75, SD~structured~ = 1.86 vs. M~unstructured~ = 8.14, SD~unstructured~ = 1.01; F(1, 796) = 5.75, *p* = .017, Cohen's d = .25).
 
 **Figure 4.** Study 4: Interaction Between Positioning and the Structure of the Perception on Evaluation
+
+[Bar chart. Y-axis: Evaluation (1-9 scale). Two clusters: Utilitarian Positioning and Hedonic Positioning. Each cluster has two bars (Structured in white, Unstructured in gray). Utilitarian: Structured M = 8.25, Unstructured M = 7.79 (p = .004). Hedonic: Structured M = 7.75, Unstructured M = 8.14 (p = .017). Error bars = +/- 1 SE. Structured perceptions boost evaluations for utilitarian positioning but reduce them for hedonic positioning.]
 
 Notes: Error bars = +/− 1 SE. †p \< .10. \*p \< .05. \*\*p \< .01.*Mediation by Inferences about Utilitarian and Hedonic Value*. To confirm that the dependent variable (evaluation) and the mediators (hedonic and utilitarian value) were distinct constructs, we tested for discriminant validity. First, the average variance extracted (AVE) for evaluation and utilitarian value exceeded their squared correlation (AVE evaluation = .85; AVE utilitarian value = .698; squared correlation = .655), for evaluation and hedonic value exceeded their squared correlation (AVE evaluation = .85; AVE hedonic value = .605; squared correlation = .549), and for utilitarian value and hedonic value exceeded their squared correlation (AVE utilitarian value = .698; AVE hedonic value = .605; squared correlation = .504) (Fornell and Larcker 1981). Second, the 95% confidence interval (CI) around the correlation between the two factors excluded 1 for evaluation and utilitarian value (CI = \[.78; .84\]), evaluation and hedonic value (CI = \[.70; .78\]), and utilitarian and hedonic value (CI = \[.67; .75\]) (Bagozzi and Phillips 1982). Third, the heterotrait-monotrait ratio of correlations (HTMT) was below the recommended threshold of .90 for evaluation and utilitarian value (.81), evaluation and hedonic value (.71), and utilitarian and hedonic value (.68) (Henseler, Ringle, and Sarstedt 2015). These three tests provide evidence for the discriminant validity of the constructs. We report the discriminant analyses for subsequent studies in the Web Appendix.
 
@@ -382,6 +380,8 @@ To check the product claim diagnosticity manipulation, we showed the advertiseme
 
 **Figure 5.** Study 5A: The Influence of Information Diagnosticity and Structure of the Perception on Product Evaluation
 
+[Bar chart. Y-axis: Evaluation (1-9 scale). Two clusters: Less Diagnostic Information and More Diagnostic Information. Each cluster has two bars (Structured and Unstructured). Less Diagnostic: Structured M = 7.66, Unstructured M = 7.11 (p = .003). More Diagnostic: Structured M = 7.59, Unstructured M = 7.71 (ns). Error bars = +/- 1 SE. Structure boosts evaluations only when product information is less diagnostic.]
+
 Notes: Error bars = +/− 1 SE. †p \< .10. \*p \< .05. \*\*p \< .01.
 
 *Mediation by Inferences about Utilitarian Value*. A two-way ANOVA on the inferences about utilitarian value revealed the predicted interaction (F(1, 396) = 5.60, *p* = .018, ${\widehat{\omega}}_{p}^{2}$ = .011). Perceptual structure increased inferences about utilitarian value when the product claim was less diagnostic (M~structured~ = 7.38, SD~structured~ = .94 vs. M~unstructured~ = 6.96, SD~unstructured~ = 1.52; F(1, 396) = 6.34, *p* = .012, Cohen's d = .33). There was no effect of perceptual structure when the product claim was more diagnostic (M~structured~ = 7.41, SD~structured~ = 1.12 vs. M~unstructured~ = 7.55, SD~unstructured~ = 1.13; F(1, 396) = .683, *p* = .409). A bootstrapped moderated mediation analysis (Hayes 2018; model 8) with perceptual structure as the independent variable, evaluation as the dependent variable, product claim diagnosticity as the moderator, and inferences about utilitarian value as the mediator revealed a significant index of moderated mediation (Index = -.42, 95% CI \[-.80 to -.06\]). The indirect effect was positive for the less diagnostic claim condition (β = .32, SE = .14, 95% CI: \[.05 to .61\]), suggesting that the structure of the perception increased inferences about utilitarian value, which in turn increased evaluations. The indirect effect was not significant when the information was more diagnostic (β = -.10, SE = .12, 95% CI: \[-.34 to .14\]).
@@ -416,6 +416,8 @@ To check the review diagnosticity manipulation, we showed participants the adver
 
 **Figure 6.** Study 5B: The Influence of Information Diagnosticity and Structure of the Perception on Product Evaluation
 
+[Bar chart. Y-axis: Evaluation (1-9 scale). Two clusters: Less Diagnostic Review and More Diagnostic Review. Each cluster has two bars (Structured and Unstructured). Less Diagnostic: Structured M = 7.36, Unstructured M = 7.87 (p = .011). More Diagnostic: Structured M = 7.88, Unstructured M = 7.81 (ns). Error bars = +/- 1 SE. Unstructured perceptions boost evaluations of hedonic products only when reviews are less diagnostic.]
+
 Notes: Error bars = +/− 1 SE. †p \< .10. \*p \< .05. \*\*p \< .01.
 
 *Mediation by Inferences about Hedonic Value*. A two-way ANOVA on the inferences about utilitarian value revealed the predicted interaction (F(1, 396) = 5.80, *p* = .017, ${\widehat{\omega}}_{p}^{2}$ = .012). As expected, the unstructured perception increased inferences about hedonic value when the product review was less diagnostic (M~structured~ = 7.10, SD~structured~ = 1.65 vs. M~unstructured~ = 7.67, SD~unstructured~ = 1.22; F(1, 396) = 9.19, *p* = .003, Cohen's d = .39). There was no effect of perceptual structure when the product review was more diagnostic (M~structured~ = 7.88, SD~structured~ = 1.13 vs. M~unstructured~ = 7.81, SD~unstructured~ = 1.22; F(1, 396) = .140, *p* = .709). A bootstrapped moderated mediation analysis (Hayes 2018; model 8) with perceptual structure as the independent variable, evaluation as the dependent variable, product review as the moderator, and inferences about hedonic value as the mediator revealed a significant index of moderated mediation (Index = -.59, 95% CI \[-1.08 to -.11\]). Supporting our reasoning, the indirect effect was positive for the less diagnostic product review condition (β = .52, SE = .19, 95% CI: \[.16 to .90\]), suggesting that the unstructured perception increased inferences about hedonic value, which in turn increased evaluations. The indirect effect was not significant when the product review was more diagnostic (β = -.06, SE = .16, 95% CI: \[-.38 to .23\]).
@@ -442,7 +444,7 @@ This work has practical implications for logo and typeface design, product desig
 
 In addition, although we demonstrate our framework using logos, typefaces, product imagery, retail displays, and store design, the implications likely extend to many other visual marketing communications, including print advertisements, website layouts, and app user interfaces. For instance, website layouts organize products and information in a way that encourages (un)structured perceptions. Apps can naturally influence the structure of a series of perceptions (i.e., the perceptions generated while interacting with the app) by creating a more symmetric, balanced, and regular (or asymmetric, unbalanced, and irregular) interface. As long as these brands are positioned as utilitarian or hedonic, marketers can take advantage of our findings and anticipate the consequences of key visual design decisions. Future work can investigate additional marketing stimuli where manipulating perceptual structure is possible.
 
-This work has important implications to brand equity management. Study 3 showed that perceptual structure is associated with the financial valuation of real brands in the marketplace. To further explore this impact, we used the regression model from Study 3 (BrandZ valuation as a function of perceptual structure, brand positioning, their interaction, and brand usage, preference, and recommendation behavior as controls) to estimate the loss/gain impact of perceptual structure for utilitarian (+1 SD on the brand positioning scale) and hedonic (-1 SD on the brand positioning) brands. For a hypothetical utilitarian brand with a structured perception at the mean level, the predicted log of BrandZ valuation is 2.98. The same hypothetical utilitarian brand has a predicted log of BrandZ valuation of 3.47 when the structured perception is increased in one standard deviation. In terms of actual financial impact, this translates to exp(3.47) -- exp(2.98) = \$12.31B. Likewise, for a hypothetical hedonic brand with a structured perception at the mean level, the predicted log of BrandZ valuation is 2.82. The same hypothetical hedonic brand has a predicted log of BrandZ valuation of 3.01 when the structured perception is decreased in one standard deviation. In terms of actual financial impact, this translates to exp(3.01) -- exp(2.82) = \$3.51B. Given the magnitude of these estimates, we elaborate on some drivers of these effects, limitations, and suggestions for future research.
+This work has important implications to brand equity management. Study 3 showed that perceptual structure is associated with the financial valuation of real brands in the marketplace. To further explore this impact, we used the regression model from Study 3 (BrandZ valuation as a function of perceptual structure, brand positioning, their interaction, and brand usage, preference, and recommendation behavior as controls) to estimate the loss/gain impact of perceptual structure for utilitarian (+1 SD on the brand positioning scale) and hedonic (-1 SD on the brand positioning) brands. For a hypothetical utilitarian brand with a structured perception at the mean level, the predicted log of BrandZ valuation is 2.98. The same hypothetical utilitarian brand has a predicted log of BrandZ valuation of 3.47 when the structured perception is increased in one standard deviation. In terms of actual financial impact, this translates to exp(3.47)  exp(2.98) = \$12.31B. Likewise, for a hypothetical hedonic brand with a structured perception at the mean level, the predicted log of BrandZ valuation is 2.82. The same hypothetical hedonic brand has a predicted log of BrandZ valuation of 3.01 when the structured perception is decreased in one standard deviation. In terms of actual financial impact, this translates to exp(3.01)  exp(2.82) = \$3.51B. Given the magnitude of these estimates, we elaborate on some drivers of these effects, limitations, and suggestions for future research.
 
 The effects of visual marketing campaigns are a cumulative result of many years of execution. Over time, brands slowly reinforce ideas and establish associations in consumers' minds. Hence, the impact of a standard deviation change in structured perception should not be interpreted as what would happen if a brand suddenly changed the structure of its visual communications. Instead, the impact should be interpreted as the possible change in brand equity if a brand had aligned the design in its visual communications with its positioning. In addition, the effects are a cumulative result of assorted visual communications (e.g., logos, packages, advertising, social media), each of which reinforces brand claims independently. Hence, the benefits of strategically altering perceptual structure in visual marketing communications should become more noticeable after years of execution.
 
@@ -464,93 +466,93 @@ Despite these limitations, we consistently found that a structured (unstructured
 
 Andrews, J. Craig and Terence A. Shimp (2018), *Advertising, Promotion, and Other Aspects of Integrated Marketing Communications*. Cengage.
 
-Attneave, Fred (1971), "Multistability in Perception," *Scientific American*, 225 (6), 62--71.
+Attneave, Fred (1971), "Multistability in Perception," *Scientific American*, 225 (6), 6271.
 
-Babin, Barry J., William R. Darden, and Mitch Griffin (1994), "Work and/or Fun: Measuring Hedonic and Utilitarian Shopping Value," *Journal of Consumer Research,* 20(4), 644--56.
+Babin, Barry J., William R. Darden, and Mitch Griffin (1994), "Work and/or Fun: Measuring Hedonic and Utilitarian Shopping Value," *Journal of Consumer Research,* 20(4), 64456.
 
-Bajaj, Aditi and Samuel D. Bond (2018), "Beyond Beauty: Design Symmetry and Brand Personality," *Journal of Consumer Psychology*, 28 (1), 77--98.
+Bajaj, Aditi and Samuel D. Bond (2018), "Beyond Beauty: Design Symmetry and Brand Personality," *Journal of Consumer Psychology*, 28 (1), 7798.
 
-Bagozzi, Richard P. and Lynn W. Phillips (1982), "Representing and Testing Organizational Theories: A Holistic Construal," *Administrative Science Quarterly*, 27 (3), 459--489.
+Bagozzi, Richard P. and Lynn W. Phillips (1982), "Representing and Testing Organizational Theories: A Holistic Construal," *Administrative Science Quarterly*, 27 (3), 459489.
 
-Bettels, Jannick and Klaus-Peter Wiedmann (2019), "Brand Logo Symmetry and Product Design: The Spillover Effects on Consumer Inferences," *Journal of Business Research*, 97 (April), 1--9.
+Bettels, Jannick and Klaus-Peter Wiedmann (2019), "Brand Logo Symmetry and Product Design: The Spillover Effects on Consumer Inferences," *Journal of Business Research*, 97 (April), 19.
 
-Bornstein, Robert F. and Paul R. D'Agostino (1994), "The Attribution and Discounting of Perceptual Fluency: Preliminary Tests of a Perceptual Fluency/Attributional Model of the Mere Exposure Effect," *Social Cognition*, 12 (Summer), 103--128.
+Bornstein, Robert F. and Paul R. D'Agostino (1994), "The Attribution and Discounting of Perceptual Fluency: Preliminary Tests of a Perceptual Fluency/Attributional Model of the Mere Exposure Effect," *Social Cognition*, 12 (Summer), 103128.
 
-Botti, Simona and Ann L. McGill (2011), "The Locus of Choice: Personal Causality and Satisfaction with Hedonic and Utilitarian Decisions," *Journal of Consumer Research*, 37 (6), 1065--78.
+Botti, Simona and Ann L. McGill (2011), "The Locus of Choice: Personal Causality and Satisfaction with Hedonic and Utilitarian Decisions," *Journal of Consumer Research*, 37 (6), 106578.
 
-Broniarczyk, Susan M., and Joseph W. Alba (1994), "The Role of Consumers' Intuitions in Inference Making," *Journal of Consumer Research,* 21 (3), 393--407.
+Broniarczyk, Susan M., and Joseph W. Alba (1994), "The Role of Consumers' Intuitions in Inference Making," *Journal of Consumer Research,* 21 (3), 393407.
 
-Chae, Boyoun (Grace), Xiuping Li, and Rui (Juliet) Zhu (2013), "Judging Product Effectiveness from Perceived Spatial Proximity," *Journal of Consumer Research*, 40 (2), 317--35.
+Chae, Boyoun (Grace), Xiuping Li, and Rui (Juliet) Zhu (2013), "Judging Product Effectiveness from Perceived Spatial Proximity," *Journal of Consumer Research*, 40 (2), 31735.
 
-Cutright, Keisha M. (2012), "The Beauty of Boundaries: When and Why We Seek Structure in Consumption," *Journal of Consumer Research*, 38 (5), 775--90.
+Cutright, Keisha M. (2012), "The Beauty of Boundaries: When and Why We Seek Structure in Consumption," *Journal of Consumer Research*, 38 (5), 77590.
 
-Datta, Hannes, Kusum L. Ailawadi, and Harald J. van Heerde (2017), "How Well Does Consumer-Based Brand Equity Align with Sales-Based Brand Equity and Marketing Mix Response?" *Journal of Marketing*, 81 (3), 1--20.
+Datta, Hannes, Kusum L. Ailawadi, and Harald J. van Heerde (2017), "How Well Does Consumer-Based Brand Equity Align with Sales-Based Brand Equity and Marketing Mix Response?" *Journal of Marketing*, 81 (3), 120.
 
-Dick, Alan, Dipankar Chakravarti, and Gabriel Biehal (1990), "Memory-Based Inferences During Consumer Choice," *Journal of Consumer Research*, 17 (1), 82--93.
+Dick, Alan, Dipankar Chakravarti, and Gabriel Biehal (1990), "Memory-Based Inferences During Consumer Choice," *Journal of Consumer Research*, 17 (1), 8293.
 
-Fajardo, Tatiana M., Jiao Zhang, and Michael Tsiros (2016), "The Contingent Nature of the Symbolic Associations of Visual Design Elements: The Case of Brand Logo Frames," *Journal of Consumer Research*, 43 (December), 549--66.
+Fajardo, Tatiana M., Jiao Zhang, and Michael Tsiros (2016), "The Contingent Nature of the Symbolic Associations of Visual Design Elements: The Case of Brand Logo Frames," *Journal of Consumer Research*, 43 (December), 54966.
 
-Fornell, Claes and David F. Larcker (1981), "Evaluating Structural Equation Models with Unobservable Variables and Measurement Error," *Journal of Marketing Research*, 18 (1), 39--50.
+Fornell, Claes and David F. Larcker (1981), "Evaluating Structural Equation Models with Unobservable Variables and Measurement Error," *Journal of Marketing Research*, 18 (1), 3950.
 
-Hagtvedt, Henrik (2011), "The Impact of Incomplete Typeface Logos on Perceptions of the Firm," *Journal of Marketing*, 75 (4), 86--93.
+Hagtvedt, Henrik (2011), "The Impact of Incomplete Typeface Logos on Perceptions of the Firm," *Journal of Marketing*, 75 (4), 8693.
 
 Hayes, Andrew F. (2018), *An Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach*, 2nd ed. New York, NY: Guilford.
 
-Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterion for Assessing Discriminant Validity in Variance-based Structural Equation Modeling," *Journal of the Academy of Marketing Science*, 43 (1), 115--135.
+Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterion for Assessing Discriminant Validity in Variance-based Structural Equation Modeling," *Journal of the Academy of Marketing Science*, 43 (1), 115135.
 
-Hirschman, Elizabeth C. and Morris B. Holbrook (1982), "Hedonic Consumption: Emerging Concepts, Methods and Propositions," *Journal of Marketing*, 46 (3), 92--101.
+Hirschman, Elizabeth C. and Morris B. Holbrook (1982), "Hedonic Consumption: Emerging Concepts, Methods and Propositions," *Journal of Marketing*, 46 (3), 92101.
 
 Intel (2022), "Explore Intel's Visual Brand Identity," (Accessed February 1, 2022), <https://archive.ph/E1j1Q>.
 
-Kahn, Barbara E. and Brian Wansink (2004), "The Influence of Assortment Structure on Perceived Variety and Consumption Quantities," *Journal of Consumer Research*, 30 (4), 519--33.
+Kahn, Barbara E. and Brian Wansink (2004), "The Influence of Assortment Structure on Perceived Variety and Consumption Quantities," *Journal of Consumer Research*, 30 (4), 51933.
 
-Klinger, Mark R. and Anthony G. Greenwald (1994), "Preferences Need No Inferences: The Cognitive Basis of Unconscious Mere Exposure Effects," in The Heart's Eye: Emotional Influences in Perception and Attention, ed. Paula M. Niedenthal and Shinobu Kitayama, San Diego: Academic Press, 67--85.
+Klinger, Mark R. and Anthony G. Greenwald (1994), "Preferences Need No Inferences: The Cognitive Basis of Unconscious Mere Exposure Effects," in The Heart's Eye: Emotional Influences in Perception and Attention, ed. Paula M. Niedenthal and Shinobu Kitayama, San Diego: Academic Press, 6785.
 
 Koffka, Kurt (1935), *Principles of Gestalt Psychology*, New York: Routledge.
 
-Lee, Angela Y. and Aparna Labroo (2004), "Effects of Conceptual and Perceptual Fluency on Affective Judgment," *Journal of Marketing Research*, 41, 151--65.
+Lee, Angela Y. and Aparna Labroo (2004), "Effects of Conceptual and Perceptual Fluency on Affective Judgment," *Journal of Marketing Research*, 41, 15165.
 
-Luffarelli, Jonathan, Antonios Stamatogiannakis, and Haiyang Yang (2019), "The Visual Asymmetry Effect: An Interplay of Logo Design and Brand Personality on Brand Equity," *Journal of Marketing Research*, 56 (1), 89--103.
+Luffarelli, Jonathan, Antonios Stamatogiannakis, and Haiyang Yang (2019), "The Visual Asymmetry Effect: An Interplay of Logo Design and Brand Personality on Brand Equity," *Journal of Marketing Research*, 56 (1), 89103.
 
-Milne, Elizabeth and Marcin Szczerbinski (2009), "Global and Local Perceptual Style, Field-Independence, and Central Coherence: An Attempt at Concept Validation," *Advances in Cognitive Psychology*, 5, 1--26.
+Milne, Elizabeth and Marcin Szczerbinski (2009), "Global and Local Perceptual Style, Field-Independence, and Central Coherence: An Attempt at Concept Validation," *Advances in Cognitive Psychology*, 5, 126.
 
-Mizik, Natalie (2014), "Assessing the Total Financial Performance Impact of Brand Equity with Limited Time-Series Data," *Journal of Marketing Research*, 51 (6), 691--706.
+Mizik, Natalie (2014), "Assessing the Total Financial Performance Impact of Brand Equity with Limited Time-Series Data," *Journal of Marketing Research*, 51 (6), 691706.
 
-Mizik, Natalie and Robert Jacobson (2008), "The Financial Value Impact of Perceptual Brand Attributes," *Journal of Marketing Research*, 45 (1), 15--32.
+Mizik, Natalie and Robert Jacobson (2008), "The Financial Value Impact of Perceptual Brand Attributes," *Journal of Marketing Research*, 45 (1), 1532.
 
-Palmer, Jonathan W. (2002), "Web Site Usability, Design, and Performance Metrics," *Information Systems Research*, 13 (2), 151--67.
+Palmer, Jonathan W. (2002), "Web Site Usability, Design, and Performance Metrics," *Information Systems Research*, 13 (2), 15167.
 
-Palmer, Stephen E. (1977), "Hierarchical Structure in Perceptual Representation," *Cognitive Psychology*, 9 (4), 441--74.
+Palmer, Stephen E. (1977), "Hierarchical Structure in Perceptual Representation," *Cognitive Psychology*, 9 (4), 44174.
 
-Petty, Richard E., Pablo Briñol, Zakary L. Tormala, and Duane T. Wegener (2007), "The Role of Metacognition in Social Judgment," in *Social Psychology: Handbook of Basic Principles*, Arie W. Kruglanski and E. Tory Higgins, eds. The Guilford Press, 254--284.
+Petty, Richard E., Pablo Briñol, Zakary L. Tormala, and Duane T. Wegener (2007), "The Role of Metacognition in Social Judgment," in *Social Psychology: Handbook of Basic Principles*, Arie W. Kruglanski and E. Tory Higgins, eds. The Guilford Press, 254284.
 
-Pomerantz, James R. and Mary C. Portillo (2011), "Grouping and Emergent Features in Vision: Toward a Theory of Basic Gestalts," *Journal of Experimental Psychology: Human Perception and Performance*, 37 (5), 1331--49.
+Pomerantz, James R. and Mary C. Portillo (2011), "Grouping and Emergent Features in Vision: Toward a Theory of Basic Gestalts," *Journal of Experimental Psychology: Human Perception and Performance*, 37 (5), 133149.
 
-Schwartz, Jean-Luc, Nicolas Grimault, Jean-Michel Hupé, Brian C. J. Moore, and Daniel Pressnitzer (2012), "Multistability in Perception: Binding Sensory Modalities, an Overview," *Philosophical Transactions of the Royal Society B*, 367, 896--905.
+Schwartz, Jean-Luc, Nicolas Grimault, Jean-Michel Hupé, Brian C. J. Moore, and Daniel Pressnitzer (2012), "Multistability in Perception: Binding Sensory Modalities, an Overview," *Philosophical Transactions of the Royal Society B*, 367, 896905.
 
 Schwarz, Norbert, Madeline Jalbert, Tom Noah, and Lynn Zhang (2021), "Metacognitive Experiences as Information: Processing Fluency in Consumer Judgment and Decision Making," *Journal of Consumer Psychology*, 4 (1), 4-25.
 
-Sevilla, Julio and Claudia Townsend (2016), "The Space-to-Product Ratio Effect: How Interstitial Space Influences Product Aesthetic Appeal, Store Perceptions, and Product Preference," *Journal of Marketing Research*, 53 (5), 665--81.
+Sevilla, Julio and Claudia Townsend (2016), "The Space-to-Product Ratio Effect: How Interstitial Space Influences Product Aesthetic Appeal, Store Perceptions, and Product Preference," *Journal of Marketing Research*, 53 (5), 66581.
 
-Shapiro, Stewart (1999), "When an Ad\'s Influence Is beyond Our Conscious Control: Perceptual and Conceptual Fluency Effects Caused by Incidental Ad Exposure," *Journal of Consumer Research*, 26 (1), 16--36.
+Shapiro, Stewart (1999), "When an Ad\'s Influence Is beyond Our Conscious Control: Perceptual and Conceptual Fluency Effects Caused by Incidental Ad Exposure," *Journal of Consumer Research*, 26 (1), 1636.
 
-Srivastava, Joydeep and Anusree Mitra (1998), "Warranty as a Signal of Quality: The Moderating Effect of Consumer Knowledge on Quality Evaluations," *Marketing Letters*, 9 (4), 327--36.
+Srivastava, Joydeep and Anusree Mitra (1998), "Warranty as a Signal of Quality: The Moderating Effect of Consumer Knowledge on Quality Evaluations," *Marketing Letters*, 9 (4), 32736.
 
-Tellis, Gerard J. and Gary J. Gaeth (1990), "Best Value, Price-Seeking, and Price Aversion: The Impact of Information and Learning on Consumer Choices," *Journal of Marketing*, 54 (2), 34--45.
+Tellis, Gerard J. and Gary J. Gaeth (1990), "Best Value, Price-Seeking, and Price Aversion: The Impact of Information and Learning on Consumer Choices," *Journal of Marketing*, 54 (2), 3445.
 
-Treisman, Anne M. and Gary Gelade (1980), "A Feature-integration Theory of Attention," *Cognitive Psychology*, 12 (1), 97--136.
+Treisman, Anne M. and Gary Gelade (1980), "A Feature-integration Theory of Attention," *Cognitive Psychology*, 12 (1), 97136.
 
-VanBergen, Noah, Caglar Irmak, and Julio Sevilla (2020), "Product Entitativity: How the Presence of Product Replicates Increases Perceived and Actual Product Efficacy," *Journal of Consumer Research*, 47 (August), 192--214.
+VanBergen, Noah, Caglar Irmak, and Julio Sevilla (2020), "Product Entitativity: How the Presence of Product Replicates Increases Perceived and Actual Product Efficacy," *Journal of Consumer Research*, 47 (August), 192214.
 
-Voss, Kevin E., Eric R. Spangenberg, and Bianca Grohman (2003), "Measuring the Hedonic and Utilitarian Dimensions of Consumer Attitude," *Journal of Marketing Research*, 40 (August), 310--20.
+Voss, Kevin E., Eric R. Spangenberg, and Bianca Grohman (2003), "Measuring the Hedonic and Utilitarian Dimensions of Consumer Attitude," *Journal of Marketing Research*, 40 (August), 31020.
 
-Wagemans, Johan, James H. Elder, Michael Kubovy, Stephen E. Palmer, Mary A. Peterson, Manish Singh, and Rüdiger von der Heydt (2012a), "A Century of Gestalt Psychology in Visual Perception: I. Perceptual Grouping and Figure-ground Organization," *Psychological Bulletin*, 138 (6), 1172--1217.
+Wagemans, Johan, James H. Elder, Michael Kubovy, Stephen E. Palmer, Mary A. Peterson, Manish Singh, and Rüdiger von der Heydt (2012a), "A Century of Gestalt Psychology in Visual Perception: I. Perceptual Grouping and Figure-ground Organization," *Psychological Bulletin*, 138 (6), 11721217.
 
-Wagemans, Johan, Jacob Feldman, Sergei Gepshtein, Ruth Kimchi, James R. Pomerantz, Peter A. van der Helm, and Cees van Leeuwen (2012b), "A Century of Gestalt Psychology in Visual Perception: II. Conceptual and Theoretical Foundations," *Psychological Bulletin*, 138 (6), 1218--52.
+Wagemans, Johan, Jacob Feldman, Sergei Gepshtein, Ruth Kimchi, James R. Pomerantz, Peter A. van der Helm, and Cees van Leeuwen (2012b), "A Century of Gestalt Psychology in Visual Perception: II. Conceptual and Theoretical Foundations," *Psychological Bulletin*, 138 (6), 121852.
 
-Wertheimer, Max (1924), "Gestalt Theory: The General Theoretical Situation," in *A Source Book of Gestalt Psychology*, ed. Willis D. Ellis, London: Routledge & Kegan Paul, 1--16.
+Wertheimer, Max (1924), "Gestalt Theory: The General Theoretical Situation," in *A Source Book of Gestalt Psychology*, ed. Willis D. Ellis, London: Routledge & Kegan Paul, 116.
 
-Whittlesea, Bruce W. A. and Lisa D. Williams (2000), "The Source of Feelings of Familiarity: The Discrepancy-Attribution Hypothesis," *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 26 (May), 547--565.
+Whittlesea, Bruce W. A. and Lisa D. Williams (2000), "The Source of Feelings of Familiarity: The Discrepancy-Attribution Hypothesis," *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 26 (May), 547565.
 
 **WEB APPENDIX**
 
@@ -564,16 +566,15 @@ Felipe M. Affonso (<felipemarinelliaffonso@gmail.com>), and Chris Janiszewski (<
 
 **Table of Contents**
 
-
 [WEB APPENDIX A: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR STUDY 1 [3](#web-appendix-a-additional-methodological-details-and-analyses-for-study-1)](#web-appendix-a-additional-methodological-details-and-analyses-for-study-1)
 
 [*Facebook Ads Used in the Study* [3](#facebook-ads-used-in-the-study)](#facebook-ads-used-in-the-study)
 
-[*Pretest -- Product Positioning and Product Attractiveness* [6](#pretest-product-positioning-and-product-attractiveness)](#pretest-product-positioning-and-product-attractiveness)
+[*Pretest  Product Positioning and Product Attractiveness* [6](#pretest-product-positioning-and-product-attractiveness)](#pretest-product-positioning-and-product-attractiveness)
 
-[*Pretest -- Perceptual Structure of Replicate 1* [7](#pretest-perceptual-structure-of-replicate-1)](#pretest-perceptual-structure-of-replicate-1)
+[*Pretest  Perceptual Structure of Replicate 1* [7](#pretest-perceptual-structure-of-replicate-1)](#pretest-perceptual-structure-of-replicate-1)
 
-[*Pretest -- Perceptual Structure of Replicate 2* [9](#pretest-perceptual-structure-of-replicate-2)](#pretest-perceptual-structure-of-replicate-2)
+[*Pretest  Perceptual Structure of Replicate 2* [9](#pretest-perceptual-structure-of-replicate-2)](#pretest-perceptual-structure-of-replicate-2)
 
 [*Additional Metrics* [9](#additional-metrics)](#additional-metrics)
 
@@ -587,7 +588,7 @@ Felipe M. Affonso (<felipemarinelliaffonso@gmail.com>), and Chris Janiszewski (<
 
 [*Perceptual Structure Pretest and Robustness of Manipulations* [17](#perceptual-structure-pretest-and-robustness-of-manipulations)](#perceptual-structure-pretest-and-robustness-of-manipulations)
 
-[*Pretest -- Attractiveness* [26](#pretest-attractiveness)](#pretest-attractiveness)
+[*Pretest  Attractiveness* [26](#pretest-attractiveness)](#pretest-attractiveness)
 
 [WEB APPENDIX C: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR STUDY 3 [27](#web-appendix-c-additional-methodological-details-and-analyses-for-study-3)](#web-appendix-c-additional-methodological-details-and-analyses-for-study-3)
 
@@ -657,38 +658,37 @@ These materials have been supplied by the authors to aid in the understanding of
 
 ## *Facebook Ads Used in the Study*
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Replicate 1 -- Unstructured Perception,                                                                                                        | Replicate 1 -- Structured Perception,                                                                                                                    |
++++
+| Replicate 1  Unstructured Perception,                                                                                                        | Replicate 1  Structured Perception,                                                                                                                    |
 |                                                                                                                                                |                                                                                                                                                          |
 | Hedonic                                                                                                                                        | Hedonic                                                                                                                                                  |
 |                                                                                                                                                |                                                                                                                                                          |
-| [Image: see published version]                                                                                                                         | [Image: see published version] |
+| [Brand logo or visual stimulus from study materials.]                                                                                                                         | [Brand logo or visual stimulus from study materials.] |
 +:==============================================================================================================================================:+:========================================================================================================================================================:+
-| Replicate 1 -- Unstructured Perception, Utilitarian                                                                                            | Replicate 1 -- Structured Perception, Utilitarian                                                                                                        |
+| Replicate 1  Unstructured Perception, Utilitarian                                                                                            | Replicate 1  Structured Perception, Utilitarian                                                                                                        |
 |                                                                                                                                                |                                                                                                                                                          |
-| [Image: see published version] | [Image: see published version]                                                                                                                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Brand logo or visual stimulus from study materials.] | [Brand logo or visual stimulus from study materials.]                                                                                                                                   |
++++
 
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| Replicate 2 -- Unstructured Perception, Hedonic | Replicate 2 -- Structured Perception, Hedonic                                                                                                  |
++++
+| Replicate 2  Unstructured Perception, Hedonic | Replicate 2  Structured Perception, Hedonic                                                                                                  |
 |                                                 |                                                                                                                                                |
-| [Image: see published version]                          | [Image: see published version] |
+| [Brand logo or visual stimulus from study materials.]                          | [Brand logo or visual stimulus from study materials.] |
 +=================================================+================================================================================================================================================+
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Replicate 2 -- Unstructured Perception, Utilitarian                                                                                                     | Replicate 2 -- Structured Perception, Utilitarian                                                                                                               |
++++
+| Replicate 2  Unstructured Perception, Utilitarian                                                                                                     | Replicate 2  Structured Perception, Utilitarian                                                                                                               |
 |                                                                                                                                                         |                                                                                                                                                                 |
-| [Image: see published version] | [Image: see published version] |
+| [Brand logo or visual stimulus from study materials.] | [Brand logo or visual stimulus from study materials.] |
 +=========================================================================================================================================================+=================================================================================================================================================================+
 
+## *Pretest  Product Positioning and Product Attractiveness*
 
-## *Pretest -- Product Positioning and Product Attractiveness*
-
-Before launching the ads, we pretested them to ensure that the perceptual structure and product positioning manipulations were working as intended. Specifically, we first created the ads on the Facebook platform, saved the images, and pretested the actual ads on MTurk (N = 429). Participants were randomly assigned to a 2 (perceptual structure: structured vs. unstructured) x 2 (product positioning: utilitarian vs. hedonic) x 2 (product replicate) between-subjects design. To assess product positioning, we asked participants to provide their perceptions of the advertised perfume (1 = "utilitarian (satisfies useful needs)" and 9 = "hedonic (provides pleasure)"; 1 = "functional (performs practical functions)" and 9 = "experiential (provides experiences and indulgences)"; and 1 = "instrumental (provides material benefits)" and 9 = "transformational (transforms the consumption experience")$\ (\alpha = \ .$`<!-- -->`{=html}82). Because greater values mean higher hedonic perception, we will refer to this measure as hedonic perception. We also asked how attractive the advertised perfume was (1 = "not attractive at all," and 9 = "very attractive").
+Before launching the ads, we pretested them to ensure that the perceptual structure and product positioning manipulations were working as intended. Specifically, we first created the ads on the Facebook platform, saved the images, and pretested the actual ads on MTurk (N = 429). Participants were randomly assigned to a 2 (perceptual structure: structured vs. unstructured) x 2 (product positioning: utilitarian vs. hedonic) x 2 (product replicate) between-subjects design. To assess product positioning, we asked participants to provide their perceptions of the advertised perfume (1 = "utilitarian (satisfies useful needs)" and 9 = "hedonic (provides pleasure)"; 1 = "functional (performs practical functions)" and 9 = "experiential (provides experiences and indulgences)"; and 1 = "instrumental (provides material benefits)" and 9 = "transformational (transforms the consumption experience")$\ (\alpha = \ .$`<! >`{=html}82). Because greater values mean higher hedonic perception, we will refer to this measure as hedonic perception. We also asked how attractive the advertised perfume was (1 = "not attractive at all," and 9 = "very attractive").
 
 There was no three-way interaction between perceptual structure, product positioning, and replicate on hedonic perception (F(1, 421) = .23, *p* = .632), suggesting that the pattern of results is similar across replicates. Thus, we collapsed across replicates for the subsequent analyses. There was only a main effect (F(1, 425) = 7.81, *p* = .005, ${\widehat{\omega}}_{p}^{2}$ = .016) of product positioning on hedonic perception, with no main effect (F(1, 425) = .02, *p* = .898) or interaction (F(1, 425) = .404, *p* = .53) involving the perceptual structure manipulation. As predicted, the perfumes with hedonic positioning (M = 6.38, SD = 1.77) were perceived as more hedonic than the utilitarian positioned perfumes (M = 5.89, SD = 1.83). Finally, there were no effects on perceived attractiveness (all F's NS). Collectively, these results suggest that the Facebook Ads manipulated product positioning as intended, and that the perfumes were equally attractive.
 
-## *Pretest -- Perceptual Structure of Replicate 1*
+## *Pretest  Perceptual Structure of Replicate 1*
 
 One hundred Prolific participants were randomly assigned to a 2-cell (perceptual structure: structured vs. unstructured) design. Participants saw one of the perfumes, with no positioning statement, and responded to the perceptual structure measure. We measured perceptual structure by explaining the definition of each of five items before administering the items. Specifically, we told participants:
 
@@ -706,11 +706,11 @@ One hundred Prolific participants were randomly assigned to a 2-cell (perceptual
 
 After explaining the item definitions, participants saw the replicate image. Below the replicate, we told participants: "Please look carefully at the product above and consider its visual characteristics and elements (e.g., colors, shapes, forms, lines, textures, objects). How would you evaluate the product?" We designed the measure such that there would be a shorter version of the explanations above each item:
 
-[Image: Graphical user interface, text, application, email Description automatically generated]
+[Qualtrics survey interface screenshot showing a Facebook-style ad stimulus with the "Horizon" perfume and study questions below, including evaluation scales and demographic measures.]
 
 *Results*. The perceptual structure measure had high reliability (α = .78). Participants perceived the package with a structured design had higher perceptual structure (M = 6.52, SD = 1.42) than the package with an unstructured design (M = 5.55, SD = 1.64; (F(1, 98) = 10.01, *p* = .002).
 
-## *Pretest -- Perceptual Structure of Replicate 2*
+## *Pretest  Perceptual Structure of Replicate 2*
 
 One hundred Prolific participants were randomly assigned to a 2-cell (perceptual structure: structured vs. unstructured) design. The pretest had the exact same procedure as the one we used in replicate 1, except for the replicate.
 
@@ -718,31 +718,31 @@ One hundred Prolific participants were randomly assigned to a 2-cell (perceptual
 
 ## *Additional Metrics*
 
-+-------------------------------------------------------------------------------------------------------+
+++
 | **Facebook Ads Metrics (Study 1)**                                                                    |
 +:=============================:+:===============:+:===============:+:===============:+:===============:+
 | Metric                        | Product Positioning                                                   |
 |                               |                                                                       |
 |                               | Perception                                                            |
-|                               +-----------------------------------+-----------------------------------+
+|                               +++
 |                               | Utilitarian                       | Hedonic                           |
-|                               +-----------------+-----------------+-----------------+-----------------+
+|                               +++++
 |                               | Structured      | Unstructured    | Structured      | Unstructured    |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 | Impressions                   | 20940           | 20920           | 19890           | 20663           |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 | Link Clicks                   | 529             | 380             | 403             | 525             |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 | CTR (Link Click-Through Rate) | 2.53%           | 1.82%           | 2.03%           | 2.54%           |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 | Reach                         | 19757           | 19712           | 18446           | 19448           |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 | Unique Link Clicks            | 481             | 353             | 373             | 489             |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 | Unique CTR                    | 2.43%           | 1.79%           | 2.02%           | 2.51%           |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 | Cost per Link Click           | \$0.18          | \$0.26          | \$0.23          | \$0.18          |
-+-------------------------------+-----------------+-----------------+-----------------+-----------------+
+++++++
 
 Notes: Impression is the number of times an ad appears on a screen. Link clicks refer to the number of clicks within the ad. CTR is the percentage of times people saw the ad (impression) and performed a link click. Reach is the number of people who saw the ad at least once (it differs from impressions because impressions may include multiple views of an ad by the same people). Unique link clicks refer to the number of people who performed a link click. Unique CTR is the percentage of people who saw the ad and performed a link click. Cost per link click is the average cost for each link click. Additional information can be found at Facebook's Business Help Center (<https://www.facebook.com/business/help>).
 
@@ -752,49 +752,49 @@ Notes: Impression is the number of times an ad appears on a screen. Link clicks 
 
 *Replicate 2 CTR analyses.* We ran a 2 (perceptual structure) x 2 (product positioning) Poisson log-linear model, which revealed the predicted interaction (χ^2^(1) = 18.79, p \< .001). As predicted, perceptual structure increased CTR when the product was positioned as utilitarian (CTR~structured~ = 2.51% vs. CTR~unstructured~ = 1.89%; χ^2^(1) = 9.39, p = .002), but decreased CTR when the product was positioned as hedonic (CTR~structured~ = 1.58% vs. CTR~unstructured~ = 2.19%; χ^2^(1) = 9.96, p = .002).
 
-+-------------------------------------------------------------------------------------+
+++
 | **Facebook Ads Metrics for Each Replicate (Study 1)**                               |
 +:===================:+:=============:+:=============:+:=============:+:=============:+
 | Metric              | Replicate 1                                                   |
-|                     +-------------------------------+-------------------------------+
+|                     +++
 |                     | Utilitarian                   | Hedonic                       |
-|                     +---------------+---------------+---------------+---------------+
+|                     +++++
 |                     | Structured    | Unstructured  | Structured    | Unstructured  |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Impressions         | 9935          | 10801         | 10047         | 10155         |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Link Clicks         | 253           | 189           | 247           | 295           |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | CTR                 | 2.55%         | 1.75%         | 2.46%         | 2.90%         |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Reach               | 9287          | 10208         | 9252          | 9568          |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Unique Link Clicks  | 225           | 178           | 229           | 272           |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Unique CTR          | 2.42%         | 1.74%         | 2.48%         | 2.84%         |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Cost per Link Click | \$0.19        | \$0.27        | \$0.18        | \$0.16        |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Metric              | Replicate 2                                                   |
-|                     +-------------------------------+-------------------------------+
+|                     +++
 |                     | Utilitarian                   | Hedonic                       |
-|                     +---------------+---------------+---------------+---------------+
+|                     +++++
 |                     | Structured    | Unstructured  | Structured    | Unstructured  |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Impressions         | 11005         | 10119         | 9843          | 10508         |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Link Clicks         | 276           | 191           | 156           | 230           |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | CTR                 | 2.51%         | 1.89%         | 1.58%         | 2.19%         |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Reach               | 10470         | 9504          | 9194          | 9880          |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Unique Link Clicks  | 256           | 175           | 144           | 217           |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Unique CTR          | 2.45%         | 1.84%         | 1.57%         | 2.20%         |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 | Cost per Link Click | \$0.18        | \$0.25        | \$0.31        | \$0.21        |
-+---------------------+---------------+---------------+---------------+---------------+
+++++++
 
 # WEB APPENDIX B: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR STUDY 2
 
@@ -804,17 +804,15 @@ There were 10 pairs of replicates and 2 shopping goals. We wanted 100 choices pe
 
 ## *Materials*
 
-
 **CONSUMER DECISION MAKING**
 
  
 
 We are investigating consumers\' personal preferences and opinions. You will read different scenarios and make a choice. Please click the arrow button to continue.
 
-
 Participants made 10 choices. Each choice had a layout similar to the one below. The example shows a utilitarian shopping goal with the perfumes pair.
 
-[Image: Graphical user interface Description automatically generated]
+[Survey interface screenshot showing experimental stimuli and measurement items.]
 
 Each replicate pair could be shown with one of two shopping goals. We will list every replicate and their associated shopping goals. We note that the presentation order of the replicates (and the choice options) was counterbalanced. The hedonic shopping goal is described inside the brackets.
 
@@ -822,25 +820,25 @@ Each replicate pair could be shown with one of two shopping goals. We will list 
 
 Imagine you are looking for a spa where you can get a massage that provides immediate pain relief and reduces body fatigue \[is enjoyable and relaxes your body\]. Which spa would you choose?
 
-[Image: Logo Description automatically generated][Image: see published version]
+[Brand logo stimulus from experimental materials.][Visual stimulus or image from study materials.]
 
 **Grocery Store**
 
 Imagine you are looking for a grocery store that sells fresh food and produce. You find two stores (below) that claim to offer low prices, convenience, and member benefits \[an enjoyable experience, exciting products, and a pleasurable environment\]. Which one would you choose?
 
-[Image: Bubble chart Description automatically generated][Image: see published version]
+[Bubble chart from study data analysis showing brand structure scores.][Retail environment or store interior photograph illustrating visual merchandising principles.]
 
 **Sunglasses**
 
 Imagine you are looking for sunglasses that provide superior UV protection, comfort, and durability \[superior style, designer frames, and novelty\]. Which brand would you choose?
 
-[Image: see published version][Image: see published version]
+[Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.]
 
 **Headphone**
 
 Imagine you are looking for headphones that provide superior performance functions, battery life, and comfort \[superior personalization functions, entertainment, and fun\]. Which brand would you choose?
 
-[Image: see published version][Image: see published version]
+[Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.]
 
 **Artisan Soaps**
 
@@ -852,19 +850,19 @@ Imagine you want to buy an artisan soap that revitalizes old skin, protects agai
 
 Imagine you are shopping for a perfume that is long-lasting and great for work / everyday occasions \[delightful and great for special / fun occasions\]. Which perfume would you choose?
 
-[Image: see published version][Image: see published version]
+[Facebook-style sponsored advertisement for "Horizon" Eau de Parfum by PerfumeGallery.com, showing a perfume bottle with visual design manipulated for perceptual structure conditions.][Facebook-style sponsored advertisement for "Horizon" Eau de Parfum by PerfumeGallery.com, showing a perfume bottle with visual design manipulated for perceptual structure conditions.]
 
 **Coffee**
 
 Imagine you want to buy a coffee that enhances concentration and alertness \[has a delightful taste and is enjoyable to drink\]. Which coffee would you choose?
 
-[Image: see published version][Image: see published version]
+[Visual stimulus or image from study materials.][Visual stimulus or image from study materials.]
 
 **Gift Shop**
 
 Imagine you are looking for a gift shop that provides a hassle-free shopping experience and reasonable pricing (an enjoyable shopping experience and exciting options). Which gift shop do you think is the best for your needs?
 
-[Image: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community][Image: Museums gift shops make money --- and shape our understanding of art - Vox]
+[Image: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community][Image: Museums gift shops make money  and shape our understanding of art - Vox]
 
 **Spa Product Store**
 
@@ -884,17 +882,17 @@ After participants' choices, we collected demographics
 
 First, we pretested whether the set of options designed to generate structured versus unstructured perceptions varied on the perceptual structure scale. Second, we confirmed that perceptual structure was sensitive to a robust set of design manipulations. The robustness test was necessary to confirm that design principle manipulations influenced the hypothetical perceptual structure construct rather than unique empirical constructs reflected by their manipulation.
 
-**Pretest -- Perceptual Structure Perceptions**
+**Pretest  Perceptual Structure Perceptions**
 
 We conducted a pretest with 100 Prolific participants to confirm the perceptual structure scale differentiated the options designed to generate structured and unstructured perceptions for each of the 10 replicates. We wanted each replicate option (10 pairs with 2 options per pair = 20 options) to have 50 evaluations. Thus, each participant saw all 10 pairs, and we randomly assigned whether the participant saw the structured perception or the unstructured perception option for each pair.
 
 We told participants we were investigating consumers' personal preferences and opinions. We told them we wanted them to rate the visual characteristics of products, logos, or stores on five different characteristics. We showed them the definitions for each of the characteristics that indicate a structured perception using the same text from the pretest for Study 1. Then, participants saw one of the replicates and evaluated the replicate on the structure scale. We presented the scale with shorter versions of the definitions just as we did in Study 1's pretest. The pretest results confirmed the perceptual structure scale differentiated the structured stimulus and unstructured stimulus options for each of the 10 replicates. The "Structure Scale" line in table 1 (below) shows the results for all replicates. The manipulation of perceptual structure was successful for all replicates. The remining lines will be discussed in the next pretest.
 
-**Table 1 -- Study 2 Perceptual Structure and Robustness to Design Manipulations**
+**Table 1  Study 2 Perceptual Structure and Robustness to Design Manipulations**
 
-[Image: see published version]
+[Brand logo or visual stimulus from study materials.]
 
-**Pretest -- Perceptual Structure Manipulations**
+**Pretest  Perceptual Structure Manipulations**
 
 The literature on organizational design principles is empiricist. Past researchers have manipulated symmetry, balance, organization, regularity, organic/geometric, proximity, and similarity and observed the effect of the manipulation on cognition or behavior. These researchers treated each design principle as a unique empirical construct. For example, a manipulation of symmetry (a property of a stimulus) is treated as a manipulation of the symmetry construct.
 
@@ -912,25 +910,25 @@ Participants read the following instructions:
 
 Then, participant moved to the next page. On each subsequent page, participants read a description of one of the organizational principles described in Table 1 of the main text, a question about this principle pertaining the replicate option that they were randomly assigned to see, and a picture of the replicate. Below we show one example of a participant rating the structured spa in the balance organizational principle:
 
-[Image: see published version]
+[Brand logo or visual stimulus from study materials.]
 
 Balance captures the notion that there is a center of suspension between two weights or portions of a figure or design object. For example, the figure on the left is balanced by the circle in the middle. The figure on the right is unbalanced.\
  
 
 To which extent the different elements that are part of the **logo** below are **balanced** with one another?
 
-[Image: see published version]
+[Brand logo stimulus from experimental materials.]
 
 Once this participant rated the "balance" principle, he or she moved to the next organizational principle. We covered all organizational principles mentioned in the main text (proximity, similarity, symmetry, common region, balance, completeness, geometry, organization, regularity) for all options. The organizational principles presentation order was counterbalanced. A subsequent evaluation page for this participant that has just rated balance could show the following (if common region was randomly selected as the next principle):
 
-[Image: Chart Description automatically generated]
+[Statistical bar chart from study results showing interaction effects.]
 
 The principle of the common region states that objects located within the same closed region (common region) are grouped together. For example, the two leftmost columns on the left are grouped by a rectangle. The four elements on the top right are grouped by a rectangle. Therefore, these objects are perceived as grouped together by a rectangle.\
  
 
 To which extent the different elements that are part of the **logo **below are **located within the same common region**?
 
-[Image: see published version]
+[Brand logo stimulus from experimental materials.]
 
 The survey was designed such that each replicate option would have at least 50 evaluations across all organizational principles.
 
@@ -938,7 +936,7 @@ Below, we will list every question used to measure the organizational principles
 
 **Proximity**
 
-[Image: Background pattern Description automatically generated]
+[Visual pattern stimulus used in experimental conditions, showing structured or unstructured design elements.]
 
 The principle of proximity states that when different elements are relatively close (proximal), they are grouped together and perceived as a unified object. For example, the circles on the left are perceived as a single object, whereas the circles on the right are perceived as two separate objects (two columns of circles).\
  
@@ -947,7 +945,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Similarity**
 
-[Image: Background pattern Description automatically generated]
+[Visual pattern stimulus used in experimental conditions, showing structured or unstructured design elements.]
 
 The principle of similarity states that when different elements share common features (similarity), they are grouped together and perceived as a unified object. For example, the circles on the left are grouped by color, and the circles on the right are grouped by shape.\
  
@@ -956,7 +954,7 @@ To which extent the different elements that are part of the** \${e://Field/DESC
 
 **Symmetry**
 
-[Image: Icon Description automatically generated]
+[Logo icon used as experimental stimulus.]
 
 Symmetry is the extent to which the size, shape, and position of the interrelated parts of a whole correspond in reference to a point or axis - generally the middle of the object. Symmetrical elements tend to be perceived as a unified object. For example, the figure on the left has two symmetrical triangles that form a unified triangle. The figure on the right has two asymmetrical triangles.\
  
@@ -965,7 +963,7 @@ To which extent the different elements that are part of the \${e://Field/DESCRIP
 
 **Common Region**
 
-[Image: Chart Description automatically generated]
+[Statistical bar chart from study results showing interaction effects.]
 
 The principle of the common region states that objects located within the same closed region (common region) are grouped together. For example, the two leftmost columns on the left are grouped by a rectangle. The four elements on the top right are grouped by a rectangle. Therefore, these objects are perceived as grouped together by a rectangle.\
  
@@ -974,7 +972,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Balance**
 
-[Image: see published version]
+[Visual stimulus or image from study materials.]
 
 Balance captures the notion that there is a center of suspension between two weights or portions of a figure or design object. For example, the figure on the left is balanced by the circle in the middle. The figure on the right is unbalanced.\
  
@@ -983,7 +981,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Completeness**
 
-[Image: see published version]
+[Visual stimulus or image from study materials.]
 
 The principle of completeness states that visual elements that are part of an incomplete stimulus tend to be grouped into a recognizable pattern. For example, the two figures on the left are complete, and the two figures on the right are incomplete.\
  
@@ -992,7 +990,7 @@ To which extent the \${e://Field/DESCRIPTOR} below is comprised of **complete a
 
 **Geometry**
 
-[Image: see published version]
+[Visual stimulus or image from study materials.]
 
 Geometric objects resemble objects that are human made, planned, or measured, whereas organic objects are more irregular, unplanned, or natural. For example, the figures on the left are geometric, and the figures on the right are organic.\
  
@@ -1001,7 +999,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Organization**
 
-[Image: see published version]
+[Visual stimulus or image from study materials.]
 
 Organization is the grouping of a spatial configuration of a set of elements based on identifiable criteria such as a product\'s brand, price, color, size, or any other visually salient features. For example, the figure on the left is organized by shape and/or color. The figure on the right is disorganized.\
  
@@ -1010,7 +1008,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Regularity**
 
-[Image: Chart Description automatically generated with medium confidence]
+[Statistical chart from study results.]
 
 Regularity is the state or condition of having a fixed pattern, with equal or similar amounts of space or time between one and the next. For example, the figure on the left is regular and uniform because it follows a specific pattern for each row. The figure on the right is irregular and not uniform because there is no pattern between the circles.\
  
@@ -1019,7 +1017,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 The analysis is presented in Table 1 (above). Across the 10 replicated, each design principle was reflected in the stimulus manipulation. The implication is that perceptual structure can be manipulated by combinations of design principle, hence, it reflects a perceptual property that is common to the design principle manipulations.
 
-## *Pretest -- Attractiveness*
+## *Pretest  Attractiveness*
 
 We conducted a pretest with 270 participants from MTurk to ensure that the choice options were equally preferred in the absence of a shopping goal. Participants saw 5 (out of 10) pairs and chose the one they considered the best option in the absence of a shopping goal. The pair presentation order was counterbalanced. We coded the choice as 0 for the unstructured perception option and 1 for the structured perception option, and compared all choices with .5. None of the comparisons were significant (all t's \< 1), showing that preference did not vary between options in the absence of a shopping goal. All choice shares were in the 45 to 55% range.
 
@@ -1027,9 +1025,9 @@ We conducted a pretest with 270 participants from MTurk to ensure that the choic
 
 ## *Availability of Information per Brand*
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
          **Brand**         **BrandZ Valuation**   **Brand Finance Valuation**   **Brand Asset Index**   **BAV Control Variables**   **BAV Perceptual Dimensions**
-  ----------------------- ---------------------- ----------------------------- ----------------------- --------------------------- -------------------------------
+       
      21st Century Fox               No                        Yes                        Yes                       Yes                           Yes
 
             3M                      No                        Yes                        Yes                       No                            Yes
@@ -1285,7 +1283,7 @@ We conducted a pretest with 270 participants from MTurk to ensure that the choic
           Xfinity                  Yes                        Yes                        Yes                       Yes                           Yes
 
           YouTube                  Yes                        Yes                        Yes                       Yes                           Yes
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
 
 ## *Survey Instructions and Definitions for the Perceptual Structure Scale*
 
@@ -1333,35 +1331,35 @@ The tables below list all three dependent variables (BrandZ Financial Valuation,
 
 ## *Robustness Tests Involving Brand Personality Dimensions and the Perceptual Structure Scale*
 
-+-----------------------------------+---------------------+-------------------------------------------------------------+--------------------------------------------------------------------------+
++++++
 |                                   |                     | Excitement and Sophistication                               | All Brand Personality Dimensions                                         |
 +:=================================:+:===================:+:===========================:+:=============================:+:==================================:+:===================================:+
 | **Dependent Variable**            | **Analysis**        | With Control Variables      | Personality Dimensions Only   | With Control Variables             | Personality Dimensions Only         |
-+-----------------------------------+---------------------+-----------------------------+-------------------------------+------------------------------------+-------------------------------------+
++++++++
 | Log of BrandZ Financial Valuation | Interaction         | ß = .260,                   | ß = .21, t(91) = 1.97,        | ß = .32, t(80) = 3.89, *p* \< .001 | ß = .21, t(88) = 2.42,              |
 |                                   |                     |                             |                               |                                    |                                     |
 |                                   |                     | t(83) = 2.66,               | *p* = .051                    |                                    | *p* = .018                          |
 |                                   |                     |                             |                               |                                    |                                     |
 |                                   |                     | *p* = .009                  |                               |                                    |                                     |
-|                                   +---------------------+-----------------------------+-------------------------------+------------------------------------+-------------------------------------+
+|                                   ++++++
 |                                   | J-N p\<.05 interval | Outside of \[3.64, 5.75\]\* | Above 5.86                    | Outside of \[4.41, 5.84\]          | Outside of \[3.35, 5.92\]\*         |
-+-----------------------------------+---------------------+-----------------------------+-------------------------------+------------------------------------+-------------------------------------+
++++++++
 | Log of Brand Finance Valuation    | Interaction         | ß = .21,                    | ß = .16,                      | ß = .20, t(71) = 2.69, *p* = .009  | ß = .124 ,                          |
 |                                   |                     |                             |                               |                                    |                                     |
 |                                   |                     | t(74) = 2.67,               | t(90) = 1.86,                 |                                    | t(87) = 1.75,                       |
 |                                   |                     |                             |                               |                                    |                                     |
 |                                   |                     | *p* = .009                  | *p* = .066                    |                                    | *p* = .084                          |
-|                                   +---------------------+-----------------------------+-------------------------------+------------------------------------+-------------------------------------+
+|                                   ++++++
 |                                   | J-N p\<.05 interval | Outside of \[5.26, 7.21\]\* | Below 4.95\*                  | Outside of \[5.30, 7.28\]\*        | Below 4.03                          |
-+-----------------------------------+---------------------+-----------------------------+-------------------------------+------------------------------------+-------------------------------------+
++++++++
 | Brand Asset Index                 | Interaction         | ß = .160,                   | ß = .20,                      | ß = .146, t(96) = 3.90, *p* = .002 | ß = .120, t(112) = 1.96, *p* = .052 |
 |                                   |                     |                             |                               |                                    |                                     |
 |                                   |                     | t(99) = 3.26,               | t(115) = 1.41,                |                                    |                                     |
 |                                   |                     |                             |                               |                                    |                                     |
 |                                   |                     | *p =* .001                  | *p =* .160                    |                                    |                                     |
-|                                   +---------------------+-----------------------------+-------------------------------+------------------------------------+-------------------------------------+
+|                                   ++++++
 |                                   | J-N p\<.05 interval | Outside of \[4.66, 6.40\]   | No points of significance\*\* | Outside of \[4.51, 5.92\]          | Above 5.11                          |
-+-----------------------------------+---------------------+-----------------------------+-------------------------------+------------------------------------+-------------------------------------+
++++++++
 
 \*J-N interval for p\<.10
 
@@ -1369,35 +1367,35 @@ The tables below list all three dependent variables (BrandZ Financial Valuation,
 
 ## *Robustness Tests Involving Brand Personality Dimensions and Perceptual Structure Index*
 
-+-----------------------------------+---------------------+----------------------------------------------------------+--------------------------------------------------------------------------+
++++++
 |                                   |                     | Excitement and Sophistication                            | All Brand Personality Dimensions                                         |
 +:=================================:+:===================:+:==========================:+:===========================:+:==================================:+:===================================:+
 | **Dependent Variable**            | **Analysis**        | With Control Variables     | Personality Dimensions Only | With Control Variables             | Personality Dimensions Only         |
-+-----------------------------------+---------------------+----------------------------+-----------------------------+------------------------------------+-------------------------------------+
++++++++
 | Log of BrandZ Financial Valuation | Interaction         | ß = .47,                   | ß = .44, t(91) = 4.21,      | ß = .37, t(80) = 3.70,             | ß = 3.60 t(88) = 3.55,              |
 |                                   |                     |                            |                             |                                    |                                     |
 |                                   |                     | t(83) = 4.31,              | *p* \< .001                 | *p* \< .001                        | *p \<* .001                         |
 |                                   |                     |                            |                             |                                    |                                     |
 |                                   |                     | *p* \< .001                |                             |                                    |                                     |
-|                                   +---------------------+----------------------------+-----------------------------+------------------------------------+-------------------------------------+
+|                                   ++++++
 |                                   | J-N p\<.05 interval | Outside of \[4.65, 6.00 \] | Outside of \[4.80, 6.18\]   | Outside of \[4.69, 6.33\]          | Outside of \[4.90, 6.63\]           |
-+-----------------------------------+---------------------+----------------------------+-----------------------------+------------------------------------+-------------------------------------+
++++++++
 | Log of Brand Finance Valuation    | Interaction         | ß = .264,                  | ß = .27, t(90) = 3.73,      | ß = .22, t(71) = 2.69, *p* = .009  | ß = .23,                            |
 |                                   |                     |                            |                             |                                    |                                     |
 |                                   |                     | t(74) = 3.30,              | *p* \< .001                 |                                    | t(87) = 3.12,                       |
 |                                   |                     |                            |                             |                                    |                                     |
 |                                   |                     | *p* = .001                 |                             |                                    | *p* = .002                          |
-|                                   +---------------------+----------------------------+-----------------------------+------------------------------------+-------------------------------------+
+|                                   ++++++
 |                                   | J-N p\<.05 interval | Outside of \[4.86, 7.04\]  | Outside of \[5.00, 6.62\]   | Outside of \[4.93, 7.18\]\*        | Outside of \[5.05, 7.25\]           |
-+-----------------------------------+---------------------+----------------------------+-----------------------------+------------------------------------+-------------------------------------+
++++++++
 | Brand Asset Index                 | Interaction         | ß = .211,                  | ß = .509, t(115) = 3.08,    | ß = .146, t(96) = 3.09, *p* = .003 | ß = .105, t(112) = 1.43, *p* = .156 |
 |                                   |                     |                            |                             |                                    |                                     |
 |                                   |                     | t(99) = 3.62,              | *p =* .003                  |                                    |                                     |
 |                                   |                     |                            |                             |                                    |                                     |
 |                                   |                     | *p \<* .001                |                             |                                    |                                     |
-|                                   +---------------------+----------------------------+-----------------------------+------------------------------------+-------------------------------------+
+|                                   ++++++
 |                                   | J-N p\<.05 interval | Outside of \[4.26, 5.90\]  | Outside of \[3.18, 5.20\]\* | Outside of \[3.44, 5.68\]          | Above 4.75                          |
-+-----------------------------------+---------------------+----------------------------+-----------------------------+------------------------------------+-------------------------------------+
++++++++
 
 \*J-N interval for p\<.10
 
@@ -1416,7 +1414,6 @@ We preregistered (preregistration: <https://aspredicted.org/CLG_KMC>) and collec
 **CONSUMER DECISION MAKING**
 
 We are investigating consumers\' personal preferences and opinions. Please click the arrow button to continue.
-
 
 **\[Utilitarian Library Framing Condition\]**
 
@@ -1438,36 +1435,33 @@ The Spectrum Library provides access to many facilities, including common spaces
 
 (High-resolution picture: <https://i.imgur.com/PmFymMC.jpg>).
 
-[Image: see published version]
+[Interior photograph of a library environment manipulated for perceptual structure (structured: symmetric, mirrored, regular layout; unstructured: curved shelves, organic layout).]
 
 **\[Unstructured Perception Library, Replicate 1\]**
 
 (High-resolution picture: <https://i.imgur.com/Qek9UKH.jpg>).
 
-[Image: see published version]
+[Interior photograph of a library environment manipulated for perceptual structure (structured: symmetric, mirrored, regular layout; unstructured: curved shelves, organic layout).]
 
 **\[Structured Perception Library, Replicate 2\]**
 
 (High-resolution picture: <https://i.imgur.com/2wOLwMA.jpg>).
 
-[Image: see published version]
+[Interior photograph of a library environment manipulated for perceptual structure (structured: symmetric, mirrored, regular layout; unstructured: curved shelves, organic layout).]
 
 **\[Unstructured Perception Library, Replicate 2\]**
 
 (High-resolution picture: <https://i.imgur.com/32tdk9b.jpg>).
 
-[Image: see published version]
-
+[Interior photograph of a library environment manipulated for perceptual structure (structured: symmetric, mirrored, regular layout; unstructured: curved shelves, organic layout).]
 
 "Please provide your overall evaluation for The Spectrum Library" (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; and 1 = "very unfavorable" and 9 = "very favorable")
-
 
 "How effective do you think The Spectrum Library is at offering..."
 
 **\[Utilitarian Value\]\***
 
 ("an effective learning environment?", "access to a large amount of information?", "professional development opportunities?", and "a safe environment?"; all with 1 = "not effective at all", and 9 = "very effective")
-
 
 "How effective do you think The Spectrum Library is at offering..."
 
@@ -1477,25 +1471,19 @@ The Spectrum Library provides access to many facilities, including common spaces
 
 \*The presentation order of the mediators was counterbalanced\*
 
-
 "The description and picture of the library was:" (1 = "difficult to process" vs. 9 = "easy to process"; 1 = "difficult to understand" vs. "9 = "easy to understand"; 1 = "required a lot of effort to understand" vs. 9 = "required no effort to understand"; and 1 = "very complex" vs. 9 = "very simple")
 
-
 :"How aesthetically pleasing is The Spectrum Library?" with 1 = "not at all" and 9 = "very much
-
 
 "We want you to evaluate The Spectrum Library in terms of what you think it is most consistent at relative to what it claims to offer. This question is not about how well The Spectrum Library can offer what it claims to offer, but about what The Spectrum Library claims to offer
 
 (1 = "utilitarian (satisfies useful needs)" and 9 = "hedonic (provides pleasure)"; 1 = "functional (performs practical functions)" and 9 = "experiential (provides experiences and indulgences)"; and 1 = "instrumental (provides material benefits)" and 9 = "transformational (transforms the consumption experience")
 
-
 What are your perceptions of The Spectrum Library? The Spectrum Library is\...
 
 (1 = "symmetric" and 9 = "asymmetric"; 1 = "balanced" and 9 = "unbalanced); and 1 = "regular" and 9 = "irregular").
 
-
 Demographics (Gender, Age)
-
 
 # WEB APPENDIX E: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR STUDY 5A
 
@@ -1515,14 +1503,13 @@ We conducted a test of discriminant validity for the dependent measure (evaluati
 
 We are investigating consumers\' personal preferences and opinions. Please click the arrow button to continue.
 
-
 **\[Unstructured Condition\]**
 
-[Image: see published version]
+[Visual stimulus or image from study materials.]
 
 **\[Structured Condition\]**
 
-[Image: Logo Description automatically generated]
+[Brand logo stimulus from experimental materials.]
 
 Astro G S7 Pro is a smart, cordless stick vacuum cleaner excellent for multiple surfaces and pet hair cleaning.
 
@@ -1534,24 +1521,19 @@ The Astro G S7 Pro is fully charged quickly, has a long runtime, a large capacit
 
 Astro G S7 Pro is fully charged in 30 minutes, runs for up to 70 minutes, has a 1-quart capacity dust cup, comes with a complete seal technology that captures 99.99% of dust and allergens, and has a 10-year battery life.
 
-**(The ad stayed throughout all the survey -- participants who clicked the next button saw the different questions, but the manipulations were on top of the page\]**
+**(The ad stayed throughout all the survey  participants who clicked the next button saw the different questions, but the manipulations were on top of the page\]**
 
 "Please provide your overall evaluation for Astro G" (1 = "very bad," and 9 = "very good"; 1 = "very negative," and 9 = "very positive"; and 1 = "very unfavorable," and 9 = "very favorable")
 
-
 "How effective do you think Astro G is at offering a cordless vacuum cleaner..." ("that charges quickly?", "with superior runtime?", "with a large dust cup capacity?", "with a high-efficient filter?", and "that is durable?"; all with 1 = "not effective at all" and 9 = "very effective")
 
-
 "The brand logo and description of Astro G S7 Pro was:" (1 = "difficult to process" vs. 9 = "easy to process"; 1 = "difficult to understand" vs. "9 = "easy to understand"; 1 = "required a lot of effort to understand" vs. 9 = "required no effort to understand"; and 1 = "very complex" vs. 9 = "very simple")
-
 
 What are your perceptions of Astro G\'s logo in terms of its visual characteristics?
 
 (1 = "symmetric" and 9 = "asymmetric"; 1 = "balanced" and 9 = "unbalanced"; 1 = "geometric" and 9 = "organic"; and 1 = "regular" and 9 = "irregular").
 
-
 "How specific is the information about Astro G in describing the product's performance?," "How helpful is the information about Astro G for understanding the product's actual level of performance?," and "To what extent does the information about Astro G make you certain about the product's performance?" (with 1 = "not at all" and 9 = "very much")
-
 
 Demographics (Gender, Age)
 
@@ -1573,37 +1555,31 @@ We conducted a test of discriminant validity for the dependent measure (evaluati
 
 We are investigating consumers\' personal preferences and opinions. Please click the arrow button to continue.
 
-
 A new chocolate experience has arrived: Choco-Bliss!
 
 **\[Unstructured Condition\]**
 
-[Image: see published version]
+[Choco-Bliss chocolate package design manipulated for structured (similar, symmetric, regular, geometric patterns) vs. unstructured (dissimilar, asymmetric, organic, irregular patterns) perceptions.]
 
 **\[Structured Condition\]**
 
-[Image: Text Description automatically generated]
+[Brand name text label or experimental condition indicator.]
 
 **\[Less Diagnostic Review Condition\]**
 
-[Image: Text, letter Description automatically generated] **\[More Diagnostic Review Condition\]**
+[Brand name text stimulus with structured/unstructured typography.] **\[More Diagnostic Review Condition\]**
 
-[Image: Graphical user interface, text, application Description automatically generated] **(The ad was pictured throughout all the survey -- participants who clicked the next button saw the different questions, but the manipulations were on top of the page\]**
+[Survey interface showing experimental ad stimulus with product image and measurement scales.] **(The ad was pictured throughout all the survey  participants who clicked the next button saw the different questions, but the manipulations were on top of the page\]**
 
 Please provide your overall evaluation for Choco-Bliss: (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; and 1 = "very unfavorable" and 9 = "very favorable")
 
-
 ""How effective do you think Choco-Bliss is at offering..." ("pleasurable chocolates?", "delicious chocolates?", "enjoyable chocolates?", and "tasty chocolates?" all with 1 = "not effective at all" and 9 = "very effective")
-
 
 "The information about Choco-Bliss was\...:" (1 = "difficult to process" vs. 9 = "easy to process"; 1 = "difficult to understand" vs. "9 = "easy to understand"; 1 = "required a lot of effort to understand" vs. 9 = "required no effort to understand"; and 1 = "very complex" vs. 9 = "very simple")
 
-
 "How would you evaluate Choco-Bliss' chocolate visual elements? The visual elements are..." (1 = "symmetric" and 9 = "asymmetric"; 1 = "similar to each other" and 9 = "dissimilar to each other"; 1 = "regular" and 9 = "irregular"; and 1 = "geometric" and 9 = "organic")
 
-
 "How well does the review about Choco-Bliss describe the consumption experience?," "How helpful is the review about Choco-Bliss for understanding how one feels when eating the chocolate?," and "To which extent the review about Choco-Bliss help you anticipate the taste of the chocolate?" (with 1 = "not at all" and 9 = "very much")
-
 
 Demographics (Gender, Age)
 
@@ -1611,33 +1587,33 @@ Demographics (Gender, Age)
 
 ## *Reference List*
 
-Bagozzi, Richard P. and Lynn W. Phillips (1982), "Representing and Testing Organizational Theories: A Holistic Construal," *Administrative Science Quarterly*, 27(3), 459--489.
+Bagozzi, Richard P. and Lynn W. Phillips (1982), "Representing and Testing Organizational Theories: A Holistic Construal," *Administrative Science Quarterly*, 27(3), 459489.
 
-Fornell, Claes and David F. Larcker (1981), "Evaluating Structural Equation Models with Unobservable Variables and Measurement Error," *Journal of Marketing Research*, 18 (1), 39--50.
+Fornell, Claes and David F. Larcker (1981), "Evaluating Structural Equation Models with Unobservable Variables and Measurement Error," *Journal of Marketing Research*, 18 (1), 3950.
 
 Hayes, Andrew F. (2018), *An Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach*, 2nd ed. New York, NY: Guilford.
 
-Henderson, Pamela W., Joan L. Giese, and Joseph A. Cote (2004), "Impression Management Using Typeface Design," *Journal of Marketing*, 68 (4), 60--72.
+Henderson, Pamela W., Joan L. Giese, and Joseph A. Cote (2004), "Impression Management Using Typeface Design," *Journal of Marketing*, 68 (4), 6072.
 
-Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterion for Assessing Discriminant Validity in Variance-based Structural Equation Modeling," *Journal of the Academy of Marketing Science*, 43 (1), 115--135.
+Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterion for Assessing Discriminant Validity in Variance-based Structural Equation Modeling," *Journal of the Academy of Marketing Science*, 43 (1), 115135.
 
 # WEB APPENDIX H: REAL-WORLD EXAMPLES OF STRUCTURE IN THE MARKETPLACE
 
 ## *Structured Brand Logos and/or Typefaces:*
 
-[Image: see published version][Image: see published version][Image: see published version]
+[Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.]
 
-[Image: Icon Description automatically generated][Image: Shape, square Description automatically generated][Image: Logo, company name Description automatically generated][Image: see published version][Image: Logo Description automatically generated]![Volkswagen Logo Meaning and History \[Volkswagen symbol\]](media/image77.png)
+[Logo icon used as experimental stimulus.][Geometric shape logo stimulus (structured perception).][Brand logo with company name.][Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.]![Volkswagen Logo Meaning and History \[Volkswagen symbol\]](media/image77.png)
 
-[Image: Logo Description automatically generated][Image: Text, logo, company name Description automatically generated] [Image: adidas ZX 500 Trainers - White/Blue - Shoes - ARKET IT \| Adidas originals logo, Adidas logo wallpapers, Adidas logo]
+[Brand logo stimulus from experimental materials.][Brand logo with company name text.] [Image: adidas ZX 500 Trainers - White/Blue - Shoes - ARKET IT \| Adidas originals logo, Adidas logo wallpapers, Adidas logo]
 
 ## *Unstructured Brand Logos and/or Typefaces:*
 
-[Image: Logo, company name Description automatically generated] [Image: Nike tagline voted most memorable brand slogan \| Creative Bloq] [Image: Mountain Dew - Wikipedia]
+[Brand logo with company name.] [Image: Nike tagline voted most memorable brand slogan \| Creative Bloq] [Image: Mountain Dew - Wikipedia]
 
 [Image: Marriott International, Inc. Archives - Symmons] [Image: Spotify\'s Asymmetrical Strokes In Its Logo Design Are Irking Some Of Its Users \| Brandikaran] [Image: YouTube]
 
-[Image: see published version][Image: see published version] [Image: see published version]
+[Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.] [Brand logo stimulus from experimental materials.]
 
 [Image: Gatorade logo after 2009 \| Drinks logo, Gatorade, Logos] [Image: Logo, icon Description automatically generated] [Image: Burger King \| Logopedia \| Fandom]
 
@@ -1681,15 +1657,15 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 [Image: Feel the comfort of a spa, anytime you choose!]
 
-[Image: see published version] [Image: see published version]
+[Visual stimulus or image from study materials.] [Visual stimulus or image from study materials.]
 
-[Image: see published version]
+[Visual stimulus or image from study materials.]
 
 [Image: Gift & Nature Shop at Tarpon Bay Explorers]
 
-[Image: Museums gift shops make money --- and shape our understanding of art - Vox]
+[Image: Museums gift shops make money  and shape our understanding of art - Vox]
 
-[Image: see published version]
+[Retail environment or store interior photograph illustrating visual merchandising principles.]
 
 [Image: Shopping in Asheville, NC \| The Omni Grove Park Inn]
 
@@ -1697,12 +1673,11 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 ## *Structured Environments:*
 
-[Image: see published version]
+[Visual stimulus or image from study materials.]
 
 [Image: Restaurants Near Greenbelt - Crowne Plaza]
 
-
-[Image: see published version]
+[Restaurant interior photograph illustrating structured or unstructured design principles.]
 
 [Image: Creating an effective retail space - Design Middle East]
 
@@ -1710,15 +1685,15 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 [Image: Liverpool Polanco Department Store, Mexico City (A.R.E Awards)]
 
-[Image: Ananti Hilton Busan, Busan -- Updated 2022 Prices][Image: Chinese Bookstore Provides a Futuristic Shopping Experience \| Architectural Digest][Image: see published version]
+[Image: Ananti Hilton Busan, Busan  Updated 2022 Prices][Image: Chinese Bookstore Provides a Futuristic Shopping Experience \| Architectural Digest][Brand logo or visual stimulus from study materials.]
 
 [Image: Learning Hub - Sign in \| Restaurant interior design, Asian interior design, Interior design principles]
 
 [Image: Workshop Palm Springs Crowned America\'s Top Restaurant Design for 2013]
 
-[Image: see published version]
+[Retail environment or store interior photograph illustrating visual merchandising principles.]
 
-[Image: Background pattern Description automatically generated]
+[Visual pattern stimulus used in experimental conditions, showing structured or unstructured design elements.]
 
 [Image: Prime - Bellagio Hotel \| Wheelchair Jimmy Restaurant Accessibility Reviews]
 
@@ -1730,9 +1705,9 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 [Image: LOT 1 Cafe , Bar and Restaurant \| Enter Projects - Arch2O.com]
 
-[Image: Nemika Concept Store by Kohei Nawa, Tokyo -- Japan]
+[Image: Nemika Concept Store by Kohei Nawa, Tokyo  Japan]
 
-[Image: see published version]
+[Retail environment or store interior photograph illustrating visual merchandising principles.]
 
 [Image: FRAME \| A multifunctional retail space in Shanghai changes with each season]
 
@@ -1750,39 +1725,39 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 # **WEB APPENDIX I: TABLE 1 REFERENCES**
 
-Ballantine, Paul W., Richard Jack, and Andrew Parsons (2010), "Atmospheric Cues and Their Effect on the Hedonic Retail Experience," *International Journal of Retail & Distribution Management*, 38 (8), 641--53.
+Ballantine, Paul W., Richard Jack, and Andrew Parsons (2010), "Atmospheric Cues and Their Effect on the Hedonic Retail Experience," *International Journal of Retail & Distribution Management*, 38 (8), 64153.
 
-Brown, James R. (2020), "The Competitive Structure of Restaurant Retailing: The Impact of Hedonic-utilitarian Patronage Motives," *Journal of Business Research*, 107 (C), 233--44.
+Brown, James R. (2020), "The Competitive Structure of Restaurant Retailing: The Impact of Hedonic-utilitarian Patronage Motives," *Journal of Business Research*, 107 (C), 23344.
 
-Chen, Charlene Y., Leonard Lee, and Sandy J. Yap (2017), "Control Deprivation Motivates Acquisition of Utilitarian Products," *Journal of Consumer Research*, 43 (April), 1031--47.
+Chen, Charlene Y., Leonard Lee, and Sandy J. Yap (2017), "Control Deprivation Motivates Acquisition of Utilitarian Products," *Journal of Consumer Research*, 43 (April), 103147.
 
-Childers, Terry L., Christopher L. Carr, Joann Peck, and Stephen Carson (2002), "Hedonic and Utilitarian Motivations for Online Retail Shopping Behavior," *Journal of Retailing*, 77 (4), 511--35.
+Childers, Terry L., Christopher L. Carr, Joann Peck, and Stephen Carson (2002), "Hedonic and Utilitarian Motivations for Online Retail Shopping Behavior," *Journal of Retailing*, 77 (4), 51135.
 
-Chitturi, Ravindra, Rajagopal Raghunathan, and Vijay Mahajan (2008), "Delight by Design: The Role of Hedonic versus Utilitarian Benefits," *Journal of Marketing*, 72 (3), 48--63.
+Chitturi, Ravindra, Rajagopal Raghunathan, and Vijay Mahajan (2008), "Delight by Design: The Role of Hedonic versus Utilitarian Benefits," *Journal of Marketing*, 72 (3), 4863.
 
-Hagtvedt, Henrik and Venessa M. Patrick (2014), "Consumer Response to Overstyling: Balancing Aesthetics and Functionality in Product Design," *Psychology & Marketing*, 31 (7), 518--25.
+Hagtvedt, Henrik and Venessa M. Patrick (2014), "Consumer Response to Overstyling: Balancing Aesthetics and Functionality in Product Design," *Psychology & Marketing*, 31 (7), 51825.
 
-Huettl, Verina and Heribert Gierl (2012), "Visual Art in Advertising: The Effects of Utilitarian vs. Hedonic Product Positioning and Price Information," *Marketing Letters*, 23, 893--904.
+Huettl, Verina and Heribert Gierl (2012), "Visual Art in Advertising: The Effects of Utilitarian vs. Hedonic Product Positioning and Price Information," *Marketing Letters*, 23, 893904.
 
-Kivetz, Rand and Yuhuang Zheng (2017), "The Effects of Promotions on Hedonic versus Utilitarian Purchases," *Journal of Consumer Psychology*, 27 (1), 59--68.
+Kivetz, Rand and Yuhuang Zheng (2017), "The Effects of Promotions on Hedonic versus Utilitarian Purchases," *Journal of Consumer Psychology*, 27 (1), 5968.
 
-Klein, Kristina and Velentyna Melnyk (2016), "Speaking to the Mind or the Heart: Effects of Matching Hedonic versus Utilitarian Arguments and Products," *Marketing Letters: A Journal of Research in Marketing*, 27 (1), 131--42.
+Klein, Kristina and Velentyna Melnyk (2016), "Speaking to the Mind or the Heart: Effects of Matching Hedonic versus Utilitarian Arguments and Products," *Marketing Letters: A Journal of Research in Marketing*, 27 (1), 13142.
 
-Kronrod, Ann and Shai Danziger (2013), "Wii Will Rock You!" The Use and Effect of Figurative Language in Consumer Reviews of Hedonic and Utilitarian Consumption," *Journal of Consumer Research*, 40 (December) 2013, 726--39.
+Kronrod, Ann and Shai Danziger (2013), "Wii Will Rock You!" The Use and Effect of Figurative Language in Consumer Reviews of Hedonic and Utilitarian Consumption," *Journal of Consumer Research*, 40 (December) 2013, 72639.
 
-Lin, Hsin-Hui, Yi-Shun Wang, and Chien-Hsiang Chou (2012), "Hedonic and Utilitarian Motivations for Physical Game Systems Use Behavior," *International Journal of Human--Computer Interaction*, 28 (7), 445--55.
+Lin, Hsin-Hui, Yi-Shun Wang, and Chien-Hsiang Chou (2012), "Hedonic and Utilitarian Motivations for Physical Game Systems Use Behavior," *International Journal of HumanComputer Interaction*, 28 (7), 44555.
 
-Lu, Jingyi, Zhengyan Liu, Zhe Fang (2016), "Hedonic Products for You, Utilitarian Products for Me," *Judgment and Decision Making*, 11 (4), 332--41.
+Lu, Jingyi, Zhengyan Liu, Zhe Fang (2016), "Hedonic Products for You, Utilitarian Products for Me," *Judgment and Decision Making*, 11 (4), 33241.
 
-Okada, Erika M. (2005), "Justification Effects on Consumer Choice of Hedonic and Utilitarian Goods," *Journal of Marketing Research*, 42 (1), 43--53.
+Okada, Erika M. (2005), "Justification Effects on Consumer Choice of Hedonic and Utilitarian Goods," *Journal of Marketing Research*, 42 (1), 4353.
 
-Ratner, Rebecca K. and Rebecca W. Hamilton (2015), "Inhibited from Bowling Alone," *Journal of Consumer Research*, 42 (August), 266--83.
+Ratner, Rebecca K. and Rebecca W. Hamilton (2015), "Inhibited from Bowling Alone," *Journal of Consumer Research*, 42 (August), 26683.
 
-Roy, Rajat and Sharon Ng (2012), "Regulatory Focus and Preference Reversal between Hedonic and Utilitarian Consumption," *Journal of Consumer Behaviour*, 11 (1), 81--88.
+Roy, Rajat and Sharon Ng (2012), "Regulatory Focus and Preference Reversal between Hedonic and Utilitarian Consumption," *Journal of Consumer Behaviour*, 11 (1), 8188.
 
-To, Pui-Lai, Chechen Liao, and Tzu-Hua Lin (2007), "Shopping Motivations on Internet: A Study based on Utilitarian and Hedonic Value," *Technovation*, 27 (12), 774--87.
+To, Pui-Lai, Chechen Liao, and Tzu-Hua Lin (2007), "Shopping Motivations on Internet: A Study based on Utilitarian and Hedonic Value," *Technovation*, 27 (12), 77487.
 
-Woolley, Kaitlin and Ayelet Fishbach (2016), "For the Fun of It: Harnessing Immediate Rewards to Increase Persistence in Long-Term Goals," *Journal of Consumer Research*, 42 (April), 952--66.
+Woolley, Kaitlin and Ayelet Fishbach (2016), "For the Fun of It: Harnessing Immediate Rewards to Increase Persistence in Long-Term Goals," *Journal of Consumer Research*, 42 (April), 95266.
 
 [^1]: The web appendix reports all stimuli, materials, additional methodological details, additional analyses (if any), and data exclusions (if any) for all experiments. We provide the link for preregistrations in the text. The raw data and code for all studies (except for study 3, which involves proprietary data) are available at the Open Science Framework (<https://osf.io/f95e4/?view_only=b23c49cb05964688b1593e04ac7ced90>).
 
