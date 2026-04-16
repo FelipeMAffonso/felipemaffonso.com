@@ -50,7 +50,7 @@ This research makes four contributions. First, we propose and provide evidence f
 
 **Figure 1.** The Influence of (Un)Structured Perceptions on Brand Performance
 
-![A picture containing diagram Description automatically generated](media/image1.png){width="6.066702755905512in" height="4.597222222222222in"}
+[Image: see published version]
 
 **GESTALT THEORY**
 
@@ -197,8 +197,8 @@ We coded participants' choices as 1 if they were consistent with our hypotheses,
 +:=========================================:+:===========================================================================================================================================================:+:===============================================================================================================================================================:+:==========================================:+:============:+:================================================================================================================================================:+:=====================================================================================================================================================:+:=====:+
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-|                                           | ![Logo, icon, company name Description automatically generated](media/image2.png){width="0.8548939195100612in" height="0.875in"}                            | ![Logo, company name Description automatically generated](media/image3.png){width="0.8192836832895888in" height="0.8861100174978128in"}                         |                                            |              | ![A picture containing engine Description automatically generated](media/image4.jpeg){width="1.0180391513560805in" height="0.874847987751531in"} |   ------------------------------------------------------------------------------------                                                                |       |
-|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   ![](media/image5.jpeg){width="1.2209306649168854in" height="0.8840277777777777in"}                                                                  |       |
+|                                           | [Image: Logo, icon, company name Description automatically generated]                            | [Image: Logo, company name Description automatically generated]                         |                                            |              | [Image: see published version] |   ------------------------------------------------------------------------------------                                                                |       |
+|                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   [Image: see published version]                                                                  |       |
 |                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   ------------------------------------------------------------------------------------                                                                |       |
 |                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |                                                                                                                                                       |       |
 |                                           |                                                                                                                                                             |                                                                                                                                                                 |                                            |              |                                                                                                                                                  |   ------------------------------------------------------------------------------------                                                                |       |
@@ -215,7 +215,7 @@ We coded participants' choices as 1 if they were consistent with our hypotheses,
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-|                                           | ![A picture containing chart Description automatically generated](media/image6.png){width="0.9791666666666666in" height="0.9375in"}                         | ![Chart, bubble chart Description automatically generated](media/image7.png){width="0.8541666666666666in" height="0.9375in"}                                    |                                            |              | ![A picture containing text Description automatically generated](media/image8.png){width="0.875in" height="0.9375in"}                            | ![Text Description automatically generated](media/image9.png){width="0.6458333333333334in" height="0.9375in"}                                         |       |
+|                                           | [Image: see published version]                         | [Image: Chart, bubble chart Description automatically generated]                                    |                                            |              | [Image: see published version]                            | [Image: Text Description automatically generated]                                         |       |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 | **Goal**                                  | **Choice Shares**                                                                                                                                                                                                                                                                                                             | **Z**                                      | **Goal**     | **Choice Shares**                                                                                                                                                                                                                                                                                        | **Z** |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
@@ -229,8 +229,8 @@ We coded participants' choices as 1 if they were consistent with our hypotheses,
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-| ![](media/image10.png){width="1.0960498687664042in" height="0.3811778215223097in"}                                                                                                                      | ![](media/image11.png){width="1.0468077427821523in" height="0.32351924759405076in"}                                                                                                                          |              | ![](media/image12.jpeg){width="0.6509426946631671in" height="0.6611111111111111in"}                                                              |   --------------------------------------------------------------------------------------------------------------------------------------------------- |       |
-|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   ![A picture containing indoor Description automatically generated](media/image13.png){width="0.6786734470691164in" height="0.6613593613298338in"}   |       |
+| [Image: see published version]                                                                                                                      | [Image: see published version]                                                                                                                          |              | [Image: see published version]                                                              |   --------------------------------------------------------------------------------------------------------------------------------------------------- |       |
+|                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   [Image: see published version]   |       |
 |                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   --------------------------------------------------------------------------------------------------------------------------------------------------- |       |
 |                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |                                                                                                                                                       |       |
 |                                                                                                                                                                                                         |                                                                                                                                                                                                              |              |                                                                                                                                                  |   --------------------------------------------------------------------------------------------------------------------------------------------------- |       |
@@ -247,7 +247,7 @@ We coded participants' choices as 1 if they were consistent with our hypotheses,
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 |                                           | **Unstructured**                                                                                                                                            | **Structured**                                                                                                                                                  |                                            |              | **Unstructured**                                                                                                                                 | **Structured**                                                                                                                                        |       |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-|                                           | ![A picture containing text, indoor, orange, shop Description automatically generated](media/image14.jpeg){width="1.03125in" height="0.7291666666666666in"} | ![A picture containing text, indoor, shelf Description automatically generated](media/image15.jpeg){width="1.0208333333333333in" height="0.7291666666666666in"} |                                            |              | ![A picture containing text Description automatically generated](media/image16.jpeg){width="1.0833333333333333in" height="0.6875in"}             | ![A picture containing text Description automatically generated](media/image17.jpeg){width="1.1603772965879264in" height="0.7291666666666666in"}      |       |
+|                                           | [Image: see published version] | [Image: see published version] |                                            |              | [Image: see published version]             | [Image: see published version]      |       |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 | **Goal**                                  | **Choice Shares**                                                                                                                                                                                                                                                                                                             | **Z**                                      | **Goal**     | **Choice Shares**                                                                                                                                                                                                                                                                                        | **Z** |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
@@ -288,13 +288,13 @@ The data used in this study were collected from five sources: "BrandZ Top 100 Mo
 
 **Figure 2.** Study 3: The Influence of a Brand's Perceptual Structure and Positioning on BrandZ Valuation
 
-![](media/image18.png){width="4.687041776027996in" height="3.0208333333333335in"}
+[Image: see published version]
 
 *Second Dependent Variable: Brand Asset Index.* A perceptual structure of the brand logo (continuous) × brand hedonic-utilitarian index (continuous) regression on customer-based brand equity (BAIndex) revealed a significant interaction (ß = .18, t(101) = 3.59, *p* \< .001). As Figure 3 shows, the floodlight analysis revealed that the J-N points (p \< .05) on the hedonic-utilitarian index moderator occurred at 4.66 (.69 SD below the mean) and 6.19 (.63 SD above the mean). Web Appendix C presents a series of robustness tests involving the BAIndex.
 
 **Figure 3.** Study 3: The Influence of a Brand's Perceptual Structure and Positioning on BAIndex
 
-![](media/image19.png){width="5.507462817147856in" height="3.1826640419947507in"}
+[Image: see published version]
 
 **Discussion**
 
@@ -651,23 +651,23 @@ These materials have been supplied by the authors to aid in the understanding of
 |                                                                                                                                                |                                                                                                                                                          |
 | Hedonic                                                                                                                                        | Hedonic                                                                                                                                                  |
 |                                                                                                                                                |                                                                                                                                                          |
-| ![](media/image21.png)                                                                                                                         | ![A picture containing text, toiletry Description automatically generated](media/image22.png){width="2.7610629921259844in" height="4.739078083989502in"} |
+| [Image: see published version]                                                                                                                         | [Image: see published version] |
 +:==============================================================================================================================================:+:========================================================================================================================================================:+
 | Replicate 1 -- Unstructured Perception, Utilitarian                                                                                            | Replicate 1 -- Structured Perception, Utilitarian                                                                                                        |
 |                                                                                                                                                |                                                                                                                                                          |
-| ![A picture containing text Description automatically generated](media/image23.png){width="2.5520833333333335in" height="4.401992563429571in"} | ![](media/image24.png)                                                                                                                                   |
+| [Image: see published version] | [Image: see published version]                                                                                                                                   |
 +------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | Replicate 2 -- Unstructured Perception, Hedonic | Replicate 2 -- Structured Perception, Hedonic                                                                                                  |
 |                                                 |                                                                                                                                                |
-| ![](media/image25.png)                          | ![A picture containing text Description automatically generated](media/image26.png){width="3.1027602799650045in" height="5.325581802274716in"} |
+| [Image: see published version]                          | [Image: see published version] |
 +=================================================+================================================================================================================================================+
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Replicate 2 -- Unstructured Perception, Utilitarian                                                                                                     | Replicate 2 -- Structured Perception, Utilitarian                                                                                                               |
 |                                                                                                                                                         |                                                                                                                                                                 |
-| ![A picture containing text, toiletry Description automatically generated](media/image27.png){width="3.147412510936133in" height="5.430232939632546in"} | ![A close-up of a beaker Description automatically generated with low confidence](media/image28.png){width="3.1432720909886265in" height="5.429861111111111in"} |
+| [Image: see published version] | [Image: see published version] |
 +=========================================================================================================================================================+=================================================================================================================================================================+
 
 ## 
@@ -696,7 +696,7 @@ One hundred Prolific participants were randomly assigned to a 2-cell (perceptual
 
 After explaining the item definitions, participants saw the replicate image. Below the replicate, we told participants: "Please look carefully at the product above and consider its visual characteristics and elements (e.g., colors, shapes, forms, lines, textures, objects). How would you evaluate the product?" We designed the measure such that there would be a shorter version of the explanations above each item:
 
-![Graphical user interface, text, application, email Description automatically generated](media/image29.png){width="6.5in" height="3.3048611111111112in"}
+[Image: Graphical user interface, text, application, email Description automatically generated]
 
 *Results*. The perceptual structure measure had high reliability (α = .78). Participants perceived the package with a structured design had higher perceptual structure (M = 6.52, SD = 1.42) than the package with an unstructured design (M = 5.55, SD = 1.64; (F(1, 98) = 10.01, *p* = .002).
 
@@ -805,7 +805,7 @@ We are investigating consumers\' personal preferences and opinions. You will rea
 
 Participants made 10 choices. Each choice had a layout similar to the one below. The example shows a utilitarian shopping goal with the perfumes pair.
 
-![Graphical user interface Description automatically generated](media/image30.png){width="4.087008967629046in" height="2.8037018810148733in"}
+[Image: Graphical user interface Description automatically generated]
 
 Each replicate pair could be shown with one of two shopping goals. We will list every replicate and their associated shopping goals. We note that the presentation order of the replicates (and the choice options) was counterbalanced. The hedonic shopping goal is described inside the brackets.
 
@@ -813,61 +813,61 @@ Each replicate pair could be shown with one of two shopping goals. We will list 
 
 Imagine you are looking for a spa where you can get a massage that provides immediate pain relief and reduces body fatigue \[is enjoyable and relaxes your body\]. Which spa would you choose?
 
-![Logo Description automatically generated](media/image31.png){width="2.220138888888889in" height="2.1333333333333333in"}![A picture containing logo Description automatically generated](media/image32.png){width="1.8666666666666667in" height="2.127083333333333in"}
+[Image: Logo Description automatically generated][Image: see published version]
 
 **Grocery Store**
 
 Imagine you are looking for a grocery store that sells fresh food and produce. You find two stores (below) that claim to offer low prices, convenience, and member benefits \[an enjoyable experience, exciting products, and a pleasurable environment\]. Which one would you choose?
 
-![Bubble chart Description automatically generated](media/image33.png){width="2.5002821522309713in" height="2.8425929571303588in"}![A picture containing company name Description automatically generated](media/image34.png){width="3.036084864391951in" height="2.684905949256343in"}
+[Image: Bubble chart Description automatically generated][Image: see published version]
 
 **Sunglasses**
 
 Imagine you are looking for sunglasses that provide superior UV protection, comfort, and durability \[superior style, designer frames, and novelty\]. Which brand would you choose?
 
-![A black and white logo Description automatically generated with low confidence](media/image11.png){width="2.3868055555555556in" height="0.6791666666666667in"}![](media/image10.png){width="2.0in" height="0.9in"}
+[Image: see published version][Image: see published version]
 
 **Headphone**
 
 Imagine you are looking for headphones that provide superior performance functions, battery life, and comfort \[superior personalization functions, entertainment, and fun\]. Which brand would you choose?
 
-![C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R4_S.png](media/image35.png){width="2.8703707349081364in" height="0.7049814085739282in"}![C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R4_U.png](media/image36.png){width="2.3497222222222223in" height="0.6111111111111112in"}
+[Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R4_S.png][Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R4_U.png]
 
 **Artisan Soaps**
 
 Imagine you want to buy an artisan soap that revitalizes old skin, protects against infection, and removes sticky impurities \[relaxes your body, eases your state of mind, and is pleasant to use\]. Which bar would you choose?
 
-![Artisan Soap - Sinus Soother (LIMITED EDITION) \| Joyful Brands](media/image37.png){width="2.5194805336832897in" height="2.032607174103237in"}![Oatmeal Soap Handmade](media/image38.jpeg){width="2.3234787839020123in" height="2.0454549431321083in"}
+[Image: Artisan Soap - Sinus Soother (LIMITED EDITION) \| Joyful Brands][Image: Oatmeal Soap Handmade]
 
 **Perfume**
 
 Imagine you are shopping for a perfume that is long-lasting and great for work / everyday occasions \[delightful and great for special / fun occasions\]. Which perfume would you choose?
 
-![C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R13_S.jpg](media/image39.jpeg){width="2.2532469378827646in" height="2.429134951881015in"}![C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R13_U.png](media/image40.png){width="1.9090912073490813in" height="2.421286089238845in"}
+[Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R13_S.jpg][Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R13_U.png]
 
 **Coffee**
 
 Imagine you want to buy a coffee that enhances concentration and alertness \[has a delightful taste and is enjoyable to drink\]. Which coffee would you choose?
 
-![C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R10_S.jpg](media/image41.jpeg){width="2.787036307961505in" height="2.787036307961505in"}![C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R10_U.png](media/image42.png){width="2.5185192475940505in" height="2.5185192475940505in"}
+[Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R10_S.jpg][Image: C:\\Users\\felipe.affonso\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\R10_U.png]
 
 **Gift Shop**
 
 Imagine you are looking for a gift shop that provides a hassle-free shopping experience and reasonable pricing (an enjoyable shopping experience and exciting options). Which gift shop do you think is the best for your needs?
 
-![3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community](media/image43.png){width="3.149028871391076in" height="2.3018864829396324in"}![Museums gift shops make money --- and shape our understanding of art - Vox](media/image44.jpeg){width="3.3301891951006124in" height="2.2201257655293087in"}
+[Image: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community][Image: Museums gift shops make money --- and shape our understanding of art - Vox]
 
 **Spa Product Store**
 
 Imagine you are looking for a store that specialize in spa products that have superior performance, durability, and money-back guarantee? \[inspire, invigorate, and stimulate your body and mind\]. Which spa store would you choose?
 
-![Tri-Village Magazine \| Holiday Gift Guide \| What To Buy For Mom \| What To Buy for Holidays \| Christmas Gift Ideas \| Holiday Gift Ideas \| Best Holiday Gifts \| Local](media/image45.jpeg){width="3.1486111111111112in" height="2.1132010061242346in"}![Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa](media/image46.jpeg){width="3.1509437882764653in" height="2.101639326334208in"}
+[Image: Tri-Village Magazine \| Holiday Gift Guide \| What To Buy For Mom \| What To Buy for Holidays \| Christmas Gift Ideas \| Holiday Gift Ideas \| Best Holiday Gifts \| Local][Image: Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa]
 
 **Restaurant**
 
 Imagine you are looking for a place to eat while on vacation. You want a restaurant that provides a fast, reliable, sophisticated \[an entertaining, exciting, and enjoyable\] experience. Which restaurants would you choose?
 
-![Greenbelt Hotels near University of Maryland \| Crowne Plaza Greenbelt - Washington DC](media/image47.jpeg){width="2.787037401574803in" height="2.59454615048119in"}![LOT 1 Café, Bar \&amp; Restaurant / Enter Projects \| ArchDaily](media/image48.jpeg){width="2.5925929571303588in" height="2.578766404199475in"}
+[Image: Greenbelt Hotels near University of Maryland \| Crowne Plaza Greenbelt - Washington DC][Image: LOT 1 Café, Bar \&amp; Restaurant / Enter Projects \| ArchDaily]
 
 After participants' choices, we collected demographics
 
@@ -883,7 +883,7 @@ We told participants we were investigating consumers' personal preferences and o
 
 **Table 1 -- Study 2 Perceptual Structure and Robustness to Design Manipulations**
 
-![](media/image49.emf){width="7.920246062992126in" height="6.075521653543307in"}
+[Image: see published version]
 
 **Pretest -- Perceptual Structure Manipulations**
 
@@ -903,25 +903,25 @@ Participants read the following instructions:
 
 Then, participant moved to the next page. On each subsequent page, participants read a description of one of the organizational principles described in Table 1 of the main text, a question about this principle pertaining the replicate option that they were randomly assigned to see, and a picture of the replicate. Below we show one example of a participant rating the structured spa in the balance organizational principle:
 
-![A picture containing clipart, businesscard Description automatically generated](media/image50.png){width="1.5694444444444444in" height="0.9416666666666667in"}
+[Image: see published version]
 
 Balance captures the notion that there is a center of suspension between two weights or portions of a figure or design object. For example, the figure on the left is balanced by the circle in the middle. The figure on the right is unbalanced.\
  
 
 To which extent the different elements that are part of the **logo** below are **balanced** with one another?
 
-![A picture containing logo Description automatically generated](media/image32.png){width="1.7266491688538932in" height="1.96753280839895in"}
+[Image: see published version]
 
 Once this participant rated the "balance" principle, he or she moved to the next organizational principle. We covered all organizational principles mentioned in the main text (proximity, similarity, symmetry, common region, balance, completeness, geometry, organization, regularity) for all options. The organizational principles presentation order was counterbalanced. A subsequent evaluation page for this participant that has just rated balance could show the following (if common region was randomly selected as the next principle):
 
-![Chart Description automatically generated](media/image51.png){width="1.8020833333333333in" height="0.9416666666666667in"}
+[Image: Chart Description automatically generated]
 
 The principle of the common region states that objects located within the same closed region (common region) are grouped together. For example, the two leftmost columns on the left are grouped by a rectangle. The four elements on the top right are grouped by a rectangle. Therefore, these objects are perceived as grouped together by a rectangle.\
  
 
 To which extent the different elements that are part of the **logo **below are **located within the same common region**?
 
-![A picture containing logo Description automatically generated](media/image32.png){width="1.28125in" height="1.459996719160105in"}
+[Image: see published version]
 
 The survey was designed such that each replicate option would have at least 50 evaluations across all organizational principles.
 
@@ -929,7 +929,7 @@ Below, we will list every question used to measure the organizational principles
 
 **Proximity**
 
-![Background pattern Description automatically generated](media/image52.png){width="1.4652777777777777in" height="0.6277777777777778in"}
+[Image: Background pattern Description automatically generated]
 
 The principle of proximity states that when different elements are relatively close (proximal), they are grouped together and perceived as a unified object. For example, the circles on the left are perceived as a single object, whereas the circles on the right are perceived as two separate objects (two columns of circles).\
  
@@ -938,7 +938,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Similarity**
 
-![Background pattern Description automatically generated](media/image53.png){width="1.3486111111111112in" height="0.6625in"}
+[Image: Background pattern Description automatically generated]
 
 The principle of similarity states that when different elements share common features (similarity), they are grouped together and perceived as a unified object. For example, the circles on the left are grouped by color, and the circles on the right are grouped by shape.\
  
@@ -947,7 +947,7 @@ To which extent the different elements that are part of the** \${e://Field/DESC
 
 **Symmetry**
 
-![Icon Description automatically generated](media/image54.png){width="1.5in" height="0.6979166666666666in"}
+[Image: Icon Description automatically generated]
 
 Symmetry is the extent to which the size, shape, and position of the interrelated parts of a whole correspond in reference to a point or axis - generally the middle of the object. Symmetrical elements tend to be perceived as a unified object. For example, the figure on the left has two symmetrical triangles that form a unified triangle. The figure on the right has two asymmetrical triangles.\
  
@@ -956,7 +956,7 @@ To which extent the different elements that are part of the \${e://Field/DESCRIP
 
 **Common Region**
 
-![Chart Description automatically generated](media/image51.png){width="1.8020833333333333in" height="0.9416666666666667in"}
+[Image: Chart Description automatically generated]
 
 The principle of the common region states that objects located within the same closed region (common region) are grouped together. For example, the two leftmost columns on the left are grouped by a rectangle. The four elements on the top right are grouped by a rectangle. Therefore, these objects are perceived as grouped together by a rectangle.\
  
@@ -965,7 +965,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Balance**
 
-![A picture containing clipart, businesscard Description automatically generated](media/image50.png){width="1.5694444444444444in" height="0.9416666666666667in"}
+[Image: see published version]
 
 Balance captures the notion that there is a center of suspension between two weights or portions of a figure or design object. For example, the figure on the left is balanced by the circle in the middle. The figure on the right is unbalanced.\
  
@@ -974,7 +974,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Completeness**
 
-![](media/image55.png){width="1.5694444444444444in" height="0.3951388888888889in"}
+[Image: see published version]
 
 The principle of completeness states that visual elements that are part of an incomplete stimulus tend to be grouped into a recognizable pattern. For example, the two figures on the left are complete, and the two figures on the right are incomplete.\
  
@@ -983,7 +983,7 @@ To which extent the \${e://Field/DESCRIPTOR} below is comprised of **complete a
 
 **Geometry**
 
-![A picture containing text, clipart Description automatically generated](media/image56.png){width="1.5in" height="0.6395833333333333in"}
+[Image: see published version]
 
 Geometric objects resemble objects that are human made, planned, or measured, whereas organic objects are more irregular, unplanned, or natural. For example, the figures on the left are geometric, and the figures on the right are organic.\
  
@@ -992,7 +992,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Organization**
 
-![A picture containing clipart, vector graphics Description automatically generated](media/image57.png){width="1.604861111111111in" height="0.7555555555555555in"}
+[Image: see published version]
 
 Organization is the grouping of a spatial configuration of a set of elements based on identifiable criteria such as a product\'s brand, price, color, size, or any other visually salient features. For example, the figure on the left is organized by shape and/or color. The figure on the right is disorganized.\
  
@@ -1001,7 +1001,7 @@ To which extent the different elements that are part of the **\${e://Field/DESC
 
 **Regularity**
 
-![Chart Description automatically generated with medium confidence](media/image58.png){width="1.4305555555555556in" height="0.6395833333333333in"}
+[Image: Chart Description automatically generated with medium confidence]
 
 Regularity is the state or condition of having a fixed pattern, with equal or similar amounts of space or time between one and the next. For example, the figure on the left is regular and uniform because it follows a specific pattern for each row. The figure on the right is irregular and not uniform because there is no pattern between the circles.\
  
@@ -1429,25 +1429,25 @@ The Spectrum Library provides access to many facilities, including common spaces
 
 (High-resolution picture: <https://i.imgur.com/PmFymMC.jpg>).
 
-![A picture containing indoor, ceiling, room, furniture Description automatically generated](media/image59.jpeg){width="4.779069335083115in" height="3.4216524496937883in"}
+[Image: see published version]
 
 **\[Unstructured Perception Library, Replicate 1\]**
 
 (High-resolution picture: <https://i.imgur.com/Qek9UKH.jpg>).
 
-![](media/image60.jpeg){width="4.697673884514436in" height="3.137810586176728in"}
+[Image: see published version]
 
 **\[Structured Perception Library, Replicate 2\]**
 
 (High-resolution picture: <https://i.imgur.com/2wOLwMA.jpg>).
 
-![A picture containing floor, indoor Description automatically generated](media/image61.jpeg){width="4.790697725284339in" height="3.1977898075240594in"}
+[Image: see published version]
 
 **\[Unstructured Perception Library, Replicate 2\]**
 
 (High-resolution picture: <https://i.imgur.com/32tdk9b.jpg>).
 
-![](media/image62.jpeg){width="4.848837489063867in" height="3.236599956255468in"}
+[Image: see published version]
 
 
 "Please provide your overall evaluation for The Spectrum Library" (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; and 1 = "very unfavorable" and 9 = "very favorable")
@@ -1510,11 +1510,11 @@ We are investigating consumers\' personal preferences and opinions. Please click
 
 **\[Unstructured Condition\]**
 
-![](media/image63.png){width="2.1743055555555557in" height="1.6743055555555555in"}
+[Image: see published version]
 
 **\[Structured Condition\]**
 
-![Logo Description automatically generated](media/image64.png){width="1.7791666666666666in" height="1.6743055555555555in"}
+[Image: Logo Description automatically generated]
 
 Astro G S7 Pro is a smart, cordless stick vacuum cleaner excellent for multiple surfaces and pet hair cleaning.
 
@@ -1570,17 +1570,17 @@ A new chocolate experience has arrived: Choco-Bliss!
 
 **\[Unstructured Condition\]**
 
-![A picture containing text, book Description automatically generated](media/image65.png){width="2.046512467191601in" height="4.193883420822397in"}
+[Image: see published version]
 
 **\[Structured Condition\]**
 
-![Text Description automatically generated](media/image66.png){width="2.2558136482939632in" height="4.7925087489063865in"}
+[Image: Text Description automatically generated]
 
 **\[Less Diagnostic Review Condition\]**
 
-![Text, letter Description automatically generated](media/image67.png){width="6.5in" height="1.8298611111111112in"} **\[More Diagnostic Review Condition\]**
+[Image: Text, letter Description automatically generated] **\[More Diagnostic Review Condition\]**
 
-![Graphical user interface, text, application Description automatically generated](media/image68.png){width="6.5in" height="1.8298611111111112in"} **(The ad was pictured throughout all the survey -- participants who clicked the next button saw the different questions, but the manipulations were on top of the page\]**
+[Image: Graphical user interface, text, application Description automatically generated] **(The ad was pictured throughout all the survey -- participants who clicked the next button saw the different questions, but the manipulations were on top of the page\]**
 
 Please provide your overall evaluation for Choco-Bliss: (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; and 1 = "very unfavorable" and 9 = "very favorable")
 
@@ -1617,131 +1617,131 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 ## *Structured Brand Logos and/or Typefaces:*
 
-![](media/image69.png){width="2.1979166666666665in" height="0.4894520997375328in"}![](media/image70.jpeg){width="1.9895833333333333in" height="0.7801574803149607in"}![A picture containing text, clipart, vector graphics Description automatically generated](media/image71.jpeg){width="1.957638888888889in" height="0.6769302274715661in"}
+[Image: see published version][Image: see published version][Image: see published version]
 
-![Icon Description automatically generated](media/image72.jpeg){width="2.056324365704287in" height="1.9375in"}![Shape, square Description automatically generated](media/image73.jpeg){width="2.0625in" height="1.9795253718285215in"}![Logo, company name Description automatically generated](media/image74.jpeg){width="2.05625in" height="2.0654297900262466in"}![A picture containing text, sign, red, vector graphics Description automatically generated](media/image75.png){width="2.0625in" height="2.740483377077865in"}![Logo Description automatically generated](media/image76.png){width="2.063880139982502in" height="2.077777777777778in"}![Volkswagen Logo Meaning and History \[Volkswagen symbol\]](media/image77.png){width="1.9809328521434821in" height="1.9048611111111111in"}
+[Image: Icon Description automatically generated][Image: Shape, square Description automatically generated][Image: Logo, company name Description automatically generated][Image: see published version][Image: Logo Description automatically generated]![Volkswagen Logo Meaning and History \[Volkswagen symbol\]](media/image77.png)
 
-![Logo Description automatically generated](media/image78.png){width="2.2708333333333335in" height="1.7022145669291338in"}![Text, logo, company name Description automatically generated](media/image79.jpeg){width="2.0625in" height="1.1587073490813649in"} ![adidas ZX 500 Trainers - White/Blue - Shoes - ARKET IT \| Adidas originals logo, Adidas logo wallpapers, Adidas logo](media/image80.png){width="1.9583333333333333in" height="1.8947287839020122in"}
+[Image: Logo Description automatically generated][Image: Text, logo, company name Description automatically generated] [Image: adidas ZX 500 Trainers - White/Blue - Shoes - ARKET IT \| Adidas originals logo, Adidas logo wallpapers, Adidas logo]
 
 ## *Unstructured Brand Logos and/or Typefaces:*
 
-![Logo, company name Description automatically generated](media/image81.png){width="1.3626760717410324in" height="1.875in"} ![Nike tagline voted most memorable brand slogan \| Creative Bloq](media/image82.jpeg){width="2.463429571303587in" height="1.3854166666666667in"} ![Mountain Dew - Wikipedia](media/image83.png){width="2.0107119422572177in" height="1.3958333333333333in"}
+[Image: Logo, company name Description automatically generated] [Image: Nike tagline voted most memorable brand slogan \| Creative Bloq] [Image: Mountain Dew - Wikipedia]
 
-![Marriott International, Inc. Archives - Symmons](media/image84.png){width="1.6354166666666667in" height="1.2392530621172353in"} ![Spotify\'s Asymmetrical Strokes In Its Logo Design Are Irking Some Of Its Users \| Brandikaran](media/image85.jpeg){width="1.4270833333333333in" height="1.3742027559055119in"} ![YouTube](media/image86.jpeg){width="2.9270833333333335in" height="1.6843241469816272in"}
+[Image: Marriott International, Inc. Archives - Symmons] [Image: Spotify\'s Asymmetrical Strokes In Its Logo Design Are Irking Some Of Its Users \| Brandikaran] [Image: YouTube]
 
-![A picture containing text, clipart Description automatically generated](media/image87.png){width="2.0in" height="0.6292136920384952in"}![](media/image88.png){width="1.7291666666666667in" height="0.9310892388451444in"} ![](media/image89.png){width="2.0520833333333335in" height="1.5743602362204725in"}
+[Image: see published version][Image: see published version] [Image: see published version]
 
-![Gatorade logo after 2009 \| Drinks logo, Gatorade, Logos](media/image90.png){width="1.8958333333333333in" height="1.6462150043744532in"} ![Logo, icon Description automatically generated](media/image91.png){width="2.0729166666666665in" height="1.6625415573053368in"} ![Burger King \| Logopedia \| Fandom](media/image92.png){width="1.96875in" height="2.049816272965879in"}
+[Image: Gatorade logo after 2009 \| Drinks logo, Gatorade, Logos] [Image: Logo, icon Description automatically generated] [Image: Burger King \| Logopedia \| Fandom]
 
 ## *Structured Product Shapes, Packaging, and Imagery:*
 
-![Amazon.com : Wall Street/Bond No.9 Edp Spray 1.7 Oz (M) : Perfumes : Beauty](media/image93.jpeg){width="1.6143985126859142in" height="2.2284656605424322in"}![Absolut Vodka 750ml - Crown Wine & Spirits](media/image94.jpeg){width="2.2291666666666665in" height="2.2291666666666665in"}![Silent Pool Gin 750ml \| Uptown Spirits \| Fast Shipping](media/image95.jpeg){width="1.6979166666666667in" height="2.263888888888889in"}
+[Image: Amazon.com : Wall Street/Bond No.9 Edp Spray 1.7 Oz (M) : Perfumes : Beauty][Image: Absolut Vodka 750ml - Crown Wine & Spirits][Image: Silent Pool Gin 750ml \| Uptown Spirits \| Fast Shipping]
 
-![Voss Artesian Still Water, 16.9 Fl Oz, 24 Count - Walmart.com - Walmart.com](media/image96.jpeg){width="1.9791666666666667in" height="1.9791666666666667in"}![Simply Orange Pulp Free Orange Juice, 11.5 fl oz - Walmart.com - Walmart.com](media/image97.jpeg){width="2.0833333333333335in" height="2.0833333333333335in"}![Lipton Lemon Iced Tea 20 fl. oz. - Walmart.com - Walmart.com](media/image98.jpeg){width="1.9791666666666667in" height="1.9791666666666667in"}
+[Image: Voss Artesian Still Water, 16.9 Fl Oz, 24 Count - Walmart.com - Walmart.com][Image: Simply Orange Pulp Free Orange Juice, 11.5 fl oz - Walmart.com - Walmart.com][Image: Lipton Lemon Iced Tea 20 fl. oz. - Walmart.com - Walmart.com]
 
-![Silent Pool Distillers\' Colorado High CBD gin - Product Launch \| Beverage Industry News \| just-drinks](media/image99.jpeg){width="1.625in" height="2.4346292650918637in"}![Wisteria Blue Eau de Parfum (50mL) \| Eau de parfum, Fragrance, Wisteria](media/image100.jpeg){width="2.2226771653543307in" height="2.3229166666666665in"}![Kellogg\'s Frosted Flakes Cereal, 33.5 oz - Foods Co.](media/image101.jpeg){width="1.5516655730533684in" height="2.2103313648293965in"}
+[Image: Silent Pool Distillers\' Colorado High CBD gin - Product Launch \| Beverage Industry News \| just-drinks][Image: Wisteria Blue Eau de Parfum (50mL) \| Eau de parfum, Fragrance, Wisteria][Image: Kellogg\'s Frosted Flakes Cereal, 33.5 oz - Foods Co.]
 
 ## *Unstructured Product Shapes, Packaging, and Imagery:*
 
-![Water Bottle Packaging Designs That Stands Out - AterietAteriet \| Food Culture](media/image102.jpeg){width="2.832574365704287in" height="2.1385936132983376in"}![The World\'s Most Beautiful Alcohol Bottle Designs \| TOMO DESIGN](media/image103.jpeg){width="1.8229166666666667in" height="2.1318350831146105in"}![Anestasia Vodka Price & Reviews \| Drizly](media/image104.jpeg){width="1.4375in" height="2.15625in"}
+[Image: Water Bottle Packaging Designs That Stands Out - AterietAteriet \| Food Culture][Image: The World\'s Most Beautiful Alcohol Bottle Designs \| TOMO DESIGN][Image: Anestasia Vodka Price & Reviews \| Drizly]
 
-![Ralphs - Tropicana Orange Juice Homestyle Some Pulp Bottle, 12 fl oz](media/image105.jpeg){width="2.0833333333333335in" height="2.0833333333333335in"}![Image result for water bottle design](media/image106.jpeg){width="2.0833333333333335in" height="2.0833333333333335in"}![Amazon.com: Kellogg\'s Corn Flakes Cereal - The Original & Best Breakfast Cereal, Fat-Free, 24 oz Box](media/image107.jpeg){width="2.28125in" height="2.28125in"}
+[Image: Ralphs - Tropicana Orange Juice Homestyle Some Pulp Bottle, 12 fl oz][Image: Image result for water bottle design][Image: Amazon.com: Kellogg\'s Corn Flakes Cereal - The Original & Best Breakfast Cereal, Fat-Free, 24 oz Box]
 
-![Easy Shine Brown Sponge](media/image108.jpeg){width="2.0729166666666665in" height="2.0729166666666665in"}![How Product Shape Design Influence Your Sales? - Blog](media/image109.jpeg){width="2.21875in" height="2.0708333333333333in"}![CHEETOS® Crunchy FLAMIN\' HOT® Limón Cheese Flavored Snacks \| Cheetos](media/image110.png){width="1.78125in" height="1.78125in"}
+[Image: Easy Shine Brown Sponge][Image: How Product Shape Design Influence Your Sales? - Blog][Image: CHEETOS® Crunchy FLAMIN\' HOT® Limón Cheese Flavored Snacks \| Cheetos]
 
 ## *Structured Assortments and Product Displays:*
 
-![Streetology - Architizer \| Clothing store displays, Retail merchandising, Retail store design](media/image111.jpeg){width="2.191666666666667in" height="2.614225721784777in"} ![Part Two: Apple Granted Four Series of Design Patents in Hong Kong covering Retail Display Units - Patently Apple](media/image112.jpeg){width="4.208333333333333in" height="2.3892180664916887in"}
+[Image: Streetology - Architizer \| Clothing store displays, Retail merchandising, Retail store design] [Image: Part Two: Apple Granted Four Series of Design Patents in Hong Kong covering Retail Display Units - Patently Apple]
 
-![Triple Your Retail Sales This Week- Hair Salon Tips](media/image113.jpeg){width="2.4166666666666665in" height="2.4166666666666665in"} ![Planogram Optimization at Store Level \| RELEX Solutions](media/image114.jpeg){width="4.020833333333333in" height="1.6989741907261593in"}
+[Image: Triple Your Retail Sales This Week- Hair Salon Tips] [Image: Planogram Optimization at Store Level \| RELEX Solutions]
 
-![80+ Product Display ideas \| retail design, store design, display](media/image115.jpeg){width="2.191666666666667in" height="3.3896555118110236in"} ![Product display \| Aveda institute, Top beauty products, Aveda](media/image116.jpeg){width="4.052083333333333in" height="2.2037642169728784in"}
+[Image: 80+ Product Display ideas \| retail design, store design, display] [Image: Product display \| Aveda institute, Top beauty products, Aveda]
 
-![What is visual merchandising and why is it so important? - eXPD8](media/image117.jpeg){width="2.933652668416448in" height="2.2604166666666665in"} ![Colour blocking packaging Kusmi Teashop in Marylebone Lane, London \| Tea shop, Tea store, Tea packaging](media/image118.jpeg){width="2.0520833333333335in" height="3.0781255468066493in"}
+[Image: What is visual merchandising and why is it so important? - eXPD8] [Image: Colour blocking packaging Kusmi Teashop in Marylebone Lane, London \| Tea shop, Tea store, Tea packaging]
 
-![3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community](media/image119.png){width="6.5in" height="4.751388888888889in"}
+[Image: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community]
 
-![How Visual Merchandising is Driving the Retail Industry? \| by Pazo Inc \| Pazo Operations Management System \| Medium](media/image120.jpeg){width="6.5in" height="3.1131944444444444in"}![More from Hay Copenhagen - INTERIORATOR in 2021 \| Bedding shop, Retail store design, Shop interiors](media/image121.jpeg){width="3.8333333333333335in" height="5.75in"} ![Pin by Chelsea Jones on Denim Merchandising \| Color, Retail display, Visual merchandising](media/image122.jpeg){width="6.5in" height="4.967361111111111in"}
+[Image: How Visual Merchandising is Driving the Retail Industry? \| by Pazo Inc \| Pazo Operations Management System \| Medium][Image: More from Hay Copenhagen - INTERIORATOR in 2021 \| Bedding shop, Retail store design, Shop interiors] [Image: Pin by Chelsea Jones on Denim Merchandising \| Color, Retail display, Visual merchandising]
 
-![4 Cost-Effective Visual Merchandising Skills - Hamstech Online](media/image123.jpeg){width="5.114583333333333in" height="3.8359383202099737in"}
+[Image: 4 Cost-Effective Visual Merchandising Skills - Hamstech Online]
 
-![Glamshops Review](media/image124.jpeg){width="6.5in" height="4.875in"}
+[Image: Glamshops Review]
 
-![Tri-Village Magazine \| Holiday Gift Guide \| What To Buy For Mom \| What To Buy for Holidays \| Christmas Gift Ideas \| Holiday Gift Ideas \| Best Holiday Gifts \| Local](media/image45.jpeg){width="5.854166666666667in" height="3.929045275590551in"}
+[Image: Tri-Village Magazine \| Holiday Gift Guide \| What To Buy For Mom \| What To Buy for Holidays \| Christmas Gift Ideas \| Holiday Gift Ideas \| Best Holiday Gifts \| Local]
 
 ## *Unstructured Assortments and Product Displays:*
 
-![Feel the comfort of a spa, anytime you choose!](media/image125.jpeg){width="6.5in" height="2.8125in"}
+[Image: Feel the comfort of a spa, anytime you choose!]
 
-![A picture containing text, shelf, store Description automatically generated](media/image126.jpeg){width="2.71875in" height="3.5917432195975505in"} ![A picture containing text, shelf, indoor, different Description automatically generated](media/image127.jpeg){width="3.5in" height="3.535896762904637in"}
+[Image: see published version] [Image: see published version]
 
-![A picture containing timeline Description automatically generated](media/image128.jpeg){width="6.5in" height="4.304166666666666in"}
+[Image: see published version]
 
-![Gift & Nature Shop at Tarpon Bay Explorers](media/image129.jpeg){width="6.5in" height="3.3319444444444444in"}
+[Image: Gift & Nature Shop at Tarpon Bay Explorers]
 
-![Museums gift shops make money --- and shape our understanding of art - Vox](media/image130.jpeg){width="6.5in" height="4.333333333333333in"}
+[Image: Museums gift shops make money --- and shape our understanding of art - Vox]
 
-![A picture containing text, table, indoor, cluttered Description automatically generated](media/image131.jpeg){width="6.5in" height="3.4451388888888888in"}
+[Image: see published version]
 
-![Shopping in Asheville, NC \| The Omni Grove Park Inn](media/image132.jpeg){width="6.5in" height="3.6666666666666665in"}
+[Image: Shopping in Asheville, NC \| The Omni Grove Park Inn]
 
-![Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa](media/image46.jpeg){width="6.5in" height="4.335416666666666in"}
+[Image: Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa]
 
 ## *Structured Environments:*
 
-![A place where time is worth spending - Korea Times](media/image133.jpeg){width="2.3440004374453194in" height="3.5172222222222222in"}
+[Image: see published version]
 
-![Restaurants Near Greenbelt - Crowne Plaza](media/image134.jpeg){width="6.5in" height="4.875694444444444in"}
-
-## 
+[Image: Restaurants Near Greenbelt - Crowne Plaza]
 
 ## 
 
-![A picture containing arch Description automatically generated](media/image135.jpeg){width="6.5in" height="4.333333333333333in"}
+## 
 
-![Creating an effective retail space - Design Middle East](media/image136.jpeg){width="6.4753062117235345in" height="4.416907261592301in"}
+[Image: see published version]
 
-![Fine dining in São Paulo - Fasano Restaurant - SamCora \| A Fashion, Travel and Lifestyle Blog](media/image137.jpeg){width="6.5in" height="4.240277777777778in"}
+[Image: Creating an effective retail space - Design Middle East]
 
-![Liverpool Polanco Department Store, Mexico City (A.R.E Awards)](media/image138.jpeg){width="6.417682633420823in" height="4.385416666666667in"}
+[Image: Fine dining in São Paulo - Fasano Restaurant - SamCora \| A Fashion, Travel and Lifestyle Blog]
 
-![Ananti Hilton Busan, Busan -- Updated 2022 Prices](media/image139.jpeg){width="5.51200021872266in" height="3.9437893700787403in"}![Chinese Bookstore Provides a Futuristic Shopping Experience \| Architectural Digest](media/image140.jpeg){width="6.417361111111111in" height="4.873270997375328in"}![A picture containing text, indoor, ceiling, counter Description automatically generated](media/image141.jpeg){width="6.417361111111111in" height="3.7288681102362204in"}
+[Image: Liverpool Polanco Department Store, Mexico City (A.R.E Awards)]
 
-![Learning Hub - Sign in \| Restaurant interior design, Asian interior design, Interior design principles](media/image142.jpeg){width="6.5in" height="6.51875in"}
+[Image: Ananti Hilton Busan, Busan -- Updated 2022 Prices][Image: Chinese Bookstore Provides a Futuristic Shopping Experience \| Architectural Digest][Image: see published version]
 
-![Workshop Palm Springs Crowned America\'s Top Restaurant Design for 2013](media/image143.jpeg){width="6.5in" height="4.333333333333333in"}
+[Image: Learning Hub - Sign in \| Restaurant interior design, Asian interior design, Interior design principles]
 
-![A picture containing indoor, ceiling, hall Description automatically generated](media/image144.png){width="6.5in" height="4.333333333333333in"}
+[Image: Workshop Palm Springs Crowned America\'s Top Restaurant Design for 2013]
 
-![Background pattern Description automatically generated](media/image145.png){width="6.5in" height="4.334722222222222in"}
+[Image: see published version]
 
-![Prime - Bellagio Hotel \| Wheelchair Jimmy Restaurant Accessibility Reviews](media/image146.png){width="6.5in" height="4.500694444444444in"}
+[Image: Background pattern Description automatically generated]
 
-![Bellagio - Las Vegas, NV Meeting Rooms & Event Space \| Northstar Meetings Group](media/image147.jpeg){width="6.5in" height="3.6590277777777778in"}
+[Image: Prime - Bellagio Hotel \| Wheelchair Jimmy Restaurant Accessibility Reviews]
 
-![Sotheby\'s Launches "Instant Cellars" and Wine Collection Services \| Barron\'s](media/image148.jpeg){width="5.760416666666667in" height="3.84375in"}
+[Image: Bellagio - Las Vegas, NV Meeting Rooms & Event Space \| Northstar Meetings Group]
+
+[Image: Sotheby\'s Launches "Instant Cellars" and Wine Collection Services \| Barron\'s]
 
 ## *Unstructured Environments:*
 
-![LOT 1 Cafe , Bar and Restaurant \| Enter Projects - Arch2O.com](media/image149.jpeg){width="6.5in" height="4.336805555555555in"}
+[Image: LOT 1 Cafe , Bar and Restaurant \| Enter Projects - Arch2O.com]
 
-![Nemika Concept Store by Kohei Nawa, Tokyo -- Japan](media/image150.jpeg){width="6.5in" height="4.333333333333333in"}
+[Image: Nemika Concept Store by Kohei Nawa, Tokyo -- Japan]
 
-![](media/image151.jpeg){width="6.5in" height="4.33125in"}
+[Image: see published version]
 
-![FRAME \| A multifunctional retail space in Shanghai changes with each season](media/image152.jpeg){width="6.5in" height="3.65625in"}
+[Image: FRAME \| A multifunctional retail space in Shanghai changes with each season]
 
-![Contemporary Bookstore in China has Large Installation of Floating Paper](media/image153.jpeg){width="6.5in" height="4.333333333333333in"}
+[Image: Contemporary Bookstore in China has Large Installation of Floating Paper]
 
-![Spar supermarket displays groceries between curved wooden ribs](media/image154.jpeg){width="6.5in" height="4.643055555555556in"}
+[Image: Spar supermarket displays groceries between curved wooden ribs]
 
-![Bold Curves and Colors in Food Court Interior Design](media/image155.jpeg){width="6.5in" height="4.342361111111111in"}
+[Image: Bold Curves and Colors in Food Court Interior Design]
 
-![Curved Line- interior \| Interior design awards, Interior architecture design, Architecture](media/image156.jpeg){width="4.947916666666667in" height="7.416666666666667in"}
+[Image: Curved Line- interior \| Interior design awards, Interior architecture design, Architecture]
 
-![Architecture. Adorable Store Interior Design Ideas With Unique Curved Beige Ceiling Panel... \| Store design interior, Boutique interior design, Modern interior design](media/image157.jpeg){width="4.567080052493439in" height="5.979166666666667in"}
+[Image: Architecture. Adorable Store Interior Design Ideas With Unique Curved Beige Ceiling Panel... \| Store design interior, Boutique interior design, Modern interior design]
 
-![NEX designed restaurant with spiralling concrete wall and retractable curved glass system in London](media/image158.jpeg){width="6.379166666666666in" height="9.0in"}
+[Image: NEX designed restaurant with spiralling concrete wall and retractable curved glass system in London]
 
 # **WEB APPENDIX I: TABLE 1 REFERENCES**
 

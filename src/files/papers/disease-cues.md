@@ -119,7 +119,7 @@ Our proposed framework is depicted in Figure 1. In the next sections, we will de
 
 **Figure 1.** Integrative Framework for Consumer Reactions to Infectious Disease Cues
 
-![](media/image1.png){width="9.013898731408574in" height="4.638888888888889in"}
+[Image: see published version]
 
 Source: Author's own work
 

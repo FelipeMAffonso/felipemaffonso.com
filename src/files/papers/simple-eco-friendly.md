@@ -470,7 +470,7 @@ Finally, brand maturity matters. While new brands would benefit most from direct
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Visually Complex Stimuli                                                                                                                                                                                                                  Visually Simple Stimuli
 
-  ![A white and green box of soap Description automatically generated]([image]){width="3.125in" height="1.4833333333333334in"}   ![]([image]){width="3.127083333333333in" height="1.5402777777777779in"}
+  [Image: see published version]   [Image: see published version]
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **APPENDIX C**
@@ -480,17 +480,17 @@ In each product category, participants were shown one of two randomly assigned p
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Visually Complex Stimuli                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Visually Simple Stimuli                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A picture containing text, box, packaging and labeling, general supply Description automatically generated]([image]){width="3.125in" height="1.4833333333333334in"}![A white and green box with text Description automatically generated]([image]){width="3.13in" height="1.5586384514435696in"} | ![A white box with green text Description automatically generated]([image]){width="3.13in" height="1.5399825021872267in"}                                                                                                                                                                                                                                               |
+| [Image: see published version][Image: see published version] | [Image: see published version]                                                                                                                                                                                                                                               |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | ![A white box with green text Description automatically generated with low confidence]([image]){width="3.125in" height="1.4833333333333334in"}                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | [Image: see published version]                                                                                                                                                                                                                          |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A black plastic container with a label Description automatically generated]([image]){width="2.8in" height="2.199245406824147in"}                                                                                                                                                                                                                                                                            | ![A black plastic container with a brown label Description automatically generated]([image]){width="2.8in" height="2.2290660542432197in"}                                                                                                                                                                                                                               |
+| [Image: see published version]                                                                                                                                                                                                                                                                            | [Image: see published version]                                                                                                                                                                                                                               |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ![A black plastic container with a white label Description automatically generated]([image]){width="2.8in" height="2.2290660542432197in"}                                                                                                                                                                                                                                                                     | ![A black jar with a brown label Description automatically generated]([image]){width="2.8in" height="2.199245406824147in"}                                                                                                                                                                                                                                              |
+| [Image: see published version]                                                                                                                                                                                                                                                                     | [Image: see published version]                                                                                                                                                                                                                                              |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A blue and white can of energy drink Description automatically generated]([image]){width="2.533141951006124in" height="2.3in"}![A blue and white can of energy drink Description automatically generated]([image]){width="2.5084689413823273in" height="2.3in"}                                | ![A blue can of energy drink Description automatically generated]([image]){width="2.4922856517935257in" height="2.3in"}![A blue can of energy drink Description automatically generated]([image]){width="2.5498622047244095in" height="2.3in"}             |
+| [Image: see published version][Image: see published version]                                | [Image: see published version][Image: see published version]             |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A group of rolls of toilet paper Description automatically generated]([image]){width="2.8in" height="1.5555555555555556in"}![A group of rolls of toilet paper Description automatically generated]([image]){width="2.8in" height="1.5557206911636046in"}                                       | ![A group of rolls of toilet paper Description automatically generated]([image]){width="2.8in" height="1.5558858267716535in"}![A group of rolls of toilet paper Description automatically generated]([image]){width="2.8in" height="1.5558858267716535in"} |
+| [Image: see published version][Image: see published version]                                       | [Image: see published version][Image: see published version] |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **APPENDIX D**
@@ -500,7 +500,7 @@ In each product category, participants were shown one of two randomly assigned p
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Visually Complex Target Product                                                                                                                                                                                                                      Visually Simple Target product
 
-  ![https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_eeoWpYKEswfs7dQ]([image]){width="3.1687379702537184in" height="3.1687379702537184in"}   ![https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_6Ye61fTiOtSshIW]([image]){width="3.1687379702537184in" height="3.1687379702537184in"}
+  [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_eeoWpYKEswfs7dQ]   [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_6Ye61fTiOtSshIW]
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **APPENDIX E**
@@ -510,7 +510,7 @@ In each product category, participants were shown one of two randomly assigned p
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Visually Complex Stimuli                                                                                                                                                                                         Visually Simple Stimuli
 
-  ![A bottle of lotion Description automatically generated]([image]){width="3.13in" height="3.13in"}   ![A white bottle with a red cap Description automatically generated]([image]){width="3.13in" height="3.13in"}
+  [Image: see published version]   [Image: see published version]
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **APPENDIX F**
@@ -518,7 +518,7 @@ In each product category, participants were shown one of two randomly assigned p
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Visually Complex Stimuli                                                                                                                                                                                                                            Visually Simple Stimuli
 
-  ![https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_eY6aGEySWLvJVz0]([image]){width="3.1496062992125986in" height="3.934417104111986in"}   ![https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_aWWDvd69BKW1c7c]([image]){width="3.1496062992125986in" height="3.934416010498688in"}
+  [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_eY6aGEySWLvJVz0]   [Image: https://ufl.qualtrics.com/CP/Graphic.php?IM=IM_aWWDvd69BKW1c7c]
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \
@@ -808,7 +808,7 @@ Stimuli Pretest Results Summary
 
 **Relative focus on eco-friendliness vs. efficacy (3 items)** When people make purchases, they usually choose based on what they consider to be important. Please indicate what you consider to be the most important benefits when you are purchasing soaps in general from the options below:
 
-![A picture containing text, font, screenshot, algebra Description automatically generated]([image]){width="5.976195319335083in" height="1.0981889763779527in"}
+[Image: see published version]
 
 ### 
 
@@ -870,48 +870,48 @@ Please create two versions:
 
 **Efficacy perception measure (4 items)**
 
-![]([image]){width="6.254718941382327in" height="1.06626968503937in"}
+[Image: see published version]
 
-![]([image]){width="6.254718941382327in" height="1.06626968503937in"}
+[Image: see published version]
 
-![]([image]){width="6.254718941382327in" height="0.9624726596675416in"}
+[Image: see published version]
 
-![]([image]){width="6.254718941382327in" height="1.06626968503937in"}
+[Image: see published version]
 
 **Eco-friendliness perception measure (4 items)**
 
-![]([image]){width="6.5in" height="1.320754593175853in"}
+[Image: see published version]
 
-![]([image]){width="6.5in" height="4.126152668416448in"}
+[Image: see published version]
 
 
 **Tangible resources perception measure (4 items)**
 
-![A screenshot of a product Description automatically generated]([image]){width="6.5in" height="1.3043350831146108in"}
+[Image: see published version]
 
-![A screenshot of a product Description automatically generated]([image]){width="6.5in" height="1.2637521872265967in"}
+[Image: see published version]
 
-![A screenshot of a product Description automatically generated]([image]){width="6.5in" height="1.1836176727909011in"}![A screenshot of a product Description automatically generated]([image]){width="6.5in" height="1.282361111111111in"}
+[Image: see published version][Image: see published version]
 
 **Purchase intention for efficacious product measure (single item)**
 
-![]([image]){width="6.5in" height="1.3576388888888888in"}
+[Image: see published version]
 
 ### 
 
 **Purchase intention for eco-friendly product measure (single item)**
 
-![]([image]){width="6.5in" height="1.3875in"}
+[Image: see published version]
 
 ### 
 
 **Processing fluency measure (single item)**
 
-![]([image]){width="6.5in" height="1.1397769028871392in"}
+[Image: see published version]
 
 **Aesthetic appeal measure (single item)**
 
-![]([image]){width="6.5in" height="1.1754101049868766in"}
+[Image: see published version]
 
 ### WEB APPENDIX F. CONCEPTUAL REPLICATION OF STUDIES 3A AND 3B AND PERCEPTUAL FLUENCY TEST
 
@@ -982,25 +982,25 @@ Then, we measured perceptual fluency using a standard 5-item scale from prior re
 
 **Eco-friendliness perception measure (4 items)**
 
-![A screenshot of a white box Description automatically generated]([image]){width="6.5in" height="1.2666666666666666in"}
+[Image: see published version]
 
-![A screenshot of a white box Description automatically generated]([image]){width="6.5in" height="1.1416666666666666in"}
+[Image: see published version]
 
-![A screenshot of a white box Description automatically generated]([image]){width="6.5in" height="1.1166666666666667in"}
+[Image: see published version]
 
-![A screenshot of a white box Description automatically generated]([image]){width="6.5in" height="1.1006944444444444in"}
+[Image: see published version]
 
 
 **Belief in lay theory measures (8 items)**
 
-![A screenshot of a box Description automatically generated with low confidence]([image]){width="6.5in" height="2.1120002187226596in"}
+[Image: see published version]
 
-![A screenshot of a box Description automatically generated with low confidence]([image]){width="6.5in" height="1.5440266841644794in"}
+[Image: see published version]
 
-![A screenshot of a box Description automatically generated with low confidence]([image]){width="6.5in" height="1.4782217847769028in"}
+[Image: see published version]
 
-![A screenshot of a product package Description automatically generated with low confidence]([image]){width="6.5in" height="1.5359995625546807in"}
+[Image: see published version]
 
-![A screenshot of a product package Description automatically generated with low confidence]([image]){width="6.5in" height="1.5208803587051618in"}![A screenshot of a product package Description automatically generated with low confidence]([image]){width="6.5in" height="1.5436515748031496in"}![A screenshot of a product package Description automatically generated with low confidence]([image]){width="6.5in" height="1.3769116360454943in"}![A screenshot of a box Description automatically generated with low confidence]([image]){width="6.5in" height="1.5027777777777778in"}
+[Image: see published version][Image: see published version][Image: see published version][Image: see published version]
 
 [^1]: Our manuscript uses six replicates across all studies (energy drink, two versions of soap, protein powder, paper towel, and all-purpose lotion). An additional replicate -- all-purpose cleaner -- was also pretested, but not used in any of the studies. For transparency, we report the results for all replicates here.

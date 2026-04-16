@@ -96,7 +96,7 @@ Manufacturers and retailers can proactively influence price beliefs and alter co
 
 **FIGURE 1**. DISTRIBUTIONS OF CUSTOMER PRICE EXPECTATIONS
 
-![](media/image1.jpeg){width="5.473078521434821in" height="3.1180555555555554in"}
+[Image: see published version]
 
 NOTE.---- Curve C illustrates the baseline distribution of a target market's price expectations, derived from price history and product attributes. Curve B (D) represents adjustments to price expectations owing to the target market's belief that prices will be inexpensive (expensive).
 
@@ -116,7 +116,7 @@ Similar predictions can be made in the lower panel of figure 2: inexpensive-pric
 
 **FIGURE 2**. PRICE BELIEFS AND PRICE DELAY INFLUENCE PRICE EXPECTATIONS
 
-![](media/image2.jpeg){width="4.903634076990376in" height="4.583333333333333in"}
+[Image: see published version]
 
 NOTE.---- In the top panel of the figure, E(\$)~C~ is the mean expected price of all target market consumers in the absence of price beliefs. E(\$)~D~ is the mean expected price of all target market consumers in the presence of expensive-price beliefs. E(\$)~E~ is the mean expected price, of all target market consumers, in the presence of expensive-price beliefs and a price delay. OP is the offer price. Consumers with price expectations to the right (left) of the offer price should experience a favorable (unfavorable) price expectation disconfirmation and be more (less) likely to purchase the product. The bottom panel shows corresponding effects for target market consumers with inexpensive-price beliefs. In summary, when the dependent variable is purchase intention, it should increase (decrease) as favorable (unfavorable) price expectation disconfirmation becomes more extreme.
 
@@ -152,7 +152,7 @@ Method
 
 **FIGURE 3.** ILLUSTRATION OF CONDITIONS IN STUDY 1
 
-![](media/image3.png){width="5.676595581802275in" height="2.9304352580927384in"}
+[Image: see published version]
 
 The retailer was responsible for implementing the A/B test. The retailer uses the VTEX platform to manage its e-commerce business. The VTEX platform supports A/B testing and can direct web traffic, at random, to one of the two experimental conditions. The platform has the following advantages: (1) random assignment to condition, (2) the ability to store experimental assignment information in browser cookies, so a returning shopper using the same device can be reassigned to the same experimental condition, and (3) an ability to record customer behaviors during the shopping journey. A disadvantage of the platform is it uses simple random assignment (i.e., each participant who enters an A/B test has a 50/50 chance of being assigned to a condition), hence there will be unequal sample sizes across conditions. A second disadvantage is it cannot retain experimental condition information if a consumer switches devices (e.g., the first visit was on a cell phone and the second visit was on a laptop).
 
@@ -340,11 +340,11 @@ We manipulated Price Disclosure such that participants in the immediate-PD condi
 
 Panel A: Immediate Price Disclosure Condition
 
-![A group of coffee machines Description automatically generated](media/image4.png){width="5.419155730533683in" height="2.9186767279090113in"}
+[Image: see published version]
 
 Panel B: Delayed Price Disclosure Condition
 
-![A group of coffee machines Description automatically generated](media/image5.png){width="5.530589457567804in" height="3.1006135170603675in"}
+[Image: see published version]
 
 *Measures*. The shopping cart displayed the espresso machine chosen by each participant and a subtotal with the price. At this moment, we asked "If you were to purchase an espresso machine, how likely would you be to purchase the one you selected?" (1 = "Not likely at all" to 7 = "Extremely likely"). Next, we measured the price expectation disconfirmation: "Before seeing the actual price of the espresso machine ..." 1 = "I expected a much lower price than its current price," to 4 = "I expected a price equal or similar to its current price," to 7 = "I expected a much higher price than its current price". Lastly, participants reported their gender and age.
 
@@ -853,15 +853,15 @@ We implemented a two-stage decomposition to address potential conflation of prob
 
 Post-Test Stimuli -- Electric Kettle Section of Retailer's Website with Delayed Price Disclosure and English Translation
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image1.png){width="4.6769903762029745in" height="8.485148731408573in"}
+[Image: see published version]
 
 Post-Test Stimuli -- Espresso Machine Section of Retailer's Website with Delayed Price Disclosure and English Translation
 
-![](media/image2.png){width="5.257425634295713in" height="8.861501531058618in"}
+[Image: see published version]
 
 Post-Test Procedure (for Electric Kettles) (Verifying Delayed Prices Led to an Expectation of Higher Prices)
 
-![A black and white image of a question AI-generated content may be incorrect.](media/image3.png){width="6.268055555555556in" height="0.8555555555555555in"}
+[Image: see published version]
 
 \[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
@@ -871,7 +871,7 @@ In this scenario, you were browsing through a variety of electric kettles on a s
 
 (Stimuli from previous pages was displayed -- participants were only shown the website section with delayed price disclosure)
 
-![A white background with black text AI-generated content may be incorrect.](media/image4.png){width="6.268055555555556in" height="2.0861111111111112in"}
+[Image: see published version]
 
 \*The Procedure for Espresso Machines was similar except for the product category
 
@@ -880,11 +880,11 @@ In this scenario, you were browsing through a variety of electric kettles on a s
 
 \*Similar as the Post-Test Procedure, but with different measures.
 
-![A screenshot of a test AI-generated content may be incorrect.](media/image5.png){width="6.268055555555556in" height="2.009027777777778in"}
+[Image: see published version]
 
-![A screenshot of a test AI-generated content may be incorrect.](media/image6.png){width="6.268055555555556in" height="2.39375in"}
+[Image: see published version]
 
-![A screenshot of a question AI-generated content may be incorrect.](media/image7.png){width="6.268055555555556in" height="2.4520833333333334in"}
+[Image: see published version]
 
 \*The Procedure for Espresso Machines was similar except for the product category
 
@@ -897,7 +897,7 @@ In the electric kettles post-test, there were no differences from the midpoint 4
 
 ## Materials -- Main Study
 
-![](media/image8.png){width="6.5in" height="0.7631944444444444in"}\[Consistent with the preregistration, participants who did not choose a 4 or 5 were screened out and did not complete the study. They were paid regardless, consistent with Prolific's policies.\]
+[Image: see published version]\[Consistent with the preregistration, participants who did not choose a 4 or 5 were screened out and did not complete the study. They were paid regardless, consistent with Prolific's policies.\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -913,11 +913,11 @@ This is the espresso machine you are interested in:
 
 **\[immediate-PD condition\]**
 
-![A silver espresso machine with white text AI-generated content may be incorrect.](media/image9.png){width="2.8372900262467193in" height="3.014937664041995in"}
+[Image: see published version]
 
 **\[delayed-PD condition\]**
 
-![A silver espresso machine with black handle AI-generated content may be incorrect.](media/image10.png){width="3.241431539807524in" height="3.416329833770779in"}
+[Image: see published version]
 
 After some consideration, you decide to add the product to your shopping cart. Please click the next button to see the product in your shopping cart.
 
@@ -927,11 +927,11 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 **YOUR SHOPPING CART:**
 
-![A silver espresso machine with white text AI-generated content may be incorrect.](media/image9.png){width="3.3523906386701663in" height="3.562290026246719in"}
+[Image: see published version]
 
 **SUBTOTAL (1 ITEM): \$142.50**
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image11.png){width="6.5in" height="2.176388888888889in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -939,20 +939,20 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 **YOUR SHOPPING CART:**
 
-![A silver espresso machine with white text AI-generated content may be incorrect.](media/image9.png){width="3.0375371828521436in" height="3.227723097112861in"}
+[Image: see published version]
 
 **SUBTOTAL (1 ITEM): \$142.50**
 
-![A screen shot of a computer AI-generated content may be incorrect.](media/image12.png){width="6.360632108486439in" height="1.5133672353455818in"}
+[Image: see published version]
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image13.png){width="4.80198053368329in" height="3.050488845144357in"}
+[Image: see published version]
 
 
 ## Materials -- Pre-Test Procedure 
 
 This pre-test was conducted to set the stimulus price and verify expensive-price beliefs about the espresso machine.
 
-![](media/image8.png){width="6.5in" height="0.7631944444444444in"}\[Consistent with preregistration for the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Image: see published version]\[Consistent with preregistration for the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -966,15 +966,15 @@ Click the arrow button to continue.
 
 This is the espresso machine you are interested in:
 
-![A coffee machine with a list of information AI-generated content may be incorrect.](media/image14.png){width="2.430145450568679in" height="2.4481878827646546in"}
+[Image: see published version]
 
-![A white background with black text AI-generated content may be incorrect.](media/image15.png){width="5.324249781277341in" height="0.7414785651793526in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 This is the espresso machine you are interested in:
 
-![A coffee machine with a list of information AI-generated content may be incorrect.](media/image14.png){width="2.936900699912511in" height="2.958700787401575in"}![A screenshot of a computer AI-generated content may be incorrect.](media/image16.png){width="6.221749781277341in" height="3.580298556430446in"}
+[Image: see published version][Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -985,7 +985,7 @@ Gender and age
 
 This pre-test was conducted to verify expensive-price beliefs about the delayed price disclosure
 
-![](media/image8.png){width="6.5in" height="0.7631944444444444in"}\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Image: see published version]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -999,9 +999,9 @@ Click the arrow button to continue.
 
 This is the espresso machine you are interested in:
 
-![A coffee machine with a list of information AI-generated content may be incorrect.](media/image14.png){width="3.4358781714785653in" height="3.4613845144356956in"}
+[Image: see published version]
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image17.png){width="6.300044838145232in" height="3.1025568678915136in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1021,13 +1021,13 @@ Gender and age
 
 **YOUR SHOPPING CART:**
 
-![A silver espresso machine with white text AI-generated content may be incorrect.](media/image9.png){width="3.3523906386701663in" height="3.562290026246719in"}
+[Image: see published version]
 
 **SUBTOTAL (1 ITEM): \$142.50**
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image18.png){width="5.312426727909012in" height="1.9764162292213474in"}
+[Image: see published version]
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image19.png){width="5.48588145231846in" height="2.116919291338583in"}
+[Image: see published version]
 
 *Alternative Explanations Report.* One could argue that delaying the disclosure of a price could generate inferences about the product and/or retailer beyond price expectations. To alleviate this concern, we reran the same procedure from Study 2 (N = 235 valid responses) and asked the following questions once participants had the espresso machine in their shopping cart: perceived product quality - "I expect this product to..." \[1 = be unreliable vs. 7 = be reliable, 1 = be poor quality vs. 7 = be good quality, 1 = not be dependable vs. 7 = be dependable; α = .91; Dodds, Monroe, and Grewal (1991)), and expectations about customer service -- "I expect this retailer to provide..." \[1 = poor customer service vs. 7 = excellent customer service, 1 = not to ship on time vs. 7 = ship on time, 1 = make product returns difficult vs. 7 = make product returns easy; α = .88). There were no effects of delayed-PD (vs. immediate-PD) on perceived product quality (*M*~delayed~ = 6.14, *SD* = .93; *M*~immediate~ = 6.03, *SD* = .86; *F*(1, 233) = .915, *p* = .340) and expectations about customer service (*M*~delayed~ = 5.88, *SD* = 1.31; *M*~immediate~ = 5.80, *SD* = .95; *F*(1, 233) = .354, *p* = .552). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
 
@@ -1042,9 +1042,9 @@ Dodds, William B., Kent B. Monroe, and Dhruv Grewal (1991), "Effects of Price, B
 
 Note: below we show part of two flyers used in the actual e-mail experiment (this specific flyer was sent on December 18, 2021).
 
-![](media/image20.png){width="3.2916666666666665in" height="6.584009186351706in"}![](media/image21.png){width="2.770819116360455in" height="6.5754822834645665in"}
+[Image: see published version][Image: see published version]
 
-Note: the sales flyers below are from 2024 / 2025 but represent those in the field experiment. ![A advertisement for a store AI-generated content may be incorrect.](media/image22.png){width="6.276116579177603in" height="7.152243000874891in"} ![A poster of a product AI-generated content may be incorrect.](media/image23.png){width="6.268055555555556in" height="7.8284722222222225in"} ![A poster of a product AI-generated content may be incorrect.](media/image24.png){width="6.268055555555556in" height="7.835416666666666in"} ![A poster of a television and a refrigerator AI-generated content may be incorrect.](media/image25.png){width="6.268055555555556in" height="8.866666666666667in"} ![A poster of a cell phone and a refrigerator AI-generated content may be incorrect.](media/image26.png){width="6.268055555555556in" height="8.465277777777779in"} ![A advertisement for a video game console AI-generated content may be incorrect.](media/image27.png){width="6.268055555555556in" height="8.475in"} ![A advertisement for a store AI-generated content may be incorrect.](media/image28.png){width="6.268055555555556in" height="7.835416666666666in"} ![A advertisement for a black friday sale AI-generated content may be incorrect.](media/image29.png){width="6.268055555555556in" height="7.835416666666666in"}
+Note: the sales flyers below are from 2024 / 2025 but represent those in the field experiment. [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version]
 
 ## Distributional Analysis and Alternative Specifications for Study 3
 
@@ -1119,29 +1119,29 @@ Notes---Standard errors in parentheses. †p \< .10. \*p \< .05. \*\*p \< .01
 
 Post-Test Stimuli -- Sales Flyer Similar to Those Used in the Field Study with English Translation
 
-![](media/image30.png){width="6.124671916010499in" height="7.479166666666667in"}
+[Image: see published version]
 
 
 This post-test was conducted to verify delayed prices led to an expectation of lower prices
 
-![A white background with black text AI-generated content may be incorrect.](media/image31.png){width="6.268055555555556in" height="1.523611111111111in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![](media/image32.png){width="6.268055555555556in" height="0.5069444444444444in"}*(Stimulus from the previous page was displayed -- participants were shown the website sales flyer delayed price disclosure)
+[Image: see published version]*(Stimulus from the previous page was displayed -- participants were shown the website sales flyer delayed price disclosure)
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image33.png){width="6.268055555555556in" height="1.4541666666666666in"}
+[Image: see published version]
 
 
 ## Alternative Explanations Test Procedure and Results
 
 \*Similar as the Post-Test Procedure, but with different measures.
 
-![A screenshot of a test AI-generated content may be incorrect.](media/image5.png){width="4.718157261592301in" height="1.5122583114610673in"}
+[Image: see published version]
 
-![A screenshot of a test AI-generated content may be incorrect.](media/image6.png){width="4.814251968503937in" height="1.8385465879265093in"}
+[Image: see published version]
 
-![A screenshot of a question AI-generated content may be incorrect.](media/image7.png){width="4.94029636920385in" height="1.932658573928259in"}
+[Image: see published version]
 
 *Alternative Explanations Report.* It is possible the withholding prices encouraged consumers to make unfavorable inferences about product quality or the retailer. Using a procedure similar to the post-test, we asked 100 Prolific participants whether the hidden price decreased/increased perceived product quality, their trust in the retailer, and customer service expectations. There were no differences from the midpoint 4 on perceptions of product quality (*M* = 3.91, *SD* = .986 vs. 4; *t*(99) = -.913, *p* = .363), trust in the retailer (*M* = 4.05, *SD* = .783 vs. 4; *t*(99) = .638, *p* = .525), and customer service expectations (*M* = 3.97, *SD* = .979 vs. 4; *t*(99) = -.306, *p* = .760).
 
@@ -1149,21 +1149,21 @@ This post-test was conducted to verify delayed prices led to an expectation of l
 
 ## Materials -- Main Study
 
-![](media/image8.png){width="6.5in" height="0.7631944444444444in"}\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Image: see published version]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image34.png){width="6.035535870516186in" height="1.9545625546806649in"}\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Image: see published version]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
 **\[immediate-PD condition\]**
 
-![A silver espresso machine with a red circle and black text AI-generated content may be incorrect.](media/image35.png){width="3.423611111111111in" height="3.3056485126859143in"}
+[Image: see published version]
 
 **\[delayed-PD condition\]**
 
-![A silver espresso machine with a red circle and white text AI-generated content may be incorrect.](media/image36.png){width="3.638888888888889in" height="3.5135061242344707in"}
+[Image: see published version]
 
 After some consideration, you decide to click the promotion to see more information about the product. Click the next button to continue.
 
@@ -1171,45 +1171,45 @@ After some consideration, you decide to click the promotion to see more informat
 
 **DV (Counterbalanced with mediator):**
 
-**This is the espresso machine advertised in the e-mail:** ![A coffee machine with price list AI-generated content may be incorrect.](media/image37.png){width="3.977308617672791in" height="3.954394138232721in"}
+**This is the espresso machine advertised in the e-mail:** [Image: see published version]
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image38.png){width="6.268055555555556in" height="2.379166666666667in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 **Mediator (Counterbalanced with DV):**
 
-**This is the espresso machine advertised in the e-mail:** ![A coffee machine with price list AI-generated content may be incorrect.](media/image37.png){width="3.977308617672791in" height="3.954394138232721in"}
+**This is the espresso machine advertised in the e-mail:** [Image: see published version]
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image39.png){width="6.268055555555556in" height="1.6458333333333333in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image13.png){width="4.80198053368329in" height="3.050488845144357in"}
+[Image: see published version]
 
 ## Materials -- Pre-Test Procedure
 
 This pre-test was conducted to set the price and verify inexpensive-price beliefs about the espresso machine.
 
-![](media/image8.png){width="6.5in" height="0.7631944444444444in"}\[Consistent with the main study preregistration, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Image: see published version]\[Consistent with the main study preregistration, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A screenshot of a white box AI-generated content may be incorrect.](media/image40.png){width="5.24546697287839in" height="1.7376410761154855in"}
-
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
-
-When you open the e-mail, you see a promotion for a Breville espresso machine:
-
-![A silver espresso machine with a red circle and white text AI-generated content may be incorrect.](media/image41.png){width="3.0926738845144355in" height="2.986111111111111in"}
-
-![A screenshot of a computer AI-generated content may be incorrect.](media/image42.png){width="5.206336395450569in" height="0.7458223972003499in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
-![A silver espresso machine with a red circle and white text AI-generated content may be incorrect.](media/image36.png){width="4.138614391951006in" height="3.996013779527559in"}![A screenshot of a computer AI-generated content may be incorrect.](media/image16.png){width="5.952350174978128in" height="3.425272309711286in"}
+[Image: see published version]
+
+[Image: see published version]
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+When you open the e-mail, you see a promotion for a Breville espresso machine:
+
+[Image: see published version][Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1219,19 +1219,19 @@ Gender and age
 
 This post-test was conducted to verify inexpensive-price beliefs about the delayed price disclosure
 
-![](media/image8.png){width="6.5in" height="0.7631944444444444in"}\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Image: see published version]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 **CONSUMER DECISION MAKING**
 
-![A close up of a message AI-generated content may be incorrect.](media/image43.png){width="6.268055555555556in" height="1.1118055555555555in"}\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Image: see published version]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
-![A silver espresso machine with a red circle and white text AI-generated content may be incorrect.](media/image44.png){width="3.2673272090988625in" height="3.154747375328084in"}
+[Image: see published version]
 
-![A screenshot of a test AI-generated content may be incorrect.](media/image45.png){width="6.268055555555556in" height="1.7715277777777778in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1249,11 +1249,11 @@ Gender and age
 
 \*Same as the main study up to the page where participants see more information about the product:
 
-**This is the espresso machine advertised in the e-mail:** ![A coffee machine with price list AI-generated content may be incorrect.](media/image37.png){width="3.977308617672791in" height="3.954394138232721in"}
+**This is the espresso machine advertised in the e-mail:** [Image: see published version]
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image18.png){width="4.5989282589676295in" height="1.7109689413823272in"}
+[Image: see published version]
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image19.png){width="4.643564085739283in" height="1.7918821084864391in"}
+[Image: see published version]
 
 *Alternative Explanations Report.* It is possible the withholding prices encouraged consumers to make unfavorable inferences about product quality or the retailer. To alleviate this concern, we reran the same procedure from Study 4 (N = 256 valid responses), and once participants had the espresso machine in their shopping cart, we asked the same product quality (α = .92) and expectations about customer service (α = .86) questions used in Study 2's alternative explanation post-test. There were no effects of delayed-PD (vs. immediate-PD) on perceived product quality (*M*~delayed~ = 5.88, *SD* = 1.09; *M*~immediate~ = 5.75, *SD* = 1.07; *F*(1, 255) = .829, *p* = .364) or customer service expectations (*M*~delayed~ = 5.63, *SD* = 1.12; *M*~immediate~ = 5.54, *SD* = 1.13; *F*(1, 254) = .420, *p* = .517). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
 
@@ -1261,7 +1261,7 @@ Gender and age
 
 ## Materials -- Main Study
 
-![](media/image8.png){width="6.5in" height="0.7631944444444444in"}\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Image: see published version]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1294,21 +1294,21 @@ Please read the retailer description below. The next button will be available af
 
 **\[store image: national\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines. The company\'s growth into the largest online retailer in its category is attributed to its focus on coffee and espresso equipment. With its headquarters encompassing 40,000 square feet, Whole Latte Love features a dedicated technical staff to support its operations and customer service efforts. The company aims to provide a wide range of espresso machines to its customers, supported by its resources and technical expertise. \
 On the next page, you will see a selection of twelve **espresso machines.**
 
 **\[store image: premium\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailer---it\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
 On the next page, you will see a selection of twelve **premium espresso machines.**
 
  **\[store image: discount\]**
 
-![A group of red tags with white text Description automatically generated](media/image47.jpeg){width="3.50625in" height="2.077777777777778in"}
+[Image: see published version]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! Our selection is all about bringing you great coffee experiences for less. We've handpicked machines that deliver on taste, without the hefty price tag. With our constantly updated deals, you\'re sure to find the perfect espresso maker to fit even the tightest budget. Here, it\'s all about great coffee, great prices, and no compromise on quality. Ready for your next coffee adventure? Check out our offers and enjoy your favorite brew without overspending.\
 On the next page, you will see a selection of twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount.
@@ -1317,21 +1317,21 @@ On the next page, you will see a selection of twelve **espresso machines that a
 
 **\[store image: national\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines.\
 Please select your preferred espresso machine. There are twelve **espresso machines**. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: premium\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise.\
 Please select your preferred espresso machine. There are twelve **premium espresso machines.** Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: discount\]**
 
-![A group of red tags with white text Description automatically generated](media/image47.jpeg){width="3.50625in" height="2.077777777777778in"}
+[Image: see published version]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! \
 Please select your preferred espresso machine. There are twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
@@ -1348,13 +1348,13 @@ In this condition, prices were immediately available.
 
 Before showing the stimuli, we will explain how options were priced. This rule applies to both price disclosure conditions. The prices were determined by participant's internal reference prices, which were provided on the first question of the survey. We priced the options in such a way that the prices ranged from 85% to 115% of participants' own internal reference prices (provided at the beginning of the survey), in 2.5% increments, plus 99 cents to make the prices realistic. This was programmed by calculating the following embedded data variables:
 
-![A table with numbers and symbols Description automatically generated](media/image48.png){width="3.3981561679790024in" height="1.5374278215223096in"}![A table with numbers and symbols Description automatically generated](media/image48.png){width="3.2784667541557306in" height="1.5335290901137357in"}
+[Image: see published version][Image: see published version]
 
 With "q://QID2/ChoiceTextEntryValue" being participant's internal reference price (i.e., the answer providing an average market price for an espresso machine). To illustrate, consider a participant who indicated \$200 as the average price for a typical espresso machine. This participant would see the following prices distributed across the twelve options: \$170.99 (85% of \$200 + 99 cents), \$175.99 (87.5% of \$200 + 99 cents), ..., \$225.99 (112.5% of \$200 + 99 cents), and \$230.99 (115% of \$200 + 99 cents).
 
 Each of the 12 options were assigned to one of the {price1, price2, ..., price12} variables. Below, we will show how each option was priced. If the price shows "\$\${e://Field/price1", this means this option was always priced at 85% of the IRP + 99 cents. Likewise, "\$\${e://Field/price6" represents 115% of the IRP + 99 cents (see embedded data above).
 
-![A close-up of a machine Description automatically generated](media/image49.png){width="2.2524376640419947in" height="3.5605599300087487in"}![A close-up of a coffee machine Description automatically generated](media/image50.png){width="2.20120406824147in" height="3.461580271216098in"}![A silver espresso machine with two cups of espresso Description automatically generated](media/image51.png){width="2.2773654855643044in" height="3.5011231408573926in"}![A black and copper coffee machine Description automatically generated](media/image52.png){width="2.2526345144356954in" height="3.5464206036745405in"}![A white and gold coffee machine Description automatically generated](media/image53.png){width="2.2279297900262467in" height="3.558036964129484in"}![A coffee machine with a cup of coffee Description automatically generated](media/image54.png){width="2.293041338582677in" height="3.5684569116360456in"} ![A black coffee machine with two cups of liquid Description automatically generated](media/image55.png){width="2.091868985126859in" height="3.315767716535433in"}![A black coffee machine with a glass cup Description automatically generated](media/image56.png){width="2.386068460192476in" height="3.341909448818898in"}![A black and silver espresso machine Description automatically generated](media/image57.png){width="2.1231889763779526in" height="3.3257010061242345in"}![A coffee machine with a cup and a glass Description automatically generated](media/image58.png){width="2.291595581802275in" height="3.2109383202099737in"}![A black coffee machine with white text Description automatically generated](media/image59.png){width="2.0088429571303585in" height="3.1866469816272964in"} ![A coffee machine with a glass of milk Description automatically generated](media/image60.png){width="2.0492760279965005in" height="3.1811450131233596in"}
+[Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version]
 
 **\[price disclosure: delayed condition\]**
 
@@ -1362,9 +1362,9 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-![A group of coffee machines Description automatically generated](media/image61.png){width="6.948266622922135in" height="4.147432195975503in"}![A collage of different types of coffee machines Description automatically generated](media/image62.png){width="7.078665791776028in" height="4.170056867891514in"}
+[Image: see published version][Image: see published version]
 
-![A collage of a coffee machine Description automatically generated](media/image63.png){width="7.233523622047244in" height="4.306883202099738in"}![A group of coffee machines Description automatically generated](media/image64.png){width="7.234109798775153in" height="4.341239063867016in"}
+[Image: see published version][Image: see published version]
 
 **\
 \[price disclosure: immediate condition\]**
@@ -1373,13 +1373,13 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-![A collage of different types of coffee machines Description automatically generated](media/image65.png){width="6.5in" height="3.5652777777777778in"}
+[Image: see published version]
 
-![A collage of different types of coffee machines Description automatically generated](media/image66.png){width="6.5in" height="3.55in"}
+[Image: see published version]
 
-![A collage of different types of coffee machines Description automatically generated](media/image67.png){width="6.655994094488189in" height="3.6423075240594924in"}
+[Image: see published version]
 
-![A collage of different types of coffee machines Description automatically generated](media/image68.png){width="6.701388888888889in" height="3.6700120297462817in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1387,17 +1387,17 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 \*The survey used a display logic question that retrieved the participants' espresso machine choice and displayed it again with all its attributes, including the price. Those in the immediate disclosure condition saw the price again, whereas those in the delayed disclosure condition saw the price for the first time.
 
-![](media/image69.png){width="6.5in" height="0.6263888888888889in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 \*The selected espresso machine was displayed again
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image70.png){width="6.275942694663167in" height="1.725883639545057in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
+[Image: Graphical user interface, text, application Description automatically generated]
 
 
 ## Alternative Explanations Test Procedure and Results
@@ -1406,13 +1406,13 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 \*The survey used a display logic question that retrieved the participants' espresso machine choice and displayed it again with all its attributes, including the price. Those in the immediate disclosure condition saw the price again, whereas those in the delayed disclosure condition saw the price for the first time.
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image18.png){width="5.085555555555556in" height="1.8920122484689414in"}
+[Image: see published version]
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image19.png){width="4.993463473315836in" height="1.9269028871391076in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![Graphical user interface, text, application Description automatically generated](media/image71.png){width="4.677664041994751in" height="2.2903094925634297in"}
+[Image: Graphical user interface, text, application Description automatically generated]
 
 *Alternative Explanations Results.* We reran the same procedure from Study 5 (N = 776 valid responses), and once participants had the espresso machine in their shopping cart, we asked the same product quality (α = .92) and expectations about customer service (α = .88) questions used in Study 2's and Study 4's alternative explanation post-tests. There was no main effect of store information condition on perceived product quality (*M*~premium~ = 6.42, *SD* = .76; *M*~national~ = 6.42, *SD* = .73; *M*~discount~ = 6.36, *SD* = .94; *F*(2, 770) = .436, *p* = .647). In addition, there was no main effect of price disclosure on perceived product quality (*M*~immediate~ = 6.43 *SD* = .79; *M*~delayed~ = 6.37, *SD* = .84; *F*(1, 770) = 1.18, *p* = .277). Finally, there was no interaction between store information and price disclosure on price quality (*F*(2, 770) = .981, *p* = .375).
 
@@ -1443,17 +1443,17 @@ There is one anomaly in the data. Price beliefs did not influence price expectat
 
 ## Materials 
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image72.png){width="6.5in" height="1.9895833333333333in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A close-up of a message AI-generated content may be incorrect.](media/image73.png){width="6.5in" height="1.7673611111111112in"}\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Image: see published version]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 Please read the retailer description below. The next button will be available after 20 seconds.
 
 **\[store image: national\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines. The company\'s growth into the largest online retailer in its category is attributed to its focus on coffee and espresso equipment. With its headquarters encompassing 40,000 square feet, Whole Latte Love features a dedicated technical staff to support its operations and customer service efforts. The company aims to provide a wide range of espresso machines to its customers, supported by its resources and technical expertise. \
 \
@@ -1461,14 +1461,14 @@ On the next page, you will see a selection of twelve **espresso machines.**
 
 **\[store image: premium\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailer---it\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
 On the next page, you will see a selection of twelve **premium espresso machines.**
 
  **\[store image: discount\]**
 
-![A group of red tags with white text Description automatically generated](media/image47.jpeg){width="3.50625in" height="2.077777777777778in"}
+[Image: see published version]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! Our selection is all about bringing you great coffee experiences for less. We've handpicked machines that deliver on taste, without the hefty price tag. With our constantly updated deals, you\'re sure to find the perfect espresso maker to fit even the tightest budget. Here, it\'s all about great coffee, great prices, and no compromise on quality. Ready for your next coffee adventure? Check out our offers and enjoy your favorite brew without overspending.\
 \
@@ -1478,21 +1478,21 @@ On the next page, you will see a selection of twelve **espresso machines that a
 
 **\[store image: national\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines.\
 Please select your preferred espresso machine. There are twelve **espresso machines**. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: premium\]**
 
-![A black and white logo Description automatically generated](media/image46.jpeg){width="2.077777777777778in" height="2.077777777777778in"}
+[Image: see published version]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise.\
 Please select your preferred espresso machine. There are twelve **premium espresso machines.** Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: discount\]**
 
-![A group of red tags with white text Description automatically generated](media/image47.jpeg){width="3.50625in" height="2.077777777777778in"}
+[Image: see published version]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! \
 Please select your preferred espresso machine. There are twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
@@ -1509,15 +1509,15 @@ In this condition, prices were immediately available.
 
 Before showing the stimuli, we will explain how options were priced. This rule applies to both price disclosure conditions. The prices were determined by participant's internal reference prices, which were provided on the first question of the survey. We priced the options in such a way that the prices ranged from 85% to 115% of participants' own internal reference prices (provided at the beginning of the survey), in 2.5% increments, plus 99 cents to make the prices realistic. This was programmed by calculating the following embedded data variables:
 
-![A table with numbers and symbols Description automatically generated](media/image48.png){width="3.3981561679790024in" height="1.5374278215223096in"}
+[Image: see published version]
 
-![A table with numbers and symbols Description automatically generated](media/image48.png){width="3.2784667541557306in" height="1.5335290901137357in"}
+[Image: see published version]
 
 With "q://QID2/ChoiceTextEntryValue" being participant's internal reference price (i.e., the answer providing an average market price for an espresso machine). To illustrate, consider a participant who indicated \$200 as the average price for a typical espresso machine. This participant would see the following prices distributed across the twelve options: \$170.99 (85% of \$200 + 99 cents), \$175.99 (87.5% of \$200 + 99 cents), ..., \$225.99 (112.5% of \$200 + 99 cents), and \$230.99 (115% of \$200 + 99 cents).
 
 Each of the 12 options were assigned to one of the {price1, price2, ..., price12} variables. Below, we will show how each option was priced. If the price shows "\$\${e://Field/price1", this means this option was always priced at 85% of the IRP + 99 cents. Likewise, "\$\${e://Field/price6" represents 115% of the IRP + 99 cents (see embedded data above).
 
-![A close-up of a machine Description automatically generated](media/image49.png){width="2.2524376640419947in" height="3.5605599300087487in"}![A close-up of a coffee machine Description automatically generated](media/image50.png){width="2.20120406824147in" height="3.461580271216098in"}![A silver espresso machine with two cups of espresso Description automatically generated](media/image51.png){width="2.2773654855643044in" height="3.5011231408573926in"}![A black and copper coffee machine Description automatically generated](media/image52.png){width="2.2526345144356954in" height="3.5464206036745405in"}![A white and gold coffee machine Description automatically generated](media/image53.png){width="2.2279297900262467in" height="3.558036964129484in"}![A coffee machine with a cup of coffee Description automatically generated](media/image54.png){width="2.293041338582677in" height="3.5684569116360456in"} ![A black coffee machine with two cups of liquid Description automatically generated](media/image55.png){width="2.091868985126859in" height="3.315767716535433in"}![A black coffee machine with a glass cup Description automatically generated](media/image56.png){width="2.386068460192476in" height="3.341909448818898in"}![A black and silver espresso machine Description automatically generated](media/image57.png){width="2.1231889763779526in" height="3.3257010061242345in"}![A coffee machine with a cup and a glass Description automatically generated](media/image58.png){width="2.291595581802275in" height="3.2109383202099737in"}![A black coffee machine with white text Description automatically generated](media/image59.png){width="2.0088429571303585in" height="3.1866469816272964in"} ![A coffee machine with a glass of milk Description automatically generated](media/image60.png){width="2.0492760279965005in" height="3.1811450131233596in"}
+[Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version]
 
 **\[price disclosure: delayed condition\]**
 
@@ -1525,9 +1525,9 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-![A group of coffee machines Description automatically generated](media/image61.png){width="6.948266622922135in" height="4.147432195975503in"}![A collage of different types of coffee machines Description automatically generated](media/image62.png){width="7.078665791776028in" height="4.170056867891514in"}
+[Image: see published version][Image: see published version]
 
-![A collage of a coffee machine Description automatically generated](media/image63.png){width="7.233523622047244in" height="4.306883202099738in"}![A group of coffee machines Description automatically generated](media/image64.png){width="7.234109798775153in" height="4.341239063867016in"}
+[Image: see published version][Image: see published version]
 
 **\
 \[price disclosure: immediate condition\]**
@@ -1536,23 +1536,23 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-![A collage of different types of coffee machines Description automatically generated](media/image65.png){width="6.5in" height="3.5652777777777778in"}
+[Image: see published version]
 
-![A collage of different types of coffee machines Description automatically generated](media/image66.png){width="6.5in" height="3.55in"}
+[Image: see published version]
 
-![A collage of different types of coffee machines Description automatically generated](media/image67.png){width="6.655994094488189in" height="3.6423075240594924in"}
+[Image: see published version]
 
-![A collage of different types of coffee machines Description automatically generated](media/image68.png){width="6.701388888888889in" height="3.6700120297462817in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 Right after participants made their choice:
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image74.png){width="6.5in" height="1.3118055555555554in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
+[Image: Graphical user interface, text, application Description automatically generated]
 
 
 # Web Appendix g: Conceptual Replication of Study 5 - Ergonomic Keyboard
@@ -1577,7 +1577,7 @@ Participants in the immediate-PD condition could see the price for all options u
 
 **FIGURE WA-G.1:** STUDY WA-G -- EVALUATION OF A KEYBOARD
 
-![](media/image75.png){width="5.586805555555555in" height="3.620138888888889in"}
+[Image: see published version]
 
 NOTE.--- Error bars = +/− 1 SE. †p \< .10. \*p \< .05. \*\*p \< .01
 
@@ -1645,7 +1645,7 @@ Please read the retailer description below. The next button will be available af
 **Uplift. Work better. Live healthier.**
 
 
-![A black and blue text Description automatically generated](media/image76.gif){width="2.4in" height="2.121599956255468in"}
+[Image: see published version]
 
 We are committed to designing, manufacturing, and shipping the highest quality ergonomic office furniture. Every UPLIFT Desk product is built to last and offer the latest office furniture innovations. Each is designed by a world-class team of a dozen engineers that includes our founder and CEO Jon Paulsen, a Certified Professional Ergonomist (CPE) and mechanical engineer himself.\
 \
@@ -1655,7 +1655,7 @@ We offer a complete ergonomic ecosystem, ranging from desks and tables to keyboa
 
 **Uplift\'s CLEARANCE SALE (BIG SAVINGS!)**
 
-![A black and blue text Description automatically generated](media/image76.gif){width="2.4in" height="2.121599956255468in"}
+[Image: see published version]
 
 We are committed to designing, manufacturing, and shipping the highest quality ergonomic office furniture. We offer a complete ergonomic ecosystem, ranging from desks and tables to keyboard trays, mice, and keyboards.
 
@@ -1671,7 +1671,7 @@ For a limited time, you can score incredible deals storewide until our stock lev
 
 Sale ends 4/9, 3 PM Central. While supplies last. All advertised prices are the final prices (that is, the discounts have been already applied).\
 \
-![A green and white coupon with white text Description automatically generated](media/image77.png){width="5.208333333333333in" height="2.933333333333333in"}
+[Image: see published version]
 
  
 
@@ -1686,11 +1686,11 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 **\[price disclosure: immediate\]**
 
-![A computer keyboard with a curved keyboard Description automatically generated](media/image78.png){width="6.069444444444445in" height="4.147452974628171in"}
+[Image: see published version]
 
 **\[price disclosure: delayed\]**
 
-![A picture containing diagram Description automatically generated](media/image79.png){width="5.904273840769903in" height="3.8680555555555554in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1698,24 +1698,24 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 \*The survey used a display logic question that retrieved the participants' keyboard choice and displayed it again with all its attributes, including the price. Those in the immediate disclosure condition saw the price again, whereas those in the delayed disclosure condition saw the price for the first time.
 
-![A screen shot of a survey Description automatically generated](media/image80.png){width="4.933333333333334in" height="1.2770209973753281in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A screenshot of a survey Description automatically generated](media/image81.png){width="5.866380139982502in" height="2.1879844706911635in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A screenshot of a survey Description automatically generated](media/image82.png){width="1.3914982502187228in" height="1.152840113735783in"}
+[Image: see published version]
 
-![A white background with black text Description automatically generated](media/image83.png){width="5.058449256342957in" height="0.7258016185476815in"}
+[Image: see published version]
 
 
 # Web Appendix h: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 6
 
 ## Examples of MAP Policy Disclosure in the Marketplace
 
-![I can\'t see the price of this shirt until I add it to my cart and checkout. : r/assholedesign](media/image84.jpeg){width="2.162800743657043in" height="2.6203707349081364in"}![Walmart won\'t let me see the price until I add the item to my cart : r/assholedesign](media/image85.png){width="3.5556900699912513in" height="2.611111111111111in"}
+[Image: I can\'t see the price of this shirt until I add it to my cart and checkout. : r/assholedesign][Image: Walmart won\'t let me see the price until I add the item to my cart : r/assholedesign]
 
 
 ## Materials
@@ -1772,15 +1772,15 @@ This is the robot vacuum stick that you got interested in. The following informa
 
 **\[price disclosure: immediate\]**
 
-![A screenshot of a computer Description automatically generated](media/image86.png){width="6.5in" height="1.6416666666666666in"}
+[Image: see published version]
 
 **\[price disclosure: delayed\]**
 
-![A screenshot of a computer Description automatically generated](media/image87.png){width="6.5in" height="1.75in"}
+[Image: see published version]
 
 **\[price disclosure: delayed with MAP policy disclosure\]**
 
-![](media/image88.png){width="6.5in" height="2.691666666666667in"}
+[Image: see published version]
 
 You decided to see more information about the product. Click the next button to continue.
 
@@ -1788,11 +1788,11 @@ You decided to see more information about the product. Click the next button to 
 
 Please read the product information below.
 
-![A white paper with black text Description automatically generated](media/image89.png){width="5.674305555555556in" height="9.0in"}
+[Image: see published version]
 
-![A close-up of a robot vacuum Description automatically generated](media/image90.jpeg){width="6.5in" height="6.5in"}
+[Image: see published version]
 
-![A robotic vacuum cleaner on a wood floor Description automatically generated](media/image91.jpeg){width="6.5in" height="6.5in"}
+[Image: see published version]
 
 When you are done reading the product information, please click the next button.
 
@@ -1802,15 +1802,15 @@ You are considering whether to add this product to your shopping cart or not.
 
 **\[price disclosure: immediate\]**
 
-![A screenshot of a computer Description automatically generated](media/image86.png){width="6.5in" height="1.6416666666666666in"}
+[Image: see published version]
 
 **\[price disclosure: delayed\]**
 
-![A screenshot of a computer Description automatically generated](media/image87.png){width="6.5in" height="1.75in"}
+[Image: see published version]
 
 **\[price disclosure: delayed with MAP policy disclosure\]**
 
-![A screenshot of a computer screen Description automatically generated](media/image88.png){width="6.5in" height="2.691666666666667in"}
+[Image: see published version]
 
 After some consideration, you decide to add the product to your shopping cart. Please click the next button to see the product in your shopping cart.
 
@@ -1818,69 +1818,69 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 **(Dependent Variable Page)**
 
-![A screenshot of a phone Description automatically generated](media/image92.png){width="6.5in" height="2.1847222222222222in"}
+[Image: see published version]
 
 **SUBTOTAL (1 ITEM): \$349.99**
 
-![A screenshot of a computer Description automatically generated](media/image93.png){width="6.5in" height="0.9333333333333333in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 **(Mediator Page)**
 
-![A screenshot of a phone Description automatically generated](media/image92.png){width="6.5in" height="2.1847222222222222in"}
+[Image: see published version]
 
 **SUBTOTAL (1 ITEM): \$349.99**
 
-![A screenshot of a computer Description automatically generated](media/image94.png){width="6.5in" height="1.6083333333333334in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
+[Image: Graphical user interface, text, application Description automatically generated]
 
 
 ## Post-Test: Expensive and Inexpensive-Price Beliefs
 
-![A white background with black text AI-generated content may be incorrect.](media/image95.png){width="6.5in" height="1.1145833333333333in"}
+[Image: see published version]
 
 \[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A white background with black text AI-generated content may be incorrect.](media/image96.png){width="4.8240069991251096in" height="1.2492946194225723in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![](media/image97.png){width="4.491654636920385in" height="0.4386078302712161in"}
+[Image: see published version]
 
 **\[price disclosure: delayed condition\]**
 
-![A screenshot of a computer Description automatically generated](media/image87.png){width="4.92658573928259in" height="1.3263888888888888in"}
+[Image: see published version]
 
 **\[price disclosure: delayed with MAP policy disclosure condition\]**
 
-![A screenshot of a computer screen Description automatically generated](media/image88.png){width="4.493055555555555in" height="1.8605872703412074in"}
+[Image: see published version]
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image98.png){width="6.5in" height="3.2666666666666666in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
+[Image: Graphical user interface, text, application Description automatically generated]
 
 
 ## Alternative Explanations Test Procedure
 
 \*Same as the main study up to the shopping cart page:
 
-![A screenshot of a phone Description automatically generated](media/image92.png){width="6.5in" height="2.1847222222222222in"}
+[Image: see published version]
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image18.png){width="4.312326115485564in" height="1.6043416447944008in"}
+[Image: see published version]
 
-![A screenshot of a survey AI-generated content may be incorrect.](media/image19.png){width="4.221117672790901in" height="1.6288659230096239in"}
+[Image: see published version]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![Graphical user interface, text, application Description automatically generated](media/image71.png){width="3.2100535870516187in" height="1.5717279090113736in"}
+[Image: Graphical user interface, text, application Description automatically generated]
 
 
 ---

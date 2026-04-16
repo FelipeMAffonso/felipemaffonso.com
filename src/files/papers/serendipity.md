@@ -360,7 +360,7 @@ Zhang, Yuan Cao, Diarmuid Ó. Séaghdha, Daniele Quercia, and Tamas Jambor (2012
 **\
 FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
 
-![](media/image1.png){width="6.322222222222222in" height="2.790106080489939in"}
+[Image: see published version]
 
 
 **FIGURE 2: STUDY 2 RESULTS**
@@ -847,7 +847,7 @@ Imagine you enter an art gallery. Two of the paintings the gallery features appe
   -------------------------------------------------------------------------
    **Moving Around** by Gerald Chodak   **On the Border** by Gerald Chodak
   ------------------------------------ ------------------------------------
-         ![](media/image1.wmf)                ![](media/image1.wmf)
+         [Image: see published version]                [Image: see published version]
 
   -------------------------------------------------------------------------
 
@@ -1357,14 +1357,14 @@ Thank you for your participation so far. Please raise your hand. The experimente
 +-----------------------------------------------------------------------------------+
 | **Here are some pretzels for you!**                                               |
 |                                                                                   |
-| ![](media/image2.png){width="2.2068153980752405in" height="2.1979166666666665in"} |
+| [Image: see published version] |
 |                                                                                   |
 | **Please type the code "pretzels" to continue with the study.**                   |
 +===================================================================================+
 
 Paper card (that was put above the napkin for each Styrofoam bowl)
 
-![](media/image3.png){width="3.2246522309711287in" height="2.3953488626421695in"}
+[Image: see published version]
 
 Pretzels inside the Styrofoam bowls
 
