@@ -336,8 +336,7 @@ Felipe M. Affonso
 
 ### A.1 Threshold Sensitivity Analysis
 
-
-**The choice of failure threshold involves a trade-off between sensitivity (detecting true agents) and specificity (avoiding false positives among humans). Table WA-A1 presents detection performance across all possible thresholds.**
+The choice of failure threshold involves a trade-off between sensitivity (detecting true agents) and specificity (avoiding false positives among humans). Table WA-A1 presents detection performance across all possible thresholds.
 
 
 **TABLE WA-A1: DETECTION PERFORMANCE ACROSS ALL THRESHOLDS**
@@ -402,8 +401,7 @@ Importantly, although the ROC curve suggests that CAPTCHA at its optimal thresho
 
 Traditional methods were designed for two threat models that do not match vision-enabled agent characteristics. The first targets simple automated bots that access HTML directly without rendering visual content and can be defeated by invisible elements, hidden form fields, and CSS-based traps. Vision-enabled agents can perceive rendered visual content through screenshots, and they do not need to access underlying code where hidden elements reside.
 
-
-**The second targets inattentive humans who skip instructions, rush through questions, or fail to recall earlier content. Vision-enabled agents process complete text carefully as their core function, maintaining consistent attention through model inference. They read every word, follow embedded instructions precisely, and generate contextually appropriate answers. Table WA-A3 contrasts human cognitive processes that traditional checks exploit against agent analogs that render those checks ineffective.**
+The second targets inattentive humans who skip instructions, rush through questions, or fail to recall earlier content. Vision-enabled agents process complete text carefully as their core function, maintaining consistent attention through model inference. They read every word, follow embedded instructions precisely, and generate contextually appropriate answers. Table WA-A3 contrasts human cognitive processes that traditional checks exploit against agent analogs that render those checks ineffective.
 
 
 **TABLE WA-A3: ARCHITECTURAL DIFFERENCES ENABLING EVASION**
@@ -587,8 +585,7 @@ The distributions show clear separation between agents and humans. Among humans,
 
 ### A.8 Extended Thinking Models
 
-
-**Among the 34 models tested, 12 are extended-thinking variants that engage in deliberative reasoning before responding. Extended thinking improves average accuracy by 8.8 percentage points across 12 paired comparisons (standard vs. thinking variants of the same base model), though the effect is inconsistent: 8 of 12 pairs show improvement while 4 show declines. The best-performing model overall, Gemini 3 Flash with extended thinking, achieves 65% average accuracy, the highest among all 34 models tested but still 21.8 percentage points below the human baseline. Detailed results for all thinking-variant comparisons appear in web appendix C (Table WA-C3).**
+Among the 34 models tested, 12 are extended-thinking variants that engage in deliberative reasoning before responding. Extended thinking improves average accuracy by 8.8 percentage points across 12 paired comparisons (standard vs. thinking variants of the same base model), though the effect is inconsistent: 8 of 12 pairs show improvement while 4 show declines. The best-performing model overall, Gemini 3 Flash with extended thinking, achieves 65% average accuracy, the highest among all 34 models tested but still 21.8 percentage points below the human baseline. Detailed results for all thinking-variant comparisons appear in web appendix C (Table WA-C3).
 
 
 ### A.9 Method Independence
@@ -1059,8 +1056,7 @@ The best-performing model overall is Gemini 3 Flash with extended thinking (65.0
 
 ### C.3 Temporal Evolution Analysis
 
-
-**An OLS regression of model-level average accuracy on release date (measured in months since January 2024) yields a slope of +0.51 percentage points per month (SE = 0.47, p = .282, R² = .036), indicating no statistically significant overall improvement across the nearly two-year testing period. Table WA-C2 presents the per-trap temporal slopes, revealing that aggregate stability masks heterogeneous trajectories across individual traps.**
+An OLS regression of model-level average accuracy on release date (measured in months since January 2024) yields a slope of +0.51 percentage points per month (SE = 0.47, p = .282, R² = .036), indicating no statistically significant overall improvement across the nearly two-year testing period. Table WA-C2 presents the per-trap temporal slopes, revealing that aggregate stability masks heterogeneous trajectories across individual traps.
 
 
 **TABLE WA-C2: PER-TRAP TEMPORAL SLOPES (OLS REGRESSION ON RELEASE DATE)**
@@ -1099,8 +1095,7 @@ For detection purposes, the heterogeneous evolution supports the multi-trap batt
 
 ### C.4 Extended Thinking Analysis
 
-
-**Twelve of the 34 models are extended-thinking variants that engage in deliberative reasoning Twelve responding. Table WA-C3 compares standard and extended-thinking versions of the same base models.**
+Twelve of the 34 models are extended-thinking variants that engage in deliberative reasoning Twelve responding. Table WA-C3 compares standard and extended-thinking versions of the same base models.
 
 
 **TABLE WA-C3: EFFECT OF EXTENDED THINKING ON COGNITIVE TRAP PERFORMANCE**
@@ -1146,8 +1141,7 @@ For detection purposes, the heterogeneous evolution supports the multi-trap batt
 
 *NOTE. Difference = Thinking accuracy minus Standard accuracy. Positive values indicate thinking improves performance.*
 
-
-**Extended thinking improves average accuracy by 8.8 percentage points across the 12 paired comparisons, though the effect is inconsistent: 8 of 12 pairs show improvement while 4 show declines. The largest gains occur for Claude Sonnet 4.5 (+30.0 pp) and Gemini 2.5 Flash-Lite (+28.4 pp), where deliberative reasoning appears to override initial pattern-matching responses on traps exploiting training data overfitting. The largest decline occurs for GPT-5.1 (−20.0 pp), where extended thinking may introduce overthinking that degrades initially adequate responses. Even among thinking models, the best achiever (Gemini 3 Flash† at 65.0%) remains 21.8 percentage points below the human baseline, demonstrating that extended reasoning partially compensates for but does not resolve the architectural constraints that cognitive traps exploit. See Figure WA-C1.**
+Extended thinking improves average accuracy by 8.8 percentage points across the 12 paired comparisons, though the effect is inconsistent: 8 of 12 pairs show improvement while 4 show declines. The largest gains occur for Claude Sonnet 4.5 (+30.0 pp) and Gemini 2.5 Flash-Lite (+28.4 pp), where deliberative reasoning appears to override initial pattern-matching responses on traps exploiting training data overfitting. The largest decline occurs for GPT-5.1 (−20.0 pp), where extended thinking may introduce overthinking that degrades initially adequate responses. Even among thinking models, the best achiever (Gemini 3 Flash† at 65.0%) remains 21.8 percentage points below the human baseline, demonstrating that extended reasoning partially compensates for but does not resolve the architectural constraints that cognitive traps exploit. See Figure WA-C1.
 
 
 **FIGURE WA-C1. EFFECT OF EXTENDED THINKING ON COGNITIVE TRAP PERFORMANCE**
@@ -1190,8 +1184,7 @@ For detection purposes, the heterogeneous evolution supports the multi-trap batt
 | 31.7% | 21.2% |
 | 24.7% | 25.9% |
 
-
-**The most striking provider-specific pattern involves the Modified Ebbinghaus trap: Anthropic models achieve 79.2% accuracy (near human levels of 90.1%), while OpenAI models achieve only 20.0% and Google models 45.0%. This suggests that Anthropic’s architecture has partially resolved the training data overfitting constraint for the Ebbinghaus illusion specifically, while the constraint persists in other model families. Conversely, OpenAI models show zero accuracy on the Modified Muller-Lyer across all 12 models tested (120 trials), indicating complete and persistent failure to overcome training data overfitting for this particular illusion despite substantial architectural differences across the GPT-4o through GPT-5.2 range. See Figure WA-C2.**
+The most striking provider-specific pattern involves the Modified Ebbinghaus trap: Anthropic models achieve 79.2% accuracy (near human levels of 90.1%), while OpenAI models achieve only 20.0% and Google models 45.0%. This suggests that Anthropic’s architecture has partially resolved the training data overfitting constraint for the Ebbinghaus illusion specifically, while the constraint persists in other model families. Conversely, OpenAI models show zero accuracy on the Modified Muller-Lyer across all 12 models tested (120 trials), indicating complete and persistent failure to overcome training data overfitting for this particular illusion despite substantial architectural differences across the GPT-4o through GPT-5.2 range. See Figure WA-C2.
 
 
 **FIGURE WA-C2. AVERAGE COGNITIVE TRAP PASS RATES BY PROVIDER**
@@ -2116,8 +2109,7 @@ Providers also differ substantially in how variable their models are across trap
 
 ### H.3 Constraint-Specific Computational Signatures
 
-
-**The aggregate null result masks a constraint-specific pattern that reveals why computational investment fails to predict overall accuracy. Table WA-H2 compares correct and incorrect trials by constraint type.**
+The aggregate null result masks a constraint-specific pattern that reveals why computational investment fails to predict overall accuracy. Table WA-H2 compares correct and incorrect trials by constraint type.
 
 
 **TABLE WA-H2: COMPUTATIONAL SIGNATURES BY CONSTRAINT TYPE**
@@ -2159,16 +2151,14 @@ Spatial reasoning and cross-modal binding traps show the opposite pattern: corre
 
 The spatiotemporal reasoning trap (Moving Robot) shows a near-floor pass rate of 5.3% regardless of computational investment. Only 18 of 340 trials were correct, and 9 of these came from a single model (Claude Haiku 3.0, the oldest in the sample). The constraint is architectural: models cannot infer motion from a static image, and no amount of processing resolves this limitation.
 
-
-**Within-model point-biserial correlations between duration and accuracy confirm that these constraint-specific patterns operate at the individual model level, not merely across models. Of 34 models, 10 show a significant positive correlation (longer responses are more often correct, p < .05), 7 show a significant negative correlation (shorter responses are more often correct), and 17 show no significant relationship. The positive correlations concentrate in models that pass reasoning traps (where deliberation helps), while the negative correlations appear in models that pass only overfitting traps (where fast, memorized responses happen to be correct). This within-model heterogeneity mirrors the between-constraint patterns in Table WA-H2.**
+Within-model point-biserial correlations between duration and accuracy confirm that these constraint-specific patterns operate at the individual model level, not merely across models. Of 34 models, 10 show a significant positive correlation (longer responses are more often correct, p < .05), 7 show a significant negative correlation (shorter responses are more often correct), and 17 show no significant relationship. The positive correlations concentrate in models that pass reasoning traps (where deliberation helps), while the negative correlations appear in models that pass only overfitting traps (where fast, memorized responses happen to be correct). This within-model heterogeneity mirrors the between-constraint patterns in Table WA-H2.
 
 These opposing signatures cancel in the aggregate, producing the null correlation reported in Section H.2. The null is therefore not an absence of signal but a composition of three distinct patterns that happen to average to zero across the full trap battery.
 
 
 ### H.4 Extended Thinking: Cost-Benefit Analysis
 
-
-**web appendix C.4 reports that extended thinking improves accuracy by a mean of +8.8 percentage points across 12 paired comparisons. Table WA-H3 extends that analysis with cost and duration data.**
+web appendix C.4 reports that extended thinking improves accuracy by a mean of +8.8 percentage points across 12 paired comparisons. Table WA-H3 extends that analysis with cost and duration data.
 
 
 **TABLE WA-H3: EXTENDED THINKING COST-BENEFIT**
