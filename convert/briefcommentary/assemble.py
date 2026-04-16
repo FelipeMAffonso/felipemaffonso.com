@@ -18,9 +18,11 @@ def format_table_from_cells(cells, num_cols):
     """Format cells into a markdown table with num_cols columns."""
     if not cells or num_cols == 0:
         return ""
+    # Escape pipe characters in cell text
+    escaped = [c.replace('|', '\\|') for c in cells]
     rows = []
-    for j in range(0, len(cells), num_cols):
-        row = cells[j:j+num_cols]
+    for j in range(0, len(escaped), num_cols):
+        row = escaped[j:j+num_cols]
         while len(row) < num_cols:
             row.append("")
         rows.append(row)
@@ -33,19 +35,93 @@ def format_table_from_cells(cells, num_cols):
         lines.append("| " + " | ".join(row) + " |")
     return "\n".join(lines)
 
+def looks_like_data(cell):
+    """Check if a cell looks like data (numbers, percentages) rather than a header."""
+    import re
+    cell = cell.strip()
+    # Percentage pattern
+    if re.match(r'^\d+\.?\d*%', cell):
+        return True
+    # Pure number
+    if re.match(r'^\d+\.?\d*$', cell):
+        return True
+    # Fraction pattern like "495/526"
+    if re.match(r'^\d+/\d+', cell):
+        return True
+    # Starts with a number and parenthesis like "94.1% (495/526)"
+    if re.match(r'^\d+\.?\d*%?\s*\(', cell):
+        return True
+    return False
+
 def infer_table_cols(cells, title_text=""):
     """Try to infer the number of columns from cell content."""
     if not cells:
         return 0
     n = len(cells)
-    for ncols in range(2, 15):
-        if n % ncols == 0:
+
+    # Strategy: find column counts where:
+    # 1. n is evenly divisible
+    # 2. First row cells are all distinct and look like headers (not data)
+    # 3. Second row has at least some data-like cells
+    # 4. Number of rows > 1 (at least header + 1 data row)
+    # 5. Prefer columns in 3-10 range, penalize extremes
+
+    best = 0
+    best_score = -1
+
+    for ncols in range(2, min(15, n+1)):
+        if n % ncols != 0:
+            continue
+        nrows = n // ncols
+        if nrows < 2:
+            continue  # Need at least header + 1 data row
+
+        header = cells[:ncols]
+        # All headers must be distinct
+        if len(set(header)) != ncols:
+            continue
+
+        # How many header cells are NOT data-like (good headers)
+        header_non_data = sum(1 for c in header if not looks_like_data(c))
+        header_frac = header_non_data / ncols  # 1.0 = all headers are text
+
+        # How many second-row cells ARE data-like
+        row2 = cells[ncols:2*ncols]
+        row2_data = sum(1 for c in row2 if looks_like_data(c))
+        row2_frac = row2_data / ncols  # 1.0 = all data
+
+        # Combined: we want header_frac high and row2_frac > 0
+        # Also prefer ncols in 3-10 range
+        if ncols <= 12:
+            size_bonus = 1.0
+        else:
+            size_bonus = 0.5
+
+        # Strong requirement: header should be mostly non-data
+        if header_frac < 0.5:
+            continue
+
+        score = header_frac * 10 + row2_frac * 5 + size_bonus
+
+        if score > best_score:
+            best_score = score
+            best = ncols
+
+    if best > 0:
+        return best
+
+    # Relaxed fallback: just find smallest divisor with distinct headers
+    for ncols in range(2, min(15, n+1)):
+        if n % ncols == 0 and n // ncols >= 2:
             header = cells[:ncols]
-            if all(len(c) < 100 for c in header) and len(set(header)) == ncols:
+            if len(set(header)) == ncols:
                 return ncols
-    for ncols in [4, 3, 5, 6, 7, 8, 9, 10]:
+
+    # Final fallback: any valid divisor
+    for ncols in range(2, min(15, n+1)):
         if n % ncols == 0:
             return ncols
+
     return 0
 
 def build_wa_markdown(paras):
@@ -78,9 +154,9 @@ def build_wa_markdown(paras):
             i += 1
             continue
 
-        # Table/Figure titles
-        is_table_title = ('TABLE WA-' in text.upper() or text.startswith('TABLE WA-')) and style != 'Compact'
-        is_figure_title = ('FIGURE WA-' in text.upper() or text.startswith('FIGURE WA-')) and style != 'Compact'
+        # Table/Figure titles: must START with TABLE/FIGURE (not just mention one)
+        is_table_title = text.upper().startswith('TABLE WA-') and style != 'Compact'
+        is_figure_title = text.upper().startswith('FIGURE WA-') and style != 'Compact'
 
         if is_table_title or is_figure_title:
             lines.append("\n**" + text + "**\n")

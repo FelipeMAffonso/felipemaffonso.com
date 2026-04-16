@@ -342,21 +342,14 @@ The choice of failure threshold involves a trade-off between sensitivity (detect
 **TABLE WA-A1: DETECTION PERFORMANCE ACROSS ALL THRESHOLDS**
 
 
-| Threshold | Agent Detection |
-| --- | --- |
-| Human Flagging | Interpretation |
-| 1+ failures | 100.0% (526/526) |
-| 40.1% (404/1007) | Perfect sensitivity but flags too many humans |
-| 2+ failures | 99.4% (523/526) |
-| 13.3% (134/1007) | Near-perfect detection; likely many false positives |
-| 3+ failures | 97.1% (511/526) |
-| 4.1% (41/1007) | Balanced threshold (selected) |
-| 4+ failures | 89.2% (469/526) |
-| 1.9% (19/1007) | Conservative; misses 57 agents |
-| 5+ failures | 60.5% (318/526) |
-| 0.6% (6/1007) | Very conservative; misses 208 agents |
-| All 6 failures | 26.0% (137/526) |
-| 0.2% (2/1007) | Extreme; detects only complete failures |
+| Threshold | Agent Detection | Human Flagging | Interpretation |
+| --- | --- | --- | --- |
+| 1+ failures | 100.0% (526/526) | 40.1% (404/1007) | Perfect sensitivity but flags too many humans |
+| 2+ failures | 99.4% (523/526) | 13.3% (134/1007) | Near-perfect detection; likely many false positives |
+| 3+ failures | 97.1% (511/526) | 4.1% (41/1007) | Balanced threshold (selected) |
+| 4+ failures | 89.2% (469/526) | 1.9% (19/1007) | Conservative; misses 57 agents |
+| 5+ failures | 60.5% (318/526) | 0.6% (6/1007) | Very conservative; misses 208 agents |
+| All 6 failures | 26.0% (137/526) | 0.2% (2/1007) | Extreme; detects only complete failures |
 
 The sharp drop between 3+ and 4+ thresholds (97.1% to 89.2%) indicates many agents pass exactly three traps. The 3+ threshold maintains greater than 95% sensitivity while flagging only 4.1% of humans. We selected this threshold because it achieves a positive predictive value of 92.6% (meaning flagged cases are likely genuine agents) while maintaining high sensitivity.
 
@@ -479,22 +472,12 @@ The illusion-based traps (Muller-Lyer, Cafe Wall, Ebbinghaus) showed highest age
 **TABLE WA-A5: DETECTION RATES BY PLATFORM**
 
 
-| Platform | N |
-| --- | --- |
-| Detected (3+) | Detection Rate |
-| 95% CI | Google Project Mariner |
-| 134 | 134 |
-| 100.0% | [97.3, 100.0] |
-| Claude Sonnet 4.5 | 132 |
-| 132 | 100.0% |
-| [97.2, 100.0] | Perplexity Comet |
-| 131 | 124 |
-| 94.7% | [89.3, 97.9] |
-| ChatGPT Agent | 129 |
-| 121 | 93.8% |
-| [88.1, 97.3] | All Platforms |
-| 526 | 511 |
-| 97.1% | [95.4, 98.4] |
+| Platform | N | Detected (3+) | Detection Rate | 95% CI | Google Project Mariner |
+| --- | --- | --- | --- | --- | --- |
+| 134 | 134 | 100.0% | [97.3, 100.0] | Claude Sonnet 4.5 | 132 |
+| 132 | 100.0% | [97.2, 100.0] | Perplexity Comet | 131 | 124 |
+| 94.7% | [89.3, 97.9] | ChatGPT Agent | 129 | 121 | 93.8% |
+| [88.1, 97.3] | All Platforms | 526 | 511 | 97.1% | [95.4, 98.4] |
 
 
 *NOTE. Chi-square test: χ²(3) = 16.0, p = .001.*
@@ -520,28 +503,14 @@ Mariner and Claude showed perfect detection (100%), while Perplexity and ChatGPT
 **TABLE WA-A6: INDIVIDUAL TRAP FAILURE RATES BY PLATFORM**
 
 
-| Trap | Mariner | Perplexity |
-| --- | --- | --- |
-| ChatGPT | Claude | Chi-sq |
-| p | Robust Constraints: |  |
-|  |  |  |
-|  |  | Moving Robot |
-| 99.3% | 99.2% | 100.0% |
-| 100.0% | 2.0 | .577 |
-| Muller-Lyer | 100.0% | 93.9% |
-| 91.5% | 90.9% | 12.4 |
-| .006 | Cafe Wall | 95.5% |
-| 87.0% | 97.7% | 99.2% |
-| 23.9 | <.001 | Variable Constraints: |
-|  |  |  |
-|  |  |  |
-| Ebbinghaus | 98.5% | 50.4% |
-| 82.9% | 78.0% | 91.6 |
-| <.001 | Colliding Oranges | 75.4% |
-| 29.8% | 34.9% | 61.4% |
-| 74.5 | <.001 | Surrounded Planets |
-| 81.3% | 51.1% | 17.1% |
-| 71.2% | 127.6 | <.001 |
+| Trap | Mariner | Perplexity | ChatGPT | Claude | Chi-sq | p | Robust Constraints: |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  | Moving Robot | 99.3% | 99.2% | 100.0% |
+| 100.0% | 2.0 | .577 | Muller-Lyer | 100.0% | 93.9% | 91.5% | 90.9% | 12.4 |
+| .006 | Cafe Wall | 95.5% | 87.0% | 97.7% | 99.2% | 23.9 | <.001 | Variable Constraints: |
+|  |  |  |  |  |  | Ebbinghaus | 98.5% | 50.4% |
+| 82.9% | 78.0% | 91.6 | <.001 | Colliding Oranges | 75.4% | 29.8% | 34.9% | 61.4% |
+| 74.5 | <.001 | Surrounded Planets | 81.3% | 51.1% | 17.1% | 71.2% | 127.6 | <.001 |
 
 Robust constraints produce near-uniform failure across platforms. The Moving Robot (99.2-100.0% failure) represents a fundamental limitation in current architectures regardless of implementation. The illusion-based traps (87.0-100.0% failure) reflect pervasive training data overfitting across all model families.
 
@@ -557,28 +526,16 @@ Variable constraints show substantial platform variation, indicating that some m
 **TABLE WA-A7: TOTAL COGNITIVE TRAP SCORE DISTRIBUTION**
 
 
-| Score | Mariner | Perplexity |
-| --- | --- | --- |
-| ChatGPT | Claude | All Agents |
-| Humans | 6 (all correct) | 0.0% |
-| 0.0% | 0.0% | 0.0% |
-| 0.0% | 59.9% | 5 |
-| 0.0% | 0.8% | 1.6% |
-| 0.0% | 0.6% | 26.8% |
-| 4 | 0.0% | 4.6% |
-| 4.7% | 0.0% | 2.3% |
-| 9.2% | 3 | 0.0% |
-| 17.6% | 7.8% | 6.8% |
-| 8.0% | 2.2% | 2 |
-| 6.7% | 43.5% | 45.0% |
-| 20.5% | 28.7% | 1.3% |
-| 1 | 36.6% | 26.7% |
-| 36.4% | 37.9% | 34.4% |
-| 0.4% | 0 (all failed) | 56.7% |
-| 6.9% | 4.7% | 34.8% |
-| 26.0% | 0.2% | Mean (SD) |
-| 0.50 | 1.89 | 1.76 |
-| 0.99 | 1.28 | 5.40 |
+| Score | Mariner | Perplexity | ChatGPT | Claude | All Agents | Humans |
+| --- | --- | --- | --- | --- | --- | --- |
+| 6 (all correct) | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 59.9% |
+| 5 | 0.0% | 0.8% | 1.6% | 0.0% | 0.6% | 26.8% |
+| 4 | 0.0% | 4.6% | 4.7% | 0.0% | 2.3% | 9.2% |
+| 3 | 0.0% | 17.6% | 7.8% | 6.8% | 8.0% | 2.2% |
+| 2 | 6.7% | 43.5% | 45.0% | 20.5% | 28.7% | 1.3% |
+| 1 | 36.6% | 26.7% | 36.4% | 37.9% | 34.4% | 0.4% |
+| 0 (all failed) | 56.7% | 6.9% | 4.7% | 34.8% | 26.0% | 0.2% |
+| Mean (SD) | 0.50 | 1.89 | 1.76 | 0.99 | 1.28 | 5.40 |
 
 The distributions show clear separation between agents and humans. Among humans, 86.7% scored 5-6 (passing at least 5 of 6 traps), while no platform’s mean score exceeded 1.89/6. Even the best-performing platforms (Perplexity at M = 1.89, ChatGPT at M = 1.76) averaged fewer than 2 correct responses, compared to 5.40 for humans. This separation explains the high sensitivity (97.1%) and low false positive rate (4.1%) at the 3+ failure threshold.
 
@@ -859,192 +816,44 @@ This API-based testing protocol differs from the agent deployment in the main st
 **TABLE WA-C1: COMPLETE COGNITIVE TRAP PASS RATES ACROSS 34 MODELS**
 
 
-| Model | Provider |
-| --- | --- |
-| Release | Cafe Wall |
-| Muller-Lyer | Ebbinghaus |
-| Robot | Oranges |
-| Planets | Avg |
-| claude-haiku-3.0 | Anthropic |
-| Mar 2024 | 100% |
-| 0% | 50% |
-| 90% | 0% |
-| 0% | 40.0% |
-| gpt-4o | OpenAI |
-| May 2024 | 0% |
-| 0% | 0% |
-| 0% | 0% |
-| 0% | 0.0% |
-| gpt-4o-mini | OpenAI |
-| Jul 2024 | 100% |
-| 0% | 100% |
-| 20% | 0% |
-| 0% | 36.7% |
-| claude-haiku-3.5 | Anthropic |
-| Oct 2024 | 90% |
-| 10% | 100% |
-| 10% | 30% |
-| 30% | 45.0% |
-| gemini-2.0-flash | Google |
-| Feb 2025 | 10% |
-| 100% | 40% |
-| 0% | 40% |
-| 0% | 31.7% |
-| gemini-2.5-pro | Google |
-| Mar 2025 | 50% |
-| 0% | 0% |
-| 0% | 0% |
-| 40% | 15.0% |
-| gemini-2.5-pro† | Google |
-| Mar 2025 | 0% |
-| 0% | 0% |
-| 0% | 0% |
-| 10% | 1.7% |
-| gpt-4.1 | OpenAI |
-| Apr 2025 | 0% |
-| 0% | 0% |
-| 30% | 0% |
-| 0% | 5.0% |
-| gpt-4.1-mini | OpenAI |
-| Apr 2025 | 0% |
-| 0% | 0% |
-| 0% | 0% |
-| 0% | 0.0% |
-| gemini-2.5-flash | Google |
-| Jun 2025 | 0% |
-| 0% | 10% |
-| 0% | 0% |
-| 0% | 1.7% |
-| gemini-2.5-flash† | Google |
-| Jun 2025 | 0% |
-| 0% | 20% |
-| 0% | 10% |
-| 10% | 6.7% |
-| gemini-2.5-flash-lite | Google |
-| Jun 2025 | 100% |
-| 0% | 0% |
-| 0% | 0% |
-| 10% | 18.3% |
-| gemini-2.5-flash-lite† | Google |
-| Jun 2025 | 100% |
-| 40% | 90% |
-| 0% | 0% |
-| 50% | 46.7% |
-| gpt-5-instant | OpenAI |
-| Aug 2025 | 0% |
-| 0% | 0% |
-| 0% | 0% |
-| 100% | 16.7% |
-| gpt-5-mini | OpenAI |
-| Aug 2025 | 0% |
-| 0% | 0% |
-| 0% | 10% |
-| 90% | 16.7% |
-| gpt-5† | OpenAI |
-| Aug 2025 | 0% |
-| 0% | 10% |
-| 0% | 60% |
-| 100% | 28.3% |
-| claude-sonnet-4.5 | Anthropic |
-| Sep 2025 | 0% |
-| 0% | 100% |
-| 0% | 0% |
-| 0% | 16.7% |
-| claude-sonnet-4.5† | Anthropic |
-| Sep 2025 | 0% |
-| 80% | 100% |
-| 0% | 100% |
-| 0% | 46.7% |
-| claude-haiku-4.5 | Anthropic |
-| Oct 2025 | 20% |
-| 0% | 100% |
-| 0% | 80% |
-| 0% | 33.3% |
-| claude-haiku-4.5† | Anthropic |
-| Oct 2025 | 10% |
-| 0% | 100% |
-| 0% | 20% |
-| 60% | 31.7% |
-| claude-opus-4.5 | Anthropic |
-| Nov 2025 | 0% |
-| 0% | 100% |
-| 0% | 0% |
-| 0% | 16.7% |
-| claude-opus-4.5† | Anthropic |
-| Nov 2025 | 0% |
-| 0% | 40% |
-| 0% | 80% |
-| 100% | 36.7% |
-| gemini-3-pro | Google |
-| Nov 2025 | 0% |
-| 0% | 90% |
-| 10% | 0% |
-| 40% | 23.3% |
-| gpt-5.1-instant | OpenAI |
-| Nov 2025 | 0% |
-| 0% | 0% |
-| 0% | 80% |
-| 90% | 28.3% |
-| gpt-5.1† | OpenAI |
-| Nov 2025 | 0% |
-| 0% | 0% |
-| 0% | 0% |
-| 50% | 8.3% |
-| gemini-3-flash | Google |
-| Dec 2025 | 0% |
-| 20% | 100% |
-| 0% | 0% |
-| 100% | 36.7% |
-| gemini-3-flash† | Google |
-| Dec 2025 | 0% |
-| 100% | 100% |
-| 20% | 70% |
-| 100% | 65.0% |
-| gpt-5.2-instant | OpenAI |
-| Dec 2025 | 0% |
-| 0% | 0% |
-| 0% | 90% |
-| 100% | 31.7% |
-| gpt-5.2-pro | OpenAI |
-| Dec 2025 | 0% |
-| 0% | 30% |
-| 0% | 80% |
-| 100% | 35.0% |
-| gpt-5.2† | OpenAI |
-| Dec 2025 | 100% |
-| 0% | 100% |
-| 0% | 40% |
-| 50% | 48.3% |
-| claude-opus-4.6 | Anthropic |
-| Feb 2026 | 0% |
-| 100% | 0% |
-| 0% | 100% |
-| 0% | 33.3% |
-| claude-opus-4.6† | Anthropic |
-| Feb 2026 | 0% |
-| 30% | 60% |
-| 0% | 100% |
-| 50% | 40.0% |
-| claude-sonnet-4.6 | Anthropic |
-| Feb 2026 | 0% |
-| 0% | 100% |
-| 0% | 40% |
-| 0% | 23.3% |
-| claude-sonnet-4.6† | Anthropic |
-| Feb 2026 | 0% |
-| 0% | 100% |
-| 0% | 0% |
-| 0% | 16.7% |
-| Human (N = 171) |  |
-|  | 84.8% |
-| 90.1% | 90.1% |
-| 77.2% | 86.5% |
-| 91.8% | 86.8% |
-| Pooled (34 models) |  |
-|  | 20.0% |
-| 14.1% | 48.2% |
-| 5.3% | 30.3% |
-| 37.6% | 25.9% |
+| Model | Provider | Release | Cafe Wall | Muller-Lyer | Ebbinghaus | Robot | Oranges | Planets | Avg |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| claude-haiku-3.0 | Anthropic | Mar 2024 | 100% | 0% | 50% | 90% | 0% | 0% | 40.0% |
+| gpt-4o | OpenAI | May 2024 | 0% | 0% | 0% | 0% | 0% | 0% | 0.0% |
+| gpt-4o-mini | OpenAI | Jul 2024 | 100% | 0% | 100% | 20% | 0% | 0% | 36.7% |
+| claude-haiku-3.5 | Anthropic | Oct 2024 | 90% | 10% | 100% | 10% | 30% | 30% | 45.0% |
+| gemini-2.0-flash | Google | Feb 2025 | 10% | 100% | 40% | 0% | 40% | 0% | 31.7% |
+| gemini-2.5-pro | Google | Mar 2025 | 50% | 0% | 0% | 0% | 0% | 40% | 15.0% |
+| gemini-2.5-pro† | Google | Mar 2025 | 0% | 0% | 0% | 0% | 0% | 10% | 1.7% |
+| gpt-4.1 | OpenAI | Apr 2025 | 0% | 0% | 0% | 30% | 0% | 0% | 5.0% |
+| gpt-4.1-mini | OpenAI | Apr 2025 | 0% | 0% | 0% | 0% | 0% | 0% | 0.0% |
+| gemini-2.5-flash | Google | Jun 2025 | 0% | 0% | 10% | 0% | 0% | 0% | 1.7% |
+| gemini-2.5-flash† | Google | Jun 2025 | 0% | 0% | 20% | 0% | 10% | 10% | 6.7% |
+| gemini-2.5-flash-lite | Google | Jun 2025 | 100% | 0% | 0% | 0% | 0% | 10% | 18.3% |
+| gemini-2.5-flash-lite† | Google | Jun 2025 | 100% | 40% | 90% | 0% | 0% | 50% | 46.7% |
+| gpt-5-instant | OpenAI | Aug 2025 | 0% | 0% | 0% | 0% | 0% | 100% | 16.7% |
+| gpt-5-mini | OpenAI | Aug 2025 | 0% | 0% | 0% | 0% | 10% | 90% | 16.7% |
+| gpt-5† | OpenAI | Aug 2025 | 0% | 0% | 10% | 0% | 60% | 100% | 28.3% |
+| claude-sonnet-4.5 | Anthropic | Sep 2025 | 0% | 0% | 100% | 0% | 0% | 0% | 16.7% |
+| claude-sonnet-4.5† | Anthropic | Sep 2025 | 0% | 80% | 100% | 0% | 100% | 0% | 46.7% |
+| claude-haiku-4.5 | Anthropic | Oct 2025 | 20% | 0% | 100% | 0% | 80% | 0% | 33.3% |
+| claude-haiku-4.5† | Anthropic | Oct 2025 | 10% | 0% | 100% | 0% | 20% | 60% | 31.7% |
+| claude-opus-4.5 | Anthropic | Nov 2025 | 0% | 0% | 100% | 0% | 0% | 0% | 16.7% |
+| claude-opus-4.5† | Anthropic | Nov 2025 | 0% | 0% | 40% | 0% | 80% | 100% | 36.7% |
+| gemini-3-pro | Google | Nov 2025 | 0% | 0% | 90% | 10% | 0% | 40% | 23.3% |
+| gpt-5.1-instant | OpenAI | Nov 2025 | 0% | 0% | 0% | 0% | 80% | 90% | 28.3% |
+| gpt-5.1† | OpenAI | Nov 2025 | 0% | 0% | 0% | 0% | 0% | 50% | 8.3% |
+| gemini-3-flash | Google | Dec 2025 | 0% | 20% | 100% | 0% | 0% | 100% | 36.7% |
+| gemini-3-flash† | Google | Dec 2025 | 0% | 100% | 100% | 20% | 70% | 100% | 65.0% |
+| gpt-5.2-instant | OpenAI | Dec 2025 | 0% | 0% | 0% | 0% | 90% | 100% | 31.7% |
+| gpt-5.2-pro | OpenAI | Dec 2025 | 0% | 0% | 30% | 0% | 80% | 100% | 35.0% |
+| gpt-5.2† | OpenAI | Dec 2025 | 100% | 0% | 100% | 0% | 40% | 50% | 48.3% |
+| claude-opus-4.6 | Anthropic | Feb 2026 | 0% | 100% | 0% | 0% | 100% | 0% | 33.3% |
+| claude-opus-4.6† | Anthropic | Feb 2026 | 0% | 30% | 60% | 0% | 100% | 50% | 40.0% |
+| claude-sonnet-4.6 | Anthropic | Feb 2026 | 0% | 0% | 100% | 0% | 40% | 0% | 23.3% |
+| claude-sonnet-4.6† | Anthropic | Feb 2026 | 0% | 0% | 100% | 0% | 0% | 0% | 16.7% |
+| Human (N = 171) |  |  | 84.8% | 90.1% | 90.1% | 77.2% | 86.5% | 91.8% | 86.8% |
+| Pooled (34 models) |  |  | 20.0% | 14.1% | 48.2% | 5.3% | 30.3% | 37.6% | 25.9% |
 
 
 *NOTE. † = extended thinking variant. Ten independent trials per trap per model. Human sample: 171 attentive Prolific participants (validation study). Pooled = unweighted average across all 34 models.*
@@ -1062,28 +871,14 @@ An OLS regression of model-level average accuracy on release date (measured in m
 **TABLE WA-C2: PER-TRAP TEMPORAL SLOPES (OLS REGRESSION ON RELEASE DATE)**
 
 
-| Trap | Slope (pp/month) |
-| --- | --- |
-| SE | p |
-| Direction | Interpretation |
-| Modified Cafe Wall | −3.14 |
-| 0.99 | .003** |
-| Declining | Models getting worse over time |
-| Moving Robot | −1.51 |
-| 0.40 | .001** |
-| Declining | Models getting worse over time |
-| Modified Muller-Lyer | +0.74 |
-| 0.93 | .429 |
-| Stable | No significant change |
-| Modified Ebbinghaus | +1.35 |
-| 1.31 | .312 |
-| Stable | No significant change |
-| Colliding Oranges | +2.92 |
-| 1.00 | .006** |
-| Improving | Models getting better over time |
-| Surrounded Planets | +2.71 |
-| 1.15 | .022* |
-| Improving | Models getting better over time |
+| Trap | Slope (pp/month) | SE | p | Direction | Interpretation |
+| --- | --- | --- | --- | --- | --- |
+| Modified Cafe Wall | −3.14 | 0.99 | .003** | Declining | Models getting worse over time |
+| Moving Robot | −1.51 | 0.40 | .001** | Declining | Models getting worse over time |
+| Modified Muller-Lyer | +0.74 | 0.93 | .429 | Stable | No significant change |
+| Modified Ebbinghaus | +1.35 | 1.31 | .312 | Stable | No significant change |
+| Colliding Oranges | +2.92 | 1.00 | .006** | Improving | Models getting better over time |
+| Surrounded Planets | +2.71 | 1.15 | .022* | Improving | Models getting better over time |
 
 
 *NOTE. Dependent variable: model pass rate (%) for each trap. Independent variable: release date in months since January 2024. N = 34 models. * p < .05, ** p < .01.*
@@ -1101,42 +896,17 @@ Twelve of the 34 models are extended-thinking variants that engage in deliberati
 **TABLE WA-C3: EFFECT OF EXTENDED THINKING ON COGNITIVE TRAP PERFORMANCE**
 
 
-| Base Model | Provider |
-| --- | --- |
-| Standard | Thinking |
-| Difference | gemini-2.5-pro |
-| Google | 15.0% |
-| 1.7% | −13.3 pp |
-| gemini-2.5-flash | Google |
-| 1.7% | 6.7% |
-| +5.0 pp | gemini-2.5-flash-lite |
-| Google | 18.3% |
-| 46.7% | +28.4 pp |
-| gpt-5 | OpenAI |
-| 16.7% | 28.3% |
-| +11.6 pp | claude-sonnet-4.5 |
-| Anthropic | 16.7% |
-| 46.7% | +30.0 pp |
-| claude-haiku-4.5 | Anthropic |
-| 33.3% | 31.7% |
-| −1.6 pp | claude-opus-4.5 |
-| Anthropic | 16.7% |
-| 36.7% | +20.0 pp |
-| gpt-5.1 | OpenAI |
-| 28.3% | 8.3% |
-| −20.0 pp | gemini-3-flash |
-| Google | 36.7% |
-| 65.0% | +28.3 pp |
-| gpt-5.2 | OpenAI |
-| 31.7% | 48.3% |
-| +16.6 pp | claude-opus-4.6 |
-| Anthropic | 33.3% |
-| 40.0% | +6.7 pp |
-| claude-sonnet-4.6 | Anthropic |
-| 23.3% | 16.7% |
-| −6.6 pp | Mean |
-|  | 22.6% |
-| 31.4% | +8.8 pp |
+| Base Model | Provider | Standard | Thinking | Difference | gemini-2.5-pro | Google |
+| --- | --- | --- | --- | --- | --- | --- |
+| 15.0% | 1.7% | −13.3 pp | gemini-2.5-flash | Google | 1.7% | 6.7% |
+| +5.0 pp | gemini-2.5-flash-lite | Google | 18.3% | 46.7% | +28.4 pp | gpt-5 |
+| OpenAI | 16.7% | 28.3% | +11.6 pp | claude-sonnet-4.5 | Anthropic | 16.7% |
+| 46.7% | +30.0 pp | claude-haiku-4.5 | Anthropic | 33.3% | 31.7% | −1.6 pp |
+| claude-opus-4.5 | Anthropic | 16.7% | 36.7% | +20.0 pp | gpt-5.1 | OpenAI |
+| 28.3% | 8.3% | −20.0 pp | gemini-3-flash | Google | 36.7% | 65.0% |
+| +28.3 pp | gpt-5.2 | OpenAI | 31.7% | 48.3% | +16.6 pp | claude-opus-4.6 |
+| Anthropic | 33.3% | 40.0% | +6.7 pp | claude-sonnet-4.6 | Anthropic | 23.3% |
+| 16.7% | −6.6 pp | Mean |  | 22.6% | 31.4% | +8.8 pp |
 
 
 *NOTE. Difference = Thinking accuracy minus Standard accuracy. Positive values indicate thinking improves performance.*
@@ -1162,27 +932,15 @@ Extended thinking improves average accuracy by 8.8 percentage points across the 
 **TABLE WA-C4: AVERAGE PASS RATES BY PROVIDER**
 
 
-| Trap | Anthropic (n = 12) |
-| --- | --- |
-| OpenAI (n = 12) | Google (n = 10) |
-| Pooled (N = 34) | Modified Cafe Wall |
-| 18.3% | 16.7% |
-| 26.0% | 20.0% |
-| Modified Muller-Lyer | 18.3% |
-| 0.0% | 26.0% |
-| 14.1% | Modified Ebbinghaus |
-| 79.2% | 20.0% |
-| 45.0% | 48.2% |
-| Moving Robot | 8.3% |
-| 4.2% | 3.0% |
-| 5.3% | Colliding Oranges |
-| 45.8% | 30.0% |
-| 12.0% | 30.3% |
-| Surrounded Planets | 20.0% |
-| 56.7% | 36.0% |
-| 37.6% | Overall |
-| 31.7% | 21.2% |
-| 24.7% | 25.9% |
+| Trap | Anthropic (n = 12) | OpenAI (n = 12) | Google (n = 10) | Pooled (N = 34) |
+| --- | --- | --- | --- | --- |
+| Modified Cafe Wall | 18.3% | 16.7% | 26.0% | 20.0% |
+| Modified Muller-Lyer | 18.3% | 0.0% | 26.0% | 14.1% |
+| Modified Ebbinghaus | 79.2% | 20.0% | 45.0% | 48.2% |
+| Moving Robot | 8.3% | 4.2% | 3.0% | 5.3% |
+| Colliding Oranges | 45.8% | 30.0% | 12.0% | 30.3% |
+| Surrounded Planets | 20.0% | 56.7% | 36.0% | 37.6% |
+| Overall | 31.7% | 21.2% | 24.7% | 25.9% |
 
 The most striking provider-specific pattern involves the Modified Ebbinghaus trap: Anthropic models achieve 79.2% accuracy (near human levels of 90.1%), while OpenAI models achieve only 20.0% and Google models 45.0%. This suggests that Anthropic’s architecture has partially resolved the training data overfitting constraint for the Ebbinghaus illusion specifically, while the constraint persists in other model families. Conversely, OpenAI models show zero accuracy on the Modified Muller-Lyer across all 12 models tested (120 trials), indicating complete and persistent failure to overcome training data overfitting for this particular illusion despite substantial architectural differences across the GPT-4o through GPT-5.2 range. See Figure WA-C2.
 
@@ -1221,17 +979,11 @@ The optimal CAPTCHA threshold maximizing Youden’s J (sensitivity + specificity
 **TABLE WA-D1: COMPARISON OF DETECTION METHODS AT OPTIMAL OPERATING POINTS**
 
 
-| Method | Sensitivity |
-| --- | --- |
-| FPR | Specificity |
-| Cognitive Traps (3+ failures) | 97.1% (511/526) |
-| 4.1% | 95.9% |
-| CAPTCHA (optimal threshold 0.90) | 93.9% (494/526) |
-| 12.4% | 87.6% |
-| CAPTCHA (standard threshold 0.5) | 4.6% (24/526) |
-| 1.0% | 99.0% |
-| Traditional methods (any) | 2.3% (12/526) |
-| N/A | N/A |
+| Method | Sensitivity | FPR | Specificity | Cognitive Traps (3+ failures) |
+| --- | --- | --- | --- | --- |
+| 97.1% (511/526) | 4.1% | 95.9% | CAPTCHA (optimal threshold 0.90) | 93.9% (494/526) |
+| 12.4% | 87.6% | CAPTCHA (standard threshold 0.5) | 4.6% (24/526) | 1.0% |
+| 99.0% | Traditional methods (any) | 2.3% (12/526) | N/A | N/A |
 
 The standard 0.5 threshold used by most researchers detects only 4.6% of agents, rendering CAPTCHA ineffective as a detection tool against vision-enabled agents at conventional settings.
 
@@ -1352,25 +1104,13 @@ This addresses the question about whether fewer constraints with multiple trials
 **TABLE WA-E1: OPTIMAL CONFIGURATION BY BATTERY SIZE**
 
 
-| # Traps | Best Configuration |
-| --- | --- |
-| Threshold | Sensitivity |
-| FPR | Youden’s J |
-| 2 | Muller-Lyer + Moving Robot |
-| 2+/2 | 93.7% |
-| 2.6% | 0.911 |
-| 3 | Muller-Lyer + Moving Robot + Planets |
-| 2+/3 | 96.8% |
-| 4.0% | 0.928 |
-| 4 | Muller-Lyer + Ebb + Moving Robot + Planets |
-| 2+/4 | 97.7% |
-| 5.0% | 0.928 |
-| 5 | CW + ML + Ebb + Robot + Planets |
-| 3+/5 | 96.2% |
-| 2.6% | 0.936 |
-| 6 | All six traps |
-| 3+/6 | 97.1% |
-| 4.1% | 0.931 |
+| # Traps | Best Configuration | Threshold | Sensitivity | FPR | Youden’s J |
+| --- | --- | --- | --- | --- | --- |
+| 2 | Muller-Lyer + Moving Robot | 2+/2 | 93.7% | 2.6% | 0.911 |
+| 3 | Muller-Lyer + Moving Robot + Planets | 2+/3 | 96.8% | 4.0% | 0.928 |
+| 4 | Muller-Lyer + Ebb + Moving Robot + Planets | 2+/4 | 97.7% | 5.0% | 0.928 |
+| 5 | CW + ML + Ebb + Robot + Planets | 3+/5 | 96.2% | 2.6% | 0.936 |
+| 6 | All six traps | 3+/6 | 97.1% | 4.1% | 0.931 |
 
 The optimal 5-trap configuration (J=0.936) slightly outperforms the full 6-trap deployment (J=0.931), demonstrating that adding the weakest-performing trap (Colliding Oranges) marginally reduces overall performance by introducing false positives without proportional sensitivity gains.
 
@@ -1381,19 +1121,11 @@ The optimal 5-trap configuration (J=0.936) slightly outperforms the full 6-trap 
 **TABLE WA-E2: RECOMMENDED CONFIGURATIONS BY RESEARCH CONTEXT**
 
 
-| Research Priority | Configuration |
-| --- | --- |
-| Sensitivity | FPR |
-| Maximum detection, FPR <= 5% | 4 traps (ML+Ebb+Robot+Planets), thresh 2+ |
-| 97.7% | 5.0% |
-| Maximum detection, FPR <= 2% | 4 traps (CW+ML+Robot+Planets), thresh 3+ |
-| 94.5% | 2.0% |
-| Minimum survey burden, detection >= 90% | 2 traps (ML+Robot), thresh 2+ |
-| 93.7% | 2.6% |
-| Balanced (as deployed in this study) | 6 traps (all), thresh 3+ |
-| 97.1% | 4.1% |
-| Optimal by Youden’s J | 5 traps (drop Oranges), thresh 3+ |
-| 96.2% | 2.6% |
+| Research Priority | Configuration | Sensitivity | FPR | Maximum detection, FPR <= 5% | 4 traps (ML+Ebb+Robot+Planets), thresh 2+ |
+| --- | --- | --- | --- | --- | --- |
+| 97.7% | 5.0% | Maximum detection, FPR <= 2% | 4 traps (CW+ML+Robot+Planets), thresh 3+ | 94.5% | 2.0% |
+| Minimum survey burden, detection >= 90% | 2 traps (ML+Robot), thresh 2+ | 93.7% | 2.6% | Balanced (as deployed in this study) | 6 traps (all), thresh 3+ |
+| 97.1% | 4.1% | Optimal by Youden’s J | 5 traps (drop Oranges), thresh 3+ | 96.2% | 2.6% |
 
 For most research contexts, we recommend three to four traps from different constraint categories with a majority-failure threshold. This achieves detection rates above 95% with false positive rates below 5%, representing a substantial improvement over both traditional methods and CAPTCHA. Researchers with severe survey length constraints can use the two-trap minimum viable battery (Muller-Lyer and Moving Robot, both must fail) and still achieve 93.7% detection.
 
@@ -1404,17 +1136,11 @@ For most research contexts, we recommend three to four traps from different cons
 **TABLE WA-E3: CONSTRAINT DIVERSITY WITHIN 3-TRAP BATTERIES**
 
 
-| Constraint Diversity | Best Configuration |
-| --- | --- |
-| J | Sensitivity |
-| FPR | 1 category |
-| CW + ML + Ebb (all overfitting) | 0.912 |
-| 94.5% | 3.3% |
-| 2 categories | ML + Ebb + Robot (2 types) |
-| 0.920 | 97.3% |
-| 5.3% | 3 categories |
-| ML + Robot + Planets (3 types) | 0.928 |
-| 96.8% | 4.0% |
+| Constraint Diversity | Best Configuration | J | Sensitivity | FPR |
+| --- | --- | --- | --- | --- |
+| 1 category | CW + ML + Ebb (all overfitting) | 0.912 | 94.5% | 3.3% |
+| 2 categories | ML + Ebb + Robot (2 types) | 0.920 | 97.3% | 5.3% |
+| 3 categories | ML + Robot + Planets (3 types) | 0.928 | 96.8% | 4.0% |
 
 Diversity helps, but choosing high-discrimination traps matters more than constraint diversity per se. The improvement from one to three constraint categories (J = 0.912 to 0.928) is real but modest. Researchers should prioritize individual trap quality over adherence to diversity requirements.
 
@@ -1528,21 +1254,14 @@ Agents showed no condition sensitivity in decision times (M = 36.3 seconds in bo
 **TABLE WA-F3: TRADITIONAL CHECK PERFORMANCE BY GROUP**
 
 
-| Check | Passed Humans |
-| --- | --- |
-| Failed “Humans” | Agents |
-| IMC Pass Rate | 99.6% |
-| 97.6% | 99.8% |
-| Obvious Answer Pass Rate | 99.3% |
-| 92.7% | 99.8% |
-| Memory Check Pass Rate | 90.7% |
-| 82.9% | 99.2% |
-| Straight-lining Pass Rate | 99.9% |
-| 100.0% | 98.7% |
-| CAPTCHA Mean Score | 0.972 |
-| 0.971 | 0.833 |
-| CAPTCHA SD | 0.098 |
-| 0.129 | 0.154 |
+| Check | Passed Humans | Failed “Humans” | Agents |
+| --- | --- | --- | --- |
+| IMC Pass Rate | 99.6% | 97.6% | 99.8% |
+| Obvious Answer Pass Rate | 99.3% | 92.7% | 99.8% |
+| Memory Check Pass Rate | 90.7% | 82.9% | 99.2% |
+| Straight-lining Pass Rate | 99.9% | 100.0% | 98.7% |
+| CAPTCHA Mean Score | 0.972 | 0.971 | 0.833 |
+| CAPTCHA SD | 0.098 | 0.129 | 0.154 |
 
 Failed-trap “humans” show traditional check performance that is statistically indistinguishable from passed-trap humans. Their CAPTCHA scores (M = 0.971) are virtually identical to passed humans (M = 0.972, t = 0.10, p = .923). Their IMC pass rates are lower (97.6% vs. 99.6%) but well within the range of normal human performance. In contrast, agents show a distinctive CAPTCHA profile (M = 0.833) and perfect or near-perfect traditional check performance (reflecting that traditional checks exploit human attention limitations, which agents do not share).
 
@@ -1586,28 +1305,14 @@ Among agents who committed to a choice (excluding the 2 who deferred), platforms
 **TABLE WA-F4: AGENT CHOICE PATTERNS BY PLATFORM (CONFLICT CONDITION)**
 
 
-| Platform | N |
-| --- | --- |
-| Chose A | Chose B |
-| Defer | A:B Ratio |
-| Decision Time | Mariner |
-| 68 | 70.6% |
-| 26.5% | 2.9% |
-| 2.7:1 | 30.8s |
-| Perplexity | 66 |
-| 39.4% | 60.6% |
-| 0.0% | 1:1.5 |
-| 47.1s | ChatGPT |
-| 70 | 95.7% |
-| 4.3% | 0.0% |
-| 22:1 | 20.7s |
-| Claude | 64 |
-| 31.2% | 68.8% |
-| 0.0% | 1:2.2 |
-| 48.3s | Overall agents |
-| 268 | 60.1% |
-| 39.2% | 0.7% |
-| 1.5:1 | 36.3s |
+| Platform | N | Chose A | Chose B | Defer | A:B Ratio |
+| --- | --- | --- | --- | --- | --- |
+| Decision Time | Mariner | 68 | 70.6% | 26.5% | 2.9% |
+| 2.7:1 | 30.8s | Perplexity | 66 | 39.4% | 60.6% |
+| 0.0% | 1:1.5 | 47.1s | ChatGPT | 70 | 95.7% |
+| 4.3% | 0.0% | 22:1 | 20.7s | Claude | 64 |
+| 31.2% | 68.8% | 0.0% | 1:2.2 | 48.3s | Overall agents |
+| 268 | 60.1% | 39.2% | 0.7% | 1.5:1 | 36.3s |
 
 Overall chi-square for platform differences: χ²(3) = 75.69, p < .001.
 
@@ -1656,23 +1361,15 @@ Cognitive traps flagged 200 of 263 MTurk respondents (76.0%) at the pre-register
 **TABLE WA-G1: TOTAL SCORE DISTRIBUTION ON MTURK**
 
 
-| Score | N |
-| --- | --- |
-| % | Cumulative % |
-| 6 | 5 |
-| 1.9% | 100.0% |
-| 5 | 14 |
-| 5.3% | 98.1% |
-| 4 | 44 |
-| 16.7% | 92.8% |
-| 3 | 70 |
-| 26.6% | 76.0% (threshold) |
-| 2 | 85 |
-| 32.3% | 49.4% |
-| 1 | 42 |
-| 16.0% | 17.1% |
-| 0 | 3 |
-| 1.1% | 1.1% |
+| Score | N | % | Cumulative % |
+| --- | --- | --- | --- |
+| 6 | 5 | 1.9% | 100.0% |
+| 5 | 14 | 5.3% | 98.1% |
+| 4 | 44 | 16.7% | 92.8% |
+| 3 | 70 | 26.6% | 76.0% (threshold) |
+| 2 | 85 | 32.3% | 49.4% |
+| 1 | 42 | 16.0% | 17.1% |
+| 0 | 3 | 1.1% | 1.1% |
 
 The score distribution is left-shifted relative to Prolific, with the modal score at 2 (32.3% of respondents). Among the 200 flagged respondents, 65.0% scored below the threshold (0, 1, or 2), indicating that the majority did not narrowly miss passing but rather showed pervasive failure across multiple traps.
 
@@ -1685,31 +1382,15 @@ All six traps showed substantially lower pass rates on MTurk compared to Prolifi
 **TABLE WA-G2: INDIVIDUAL TRAP PASS RATES: MTURK VS. PROLIFIC VS. AGENTS**
 
 
-| Trap | MTurk |
-| --- | --- |
-| Prolific | Agents |
-| MTurk-Prolific | MTurk-Agents |
-| Modified Cafe Wall | 31.2% (82) |
-| 88.4% (890) | 5.1% (27) - |
-| 57.2 pp + | 26.0 pp |
-| Modified Muller-Lyer | 71.1% (187) |
-| 92.8% (934) | 5.9% (31) - |
-| 21.7 pp + | 65.2 pp |
-| Modified Ebbinghaus | 78.7% (207) |
-| 95.6% (963) | 22.4% (118) - |
-| 16.9 pp + | 56.3 pp |
-| Moving Robot | 20.9% (55) |
-| 77.9% (784) | 0.4% (2) - |
-| 57.0 pp + | 20.5 pp |
-| Colliding Oranges | 20.2% (53) |
-| 88.7% (893) | 49.4% (260) - |
-| 68.5 pp - | 29.3 pp |
-| Surrounded Planets | 43.3% (114) |
-| 96.5% (972) | 44.5% (234) - |
-| 53.2 pp - | 1.1 pp |
-| Average | 44.2% |
-| 90.0% | 21.3% * |
-| *-45.8 pp** * | *+22.9 pp** |
+| Trap | MTurk | Prolific | Agents | MTurk-Prolific | MTurk-Agents |
+| --- | --- | --- | --- | --- | --- |
+| Modified Cafe Wall | 31.2% (82) | 88.4% (890) | 5.1% (27) - | 57.2 pp + | 26.0 pp |
+| Modified Muller-Lyer | 71.1% (187) | 92.8% (934) | 5.9% (31) - | 21.7 pp + | 65.2 pp |
+| Modified Ebbinghaus | 78.7% (207) | 95.6% (963) | 22.4% (118) - | 16.9 pp + | 56.3 pp |
+| Moving Robot | 20.9% (55) | 77.9% (784) | 0.4% (2) - | 57.0 pp + | 20.5 pp |
+| Colliding Oranges | 20.2% (53) | 88.7% (893) | 49.4% (260) - | 68.5 pp - | 29.3 pp |
+| Surrounded Planets | 43.3% (114) | 96.5% (972) | 44.5% (234) - | 53.2 pp - | 1.1 pp |
+| Average | 44.2% | 90.0% | 21.3% * | *-45.8 pp** * | *+22.9 pp** |
 
 
 *NOTE. Agent N = 526. Agent pass rates represent pooled performance across four deployed agents (Google Mariner, Perplexity, ChatGPT, Claude).*
@@ -1775,23 +1456,15 @@ Cognitive traps flagged 9 of 506 CloudResearch Connect respondents (1.8%) at the
 **TABLE WA-G4: TOTAL SCORE DISTRIBUTION ON CLOUDRESEARCH CONNECT**
 
 
-| Score | N |
-| --- | --- |
-| % | Cumulative % |
-| 6 | 387 |
-| 76.5% | 100.0% |
-| 5 | 90 |
-| 17.8% | 23.5% |
-| 4 | 20 |
-| 4.0% | 5.7% |
-| 3 | 5 |
-| 1.0% | 1.8% (threshold) |
-| 2 | 4 |
-| 0.8% | 0.8% |
-| 1 | 0 |
-| 0.0% | 0.0% |
-| 0 | 0 |
-| 0.0% | 0.0% |
+| Score | N | % | Cumulative % |
+| --- | --- | --- | --- |
+| 6 | 387 | 76.5% | 100.0% |
+| 5 | 90 | 17.8% | 23.5% |
+| 4 | 20 | 4.0% | 5.7% |
+| 3 | 5 | 1.0% | 1.8% (threshold) |
+| 2 | 4 | 0.8% | 0.8% |
+| 1 | 0 | 0.0% | 0.0% |
+| 0 | 0 | 0.0% | 0.0% |
 
 
 #### G.3.4 Individual Trap Pass Rates
@@ -1802,31 +1475,15 @@ All six traps showed pass rates at or above Prolific levels.
 **TABLE WA-G5: INDIVIDUAL TRAP PASS RATES: CLOUDRESEARCH CONNECT VS. PROLIFIC VS. AGENTS**
 
 
-| Trap | Connect |
-| --- | --- |
-| Prolific | Agents |
-| Connect-Prolific | Connect-Agents |
-| Modified Cafe Wall | 96.0% (486) |
-| 88.4% (890) | 5.1% (27) + |
-| 7.6 pp + | 90.9 pp |
-| Modified Muller-Lyer | 97.4% (493) |
-| 92.8% (934) | 5.9% (31) + |
-| 4.6 pp + | 91.5 pp |
-| Modified Ebbinghaus | 97.8% (495) |
-| 95.6% (963) | 22.4% (118) + |
-| 2.2 pp + | 75.4 pp |
-| Moving Robot | 85.0% (430) |
-| 77.9% (784) | 0.4% (2) + |
-| 7.1 pp + | 84.6 pp |
-| Colliding Oranges | 93.7% (474) |
-| 88.7% (893) | 49.4% (260) + |
-| 5.0 pp + | 44.2 pp |
-| Surrounded Planets | 98.2% (497) |
-| 96.5% (972) | 44.5% (234) + |
-| 1.7 pp + | 53.7 pp |
-| Average | 94.7% |
-| 90.0% | 21.3% * |
-| *+4.7 pp** * | *+73.4 pp** |
+| Trap | Connect | Prolific | Agents | Connect-Prolific | Connect-Agents |
+| --- | --- | --- | --- | --- | --- |
+| Modified Cafe Wall | 96.0% (486) | 88.4% (890) | 5.1% (27) + | 7.6 pp + | 90.9 pp |
+| Modified Muller-Lyer | 97.4% (493) | 92.8% (934) | 5.9% (31) + | 4.6 pp + | 91.5 pp |
+| Modified Ebbinghaus | 97.8% (495) | 95.6% (963) | 22.4% (118) + | 2.2 pp + | 75.4 pp |
+| Moving Robot | 85.0% (430) | 77.9% (784) | 0.4% (2) + | 7.1 pp + | 84.6 pp |
+| Colliding Oranges | 93.7% (474) | 88.7% (893) | 49.4% (260) + | 5.0 pp + | 44.2 pp |
+| Surrounded Planets | 98.2% (497) | 96.5% (972) | 44.5% (234) + | 1.7 pp + | 53.7 pp |
+| Average | 94.7% | 90.0% | 21.3% * | *+4.7 pp** * | *+73.4 pp** |
 
 
 *NOTE. Agent N = 526. Agent pass rates represent pooled performance across four deployed agents.*
@@ -1923,23 +1580,15 @@ The method independence analysis (Section G.4.5) sharpens this picture: 44.5% of
 **TABLE WA-G9: CHOICE DEFERRAL IN CONFLICT CONDITION BY DATASET**
 
 
-| Dataset | N (conflict) |
-| --- | --- |
-| Deferral Rate | χ² (condition effect) |
-| Prolific (full) | 506 |
-| 23.5% | χ² = 67.13, p < .001 |
-| Prolific (clean only) | 484 |
-| 24.0% | χ² = 66.83, p < .001 |
-| CloudResearch (full) | 252 |
-| 26.6% | χ² = 34.74, p < .001 |
-| CloudResearch (clean) | 250 |
-| 26.8% | χ² = 35.44, p < .001 |
-| MTurk (full) | 128 |
-| 1.6% | χ² = 0.56, p = .455 |
-| MTurk (clean only) | 35 |
-| 0.0% | N/A (zero cells) |
-| Agents | 268 |
-| 0.7% | χ² = 0.46, p = .495 |
+| Dataset | N (conflict) | Deferral Rate | χ² (condition effect) |
+| --- | --- | --- | --- |
+| Prolific (full) | 506 | 23.5% | χ² = 67.13, p < .001 |
+| Prolific (clean only) | 484 | 24.0% | χ² = 66.83, p < .001 |
+| CloudResearch (full) | 252 | 26.6% | χ² = 34.74, p < .001 |
+| CloudResearch (clean) | 250 | 26.8% | χ² = 35.44, p < .001 |
+| MTurk (full) | 128 | 1.6% | χ² = 0.56, p = .455 |
+| MTurk (clean only) | 35 | 0.0% | N/A (zero cells) |
+| Agents | 268 | 0.7% | χ² = 0.46, p = .495 |
 
 The choice deferral results provide a second independent validation signal. Prolific and CloudResearch Connect produce nearly identical deferral rates (23.5% and 26.6%) that replicate the classical finding from Dhar (1997). MTurk produces near-zero deferral, mirroring the agent pattern from the main study (0.7% in conflict condition). This convergence suggests that a substantial proportion of MTurk respondents do not experience the subjective uncertainty that drives human choice deferral, a pattern consistent with either AI-mediated responding or the extreme inattentiveness documented on the platform (Kay 2025).
 
@@ -1996,112 +1645,42 @@ Providers also differ substantially in how variable their models are across trap
 **TABLE WA-H1: MODEL-LEVEL COMPUTATIONAL EFFICIENCY (RANKED BY ACCURACY)**
 
 
-| Model | Provider |
-| --- | --- |
-| Accuracy | Cost/Trial |
-| Avg Duration | Avg Output Tokens |
-| Gemini 3 Flash† | Google |
-| 65.0% | $0.0002 |
-| 7.5s | 2 |
-| GPT-5.2† | OpenAI |
-| 48.3% | $0.0024 |
-| 2.0s | 4 |
-| Claude Sonnet 4.5† | Anthropic |
-| 46.7% | $0.0083 |
-| 8.8s | 316 |
-| Gemini 2.5 Flash Lite† | Google |
-| 46.7% | $0.0001 |
-| 5.0s | 5 |
-| Claude Haiku 3.5 | Anthropic |
-| 45.0% | $0.0010 |
-| 1.9s | 17 |
-| Claude Haiku 3.0 | Anthropic |
-| 40.0% | $0.0003 |
-| 1.5s | 5 |
-| Claude Opus 4.6† | Anthropic |
-| 40.0% | $0.0476 |
-| 11.2s | 400 |
-| Claude Opus 4.5† | Anthropic |
-| 36.7% | $0.0383 |
-| 7.6s | 276 |
-| Gemini 3 Flash | Google |
-| 36.7% | $0.0002 |
-| 4.1s | 1 |
-| GPT-4o Mini | OpenAI |
-| 36.7% | $0.0043 |
-| 4.8s | 1 |
-| GPT-5.2 Pro | OpenAI |
-| 35.0% | $0.0424 |
-| 43.7s | 373 |
-| Claude Haiku 4.5 | Anthropic |
-| 33.3% | $0.0013 |
-| 1.8s | 37 |
-| Claude Opus 4.6 | Anthropic |
-| 33.3% | $0.0199 |
-| 4.1s | 36 |
-| Claude Haiku 4.5† | Anthropic |
-| 31.7% | $0.0028 |
-| 4.6s | 329 |
-| Gemini 2.0 Flash | Google |
-| 31.7% | $0.0003 |
-| 3.2s | 1 |
-| GPT-5.2 | OpenAI |
-| 31.7% | $0.0036 |
-| 5.8s | 101 |
-| GPT-5† | OpenAI |
-| 28.3% | $0.0124 |
-| 25.9s | 1136 |
-| GPT-5.1 | OpenAI |
-| 28.3% | $0.0015 |
-| 3.8s | 45 |
-| Claude Sonnet 4.6 | Anthropic |
-| 23.3% | $0.0040 |
-| 2.8s | 36 |
-| Gemini 3 Pro | Google |
-| 23.3% | $0.0017 |
-| 15.4s | 19 |
-| Gemini 2.5 Flash Lite | Google |
-| 18.3% | $0.0001 |
-| 2.5s | 1 |
-| Claude Opus 4.5 | Anthropic |
-| 16.7% | $0.0199 |
-| 3.7s | 36 |
-| Claude Sonnet 4.5 | Anthropic |
-| 16.7% | $0.0043 |
-| 4.3s | 57 |
-| Claude Sonnet 4.6† | Anthropic |
-| 16.7% | $0.0037 |
-| 2.2s | 13 |
-| GPT-5 | OpenAI |
-| 16.7% | $0.0010 |
-| 2.0s | 1 |
-| GPT-5 Mini | OpenAI |
-| 16.7% | $0.0014 |
-| 9.8s | 521 |
-| Gemini 2.5 Pro | Google |
-| 15.0% | $0.0005 |
-| 4.8s | 1 |
-| GPT-5.1† | OpenAI |
-| 8.3% | $0.0011 |
-| 2.6s | 10 |
-| Gemini 2.5 Flash† | Google |
-| 6.7% | $0.0001 |
-| 6.8s | 17 |
-| GPT-4.1 | OpenAI |
-| 5.0% | $0.0019 |
-| 2.1s | 1 |
-| Gemini 2.5 Flash | Google |
-| 1.7% | $0.0001 |
-| 3.1s | 4 |
-| Gemini 2.5 Pro† | Google |
-| 1.7% | $0.0005 |
-| 10.5s | 1 |
-| GPT-4.1 Mini | OpenAI |
-| 0.0% | $0.0007 |
-| 1.9s | 2 |
-| GPT-4o | OpenAI |
-| 0.0% | $0.0024 |
-| 2.3s | 1 |
+| Model | Provider | Accuracy | Cost/Trial | Avg Duration | Avg Output Tokens |
+| --- | --- | --- | --- | --- | --- |
+| Gemini 3 Flash† | Google | 65.0% | $0.0002 | 7.5s | 2 |
+| GPT-5.2† | OpenAI | 48.3% | $0.0024 | 2.0s | 4 |
+| Claude Sonnet 4.5† | Anthropic | 46.7% | $0.0083 | 8.8s | 316 |
+| Gemini 2.5 Flash Lite† | Google | 46.7% | $0.0001 | 5.0s | 5 |
+| Claude Haiku 3.5 | Anthropic | 45.0% | $0.0010 | 1.9s | 17 |
+| Claude Haiku 3.0 | Anthropic | 40.0% | $0.0003 | 1.5s | 5 |
+| Claude Opus 4.6† | Anthropic | 40.0% | $0.0476 | 11.2s | 400 |
+| Claude Opus 4.5† | Anthropic | 36.7% | $0.0383 | 7.6s | 276 |
+| Gemini 3 Flash | Google | 36.7% | $0.0002 | 4.1s | 1 |
+| GPT-4o Mini | OpenAI | 36.7% | $0.0043 | 4.8s | 1 |
+| GPT-5.2 Pro | OpenAI | 35.0% | $0.0424 | 43.7s | 373 |
+| Claude Haiku 4.5 | Anthropic | 33.3% | $0.0013 | 1.8s | 37 |
+| Claude Opus 4.6 | Anthropic | 33.3% | $0.0199 | 4.1s | 36 |
+| Claude Haiku 4.5† | Anthropic | 31.7% | $0.0028 | 4.6s | 329 |
+| Gemini 2.0 Flash | Google | 31.7% | $0.0003 | 3.2s | 1 |
+| GPT-5.2 | OpenAI | 31.7% | $0.0036 | 5.8s | 101 |
+| GPT-5† | OpenAI | 28.3% | $0.0124 | 25.9s | 1136 |
+| GPT-5.1 | OpenAI | 28.3% | $0.0015 | 3.8s | 45 |
+| Claude Sonnet 4.6 | Anthropic | 23.3% | $0.0040 | 2.8s | 36 |
+| Gemini 3 Pro | Google | 23.3% | $0.0017 | 15.4s | 19 |
+| Gemini 2.5 Flash Lite | Google | 18.3% | $0.0001 | 2.5s | 1 |
+| Claude Opus 4.5 | Anthropic | 16.7% | $0.0199 | 3.7s | 36 |
+| Claude Sonnet 4.5 | Anthropic | 16.7% | $0.0043 | 4.3s | 57 |
+| Claude Sonnet 4.6† | Anthropic | 16.7% | $0.0037 | 2.2s | 13 |
+| GPT-5 | OpenAI | 16.7% | $0.0010 | 2.0s | 1 |
+| GPT-5 Mini | OpenAI | 16.7% | $0.0014 | 9.8s | 521 |
+| Gemini 2.5 Pro | Google | 15.0% | $0.0005 | 4.8s | 1 |
+| GPT-5.1† | OpenAI | 8.3% | $0.0011 | 2.6s | 10 |
+| Gemini 2.5 Flash† | Google | 6.7% | $0.0001 | 6.8s | 17 |
+| GPT-4.1 | OpenAI | 5.0% | $0.0019 | 2.1s | 1 |
+| Gemini 2.5 Flash | Google | 1.7% | $0.0001 | 3.1s | 4 |
+| Gemini 2.5 Pro† | Google | 1.7% | $0.0005 | 10.5s | 1 |
+| GPT-4.1 Mini | OpenAI | 0.0% | $0.0007 | 1.9s | 2 |
+| GPT-4o | OpenAI | 0.0% | $0.0024 | 2.3s | 1 |
 
 
 *NOTE. † = extended thinking variant. Cost/Trial = mean API cost per single-trap trial. Duration = mean response time per trial. Output Tokens = mean tokens generated per response.*
@@ -2115,32 +1694,12 @@ The aggregate null result masks a constraint-specific pattern that reveals why c
 **TABLE WA-H2: COMPUTATIONAL SIGNATURES BY CONSTRAINT TYPE**
 
 
-| Constraint | Traps |
-| --- | --- |
-| N Correct | N Wrong |
-| Dur (Correct) | Dur (Wrong) |
-| Dur d | Cost (Correct) |
-| Cost (Wrong) | Cost d |
-| Training Data Overfitting | 3 |
-| 280 | 740 |
-| 4.2s | 4.8s |
-| −0.11 | $0.0040 |
-| $0.0043 | −0.03 |
-| Spatial Reasoning | 1 |
-| 103 | 237 |
-| 20.0s | 7.7s |
-| +0.57 | $0.0310 |
-| $0.0050 | +1.03 |
-| Cross-Modal Binding | 1 |
-| 128 | 212 |
-| 12.8s | 5.5s |
-| +0.77 | $0.0134 |
-| $0.0074 | +0.35 |
-| Spatiotemporal Reasoning | 1 |
-| 18 | 322 |
-| 3.9s | 6.0s |
-| −0.32 | $0.0016 |
-| $0.0056 | −0.48 |
+| Constraint | Traps | N Correct | N Wrong | Dur (Correct) | Dur (Wrong) | Dur d | Cost (Correct) | Cost (Wrong) | Cost d |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Training Data Overfitting | 3 | 280 | 740 | 4.2s | 4.8s | −0.11 | $0.0040 | $0.0043 | −0.03 |
+| Spatial Reasoning | 1 | 103 | 237 | 20.0s | 7.7s | +0.57 | $0.0310 | $0.0050 | +1.03 |
+| Cross-Modal Binding | 1 | 128 | 212 | 12.8s | 5.5s | +0.77 | $0.0134 | $0.0074 | +0.35 |
+| Spatiotemporal Reasoning | 1 | 18 | 322 | 3.9s | 6.0s | −0.32 | $0.0016 | $0.0056 | −0.48 |
 
 
 *NOTE. Cohen’s d is positive when correct trials are longer/costlier, negative when incorrect trials are. Training Data Overfitting includes Modified Cafe Wall, Modified Muller-Lyer, and Modified Ebbinghaus. Spatial Reasoning = Colliding Oranges. Cross-Modal Binding = Surrounded Planets. Spatiotemporal Reasoning = Moving Robot.*
@@ -2164,63 +1723,23 @@ web appendix C.4 reports that extended thinking improves accuracy by a mean of +
 **TABLE WA-H3: EXTENDED THINKING COST-BENEFIT**
 
 
-| Base Model | Provider |
-| --- | --- |
-| Std Acc | Think Acc |
-| Diff | Cost Mult |
-| Std Duration | Think Duration |
-| Gemini 2.5 Pro | Google |
-| 15.0% | 1.7% |
-| −13.3 pp | 1.0x |
-| 4.8s | 10.5s |
-| Gemini 2.5 Flash | Google |
-| 1.7% | 6.7% |
-| +5.0 pp | 1.1x |
-| 3.1s | 6.8s |
-| Gemini 2.5 Flash Lite | Google |
-| 18.3% | 46.7% |
-| +28.3 pp | 1.0x |
-| 2.5s | 5.0s |
-| GPT-5 | OpenAI |
-| 16.7% | 28.3% |
-| +11.7 pp | 12.2x |
-| 2.0s | 25.9s |
-| Claude Sonnet 4.5 | Anthropic |
-| 16.7% | 46.7% |
-| +30.0 pp | 1.9x |
-| 4.3s | 8.8s |
-| Claude Haiku 4.5 | Anthropic |
-| 33.3% | 31.7% |
-| −1.7 pp | 2.1x |
-| 1.8s | 4.6s |
-| Claude Opus 4.5 | Anthropic |
-| 16.7% | 36.7% |
-| +20.0 pp | 1.9x |
-| 3.7s | 7.6s |
-| GPT-5.1 | OpenAI |
-| 28.3% | 8.3% |
-| −20.0 pp | 0.8x |
-| 3.8s | 2.6s |
-| Gemini 3 Flash | Google |
-| 36.7% | 65.0% |
-| +28.3 pp | 1.0x |
-| 4.1s | 7.5s |
-| GPT-5.2 | OpenAI |
-| 31.7% | 48.3% |
-| +16.7 pp | 0.7x |
-| 5.8s | 2.0s |
-| Claude Opus 4.6 | Anthropic |
-| 33.3% | 40.0% |
-| +6.7 pp | 2.4x |
-| 4.1s | 11.2s |
-| Claude Sonnet 4.6 | Anthropic |
-| 23.3% | 16.7% |
-| −6.7 pp | 0.9x |
-| 2.8s | 2.2s |
-| Mean |  |
-| 22.6% | 31.4% |
-| +8.8 pp | 2.3x |
-|  |  |
+| Base Model | Provider | Std Acc | Think Acc | Diff | Cost Mult | Std Duration |
+| --- | --- | --- | --- | --- | --- | --- |
+| Think Duration | Gemini 2.5 Pro | Google | 15.0% | 1.7% | −13.3 pp | 1.0x |
+| 4.8s | 10.5s | Gemini 2.5 Flash | Google | 1.7% | 6.7% | +5.0 pp |
+| 1.1x | 3.1s | 6.8s | Gemini 2.5 Flash Lite | Google | 18.3% | 46.7% |
+| +28.3 pp | 1.0x | 2.5s | 5.0s | GPT-5 | OpenAI | 16.7% |
+| 28.3% | +11.7 pp | 12.2x | 2.0s | 25.9s | Claude Sonnet 4.5 | Anthropic |
+| 16.7% | 46.7% | +30.0 pp | 1.9x | 4.3s | 8.8s | Claude Haiku 4.5 |
+| Anthropic | 33.3% | 31.7% | −1.7 pp | 2.1x | 1.8s | 4.6s |
+| Claude Opus 4.5 | Anthropic | 16.7% | 36.7% | +20.0 pp | 1.9x | 3.7s |
+| 7.6s | GPT-5.1 | OpenAI | 28.3% | 8.3% | −20.0 pp | 0.8x |
+| 3.8s | 2.6s | Gemini 3 Flash | Google | 36.7% | 65.0% | +28.3 pp |
+| 1.0x | 4.1s | 7.5s | GPT-5.2 | OpenAI | 31.7% | 48.3% |
+| +16.7 pp | 0.7x | 5.8s | 2.0s | Claude Opus 4.6 | Anthropic | 33.3% |
+| 40.0% | +6.7 pp | 2.4x | 4.1s | 11.2s | Claude Sonnet 4.6 | Anthropic |
+| 23.3% | 16.7% | −6.7 pp | 0.9x | 2.8s | 2.2s | Mean |
+|  | 22.6% | 31.4% | +8.8 pp | 2.3x |  |  |
 
 
 *NOTE. Cost Mult = ratio of thinking cost to standard cost per trial. Duration is the mean response time per trial. Positive differences indicate thinking improves performance.*
@@ -2283,19 +1802,13 @@ Age showed a non-significant overall correlation with cognitive trap performance
 **TABLE WA-I2: COGNITIVE TRAP FAILURE RATES BY AGE GROUP**
 
 
-| Age Group | N |
-| --- | --- |
-| Failed 3+ | Failure Rate |
-| 18-30 | 168 |
-| 13 | 7.7% |
-| 31-40 | 271 |
-| 4 | 1.5% |
-| 41-50 | 232 |
-| 8 | 3.4% |
-| 51-60 | 178 |
-| 8 | 4.5% |
-| 61+ | 156 |
-| 8 | 5.1% |
+| Age Group | N | Failed 3+ | Failure Rate |
+| --- | --- | --- | --- |
+| 18-30 | 168 | 13 | 7.7% |
+| 31-40 | 271 | 4 | 1.5% |
+| 41-50 | 232 | 8 | 3.4% |
+| 51-60 | 178 | 8 | 4.5% |
+| 61+ | 156 | 8 | 5.1% |
 
 The youngest age group (18-30) showed the highest failure rate at 7.7%, contradicting the concern that cognitive traps would systematically exclude older adults. The pattern is U-shaped, with the lowest failure rate in the 31-40 group (1.5%) and gradual increases in both younger and older groups. The elevated rate among younger participants may reflect greater familiarity with AI tools and willingness to experiment with agent-based completion, though device differences or cohort effects cannot be ruled out.
 
@@ -2309,28 +1822,13 @@ The youngest age group (18-30) showed the highest failure rate at 7.7%, contradi
 **TABLE WA-I3: HUMAN PASS RATE BY TRAP AND AGE GROUP**
 
 
-| Age | Cafe Wall |
-| --- | --- |
-| M-L | Ebb |
-| Robot | Oranges |
-| Planets | 18-30 |
-| 86.9% | 91.7% |
-| 95.8% | 77.4% |
-| 83.3% | 95.8% |
-| 31-40 | 95.2% |
-| 93.7% | 97.4% |
-| 82.3% | 88.6% |
-| 96.7% | 41-50 |
-| 86.6% | 94.4% |
-| 97.0% | 79.7% |
-| 89.2% | 97.0% |
-| 51-60 | 86.5% |
-| 89.3% | 95.5% |
-| 73.0% | 92.7% |
-| 97.2% | 61+ |
-| 82.7% | 93.6% |
-| 90.4% | 73.7% |
-| 89.7% | 95.5% |
+| Age | Cafe Wall | M-L | Ebb | Robot | Oranges | Planets |
+| --- | --- | --- | --- | --- | --- | --- |
+| 18-30 | 86.9% | 91.7% | 95.8% | 77.4% | 83.3% | 95.8% |
+| 31-40 | 95.2% | 93.7% | 97.4% | 82.3% | 88.6% | 96.7% |
+| 41-50 | 86.6% | 94.4% | 97.0% | 79.7% | 89.2% | 97.0% |
+| 51-60 | 86.5% | 89.3% | 95.5% | 73.0% | 92.7% | 97.2% |
+| 61+ | 82.7% | 93.6% | 90.4% | 73.7% | 89.7% | 95.5% |
 
 The Moving Robot shows the most age sensitivity, with pass rates declining from 82.3% (ages 31-40) to 73.0% (ages 51-60). The Ebbinghaus shows the clearest decline in the 61+ group (90.4% vs. approximately 97% for other groups). Overall, age effects are modest, and no single trap drives the U-shaped pattern in overall failure rates.
 
@@ -2348,17 +1846,11 @@ Color blindness showed a small, non-significant elevation in failure rates (χ²
 **TABLE WA-I4: COLOR BLINDNESS AND COGNITIVE TRAP FAILURE**
 
 
-| Color Vision | N |
-| --- | --- |
-| Failed 3+ | Failure Rate |
-| Not color blind | 970 |
-| 38 | 3.9% |
-| Color blind | 14 |
-| 1 | 7.1% |
-| Unsure | 19 |
-| 1 | 5.3% |
-| Prefer not to say | 4 |
-| 1 | 25.0% |
+| Color Vision | N | Failed 3+ | Failure Rate | Not color blind |
+| --- | --- | --- | --- | --- |
+| 970 | 38 | 3.9% | Color blind | 14 |
+| 1 | 7.1% | Unsure | 19 | 1 |
+| 5.3% | Prefer not to say | 4 | 1 | 25.0% |
 
 The small sample of color-blind participants (N = 14) limits statistical power. Only one additional person in the color-blind group failed compared to base rates. The Colliding Oranges trap is the most likely source of difficulty for color-blind participants because it requires distinguishing the “largest orange circle” from the “smallest yellow circle” among multiple colored shapes, a task that may be challenging for participants with red-green color deficiency.
 

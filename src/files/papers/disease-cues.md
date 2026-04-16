@@ -5,7 +5,7 @@ journal: "European Journal of Marketing"
 year: 2025
 volume: 59
 issue: 4
-pages: "973-998"
+pages: "973-98"
 doi: "10.1108/EJM-01-2024-0070"
 citation: "Affonso, Felipe M. (2025), \"Consumer Responses to Infectious Disease Cues: An Integrative Framework and Research Agenda,\" European Journal of Marketing, 59 (4), 973-98."
 ---
@@ -189,7 +189,7 @@ Disease cues also trigger feelings of low control and uncertainty (Prokosch et a
 
 > *P3: Disease cues increase compensatory consumption behavior.*
 
-*Boundary Conditions – Self-Regulation and Control. *The effects proposed above are likely moderated by consumers' perceived control over disease threats. When individuals believe they can effectively manage or prevent infection through their own actions, the psychological impact of disease cues may be attenuated, consistent with research on perceived control and threat response (Kay et al., 2008). This moderation occurs because perceived controllability reduces both anxiety (Bandura, 1988; Langer, 1975) and the need for compensatory behaviors (Kay et al., 2010; Cutright, 2012). Conversely, when disease threats are perceived as uncontrollable, the narrowing of temporal focus (Griskevicius et al., 2011), impairment of self-control (Baumeister et al., 2018), and drive for compensatory consumption (Mandel et al., 2017) become amplified due to heightened vulnerability perceptions (Fritsche et al., 2008; Kay et al., 2008). These effects align with research showing that perceived control moderates responses to various threats (Cutright & Wu, 2023) and influences self-regulatory behavior (Bandura, 1991). Individual differences in health self-efficacy (Schwarzer & Jerusalem, 1995) and contextual factors affecting perceived disease controllability thus represent critical boundary conditions for these effects.
+*Boundary Conditions – Self-Regulation and Control.* The effects proposed above are likely moderated by consumers' perceived control over disease threats. When individuals believe they can effectively manage or prevent infection through their own actions, the psychological impact of disease cues may be attenuated, consistent with research on perceived control and threat response (Kay et al., 2008). This moderation occurs because perceived controllability reduces both anxiety (Bandura, 1988; Langer, 1975) and the need for compensatory behaviors (Kay et al., 2010; Cutright, 2012). Conversely, when disease threats are perceived as uncontrollable, the narrowing of temporal focus (Griskevicius et al., 2011), impairment of self-control (Baumeister et al., 2018), and drive for compensatory consumption (Mandel et al., 2017) become amplified due to heightened vulnerability perceptions (Fritsche et al., 2008; Kay et al., 2008). These effects align with research showing that perceived control moderates responses to various threats (Cutright & Wu, 2023) and influences self-regulatory behavior (Bandura, 1991). Individual differences in health self-efficacy (Schwarzer & Jerusalem, 1995) and contextual factors affecting perceived disease controllability thus represent critical boundary conditions for these effects.
 
 ### Consumer Response Category: Social Behavior and Identity-Related Processes
 
