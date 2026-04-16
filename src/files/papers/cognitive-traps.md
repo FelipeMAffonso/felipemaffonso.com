@@ -305,7 +305,7 @@ Hara, Kotaro, Abigail Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch,
 
 Iliou, Christos, Theodoros Kostoulas, Theodora Tsikrika, Vasilis Katos, Stefanos Vrochidis, and Ioannis Kompatsiaris (2021), "[Detection of Advanced Web Bots by Combining Web Logs with Mouse Behavioural Biometrics](https://doi.org/10.1145/3447815)," *Digital Threats: Research and Practice*, 2(3), 126.
 
-Kamath, Amita, Jack Hessel, and Kai-Wei Chang (2023), "What's 'up' with Vision-Language Models? Investigating Their Struggle with Spatial Reasoning," <http://arxiv.org/abs/2310.19785>.
+Kamath, Amita, Jack Hessel, and Kai-Wei Chang (2023), "What's 'up' with Vision-Language Models? Investigating Their Struggle with Spatial Reasoning," <https://arxiv.org/abs/2310.19785>.
 
 Kay, Cameron S. (2025), "[Why You Shouldn't Trust Data Collected on MTurk](https://doi.org/10.3758/s13428-025-02852-7)," *Behavior Research Methods*, 57, 340.
 
@@ -319,25 +319,25 @@ Moss, Aaron J., Cheskie Rosenzweig, Jonathan Robinson, Shalom N. Jaffe, and Leib
 
 Oppenheimer, Daniel M., Tom Meyvis, and Nicolas Davidenko (2009), "[Instructional Manipulation Checks: Detecting Satisficing to Increase Statistical Power](https://doi.org/10.1016/j.jesp.2009.03.009)," *Journal of Experimental Social Psychology*, 45(4), 86772.
 
-Ouyang, Long, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, et al. (2022), "Training Language Models to Follow Instructions with Human Feedback," <http://arxiv.org/abs/2203.02155>.
+Ouyang, Long, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, et al. (2022), "Training Language Models to Follow Instructions with Human Feedback," <https://arxiv.org/abs/2203.02155>.
 
 Panizza, Folco, Yara Kyrychenko, and Jon Roozenbeek (2026), "[Survey-Taking AI Tools Surpass Human Abilities. Here's What We Can Do about It](https://doi.org/10.1038/d41586-026-00386-2)," *Nature*, 650, 29395.
 
 Phillips, Sara (2026), "[AI Chatbots Are Infiltrating Social-Science Surveys](https://doi.org/10.1038/d41586-026-00221-8)," *Nature*, 650, 17.
 
-Qi, Jianing, Jiawei Liu, Hao Tang, and Zhigang Zhu (2025), "Beyond Semantics: Rediscovering Spatial Awareness in Vision-Language Models," <http://arxiv.org/abs/2503.17349>.
+Qi, Jianing, Jiawei Liu, Hao Tang, and Zhigang Zhu (2025), "Beyond Semantics: Rediscovering Spatial Awareness in Vision-Language Models," <https://arxiv.org/abs/2503.17349>.
 
-Rilla, Raluca, Tobias Werner, Hiromu Yakura, Iyad Rahwan, and Anne-Marie Nussberger (2025), "Recognising, Anticipating, and Mitigating LLM Pollution of Online Behavioural Research," <http://arxiv.org/abs/2508.01390>.
+Rilla, Raluca, Tobias Werner, Hiromu Yakura, Iyad Rahwan, and Anne-Marie Nussberger (2025), "Recognising, Anticipating, and Mitigating LLM Pollution of Online Behavioural Research," <https://arxiv.org/abs/2508.01390>.
 
 Schulze Buschoff, Luca M., Elif Akata, Matthias Bethge, and Eric Schulz (2025), "[Visual Cognition in Multimodal Large Language Models](https://doi.org/10.1038/s42256-024-00963-y)," *Nature Machine Intelligence*, 7(1), 96106.
 
-Searles, Andrew, Yoshimichi Nakatsuka, Ercan Ozturk, Andrew Paverd, Gene Tsudik, and Ai Enkoji (2023), "An Empirical Study & Evaluation of Modern CAPTCHAs," <http://arxiv.org/abs/2307.12108>.
+Searles, Andrew, Yoshimichi Nakatsuka, Ercan Ozturk, Andrew Paverd, Gene Tsudik, and Ai Enkoji (2023), "An Empirical Study & Evaluation of Modern CAPTCHAs," <https://arxiv.org/abs/2307.12108>.
 
 Shinozaki, Taiga, Tomoki Doi, Amane Watahiki, Satoshi Nishida, and Hitomi Yanaka (2025), "Do Large Vision-Language Models Distinguish Between the Actual and Apparent Features of Illusions?" in *Proceedings of the 47th Annual Meeting of the Cognitive Science Society*
 
-Stogiannidis, Ilias, Steven McDonagh, and Sotirios A. Tsaftaris (2025), "Mind the Gap: Benchmarking Spatial Reasoning in Vision-Language Models," <http://arxiv.org/abs/2503.19707>.
+Stogiannidis, Ilias, Steven McDonagh, and Sotirios A. Tsaftaris (2025), "Mind the Gap: Benchmarking Spatial Reasoning in Vision-Language Models," <https://arxiv.org/abs/2503.19707>.
 
-Ullman, Tomer (2024), "The Illusion-Illusion: Vision Language Models See Illusions Where There Are None," <http://arxiv.org/abs/2412.18613>.
+Ullman, Tomer (2024), "The Illusion-Illusion: Vision Language Models See Illusions Where There Are None," <https://arxiv.org/abs/2412.18613>.
 
 Wen, Ximing, Mallika Mainali, and Anik Sen (2025), "How Well Can Vision-Language Models Understand Humans' Intention? An Open-Ended Theory of Mind Question Evaluation Benchmark," <https://arxiv.org/abs/2503.22093>.
 
@@ -1999,19 +1999,19 @@ Douglas, Benjamin D., Patrick J. Ewell, and Markus Brauer (2023), "[Data Quality
 
 Guo, Xuyang, Zekai Huang, Zhenmei Shi, Zhao Song, and Jiahao Zhang (2025), "Your Vision-Language Model Can't Even Count to 20: Exposing the Failures of VLMs in Compositional Counting," <https://arxiv.org/abs/2510.04401>.
 
-Kamath, Amita, Jack Hessel, and Kai-Wei Chang (2023), "What's 'up' with Vision-Language Models? Investigating Their Struggle with Spatial Reasoning," <http://arxiv.org/abs/2310.19785>.
+Kamath, Amita, Jack Hessel, and Kai-Wei Chang (2023), "What's 'up' with Vision-Language Models? Investigating Their Struggle with Spatial Reasoning," <https://arxiv.org/abs/2310.19785>.
 
 Kay, Cameron S. (2025), "[Why You Shouldn't Trust Data Collected on MTurk](https://doi.org/10.3758/s13428-025-02852-7)," *Behavior Research Methods*, 57, 340.
 
-Qi, Jianing, Jiawei Liu, Hao Tang, and Zhigang Zhu (2025), "Beyond Semantics: Rediscovering Spatial Awareness in Vision-Language Models," <http://arxiv.org/abs/2503.17349>.
+Qi, Jianing, Jiawei Liu, Hao Tang, and Zhigang Zhu (2025), "Beyond Semantics: Rediscovering Spatial Awareness in Vision-Language Models," <https://arxiv.org/abs/2503.17349>.
 
 Rahwan, Iyad, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-François Bonnefon, Cynthia Breazeal, Jacob W. Crandall, Nicholas A. Christakis, Iain D. Couzin, Matthew O. Jackson, Nicholas R. Jennings, Ece Kamar, Isabel M. Kloumann, Hugo Larochelle, David Lazer, Richard McElreath, Alan Mislove, David C. Parkes, Alex Pentland, Margaret E. Roberts, Azim Shariff, Joshua B. Tenenbaum, and Michael Wellman (2019), "[Machine Behaviour](https://doi.org/10.1038/s41586-019-1138-y)," *Nature*, 568(7753), 47786.
 
 Shinozaki, Taiga, Tomoki Doi, Amane Watahiki, Satoshi Nishida, and Hitomi Yanaka (2025), "Do Large Vision-Language Models Distinguish Between the Actual and Apparent Features of Illusions?" in *Proceedings of the 47th Annual Meeting of the Cognitive Science Society*, <https://arxiv.org/abs/2506.05765>.
 
-Stogiannidis, Ilias, Steven McDonagh, and Sotirios A. Tsaftaris (2025), "Mind the Gap: Benchmarking Spatial Reasoning in Vision-Language Models," <http://arxiv.org/abs/2503.19707>.
+Stogiannidis, Ilias, Steven McDonagh, and Sotirios A. Tsaftaris (2025), "Mind the Gap: Benchmarking Spatial Reasoning in Vision-Language Models," <https://arxiv.org/abs/2503.19707>.
 
-Ullman, Tomer (2024), "The Illusion-Illusion: Vision Language Models See Illusions Where There Are None," <http://arxiv.org/abs/2412.18613>.
+Ullman, Tomer (2024), "The Illusion-Illusion: Vision Language Models See Illusions Where There Are None," <https://arxiv.org/abs/2412.18613>.
 
 Watson, David, Lee Anna Clark, and Auke Tellegen (1988), "[Development and Validation of Brief Measures of Positive and Negative Affect: The PANAS Scales](https://doi.org/10.1037/0022-3514.54.6.1063)," *Journal of Personality and Social Psychology*, 54(6), 106370.
 

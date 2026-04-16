@@ -159,7 +159,7 @@ After each choice task, we measured the manipulation check and mediator. *Decisi
 
 A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the difficult condition was contrasted with the three baseline conditions. Decision uncertainty (95% CI: -1.01 to -.39, 5000 bootstraps) mediated the effect of decision difficulty on the number of options considered (H1a).
 
-**Assessment of decision process goal abandonment.** We ran a preregistered (<http://aspredicted.org/blind.php?x=pj4wi6>) ancillary study with 100 participants to assess whether participants abandoned the maximize accuracy goal when they experienced decision difficulty (relative to baseline). We used a 2 (decision difficulty: two conflicting goals \[prestige and thrift\], baseline  no goal) x 2 (product replicate: vacation package, car) mixed-design with the experiment 3a procedure. After each choice task, we measured the extent to which participants tried to maximize accuracy during the \[replicate\] search process, as well as the extent to which they gave up on maximizing accuracy during the \[replicate\] search process (1 = not at all, 9 = very much).
+**Assessment of decision process goal abandonment.** We ran a preregistered (<https://aspredicted.org/blind.php?x=pj4wi6>) ancillary study with 100 participants to assess whether participants abandoned the maximize accuracy goal when they experienced decision difficulty (relative to baseline). We used a 2 (decision difficulty: two conflicting goals \[prestige and thrift\], baseline  no goal) x 2 (product replicate: vacation package, car) mixed-design with the experiment 3a procedure. After each choice task, we measured the extent to which participants tried to maximize accuracy during the \[replicate\] search process, as well as the extent to which they gave up on maximizing accuracy during the \[replicate\] search process (1 = not at all, 9 = very much).
 
 As predicted, participants in the decision difficulty condition tried to maximize accuracy (*M* = 7.49) to the same extent as participants in the baseline condition (*M* = 7.38; *F*(1, 98) = .20, *p* = .66). In addition, for the abandonment measure (*M* = 3.40, t-test against the mid-point: *t*(99) = -8.44, *p* \< .001), participants in the decision difficulty condition reported giving up on maximize accuracy (*M* = 3.56) to the same extent as participants in the baseline condition (*M* = 3.23; *F*(1, 98) = .75, *p* = .39). These results suggest that participants did not abandon the maximize accuracy goal when they experienced decision difficulty.
 
@@ -173,7 +173,7 @@ As predicted, participants in the decision difficulty condition tried to maximiz
 
 A mediation analysis was conducted using PROCESS model 4 (Hayes, 2013) and an orthogonal contrast coding (Hayes & Preacher, 2014; Rosenthal & Rosnow, 1985) in which the difficult  two conflicting goals condition was contrasted with the three baseline conditions. Decision uncertainty (95% CI: .09 to .33, 5000 bootstraps) mediated the effect of decision difficulty on the number of options considered (H2a).
 
-**Assessment of decision process goal abandonment.** We ran a preregistered (<http://aspredicted.org/blind.php?x=n8kv6w>) ancillary study with 100 participants to assess whether participants abandon the minimize effort decision process goal when they experience decision difficulty. This ancillary study was identical to that of experiment 3a except that a minimize effort decision process goal was used.
+**Assessment of decision process goal abandonment.** We ran a preregistered (<https://aspredicted.org/blind.php?x=n8kv6w>) ancillary study with 100 participants to assess whether participants abandon the minimize effort decision process goal when they experience decision difficulty. This ancillary study was identical to that of experiment 3a except that a minimize effort decision process goal was used.
 
 As predicted, participants in the decision difficulty condition tried to minimize effort (*M* = 6.06) to the same extent as participants in the baseline condition (*M* = 6.11; *F*(1, 98) = .01, *p* = .91). In addition, for the abandonment measure (*M* = 3.83, t-test against the mid-point: *t*(99) = -5.68, *p* \< .001), participants in the decision difficulty condition reported giving up on minimizing effort (*M* = 3.93) to the same extent as participants in the baseline condition (*M* = 3.73; *F*(1, 98) = .23, *p* = .63). These results suggest that participants did not abandon the minimize effort goal when they experienced decision difficulty.
 
@@ -219,7 +219,7 @@ There are three important results in experiments 4a and 4b. First, an increase i
 
 **Experiment 5**
 
-Experiment 5 (preregistration: <http://aspredicted.org/blind.php?x=kn9ua8>) was designed with four purposes in mind. First, we used an alternative manipulation of decision difficulty/ ease: the amount of information per alternative (Jacoby, Speller, & Kohn, 1974; Malhotra, 1982; Payne, 1976). This manipulation allows us to show H1 to H4 generalize to situations where the decision environment, rather than a person's benefit goals, determine decision difficulty/ease. Second, we add two baseline control groups: one in the decision process goal factor (a baseline - no process goal group) and another in the amount of information factor (a moderate amount of information group). This allows us to assess how a maximize accuracy (or minimize effort) decision process goal behaves relative to a baseline condition, as well as how decision difficulty (and decision ease) influences a decision relative to a moderately difficult baseline condition. Third, we investigate decision difficulty/ease and the mediating role of decision uncertainty in the same study. Finally, the baseline decision process goal allows us to confirm that the decision uncertainty mediator is germane to deliberately pursued process goals. If our reasoning is correct (H1a to H4a), decision uncertainty should mediate the relationship between difficulty/ease and search when the maximize accuracy and minimize effort goals are deliberately pursued, but not when no decision process goal has been made active (baseline condition).
+Experiment 5 (preregistration: <https://aspredicted.org/blind.php?x=kn9ua8>) was designed with four purposes in mind. First, we used an alternative manipulation of decision difficulty/ ease: the amount of information per alternative (Jacoby, Speller, & Kohn, 1974; Malhotra, 1982; Payne, 1976). This manipulation allows us to show H1 to H4 generalize to situations where the decision environment, rather than a person's benefit goals, determine decision difficulty/ease. Second, we add two baseline control groups: one in the decision process goal factor (a baseline - no process goal group) and another in the amount of information factor (a moderate amount of information group). This allows us to assess how a maximize accuracy (or minimize effort) decision process goal behaves relative to a baseline condition, as well as how decision difficulty (and decision ease) influences a decision relative to a moderately difficult baseline condition. Third, we investigate decision difficulty/ease and the mediating role of decision uncertainty in the same study. Finally, the baseline decision process goal allows us to confirm that the decision uncertainty mediator is germane to deliberately pursued process goals. If our reasoning is correct (H1a to H4a), decision uncertainty should mediate the relationship between difficulty/ease and search when the maximize accuracy and minimize effort goals are deliberately pursued, but not when no decision process goal has been made active (baseline condition).
 
 **Method**
 
@@ -261,7 +261,7 @@ Experiment 5 provides additional evidence that a deliberately pursued maximize a
 
 **Experiment 6**
 
-Maximize accuracy and minimize effort goals can guide search in accordance with goal systems theory predictions when one goal is deliberately pursued and, consequently, is relatively more accessible. In experiment 6 (preregistration: <http://aspredicted.org/blind.php?x=rf4r72>), we provided further evidence for this idea by creating contexts where decision process goals were allowed to vary in relative accessibility or encouraged to have similar accessibility. We manipulated decision process goals at three levels (maximize accuracy, baseline, and minimize effort). In addition, we employed a priming manipulation that made the trade-off between effort and accuracy salient, which should encourage similar accessibility of the goals, or not salient, which should allow for differences in the relative accessibility of the goals. Specifically, we asked participants to make an incentive compatible choice from either a large set (trade-off salient) or a small set (trade-off not salient) of options prior to a choice with a deliberate decision process goal. The target choice was difficult (options had negatively correlated attributes) or easy (options had positively correlated attributes) (Bettman et al., 1993; Johnson et al., 1989).
+Maximize accuracy and minimize effort goals can guide search in accordance with goal systems theory predictions when one goal is deliberately pursued and, consequently, is relatively more accessible. In experiment 6 (preregistration: <https://aspredicted.org/blind.php?x=rf4r72>), we provided further evidence for this idea by creating contexts where decision process goals were allowed to vary in relative accessibility or encouraged to have similar accessibility. We manipulated decision process goals at three levels (maximize accuracy, baseline, and minimize effort). In addition, we employed a priming manipulation that made the trade-off between effort and accuracy salient, which should encourage similar accessibility of the goals, or not salient, which should allow for differences in the relative accessibility of the goals. Specifically, we asked participants to make an incentive compatible choice from either a large set (trade-off salient) or a small set (trade-off not salient) of options prior to a choice with a deliberate decision process goal. The target choice was difficult (options had negatively correlated attributes) or easy (options had positively correlated attributes) (Bettman et al., 1993; Johnson et al., 1989).
 
 Consistent with Goodman & Malkoc (2012), we reasoned that the first choice should influence how people approach the target choice. Making an initial choice from a large choice set should prompt participants to consider the trade-off between the effort required to search, compare, and evaluate several options and the potential accuracy of the choice (i.e., choice quality). This should make the effort and accuracy goals similarly accessible in the target choice and engage processes consistent with the constructive choice model (i.e., effort and accuracy goals should compete). Alternatively, making an initial choice from a small choice set should make the effort-accuracy trade-off less salient. In this situation, the deliberately pursued decision process goal should be more accessible in the target choice and engage processes consistent with goal systems theory.
 
@@ -339,7 +339,7 @@ Creyer, E. H., Bettman, J. R., & Payne, J. W. (1990). The impact of accuracy and
 
 Dhar, R. (1997). Context and task effects on choice deferral. *Marketing Letters*, 8, 119-130. DOI:10.1023/A:1007997613607 []
 
-Dieckmann, A., & Rieskamp, J. (2007). The influence of information redundancy on probabilistic inferences. *Memory & Cognition*, 35, 1801-1813. http://dx.doi.org/10.3758/BF03193511
+Dieckmann, A., & Rieskamp, J. (2007). The influence of information redundancy on probabilistic inferences. *Memory & Cognition*, 35, 1801-1813. https://doi.org/10.3758/BF03193511
 
 Etkin, J., Evangelidis, I., & Aaker, J. (2015). Pressed for time? Goal conflict shapes how time is perceived, spent, and valued. *Journal of Marketing Research*, 52, 394-406. https://doi.org/10.1509/jmr.14.0130
 
@@ -365,7 +365,7 @@ Jacoby, J., Speller, D. E., & Kohn, C. A. (1974). Brand choice behavior as a fun
 
 Jhang, J. H., & Lynch Jr, J. G. (2014). Pardon the interruption: Goal proximity, perceived spare time, and impatience. *Journal of Consumer Research*, 41, 1267-1283. https://doi.org/10.1086/679308
 
-Johnson, E. J., Meyer, R. J., & Ghose, S. (1989). When choice models fail: Compensatory models in negatively correlated environments. *Journal of Marketing Research*, 26, 255-270. http://dx.doi.org/10.2307/3172899
+Johnson, E. J., Meyer, R. J., & Ghose, S. (1989). When choice models fail: Compensatory models in negatively correlated environments. *Journal of Marketing Research*, 26, 255-270. https://doi.org/10.2307/3172899
 
 Johnson, E. J., Shu, S. B., Dellaert, B. G., Fox, C., Goldstein, D. G., Häubl, G., Larrick, R. P., Payne, J. W., Peters, E., Schkade, D., Wansink, B., & Weber, E. U. (2012). Beyond nudges: Tools of a choice architecture. *Marketing Letters*, 2, 487-504. https://doi.org/10.1007/s11002-012-9186-1
 
@@ -419,7 +419,7 @@ Seale, D. A., & Rapoport, A. (1997). Sequential decision making with relative ra
 
 Shaddy, F., & Fishbach, A. (2018). Eyes on the prize: The preference to invest resources in goals over means. *Journal of Personality and Social Psychology*, 115, 624-637. https://doi.org/10.1037/pspa0000127
 
-Shugan, S. (1980). The cost of thinking. *Journal of Consumer Research*, 7, 99-111. www.jstor.org/stable/2489077
+Shugan, S. (1980). The cost of thinking. *Journal of Consumer Research*, 7, 99-111. https://www.jstor.org/stable/2489077
 
 Simon, H. (1955). A behavioral model of rational choice. *Quarterly Journal of Economics*, 59, 99-118. https://doi.org/10.2307/1884852
 
@@ -429,7 +429,7 @@ Sitzmann, T., & Bell, B. S. (2017). The dynamic effects of subconscious goal pur
 
 Stüttgen, P., Boatwright, P., & Monroe, R. T. (2012). A satisficing choice model. *Marketing Science*, 31, 878-899. https://doi.org/10.1287/mksc.1120.0732
 
-Tversky, A., & Shafir, E. (1992). Choice under conflict: The dynamics of deferred decision. *Psychological Science*, 3, 358-361. http://dx.doi.org/10.1111/j.1467-9280.1992.tb00047.x
+Tversky, A., & Shafir, E. (1992). Choice under conflict: The dynamics of deferred decision. *Psychological Science*, 3, 358-361. https://doi.org/10.1111/j.1467-9280.1992.tb00047.x
 
 Tyszka, T. (1998). Two pairs of conflicting motives in decision making. *Organizational Behavior and Human Decision Processes*, 74, 189-211. https://doi.org/10.1006/obhd.1998.2775
 
@@ -439,7 +439,7 @@ van Osselaer, S. M., & Janiszewski, C. (2012). A goal-based model of product eva
 
 Werner, K. M., Milyavskaya, M., Foxen-Craft, E., & Koestner, R. (2016). Some goals just feel easier: Self-concordance leads to goal progress through subjective ease, not effort. *Personality and Individual Differences*, 96, 237-242. https://doi.org/10.1016/j.paid.2016.03.002
 
-Wilks, S. S. (1938). Weighting systems for linear functions of correlated variables when there is no dependent variable. *Psychometrika*, 3, 23-40. http://dx.doi.org/10.1007/BF02287917
+Wilks, S. S. (1938). Weighting systems for linear functions of correlated variables when there is no dependent variable. *Psychometrika*, 3, 23-40. https://doi.org/10.1007/BF02287917
 
 Wright, P. (1975). Consumer choice strategies: Simplifying vs. optimizing. *Journal of Marketing Research*, 12, 6067. https://doi.org/10.2307/3150659
 
