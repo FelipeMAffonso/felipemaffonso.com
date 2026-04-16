@@ -247,7 +247,7 @@ We estimate the model DM(i) = a + b*PD + e(i); where DM(i) denotes the dependent
 |  | (.0257) | (.0002) | (.0025) |
 | Observations | 771,583 | 771,583 | 771,583 |
 
-*Note.* The dependent variables are computed weekly by participant (i.e., collapsed across all 70 products). Weekly units sold and weekly sales revenue are log-transformed. Standard errors are in parentheses. +p < .10. \*p < .05. \*\*p < .01.
+*Note.* The dependent variables are computed weekly by participant (i.e., collapsed across all emails). Weekly units sold and weekly sales revenue are log-transformed. Standard errors are in parentheses. +p < .10. \*p < .05. \*\*p < .01.
 
 [^7]: The Argentinian peso means represent the experimental condition means before the data were log transformed. The official exchange rate on December 2, 2021, was 106.25 pesos to the dollar. The unofficial exchange rate was 175.81 pesos to the dollar.
 
@@ -419,11 +419,11 @@ Allard, Thomas and Dale Griffin (2017), "Comparative Price and the Design of Eff
 
 Bertini, Marco, Diego Aparicio, and Aylin Aydinli (2024), "Can Friction Improve Your Customers' Experiences?" *MIT Sloan Management Review*, 65 (2), 42-7.
 
-Biswas, Abhijit and Edward A. Blair (1991), "Contextual Effects of Reference Price in Retail Advertisements," *Journal of Marketing*, 55 (July), 1-12.
+Biswas, Abhijit and Edward A. Blair (1991), "Contextual Effects of Reference Price in Retail Advertisements," *Journal of Marketing*, 55 (3), 1-12.
 
 Blake, Tom, Sarah Moshary, Kane Sweeney, and Steve Tadelis (2021), "Price Salience and Product Choice," *Marketing Science*, 40 (4), 619-36.
 
-Brown, Jennifer, Tanjim Hossain, and John Morgan (2010), "Shrouded Attributes and Information Suppression: Evidence from the Field," *The Quarterly Journal of Economics*, 125 (2), 859-76.
+Brown, Jennifer, Tanjim Hossain, and John Morgan (2010), "Shrouded Attributes and Information Suppression: Evidence from the Field," *Quarterly Journal of Economics*, 125 (2), 859-76.
 
 Carlin, Bruce I. (2009), "Strategic Price Complexity in Retail Financial Markets," *Journal of Financial Economics*, 91 (3), 278-87.
 
@@ -439,7 +439,7 @@ Chioveanu, Ioana and Jidong Zhou (2013), "Price Competition with Consumer Confus
 
 Deke, John (2014), "Using the Linear Probability Model to Estimate Impacts on Binary Outcomes in Randomized Controlled Trials," *Mathematica Policy Research*, 6, 1-5.
 
-Ellison, Glenn (2005), "A Model of Add-On Pricing," *The Quarterly Journal of Economics*, 120 (2), 585-637.
+Ellison, Glenn (2005), "A Model of Add-On Pricing," *Quarterly Journal of Economics*, 120 (2), 585-637.
 
 Ellison, Glenn and Alexander Wolitzky (2012), "A Search Cost Model of Obfuscation," *The RAND Journal of Economics*, 43 (3), 417-41.
 
@@ -447,7 +447,7 @@ Ellison, Sara F. (2016), "Price Search and Obfuscation: An Overview of the Theor
 
 Facebook (2023), "Zero Friction Future Retail," https://www.facebook.com/business/m/facebook-iq/zero-friction-future, accessed August 12, 2023.
 
-Gabaix, Xavier and David Laibson (2006), "Shrouded Attributes, Consumer Myopia, and Information Suppression in Competitive Markets," *The Quarterly Journal of Economics*, 121 (2), 505-40.
+Gabaix, Xavier and David Laibson (2006), "Shrouded Attributes, Consumer Myopia, and Information Suppression in Competitive Markets," *Quarterly Journal of Economics*, 121 (2), 505-40.
 
 Goldin, Jacob and Tatiana Homonoff (2013), "Smoke Gets in Your Eyes: Cigarette Tax Salience and Regressivity," *American Economic Journal: Economic Policy*, 5 (1), 302-36.
 
@@ -473,7 +473,7 @@ Lynch, John G., Jr. and Dan Ariely (2000), "Wine Online: Search Costs Affect Com
 
 Mazumdar, Tridib, S.P. Raj, and Indrajit Sinha (2005), "Reference Price Research: Review and Propositions," *Journal of Marketing*, 69 (4), 84-102.
 
-Monroe, Kent B. (1973), "Buyers' Subjective Perceptions of Price," *Journal of Marketing Research*, 10 (February), 70-80.
+Monroe, Kent B. (1973), "Buyers' Subjective Perceptions of Price," *Journal of Marketing Research*, 10 (1), 70-80.
 
 Morwitz, Vicki G., Eric A. Greenleaf, and Eric J. Johnson (1998), "Divide and Prosper: Consumers' Reactions to Partitioned Prices," *Journal of Marketing Research*, 35 (4), 453-63.
 
