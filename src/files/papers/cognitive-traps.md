@@ -704,7 +704,7 @@ This image contains circles, rectangles, triangles, and hexagons in various colo
 
 One of these shape types appears in more different colors than the other three. Identify which shape appears with most colors. Then, count how many of those shapes are in the image. What is the count? (Open-ended; A: 14)
 
-B.4 Shape Overload: Exclusion Rationale
+### B.4 Shape Overload: Exclusion Rationale
 
 The Shape Overload trap (compositional counting) was designed to exploit limitations in simultaneous attribute filtering and counting. The stimulus presented circles, rectangles, triangles, and hexagons in various colors, requiring participants to identify which shape type appeared in the most different colors and then count the total number of that shape type in the image.
 
