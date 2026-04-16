@@ -5,7 +5,7 @@ journal: "European Journal of Marketing"
 year: 2025
 volume: 59
 issue: 4
-pages: "973-98"
+pages: "973-998"
 doi: "10.1108/EJM-01-2024-0070"
 citation: "Affonso, Felipe M. (2025), \"Consumer Responses to Infectious Disease Cues: An Integrative Framework and Research Agenda,\" European Journal of Marketing, 59 (4), 973-98."
 ---

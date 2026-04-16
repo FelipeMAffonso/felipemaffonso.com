@@ -2,7 +2,7 @@
 title: "Brief Commentary: A Framework for Detecting AI Agents in Online Research"
 authors: "Felipe M. Affonso"
 journal: "Journal of Consumer Research"
-year: 2025
+year: 2026
 doi: "10.1093/jcr/ucag006"
 citation: "Affonso, Felipe M. (2025), \"Brief Commentary: A Framework for Detecting AI Agents in Online Research,\" Journal of Consumer Research."
 ---
