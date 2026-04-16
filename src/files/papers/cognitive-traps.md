@@ -4,7 +4,7 @@ authors: "Felipe M. Affonso"
 journal: "Journal of Consumer Research"
 year: 2026
 doi: "10.1093/jcr/ucag006"
-citation: "Affonso, Felipe M. (2025), \"Brief Commentary: A Framework for Detecting AI Agents in Online Research,\" Journal of Consumer Research."
+citation: "Affonso, Felipe M. (2026), \"Brief Commentary: A Framework for Detecting AI Agents in Online Research,\" Journal of Consumer Research."
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1093/jcr/ucag006).
@@ -1626,7 +1626,9 @@ NOTE. All pairwise comparisons significant. MTurk vs. CloudResearch: *z* = 21.9
 
 **FIGURE WA-G1.** CROSS-PLATFORM COMPARISON ACROSS FOUR INDICATORS
 
-[Image: see published version]
+*Four-panel chart comparing Prolific, CloudResearch Connect, Amazon MTurk, and deployed AI Agents across four indicators. Panel A (Cognitive Trap Flagging Rates): Connect 1.8%, Prolific 4.1%, MTurk 76.0%, Agents 97.1%. Panel B (reCAPTCHA v3 Scores): Prolific mean 0.972, Connect 0.984, Agents 0.833, MTurk 0.635 (well below the 0.5 standard threshold). Panel C (Choice Deferral in Conflict Condition): Prolific 24.0%, Connect 26.6% (replicating Dhar 1997), MTurk 1.6%, Agents 0.7% (near zero, mirroring each other). Panel D (Traditional Attention Checks): near-ceiling pass rates on Prolific, Connect, and Agents, but substantially lower on MTurk (e.g., obvious answer check: MTurk 55.9% vs. Agents 99.8%).*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 *NOTE.------*(A) Cognitive trap flagging rates range from 1.8% (Connect) to 97.1% (Agents). (B) reCAPTCHA v3 scores: MTurk (0.635) falls well below the 0.5 standard threshold, while other samples score above 0.83. (C) Choice deferral in the conflict condition replicates on Prolific (24.0%) and Connect (26.6%) but is near zero on MTurk (1.6%) and among Agents (0.7%). (D) Traditional attention checks show near-ceiling pass rates on all platforms except MTurk.
 
@@ -1716,7 +1718,9 @@ Providers also differ substantially in how variable their models are across trap
 
 **FIGURE WA-H1.** AVERAGE COST PER TRIAL VERSUS ACCURACY ACROSS 34 MODELS
 
-[Image: see published version]
+*Scatter plot with average cost per trial (USD, log scale) on the x-axis and cognitive trap accuracy (%) on the y-axis for 34 models. Colors indicate provider: Anthropic (blue), OpenAI (green), Google (red). Diamonds mark extended thinking variants, circles mark standard models. A dashed regression line is essentially flat (r = .23, p = .18), confirming no relationship between cost and accuracy. A dotted horizontal line marks the 86.8% human baseline. Cost spans three orders of magnitude from $0.00005 (Gemini 2.5 Flash Lite) to $0.0476 (Claude Opus 4.6 with extended thinking), a 950-fold range producing no systematic accuracy advantage. The most cost-efficient model is also the most accurate: Gemini 3 Flash with extended thinking achieves 65.0% at $0.0002 per trial.*
+
+*Note: Figure image not included in machine-readable version. See published paper for the visual.*
 
 *NOTE.------*Colors indicate provider (Anthropic, OpenAI, Google); diamonds indicate extended thinking variants. The dashed regression line is essentially flat (*r* = .23, *p* = .18), confirming that computational expenditure does not predict cognitive trap performance. The dotted line marks the 86.8% human baseline.
 

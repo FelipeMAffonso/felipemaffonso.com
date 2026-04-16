@@ -4,7 +4,7 @@ authors: "Soo Yon Ryu, Felipe M. Affonso, Aner Sela"
 journal: "Journal of Advertising"
 year: 2025
 doi: "10.1080/00913367.2025.2593659"
-citation: "Ryu, Soo Yon, Felipe M. Affonso, and Aner Sela (forthcoming), \"Simple is Eco-Friendly but Complex is Effective: Inferences from Visual Complexity in Package Design,\" Journal of Advertising."
+citation: "Ryu, Soo Yon, Felipe M. Affonso, and Aner Sela (2025), \"Simple is Eco-Friendly but Complex is Effective: Inferences from Visual Complexity in Package Design,\" Journal of Advertising."
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1080/00913367.2025.2593659).
