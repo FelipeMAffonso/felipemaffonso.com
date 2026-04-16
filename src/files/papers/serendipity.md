@@ -368,8 +368,7 @@ Westbrook, Robert A., and Richard L. Oliver (1991), "The Dimensionality of Consu
 
 Zhang, Yuan Cao, Diarmuid Ó. Séaghdha, Daniele Quercia, and Tamas Jambor (2012), "Auralist: Introducing Serendipity into Music Recommendation," in *Proceedings of the Fifth ACM International Conference on Web Search and Data Mining*, Eytan Adar and Jaime Teevan, eds. New York, NY: Association for Computing Machinery, 1322.
 
-**\
-FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
+**FIGURE 1: THE ROLE OF SERENDIPITY IN THE MARKETPLACE**
 
 *Conceptual framework showing how marketplace encounters that are positive, unexpected, and attributed to some degree of chance generate feelings of serendipity (good surprise, attributions to chance, feeling lucky), which in turn improve consumer outcomes (satisfaction, enjoyment, meaningfulness, willingness to pay, willingness to recommend, and interest). The framework also depicts moderators: valence of the encounter (positive vs. negative; Study 2), degree of randomness (high vs. low; Study 3), and diagnostic information (nondiagnostic vs. diagnostic; Study 4). Solid lines indicate the focal relationships (H1a, H1b), and dashed lines indicate the moderating relationships (H2, H3, H4).*
 

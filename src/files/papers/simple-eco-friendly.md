@@ -696,7 +696,7 @@ Winkielman, P. & Schwarz, N. (2001). How pleasant was your childhood? Beliefs ab
 
 The authors have provided these materials to enhance comprehension of their paper.
 
-### WEB APPENDIX A. ADDITIONAL DETAILS FOR PILOT STUDY
+## WEB APPENDIX A. ADDITIONAL DETAILS FOR PILOT STUDY
 
 A pilot study was conducted to observe whether consumers consider tangible manufacturing resources (i.e., energy, raw materials, production steps, and ingredients) when considering the eco-friendliness or effectiveness of a product.
 
@@ -748,7 +748,7 @@ It is important to note that participants\' open-ended responses revealed a vari
 
 The primary objective of this pilot study was to establish that inferences about the amount of tangible manufacturing resources arise spontaneously and frequently when consumers consider how effective and eco-friendly products are manufacturednot to suggest that such inferences are the exclusive or only possible pathway. Indeed, claiming that perceptions of tangible manufacturing resources are the sole inference would be implausible given the rich associative networks that consumers possess. Rather, our focus throughout this research is on documenting and understanding one important and systematic inference pathwaythe link between perceived amount of tangible manufacturing resources and judgments of efficacy and eco-friendlinesswhile acknowledging that other inference mechanisms may operate simultaneously in naturalistic consumer decision-making contexts.
 
-### WEB APPENDIX B. ADDITIONAL DETAILS FOR STIMULI PRETEST
+## WEB APPENDIX B. ADDITIONAL DETAILS FOR STIMULI PRETEST
 
 A stimuli pretest was conducted to assess whether the product replicates used in the main studies indeed represented varying levels of complexity (vs. simplicity). We predicted that the complex package will be perceived to be more visually complex relative to the simple package and vice versa.
 
@@ -782,7 +782,7 @@ Stimuli Pretest Results Summary
   Lotion                7.11           1.56           3.08           1.48        177.84      \<.001
   
 
-### WEB APPENDIX C. ADDITIONAL DETAILS FOR STUDY 1
+## WEB APPENDIX C. ADDITIONAL DETAILS FOR STUDY 1
 
 **Measures**
 
@@ -792,7 +792,7 @@ Stimuli Pretest Results Summary
 2. (1 = "Being Organic" to 7 = "Removing Oil and Dirt")
 3. (1 = "Eco-Friendly Ingredients" to 7 = "Effective Ingredients")
 
-### WEB APPENDIX D. CONCEPTUAL REPLICATION OF STUDY 2
+## WEB APPENDIX D. CONCEPTUAL REPLICATION OF STUDY 2
 
 This study (preregistration: <https://aspredicted.org/SFM_XRL>) provides a conceptual replication of Study 2. We tested whether the salience of an efficacy (vs. eco-friendliness) evaluation criterion increases the preference for product options with a visually complex (vs. simple) package design. We hypothesized that consumers perceive visual complexity (vs. simplicity) as requiring more (vs. less) resources to produce, which in turn leads them to infer product efficacy (vs. eco-friendliness). We designed simple and complex versions of products in four categories (soap, energy drink, protein powder, paper towels). If our hypothesis is correct, consumers should be more likely to choose a visually complex (vs. simple) option when they have an efficacy (vs. eco-friendliness) evaluation criterion.
 
@@ -820,7 +820,7 @@ The same pattern was observed for each of the replicates individually. In the ef
 
 This study is a conceptual replication of study 2 by providing evidence of generalizability and robustness for our effect, showing that people are more likely to choose a visually complex (vs. simple) option when considering an efficacy (vs. eco-friendliness) evaluation criterion. The effect holds across different product categories, including food and non-food consumer packaged goods. These results extend the generalizability of our findings beyond previous research that has focused on food (Ton et al. 2023).
 
-### WEB APPENDIX E. ADDITIONAL DETAILS FOR STUDIES 3A AND 3B
+## WEB APPENDIX E. ADDITIONAL DETAILS FOR STUDIES 3A AND 3B
 
 **Stimuli generation prompt**
 
@@ -883,7 +883,7 @@ Please create two versions:
 
 "How **aesthetic** do you think our product is?" (1 = "not at all aesthetic" to 7 = "extremely aesthetic")
 
-### WEB APPENDIX F. CONCEPTUAL REPLICATION OF STUDIES 3A AND 3B AND PERCEPTUAL FLUENCY TEST
+## WEB APPENDIX F. CONCEPTUAL REPLICATION OF STUDIES 3A AND 3B AND PERCEPTUAL FLUENCY TEST
 
 **Conceptual Replication of Studies 3a and 3b**
 
@@ -945,7 +945,7 @@ Then, we measured perceptual fluency using a standard 5-item scale from prior re
 
 **Discussion** Visually complex (vs. simple) designs are likely to be more difficult to process, by definition. However, the absence of an interaction effect suggests that perceptual fluency is unlikely to be driving the interactive effect of visual complexity and decision criterion. While it is theoretically possible that the greater processing effort associated with certain complex designs could be interpreted favorably under an efficacy criterion and negatively under an eco-friendly one, impacting downstream preference, this explanation is less parsimonious and less plausible given the evidence. It requires individuals to hold two additional lay theories: one equating effort with efficacy and another equating eco-friendliness with ease. Although the first seems reasonable, there is little evidence or theoretical grounding for the second. Moreover, an explanation based on processing ease fails to account for the full body of evidence in this research. Many of our complex designs across studies contain more detail but are not difficult to process (e.g., Studies 1, 2, and 4), so it would be difficult to classify them as disfluent, especially compared with the truly disfluent stimuli typically used in prior work (e.g., hard-to-read fonts). In addition, this account cannot explain the consistent, theory-driven pattern we observed for manufacturing resources as a mediator or for lay theories linking design complexity with manufacturing resources as a moderator. To the extent that design complexity is *defined* as disfluency, such an explanation becomes tautological.
 
-### WEB APPENDIX G. ADDITIONAL DETAILS FOR STUDIES 4A AND 4B
+## WEB APPENDIX G. ADDITIONAL DETAILS FOR STUDIES 4A AND 4B
 
 **Measures**
 
