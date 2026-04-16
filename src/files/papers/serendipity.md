@@ -1,6 +1,6 @@
 ---
 title: "Serendipity: Chance Encounters in the Marketplace Enhance Consumer Satisfaction"
-authors: "Aekyoung Kim, Felipe M. Affonso, Juliano Laran, Kristina Durante"
+authors: "Aekyoung Kim, Felipe M. Affonso, Juliano Laran, Kristina M. Durante"
 journal: "Journal of Marketing"
 year: 2021
 volume: 85
@@ -130,7 +130,7 @@ Participants were told that we were interested in how people respond in differen
 
 After viewing the painting, participants were asked, “How much did you enjoy the painting?” (0 = “I hated it,” and 100 = “I loved it”). Participants also responded to questions about their feelings of serendipity (α = .78): “Getting to see the painting I just saw was a good surprise,” “I came across this painting by luck,” and “This painting was an unexpected discovery” (1 = “strongly disagree,” and 7 = “strongly agree”).
 
-We also measured alternative explanations. Participants reported their attachment to the alternative option: “To what extent did you feel attached to the other option?” (1 = “not at all attached,” and 7 = “very much attached”). This question examined whether participants enjoyed the chosen option less in the positive valence condition because they were attached to the option they did not choose (Carmon, Wertenbroch, and Zeelenberg 2003). Participants also answered a question about regret: “To what extent did you feel regretful about the painting you saw?” (1 = “not at all regretful,” and 7 = “very much regretful”). Moreover, they indicated “How much did you scrutinize the painting?” (1 = “not at all,” and 7 = “very much”), allowing us to verify whether participants scrutinized the paintings to different degrees across conditions. Participants then answered questions about stress and frustration: “How stressed were you with the painting selection process?” (1 = “not at all stressful,” and 7 = “very much stressful”), and “How frustrated were you with the painting selection process?” (1 = “not at all frustrated,” and 7 = “very much frustrated”), allowing us to verify whether choosing versus not choosing, and seeing a negative versus a positive painting, generated negative feelings that could explain the results.
+We also measured alternative explanations. Participants reported their attachment to the alternative option: “To what extent did you feel attached to the other option?” (1 = “not at all attached,” and 7 = “very much attached”). This question examined whether participants enjoyed the chosen option less in the positive valence condition because they were attached to the option they did not choose (Carmon, Wertenbroch, and Zeelenberg 2003). Participants also answered a question about regret: “To what extent did you feel regretful about the painting you saw?” (1 = “not at all regretful,” and 7 = “very much regretful”). Moreover, they indicated “How much did you scrutinize the painting?” (1 = “not at all,” and 7 = “very much”), allowing us to verify whether participants scrutinized the paintings to different degrees across conditions. Participants then answered questions about stress and frustration: “How stressed were you with the song selection process?” (1 = “not at all stressful,” and 7 = “very much stressful”), and “How frustrated were you with the song selection process?” (1 = “not at all frustrated,” and 7 = “very much frustrated”), allowing us to verify whether choosing versus not choosing, and seeing a negative versus a positive painting, generated negative feelings that could explain the results.
 
 ### Results
 
@@ -149,7 +149,7 @@ We conducted a bootstrapping analysis for moderated mediation using the three co
 
 ### Discussion
 
-Study 2 replicates the positive effect of serendipity, showing that the effect is evident not only in online subscription contexts but also in experiences such as those that occur when consumers visit a museum (i.e., art consumption). Importantly, this effect only happens when the experience is positive, which supports H2. The effect was due to feelings of serendipity, and it could not be explained by feelings of attachment to the alternative option or negative feelings during the painting selection process.
+Study 2 replicates the positive effect of serendipity, showing that the effect is evident not only in online subscription contexts but also in experiences such as those that occur when consumers visit a museum (i.e., art consumption). Importantly, this effect only happens when the experience is positive, which supports H2. The effect was due to feelings of serendipity, and it could not be explained by feelings of attachment to the alternative option or negative feelings during the song selection process.
 
 ## Study 3: Degree of Randomness in Recommendation Systems
 
@@ -673,7 +673,7 @@ Imagine you enter an art gallery. You will see and rate a painting on the next p
 
 Please see and rate this painting.
 
-*P articipants view ed  one of  two  paintings  *(randomly presented)*.*
+*Participants viewed one of two paintings  *(randomly presented)*.*
 
 Once you view the painting, click below to rate this painting.
 
@@ -740,9 +740,9 @@ To what extent did you feel regretful about the painting you saw? (1 = “not at
 
 How much did you scrutinize the painting? (1 = “not at all,” and 7 = “very much”)
 
-How stressed were you with the painting selection process? (1 = “not at all stressful,” and 7 = “very much stressful”)
+How stressed were you with the song selection process? (1 = “not at all stressful,” and 7 = “very much stressful”)
 
-How frustrated were you with the painting selection process? (1 = “not at all frustrated,” and 7 = “very much frustrated”)
+How frustrated were you with the song selection process? (1 = “not at all frustrated,” and 7 = “very much frustrated”)
 
 ## Web Appendix C: Additional Methodological Details and Analyses for Study 3
 
@@ -1462,6 +1462,6 @@ How much did you blame yourself for the song you heard? (1 = “not at all,” a
 
 How much did you congratulate yourself for the song you heard? (1 = “not at all,” and 7 = “very much”)
 
-How stressed were you with the painting selection process? (1 = “not at all stressful,” 7 = “very much stressful”)
+How stressed were you with the song selection process? (1 = “not at all stressful,” 7 = “very much stressful”)
 
-How frustrated were you with the painting selection process? (1 = “not at all frustrated,” 7 = “very much frustrated”)
+How frustrated were you with the song selection process? (1 = “not at all frustrated,” 7 = “very much frustrated”)
