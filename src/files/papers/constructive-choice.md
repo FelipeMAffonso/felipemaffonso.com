@@ -1998,9 +1998,43 @@ The choice shares per condition for experiment 2 are presented in table MDA-G 1.
 
 TABLE MDA-G 1 (METHODOLOGICAL DETAIL APPENDIX G  1)
 
-EXPERIMENT 2  CHOICE SHARES PER CONDITION
+EXPERIMENT 2 -- CHOICE SHARES PER CONDITION
 
-[Stimulus image: see published version]
+| | Max. Accuracy Baseline | | Max. Accuracy Ease | | Min. Effort Baseline | | Min. Effort Ease | |
+|:-------------------------|--:|----:|--:|----:|--:|----:|--:|----:|
+| | n | % | n | % | n | % | n | % |
+| **Vacation Package** | | | | | | | | |
+| Fiji Hideaway | 9 | 8.0 | 18 | 16.2 | 5 | 4.5 | 7 | 6.2 |
+| Mauna Lani | 10 | 8.9 | 8 | 7.2 | 10 | 9.1 | 10 | 8.8 |
+| Hyatt Zilara | 6 | 5.4 | 3 | 2.7 | 2 | 1.8 | 9 | 8.0 |
+| Sheraton Buganvilias | 8 | 7.1 | 8 | 7.2 | 7 | 6.4 | 8 | 7.1 |
+| Walt Disney | 9 | 8.0 | 2 | 1.8 | 12 | 10.9 | 10 | 8.8 |
+| Hotel Palazzo | 4 | 3.6 | 7 | 6.3 | 9 | 8.2 | 7 | 6.2 |
+| SAVOY | 20 | 17.9 | 13 | 11.7 | 12 | 10.9 | 5 | 4.4 |
+| Turks and Caicos | 3 | 2.7 | 3 | 2.7 | 4 | 3.6 | 1 | 0.9 |
+| Sheraton Puerto Rico | 6 | 5.4 | 4 | 3.6 | 8 | 7.3 | 12 | 10.6 |
+| Flamingo Las Vegas | 4 | 3.6 | 4 | 3.6 | 3 | 2.7 | 7 | 6.2 |
+| The Westin | 6 | 5.4 | 6 | 5.4 | 6 | 5.5 | 6 | 5.3 |
+| Blue Lagoon | 9 | 8.0 | 12 | 10.8 | 10 | 9.1 | 4 | 3.5 |
+| The Confidante | 4 | 3.6 | 7 | 6.3 | 12 | 10.9 | 7 | 6.2 |
+| Mystique | 4 | 3.6 | 12 | 10.8 | 4 | 3.6 | 9 | 8.0 |
+| Hilton San Diego | 10 | 8.9 | 4 | 3.6 | 6 | 5.5 | 11 | 9.7 |
+| **Car** | | | | | | | | |
+| Toyota Camry | 5 | 4.5 | 5 | 4.5 | 6 | 5.5 | 7 | 6.2 |
+| Subaru WRX | 5 | 4.5 | 8 | 7.2 | 7 | 6.4 | 7 | 6.2 |
+| Ford Escape | 4 | 3.6 | 4 | 3.6 | 6 | 5.5 | 7 | 6.2 |
+| Porsche 911 | 6 | 5.4 | 19 | 17.1 | 3 | 2.7 | 10 | 8.8 |
+| Volvo S80 | 2 | 1.8 | 4 | 3.6 | 6 | 5.5 | 4 | 3.5 |
+| Jaguar Fpace | 5 | 4.5 | 11 | 9.9 | 9 | 8.2 | 11 | 9.7 |
+| Honda Accord | 3 | 2.7 | 5 | 4.5 | 3 | 2.7 | 10 | 8.8 |
+| BMW 5 Series | 5 | 4.5 | 3 | 2.7 | 13 | 11.8 | 8 | 7.1 |
+| Nissan Sentra | 22 | 19.6 | 7 | 6.3 | 9 | 8.2 | 3 | 2.7 |
+| Jeep Cherokee | 20 | 17.9 | 9 | 8.1 | 11 | 10.0 | 11 | 9.7 |
+| Chevrolet Malibu | 5 | 4.5 | 6 | 5.4 | 11 | 10.0 | 6 | 5.3 |
+| Land Rover | 7 | 6.3 | 13 | 11.7 | 6 | 5.5 | 10 | 8.8 |
+| Hyundai Elantra | 10 | 8.9 | 6 | 5.4 | 10 | 9.1 | 6 | 5.3 |
+| Mitsubishi | 9 | 8.0 | 7 | 6.3 | 7 | 6.4 | 6 | 5.3 |
+| Ford Taurus | 4 | 3.6 | 4 | 3.6 | 3 | 2.7 | 7 | 6.2 |
 
 ##  Product Replicate Analyses
 

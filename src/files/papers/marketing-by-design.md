@@ -844,7 +844,7 @@ Imagine you are looking for headphones that provide superior performance functio
 
 Imagine you want to buy an artisan soap that revitalizes old skin, protects against infection, and removes sticky impurities \[relaxes your body, eases your state of mind, and is pleasant to use\]. Which bar would you choose?
 
-[Image: Artisan Soap - Sinus Soother (LIMITED EDITION) \| Joyful Brands][Image: Oatmeal Soap Handmade]
+[Product photo: Artisan Soap - Sinus Soother (LIMITED EDITION) - Joyful Brands][Product photo: Oatmeal Soap Handmade]
 
 **Perfume**
 
@@ -862,19 +862,19 @@ Imagine you want to buy a coffee that enhances concentration and alertness \[has
 
 Imagine you are looking for a gift shop that provides a hassle-free shopping experience and reasonable pricing (an enjoyable shopping experience and exciting options). Which gift shop do you think is the best for your needs?
 
-[Image: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community][Image: Museums gift shops make money  and shape our understanding of art - Vox]
+[Retail photo: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community][Retail photo: Museums gift shops make money  and shape our understanding of art - Vox]
 
 **Spa Product Store**
 
 Imagine you are looking for a store that specialize in spa products that have superior performance, durability, and money-back guarantee? \[inspire, invigorate, and stimulate your body and mind\]. Which spa store would you choose?
 
-[Image: Tri-Village Magazine \| Holiday Gift Guide \| What To Buy For Mom \| What To Buy for Holidays \| Christmas Gift Ideas \| Holiday Gift Ideas \| Best Holiday Gifts \| Local][Image: Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa]
+[Photo: Tri-Village Magazine - Holiday Gift Guide - What To Buy For Mom - What To Buy for Holidays - Christmas Gift Ideas - Holiday Gift Ideas - Best Holiday Gifts - Local][Interior photo: Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa]
 
 **Restaurant**
 
 Imagine you are looking for a place to eat while on vacation. You want a restaurant that provides a fast, reliable, sophisticated \[an entertaining, exciting, and enjoyable\] experience. Which restaurants would you choose?
 
-[Image: Greenbelt Hotels near University of Maryland \| Crowne Plaza Greenbelt - Washington DC][Image: LOT 1 Café, Bar \&amp; Restaurant / Enter Projects \| ArchDaily]
+[Interior photo: Greenbelt Hotels near University of Maryland - Crowne Plaza Greenbelt - Washington DC][Interior photo: LOT 1 Café, Bar \ & Restaurant / Enter Projects - ArchDaily]
 
 After participants' choices, we collected demographics
 
@@ -1605,123 +1605,123 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 [Logo icon used as experimental stimulus.][Geometric shape logo stimulus (structured perception).][Brand logo with company name.][Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.]![Volkswagen Logo Meaning and History \[Volkswagen symbol\]](media/image77.png)
 
-[Brand logo stimulus from experimental materials.][Brand logo with company name text.] [Image: adidas ZX 500 Trainers - White/Blue - Shoes - ARKET IT \| Adidas originals logo, Adidas logo wallpapers, Adidas logo]
+[Brand logo stimulus from experimental materials.][Brand logo with company name text.] [Brand logo: adidas ZX 500 Trainers - White/Blue - Shoes - ARKET IT - Adidas originals logo, Adidas logo wallpapers, Adidas logo]
 
 ## *Unstructured Brand Logos and/or Typefaces:*
 
-[Brand logo with company name.] [Image: Nike tagline voted most memorable brand slogan \| Creative Bloq] [Image: Mountain Dew - Wikipedia]
+[Brand logo with company name.] [Brand image: Nike tagline voted most memorable brand slogan - Creative Bloq] [Brand image: Mountain Dew - Wikipedia]
 
-[Image: Marriott International, Inc. Archives - Symmons] [Image: Spotify\'s Asymmetrical Strokes In Its Logo Design Are Irking Some Of Its Users \| Brandikaran] [Image: YouTube]
+[Brand image: Marriott International, Inc. Archives - Symmons] [Brand logo: Spotify\'s Asymmetrical Strokes In Its Logo Design Are Irking Some Of Its Users - Brandikaran] [Brand image: YouTube]
 
 [Brand logo stimulus from experimental materials.][Brand logo stimulus from experimental materials.] [Brand logo stimulus from experimental materials.]
 
-[Image: Gatorade logo after 2009 \| Drinks logo, Gatorade, Logos] [Image: Logo, icon Description automatically generated] [Image: Burger King \| Logopedia \| Fandom]
+[Brand logo: Gatorade logo after 2009 - Drinks logo, Gatorade, Logos] [Brand logo: Logo, icon Description automatically generated] [Brand logo: Burger King - Logopedia - Fandom]
 
 ## *Structured Product Shapes, Packaging, and Imagery:*
 
-[Image: Amazon.com : Wall Street/Bond No.9 Edp Spray 1.7 Oz (M) : Perfumes : Beauty][Image: Absolut Vodka 750ml - Crown Wine & Spirits][Image: Silent Pool Gin 750ml \| Uptown Spirits \| Fast Shipping]
+[Product photo: Amazon.com : Wall Street/Bond No.9 Edp Spray 1.7 Oz (M) : Perfumes : Beauty][Product photo: Absolut Vodka 750ml - Crown Wine & Spirits][Product photo: Silent Pool Gin 750ml - Uptown Spirits - Fast Shipping]
 
-[Image: Voss Artesian Still Water, 16.9 Fl Oz, 24 Count - Walmart.com - Walmart.com][Image: Simply Orange Pulp Free Orange Juice, 11.5 fl oz - Walmart.com - Walmart.com][Image: Lipton Lemon Iced Tea 20 fl. oz. - Walmart.com - Walmart.com]
+[Photo: Voss Artesian Still Water, 16.9 Fl Oz, 24 Count - Walmart.com - Walmart.com][Product photo: Simply Orange Pulp Free Orange Juice, 11.5 fl oz - Walmart.com - Walmart.com][Product photo: Lipton Lemon Iced Tea 20 fl. oz. - Walmart.com - Walmart.com]
 
-[Image: Silent Pool Distillers\' Colorado High CBD gin - Product Launch \| Beverage Industry News \| just-drinks][Image: Wisteria Blue Eau de Parfum (50mL) \| Eau de parfum, Fragrance, Wisteria][Image: Kellogg\'s Frosted Flakes Cereal, 33.5 oz - Foods Co.]
+[Product photo: Silent Pool Distillers\' Colorado High CBD gin - Product Launch - Beverage Industry News - just-drinks][Product photo: Wisteria Blue Eau de Parfum (50mL) - Eau de parfum, Fragrance, Wisteria][Product photo: Kellogg\'s Frosted Flakes Cereal, 33.5 oz - Foods Co.]
 
 ## *Unstructured Product Shapes, Packaging, and Imagery:*
 
-[Image: Water Bottle Packaging Designs That Stands Out - AterietAteriet \| Food Culture][Image: The World\'s Most Beautiful Alcohol Bottle Designs \| TOMO DESIGN][Image: Anestasia Vodka Price & Reviews \| Drizly]
+[Product photo: Water Bottle Packaging Designs That Stands Out - AterietAteriet - Food Culture][Design photo: The World\'s Most Beautiful Alcohol Bottle Designs - TOMO DESIGN][Product photo: Anestasia Vodka Price & Reviews - Drizly]
 
-[Image: Ralphs - Tropicana Orange Juice Homestyle Some Pulp Bottle, 12 fl oz][Image: Image result for water bottle design][Image: Amazon.com: Kellogg\'s Corn Flakes Cereal - The Original & Best Breakfast Cereal, Fat-Free, 24 oz Box]
+[Product photo: Ralphs - Tropicana Orange Juice Homestyle Some Pulp Bottle, 12 fl oz][Product photo: Image result for water bottle design][Product photo: Amazon.com: Kellogg\'s Corn Flakes Cereal - The Original & Best Breakfast Cereal, Fat-Free, 24 oz Box]
 
-[Image: Easy Shine Brown Sponge][Image: How Product Shape Design Influence Your Sales? - Blog][Image: CHEETOS® Crunchy FLAMIN\' HOT® Limón Cheese Flavored Snacks \| Cheetos]
+[Product photo: Easy Shine Brown Sponge][Design photo: How Product Shape Design Influence Your Sales? - Blog][Product photo: CHEETOS® Crunchy FLAMIN\' HOT® Limón Cheese Flavored Snacks - Cheetos]
 
 ## *Structured Assortments and Product Displays:*
 
-[Image: Streetology - Architizer \| Clothing store displays, Retail merchandising, Retail store design] [Image: Part Two: Apple Granted Four Series of Design Patents in Hong Kong covering Retail Display Units - Patently Apple]
+[Retail photo: Streetology - Architizer - Clothing store displays, Retail merchandising, Retail store design] [Retail photo: Part Two: Apple Granted Four Series of Design Patents in Hong Kong covering Retail Display Units - Patently Apple]
 
-[Image: Triple Your Retail Sales This Week- Hair Salon Tips] [Image: Planogram Optimization at Store Level \| RELEX Solutions]
+[Retail photo: Triple Your Retail Sales This Week- Hair Salon Tips] [Retail photo: Planogram Optimization at Store Level - RELEX Solutions]
 
-[Image: 80+ Product Display ideas \| retail design, store design, display] [Image: Product display \| Aveda institute, Top beauty products, Aveda]
+[Retail photo: 80+ Product Display ideas - retail design, store design, display] [Retail photo: Product display - Aveda institute, Top beauty products, Aveda]
 
-[Image: What is visual merchandising and why is it so important? - eXPD8] [Image: Colour blocking packaging Kusmi Teashop in Marylebone Lane, London \| Tea shop, Tea store, Tea packaging]
+[Retail photo: What is visual merchandising and why is it so important? - eXPD8] [Product photo: Colour blocking packaging Kusmi Teashop in Marylebone Lane, London - Tea shop, Tea store, Tea packaging]
 
-[Image: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community]
+[Retail photo: 3 Hard Techniques To Optimize Your Visual Merchandising - Business 2 Community]
 
-[Image: How Visual Merchandising is Driving the Retail Industry? \| by Pazo Inc \| Pazo Operations Management System \| Medium][Image: More from Hay Copenhagen - INTERIORATOR in 2021 \| Bedding shop, Retail store design, Shop interiors] [Image: Pin by Chelsea Jones on Denim Merchandising \| Color, Retail display, Visual merchandising]
+[Retail photo: How Visual Merchandising is Driving the Retail Industry? - by Pazo Inc - Pazo Operations Management System - Medium][Retail photo: More from Hay Copenhagen - INTERIORATOR in 2021 - Bedding shop, Retail store design, Shop interiors] [Retail photo: Pin by Chelsea Jones on Denim Merchandising - Color, Retail display, Visual merchandising]
 
-[Image: 4 Cost-Effective Visual Merchandising Skills - Hamstech Online]
+[Retail photo: 4 Cost-Effective Visual Merchandising Skills - Hamstech Online]
 
-[Image: Glamshops Review]
+[Retail photo: Glamshops Review]
 
-[Image: Tri-Village Magazine \| Holiday Gift Guide \| What To Buy For Mom \| What To Buy for Holidays \| Christmas Gift Ideas \| Holiday Gift Ideas \| Best Holiday Gifts \| Local]
+[Photo: Tri-Village Magazine - Holiday Gift Guide - What To Buy For Mom - What To Buy for Holidays - Christmas Gift Ideas - Holiday Gift Ideas - Best Holiday Gifts - Local]
 
 ## *Unstructured Assortments and Product Displays:*
 
-[Image: Feel the comfort of a spa, anytime you choose!]
+[Interior photo: Feel the comfort of a spa, anytime you choose!]
 
 [Visual stimulus or image from study materials.] [Visual stimulus or image from study materials.]
 
 [Visual stimulus or image from study materials.]
 
-[Image: Gift & Nature Shop at Tarpon Bay Explorers]
+[Retail photo: Gift & Nature Shop at Tarpon Bay Explorers]
 
-[Image: Museums gift shops make money  and shape our understanding of art - Vox]
+[Retail photo: Museums gift shops make money  and shape our understanding of art - Vox]
 
 [Retail environment or store interior photograph illustrating visual merchandising principles.]
 
-[Image: Shopping in Asheville, NC \| The Omni Grove Park Inn]
+[Retail photo: Shopping in Asheville, NC - The Omni Grove Park Inn]
 
-[Image: Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa]
+[Interior photo: Discover The Palm Beaches - West Palm Beach - Travel - Travel Diaries - Staycation - BisousBrittany - Bisous,Brittany - SiSpa]
 
 ## *Structured Environments:*
 
 [Visual stimulus or image from study materials.]
 
-[Image: Restaurants Near Greenbelt - Crowne Plaza]
+[Interior photo: Restaurants Near Greenbelt - Crowne Plaza]
 
 [Restaurant interior photograph illustrating structured or unstructured design principles.]
 
-[Image: Creating an effective retail space - Design Middle East]
+[Retail photo: Creating an effective retail space - Design Middle East]
 
-[Image: Fine dining in São Paulo - Fasano Restaurant - SamCora \| A Fashion, Travel and Lifestyle Blog]
+[Interior photo: Fine dining in São Paulo - Fasano Restaurant - SamCora - A Fashion, Travel and Lifestyle Blog]
 
-[Image: Liverpool Polanco Department Store, Mexico City (A.R.E Awards)]
+[Retail photo: Liverpool Polanco Department Store, Mexico City (A.R.E Awards)]
 
-[Image: Ananti Hilton Busan, Busan  Updated 2022 Prices][Image: Chinese Bookstore Provides a Futuristic Shopping Experience \| Architectural Digest][Brand logo or visual stimulus from study materials.]
+[Interior photo: Ananti Hilton Busan, Busan  Updated 2022 Prices][Retail photo: Chinese Bookstore Provides a Futuristic Shopping Experience - Architectural Digest][Brand logo or visual stimulus from study materials.]
 
-[Image: Learning Hub - Sign in \| Restaurant interior design, Asian interior design, Interior design principles]
+[Interior photo: Learning Hub - Sign in - Restaurant interior design, Asian interior design, Interior design principles]
 
-[Image: Workshop Palm Springs Crowned America\'s Top Restaurant Design for 2013]
+[Retail photo: Workshop Palm Springs Crowned America\'s Top Restaurant Design for 2013]
 
 [Retail environment or store interior photograph illustrating visual merchandising principles.]
 
 [Visual pattern stimulus used in experimental conditions, showing structured or unstructured design elements.]
 
-[Image: Prime - Bellagio Hotel \| Wheelchair Jimmy Restaurant Accessibility Reviews]
+[Interior photo: Prime - Bellagio Hotel - Wheelchair Jimmy Restaurant Accessibility Reviews]
 
-[Image: Bellagio - Las Vegas, NV Meeting Rooms & Event Space \| Northstar Meetings Group]
+[Interior photo: Bellagio - Las Vegas, NV Meeting Rooms & Event Space - Northstar Meetings Group]
 
-[Image: Sotheby\'s Launches "Instant Cellars" and Wine Collection Services \| Barron\'s]
+[Product photo: Sotheby\'s Launches "Instant Cellars" and Wine Collection Services - Barron\'s]
 
 ## *Unstructured Environments:*
 
-[Image: LOT 1 Cafe , Bar and Restaurant \| Enter Projects - Arch2O.com]
+[Interior photo: LOT 1 Cafe , Bar and Restaurant - Enter Projects - Arch2O.com]
 
-[Image: Nemika Concept Store by Kohei Nawa, Tokyo  Japan]
+[Retail photo: Nemika Concept Store by Kohei Nawa, Tokyo  Japan]
 
 [Retail environment or store interior photograph illustrating visual merchandising principles.]
 
-[Image: FRAME \| A multifunctional retail space in Shanghai changes with each season]
+[Retail photo: FRAME - A multifunctional retail space in Shanghai changes with each season]
 
-[Image: Contemporary Bookstore in China has Large Installation of Floating Paper]
+[Retail photo: Contemporary Bookstore in China has Large Installation of Floating Paper]
 
-[Image: Spar supermarket displays groceries between curved wooden ribs]
+[Retail photo: Spar supermarket displays groceries between curved wooden ribs]
 
-[Image: Bold Curves and Colors in Food Court Interior Design]
+[Design photo: Bold Curves and Colors in Food Court Interior Design]
 
-[Image: Curved Line- interior \| Interior design awards, Interior architecture design, Architecture]
+[Design photo: Curved Line- interior - Interior design awards, Interior architecture design, Architecture]
 
-[Image: Architecture. Adorable Store Interior Design Ideas With Unique Curved Beige Ceiling Panel... \| Store design interior, Boutique interior design, Modern interior design]
+[Retail photo: Architecture. Adorable Store Interior Design Ideas With Unique Curved Beige Ceiling Panel... - Store design interior, Boutique interior design, Modern interior design]
 
-[Image: NEX designed restaurant with spiralling concrete wall and retractable curved glass system in London]
+[Interior photo: NEX designed restaurant with spiralling concrete wall and retractable curved glass system in London]
 
 # **WEB APPENDIX I: TABLE 1 REFERENCES**
 
