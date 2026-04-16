@@ -440,7 +440,6 @@ Finally, identifying potential moderators of the price delay effect warrants fur
 
 Data from Study 1 were provided by Fravega, an Argentinian retailer of household and tech appliances, to the third author. Collected in spring 2020 by the company under the third author's supervision, these data were analyzed by the third author with input from the first and sixth authors. The posttest and alternative explanations tests for Study 1 were conducted in February 2025 by the first author, who also analyzed the data. Study 2's main study and pretest were conducted via Prolific in February 2025 by the first and second authors. The posttest and alternative explanations tests were conducted online in March 2025 by the same authors. All Study 2 data were analyzed by the first and second authors. Data for Study 3 were again provided by Fravega to the third author. Collected in December 2021 under the third author's supervision, these data were analyzed by the third author with input from the first and sixth authors. The posttest and alternative explanations tests for Study 3 were conducted in February 2025 by the first author, who also analyzed the data. Study 4's main study and pretest were conducted via Prolific in February 2025 by the first and second authors. The posttest and alternative explanations tests were conducted in March 2025 by the same authors, who analyzed all tests and study data. Study 5's main study and alternative explanations test were conducted via Prolific in March 2025 by the first author and analyzed by the first and second authors. The Web Appendix F study (i.e., Study 5 procedure with category-level price expectations) was conducted in April 2024 by the first author and analyzed by the first and second authors. The Web Appendix G study (a conceptual replication of Study 5) was also conducted in April 2024 by the first author and analyzed by the first and second authors. Data for Study 6 were collected via Prolific in August 2024 by the first author and analyzed by the first and second authors with input from all other authors. The posttest and alternative explanations tests for Study 6 were conducted in March 2025 by the first author and analyzed by the first and second authors. The raw data for all studies, code (SPSS for lab studies and STATA/R for field studies), Qualtrics survey files (.qsf), and preregistration documents for the lab surveys and studies are available on the Open Science Framework website: (<https://osf.io/xt42w/?view_only=f6169fde8e7b4578be228f18abf79e19>).
 
-**\**
 
 **REFERENCES**
 
@@ -502,19 +501,19 @@ Lynch, John G., Jr. and Dan Ariely (2000), "Wine Online: Search Costs Affect Com
 
 Mazumdar, Tridib, S.P. Raj, and Indrajit Sinha (2005), "Reference Price Research: Review and Propositions," *Journal of Marketing*, 69 (4), 84--102.
 
-[Monroe, Kent B. (1973), "Buyers' Subjective Perceptions of Price," *Journal of Marketing Research*, 10 (February), 70--80.]{.mark}
+[Monroe, Kent B. (1973), "Buyers' Subjective Perceptions of Price," *Journal of Marketing Research*, 10 (February), 70--80.]
 
 Morwitz, Vicki G., Eric A. Greenleaf, and Eric J. Johnson (1998), "Divide and Prosper: Consumers' Reactions to Partitioned Prices," *Journal of Marketing Research*, 35 (4), 453--63.
 
-[Plassmann, Hilke, John O'Doherty, Baba Shiv, and Antonio Rangel (2008), "Marketing Actions Can Modulate Neural Representations of Experienced Pleasantness," *PNAS Proceedings of the National Academy of Sciences of the United States of America*, 105(3), 1050--1054.]{.mark}
+[Plassmann, Hilke, John O'Doherty, Baba Shiv, and Antonio Rangel (2008), "Marketing Actions Can Modulate Neural Representations of Experienced Pleasantness," *PNAS Proceedings of the National Academy of Sciences of the United States of America*, 105(3), 1050--1054.]
 
-[Rao, Akshay R. (2005), "The Quality of Price as a Quality Cue," *Journal of Marketing Research*, 42(4), 401-405.]{.mark}
+[Rao, Akshay R. (2005), "The Quality of Price as a Quality Cue," *Journal of Marketing Research*, 42(4), 401-405.]
 
 Santana, Shelle, Steven K. Dallas, and Vicki G. Morwitz (2020), "Consumer Reactions to Drip Pricing," *Marketing Science*, 39 (1), 188--210.
 
 Shaddy, Franklin and Leonard Lee (2020), "Price Promotions Cause Impatience*," Journal of Marketing Research*, 57 (1), 118--33.
 
-[Shirai, Miyuri and Robert Meyer (1997), "Learning and the Cognitive Algebra of Price Expectations," *Journal of Consumer Psychology*, 6(4), 365-388.]{.mark}
+[Shirai, Miyuri and Robert Meyer (1997), "Learning and the Cognitive Algebra of Price Expectations," *Journal of Consumer Psychology*, 6(4), 365-388.]
 
 Silva, Pia (2018), "Should I put My Prices on My Website," *Forbes*, September 26.
 
@@ -719,7 +718,6 @@ Winer, Russell S. (1986), "A Reference Price Model of Brand Choice for Frequentl
 [^9]: While the prices of the espresso machines varied from participant to participant depending on their IRP, each option had a fixed percentage relative to IRP---that is, one option from the set was always priced at 85% of the IRP, another option was always priced at 87.5% of the IRP, and so on. The presentation order was randomized.
 
 
-
 ---
 
 # Web Appendix
@@ -846,7 +844,6 @@ The results are shown in Table WA-1. The results are similar to those in the mai
 Notes---Standard errors in parentheses.\
 †p \< .10. \*p \< .05. \*\*p \< .01
 
-**\**
 
 ## Two-Stage Analysis Decomposing Revenue and Units Conditional on Sales
 
@@ -878,7 +875,6 @@ In this scenario, you were browsing through a variety of electric kettles on a s
 
 \*The Procedure for Espresso Machines was similar except for the product category
 
-**\**
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -896,7 +892,6 @@ In this scenario, you were browsing through a variety of electric kettles on a s
 
 In the electric kettles post-test, there were no differences from the midpoint 4 on perceptions of product quality (*M* = 3.88, *SD* = .854 vs. 4; *t*(74) = -1.22, *p* = .227), trust in the retailer (*M* = 4.09, *SD* = .791 vs. 4; *t*(74) = 1.02, *p* = .310), and customer service expectations (*M* = 3.99, *SD* = .932 vs. 4; *t*(74) = -.125, *p* = .901). In the espresso machines post-test, there were no differences from the midpoint 4 on perceptions of product quality (*M* = 3.90, *SD* = 1.15 vs. 4; *t*(86) = -.838, *p* = .404), trust in the retailer (*M* = 4.13, *SD* = 1.03 vs. 4; *t*(86) = 1.14, *p* = .256), and customer service expectations (*M* = 4.01, *SD* = 1.11 vs. 4; *t*(86) = .097, *p* = .923).
 
-**\**
 
 # Web Appendix B: Additional Results and Methodological Details -- Study 2
 
@@ -918,7 +913,7 @@ This is the espresso machine you are interested in:
 
 **\[immediate-PD condition\]**
 
-![A silver espresso machine with white text AI-generated content may be incorrect.](media/image9.png){width="2.8372900262467193in" height="3.014937664041995in"}**\**
+![A silver espresso machine with white text AI-generated content may be incorrect.](media/image9.png){width="2.8372900262467193in" height="3.014937664041995in"}
 
 **\[delayed-PD condition\]**
 
@@ -952,7 +947,6 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 ![A screenshot of a computer AI-generated content may be incorrect.](media/image13.png){width="4.80198053368329in" height="3.050488845144357in"}
 
-**\**
 
 ## Materials -- Pre-Test Procedure 
 
@@ -986,7 +980,6 @@ This is the espresso machine you are interested in:
 
 Gender and age
 
-**\**
 
 ## Materials -- Post-Test Procedure 
 
@@ -1014,7 +1007,6 @@ This is the espresso machine you are interested in:
 
 Gender and age
 
-**\**
 
 ## Results -- Counterbalanced Mediator and Dependent Variable
 
@@ -1022,7 +1014,6 @@ Gender and age
 
 *Price Expectation Disconfirmation.* A 2 (condition) × 2 (measurement order) ANOVA revealed neither a main effect of mediator and dependent variable measurement order (*F*(1, 225) = .004, *p* = .951), nor an interaction effect (*F*(1, 225) = .540, *p* = .463). The only significant effect was the main effect of condition (immediate-PD vs. delayed-PD: *F*(1, 225) = 8.69, *p* = .004, $\eta_{p}^{2}$ *=* .037), which is reported in the main text (collapsed across the measurement order conditions).
 
-**\**
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1044,7 +1035,6 @@ Gender and age
 
 Dodds, William B., Kent B. Monroe, and Dhruv Grewal (1991), "Effects of Price, Brand, and Store Information on Buyers' Product Evaluations," *Journal of Marketing Research*, 307--19.
 
-**\**
 
 # Web Appendix C: Additional Results and Methodological Details -- Study 3
 
@@ -1131,7 +1121,6 @@ Post-Test Stimuli -- Sales Flyer Similar to Those Used in the Field Study with E
 
 ![](media/image30.png){width="6.124671916010499in" height="7.479166666666667in"}
 
-**\**
 
 This post-test was conducted to verify delayed prices led to an expectation of lower prices
 
@@ -1139,11 +1128,10 @@ This post-test was conducted to verify delayed prices led to an expectation of l
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![](media/image32.png){width="6.268055555555556in" height="0.5069444444444444in"}**\***(Stimulus from the previous page was displayed -- participants were shown the website sales flyer delayed price disclosure)
+![](media/image32.png){width="6.268055555555556in" height="0.5069444444444444in"}*(Stimulus from the previous page was displayed -- participants were shown the website sales flyer delayed price disclosure)
 
 ![A screenshot of a computer AI-generated content may be incorrect.](media/image33.png){width="6.268055555555556in" height="1.4541666666666666in"}
 
-**\**
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1197,7 +1185,7 @@ After some consideration, you decide to click the promotion to see more informat
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-![A screenshot of a computer AI-generated content may be incorrect.](media/image13.png){width="4.80198053368329in" height="3.050488845144357in"}**\**
+![A screenshot of a computer AI-generated content may be incorrect.](media/image13.png){width="4.80198053368329in" height="3.050488845144357in"}
 
 ## Materials -- Pre-Test Procedure
 
@@ -1249,7 +1237,6 @@ When you open the e-mail, you see a promotion for a Breville espresso machine:
 
 Gender and age
 
-**\**
 
 ## Results -- Counterbalanced Mediator and Dependent Variable
 
@@ -1257,7 +1244,6 @@ Gender and age
 
 *Price Expectation Disconfirmation.* A 2 (condition) × 2 (measurement order) ANOVA revealed neither a main effect of mediator and dependent variable measurement order (*F*(1, 219) = .303, *p* = .583), nor an interaction effect (*F*(1, 219) = .450, *p* = .503). The only significant effect was the main effect of condition (immediate-PD vs. delayed-PD: *F*(1, 219) = 9.06, *p* = .003, $\eta_{p}^{2}$ *=* .040), which is reported in the main text (collapsed across the measurement order conditions).
 
-**\**
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1413,7 +1399,6 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 ![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
 
-**\**
 
 ## Alternative Explanations Test Procedure and Results
 
@@ -1455,7 +1440,6 @@ The crucial dependent measure was the second category IRP minus the first catego
 
 There is one anomaly in the data. Price beliefs did not influence price expectations on the posttest IRP measure in the immediate conditions. We believe this was the case because participants stated price expectations in the pretest IRP and the immediate-PD was consistent with these expectations (i.e., prices were -15% to +15% for the participant's pretest IRP). The potential effects of price beliefs were countered when prices matched stated expectations.
 
-**\**
 
 ## Materials 
 
@@ -1465,7 +1449,7 @@ There is one anomaly in the data. Price beliefs did not influence price expectat
 
 ![A close-up of a message AI-generated content may be incorrect.](media/image73.png){width="6.5in" height="1.7673611111111112in"}\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-Please read the retailer description below. The next button will be available after 20 seconds.**\**
+Please read the retailer description below. The next button will be available after 20 seconds.
 
 **\[store image: national\]**
 
@@ -1570,7 +1554,6 @@ Right after participants made their choice:
 
 ![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
 
-**\**
 
 # Web Appendix g: Conceptual Replication of Study 5 - Ergonomic Keyboard
 
@@ -1604,7 +1587,6 @@ Accordingly, we proceeded with a moderated mediation analysis using PROCESS Mode
 
 Overall, Study WA-G provides evidence of generalizability and robustness for our effect, showing that that, relative to immediate price disclosure, delayed price disclosure increased (vs. decreased) product evaluations when the store information was premium (vs. discount). These effects were driven by price expectation disconfirmations, which occurred as a function of the contextual information when the price disclosure was delayed (vs. immediate).
 
-**\**
 
 ## Materials
 
@@ -1662,7 +1644,7 @@ Please read the retailer description below. The next button will be available af
 
 **Uplift. Work better. Live healthier.**
 
-**\**
+
 ![A black and blue text Description automatically generated](media/image76.gif){width="2.4in" height="2.121599956255468in"}
 
 We are committed to designing, manufacturing, and shipping the highest quality ergonomic office furniture. Every UPLIFT Desk product is built to last and offer the latest office furniture innovations. Each is designed by a world-class team of a dozen engineers that includes our founder and CEO Jon Paulsen, a Certified Professional Ergonomist (CPE) and mechanical engineer himself.\
@@ -1701,7 +1683,6 @@ Sale ends 4/9, 3 PM Central. While supplies last. All advertised prices are the
 
 Please select your preferred ergonomic keyboard to add it to your shopping cart. Your shopping cart will appear on the next page. The next button will appear after 30 seconds.
 
-**\**
 
 **\[price disclosure: immediate\]**
 
@@ -1729,7 +1710,6 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 ![A white background with black text Description automatically generated](media/image83.png){width="5.058449256342957in" height="0.7258016185476815in"}
 
-**\**
 
 # Web Appendix h: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 6
 
@@ -1737,7 +1717,6 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 ![I can\'t see the price of this shirt until I add it to my cart and checkout. : r/assholedesign](media/image84.jpeg){width="2.162800743657043in" height="2.6203707349081364in"}![Walmart won\'t let me see the price until I add the item to my cart : r/assholedesign](media/image85.png){width="3.5556900699912513in" height="2.611111111111111in"}
 
-**\**
 
 ## Materials
 
@@ -1859,7 +1838,6 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 ![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
 
-**\**
 
 ## Post-Test: Expensive and Inexpensive-Price Beliefs
 
@@ -1889,7 +1867,6 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 ![Graphical user interface, text, application Description automatically generated](media/image71.png){width="5.021533245844269in" height="2.4586767279090114in"}
 
-**\**
 
 ## Alternative Explanations Test Procedure
 
@@ -1904,7 +1881,6 @@ After some consideration, you decide to add the product to your shopping cart. P
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 ![Graphical user interface, text, application Description automatically generated](media/image71.png){width="3.2100535870516187in" height="1.5717279090113736in"}
-
 
 
 ---

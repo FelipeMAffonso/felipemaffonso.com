@@ -22,7 +22,6 @@ Felipe M. Affonso (felipemarinelliaffonso@gmail.com) is Assistant Professor of M
 
 The authors thank the Editor and the JM review team for their thoughtful comments and guidance throughout the review process. They are also grateful to Juliano Laran and Aner Sela for their helpful comments. This article is based on the first author's doctoral dissertation.
 
-**\**
 
 **Marketing by Design: The Influence of Perceptual Structure on Brand Performance**
 
@@ -33,7 +32,7 @@ Visual marketing communications consist of two components: (1) semantic content 
 **Keywords**: visual design, marketing communications, logos, package design, branding, retail architecture
 
 [\
-]{.mark}
+]
 
 **Marketing by Design: The Influence of Perceptual Structure on Brand Performance**
 
@@ -73,7 +72,6 @@ Two broad classes of consumption goals are utilitarian goals and hedonic goals (
 
 Of course, many product categories have both utilitarian and hedonic benefits, as exemplified by the research in consumer behavior (see table 1). Nonetheless, although consumption can produce both utilitarian and hedonic value (Babin et al. 1994; Hirschman and Holbrook 1982; Voss, Spangenberg, and Grohmann 2003), the weight placed on utilitarian or hedonic benefits should depend on whether the brand is positioned to provide primarily utilitarian or hedonic benefits (Botti and McGill 2011; Khan et al. 2005).
 
-**\**
 
 **Table 1.** Hedonic and Utilitarian Products in Consumer Research
 
@@ -123,7 +121,6 @@ Of course, many product categories have both utilitarian and hedonic benefits, a
 | Note: See Web Appendix I for the reference list of research cited in this table.                    |                             |
 +-----------------------------------------------------------------------------------------------------+-----------------------------+
 
-**\**
 
 **Inferring Utilitarian Value from Structured Perceptions**
 
@@ -449,7 +446,7 @@ Finally, Studies 5A and 5B showed consumers do not make inferences based on stru
 
 Our insights emerged across many potential applications (brand logos, product imagery, retail environments, retail displays), but it is possible that the effects would not emerge for certain products. First, consumers are unlikely to make structure-based inferences when brands are not positioned using utilitarian or hedonic benefits. Second, we did not disentangle effects associated with each manipulation of a structured perception. Third, we did not investigate other dimensions of perceptions, beyond structure, and classifications of benefits, beyond utilitarian / hedonic, that are critical to visual marketing communications.
 
-Despite these limitations, we consistently found that a structured (unstructured) perception increases utilitarian (hedonic) value in the presence of a utilitarian (hedonic) positioning. These inferences led to an array of positive marketing outcomes. We hope future research will consider the role of the structure of a perception when investigating the influence of visual marketing stimuli on consumer-relevant outcomes. We also hope this research is valuable for practitioners, as it shows actionable ways to signal different types of value to consumers.**\**
+Despite these limitations, we consistently found that a structured (unstructured) perception increases utilitarian (hedonic) value in the presence of a utilitarian (hedonic) positioning. These inferences led to an array of positive marketing outcomes. We hope future research will consider the role of the structure of a perception when investigating the influence of visual marketing stimuli on consumer-relevant outcomes. We also hope this research is valuable for practitioners, as it shows actionable ways to signal different types of value to consumers.
 
 **REFERENCES**
 
@@ -555,7 +552,7 @@ Felipe M. Affonso (<felipemarinelliaffonso@gmail.com>), and Chris Janiszewski (<
 
 **Table of Contents**
 
-#  {#section .TOC-Heading}
+#  
 
 [WEB APPENDIX A: ADDITIONAL METHODOLOGICAL DETAILS AND ANALYSES FOR STUDY 1 [3](#web-appendix-a-additional-methodological-details-and-analyses-for-study-1)](#web-appendix-a-additional-methodological-details-and-analyses-for-study-1)
 
@@ -805,7 +802,6 @@ There were 10 pairs of replicates and 2 shopping goals. We wanted 100 choices pe
 
 We are investigating consumers\' personal preferences and opinions. You will read different scenarios and make a choice. Please click the arrow button to continue.
 
-Page Break
 
 Participants made 10 choices. Each choice had a layout similar to the one below. The example shows a utilitarian shopping goal with the perfumes pair.
 
@@ -1412,7 +1408,6 @@ We preregistered (preregistration: <https://aspredicted.org/CLG_KMC>) and collec
 
 We are investigating consumers\' personal preferences and opinions. Please click the arrow button to continue.
 
-Page Break
 
 **\[Utilitarian Library Framing Condition\]**
 
@@ -1454,11 +1449,9 @@ The Spectrum Library provides access to many facilities, including common spaces
 
 ![](media/image62.jpeg){width="4.848837489063867in" height="3.236599956255468in"}
 
-Page Break
 
 "Please provide your overall evaluation for The Spectrum Library" (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; and 1 = "very unfavorable" and 9 = "very favorable")
 
-Page Break
 
 "How effective do you think The Spectrum Library is at offering..."
 
@@ -1466,7 +1459,6 @@ Page Break
 
 ("an effective learning environment?", "access to a large amount of information?", "professional development opportunities?", and "a safe environment?"; all with 1 = "not effective at all", and 9 = "very effective")
 
-Page Break
 
 "How effective do you think The Spectrum Library is at offering..."
 
@@ -1476,27 +1468,22 @@ Page Break
 
 \*The presentation order of the mediators was counterbalanced\*
 
-Page Break
 
 "The description and picture of the library was:" (1 = "difficult to process" vs. 9 = "easy to process"; 1 = "difficult to understand" vs. "9 = "easy to understand"; 1 = "required a lot of effort to understand" vs. 9 = "required no effort to understand"; and 1 = "very complex" vs. 9 = "very simple")
 
-Page Break
 
 :"How aesthetically pleasing is The Spectrum Library?" with 1 = "not at all" and 9 = "very much
 
-Page Break
 
 "We want you to evaluate The Spectrum Library in terms of what you think it is most consistent at relative to what it claims to offer. This question is not about how well The Spectrum Library can offer what it claims to offer, but about what The Spectrum Library claims to offer
 
 (1 = "utilitarian (satisfies useful needs)" and 9 = "hedonic (provides pleasure)"; 1 = "functional (performs practical functions)" and 9 = "experiential (provides experiences and indulgences)"; and 1 = "instrumental (provides material benefits)" and 9 = "transformational (transforms the consumption experience")
 
-Page Break
 
 What are your perceptions of The Spectrum Library? The Spectrum Library is\...
 
 (1 = "symmetric" and 9 = "asymmetric"; 1 = "balanced" and 9 = "unbalanced); and 1 = "regular" and 9 = "irregular").
 
-Page Break
 
 Demographics (Gender, Age)
 
@@ -1520,7 +1507,6 @@ We conducted a test of discriminant validity for the dependent measure (evaluati
 
 We are investigating consumers\' personal preferences and opinions. Please click the arrow button to continue.
 
-Page Break
 
 **\[Unstructured Condition\]**
 
@@ -1544,25 +1530,20 @@ Astro G S7 Pro is fully charged in 30 minutes, runs for up to 70 minutes, has a 
 
 "Please provide your overall evaluation for Astro G" (1 = "very bad," and 9 = "very good"; 1 = "very negative," and 9 = "very positive"; and 1 = "very unfavorable," and 9 = "very favorable")
 
-Page Break
 
 "How effective do you think Astro G is at offering a cordless vacuum cleaner..." ("that charges quickly?", "with superior runtime?", "with a large dust cup capacity?", "with a high-efficient filter?", and "that is durable?"; all with 1 = "not effective at all" and 9 = "very effective")
 
-Page Break
 
 "The brand logo and description of Astro G S7 Pro was:" (1 = "difficult to process" vs. 9 = "easy to process"; 1 = "difficult to understand" vs. "9 = "easy to understand"; 1 = "required a lot of effort to understand" vs. 9 = "required no effort to understand"; and 1 = "very complex" vs. 9 = "very simple")
 
-Page Break
 
 What are your perceptions of Astro G\'s logo in terms of its visual characteristics?
 
 (1 = "symmetric" and 9 = "asymmetric"; 1 = "balanced" and 9 = "unbalanced"; 1 = "geometric" and 9 = "organic"; and 1 = "regular" and 9 = "irregular").
 
-Page Break
 
 "How specific is the information about Astro G in describing the product's performance?," "How helpful is the information about Astro G for understanding the product's actual level of performance?," and "To what extent does the information about Astro G make you certain about the product's performance?" (with 1 = "not at all" and 9 = "very much")
 
-Page Break
 
 Demographics (Gender, Age)
 
@@ -1584,7 +1565,6 @@ We conducted a test of discriminant validity for the dependent measure (evaluati
 
 We are investigating consumers\' personal preferences and opinions. Please click the arrow button to continue.
 
-Page Break
 
 A new chocolate experience has arrived: Choco-Bliss!
 
@@ -1604,23 +1584,18 @@ A new chocolate experience has arrived: Choco-Bliss!
 
 Please provide your overall evaluation for Choco-Bliss: (1 = "very bad" and 9 = "very good"; 1 = "very negative" and 9 = "very positive"; and 1 = "very unfavorable" and 9 = "very favorable")
 
-Page Break
 
 ""How effective do you think Choco-Bliss is at offering..." ("pleasurable chocolates?", "delicious chocolates?", "enjoyable chocolates?", and "tasty chocolates?" all with 1 = "not effective at all" and 9 = "very effective")
 
-Page Break
 
 "The information about Choco-Bliss was\...:" (1 = "difficult to process" vs. 9 = "easy to process"; 1 = "difficult to understand" vs. "9 = "easy to understand"; 1 = "required a lot of effort to understand" vs. 9 = "required no effort to understand"; and 1 = "very complex" vs. 9 = "very simple")
 
-Page Break
 
 "How would you evaluate Choco-Bliss' chocolate visual elements? The visual elements are..." (1 = "symmetric" and 9 = "asymmetric"; 1 = "similar to each other" and 9 = "dissimilar to each other"; 1 = "regular" and 9 = "irregular"; and 1 = "geometric" and 9 = "organic")
 
-Page Break
 
 "How well does the review about Choco-Bliss describe the consumption experience?," "How helpful is the review about Choco-Bliss for understanding how one feels when eating the chocolate?," and "To which extent the review about Choco-Bliss help you anticipate the taste of the chocolate?" (with 1 = "not at all" and 9 = "very much")
 
-Page Break
 
 Demographics (Gender, Age)
 
@@ -1766,7 +1741,7 @@ Henseler, Jörg, Christian M. Ringle, and Marko Sarstedt (2015), "A New Criterio
 
 ![Architecture. Adorable Store Interior Design Ideas With Unique Curved Beige Ceiling Panel... \| Store design interior, Boutique interior design, Modern interior design](media/image157.jpeg){width="4.567080052493439in" height="5.979166666666667in"}
 
-![NEX designed restaurant with spiralling concrete wall and retractable curved glass system in London](media/image158.jpeg){width="6.379166666666666in" height="9.0in"}**\**
+![NEX designed restaurant with spiralling concrete wall and retractable curved glass system in London](media/image158.jpeg){width="6.379166666666666in" height="9.0in"}
 
 # **WEB APPENDIX I: TABLE 1 REFERENCES**
 

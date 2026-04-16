@@ -17,7 +17,6 @@ Forthcoming, *Journal of Consumer Research*
 
 Felipe M. Affonso (<felipe.affonso@okstate.edu>) is Assistant Professor of Marketing, Spears School of Business, Oklahoma State University, 316 Business Building, Stillwater, OK 74078, USA. Felipe gratefully acknowledges Chris Janiszewski for comments on an early version of this article, Andrew Gordon for insightful conversations on AI agent detection and data collection, and the JCR review team for insightful comments. Supplementary materials are included in the Web Appendix accompanying the online version of this article. Please address correspondence to Felipe M. Affonso.
 
-**\**
 
 **ABSTRACT**
 
@@ -278,7 +277,6 @@ Third, platform heterogeneity in agent performance means that no single trap ach
 
 The entire behavioral research literature depends on measuring genuine human behavior, and when autonomous agents can complete studies while passing all conventional quality checks, the validity of the scientific ecosystem is at stake. The Cognitive Trap Framework provides a methodology for continuous adaptation: as models improve and specific traps lose effectiveness, researchers apply the same four-step process to newly documented constraints from the ongoing AI evaluation ecosystem. The tools for autonomous survey completion are commercially available today and the economic incentives for fraud are present, but the architectural constraints that cognitive traps exploit are equally present, giving researchers a foundation for detection that evolves alongside the threat. As detection methods improve and are defeated, and new methods emerge in response, the resulting cycle will itself document the co-evolution of human ingenuity and machine capability. This framework provides a foundation for that ongoing process, and we hope it will also inspire the development of new methods.
 
-**\**
 
 **DATA COLLECTION STATEMENT**
 
@@ -411,7 +409,6 @@ Zhou, Shijie, Alexander Vilesov, Xuehai He, Ziyu Wan, Shuwang Zhang, Aditya Naga
 [^3]: Consistent with the iterative nature of this framework, there were other constraints which seemed promising during step 1 but were consistently solved by current AI models upon testing. For instance, research shows that LMMs struggle with theory of mind questions (Wen, Mainali, and Sen 2025), but the preliminary theory-of-mind cognitive traps we developed were quickly solved by 2025 models.
 
 [^4]: Cognitive traps test visual-cognitive integration, which raises accessibility considerations. Participants with visual impairments may legitimately fail these tasks. We recommend addressing this through measurement (vision screening questions) and sensitivity analysis.
-
 
 
 ---

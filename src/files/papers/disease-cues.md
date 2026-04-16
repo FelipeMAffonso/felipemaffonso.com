@@ -291,7 +291,6 @@ Finally, our framework does not differentiate between different diseases or clas
 
 Understanding consumer responses to infectious disease cues has become increasingly critical for marketing theory and practice. Our framework integrates insights from evolutionary psychology and consumer behavior to explain how disease cues systematically influence consumer decision-making through fundamental shifts in psychological processes. These insights can help marketers better predict and address consumer responses during health crises while suggesting promising directions for future research.
 
-**\**
 
 **ACKNOWLEDGEMENTS**
 

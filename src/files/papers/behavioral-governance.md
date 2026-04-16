@@ -384,247 +384,247 @@ The authors declare no competing interests.
 
 ## References
 
-[]{#ref-abadie2021 .anchor}Abadie, A., 2021. Using synthetic controls: Feasibility, data requirements, and methodological aspects. Journal of Economic Literature 59, 391--425. <https://doi.org/10.1257/jel.20191450>
+Abadie, A., 2021. Using synthetic controls: Feasibility, data requirements, and methodological aspects. Journal of Economic Literature 59, 391--425. <https://doi.org/10.1257/jel.20191450>
 
-[]{#ref-adilov2023 .anchor}Adilov, N., Braun, V., Alexander, P., Cunningham, B., 2023. An estimate of expected economic losses from satellite collisions with orbital debris. Journal of Space Safety Engineering 10, 66--69. <https://doi.org/10.1016/j.jsse.2023.01.002>
+Adilov, N., Braun, V., Alexander, P., Cunningham, B., 2023. An estimate of expected economic losses from satellite collisions with orbital debris. Journal of Space Safety Engineering 10, 66--69. <https://doi.org/10.1016/j.jsse.2023.01.002>
 
-[]{#ref-amiri2022 .anchor}Amiri, H.E.S., Brain, D., Sharaf, O., others, 2022. The Emirates Mars Mission. Space Science Reviews 218, 4. <https://doi.org/10.1007/s11214-021-00868-x>
+Amiri, H.E.S., Brain, D., Sharaf, O., others, 2022. The Emirates Mars Mission. Space Science Reviews 218, 4. <https://doi.org/10.1007/s11214-021-00868-x>
 
-[]{#ref-axelrod1984 .anchor}Axelrod, R., 1984. The evolution of cooperation. Basic Books.
+Axelrod, R., 1984. The evolution of cooperation. Basic Books.
 
-[]{#ref-bastmeijer2004 .anchor}Bastmeijer, K., Roura, R., 2004. Regulating antarctic tourism and the precautionary principle. American Journal of International Law 98, 763--781. <https://doi.org/10.2307/3216699>
+Bastmeijer, K., Roura, R., 2004. Regulating antarctic tourism and the precautionary principle. American Journal of International Law 98, 763--781. <https://doi.org/10.2307/3216699>
 
-[]{#ref-boley2021 .anchor}Boley, A.C., Byers, M., 2021. Satellite mega-constellations create risks in low Earth orbit, the atmosphere and on Earth. Scientific Reports 11, 10642. <https://doi.org/10.1038/s41598-021-89909-7>
+Boley, A.C., Byers, M., 2021. Satellite mega-constellations create risks in low Earth orbit, the atmosphere and on Earth. Scientific Reports 11, 10642. <https://doi.org/10.1038/s41598-021-89909-7>
 
-[]{#ref-borlaff2025 .anchor}Borlaff, A.S., Marcum, P.M., Howell, S.B., 2025. Satellite megaconstellations will threaten space-based astronomy. Nature. <https://doi.org/10.1038/s41586-025-09759-5>
+Borlaff, A.S., Marcum, P.M., Howell, S.B., 2025. Satellite megaconstellations will threaten space-based astronomy. Nature. <https://doi.org/10.1038/s41586-025-09759-5>
 
-[]{#ref-bourdieu1986 .anchor}Bourdieu, P., 1986. The forms of capital, in: Richardson, J.G. (Ed.), Handbook of Theory and Research for the Sociology of Education. Greenwood, pp. 241--258.
+Bourdieu, P., 1986. The forms of capital, in: Richardson, J.G. (Ed.), Handbook of Theory and Research for the Sociology of Education. Greenwood, pp. 241--258.
 
-[]{#ref-Bousedra_2023 .anchor}Bousedra, K., 2023. Downstream space activities in the new space era: Paradigm shift and evaluation challenges. Space Policy 64, 101553. <https://doi.org/10.1016/j.spacepol.2023.101553>
+Bousedra, K., 2023. Downstream space activities in the new space era: Paradigm shift and evaluation challenges. Space Policy 64, 101553. <https://doi.org/10.1016/j.spacepol.2023.101553>
 
-[]{#ref-brycetech2024 .anchor}BryceTech, 2024. [State of the space industry report 2024](https://brycetech.com/reports). BryceTech.
+BryceTech, 2024. [State of the space industry report 2024](https://brycetech.com/reports). BryceTech.
 
-[]{#ref-Budde_2019 .anchor}Budde, B., Konrad, K., 2019. Tentative governing of fuel cell innovation in a dynamic network of expectations. Research Policy 48, 1098--1112. <https://doi.org/10.1016/j.respol.2019.01.007>
+Budde, B., Konrad, K., 2019. Tentative governing of fuel cell innovation in a dynamic network of expectations. Research Policy 48, 1098--1112. <https://doi.org/10.1016/j.respol.2019.01.007>
 
-[]{#ref-callaway2021 .anchor}Callaway, B., Sant'Anna, P.H.C., 2021. Difference-in-differences with multiple time periods. Journal of Econometrics 225, 200--230. <https://doi.org/10.1016/j.jeconom.2020.12.001>
+Callaway, B., Sant'Anna, P.H.C., 2021. Difference-in-differences with multiple time periods. Journal of Econometrics 225, 200--230. <https://doi.org/10.1016/j.jeconom.2020.12.001>
 
-[]{#ref-choi2007 .anchor}Choi, J.-K., Bowles, S., 2007. The coevolution of parochial altruism and war. Science 318, 636--640. <https://doi.org/10.1126/science.1144237>
+Choi, J.-K., Bowles, S., 2007. The coevolution of parochial altruism and war. Science 318, 636--640. <https://doi.org/10.1126/science.1144237>
 
-[]{#ref-cialdini2001 .anchor}Cialdini, R.B., 2001. Influence: Science and practice, 4th ed. Allyn; Bacon.
+Cialdini, R.B., 2001. Influence: Science and practice, 4th ed. Allyn; Bacon.
 
-[]{#ref-collingridge1980 .anchor}Collingridge, D., 1980. The social control of technology. St. Martin's Press.
+Collingridge, D., 1980. The social control of technology. St. Martin's Press.
 
-[]{#ref-corrado2023 .anchor}Corrado, L., Grassi, S., Paolillo, A., Silgado-Gómez, E., 2023. The macroeconomic spillovers from space activity. Proceedings of the National Academy of Sciences 120, e2221342120. <https://doi.org/10.1073/pnas.2221342120>
+Corrado, L., Grassi, S., Paolillo, A., Silgado-Gómez, E., 2023. The macroeconomic spillovers from space activity. Proceedings of the National Academy of Sciences 120, e2221342120. <https://doi.org/10.1073/pnas.2221342120>
 
-[]{#ref-cospar2020 .anchor}COSPAR, 2020. COSPAR policy on planetary protection. Committee on Space Research. <https://doi.org/10.1016/j.srt.2020.07.009>
+COSPAR, 2020. COSPAR policy on planetary protection. Committee on Space Research. <https://doi.org/10.1016/j.srt.2020.07.009>
 
-[]{#ref-cunningham2016 .anchor}Cunningham, P., Gök, A., Laredo, P., 2016. The impact of direct support to r&d and innovation in firms, in: Edler, J., Cunningham, P., Gök, A., Shapira, P. (Eds.), Handbook of Innovation Policy Impact. Edward Elgar, pp. 54--107. <https://doi.org/10.4337/9781784711856.00008>
+Cunningham, P., Gök, A., Laredo, P., 2016. The impact of direct support to r&d and innovation in firms, in: Edler, J., Cunningham, P., Gök, A., Shapira, P. (Eds.), Handbook of Innovation Policy Impact. Edward Elgar, pp. 54--107. <https://doi.org/10.4337/9781784711856.00008>
 
-[]{#ref-Denis_2020 .anchor}Denis, G., Alary, D., Pasco, X., Pisot, N., Texier, D., Toulza, S., 2020. From new space to big space: How commercial space dream is becoming a reality. Acta Astronautica 166, 431--443. <https://doi.org/10.1016/j.actaastro.2019.08.031>
+Denis, G., Alary, D., Pasco, X., Pisot, N., Texier, D., Toulza, S., 2020. From new space to big space: How commercial space dream is becoming a reality. Acta Astronautica 166, 431--443. <https://doi.org/10.1016/j.actaastro.2019.08.031>
 
-[]{#ref-deplano2021 .anchor}Deplano, R., 2021. The Artemis Accords: Evolution or revolution in international space law? International & Comparative Law Quarterly 70, 799--819. <https://doi.org/10.1017/S0020589321000233>
+Deplano, R., 2021. The Artemis Accords: Evolution or revolution in international space law? International & Comparative Law Quarterly 70, 799--819. <https://doi.org/10.1017/S0020589321000233>
 
-[]{#ref-elkinstanton2022 .anchor}Elkins-Tanton, L.T., Asphaug, E., Bell, J.F., Bercovici, H., Bills, B., Binzel, R.P., Bottke, W.F., Dibb, S., Lawrence, D.J., Marchi, S., McCoy, T.J., Oran, R., Park, R.S., Peplowski, P.N., Polanskey, C.A., Prettyman, T.H., Russell, C.T., Schaefer, L., Weiss, B.P., Wieczorek, M.A., Williams, D.A., Zuber, M.T., 2022. Distinguishing the origin of asteroid (16) Psyche. Space Science Reviews 218, 17. <https://doi.org/10.1007/s11214-022-00880-9>
+Elkins-Tanton, L.T., Asphaug, E., Bell, J.F., Bercovici, H., Bills, B., Binzel, R.P., Bottke, W.F., Dibb, S., Lawrence, D.J., Marchi, S., McCoy, T.J., Oran, R., Park, R.S., Peplowski, P.N., Polanskey, C.A., Prettyman, T.H., Russell, C.T., Schaefer, L., Weiss, B.P., Wieczorek, M.A., Williams, D.A., Zuber, M.T., 2022. Distinguishing the origin of asteroid (16) Psyche. Space Science Reviews 218, 17. <https://doi.org/10.1007/s11214-022-00880-9>
 
-[]{#ref-esa2023 .anchor}ESA, 2023. [ESA space environment report 2023](https://www.esa.int/Space_Safety/Space_Debris/ESA_s_Space_Environment_Report_2023). European Space Agency.
+ESA, 2023. [ESA space environment report 2023](https://www.esa.int/Space_Safety/Space_Debris/ESA_s_Space_Environment_Report_2023). European Space Agency.
 
-[]{#ref-esa2009 .anchor}European Space Agency, 2009. [Iridium-cosmos collision event analysis](https://celestrak.org/events/collision/). ESA Space Debris Office.
+European Space Agency, 2009. [Iridium-cosmos collision event analysis](https://celestrak.org/events/collision/). ESA Space Debris Office.
 
-[]{#ref-fearon1997 .anchor}Fearon, J.D., 1997. Signaling foreign policy interests: Tying hands versus sinking costs. Journal of Conflict Resolution 41, 68--90. <https://doi.org/10.1177/0022002797041001004>
+Fearon, J.D., 1997. Signaling foreign policy interests: Tying hands versus sinking costs. Journal of Conflict Resolution 41, 68--90. <https://doi.org/10.1177/0022002797041001004>
 
-[]{#ref-fcc2022 .anchor}Federal Communications Commission, 2022. Space innovation: Mitigation of orbital debris in the new space age.
+Federal Communications Commission, 2022. Space innovation: Mitigation of orbital debris in the new space age.
 
-[]{#ref-fleming2019 .anchor}Fleming, L., Greene, H., Li, G.-C., Marx, M., Yao, D., 2019. Government-funded research increasingly fuels innovation. Science 364, 1139--1141. <https://doi.org/10.1126/science.aaw2373>
+Fleming, L., Greene, H., Li, G.-C., Marx, M., Yao, D., 2019. Government-funded research increasingly fuels innovation. Science 364, 1139--1141. <https://doi.org/10.1126/science.aaw2373>
 
-[]{#ref-folke2005 .anchor}Folke, C., Hahn, T., Olsson, P., Norberg, J., 2005. Adaptive governance of social-ecological systems. Annual Review of Environment and Resources 30, 441--473. <https://doi.org/10.1146/annurev.energy.30.050504.144511>
+Folke, C., Hahn, T., Olsson, P., Norberg, J., 2005. Adaptive governance of social-ecological systems. Annual Review of Environment and Resources 30, 441--473. <https://doi.org/10.1146/annurev.energy.30.050504.144511>
 
-[]{#ref-fombrun1990 .anchor}Fombrun, C., Shanley, M., 1990. What's in a name? Reputation building and corporate strategy. Academy of Management Journal 33, 233--258. <https://doi.org/10.5465/256324>
+Fombrun, C., Shanley, M., 1990. What's in a name? Reputation building and corporate strategy. Academy of Management Journal 33, 233--258. <https://doi.org/10.5465/256324>
 
-[]{#ref-foust2023 .anchor}Foust, J., 2022. [FCC grants partial approval for Starlink second-generation constellation](https://spacenews.com/fcc-grants-partial-approval-for-starlink-second-generation-constellation/).
+Foust, J., 2022. [FCC grants partial approval for Starlink second-generation constellation](https://spacenews.com/fcc-grants-partial-approval-for-starlink-second-generation-constellation/).
 
-[]{#ref-grigg2025 .anchor}Grigg, D., Tingay, S.J., Sokolowski, M., 2025. The growing impact of unintended Starlink broadband emission on radio astronomy in the SKA-Low frequency range. Astronomy & Astrophysics 699, A307. <https://doi.org/10.1051/0004-6361/202554787>
+Grigg, D., Tingay, S.J., Sokolowski, M., 2025. The growing impact of unintended Starlink broadband emission on radio astronomy in the SKA-Low frequency range. Astronomy & Astrophysics 699, A307. <https://doi.org/10.1051/0004-6361/202554787>
 
-[]{#ref-griskevicius2007 .anchor}Griskevicius, V., Tybur, J.M., Sundie, J.M., Cialdini, R.B., Miller, G.F., Kenrick, D.T., 2007. Blatant benevolence and conspicuous consumption: When romantic motives elicit strategic costly signals. Journal of Personality and Social Psychology 93, 85--102. <https://doi.org/10.1037/0022-3514.93.1.85>
+Griskevicius, V., Tybur, J.M., Sundie, J.M., Cialdini, R.B., Miller, G.F., Kenrick, D.T., 2007. Blatant benevolence and conspicuous consumption: When romantic motives elicit strategic costly signals. Journal of Personality and Social Psychology 93, 85--102. <https://doi.org/10.1037/0022-3514.93.1.85>
 
-[]{#ref-griskevicius2010 .anchor}Griskevicius, V., Tybur, J.M., Van den Bergh, B., 2010. Going green to be seen: Status, reputation, and conspicuous conservation. Journal of Personality and Social Psychology 98, 392--404. <https://doi.org/10.1037/a0017346>
+Griskevicius, V., Tybur, J.M., Van den Bergh, B., 2010. Going green to be seen: Status, reputation, and conspicuous conservation. Journal of Personality and Social Psychology 98, 392--404. <https://doi.org/10.1037/a0017346>
 
-[]{#ref-guston2014 .anchor}Guston, D.H., 2014. Understanding 'anticipatory governance'. Social Studies of Science 44, 218--242. <https://doi.org/10.1177/0306312713508669>
+Guston, D.H., 2014. Understanding 'anticipatory governance'. Social Studies of Science 44, 218--242. <https://doi.org/10.1177/0306312713508669>
 
-[]{#ref-henrich2015 .anchor}Henrich, J., 2015. The secret of our success: How culture is driving human evolution, domesticating our species, and making us smarter. Princeton University Press.
+Henrich, J., 2015. The secret of our success: How culture is driving human evolution, domesticating our species, and making us smarter. Princeton University Press.
 
-[]{#ref-Hevner_2004 .anchor}Hevner, A.R., March, S.T., Park, J., Ram, S., 2004. Design science in information systems research. MIS Quarterly 28, 75--105. <https://doi.org/10.2307/25148625>
+Hevner, A.R., March, S.T., Park, J., Ram, S., 2004. Design science in information systems research. MIS Quarterly 28, 75--105. <https://doi.org/10.2307/25148625>
 
-[]{#ref-hobe2020 .anchor}Hobe, S., 2020. [The artemis accords and the law of outer space](https://airandspacelaw.olemiss.edu/the-journals/journal-of-space-law/journal-of-space-law-back-issues/). Journal of Space Law 43, 29--48.
+Hobe, S., 2020. [The artemis accords and the law of outer space](https://airandspacelaw.olemiss.edu/the-journals/journal-of-space-law/journal-of-space-law-back-issues/). Journal of Space Law 43, 29--48.
 
-[]{#ref-homar2021 .anchor}Homar, A.R., Cvelbar, L.K., 2021. The effects of framing on environmental decisions: A systematic literature review. Ecological Economics 183, 106950. <https://doi.org/10.1016/j.ecolecon.2021.106950>
+Homar, A.R., Cvelbar, L.K., 2021. The effects of framing on environmental decisions: A systematic literature review. Ecological Economics 183, 106950. <https://doi.org/10.1016/j.ecolecon.2021.106950>
 
-[]{#ref-iso2023 .anchor}ISO, 2023. [Space systems---space debris mitigation requirements](https://www.iso.org/standard/83494.html) (No. ISO 24113:2023). International Organization for Standardization.
+ISO, 2023. [Space systems---space debris mitigation requirements](https://www.iso.org/standard/83494.html) (No. ISO 24113:2023). International Organization for Standardization.
 
-[]{#ref-itu2020 .anchor}ITU, 2020. [Radio regulations](https://www.itu.int/pub/R-REG-RR).
+ITU, 2020. [Radio regulations](https://www.itu.int/pub/R-REG-RR).
 
-[]{#ref-itur2022 .anchor}ITU-R, 2022. [Shielded zone of the moon for radio astronomy services](https://www.itu.int/rec/R-REC-RA.479/en) (No. Recommendation RA.479). International Telecommunication Union Radiocommunication Sector.
+ITU-R, 2022. [Shielded zone of the moon for radio astronomy services](https://www.itu.int/rec/R-REC-RA.479/en) (No. Recommendation RA.479). International Telecommunication Union Radiocommunication Sector.
 
-[]{#ref-jaakkola2020 .anchor}Jaakkola, E., 2020. Designing conceptual articles: Four approaches. AMS Review 10, 18--26. <https://doi.org/10.1007/s13162-020-00161-0>
+Jaakkola, E., 2020. Designing conceptual articles: Four approaches. AMS Review 10, 18--26. <https://doi.org/10.1007/s13162-020-00161-0>
 
-[]{#ref-jachimowicz2019 .anchor}Jachimowicz, J.M., Duncan, S., Weber, E.U., Johnson, E.J., 2019. When and why defaults influence decisions: A meta-analysis of default effects. Behavioural Public Policy 3, 159--186. <https://doi.org/10.1017/bpp.2018.43>
+Jachimowicz, J.M., Duncan, S., Weber, E.U., Johnson, E.J., 2019. When and why defaults influence decisions: A meta-analysis of default effects. Behavioural Public Policy 3, 159--186. <https://doi.org/10.1017/bpp.2018.43>
 
-[]{#ref-jaffe1998 .anchor}Jaffe, A.B., Fogarty, M.S., Banks, B.A., 1998. Evidence from patents and patent citations on the impact of NASA and other federal labs on commercial innovation. Journal of Industrial Economics 46, 183--205. <https://doi.org/10.1111/1467-6451.00068>
+Jaffe, A.B., Fogarty, M.S., Banks, B.A., 1998. Evidence from patents and patent citations on the impact of NASA and other federal labs on commercial innovation. Journal of Industrial Economics 46, 183--205. <https://doi.org/10.1111/1467-6451.00068>
 
-[]{#ref-jakhu2017 .anchor}Jakhu, R.S., Pelton, J.N., Nyampong, Y.O.M., 2017. Space mining and its regulation. Springer. <https://doi.org/10.1007/978-3-319-39246-2>
+Jakhu, R.S., Pelton, J.N., Nyampong, Y.O.M., 2017. Space mining and its regulation. Springer. <https://doi.org/10.1007/978-3-319-39246-2>
 
-[]{#ref-jin2021 .anchor}Jin, Y., Vasserman, S., 2021. Buying data from consumers: The impact of monitoring in U.S. Auto insurance (Working Paper No. 29096). National Bureau of Economic Research. <https://doi.org/10.3386/w29096>
+Jin, Y., Vasserman, S., 2021. Buying data from consumers: The impact of monitoring in U.S. Auto insurance (Working Paper No. 29096). National Bureau of Economic Research. <https://doi.org/10.3386/w29096>
 
-[]{#ref-johnson2003 .anchor}Johnson, E.J., Goldstein, D., 2003. Do defaults save lives? Science 302, 1338--1339. <https://doi.org/10.1126/science.1091721>
+Johnson, E.J., Goldstein, D., 2003. Do defaults save lives? Science 302, 1338--1339. <https://doi.org/10.1126/science.1091721>
 
-[]{#ref-jones2010 .anchor}Jones, M.D., McBeth, M.K., 2010. A narrative policy framework: Clear enough to be wrong? Policy Studies Journal 38, 329--353. <https://doi.org/10.1111/j.1541-0072.2010.00364.x>
+Jones, M.D., McBeth, M.K., 2010. A narrative policy framework: Clear enough to be wrong? Policy Studies Journal 38, 329--353. <https://doi.org/10.1111/j.1541-0072.2010.00364.x>
 
-[]{#ref-kahneman1979 .anchor}Kahneman, D., Tversky, A., 1979. Prospect theory: An analysis of decision under risk. Econometrica 47, 263--291. <https://doi.org/10.2307/1914185>
+Kahneman, D., Tversky, A., 1979. Prospect theory: An analysis of decision under risk. Econometrica 47, 263--291. <https://doi.org/10.2307/1914185>
 
-[]{#ref-kantor2025 .anchor}Kantor, S., Whalley, A., 2025. Moonshot: Public r&d and growth. American Economic Review 115, 2891--2925. <https://doi.org/10.1257/aer.20220540>
+Kantor, S., Whalley, A., 2025. Moonshot: Public r&d and growth. American Economic Review 115, 2891--2925. <https://doi.org/10.1257/aer.20220540>
 
-[]{#ref-kanu2024 .anchor}Kanu, N.J., Gupta, E., Verma, G.C., 2024. An insight into India's Moon mission -- Chandrayaan-3: The first nation to land on the southernmost polar region of the Moon. Planetary and Space Science 242, 105864. <https://doi.org/10.1016/j.pss.2024.105864>
+Kanu, N.J., Gupta, E., Verma, G.C., 2024. An insight into India's Moon mission -- Chandrayaan-3: The first nation to land on the southernmost polar region of the Moon. Planetary and Space Science 242, 105864. <https://doi.org/10.1016/j.pss.2024.105864>
 
-[]{#ref-kessler1978 .anchor}Kessler, D.J., Cour-Palais, B.G., 1978. Collision frequency of artificial satellites: The creation of a debris belt. Journal of Geophysical Research 83, 2637--2646. <https://doi.org/10.1029/JA083iA06p02637>
+Kessler, D.J., Cour-Palais, B.G., 1978. Collision frequency of artificial satellites: The creation of a debris belt. Journal of Geophysical Research 83, 2637--2646. <https://doi.org/10.1029/JA083iA06p02637>
 
-[]{#ref-kruk2023 .anchor}Kruk, S., Garcı́a Martı́n, P., Popescu, M., Merlin, F., Krone-Martins, A., Aussel, H., von Hippel, T., 2023. The impact of satellite trails on Hubble Space Telescope observations. Nature Astronomy 7, 262--268. <https://doi.org/10.1038/s41550-023-01903-3>
+Kruk, S., Garcı́a Martı́n, P., Popescu, M., Merlin, F., Krone-Martins, A., Aussel, H., von Hippel, T., 2023. The impact of satellite trails on Hubble Space Telescope observations. Nature Astronomy 7, 262--268. <https://doi.org/10.1038/s41550-023-01903-3>
 
-[]{#ref-Kuhlmann_2019 .anchor}Kuhlmann, S., Stegmaier, P., Konrad, K., 2019. The tentative governance of emerging science and technology---a conceptual introduction. Research Policy 48, 1091--1097. <https://doi.org/10.1016/j.respol.2019.01.006>
+Kuhlmann, S., Stegmaier, P., Konrad, K., 2019. The tentative governance of emerging science and technology---a conceptual introduction. Research Policy 48, 1091--1097. <https://doi.org/10.1016/j.respol.2019.01.006>
 
-[]{#ref-levin2012 .anchor}Levin, K., Cashore, B., Bernstein, S., Auld, G., 2012. Overcoming the tragedy of super wicked problems: Constraining our future selves to ameliorate global climate change. Policy Sciences 45, 123--152. <https://doi.org/10.1007/s11077-012-9151-0>
+Levin, K., Cashore, B., Bernstein, S., Auld, G., 2012. Overcoming the tragedy of super wicked problems: Constraining our future selves to ameliorate global climate change. Policy Sciences 45, 123--152. <https://doi.org/10.1007/s11077-012-9151-0>
 
-[]{#ref-libecap1989 .anchor}Libecap, G.D., 1989. Contracting for property rights. Cambridge University Press.
+Libecap, G.D., 1989. Contracting for property rights. Cambridge University Press.
 
-[]{#ref-loewenstein2017 .anchor}Loewenstein, G., Chater, N., 2017. Putting nudges in perspective. Behavioural Public Policy 1, 26--53. <https://doi.org/10.1017/bpp.2016.7>
+Loewenstein, G., Chater, N., 2017. Putting nudges in perspective. Behavioural Public Policy 1, 26--53. <https://doi.org/10.1017/bpp.2016.7>
 
-[]{#ref-Losch_2024 .anchor}Losch, A., Galli, A., Schildknecht, T., 2024. History, concepts and challenges of proposing an 18th UN sustainable development goal related to space. Space Policy 68, 101631. <https://doi.org/10.1016/j.spacepol.2024.101631>
+Losch, A., Galli, A., Schildknecht, T., 2024. History, concepts and challenges of proposing an 18th UN sustainable development goal related to space. Space Policy 68, 101631. <https://doi.org/10.1016/j.spacepol.2024.101631>
 
-[]{#ref-luxembourg2017 .anchor}Luxembourg, 2017. [Loi du 20 juillet 2017 sur l'exploration et l'utilisation des ressources de l'espace \[law of 20 july 2017 on the exploration and use of space resources\]](https://www.loc.gov/item/global-legal-monitor/2017-08-22/luxembourg-law-on-use-of-resources-in-space-adopted/).
+Luxembourg, 2017. [Loi du 20 juillet 2017 sur l'exploration et l'utilisation des ressources de l'espace \[law of 20 july 2017 on the exploration and use of space resources\]](https://www.loc.gov/item/global-legal-monitor/2017-08-22/luxembourg-law-on-use-of-resources-in-space-adopted/).
 
-[]{#ref-macinnis2011 .anchor}MacInnis, D.J., 2011. A framework for conceptual contributions in marketing. Journal of Marketing 75, 136--154. <https://doi.org/10.1509/jmkg.75.4.136>
+MacInnis, D.J., 2011. A framework for conceptual contributions in marketing. Journal of Marketing 75, 136--154. <https://doi.org/10.1509/jmkg.75.4.136>
 
-[]{#ref-madrian2001 .anchor}Madrian, B.C., Shea, D.F., 2001. The power of suggestion: Inertia in 401(k) participation and savings behavior. Quarterly Journal of Economics 116, 1149--1187. <https://doi.org/10.1162/003355301753265543>
+Madrian, B.C., Shea, D.F., 2001. The power of suggestion: Inertia in 401(k) participation and savings behavior. Quarterly Journal of Economics 116, 1149--1187. <https://doi.org/10.1162/003355301753265543>
 
-[]{#ref-maier2022 .anchor}Maier, M., Bartoš, F., Stanley, T.D., Shanks, D.R., Harris, A.J.L., Wagenmakers, E.-J., 2022. No evidence for nudging after adjusting for publication bias. Proceedings of the National Academy of Sciences 119, e2200300119. <https://doi.org/10.1073/pnas.2200300119>
+Maier, M., Bartoš, F., Stanley, T.D., Shanks, D.R., Harris, A.J.L., Wagenmakers, E.-J., 2022. No evidence for nudging after adjusting for publication bias. Proceedings of the National Academy of Sciences 119, e2200300119. <https://doi.org/10.1073/pnas.2200300119>
 
-[]{#ref-marchant2011 .anchor}Marchant, G.E., Allenby, B.R., Herkert, J.R., 2011. The growing gap between emerging technologies and legal-ethical oversight: The pacing problem. Springer. <https://doi.org/10.1007/978-94-007-1356-7>
+Marchant, G.E., Allenby, B.R., Herkert, J.R., 2011. The growing gap between emerging technologies and legal-ethical oversight: The pacing problem. Springer. <https://doi.org/10.1007/978-94-007-1356-7>
 
-[]{#ref-marchau2019 .anchor}Marchau, V.A.W.J., Walker, W.E., Bloemen, P.J.T.M., Popper, S.W., 2019. Decision making under deep uncertainty: From theory to practice. Springer. <https://doi.org/10.1007/978-3-030-05252-2>
+Marchau, V.A.W.J., Walker, W.E., Bloemen, P.J.T.M., Popper, S.W., 2019. Decision making under deep uncertainty: From theory to practice. Springer. <https://doi.org/10.1007/978-3-030-05252-2>
 
-[]{#ref-mark2019adr .anchor}Mark, C.P., Kamath, S., 2019. Review of active space debris removal methods. Space Policy 47, 194--206. <https://doi.org/10.1016/j.spacepol.2018.12.005>
+Mark, C.P., Kamath, S., 2019. Review of active space debris removal methods. Space Policy 47, 194--206. <https://doi.org/10.1016/j.spacepol.2018.12.005>
 
-[]{#ref-freeland2021 .anchor}Martin, A.-S., Freeland, S., 2021. Back to the moon and beyond: Strengthening the legal framework for protection of the space environment. Air & Space Law 46, 415--446. <https://doi.org/10.54648/aila2021023>
+Martin, A.-S., Freeland, S., 2021. Back to the moon and beyond: Strengthening the legal framework for protection of the space environment. Air & Space Law 46, 415--446. <https://doi.org/10.54648/aila2021023>
 
-[]{#ref-martinez2021 .anchor}Martinez, P., 2021. The UN COPUOS guidelines for the long-term sustainability of outer space activities. Journal of Space Safety Engineering 8, 98--109. <https://doi.org/10.1016/j.jsse.2021.01.004>
+Martinez, P., 2021. The UN COPUOS guidelines for the long-term sustainability of outer space activities. Journal of Space Safety Engineering 8, 98--109. <https://doi.org/10.1016/j.jsse.2021.01.004>
 
-[]{#ref-mazzucato2018 .anchor}Mazzucato, M., 2018. Mission-oriented innovation policies: Challenges and opportunities. Industrial and Corporate Change 27, 803--815. <https://doi.org/10.1093/icc/dty034>
+Mazzucato, M., 2018. Mission-oriented innovation policies: Challenges and opportunities. Industrial and Corporate Change 27, 803--815. <https://doi.org/10.1093/icc/dty034>
 
-[]{#ref-mcdougall1985 .anchor}McDougall, W.A., 1985.the heavens and the earth: A political history of the space age. Basic Books.
+McDougall, W.A., 1985.the heavens and the earth: A political history of the space age. Basic Books.
 
-[]{#ref-mertens2022pnas .anchor}Mertens, S., Herberz, M., Hahnel, U.J.J., Brosch, T., 2022. The effectiveness of nudging: A meta-analysis of choice architecture interventions across behavioral domains. Proceedings of the National Academy of Sciences 119, e2107346118. <https://doi.org/10.1073/pnas.2107346118>
+Mertens, S., Herberz, M., Hahnel, U.J.J., Brosch, T., 2022. The effectiveness of nudging: A meta-analysis of choice architecture interventions across behavioral domains. Proceedings of the National Academy of Sciences 119, e2107346118. <https://doi.org/10.1073/pnas.2107346118>
 
-[]{#ref-migaud2021 .anchor}Migaud, M.R., Greer, R.A., Bullock, J.B., 2021. Developing an adaptive space governance framework. Space Policy 55, 101400. <https://doi.org/10.1016/j.spacepol.2020.101400>
+Migaud, M.R., Greer, R.A., Bullock, J.B., 2021. Developing an adaptive space governance framework. Space Policy 55, 101400. <https://doi.org/10.1016/j.spacepol.2020.101400>
 
-[]{#ref-nasa2026 .anchor}NASA, 2026. [Artemis accords signatories](https://www.nasa.gov/artemis-accords/).
+NASA, 2026. [Artemis accords signatories](https://www.nasa.gov/artemis-accords/).
 
-[]{#ref-nasa2021 .anchor}NASA, 2021. [International space station collision avoidance maneuver: Kosmos 1408 debris](https://www.nasa.gov/news-release/nasa-administrator-statement-on-russian-asat-test/).
+NASA, 2021. [International space station collision avoidance maneuver: Kosmos 1408 debris](https://www.nasa.gov/news-release/nasa-administrator-statement-on-russian-asat-test/).
 
-[]{#ref-nasa2020artemis .anchor}National Aeronautics and Space Administration, 2020. [The Artemis Accords: Principles for a safe, peaceful, and prosperous future](https://www.nasa.gov/artemis-accords/).
+National Aeronautics and Space Administration, 2020. [The Artemis Accords: Principles for a safe, peaceful, and prosperous future](https://www.nasa.gov/artemis-accords/).
 
-[]{#ref-oecd2023newspace .anchor}OECD, 2023. Harnessing "new space" for sustainable growth of the space economy. OECD Publishing. <https://doi.org/10.1787/a67b1a1c-en>
+OECD, 2023. Harnessing "new space" for sustainable growth of the space economy. OECD Publishing. <https://doi.org/10.1787/a67b1a1c-en>
 
-[]{#ref-oecd2022 .anchor}OECD, 2022a. OECD handbook on measuring the space economy. OECD Publishing. <https://doi.org/10.1787/8bfef437-en>
+OECD, 2022a. OECD handbook on measuring the space economy. OECD Publishing. <https://doi.org/10.1787/8bfef437-en>
 
-[]{#ref-oecd2022orbits .anchor}OECD, 2022b. Earth's orbits at risk: The economics of space sustainability. OECD Publishing. <https://doi.org/10.1787/16543990-en>
+OECD, 2022b. Earth's orbits at risk: The economics of space sustainability. OECD Publishing. <https://doi.org/10.1787/16543990-en>
 
-[]{#ref-ogutu2021 .anchor}Osoro, O.B., Oughton, E.J., 2021. A techno-economic framework for satellite networks applied to low earth orbit constellations: Assessing Starlink, OneWeb and Kuiper. IEEE Access 9, 141611--141625. <https://doi.org/10.1109/ACCESS.2021.3119634>
+Osoro, O.B., Oughton, E.J., 2021. A techno-economic framework for satellite networks applied to low earth orbit constellations: Assessing Starlink, OneWeb and Kuiper. IEEE Access 9, 141611--141625. <https://doi.org/10.1109/ACCESS.2021.3119634>
 
-[]{#ref-ostrom2010 .anchor}Ostrom, E., 2010. Beyond markets and states: Polycentric governance of complex economic systems. American Economic Review 100, 641--672. <https://doi.org/10.1257/aer.100.3.641>
+Ostrom, E., 2010. Beyond markets and states: Polycentric governance of complex economic systems. American Economic Review 100, 641--672. <https://doi.org/10.1257/aer.100.3.641>
 
-[]{#ref-ostrom1990 .anchor}Ostrom, E., 1990. Governing the commons: The evolution of institutions for collective action. Cambridge University Press.
+Ostrom, E., 1990. Governing the commons: The evolution of institutions for collective action. Cambridge University Press.
 
-[]{#ref-pace2023 .anchor}Pace, S., 2020. International space cooperation: Lessons from the international space station, in: Handbook of Space Security. Springer. <https://doi.org/10.1007/978-3-030-23210-8>
+Pace, S., 2020. International space cooperation: Lessons from the international space station, in: Handbook of Space Security. Springer. <https://doi.org/10.1007/978-3-030-23210-8>
 
-[]{#ref-Paikowsky_2017 .anchor}Paikowsky, D., 2017. What is new space? The changing ecosystem of global space activity. New Space 5, 84--88. <https://doi.org/10.1089/space.2016.0027>
+Paikowsky, D., 2017. What is new space? The changing ecosystem of global space activity. New Space 5, 84--88. <https://doi.org/10.1089/space.2016.0027>
 
-[]{#ref-palmroth2021 .anchor}Palmroth, M., Tapio, J., Soucek, A., Perrels, A., Jah, M., others, 2021. Toward sustainable use of space: Economic, technological, and legal perspectives. Space Policy 57, 101428. <https://doi.org/10.1016/j.spacepol.2021.101428>
+Palmroth, M., Tapio, J., Soucek, A., Perrels, A., Jah, M., others, 2021. Toward sustainable use of space: Economic, technological, and legal perspectives. Space Policy 57, 101428. <https://doi.org/10.1016/j.spacepol.2021.101428>
 
-[]{#ref-Peffers_2007 .anchor}Peffers, K., Tuunanen, T., Rothenberger, M.A., Chatterjee, S., 2007. A design science research methodology for information systems research. Journal of Management Information Systems 24, 45--77. <https://doi.org/10.2753/mis0742-1222240302>
+Peffers, K., Tuunanen, T., Rothenberger, M.A., Chatterjee, S., 2007. A design science research methodology for information systems research. Journal of Management Information Systems 24, 45--77. <https://doi.org/10.2753/mis0742-1222240302>
 
-[]{#ref-ragin2008 .anchor}Ragin, C.C., 2008. Redesigning social inquiry: Fuzzy sets and beyond. University of Chicago Press.
+Ragin, C.C., 2008. Redesigning social inquiry: Fuzzy sets and beyond. University of Chicago Press.
 
-[]{#ref-rajagopalan2024 .anchor}Rajagopalan, R.P., Stroikos, D., 2024. The transformation of India's space policy: From space for development to the pursuit of security and prestige. Space Policy 69, 101633. <https://doi.org/10.1016/j.spacepol.2024.101633>
+Rajagopalan, R.P., Stroikos, D., 2024. The transformation of India's space policy: From space for development to the pursuit of security and prestige. Space Policy 69, 101633. <https://doi.org/10.1016/j.spacepol.2024.101633>
 
-[]{#ref-ranchordas2015 .anchor}Ranchordás, S., 2015. [Innovation experimentalism in the age of the sharing economy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2638406). Lewis & Clark Law Review 19, 871--924.
+Ranchordás, S., 2015. [Innovation experimentalism in the age of the sharing economy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2638406). Lewis & Clark Law Review 19, 871--924.
 
-[]{#ref-rao2020 .anchor}Rao, A., Burgess, M., Kaffine, D., 2020. Orbital-use fees could more than quadruple the value of the space industry. Proceedings of the National Academy of Sciences 117, 12756--12762. <https://doi.org/10.1073/pnas.1921260117>
+Rao, A., Burgess, M., Kaffine, D., 2020. Orbital-use fees could more than quadruple the value of the space industry. Proceedings of the National Academy of Sciences 117, 12756--12762. <https://doi.org/10.1073/pnas.1921260117>
 
-[]{#ref-rathnasabapathy2025 .anchor}Rathnasabapathy, M., Letizia, F., Wood, D., Lal, B., Lifson, M., Steindl, R., Krag, H., 2025. Space sustainability rating: Designing a composite indicator to incentivise satellite operators to pursue long-term sustainability of the space environment. Acta Astronautica. <https://doi.org/10.1016/j.actaastro.2025.01.019>
+Rathnasabapathy, M., Letizia, F., Wood, D., Lal, B., Lifson, M., Steindl, R., Krag, H., 2025. Space sustainability rating: Designing a composite indicator to incentivise satellite operators to pursue long-term sustainability of the space environment. Acta Astronautica. <https://doi.org/10.1016/j.actaastro.2025.01.019>
 
-[]{#ref-rementeria2022 .anchor}Rementeria, S., 2022. Power dynamics in the age of space commercialisation. Space Policy 60, 101472. <https://doi.org/10.1016/j.spacepol.2021.101472>
+Rementeria, S., 2022. Power dynamics in the age of space commercialisation. Space Policy 60, 101472. <https://doi.org/10.1016/j.spacepol.2021.101472>
 
-[]{#ref-rittel1973 .anchor}Rittel, H.W.J., Webber, M.M., 1973. Dilemmas in a general theory of planning. Policy Sciences 4, 155--169. <https://doi.org/10.1007/BF01405730>
+Rittel, H.W.J., Webber, M.M., 1973. Dilemmas in a general theory of planning. Policy Sciences 4, 155--169. <https://doi.org/10.1007/BF01405730>
 
-[]{#ref-robinson2019 .anchor}Robinson, D.K.R., Mazzucato, M., 2019. The evolution of mission-oriented policies: Exploring changing market creating policies in the US and european space sectors. Research Policy 48, 936--948. <https://doi.org/10.1016/j.respol.2018.10.005>
+Robinson, D.K.R., Mazzucato, M., 2019. The evolution of mission-oriented policies: Exploring changing market creating policies in the US and european space sectors. Research Policy 48, 936--948. <https://doi.org/10.1016/j.respol.2018.10.005>
 
-[]{#ref-Rogge_2016 .anchor}Rogge, K.S., Reichardt, K., 2016. Policy mixes for sustainability transitions: An extended concept and framework for analysis. Research Policy 45, 1620--1635. <https://doi.org/10.1016/j.respol.2016.04.004>
+Rogge, K.S., Reichardt, K., 2016. Policy mixes for sustainability transitions: An extended concept and framework for analysis. Research Policy 45, 1620--1635. <https://doi.org/10.1016/j.respol.2016.04.004>
 
-[]{#ref-sabel2012 .anchor}Sabel, C.F., Zeitlin, J., 2012. Experimentalist governance, in: Levi-Faur, D. (Ed.), The Oxford Handbook of Governance. Oxford University Press, pp. 169--183. <https://doi.org/10.1093/oxfordhb/9780199560530.013.0012>
+Sabel, C.F., Zeitlin, J., 2012. Experimentalist governance, in: Levi-Faur, D. (Ed.), The Oxford Handbook of Governance. Oxford University Press, pp. 169--183. <https://doi.org/10.1093/oxfordhb/9780199560530.013.0012>
 
-[]{#ref-sakai2025 .anchor}Sakai, S., Kushiki, K., Sawai, S., others, 2025. Moon landing results of SLIM: A smart lander for investigating the Moon. Acta Astronautica 235, 47--54. <https://doi.org/10.1016/j.actaastro.2025.05.047>
+Sakai, S., Kushiki, K., Sawai, S., others, 2025. Moon landing results of SLIM: A smart lander for investigating the Moon. Acta Astronautica 235, 47--54. <https://doi.org/10.1016/j.actaastro.2025.05.047>
 
-[]{#ref-samuelson1988 .anchor}Samuelson, W., Zeckhauser, R., 1988. Status quo bias in decision making. Journal of Risk and Uncertainty 1, 7--59. <https://doi.org/10.1007/BF00055564>
+Samuelson, W., Zeckhauser, R., 1988. Status quo bias in decision making. Journal of Risk and Uncertainty 1, 7--59. <https://doi.org/10.1007/BF00055564>
 
-[]{#ref-schot2018 .anchor}Schot, J., Steinmueller, W.E., 2018. Three frames for innovation policy: R&d, systems of innovation and transformative change. Research Policy 47, 1554--1567. <https://doi.org/10.1016/j.respol.2018.08.011>
+Schot, J., Steinmueller, W.E., 2018. Three frames for innovation policy: R&d, systems of innovation and transformative change. Research Policy 47, 1554--1567. <https://doi.org/10.1016/j.respol.2018.08.011>
 
-[]{#ref-shanahan2018 .anchor}Shanahan, E.A., Jones, M.D., McBeth, M.K., Radaelli, C.M., 2018. The narrative policy framework, in: Weible, C.M., Sabatier, P.A. (Eds.), Theories of the Policy Process. Westview Press, pp. 173--213. <https://doi.org/10.4324/9780429494284-6>
+Shanahan, E.A., Jones, M.D., McBeth, M.K., Radaelli, C.M., 2018. The narrative policy framework, in: Weible, C.M., Sabatier, P.A. (Eds.), Theories of the Policy Process. Westview Press, pp. 173--213. <https://doi.org/10.4324/9780429494284-6>
 
-[]{#ref-sheehan2013 .anchor}Sheehan, M., 2013. "Did you see that, grandpa mao?" The prestige and propaganda rationales of the chinese space programme. Space Policy 29, 107--112. <https://doi.org/10.1016/j.spacepol.2013.03.003>
+Sheehan, M., 2013. "Did you see that, grandpa mao?" The prestige and propaganda rationales of the chinese space programme. Space Policy 29, 107--112. <https://doi.org/10.1016/j.spacepol.2013.03.003>
 
 [Space Foundation, 2025.](https://www.spacefoundation.org/2025/07/22/the-space-report-2025-q2/)
 
-[]{#ref-spacefoundation2024 .anchor}Space Foundation, 2024. [The space report 2024](https://www.thespacereport.org). Space Foundation.
+Space Foundation, 2024. [The space report 2024](https://www.thespacereport.org). Space Foundation.
 
-[]{#ref-spence1973 .anchor}Spence, M., 1973. Job market signaling. Quarterly Journal of Economics 87, 355--374. <https://doi.org/10.2307/1882010>
+Spence, M., 1973. Job market signaling. Quarterly Journal of Economics 87, 355--374. <https://doi.org/10.2307/1882010>
 
-[]{#ref-stilgoe2013 .anchor}Stilgoe, J., Owen, R., Macnaghten, P., 2013. Developing a framework for responsible innovation. Research Policy 42, 1568--1580. <https://doi.org/10.1016/j.respol.2013.05.008>
+Stilgoe, J., Owen, R., Macnaghten, P., 2013. Developing a framework for responsible innovation. Research Policy 42, 1568--1580. <https://doi.org/10.1016/j.respol.2013.05.008>
 
-[]{#ref-sundahl2013 .anchor}Sundahl, M.J., 2013. The cape town convention: Its application to space assets and relation to the law of outer space, Studies in space law. Martinus Nijhoff. <https://doi.org/10.1163/9789004256569>
+Sundahl, M.J., 2013. The cape town convention: Its application to space assets and relation to the law of outer space, Studies in space law. Martinus Nijhoff. <https://doi.org/10.1163/9789004256569>
 
-[]{#ref-sunstein2014 .anchor}Sunstein, C.R., 2014. Why nudge? The politics of libertarian paternalism. Yale University Press.
+Sunstein, C.R., 2014. Why nudge? The politics of libertarian paternalism. Yale University Press.
 
-[]{#ref-thaler2008 .anchor}Thaler, R.H., Sunstein, C.R., 2008. Nudge: Improving decisions about health, wealth, and happiness. Yale University Press.
+Thaler, R.H., Sunstein, C.R., 2008. Nudge: Improving decisions about health, wealth, and happiness. Yale University Press.
 
-[]{#ref-whitehouse2018spd3 .anchor}The White House, 2018. [Space policy directive-3, national space traffic management policy](https://www.federalregister.gov/documents/2018/06/21/2018-13506/space-policy-directive-3-national-space-traffic-management-policy).
+The White House, 2018. [Space policy directive-3, national space traffic management policy](https://www.federalregister.gov/documents/2018/06/21/2018-13506/space-policy-directive-3-national-space-traffic-management-policy).
 
-[]{#ref-tversky1992 .anchor}Tversky, A., Kahneman, D., 1992. Advances in prospect theory: Cumulative representation of uncertainty. Journal of Risk and Uncertainty 5, 297--323. <https://doi.org/10.1007/BF00122574>
+Tversky, A., Kahneman, D., 1992. Advances in prospect theory: Cumulative representation of uncertainty. Journal of Risk and Uncertainty 5, 297--323. <https://doi.org/10.1007/BF00122574>
 
-[]{#ref-tversky1981 .anchor}Tversky, A., Kahneman, D., 1981. The framing of decisions and the psychology of choice. Science 211, 453--458. <https://doi.org/10.1126/science.7455683>
+Tversky, A., Kahneman, D., 1981. The framing of decisions and the psychology of choice. Science 211, 453--458. <https://doi.org/10.1126/science.7455683>
 
-[]{#ref-un2022 .anchor}United Nations, 2022. [Note verbale dated 3 december 2021 from the permanent mission of china](https://www.unoosa.org/oosa/oosadoc/data/documents/2021/aac.105/aac.1051262_0.html).
+United Nations, 2022. [Note verbale dated 3 december 2021 from the permanent mission of china](https://www.unoosa.org/oosa/oosadoc/data/documents/2021/aac.105/aac.1051262_0.html).
 
-[]{#ref-un2021space2030 .anchor}United Nations, 2021. [Space2030 agenda: Space as a driver of sustainable development](https://digitallibrary.un.org/record/3945842).
+United Nations, 2021. [Space2030 agenda: Space as a driver of sustainable development](https://digitallibrary.un.org/record/3945842).
 
-[]{#ref-un2019 .anchor}United Nations, 2019. [Guidelines for the long-term sustainability of outer space activities](https://www.unoosa.org/oosa/en/ourwork/topics/long-term-sustainability-of-outer-space-activities.html).
+United Nations, 2019. [Guidelines for the long-term sustainability of outer space activities](https://www.unoosa.org/oosa/en/ourwork/topics/long-term-sustainability-of-outer-space-activities.html).
 
-[]{#ref-un1967 .anchor}United Nations, 1967. [Treaty on principles governing the activities of states in the exploration and use of outer space, including the moon and other celestial bodies](https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html).
+United Nations, 1967. [Treaty on principles governing the activities of states in the exploration and use of outer space, including the moon and other celestial bodies](https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html).
 
-[]{#ref-unoosa_register2025 .anchor}United Nations Office for Outer Space Affairs, 2025. [United nations register of objects launched into outer space](https://www.unoosa.org/oosa/en/spaceobjectregister/index.html).
+United Nations Office for Outer Space Affairs, 2025. [United nations register of objects launched into outer space](https://www.unoosa.org/oosa/en/spaceobjectregister/index.html).
 
-[]{#ref-uscongress2015 .anchor}U.S. Congress, 2015. [U.s. Commercial space launch competitiveness act](https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf).
+U.S. Congress, 2015. [U.s. Commercial space launch competitiveness act](https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf).
 
-[]{#ref-vaangal2022 .anchor}Vaangal, A., 2022. Reexamining the UNCLOS: A lack of compliance and enforceability. Lex Portus.
+Vaangal, A., 2022. Reexamining the UNCLOS: A lack of compliance and enforceability. Lex Portus.
 
-[]{#ref-vanaken2004 .anchor}Van Aken, J.E., 2004. Management research based on the paradigm of the design sciences: The quest for field-tested and grounded technological rules. Journal of Management Studies 41, 219--246. <https://doi.org/10.1111/j.1467-6486.2004.00430.x>
+Van Aken, J.E., 2004. Management research based on the paradigm of the design sciences: The quest for field-tested and grounded technological rules. Journal of Management Studies 41, 219--246. <https://doi.org/10.1111/j.1467-6486.2004.00430.x>
 
-[]{#ref-veblen1899 .anchor}Veblen, T., 1899. The theory of the leisure class. Macmillan.
+Veblen, T., 1899. The theory of the leisure class. Macmillan.
 
-[]{#ref-weeden2022 .anchor}Weeden, B., Samson, V., 2022. [Global counterspace capabilities: An open source assessment](https://swfound.org/counterspace). Secure World Foundation.
+Weeden, B., Samson, V., 2022. [Global counterspace capabilities: An open source assessment](https://swfound.org/counterspace). Secure World Foundation.
 
-[]{#ref-whetten1989 .anchor}Whetten, D.A., 1989. What constitutes a theoretical contribution? Academy of Management Review 14, 490--495. <https://doi.org/10.5465/amr.1989.4308371>
+Whetten, D.A., 1989. What constitutes a theoretical contribution? Academy of Management Review 14, 490--495. <https://doi.org/10.5465/amr.1989.4308371>
 
-[]{#ref-wef2026 .anchor}World Economic Forum, 2026. [Space sustainability rating](https://www.weforum.org/projects/space-sustainability-rating/).
+World Economic Forum, 2026. [Space sustainability rating](https://www.weforum.org/projects/space-sustainability-rating/).
 
-[]{#ref-zahavi1975 .anchor}Zahavi, A., 1975. Mate selection---a selection for a handicap. Journal of Theoretical Biology 53, 205--214. <https://doi.org/10.1016/0022-5193(75)90111-3>
+Zahavi, A., 1975. Mate selection---a selection for a handicap. Journal of Theoretical Biology 53, 205--214. <https://doi.org/10.1016/0022-5193(75)90111-3>
 
 [^1]: Anti-satellite (ASAT) tests involve one nation destroying a satellite, typically its own defunct spacecraft, to demonstrate military capability. Such tests create debris that persists in orbit for years or decades.
 
@@ -643,7 +643,6 @@ The authors declare no competing interests.
 [^8]: The Committee on Space Research (COSPAR), an interdisciplinary scientific body, establishes planetary protection categories and guidelines to prevent biological contamination of celestial bodies.
 
 [^9]: A conjunction is a predicted close approach between two objects in orbit, requiring assessment of collision risk and potentially an avoidance maneuver by one or both operators.
-
 
 
 ---
@@ -1038,56 +1037,56 @@ CelesTrak (celestrak.org): Maintained by Dr. T.S. Kelso, CelesTrak provides sup
 
 ## References {#references-1}
 
-[]{#ref-abadie2015 .anchor}Abadie, A., Diamond, A., Hainmueller, J., 2015. Comparative politics and the synthetic control method. American Journal of Political Science 59, 495--510. <https://doi.org/10.1111/ajps.12116>
+Abadie, A., Diamond, A., Hainmueller, J., 2015. Comparative politics and the synthetic control method. American Journal of Political Science 59, 495--510. <https://doi.org/10.1111/ajps.12116>
 
-[]{#ref-abadie2010 .anchor}Abadie, A., Diamond, A., Hainmueller, J., 2010. Synthetic control methods for comparative case studies: Estimating the effect of california's tobacco control program. Journal of the American Statistical Association 105, 493--505. <https://doi.org/10.1198/jasa.2009.ap08746>
+Abadie, A., Diamond, A., Hainmueller, J., 2010. Synthetic control methods for comparative case studies: Estimating the effect of california's tobacco control program. Journal of the American Statistical Association 105, 493--505. <https://doi.org/10.1198/jasa.2009.ap08746>
 
-[]{#ref-amiri2022 .anchor}Amiri, H.E.S., Brain, D., Sharaf, O., others, 2022. The Emirates Mars Mission. Space Science Reviews 218, 4. <https://doi.org/10.1007/s11214-021-00868-x>
+Amiri, H.E.S., Brain, D., Sharaf, O., others, 2022. The Emirates Mars Mission. Space Science Reviews 218, 4. <https://doi.org/10.1007/s11214-021-00868-x>
 
-[]{#ref-baillon2020 .anchor}Baillon, A., Bleichrodt, H., Spinu, V., 2020. Searching for the reference point. Management Science 66, 93--112. <https://doi.org/10.1287/mnsc.2018.3224>
+Baillon, A., Bleichrodt, H., Spinu, V., 2020. Searching for the reference point. Management Science 66, 93--112. <https://doi.org/10.1287/mnsc.2018.3224>
 
-[]{#ref-bergkoelbelrigobon2022 .anchor}Berg, F., Kölbel, J.F., Rigobon, R., 2022. Aggregate confusion: The divergence of ESG ratings. Review of Finance 26, 1315--1344. <https://doi.org/10.1093/rof/rfac033>
+Berg, F., Kölbel, J.F., Rigobon, R., 2022. Aggregate confusion: The divergence of ESG ratings. Review of Finance 26, 1315--1344. <https://doi.org/10.1093/rof/rfac033>
 
-[]{#ref-bertrand2004 .anchor}Bertrand, M., Duflo, E., Mullainathan, S., 2004. How much should we trust differences-in-differences estimates? Quarterly Journal of Economics 119, 249--275. <https://doi.org/10.1162/003355304772839588>
+Bertrand, M., Duflo, E., Mullainathan, S., 2004. How much should we trust differences-in-differences estimates? Quarterly Journal of Economics 119, 249--275. <https://doi.org/10.1162/003355304772839588>
 
-[]{#ref-callaway2021 .anchor}Callaway, B., Sant'Anna, P.H.C., 2021. Difference-in-differences with multiple time periods. Journal of Econometrics 225, 200--230. <https://doi.org/10.1016/j.jeconom.2020.12.001>
+Callaway, B., Sant'Anna, P.H.C., 2021. Difference-in-differences with multiple time periods. Journal of Econometrics 225, 200--230. <https://doi.org/10.1016/j.jeconom.2020.12.001>
 
-[]{#ref-dechaisemartin2020 .anchor}Chaisemartin, C. de, D'Haultfoeuille, X., 2020. Two-way fixed effects estimators with heterogeneous treatment effects. American Economic Review 110, 2964--2996. <https://doi.org/10.1257/aer.20181169>
+Chaisemartin, C. de, D'Haultfoeuille, X., 2020. Two-way fixed effects estimators with heterogeneous treatment effects. American Economic Review 110, 2964--2996. <https://doi.org/10.1257/aer.20181169>
 
-[]{#ref-esa2023 .anchor}ESA, 2023. [ESA space environment report 2023](https://www.esa.int/Space_Safety/Space_Debris/ESA_s_Space_Environment_Report_2023). European Space Agency.
+ESA, 2023. [ESA space environment report 2023](https://www.esa.int/Space_Safety/Space_Debris/ESA_s_Space_Environment_Report_2023). European Space Agency.
 
-[]{#ref-fehr2000 .anchor}Fehr, E., Gächter, S., 2000. Fairness and retaliation: The economics of reciprocity. Journal of Economic Perspectives 14, 159--181. <https://doi.org/10.1257/jep.14.3.159>
+Fehr, E., Gächter, S., 2000. Fairness and retaliation: The economics of reciprocity. Journal of Economic Perspectives 14, 159--181. <https://doi.org/10.1257/jep.14.3.159>
 
-[]{#ref-georgebennett2005 .anchor}George, A.L., Bennett, A., 2005. Case studies and theory development in the social sciences. MIT Press.
+George, A.L., Bennett, A., 2005. Case studies and theory development in the social sciences. MIT Press.
 
-[]{#ref-goodmanbacon2021 .anchor}Goodman-Bacon, A., 2021. Difference-in-differences with variation in treatment timing. Journal of Econometrics 225, 254--277. <https://doi.org/10.1016/j.jeconom.2021.03.014>
+Goodman-Bacon, A., 2021. Difference-in-differences with variation in treatment timing. Journal of Econometrics 225, 254--277. <https://doi.org/10.1016/j.jeconom.2021.03.014>
 
-[]{#ref-griskevicius2010 .anchor}Griskevicius, V., Tybur, J.M., Van den Bergh, B., 2010. Going green to be seen: Status, reputation, and conspicuous conservation. Journal of Personality and Social Psychology 98, 392--404. <https://doi.org/10.1037/a0017346>
+Griskevicius, V., Tybur, J.M., Van den Bergh, B., 2010. Going green to be seen: Status, reputation, and conspicuous conservation. Journal of Personality and Social Psychology 98, 392--404. <https://doi.org/10.1037/a0017346>
 
-[]{#ref-jachimowicz2019 .anchor}Jachimowicz, J.M., Duncan, S., Weber, E.U., Johnson, E.J., 2019. When and why defaults influence decisions: A meta-analysis of default effects. Behavioural Public Policy 3, 159--186. <https://doi.org/10.1017/bpp.2018.43>
+Jachimowicz, J.M., Duncan, S., Weber, E.U., Johnson, E.J., 2019. When and why defaults influence decisions: A meta-analysis of default effects. Behavioural Public Policy 3, 159--186. <https://doi.org/10.1017/bpp.2018.43>
 
-[]{#ref-kahneman1979 .anchor}Kahneman, D., Tversky, A., 1979. Prospect theory: An analysis of decision under risk. Econometrica 47, 263--291. <https://doi.org/10.2307/1914185>
+Kahneman, D., Tversky, A., 1979. Prospect theory: An analysis of decision under risk. Econometrica 47, 263--291. <https://doi.org/10.2307/1914185>
 
-[]{#ref-keohane1986 .anchor}Keohane, R.O., 1986. Reciprocity in international relations. Princeton University Press.
+Keohane, R.O., 1986. Reciprocity in international relations. Princeton University Press.
 
-[]{#ref-mackinlay1997 .anchor}MacKinlay, A.C., 1997. [Event studies in economics and finance](https://www.jstor.org/stable/2729691). Journal of Economic Literature 35, 13--39.
+MacKinlay, A.C., 1997. [Event studies in economics and finance](https://www.jstor.org/stable/2729691). Journal of Economic Literature 35, 13--39.
 
-[]{#ref-madrian2001 .anchor}Madrian, B.C., Shea, D.F., 2001. The power of suggestion: Inertia in 401(k) participation and savings behavior. Quarterly Journal of Economics 116, 1149--1187. <https://doi.org/10.1162/003355301753265543>
+Madrian, B.C., Shea, D.F., 2001. The power of suggestion: Inertia in 401(k) participation and savings behavior. Quarterly Journal of Economics 116, 1149--1187. <https://doi.org/10.1162/003355301753265543>
 
-[]{#ref-mark2019adr .anchor}Mark, C.P., Kamath, S., 2019. Review of active space debris removal methods. Space Policy 47, 194--206. <https://doi.org/10.1016/j.spacepol.2018.12.005>
+Mark, C.P., Kamath, S., 2019. Review of active space debris removal methods. Space Policy 47, 194--206. <https://doi.org/10.1016/j.spacepol.2018.12.005>
 
-[]{#ref-ogutu2021 .anchor}Osoro, O.B., Oughton, E.J., 2021. A techno-economic framework for satellite networks applied to low earth orbit constellations: Assessing Starlink, OneWeb and Kuiper. IEEE Access 9, 141611--141625. <https://doi.org/10.1109/ACCESS.2021.3119634>
+Osoro, O.B., Oughton, E.J., 2021. A techno-economic framework for satellite networks applied to low earth orbit constellations: Assessing Starlink, OneWeb and Kuiper. IEEE Access 9, 141611--141625. <https://doi.org/10.1109/ACCESS.2021.3119634>
 
-[]{#ref-palmroth2021 .anchor}Palmroth, M., Tapio, J., Soucek, A., Perrels, A., Jah, M., others, 2021. Toward sustainable use of space: Economic, technological, and legal perspectives. Space Policy 57, 101428. <https://doi.org/10.1016/j.spacepol.2021.101428>
+Palmroth, M., Tapio, J., Soucek, A., Perrels, A., Jah, M., others, 2021. Toward sustainable use of space: Economic, technological, and legal perspectives. Space Policy 57, 101428. <https://doi.org/10.1016/j.spacepol.2021.101428>
 
-[]{#ref-ragin2008 .anchor}Ragin, C.C., 2008. Redesigning social inquiry: Fuzzy sets and beyond. University of Chicago Press.
+Ragin, C.C., 2008. Redesigning social inquiry: Fuzzy sets and beyond. University of Chicago Press.
 
-[]{#ref-rajagopalan2024 .anchor}Rajagopalan, R.P., Stroikos, D., 2024. The transformation of India's space policy: From space for development to the pursuit of security and prestige. Space Policy 69, 101633. <https://doi.org/10.1016/j.spacepol.2024.101633>
+Rajagopalan, R.P., Stroikos, D., 2024. The transformation of India's space policy: From space for development to the pursuit of security and prestige. Space Policy 69, 101633. <https://doi.org/10.1016/j.spacepol.2024.101633>
 
-[]{#ref-roth2023 .anchor}Roth, J., Sant'Anna, P.H.C., Bilinski, A., Poe, J., 2023. What's trending in difference-in-differences? A synthesis of the recent econometrics literature. Journal of Econometrics 235, 105737. <https://doi.org/10.1016/j.jeconom.2023.03.008>
+Roth, J., Sant'Anna, P.H.C., Bilinski, A., Poe, J., 2023. What's trending in difference-in-differences? A synthesis of the recent econometrics literature. Journal of Econometrics 235, 105737. <https://doi.org/10.1016/j.jeconom.2023.03.008>
 
-[]{#ref-sunandabraham2021 .anchor}Sun, L., Abraham, S., 2021. Estimating dynamic treatment effects in event studies with heterogeneous treatment effects. Journal of Econometrics 225, 175--199. <https://doi.org/10.1016/j.jeconom.2020.09.006>
+Sun, L., Abraham, S., 2021. Estimating dynamic treatment effects in event studies with heterogeneous treatment effects. Journal of Econometrics 225, 175--199. <https://doi.org/10.1016/j.jeconom.2020.09.006>
 
-[]{#ref-tversky1992 .anchor}Tversky, A., Kahneman, D., 1992. Advances in prospect theory: Cumulative representation of uncertainty. Journal of Risk and Uncertainty 5, 297--323. <https://doi.org/10.1007/BF00122574>
+Tversky, A., Kahneman, D., 1992. Advances in prospect theory: Cumulative representation of uncertainty. Journal of Risk and Uncertainty 5, 297--323. <https://doi.org/10.1007/BF00122574>
 
-[]{#ref-tversky1991 .anchor}Tversky, A., Kahneman, D., 1991. Loss aversion in riskless choice: A reference-dependent model. Quarterly Journal of Economics 106, 1039--1061. <https://doi.org/10.2307/2937956>
+Tversky, A., Kahneman, D., 1991. Loss aversion in riskless choice: A reference-dependent model. Quarterly Journal of Economics 106, 1039--1061. <https://doi.org/10.2307/2937956>

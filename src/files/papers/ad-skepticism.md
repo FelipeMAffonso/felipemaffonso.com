@@ -261,8 +261,6 @@ Given the ubiquity of brand extensions, the present research is the first to exp
 Supporting Information
 
 
-
-
 ## References
 
 REFERENCES
