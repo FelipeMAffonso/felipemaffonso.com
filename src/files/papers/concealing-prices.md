@@ -1691,7 +1691,7 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 ## Examples of MAP Policy Disclosure in the Marketplace
 
-[Screenshots from Reddit r/assholedesign: (1) "I can't see the price of this shirt until I add it to my cart and checkout" showing a product listing with hidden price. (2) "Walmart won't let me see the price until I add the item to my cart" showing a Walmart product with "See price in cart" displayed instead of the actual price.][Image: Walmart won\'t let me see the price until I add the item to my cart : r/assholedesign]
+[Screenshots from Reddit r/assholedesign: (1) "I can't see the price of this shirt until I add it to my cart and checkout" showing a product listing with hidden price. (2) "Walmart won't let me see the price until I add the item to my cart" showing a Walmart product with "See price in cart" displayed instead of the actual price.]
 
 ## Materials
 
