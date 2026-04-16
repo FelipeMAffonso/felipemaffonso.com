@@ -8,6 +8,18 @@ issue: 2
 pages: "217-239"
 doi: "10.1002/jcpy.1184"
 citation: "Affonso, Felipe M., Chris Janiszewski, and James R. Bettman (2021), \"Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals,\" Journal of Consumer Psychology, 31 (2), 217-39."
+bibtex: |
+  @article{affonso2021boundaries,
+    title={Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals},
+    author={Affonso, Felipe M. and Janiszewski, Chris and Bettman, James R.},
+    journal={Journal of Consumer Psychology},
+    volume={31},
+    number={2},
+    pages={217--239},
+    year={2021},
+    publisher={Wiley},
+    doi={10.1002/jcpy.1184}
+  }
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1002/jcpy.1184).

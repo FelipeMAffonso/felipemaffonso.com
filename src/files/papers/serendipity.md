@@ -8,6 +8,18 @@ issue: 4
 pages: "141-157"
 doi: "10.1177/00222429211000344"
 citation: "Kim, Aekyoung, Felipe M. Affonso, Juliano Laran, and Kristina M. Durante (2021), \"Serendipity: Chance Encounters in the Marketplace Enhance Consumer Satisfaction,\" Journal of Marketing, 85 (4), 141-57."
+bibtex: |
+  @article{kim2021serendipity,
+    title={Serendipity: Chance Encounters in the Marketplace Enhance Consumer Satisfaction},
+    author={Kim, Aekyoung and Affonso, Felipe M. and Laran, Juliano and Durante, Kristina M.},
+    journal={Journal of Marketing},
+    volume={85},
+    number={4},
+    pages={141--157},
+    year={2021},
+    publisher={SAGE Publications},
+    doi={10.1177/00222429211000344}
+  }
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1177/00222429211000344).

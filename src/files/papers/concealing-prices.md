@@ -970,15 +970,15 @@ Click the arrow button to continue.
 
 This is the espresso machine you are interested in:
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 This is the espresso machine you are interested in:
 
-[Image: see published version][Image: see published version]
+[Breville espresso machine card (delayed-PD version)][Survey. "Relative to a typical espresso machine, I expect the price of this espresso machine to be..." Slider: 1 = much less expensive than a typical espresso machine, 50 = neither inexpensive or expensive as a typical espresso machine, 100 = much more expensive than a typical espresso machine.]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -989,7 +989,7 @@ Gender and age
 
 This pre-test was conducted to verify expensive-price beliefs about the delayed price disclosure
 
-[Image: see published version]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1003,9 +1003,9 @@ Click the arrow button to continue.
 
 This is the espresso machine you are interested in:
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1025,13 +1025,13 @@ Gender and age
 
 **YOUR SHOPPING CART:**
 
-[Image: see published version]
+[Breville espresso machine shown in cart.]
 
 **SUBTOTAL (1 ITEM): \$142.50**
 
-[Image: see published version]
+[Survey. "Given this scenario, please indicate your perceptions about the product: I expect this product to..." Semantic differential scale (1-7): Be Unreliable / Be Reliable, Be Poor Quality / Be Good Quality, Not Be Dependable / Be Dependable.]
 
-[Image: see published version]
+[Survey. "Given this scenario, please indicate your perceptions about the retailer: I expect this retailer to provide..." Semantic differential scale (1-7): Poor Customer Service / Excellent Customer Service, Not to Ship on Time / Ship on Time, Make Product Returns Difficult / Make Product Returns Easy.]
 
 *Alternative Explanations Report.* One could argue that delaying the disclosure of a price could generate inferences about the product and/or retailer beyond price expectations. To alleviate this concern, we reran the same procedure from Study 2 (N = 235 valid responses) and asked the following questions once participants had the espresso machine in their shopping cart: perceived product quality - "I expect this product to..." \[1 = be unreliable vs. 7 = be reliable, 1 = be poor quality vs. 7 = be good quality, 1 = not be dependable vs. 7 = be dependable; α = .91; Dodds, Monroe, and Grewal (1991)), and expectations about customer service -- "I expect this retailer to provide..." \[1 = poor customer service vs. 7 = excellent customer service, 1 = not to ship on time vs. 7 = ship on time, 1 = make product returns difficult vs. 7 = make product returns easy; α = .88). There were no effects of delayed-PD (vs. immediate-PD) on perceived product quality (*M*~delayed~ = 6.14, *SD* = .93; *M*~immediate~ = 6.03, *SD* = .86; *F*(1, 233) = .915, *p* = .340) and expectations about customer service (*M*~delayed~ = 5.88, *SD* = 1.31; *M*~immediate~ = 5.80, *SD* = .95; *F*(1, 233) = .354, *p* = .552). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
 
@@ -1046,9 +1046,9 @@ Dodds, William B., Kent B. Monroe, and Dhruv Grewal (1991), "Effects of Price, B
 
 Note: below we show part of two flyers used in the actual e-mail experiment (this specific flyer was sent on December 18, 2021).
 
-[Image: see published version][Image: see published version]
+[Left: Fravega "Especial Navidad" (Christmas Special) email flyer showing products without prices -- Philips Lumea IPL, LG XBoom speaker, foam puzzle mat, and trampoline with "VER +" (See More) buttons but no prices. Right: Same Fravega Christmas flyer with prices visible -- showing 24% OFF $33,999, 9% OFF $72,999, 13% OFF $3,699, 26% OFF $31,990 with original prices crossed out.]
 
-Note: the sales flyers below are from 2024 / 2025 but represent those in the field experiment. [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version] [Image: see published version]
+Note: the sales flyers below are from 2024 / 2025 but represent those in the field experiment. [Fravega promotional email: "Aprovecha las ofertas destacadas!" (Take advantage of featured deals!) showing fishing combo, gazebo, and beach chair with prices and discounts. "Descuentos semanales" (Weekly discounts) section below.] [Fravega promotional email: "Hasta 45% OFF" (Up to 45% OFF) with household products -- griddle, washing machine, Samsung A15 phone, TCL TV, cookware set, mattress. "Liquidacion semanal" (Weekly clearance) for bazaar, chairs, mattresses categories.] [Fravega promotional email: "Super ofertas en aires" (Super deals on air conditioning) showing pool equipment, air conditioners, and summer products. "Ofertas y descuentos" section below.] [Fravega "Mi Credito Fravega" financing flyer: Samsung Crystal UHD TV at 18 installments of $69,871, Samsung Galaxy A25 phone, Philco air conditioner, Whirlpool refrigerator with 10% off.] [Fravega "Mi Credito Fravega" financing flyer: Samsung Galaxy A25 5G phone at 12 installments of $49,999, PS5 Slim, Admiral air conditioner, Electrolux refrigerator with 12% off.] [Fravega "Mi Credito Fravega" financing flyer: PS5 Slim at 18 installments of $179,157, Samsung Galaxy A06, Electra air conditioner, Whirlpool refrigerator.] [Fravega "Cyber Monday" promotional email: Categories for refrigerators, furniture, small electronics, bazaar, bicycles, household, and technology with various discounts (up to 50% OFF).] [Fravega "Black Friday" promotional email: Categories for Christmas, toys, refrigerators, pools, mattresses, beauty, small electronics, home furnishing with discounts up to 45% OFF.]
 
 ## Distributional Analysis and Alternative Specifications for Study 3
 
@@ -1123,29 +1123,29 @@ Notes---Standard errors in parentheses. †p \< .10. \*p \< .05. \*\*p \< .01
 
 Post-Test Stimuli -- Sales Flyer Similar to Those Used in the Field Study with English Translation
 
-[Image: see published version]
+[Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]
 
 
 This post-test was conducted to verify delayed prices led to an expectation of lower prices
 
-[Image: see published version]
+[Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]*(Stimulus from the previous page was displayed -- participants were shown the website sales flyer delayed price disclosure)
+[Survey text: "When you open the e-mail, you see a sales flyer from a store you are familiar with. The sales flyer does not show the price -- you have to click to see the deals."]*(Stimulus from the previous page was displayed -- participants were shown the website sales flyer delayed price disclosure)
 
-[Image: see published version]
+[Fravega promotional sales flyer (English translation provided alongside Spanish original).]
 
 
 ## Alternative Explanations Test Procedure and Results
 
 \*Similar as the Post-Test Procedure, but with different measures.
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 *Alternative Explanations Report.* It is possible the withholding prices encouraged consumers to make unfavorable inferences about product quality or the retailer. Using a procedure similar to the post-test, we asked 100 Prolific participants whether the hidden price decreased/increased perceived product quality, their trust in the retailer, and customer service expectations. There were no differences from the midpoint 4 on perceptions of product quality (*M* = 3.91, *SD* = .986 vs. 4; *t*(99) = -.913, *p* = .363), trust in the retailer (*M* = 4.05, *SD* = .783 vs. 4; *t*(99) = .638, *p* = .525), and customer service expectations (*M* = 3.97, *SD* = .979 vs. 4; *t*(99) = -.306, *p* = .760).
 
@@ -1153,21 +1153,21 @@ This post-test was conducted to verify delayed prices led to an expectation of l
 
 ## Materials -- Main Study
 
-[Image: see published version]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Survey. "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it." Radio buttons.]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Survey text/instruction continuing from previous page.]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
 **\[immediate-PD condition\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[delayed-PD condition\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 After some consideration, you decide to click the promotion to see more information about the product. Click the next button to continue.
 
@@ -1175,45 +1175,45 @@ After some consideration, you decide to click the promotion to see more informat
 
 **DV (Counterbalanced with mediator):**
 
-**This is the espresso machine advertised in the e-mail:** [Image: see published version]
+**This is the espresso machine advertised in the e-mail:** [Espresso machine product card or survey element from study materials.]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 **Mediator (Counterbalanced with DV):**
 
-**This is the espresso machine advertised in the e-mail:** [Image: see published version]
+**This is the espresso machine advertised in the e-mail:** [Espresso machine product card or survey element from study materials.]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]
+[Survey. "Relative to a typical espresso machine, I expect the price of this espresso machine to be..." Slider: 1 = much less expensive, 50 = neither inexpensive or expensive, 100 = much more expensive.]
 
 ## Materials -- Pre-Test Procedure
 
 This pre-test was conducted to set the price and verify inexpensive-price beliefs about the espresso machine.
 
-[Image: see published version]\[Consistent with the main study preregistration, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Survey. "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it." Radio buttons.]\[Consistent with the main study preregistration, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]
-
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
-
-When you open the e-mail, you see a promotion for a Breville espresso machine:
-
-[Image: see published version]
-
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
-[Image: see published version][Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
+
+[Demographics: gender (Male / Female / Other) and age (text box).]
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+When you open the e-mail, you see a promotion for a Breville espresso machine:
+
+[Espresso machine product card or survey element from study materials.][Espresso machine product card or survey element from study materials.]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1223,19 +1223,19 @@ Gender and age
 
 This post-test was conducted to verify inexpensive-price beliefs about the delayed price disclosure
 
-[Image: see published version]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Survey. "Does the fact that you are not seeing the price lead you to believe that..." Scale: 1 = "the price is so **low**, they do not want to initially show it" to 7 = "the price is so **high**, they do not want to initially show it." Radio buttons.]\[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 **CONSUMER DECISION MAKING**
 
-[Image: see published version]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Survey text/instruction continuing from previous page.]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 When you open the e-mail, you see a promotion for a Breville espresso machine:
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1253,11 +1253,11 @@ Gender and age
 
 \*Same as the main study up to the page where participants see more information about the product:
 
-**This is the espresso machine advertised in the e-mail:** [Image: see published version]
+**This is the espresso machine advertised in the e-mail:** [Espresso machine product card or survey element from study materials.]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 *Alternative Explanations Report.* It is possible the withholding prices encouraged consumers to make unfavorable inferences about product quality or the retailer. To alleviate this concern, we reran the same procedure from Study 4 (N = 256 valid responses), and once participants had the espresso machine in their shopping cart, we asked the same product quality (α = .92) and expectations about customer service (α = .86) questions used in Study 2's alternative explanation post-test. There were no effects of delayed-PD (vs. immediate-PD) on perceived product quality (*M*~delayed~ = 5.88, *SD* = 1.09; *M*~immediate~ = 5.75, *SD* = 1.07; *F*(1, 255) = .829, *p* = .364) or customer service expectations (*M*~delayed~ = 5.63, *SD* = 1.12; *M*~immediate~ = 5.54, *SD* = 1.13; *F*(1, 254) = .420, *p* = .517). Thus, our effects appear to be driven by price expectations rather than changes in perceptions about the product and/or the retailer.
 
@@ -1265,7 +1265,7 @@ Gender and age
 
 ## Materials -- Main Study
 
-[Image: see published version]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
+[Survey. "How interested are you in **espresso coffee machines**?" Scale: 1 = no interest at all to 5 = a lot of interest. Radio buttons.]\[Consistent with the preregistration of the main study, participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1298,21 +1298,21 @@ Please read the retailer description below. The next button will be available af
 
 **\[store image: national\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines. The company\'s growth into the largest online retailer in its category is attributed to its focus on coffee and espresso equipment. With its headquarters encompassing 40,000 square feet, Whole Latte Love features a dedicated technical staff to support its operations and customer service efforts. The company aims to provide a wide range of espresso machines to its customers, supported by its resources and technical expertise. \
 On the next page, you will see a selection of twelve **espresso machines.**
 
 **\[store image: premium\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailer---it\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
 On the next page, you will see a selection of twelve **premium espresso machines.**
 
  **\[store image: discount\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! Our selection is all about bringing you great coffee experiences for less. We've handpicked machines that deliver on taste, without the hefty price tag. With our constantly updated deals, you\'re sure to find the perfect espresso maker to fit even the tightest budget. Here, it\'s all about great coffee, great prices, and no compromise on quality. Ready for your next coffee adventure? Check out our offers and enjoy your favorite brew without overspending.\
 On the next page, you will see a selection of twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount.
@@ -1321,21 +1321,21 @@ On the next page, you will see a selection of twelve **espresso machines that a
 
 **\[store image: national\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines.\
 Please select your preferred espresso machine. There are twelve **espresso machines**. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: premium\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise.\
 Please select your preferred espresso machine. There are twelve **premium espresso machines.** Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: discount\]**
 
-[Image: see published version]
+["Whole Latte Love" logo on black background -- premium retailer image.]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! \
 Please select your preferred espresso machine. There are twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
@@ -1352,13 +1352,13 @@ In this condition, prices were immediately available.
 
 Before showing the stimuli, we will explain how options were priced. This rule applies to both price disclosure conditions. The prices were determined by participant's internal reference prices, which were provided on the first question of the survey. We priced the options in such a way that the prices ranged from 85% to 115% of participants' own internal reference prices (provided at the beginning of the survey), in 2.5% increments, plus 99 cents to make the prices realistic. This was programmed by calculating the following embedded data variables:
 
-[Image: see published version][Image: see published version]
+[Espresso machine product card or survey element from study materials.][Espresso machine product card or survey element from study materials.]
 
 With "q://QID2/ChoiceTextEntryValue" being participant's internal reference price (i.e., the answer providing an average market price for an espresso machine). To illustrate, consider a participant who indicated \$200 as the average price for a typical espresso machine. This participant would see the following prices distributed across the twelve options: \$170.99 (85% of \$200 + 99 cents), \$175.99 (87.5% of \$200 + 99 cents), ..., \$225.99 (112.5% of \$200 + 99 cents), and \$230.99 (115% of \$200 + 99 cents).
 
 Each of the 12 options were assigned to one of the {price1, price2, ..., price12} variables. Below, we will show how each option was priced. If the price shows "\$\${e://Field/price1", this means this option was always priced at 85% of the IRP + 99 cents. Likewise, "\$\${e://Field/price6" represents 115% of the IRP + 99 cents (see embedded data above).
 
-[Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version]
+[Grid of 12 espresso machine product cards displayed in a 4x3 layout. Each card shows a product photo, brand name, and specifications. Brands include: Bella Pro Series, Breville, De'Longhi, CAFE, Nespresso by Breville, Philips, SMEG, GE Profile, and Mr. Coffee. In the immediate-PD condition, prices are shown (ranging from ~$255 to ~$345 based on each participant's IRP). In the delayed-PD condition, prices read "Add to cart to see price."]
 
 **\[price disclosure: delayed condition\]**
 
@@ -1366,9 +1366,9 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-[Image: see published version][Image: see published version]
+[Espresso machine product card or survey element from study materials.][Espresso machine product card or survey element from study materials.]
 
-[Image: see published version][Image: see published version]
+[Espresso machine product card or survey element from study materials.][Espresso machine product card or survey element from study materials.]
 
 **\
 \[price disclosure: immediate condition\]**
@@ -1377,13 +1377,13 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1391,17 +1391,17 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 \*The survey used a display logic question that retrieved the participants' espresso machine choice and displayed it again with all its attributes, including the price. Those in the immediate disclosure condition saw the price again, whereas those in the delayed disclosure condition saw the price for the first time.
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 \*The selected espresso machine was displayed again
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: Graphical user interface, text, application Description automatically generated]
+[Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
 
 ## Alternative Explanations Test Procedure and Results
@@ -1410,13 +1410,13 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 \*The survey used a display logic question that retrieved the participants' espresso machine choice and displayed it again with all its attributes, including the price. Those in the immediate disclosure condition saw the price again, whereas those in the delayed disclosure condition saw the price for the first time.
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: Graphical user interface, text, application Description automatically generated]
+[Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
 *Alternative Explanations Results.* We reran the same procedure from Study 5 (N = 776 valid responses), and once participants had the espresso machine in their shopping cart, we asked the same product quality (α = .92) and expectations about customer service (α = .88) questions used in Study 2's and Study 4's alternative explanation post-tests. There was no main effect of store information condition on perceived product quality (*M*~premium~ = 6.42, *SD* = .76; *M*~national~ = 6.42, *SD* = .73; *M*~discount~ = 6.36, *SD* = .94; *F*(2, 770) = .436, *p* = .647). In addition, there was no main effect of price disclosure on perceived product quality (*M*~immediate~ = 6.43 *SD* = .79; *M*~delayed~ = 6.37, *SD* = .84; *F*(1, 770) = 1.18, *p* = .277). Finally, there was no interaction between store information and price disclosure on price quality (*F*(2, 770) = .981, *p* = .375).
 
@@ -1446,17 +1446,17 @@ There is one anomaly in the data. Price beliefs did not influence price expectat
 
 ## Materials 
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+[Survey text/instruction continuing from previous page.]\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 Please read the retailer description below. The next button will be available after 20 seconds.
 
 **\[store image: national\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines. The company\'s growth into the largest online retailer in its category is attributed to its focus on coffee and espresso equipment. With its headquarters encompassing 40,000 square feet, Whole Latte Love features a dedicated technical staff to support its operations and customer service efforts. The company aims to provide a wide range of espresso machines to its customers, supported by its resources and technical expertise. \
 \
@@ -1464,14 +1464,14 @@ On the next page, you will see a selection of twelve **espresso machines.**
 
 **\[store image: premium\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise. Our curated collection showcases only the pinnacle of espresso craftsmanship, chosen for discerning aficionados like you. Each machine is a testament to our rigorous standards, having passed extensive quality control to ensure it meets the zenith of performance and elegance. Whole Latte Love is not just a retailer---it\'s a destination for those who see coffee as more than a drink, but as a luxurious experience. Here, expect nothing but the exceptional, a reflection of our commitment to bringing you the very essence of premium coffee culture.\
 On the next page, you will see a selection of twelve **premium espresso machines.**
 
  **\[store image: discount\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! Our selection is all about bringing you great coffee experiences for less. We've handpicked machines that deliver on taste, without the hefty price tag. With our constantly updated deals, you\'re sure to find the perfect espresso maker to fit even the tightest budget. Here, it\'s all about great coffee, great prices, and no compromise on quality. Ready for your next coffee adventure? Check out our offers and enjoy your favorite brew without overspending.\
 \
@@ -1481,21 +1481,21 @@ On the next page, you will see a selection of twelve **espresso machines that a
 
 **\[store image: national\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Whole Latte Love, founded in 1997, operates as an online retailer specializing in espresso machines.\
 Please select your preferred espresso machine. There are twelve **espresso machines**. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: premium\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 Discover an elite selection of espresso machines at Whole Latte Love, where we merge two decades of passion for coffee with unparalleled expertise.\
 Please select your preferred espresso machine. There are twelve **premium espresso machines.** Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
 
 **\[store image: discount\]**
 
-[Image: see published version]
+["Whole Latte Love" logo on black background -- premium retailer image.]
 
 Welcome to Whole Latte Love, where amazing espresso machines meet unbeatable deals! \
 Please select your preferred espresso machine. There are twelve **espresso machines that are being sold at a discounted price**. All prices are final, and already include the discount. Please evaluate the options as you would do in real life. The next button will only appear after 30 seconds.
@@ -1512,15 +1512,15 @@ In this condition, prices were immediately available.
 
 Before showing the stimuli, we will explain how options were priced. This rule applies to both price disclosure conditions. The prices were determined by participant's internal reference prices, which were provided on the first question of the survey. We priced the options in such a way that the prices ranged from 85% to 115% of participants' own internal reference prices (provided at the beginning of the survey), in 2.5% increments, plus 99 cents to make the prices realistic. This was programmed by calculating the following embedded data variables:
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 With "q://QID2/ChoiceTextEntryValue" being participant's internal reference price (i.e., the answer providing an average market price for an espresso machine). To illustrate, consider a participant who indicated \$200 as the average price for a typical espresso machine. This participant would see the following prices distributed across the twelve options: \$170.99 (85% of \$200 + 99 cents), \$175.99 (87.5% of \$200 + 99 cents), ..., \$225.99 (112.5% of \$200 + 99 cents), and \$230.99 (115% of \$200 + 99 cents).
 
 Each of the 12 options were assigned to one of the {price1, price2, ..., price12} variables. Below, we will show how each option was priced. If the price shows "\$\${e://Field/price1", this means this option was always priced at 85% of the IRP + 99 cents. Likewise, "\$\${e://Field/price6" represents 115% of the IRP + 99 cents (see embedded data above).
 
-[Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version][Image: see published version][Image: see published version][Image: see published version][Image: see published version] [Image: see published version]
+[Grid of 12 espresso machine product cards displayed in a 4x3 layout. Each card shows a product photo, brand name, and specifications. Brands include: Bella Pro Series, Breville, De'Longhi, CAFE, Nespresso by Breville, Philips, SMEG, GE Profile, and Mr. Coffee. In the immediate-PD condition, prices are shown (ranging from ~$255 to ~$345 based on each participant's IRP). In the delayed-PD condition, prices read "Add to cart to see price."]
 
 **\[price disclosure: delayed condition\]**
 
@@ -1528,9 +1528,9 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-[Image: see published version][Image: see published version]
+[Espresso machine product card or survey element from study materials.][Espresso machine product card or survey element from study materials.]
 
-[Image: see published version][Image: see published version]
+[Espresso machine product card or survey element from study materials.][Espresso machine product card or survey element from study materials.]
 
 **\
 \[price disclosure: immediate condition\]**
@@ -1539,23 +1539,23 @@ Each of the 12 options were assigned to one of the {price1, price2, ..., price12
 
 **ESPRESSO MACHINES**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 Right after participants made their choice:
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: Graphical user interface, text, application Description automatically generated]
+[Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
 
 # Web Appendix g: Conceptual Replication of Study 5 - Ergonomic Keyboard
@@ -1580,7 +1580,7 @@ Participants in the immediate-PD condition could see the price for all options u
 
 **FIGURE WA-G.1:** STUDY WA-G -- EVALUATION OF A KEYBOARD
 
-[Image: see published version]
+[Survey. "Before seeing the actual price of the espresso machine..." Scale: 1 = "I expected a much lower price than its current price," 4 = "I expected a price equal or similar to its current price," 7 = "I expected a much higher price than its current price." Radio buttons.]
 
 NOTE.--- Error bars = +/− 1 SE. †p \< .10. \*p \< .05. \*\*p \< .01
 
@@ -1648,7 +1648,7 @@ Please read the retailer description below. The next button will be available af
 **Uplift. Work better. Live healthier.**
 
 
-[Image: see published version]
+["UPLIFT" logo -- large black text with a light blue horizontal line underneath.]
 
 We are committed to designing, manufacturing, and shipping the highest quality ergonomic office furniture. Every UPLIFT Desk product is built to last and offer the latest office furniture innovations. Each is designed by a world-class team of a dozen engineers that includes our founder and CEO Jon Paulsen, a Certified Professional Ergonomist (CPE) and mechanical engineer himself.\
 \
@@ -1658,7 +1658,7 @@ We offer a complete ergonomic ecosystem, ranging from desks and tables to keyboa
 
 **Uplift\'s CLEARANCE SALE (BIG SAVINGS!)**
 
-[Image: see published version]
+[Ergonomic keyboard product display grid showing 6 keyboards from brands including Logitech, Microsoft, and Cloud Nine, with specifications and prices (or "Add to cart to see price" in delayed-PD condition).]
 
 We are committed to designing, manufacturing, and shipping the highest quality ergonomic office furniture. We offer a complete ergonomic ecosystem, ranging from desks and tables to keyboard trays, mice, and keyboards.
 
@@ -1674,7 +1674,7 @@ For a limited time, you can score incredible deals storewide until our stock lev
 
 Sale ends 4/9, 3 PM Central. While supplies last. All advertised prices are the final prices (that is, the discounts have been already applied).\
 \
-[Image: see published version]
+[Survey element or stimulus from study materials.]
 
  
 
@@ -1689,11 +1689,11 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 **\[price disclosure: immediate\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[price disclosure: delayed\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -1701,24 +1701,24 @@ Please select your preferred ergonomic keyboard to add it to your shopping cart.
 
 \*The survey used a display logic question that retrieved the participants' keyboard choice and displayed it again with all its attributes, including the price. Those in the immediate disclosure condition saw the price again, whereas those in the delayed disclosure condition saw the price for the first time.
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Survey element or stimulus from study materials.]
 
 
 # Web Appendix h: ADDITIONAL RESULTS AND METHODOLOGICAL DETAILS -- STUDY 6
 
 ## Examples of MAP Policy Disclosure in the Marketplace
 
-[Image: I can\'t see the price of this shirt until I add it to my cart and checkout. : r/assholedesign][Image: Walmart won\'t let me see the price until I add the item to my cart : r/assholedesign]
+[Screenshots from Reddit r/assholedesign: (1) "I can't see the price of this shirt until I add it to my cart and checkout" showing a product listing with hidden price. (2) "Walmart won't let me see the price until I add the item to my cart" showing a Walmart product with "See price in cart" displayed instead of the actual price.][Image: Walmart won\'t let me see the price until I add the item to my cart : r/assholedesign]
 
 
 ## Materials
@@ -1775,15 +1775,15 @@ This is the robot vacuum stick that you got interested in. The following informa
 
 **\[price disclosure: immediate\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[price disclosure: delayed\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[price disclosure: delayed with MAP policy disclosure\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 You decided to see more information about the product. Click the next button to continue.
 
@@ -1791,11 +1791,11 @@ You decided to see more information about the product. Click the next button to 
 
 Please read the product information below.
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 When you are done reading the product information, please click the next button.
 
@@ -1805,15 +1805,15 @@ You are considering whether to add this product to your shopping cart or not.
 
 **\[price disclosure: immediate\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[price disclosure: delayed\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[price disclosure: delayed with MAP policy disclosure\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 After some consideration, you decide to add the product to your shopping cart. Please click the next button to see the product in your shopping cart.
 
@@ -1821,69 +1821,69 @@ After some consideration, you decide to add the product to your shopping cart. P
 
 **(Dependent Variable Page)**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **SUBTOTAL (1 ITEM): \$349.99**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 **(Mediator Page)**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **SUBTOTAL (1 ITEM): \$349.99**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: Graphical user interface, text, application Description automatically generated]
+[Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
 
 ## Post-Test: Expensive and Inexpensive-Price Beliefs
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \[Participants who didn't choose 4 or 5 were screened out. They were paid regardless, consistent with Prolific's policies\]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[price disclosure: delayed condition\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 **\[price disclosure: delayed with MAP policy disclosure condition\]**
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: Graphical user interface, text, application Description automatically generated]
+[Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
 
 ## Alternative Explanations Test Procedure
 
 \*Same as the main study up to the shopping cart page:
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
-[Image: see published version]
+[Demographics: gender (Male / Female / Other) and age (text box).]
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--page break\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-[Image: Graphical user interface, text, application Description automatically generated]
+[Qualtrics survey flow screenshot showing embedded data fields and display logic for the experimental conditions.]
 
 
 ---

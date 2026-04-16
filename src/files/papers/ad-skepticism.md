@@ -8,6 +8,18 @@ issue: 7
 pages: "687-699"
 doi: "10.1002/mar.21205"
 citation: "Hernandez, José Mauro da Costa, Scott A. Wright, and Felipe M. Affonso (2019), \"The Importance of Advertising Skepticism for Brand Extension Appeals,\" Psychology & Marketing, 36 (7), 687-99."
+bibtex: |
+  @article{hernandez2019advertising,
+    title={The Importance of Advertising Skepticism for Brand Extension Appeals},
+    author={Hernandez, Jos{'e} Mauro da Costa and Wright, Scott A. and Affonso, Felipe M.},
+    journal={Psychology \& Marketing},
+    volume={36},
+    number={7},
+    pages={687--699},
+    year={2019},
+    publisher={Wiley},
+    doi={10.1002/mar.21205}
+  }
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1002/mar.21205).

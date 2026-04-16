@@ -8,6 +8,18 @@ issue: 5
 pages: "736-754"
 doi: "10.1177/00222429221142281"
 citation: "Affonso, Felipe M. and Chris Janiszewski (2023), \"Marketing by Design: The Influence of Perceptual Structure on Brand Performance,\" Journal of Marketing, 87 (5), 736-54."
+bibtex: |
+  @article{affonso2023marketing,
+    title={Marketing by Design: The Influence of Perceptual Structure on Brand Performance},
+    author={Affonso, Felipe M. and Janiszewski, Chris},
+    journal={Journal of Marketing},
+    volume={87},
+    number={5},
+    pages={736--754},
+    year={2023},
+    publisher={SAGE Publications},
+    doi={10.1177/00222429221142281}
+  }
 ---
 
 > **Disclaimer:** This is a machine-readable conversion of the published paper for use with AI tools. It may contain conversion errors in formatting, tables, or equations. Always verify against the [published version](https://doi.org/10.1177/00222429221142281).
