@@ -237,6 +237,27 @@ Upload new PDF to Google Drive, get the file ID, update the URLs in `src/cv.njk`
 ### Update headshot
 Replace `src/images/headshot.jpg`.
 
+## Analytics (installed 2026-04-20)
+
+Three trackers live on every page via `src/_includes/base.njk`:
+
+| Tool | What it tracks | Where it lives in base.njk | Dashboard |
+|---|---|---|---|
+| **Microsoft Clarity** (`wexegoktgd`) | Session recordings, heatmaps, scroll depth, engagement time, dead/rage/quickback clicks | `<script>` IIFE in `<head>` after theme-init | https://clarity.microsoft.com/projects/view/wexegoktgd |
+| **Cloudflare Web Analytics** (`db16777525f64d0abb899762c3c29b9c`) | Pageviews, referrers, countries, devices, browsers, load times — no cookies | `<script defer>` just before `</body>` | https://dash.cloudflare.com/27bd7115ab2090ed90f2e0c4b329e60a/web-analytics |
+| **Google Search Console** | Search queries, CTR, impressions, avg position, indexing issues — 24-48h data delay | `<meta name="google-site-verification">` in `<head>` | https://search.google.com/search-console?resource_id=https%3A%2F%2Ffelipemaffonso.com%2F |
+
+**Do not remove** any of these: Clarity script, CF beacon, or the GSC meta tag. Losing the meta tag drops GSC property ownership.
+
+**Unified dashboard view** for all three (queries + pageviews + behavioral signals) exists inside the academic-research Dashboard at `felipemaffonso.github.io/academic-research/` — click the bar-chart icon next to the Claude mascot in the header, or `Ctrl+Shift+A`. The worker at `research-dashboard-claude.webmarinelli.workers.dev` exposes `/api/analytics/{cf,gsc,clarity,summary}` (Bearer `GIST_TOKEN` auth). See `dashboard/CLAUDE.md` "Site Analytics" section for full architecture.
+
+**To verify live:**
+```bash
+curl -s https://felipemaffonso.com/ | grep -oE 'google-site-verification[^>]*'
+curl -s https://felipemaffonso.com/ | grep -oE 'wexegoktgd'
+curl -s https://felipemaffonso.com/ | grep -oE 'db16777525f64d0abb899762c3c29b9c'
+```
+
 ## Design Rules
 - Coral accent: #DA7756 (used sparingly)
 - No emojis

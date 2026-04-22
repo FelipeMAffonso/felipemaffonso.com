@@ -1,0 +1,13 @@
+# Tables extracted from: Manuscript R3 (CP EJM Submission.R3.docx)
+
+## Table 1
+
+| Table 1. People’s Responses to Infectious Disease Cues – Summary of Research Findings in Social Psychology1 |  |  |
+| --- | --- | --- |
+| Domain | Findings | Citations |
+| Attentional Processes | Overgeneralization bias toward features resembling infection symptoms and cues associated with disease; narrowed attention to these cues; greater sensitivity towards morphological deviance of geometric shapes; sensitivity towards processing dissimilarities rather than similarities; socially dense environments perceived as more crowded and confining | Ackerman et al. (2009); Makhanova et al. (2015); Nussinson et al. (2018); Ryan (2012) |
+| Judgement and Decision-Making | Devaluation of objects and environments associated with unfamiliar people; desire for health and attractiveness improvements; decreased global risk tolerance; increased motivation for status acquisition | Ackerman et al. (2018); Brown and Sacco (2020) Mortensen et al. (2010); Prokosch et al. (2019) |
+| Social Cognition and Social Interaction | Increased dissimilarity between ingroups and outgroups; aversion and stigmatization expressed toward outgroup members (e.g., elderly, obese, disabled); increased prejudice towards people with morphological anomalies; greater preference for healthy, symmetrical, attractive mates; reduced preference for extraverts; increased concern about one’s self-image | Ackerman et al. (2018); Brown and Sacco (2016); Faulkner et al. (2004); Gangestad and Buss (1993); Huang et al. (2011); Murray et al. (2013); Navarrete and Fessler (2006); Park et al. (2007) |
+| Social Influence and Moral Judgements | Higher conformity to cultural norms; more social conservatism; stringent punishment for violating moral norms | Horberg et al. (2009); Murray and Schaller (2012); Murray et al. (2013); Terrizzi et al. (2013) |
+| We note that the findings on people’s responses to infectious disease cues are more extensive than what the table outlines. See Murray and Schaller (2016) and Ackerman et al. (2018) for social psychology-focused reviews, and Murray et al. (2019) for a review focused on the physiological foundations of the pathogen-avoidance system focused on three different levels: sensory, cellular, and genetic.Source: Author’s own work |  |  |
+
