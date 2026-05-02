@@ -84,6 +84,13 @@ Publications live in `src/research.njk`. Each paper is a `<li class="pub-entry">
 6. Section placement: Preprints or Journal Publications
 7. Equal authorship notation (asterisks on author names)
 
+**Status conventions in the citation parenthetical:**
+- `(YYYY)` — published, with volume/pages in citation
+- `(forthcoming)` — accepted, awaiting publication. Use this once the paper is accepted with no further revisions and a DOI may already be assigned
+- `(conditionally accepted)` — accepted pending minor revisions. No year. Goes under **Journal Publications** at the top. Typically has no buttons (no preprint, no DOI, no data link yet) — just citation + abstract panel + journal cover
+
+**When in doubt about buttons:** if the user says "no preprint, no buttons," omit the entire `<div class="pub-links">` block. The abstract panel renders fine without it.
+
 **Cover images** go in `src/images/covers/` named per paper (not per journal — journals change covers across issues):
 - `cognitive-traps.jpg` — Brief Commentary (JCR)
 - `space-commons.jpg` — Behavioral Micro-Foundations (RP)
