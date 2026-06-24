@@ -235,6 +235,15 @@ Edit `src/teaching.njk`. Add courses to the appropriate institution section.
 ### Update bio
 Edit `src/index.njk` — the `hero-bio` paragraph.
 
+**Journals sentence convention** (Felipe's preferences, agreed 2026-06-24):
+- Umbrella is **"leading academic journals, including …"** (not "marketing journals") — the list now spans marketing, policy, and psychology, so "academic" is the right catch-all. No "the" before the list.
+- **Don't categorize** the list (no "general-science journals (…), marketing journals (…)" buckets). A flat `including` list reads more confidently and puts the journal *names*, not category labels, in front of the reader. `including` already implies illustrative-not-exhaustive, so "and others" never need listing.
+- **Cap at ~5 marquee names.** Past five it reads like a CV dump and the impact flattens. The full publication list lives on the research page, not the bio.
+- **Order = prestige-descending.** When general-science venues exist, lead with them, then the marketing journals.
+- **General-science tier rule:** only list **three** general-science journals if they are exactly **Nature, Science, and PNAS** (the universally recognized apex). For anything else in that tier (*Nature Human Behaviour*, etc.), list one or two and **don't pad to three** — and don't stack near-synonyms (e.g. *Nature* + *Nature Human Behaviour* + PNAS). Spell out "Proceedings of the National Academy of Sciences" (acronym in parens optional).
+- **Accuracy:** Felipe opted to phrase conditionally-accepted journals (JMR, JEP:G) under "has been published in." If he ever wants strict accuracy instead, use "published or is forthcoming in," or list only the truly-published journals. Do not name *Nature*/PNAS until actually accepted.
+- **Current sentence (2026-06-24):** "His work has been published in leading academic journals, including *Journal of Consumer Research*, *Journal of Marketing Research*, *Journal of Marketing*, *Research Policy*, and *Journal of Experimental Psychology: General*." When Nature/PNAS land, lead with them and trim to the strongest ~5 (likely dropping *Research Policy*/JEP:G from the bio list).
+
 ### Update contact info or social links
 Edit `src/_data/site.json`.
 
