@@ -788,7 +788,10 @@ html[data-nav="pill"] .nav-links a::after { display: none; }
 html[data-nav="pill"] .nav-links a:hover { background: var(--hover-wash); }
 html[data-nav="pill"] .nav-links a.active { background: var(--coral-tint); color: var(--coral); }
 
-/* underline that slides in on hover, stays on active */
+/* slide: the active page keeps a static coral underline; hovering a
+   non-active tab slides in an underline that is an animated moving coral
+   gradient ("this is where you would go"). Hovering the active tab, or the
+   active tab when nothing is hovered, shows the plain static underline. */
 html[data-nav="slide"] .nav-links a::after {
   content: '';
   position: absolute;
@@ -796,12 +799,40 @@ html[data-nav="slide"] .nav-links a::after {
   height: 2px;
   border-radius: 2px;
   background: var(--coral);
+  opacity: 1;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 0.22s var(--ease-out-quint);
+  transition: transform 0.22s var(--ease-out-quint), opacity 0.15s var(--ease-out-quint);
 }
-html[data-nav="slide"] .nav-links a:hover::after,
+/* active page: static underline shown */
 html[data-nav="slide"] .nav-links a.active::after { transform: scaleX(1); }
+/* hovering a NON-active tab: underline slides in, then a coral gradient drifts */
+html[data-nav="slide"] .nav-links a:not(.active):hover::after {
+  transform: scaleX(1);
+  background-image: linear-gradient(
+    90deg,
+    var(--coral) 0%,
+    rgba(var(--coral-particle), 0.25) 50%,
+    var(--coral) 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: repeat;
+  animation: navSlideGradient 1.5s linear infinite;
+}
+/* while any non-active tab is hovered, fade out the active tab's static underline */
+html[data-nav="slide"] .nav-links:has(a:not(.active):hover) a.active::after {
+  opacity: 0;
+}
+@keyframes navSlideGradient {
+  from { background-position: 0% 50%; }
+  to { background-position: -200% 50%; }
+}
+/* reduced motion: keep the gradient, just drift it at half speed */
+@media (prefers-reduced-motion: reduce) {
+  html[data-nav="slide"] .nav-links a:not(.active):hover::after {
+    animation-duration: 3s;
+  }
+}
 
 /* ============================================================
    Entrance (variant: stagger [default] | fade | none)

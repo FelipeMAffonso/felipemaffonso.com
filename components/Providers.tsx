@@ -11,8 +11,8 @@ export function Providers({ children }: { children: ReactNode }) {
     <ThemeProvider
       attribute="class"
       storageKey="site-theme"   /* migrate cleanly from the 11ty site's key */
-      defaultTheme="light"      /* the old inline script defaulted to light */
-      enableSystem={true}       /* let the switcher offer a "system" pick */
+      defaultTheme="system"     /* follow the OS preference until the user picks */
+      enableSystem={true}       /* resolves to light or dark; the nav toggle stays */
       enableColorScheme={false}
     >
       <VariantProvider>

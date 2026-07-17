@@ -45,6 +45,40 @@ export function SoundProvider({ children }: { children: ReactNode }) {
     }
     setEnabledState(initial);
     setEnabled(initial);
+
+    // Audio latency warm-up. cuelume builds ONE shared AudioContext lazily
+    // on the first play() and, while that context is still suspended, awaits
+    // context.resume() before rendering the first cue. That async device
+    // wake-up is the cost the first sound pays; the cue envelopes themselves
+    // are ~1ms (tick/release use attack 0.001). cuelume exposes no
+    // context/init/resume handle, and its only context-creating path (play)
+    // is always audible, so its own context cannot be warmed silently.
+    // Instead, on the first user gesture we create and resume a parallel,
+    // silent AudioContext (no nodes attached), which opens the browser's
+    // shared audio device up front. cuelume's context then resumes against an
+    // already-running audio thread, so the first real cue skips the cold start.
+    let warmed = false;
+    let warmCtx: AudioContext | null = null;
+    const warmUp = () => {
+      if (warmed) return;
+      warmed = true;
+      try {
+        const Ctor =
+          window.AudioContext ||
+          (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+        if (!Ctor) return;
+        warmCtx = new Ctor();
+        void warmCtx.resume().catch(() => {});
+      } catch {
+        /* audio unavailable — nothing to warm */
+      }
+    };
+    window.addEventListener("pointerdown", warmUp, { capture: true, once: true });
+
+    return () => {
+      window.removeEventListener("pointerdown", warmUp, true);
+      if (warmCtx) void warmCtx.close().catch(() => {});
+    };
   }, []);
 
   const toggle = useCallback(() => {

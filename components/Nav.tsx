@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { ParticleField } from "./ParticleField";
 import { ThemeToggle } from "./ThemeToggle";
 import { SoundToggle } from "./SoundToggle";
-import { useVariants } from "@/lib/variants";
+import { useSound } from "@/lib/sound";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -23,7 +23,7 @@ function norm(path: string) {
 
 export function Nav() {
   const pathname = usePathname();
-  const { soundmap } = useVariants();
+  const { play } = useSound();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -38,17 +38,26 @@ export function Nav() {
   useEffect(() => setMenuOpen(false), [pathname]);
 
   const current = norm(pathname || "/");
-  const tick = soundmap === "B" ? { "data-cuelume-hover": "tick" } : {};
+
+  // Navigating to a DIFFERENT page plays a page-change cue; clicking the
+  // tab you are already on stays silent.
+  const onNavClick = (href: string) => {
+    if (norm(href) !== current) play("release");
+  };
 
   return (
     <div className={`nav-bar${scrolled ? " scrolled" : ""}`}>
       <ParticleField variant="nav" />
       <nav className="nav">
-        <Link href="/" className="nav-name">Felipe M. Affonso</Link>
+        <Link href="/" className="nav-name" onClick={() => onNavClick("/")}>Felipe M. Affonso</Link>
         <ul className={`nav-links${menuOpen ? " open" : ""}`}>
           {LINKS.map((l) => (
             <li key={l.href}>
-              <Link href={l.href} className={norm(l.href) === current ? "active" : undefined} {...tick}>
+              <Link
+                href={l.href}
+                className={norm(l.href) === current ? "active" : undefined}
+                onClick={() => onNavClick(l.href)}
+              >
                 {l.label}
               </Link>
             </li>

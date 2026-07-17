@@ -12,7 +12,6 @@
 import { useState, type CSSProperties, type KeyboardEvent } from "react";
 import { preprints, journals, type Pub, type PubLink } from "@/lib/publications";
 import { useSound } from "@/lib/sound";
-import { useVariants } from "@/lib/variants";
 import {
   JournalIcon, DownloadIcon, OsfIcon, GitHubGlyph, ArxivIcon, PsyArxivIcon, SsrnIcon,
 } from "./icons";
@@ -107,13 +106,12 @@ function PublicationEntry({
 export function PublicationsSections() {
   const [openId, setOpenId] = useState<string | null>(null);
   const { play } = useSound();
-  const { soundmap } = useVariants();
-  const pressSounds = soundmap === "B";
+  const pressSounds = true;
 
   const toggle = (id: string) => {
     setOpenId((prev) => {
       if (prev === id) {
-        play("droplet"); // collapse
+        play("page"); // collapse / go back
         return null;
       }
       play("bloom"); // reveal / expand

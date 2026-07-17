@@ -15,9 +15,8 @@
 
    Trivially removable: delete this file, delete <VariantProvider> and
    <VariantSwitcher> from Providers, remove the useVariants() reads
-   (Nav, ThemeToggle, PublicationsSections), and drop the pre-paint
-   VARIANT_SCRIPT. The shipping DEFAULTS below are the recommended
-   choices and survive removal.
+   (ThemeToggle), and drop the pre-paint VARIANT_SCRIPT. The shipping
+   DEFAULTS below are the recommended choices and survive removal.
    ============================================================ */
 
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
@@ -26,7 +25,6 @@ export type NavVariant = "underline" | "pill" | "slide";
 export type EntranceVariant = "stagger" | "fade" | "none";
 export type AccordionVariant = "crisp" | "soft";
 export type ThemeAnimVariant = "morph" | "swap";
-export type SoundMapVariant = "A" | "B";
 export type HeroWeightVariant = "600" | "500" | "300";
 export type DarkThemeVariant = "cool" | "warm";
 
@@ -35,7 +33,6 @@ export type Variants = {
   entrance: EntranceVariant;
   accordion: AccordionVariant;
   themeanim: ThemeAnimVariant;
-  soundmap: SoundMapVariant;
   heroweight: HeroWeightVariant;
   darktheme: DarkThemeVariant;
 };
@@ -43,12 +40,11 @@ export type Variants = {
 // SHIPPING DEFAULTS (the recommendation). These win when the variant
 // system is stripped.
 const DEFAULTS: Variants = {
-  nav: "underline",
-  entrance: "stagger",
+  nav: "slide",
+  entrance: "fade",
   accordion: "crisp",
   themeanim: "morph",
-  soundmap: "B",
-  heroweight: "600",
+  heroweight: "500",
   darktheme: "cool",
 };
 
@@ -57,15 +53,14 @@ const ALLOWED: Record<keyof Variants, string[]> = {
   entrance: ["stagger", "fade", "none"],
   accordion: ["crisp", "soft"],
   themeanim: ["morph", "swap"],
-  soundmap: ["A", "B"],
   heroweight: ["600", "500", "300"],
   darktheme: ["cool", "warm"],
 };
 
 // CSS-driven axes ride on <html data-*>. The pre-paint inline script in
 // layout sets the same attributes (no flash on hard reload); these keep them
-// in sync for live changes and SPA navigation. themeanim and soundmap are
-// consumed in React (useVariants) rather than via a data-attribute.
+// in sync for live changes and SPA navigation. themeanim is consumed in
+// React (useVariants) rather than via a data-attribute.
 const CSS_AXES: (keyof Variants)[] = ["nav", "entrance", "accordion", "heroweight", "darktheme"];
 
 const STORAGE_KEY = "site-variants";

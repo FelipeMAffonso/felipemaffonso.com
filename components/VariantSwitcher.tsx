@@ -7,9 +7,9 @@
    card with one row per axis, each row a segmented control. Changes
    apply live, no reload. "Copy picks" copies the current live line.
 
-   Nav / entrance / accordion / theme animation / sound map / name
-   weight / dark palette persist through lib/variants.tsx. The Sound and
-   Theme rows surface the existing controls (useSound + next-themes) so
+   Nav / entrance / accordion / theme animation / name weight / dark
+   palette persist through lib/variants.tsx. The Sound and Theme rows
+   surface the existing controls (useSound + next-themes) so
    Felipe can adjudicate the shipping default without a second widget.
    Remove this file (and its mount in Providers) to strip the surface.
    ============================================================ */
@@ -57,14 +57,6 @@ const ROWS: Row[] = [
     options: [
       { value: "morph", label: "morph" },
       { value: "swap", label: "swap" },
-    ],
-  },
-  {
-    key: "soundmap",
-    label: "Sound map",
-    options: [
-      { value: "A", label: "A" },
-      { value: "B", label: "B" },
     ],
   },
   {
@@ -134,7 +126,7 @@ export function VariantSwitcher() {
 
   const soundState = enabled ? "on" : "off";
   const themeState = mounted && theme ? theme : "light";
-  const picks = `nav=${variants.nav} entrance=${variants.entrance} accordion=${variants.accordion} themeanim=${variants.themeanim} soundmap=${variants.soundmap} sound=${soundState} heroweight=${variants.heroweight} darktheme=${variants.darktheme} theme=${themeState}`;
+  const picks = `nav=${variants.nav} entrance=${variants.entrance} accordion=${variants.accordion} themeanim=${variants.themeanim} sound=${soundState} heroweight=${variants.heroweight} darktheme=${variants.darktheme} theme=${themeState}`;
 
   const copyPicks = async () => {
     try {

@@ -58,15 +58,6 @@ export default function OptionsPage() {
             <a href="/?themeanim=swap">simple swap</a>
           </div>
         </div>
-
-        <div className="opt-block">
-          <h2>e. Sound map</h2>
-          <p>Turn sound on (nav speaker), then interact. Open Research to hear the panel.</p>
-          <div className="opt-links">
-            <a href="/research/?soundmap=A">A — minimal (toggle + accordion)</a>
-            <a href="/research/?soundmap=B">B — fuller (+ nav tick, button press/release) (default)</a>
-          </div>
-        </div>
       </main>
     </>
   );
