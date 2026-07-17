@@ -111,7 +111,7 @@ export function PublicationsSections() {
   const toggle = (id: string) => {
     setOpenId((prev) => {
       if (prev === id) {
-        play("page"); // collapse / go back
+        play("whisper"); // collapse / go back
         return null;
       }
       play("bloom"); // reveal / expand
