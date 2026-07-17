@@ -77,6 +77,24 @@
   --hover-wash: rgba(255, 255, 255, 0.045);
 }
 
+/* ---- dark palette temperature (variant: cool [default] | warm) ----
+   Warm re-anchors the neutral tokens to a red/amber cast while keeping
+   the coral accent unchanged. Higher specificity than .dark so it wins;
+   only the neutral cast changes, the whole set stays coherent. */
+html[data-darktheme="warm"].dark {
+  --bg: #191613;
+  --surface: #211d18;
+  --surface-2: #2a251f;
+  --text: #ece8e2;
+  --text-secondary: #cdc6bb;
+  --text-dim: #948c7f;
+  --border: #35302a;
+  --border-light: #2a251f;
+  --border-strong: #453f37;
+
+  --hover-wash: rgba(255, 240, 224, 0.05);
+}
+
 /* ---- reset ------------------------------------------------- */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -307,6 +325,10 @@ a:hover { color: var(--coral-text-hover); }
   margin-bottom: 8px;
   line-height: 1.05;
 }
+/* hero name weight (variant: 600 [default] | 500 | 300), home hero only */
+html[data-heroweight="600"] .hero-name { font-weight: 600; }
+html[data-heroweight="500"] .hero-name { font-weight: 500; }
+html[data-heroweight="300"] .hero-name { font-weight: 300; }
 .hero-title {
   font-size: 16px;
   font-weight: 400;
@@ -842,6 +864,126 @@ html[data-accordion="soft"] .pub-detail-pad {
   transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint);
 }
 .opt-links a:hover { border-color: var(--coral); color: var(--coral); background: var(--coral-tint); }
+
+/* ============================================================
+   Variant switcher (dev/adjudication), floating, every page
+   ============================================================ */
+.vswitch {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  font-family: var(--font-sans);
+}
+@media print { .vswitch { display: none; } }
+
+.vswitch-fab {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 8px 14px;
+  cursor: pointer;
+  box-shadow: var(--shadow-panel);
+  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.2s var(--ease-out-quint), transform 0.13s var(--ease-out-quint);
+}
+.vswitch-fab:hover { border-color: var(--coral); color: var(--coral); }
+@media (hover: hover) { .vswitch-fab:active { transform: scale(0.97); } }
+.vswitch-caret {
+  width: 12px; height: 12px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.22s var(--ease-out-quint);
+}
+.vswitch[data-open="true"] .vswitch-caret { transform: rotate(180deg); }
+
+.vswitch-panel {
+  width: 272px;
+  max-height: min(72vh, 560px);
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-panel);
+  padding: 14px 14px 12px;
+  animation: vswitchIn 0.2s var(--ease-out-quint) both;
+}
+@keyframes vswitchIn {
+  from { opacity: 0; transform: translateY(6px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) { .vswitch-panel { animation: none; } }
+
+.vswitch-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 11px;
+}
+.vswitch-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  letter-spacing: -0.005em;
+}
+.vswitch-seg {
+  display: flex;
+  gap: 3px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-btn);
+  padding: 3px;
+}
+.vswitch-btn {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: color 0.14s var(--ease-out-quint), background-color 0.14s var(--ease-out-quint);
+}
+.vswitch-btn:hover { background: var(--hover-wash); color: var(--text); }
+.vswitch-btn.is-active {
+  background: var(--coral-tint-strong);
+  color: var(--coral-text);
+}
+
+.vswitch-copy {
+  width: 100%;
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-btn);
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint);
+}
+.vswitch-copy:hover { border-color: var(--coral); color: var(--coral); background: var(--coral-tint); }
+
+@media (max-width: 768px) {
+  .vswitch { right: 14px; bottom: 14px; }
+  .vswitch-panel { width: min(272px, calc(100vw - 28px)); }
+}
 
 /* ============================================================
    Mobile
