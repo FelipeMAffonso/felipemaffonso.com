@@ -129,10 +129,10 @@ export const journals: Pub[] = [
       </>
     ),
     links: [
-      { kind: "journal", href: "https://doi.org/10.1093/jcr/ucag006", label: "Journal website", desc: "Full text (open access)" },
+      { kind: "journal", href: "https://doi.org/10.1093/jcr/ucag006", label: "Journal website", desc: "Open access" },
       { kind: "download", href: "/files/papers/cognitive-traps.md", label: "Machine-readable", desc: "Markdown (.md)", download: true },
       { kind: "osf", href: "https://osf.io/f2jhx/", label: "Data and code (OSF)", desc: "osf.io/f2jhx" },
-      { kind: "github", href: "https://FelipeMAffonso.github.io/cognitive-trap-repository", label: "Cognitive trap repository", desc: "Validated traps for deployment" },
+      { kind: "github", href: "https://FelipeMAffonso.github.io/cognitive-trap-repository", label: "Cognitive trap repository", desc: "Validated traps" },
     ],
     cover: { src: "/images/covers/cognitive-traps.jpg", alt: "Journal of Consumer Research", w: 520, h: 688 },
     abstract: (

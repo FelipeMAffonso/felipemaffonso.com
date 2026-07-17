@@ -29,8 +29,10 @@
   --text: #1a1a1a;
   --text-secondary: #3a3f45;
   --text-dim: #6b7078;
-  --coral: #DA7756;            /* THE accent — unchanged */
+  --coral: #DA7756;            /* THE accent — fills, icons, particles, ring (unchanged) */
   --coral-dark: #c86a4a;       /* hover / pressed */
+  --coral-text: #b3572f;       /* deeper coral for TEXT on light bg (AA: 4.86:1 on #fff, 4.61:1 on #f8f9fa) */
+  --coral-text-hover: #99461f;
   --coral-tint: rgba(218, 119, 86, 0.06);
   --coral-tint-strong: rgba(218, 119, 86, 0.10);
   --coral-ring: rgba(218, 119, 86, 0.38);
@@ -57,6 +59,8 @@
   --text-dim: #8b9099;
   --coral: #e08866;            /* unchanged from current dark */
   --coral-dark: #eda48a;
+  --coral-text: #e08866;       /* dark coral already reads on dark bg — unchanged */
+  --coral-text-hover: #eda48a;
   --coral-tint: rgba(224, 136, 102, 0.10);
   --coral-tint-strong: rgba(224, 136, 102, 0.16);
   --coral-ring: rgba(224, 136, 102, 0.42);
@@ -93,11 +97,11 @@ body {
 }
 
 a {
-  color: var(--coral);
+  color: var(--coral-text);
   text-decoration: none;
   transition: color 0.15s var(--ease-out-quint);
 }
-a:hover { color: var(--coral-dark); }
+a:hover { color: var(--coral-text-hover); }
 
 /* ---- two-layer focus ring, :focus-visible only ------------- */
 :focus-visible {
@@ -142,6 +146,10 @@ a:hover { color: var(--coral-dark); }
   height: 100%;
   z-index: 1;
   pointer-events: none;
+  /* fade the constellation in the centre (behind the links) so stray dots
+     don't read between the nav items; keep it lively at the name + toggles */
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 14%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.3) 60%, #000 86%, #000 100%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 14%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.3) 60%, #000 86%, #000 100%);
 }
 
 .nav {
@@ -333,20 +341,6 @@ a:hover { color: var(--coral-dark); }
 }
 .hero-bio em { color: var(--text); font-style: italic; }
 
-/* entrance (JS-gated; static under reduced-motion) */
-.reveal {
-  opacity: 0;
-  transform: translateY(8px);
-}
-.reveal.in {
-  opacity: 1;
-  transform: none;
-  transition: opacity 0.5s var(--ease-out-quint), transform 0.5s var(--ease-out-quint);
-}
-@media (prefers-reduced-motion: reduce) {
-  .reveal { opacity: 1; transform: none; }
-}
-
 /* ============================================================
    Page layout
    ============================================================ */
@@ -408,8 +402,8 @@ a:hover { color: var(--coral-dark); }
   color: var(--text);
   line-height: 1.7;
 }
-.pub-entry a { color: var(--coral); transition: color 0.15s var(--ease-out-quint); }
-.pub-entry a:hover { color: var(--coral-dark); }
+.pub-entry a { color: var(--coral-text); transition: color 0.15s var(--ease-out-quint); }
+.pub-entry a:hover { color: var(--coral-text-hover); }
 
 .pub-citation {
   cursor: pointer;
@@ -424,7 +418,7 @@ a:hover { color: var(--coral-dark); }
   color: var(--text-dim);
 }
 .pub-citation:hover { background-color: var(--hover-wash); }
-.pub-citation em { color: var(--coral); font-style: italic; }
+.pub-citation em { color: var(--coral-text); font-style: italic; }
 
 .pub-chevron {
   position: absolute;
@@ -457,10 +451,18 @@ a:hover { color: var(--coral-dark); }
 .pub-detail-inner {
   overflow: hidden;
   min-height: 0;
+  /* collapsed panels drop their links from the tab order (keyboard focus);
+     the delayed hide keeps content visible through the 240ms collapse */
+  visibility: hidden;
+  transition: visibility 0s linear 0.24s;
+}
+.pub-entry.open .pub-detail-inner {
+  visibility: visible;
+  transition-delay: 0s;
 }
 
 .pub-detail-pad {
-  padding: 16px 18px 18px;
+  padding: 16px 16px 18px;
   margin-top: 10px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -476,18 +478,18 @@ a:hover { color: var(--coral-dark); }
   transition-delay: 0.06s;
 }
 
-/* button row (locked anatomy; dynamics elevated) */
+/* button row (locked anatomy; compact so all four fit one row like the live site) */
 .pub-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   margin-bottom: 16px;
 }
 .pub-link {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
+  gap: 8px;
+  padding: 8px 8px;
   border-radius: var(--radius-btn);
   border: 1px solid var(--border);
   background: var(--surface);
@@ -556,7 +558,7 @@ img.pub-link-icon { stroke: none; }
 
 /* subtle in-panel stagger of button + abstract on open */
 .pub-entry.open .pub-detail-pad > * {
-  animation: panelRise 0.34s var(--ease-out-quint) both;
+  animation: panelRise 0.26s var(--ease-out-quint) both;
 }
 .pub-entry.open .pub-detail-pad > *:nth-child(1) { animation-delay: 0.08s; }
 .pub-entry.open .pub-detail-pad > *:nth-child(2) { animation-delay: 0.13s; }
@@ -740,7 +742,7 @@ img.pub-link-icon { stroke: none; }
   display: grid;
   place-items: center;
   color: var(--text-dim);
-  transition: opacity 0.28s var(--ease-out-quint), transform 0.34s var(--ease-out-quint);
+  transition: opacity 0.24s var(--ease-out-quint), transform 0.28s var(--ease-out-quint);
 }
 .theme-toggle:hover .theme-icon-face { color: var(--coral); }
 .theme-icon-face.is-on { opacity: 1; transform: rotate(0deg) scale(1); }
@@ -783,25 +785,32 @@ html[data-nav="slide"] .nav-links a.active::after { transform: scaleX(1); }
    Entrance (variant: stagger [default] | fade | none)
    CSS-animation driven — content is never JS-gated invisible.
    ============================================================ */
+/* Blooms into place the instant content renders. CSS-driven so it plays even
+   before hydration; the first element (title/hero) leads with zero delay, the
+   stagger is tight and capped, the whole sequence settles under ~400ms. */
 .enter {
-  animation: enterRise 0.5s var(--ease-out-quint) both;
-  animation-delay: calc(var(--enter-i, 0) * 0.04s);
+  animation: enterRise 0.24s var(--ease-out-quint) both;
+  animation-delay: calc(min(var(--enter-i, 0), 5) * 0.026s);
 }
 html[data-entrance="fade"] .enter {
   animation-name: enterFade;
-  animation-delay: calc(var(--enter-i, 0) * 0.03s);
+  animation-delay: calc(min(var(--enter-i, 0), 5) * 0.02s);
 }
 html[data-entrance="none"] .enter { animation: none; }
 @keyframes enterRise {
-  from { opacity: 0; transform: translateY(7px); }
+  from { opacity: 0.01; transform: translateY(6px); }
   to { opacity: 1; transform: none; }
 }
 @keyframes enterFade {
-  from { opacity: 0; }
+  from { opacity: 0.01; }
   to { opacity: 1; }
 }
+/* reduced motion: gentler — a quick opacity fade, no translate, no stagger */
 @media (prefers-reduced-motion: reduce) {
-  .enter { animation: none !important; }
+  .enter {
+    animation: enterFade 0.18s var(--ease-out-quint) both !important;
+    animation-delay: 0ms !important;
+  }
 }
 
 /* ============================================================
