@@ -1,132 +1,287 @@
-# Personal Website — Felipe M. Affonso
+# Personal Website of Felipe M. Affonso
 
-## Site Overview
-- **URL:** https://felipemaffonso.com
-- **Repo:** https://github.com/FelipeMAffonso/felipemaffonso.com
-- **Hosting:** GitHub Pages (auto-deploys on push to `master`)
-- **Stack:** 11ty (Eleventy) static site generator
-- **Design:** Coral particle network (#DA7756), minimal aesthetic, system fonts
+This is the source for Felipe's personal academic site. It is a Next.js 15
+static export served from GitHub Pages. This document is the full reference for
+how the site is built and the rules that govern changes to it.
 
-## How to Update
+## What the site is
 
-1. Edit the relevant file (see structure below)
-2. Commit and push to `master`
-3. GitHub Actions builds and deploys automatically (~15 seconds)
+- Live URL: https://felipemaffonso.com
+- Repo: https://github.com/FelipeMAffonso/felipemaffonso.com
+- Hosting: GitHub Pages. A push to `master` builds and deploys automatically.
+- Purpose: Felipe's academic home page. Five pages: Home (hero, photo, bio),
+  Research (publications list with expandable panels), Teaching (courses, awards,
+  student quotes), CV (Drive PDF viewer plus a download), and Contact (office and
+  social links).
+- Look: hairline borders, soft layered shadows, Geist type, a coral accent
+  (#DA7756), and a coral particle constellation in the nav bar and the home hero.
 
-## File Structure
+## Stack
+
+- Next.js 15, App Router. Every page is a route folder under `app/`.
+- Static export: `next.config.mjs` sets `output: 'export'`, so the build writes
+  plain HTML/CSS/JS to `out/` with no server runtime. `trailingSlash: true` keeps
+  URLs like `/research/`. `images.unoptimized: true` because Pages has no image
+  optimizer. `typescript.ignoreBuildErrors: false`, so a type error fails the build.
+- Tailwind v4 plus handwritten CSS. `app/globals.css` imports Tailwind and then
+  defines all the real design tokens and component styles by hand. The tokens are
+  plain CSS custom properties on `:root` and `.dark`. There is no `tailwind.config`;
+  the `@theme inline` block at the top of `globals.css` holds the font and motion tokens.
+- next-themes for light/dark. `attribute="class"`, `storageKey="site-theme"`,
+  `defaultTheme="system"`, `enableSystem`. The class toggling drives the `.dark`
+  token block.
+- cuelume for interaction sounds. Synthesized via the Web Audio API, no audio
+  files. Wrapped in `lib/sound.tsx`.
+- Geist is self-hosted through the `geist` package (`GeistSans`, `GeistMono` in
+  `app/layout.tsx`). No external font request.
+
+## Repo map
 
 ```
-personal-site/
-├── .eleventy.js              # 11ty config (passthrough copies)
+felipemaffonso.com/
+├── app/                      # App Router: routes, layout, global CSS
+│   ├── layout.tsx            # Root layout: <html>/<body>, metadata, analytics
+│   │                         #   scripts, CV prefetch/preconnect, Providers,
+│   │                         #   Nav, footer, the persistent CvFrame
+│   ├── globals.css           # All design tokens + every component style
+│   ├── page.tsx              # Home: hero, photo, bio, Person JSON-LD
+│   ├── research/page.tsx     # Research: renders <PublicationsSections/>
+│   ├── teaching/page.tsx     # Teaching
+│   ├── cv/page.tsx           # CV: intro, download link, viewer placeholder slot
+│   ├── contact/page.tsx      # Contact
+│   ├── robots.ts             # robots.txt (generated)
+│   └── sitemap.ts            # sitemap.xml (generated)
+├── components/
+│   ├── Providers.tsx         # ThemeProvider + SoundProvider wrapper
+│   ├── Nav.tsx               # Top nav, mobile menu, page-change sound
+│   ├── ParticleField.tsx     # Coral particle constellation (nav + hero)
+│   ├── PublicationsSections.tsx  # The research list + the LOCKED panel
+│   ├── ThemeToggle.tsx       # Sun/moon toggle, baked morph animation
+│   ├── SoundToggle.tsx       # Mute/unmute interaction sounds
+│   ├── CvFrame.tsx           # The single persistent CV Drive iframe
+│   ├── CvDownload.tsx        # The Download PDF button
+│   ├── PageBanner.tsx        # Inner-page title banner
+│   └── icons.tsx             # Publication link icons (journal, OSF, arXiv, ...)
+├── lib/
+│   ├── publications.tsx      # Publication data (citations, abstracts, links, covers)
+│   └── sound.tsx             # cuelume wrapper: on/off, warm-up, play()
+├── public/                   # Static assets copied verbatim into out/
+│   ├── CNAME                 # felipemaffonso.com (the custom domain)
+│   ├── favicon.svg
+│   ├── files/cv.pdf          # Self-hosted CV for the download button
+│   ├── files/papers/         # Machine-readable paper .md files
+│   └── images/               # headshot, journal covers, link icons
+├── next.config.mjs           # Static export config
 ├── package.json
-├── src/
-│   ├── _includes/
-│   │   └── base.njk          # Base layout (nav, particles, scripts)
-│   ├── _data/
-│   │   ├── site.json          # Name, role, institution, email, social links
-│   │   ├── publications.json  # Research publications (used by Decap CMS)
-│   │   └── courses.json       # Teaching courses (used by Decap CMS)
-│   ├── css/
-│   │   └── style.css          # All styles (single file)
-│   ├── js/
-│   │   ├── particles.js       # Coral particle network animation
-│   │   ├── main.js            # Nav scroll effects, hamburger menu
-│   │   ├── router.js          # SPA router (no full page reloads)
-│   │   └── research.js        # Publication toggle (Preprints/Journal)
-│   ├── images/
-│   │   └── headshot.jpg       # Profile photo
-│   ├── admin/
-│   │   ├── index.html         # Decap CMS (optional browser editor)
-│   │   └── config.yml         # CMS field definitions
-│   ├── index.njk              # HOME — hero with particles, photo, bio
-│   ├── research.njk           # RESEARCH — publications list
-│   ├── teaching.njk           # TEACHING — courses, awards, student quotes
-│   ├── cv.njk                 # CV — Google Drive PDF embed + download
-│   └── contact.njk            # CONTACT — office info, social links
-└── .github/
-    └── workflows/
-        └── deploy.yml         # GitHub Actions: build 11ty → deploy to Pages
+└── .github/workflows/deploy.yml   # Build + deploy to Pages on push to master
 ```
 
-## Common Updates
+Content data lives in `lib/publications.tsx` (Research) and directly in the page
+components (`app/teaching/page.tsx`, `app/contact/page.tsx`, the home bio in
+`app/page.tsx`).
 
-### Add or update a publication
+## Design system
 
-Publications live in `src/research.njk`. Each paper is a `<li class="pub-entry">` with an expandable detail panel (accordion). Structure per entry:
+### Color tokens
 
-```
-<li class="pub-entry">
-  <div class="pub-citation">             ← clickable area (toggles panel)
-    <span class="pub-text">...</span>    ← full citation with <a href="DOI"> on journal name
-    <svg class="pub-chevron">...</svg>   ← rotation indicator
-  </div>
-  <div class="pub-detail">               ← animated expand panel
-    <div class="pub-detail-inner">
-      <div class="pub-detail-pad">
-        <div class="pub-detail-content">
-          <img class="pub-cover" ...>    ← journal cover (optional, auto-hides if missing)
-          <div class="pub-abstract">     ← abstract text
-        </div>
-        <div class="pub-actions">        ← action buttons (Journal, PDF, Data, Preprint)
-        </div>
-      </div>
-    </div>
-  </div>
-</li>
-```
+Light theme (`:root`):
 
-**When adding a new paper, ask the user for:**
-1. Full citation (authors, year, title, journal, volume, pages)
-2. DOI or preprint URL
-3. Abstract text
-4. Journal cover image (user provides the file or URL to download)
-5. Additional links: PDF download URL, replication data (OSF), preprint link
-6. Section placement: Preprints or Journal Publications
-7. Equal authorship notation (asterisks on author names)
+| Token | Value | Use |
+|---|---|---|
+| `--bg` | `#f8f9fa` | page background |
+| `--surface` | `#ffffff` | raised cards and panels |
+| `--surface-2` | `#f1f2f4` | quiet hover base |
+| `--text` | `#1a1a1a` | primary text |
+| `--text-secondary` | `#3a3f45` | body text |
+| `--text-dim` | `#6b7078` | labels, meta |
+| `--coral` | `#DA7756` | the accent: fills, icons, particles, active underline |
+| `--coral-dark` | `#c86a4a` | hover/pressed accent |
+| `--coral-text` | `#b3572f` | deeper coral for text on light bg (AA contrast) |
+| `--border` | `#e5e7ea` | hairline borders |
 
-**Status conventions in the citation parenthetical:**
-- `(YYYY)` — published, with volume/pages in citation
-- `(forthcoming)` — accepted, awaiting publication. Use this once the paper is accepted with no further revisions and a DOI may already be assigned
-- `(conditionally accepted)` — accepted pending minor revisions. No year. Goes under **Journal Publications** at the top. Typically has no buttons (no preprint, no DOI, no data link yet) — just citation + abstract panel + journal cover
+Dark theme (`.dark`) is the cool palette:
 
-**When in doubt about buttons:** if the user says "no preprint, no buttons," omit the entire `<div class="pub-links">` block. The abstract panel renders fine without it.
+| Token | Value |
+|---|---|
+| `--bg` | `#16171b` |
+| `--surface` | `#1e2025` |
+| `--surface-2` | `#262930` |
+| `--text` | `#e8e8ea` |
+| `--text-secondary` | `#c3c7cd` |
+| `--text-dim` | `#8b9099` |
+| `--coral` | `#e08866` |
+| `--coral-text` | `#e08866` (already reads on dark) |
+| `--border` | `#2b2e35` |
 
-**Cover images** go in `src/images/covers/` named per paper (not per journal — journals change covers across issues):
-- `cognitive-traps.jpg` — Brief Commentary (JCR)
-- `space-commons.jpg` — Behavioral Micro-Foundations (RP)
-- `simple-eco-friendly.jpg` — Simple is Eco-Friendly (JA)
-- `concealing-prices.jpg` — Concealing Prices (JCR)
-- `disease-cues.jpg` — Consumer Responses to Disease Cues (EJM)
-- `marketing-by-design.jpg` — Marketing by Design (JM)
-- `serendipity.jpg` — Serendipity (JM)
-- `constructive-choice.jpg` — Boundaries of Constructive Choice (JCP)
-- `ad-skepticism.jpg` — Advertising Skepticism (P&M)
+The coral hue is the signature: `#DA7756` in light, `#e08866` in dark, with
+`#b3572f` as the darker text-coral used for links on light backgrounds.
 
-When adding a new paper, name the cover after the paper slug, not the journal.
+### Type scale
 
-**Link labels** (standardized):
-- Journal link: label "Journal website", desc "Full text" (or "Full text (open access)" for OA)
-- Preprint link: label "[Platform]" (PsyArXiv/arXiv/SSRN), desc "Preprint with PDF download"
-- Machine-readable: label "Machine-readable", desc "Markdown (.md)" or "LaTeX source (.tex)"
-- OSF data: label "Data and code (OSF)", desc "[osf.io/xxxxx]" (the actual URL)
-- OSF icon SVG: use the OSF logo from contact.njk (fill="currentColor", stroke="none")
+- Home name: 40px, weight 500 (30px then 26px on smaller screens).
+- Home title line: 16px, weight 400.
+- Inner-page banner heading: 29px, weight 500 (25px on mobile).
+- Section titles: 12px, weight 600, uppercase, wide letter-spacing.
+- Body and content: 16px base, roughly 15 to 15.5px for paragraphs and list items.
+- Publication entries: 15px.
 
-**Action button SVG icons:**
-- Journal/DOI (external link): `<svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`
-- PDF (download): `<svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`
-- Preprint (document): `<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
-- Data/Replication (database): `<svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>`
+### Motion vocabulary
 
-**Button order** (standardized for all papers):
-1. Journal website (if published)
-2. Preprint (arXiv/PsyArXiv/SSRN, if applicable)
-3. Machine-readable (.md download)
-4. Data and code (OSF, if applicable)
-5. Extra (e.g., Cognitive trap repository)
+- Motion tokens live in the `@theme inline` block: `--ease-out-quint:
+  cubic-bezier(0.23, 1, 0.32, 1)` is the house curve for almost everything;
+  `--ease-in-out-strong: cubic-bezier(0.77, 0, 0.175, 1)` and `--ease-drawer:
+  cubic-bezier(0.32, 0.72, 0, 1)` exist for heavier transitions.
+- Durations: nothing in the UI runs longer than about 300ms. Entrance is 0.24s.
+  The publication panel expands over 0.24s (`grid-template-rows: 0fr to 1fr`).
+  The theme icon morph is 0.24 to 0.28s. The nav underline slides in over 0.22s.
+- Entrance: elements with `.enter` fade in (`enterFade`, opacity only) with a
+  tight, capped stagger keyed off `--enter-i`. The animation is CSS-driven so it
+  plays before hydration and content is never invisible waiting on JS.
+- Nav gradient hover: every nav tab has a coral underline pseudo-element that sits
+  at `scaleX(0)`. The active page shows it at `scaleX(1)` as a static coral line.
+  Hovering a non-active tab slides its underline in and animates a moving coral
+  gradient across it (`navSlideGradient`, 1.5s linear infinite, a 200% background
+  drifting), which reads as "this is where you would go". While a non-active tab
+  is hovered, the active tab's static underline fades out.
+- Reduced motion policy: calmer, never frozen. `prefers-reduced-motion: reduce`
+  keeps animations present but gentler. The entrance becomes a quick opacity fade
+  with no stagger. The nav gradient still drifts, at half speed. The CV loading
+  shimmer still moves, at half speed. Nothing is switched off outright.
 
-**Accordion behavior:** One paper open at a time. JS is in `main.js` using event delegation (SPA-safe). CSS animation uses `grid-template-rows: 0fr → 1fr`. No page-specific JS init needed.
+## Sound
 
-### Create machine-readable version of a paper
+Interaction sounds are cuelume cues, wired in `lib/sound.tsx`. Global on/off is
+persisted in localStorage under `site-sound` and defaults ON. `bind()` wires the
+declarative `data-cuelume-*` attributes once and survives route swaps.
+
+### Sound map
+
+| Trigger | Cue | How it is wired |
+|---|---|---|
+| Nav link to a different page | `release` | `Nav.tsx` plays it only when the target differs from the current page; clicking the tab you are already on stays silent |
+| Publication panel open | `bloom` | `PublicationsSections.tsx` on expand |
+| Publication panel close | `whisper` | `PublicationsSections.tsx` on collapse |
+| Panel action buttons (Journal, PDF, Data, ...) | `press` then `release` | `data-cuelume-press` + `data-cuelume-release` on each `.pub-link` |
+| Theme toggle (sun/moon) | `toggle` | `data-cuelume-toggle` on the button |
+| Sound toggle | `toggle`, on turn-ON only | `lib/sound.tsx` plays the cue when enabling; turning sound off is silent |
+| CV download button | `success` | `CvDownload.tsx` on click |
+
+Hover sounds are banned. cuelume's bind is pointer-aware and hover-throttled so it
+never gets noisy, but the site wires no hover cues at all; sound is for deliberate
+actions only.
+
+Audio warm-up: the first real cue would otherwise pay a cold-start cost while the
+browser's audio device wakes up. On the first `pointerdown` anywhere, `lib/sound.tsx`
+creates and resumes a silent parallel `AudioContext` (no nodes attached) to open the
+shared audio device up front. cuelume's own context then resumes against an already
+running audio thread, so the first audible cue skips the cold start. This runs once,
+on a real user gesture, which is also what the Web Audio autoplay policy requires.
+
+## CV warm-frame architecture
+
+The problem this solves: a Drive preview iframe that cold-loads when the CV page
+opens shows a blank box for a second or two. The fix is to load the viewer when the
+site opens, on any page, so clicking CV shows an already rendered viewer.
+
+- One iframe for the whole app. `components/CvFrame.tsx` owns the single Drive
+  iframe and is mounted once in the root layout, inside `Providers`, after the page
+  children. Because it lives in the persistent layout and is always rendered, the
+  iframe element never remounts or gets reparented across route changes. Remounting
+  or reparenting an iframe reloads it, which is exactly what we avoid.
+- Document-coordinate positioning. The host div is `position: absolute` in document
+  coordinates (not `fixed`), so native scrolling keeps it glued to the page with no
+  jitter.
+- Offscreen warm-up. When the path is not `/cv/`, the host sits far offscreen
+  (`left: -12000px`, `top: 0`) at real dimensions (about 1100x1400) and stays
+  rendered. It is not `display: none` or `visibility: hidden`, because the point is
+  to let the browser actually paint and warm the frame while it is parked. While
+  offscreen it is marked `aria-hidden` and `inert` so it never enters the
+  accessibility tree or the tab order.
+- Overlay on /cv/. When the path is `/cv/`, CvFrame measures the placeholder's
+  document-coordinate rect (`getBoundingClientRect()` plus `window.scrollY`) and
+  sizes the host exactly over it, then drops `inert`/`aria-hidden`. It re-measures on
+  window resize and via a `ResizeObserver` on both the placeholder and
+  `document.body`, because content above the slot can shift.
+- The placeholder contract. `app/cv/page.tsx` renders an empty
+  `<div id="cv-embed-slot" class="cv-embed-slot">` inside `.cv-embed`, in place of an
+  inline iframe. CvFrame finds it by that id and measures it, so the id and the
+  `.cv-embed` / `.cv-embed-slot` box must stay. The slot keeps the same box and
+  aspect the old iframe had, so the page layout is pixel-identical, and it shows a
+  calm loading shimmer (`cvShimmer`) that is visible only when someone lands on
+  `/cv/` cold, since the warmed frame covers it otherwise.
+- Prefetch and preconnect stay. `app/layout.tsx` keeps `<link rel="prefetch"
+  href="/files/cv.pdf">` and `<link rel="preconnect" href="https://drive.google.com">`
+  so the download is instant and the Drive origin is warmed on every page.
+
+To change the CV file: upload the new PDF to Google Drive, get its file id, and
+update `CV_SRC` in `components/CvFrame.tsx`. Also replace `public/files/cv.pdf` for
+the self-hosted download.
+
+## Theme system
+
+- Default is `system`: the site follows the OS light/dark preference until the user
+  picks. next-themes stores the choice under `site-theme`.
+- The nav toggle pins an explicit light or dark and stays pinned.
+- The toggle icon uses the baked morph animation: the sun and moon cross-fade and
+  rotate/scale between states (`.theme-morph`, `.theme-icon-face`). There is no
+  instant-swap alternative; morph is the one behavior.
+
+## HARD LAWS
+
+These are not preferences. Do not violate them.
+
+- The expanded publication panel is a LOCKED static design. Its layout, icons,
+  buttons, spacing, and anatomy in `components/PublicationsSections.tsx` do not
+  change. The four action buttons sit in one row with their fixed icons. The only
+  changes ever permitted there are the sound cue tokens and the mechanical removal
+  of dead machinery; never a visual or layout change.
+- Site content strings are sacred. The bio paragraph, the publication citations and
+  abstracts, the journals sentence, and the teaching text are not reworded, trimmed,
+  or "improved" without Felipe asking. Treat them as fixed copy.
+- Never remove the analytics hooks: Microsoft Clarity (`wexegoktgd`), the Cloudflare
+  Web Analytics beacon (`db16777525f64d0abb899762c3c29b9c`), or the Google Search
+  Console meta tag (`x66T2PCnYUqNbY4DC-jw_Y0M7glCv8RBEzie2C69vps`). Losing the GSC
+  meta tag drops property ownership.
+- No em dashes and no emojis anywhere: not in the site, not in code comments, not in
+  commit messages, not in this document.
+- Push to `master` is deploy. Branch work stays on side branches until Felipe says to
+  merge. Committing is not deploying; merging to `master` is.
+
+### Deploy workflow
+
+`.github/workflows/deploy.yml` runs on every push to `master`:
+
+1. `actions/checkout`.
+2. `actions/setup-node` (Node 20, npm cache).
+3. `npm ci`.
+4. `npm run build` (the Next.js static export, which writes to `out/`).
+5. `actions/upload-pages-artifact` with `path: out`.
+6. `actions/deploy-pages` publishes the artifact to GitHub Pages.
+
+`public/CNAME` carries the custom domain `felipemaffonso.com` into `out/`, so Pages
+serves the site at that domain.
+
+## Journals sentence convention
+
+**Journals sentence convention** (Felipe's preferences, agreed 2026-06-24):
+- Umbrella is **"leading academic journals, including …"** (not "marketing journals") — the list now spans marketing, policy, and psychology, so "academic" is the right catch-all. No "the" before the list.
+- **Don't categorize** the list (no "general-science journals (…), marketing journals (…)" buckets). A flat `including` list reads more confidently and puts the journal *names*, not category labels, in front of the reader. `including` already implies illustrative-not-exhaustive, so "and others" never need listing.
+- **Cap at ~5 marquee names.** Past five it reads like a CV dump and the impact flattens. The full publication list lives on the research page, not the bio.
+- **Order = prestige-descending.** When general-science venues exist, lead with them, then the marketing journals.
+- **General-science tier rule:** only list **three** general-science journals if they are exactly **Nature, Science, and PNAS** (the universally recognized apex). For anything else in that tier (*Nature Human Behaviour*, etc.), list one or two and **don't pad to three** — and don't stack near-synonyms (e.g. *Nature* + *Nature Human Behaviour* + PNAS). Spell out "Proceedings of the National Academy of Sciences" (acronym in parens optional).
+- **Accuracy:** Felipe opted to phrase conditionally-accepted journals (JMR, JEP:G) under "has been published in." If he ever wants strict accuracy instead, use "published or is forthcoming in," or list only the truly-published journals. Do not name *Nature*/PNAS until actually accepted.
+- **Current sentence (2026-06-24):** "His work has been published in leading academic journals, including *Journal of Consumer Research*, *Journal of Marketing Research*, *Journal of Marketing*, *Research Policy*, and *Journal of Experimental Psychology: General*." When Nature/PNAS land, lead with them and trim to the strongest ~5 (likely dropping *Research Policy*/JEP:G from the bio list).
+
+The bio paragraph now lives in `app/page.tsx` (the `hero-bio` paragraph), not in the
+retired `src/index.njk`.
+
+## Create machine-readable version of a paper
+
+Note on paths: this pipeline is preserved verbatim from the earlier build. The
+machine-readable `.md` files now live in `public/files/papers/` (served at
+`/files/papers/`), not `src/files/papers/`, and the research page is
+`app/research/page.tsx` with its data in `lib/publications.tsx`, not `research.njk`.
+The pandoc-not-LLM rule and the verification checklist are unchanged and binding.
 
 Machine-readable `.md` files live in `src/files/papers/` and are downloadable from the research page. They are for AI tools (NotebookLM, Claude, ChatGPT, etc.).
 
@@ -229,31 +384,12 @@ npm run build && git add -A && git commit -m "Add paper-slug .md" && git push
 | `simple-eco-friendly.md` | Ryu et al. (2025) JA | 1,012 |
 | `behavioral-governance.md` | Affonso (2025) RP | 1,093 |
 
-### Update teaching
-Edit `src/teaching.njk`. Add courses to the appropriate institution section.
-
-### Update bio
-Edit `src/index.njk` — the `hero-bio` paragraph.
-
-**Journals sentence convention** (Felipe's preferences, agreed 2026-06-24):
-- Umbrella is **"leading academic journals, including …"** (not "marketing journals") — the list now spans marketing, policy, and psychology, so "academic" is the right catch-all. No "the" before the list.
-- **Don't categorize** the list (no "general-science journals (…), marketing journals (…)" buckets). A flat `including` list reads more confidently and puts the journal *names*, not category labels, in front of the reader. `including` already implies illustrative-not-exhaustive, so "and others" never need listing.
-- **Cap at ~5 marquee names.** Past five it reads like a CV dump and the impact flattens. The full publication list lives on the research page, not the bio.
-- **Order = prestige-descending.** When general-science venues exist, lead with them, then the marketing journals.
-- **General-science tier rule:** only list **three** general-science journals if they are exactly **Nature, Science, and PNAS** (the universally recognized apex). For anything else in that tier (*Nature Human Behaviour*, etc.), list one or two and **don't pad to three** — and don't stack near-synonyms (e.g. *Nature* + *Nature Human Behaviour* + PNAS). Spell out "Proceedings of the National Academy of Sciences" (acronym in parens optional).
-- **Accuracy:** Felipe opted to phrase conditionally-accepted journals (JMR, JEP:G) under "has been published in." If he ever wants strict accuracy instead, use "published or is forthcoming in," or list only the truly-published journals. Do not name *Nature*/PNAS until actually accepted.
-- **Current sentence (2026-06-24):** "His work has been published in leading academic journals, including *Journal of Consumer Research*, *Journal of Marketing Research*, *Journal of Marketing*, *Research Policy*, and *Journal of Experimental Psychology: General*." When Nature/PNAS land, lead with them and trim to the strongest ~5 (likely dropping *Research Policy*/JEP:G from the bio list).
-
-### Update contact info or social links
-Edit `src/_data/site.json`.
-
-### Update CV
-Upload new PDF to Google Drive, get the file ID, update the URLs in `src/cv.njk`.
-
-### Update headshot
-Replace `src/images/headshot.jpg`.
-
 ## Analytics (installed 2026-04-20)
+
+Note on paths: the trackers are now injected from `app/layout.tsx` (the Clarity
+IIFE and the Cloudflare beacon as `<script>` tags, the GSC token via the Next
+`metadata.verification.google` field), not from the retired `src/_includes/base.njk`.
+The tokens, dashboards, and the do-not-remove rule below are unchanged.
 
 Three trackers live on every page via `src/_includes/base.njk`:
 
@@ -274,20 +410,19 @@ curl -s https://felipemaffonso.com/ | grep -oE 'wexegoktgd'
 curl -s https://felipemaffonso.com/ | grep -oE 'db16777525f64d0abb899762c3c29b9c'
 ```
 
-## Design Rules
-- Coral accent: #DA7756 (used sparingly)
-- No emojis
-- System font stack: Segoe UI, -apple-system, BlinkMacSystemFont, Roboto
-- Background: #f8f9fa
-- Text: #1a1a1a (primary), #333333 (secondary), #666666 (dim)
-- Signature element: coral particle network animation in nav bar and home hero
-- Author name always bolded in publication entries
+## Common changes
 
-## After Making Changes
-```bash
-cd "c:/Users/fmarine/Dropbox/Felipe/CLAUDE CODE/personal-site"
-git add -A && git commit -m "description" && GIT_TERMINAL_PROMPT=0 git push
-```
-Deploy happens automatically.
+- Update the bio: edit the `hero-bio` paragraph in `app/page.tsx`. Follow the
+  journals sentence convention above.
+- Add or update a publication: edit `lib/publications.tsx` (citation, abstract,
+  links, cover). The panel design is locked; only the data changes.
+- Update teaching: edit `app/teaching/page.tsx`.
+- Update contact or social links: edit `app/contact/page.tsx`.
+- Update the CV: replace `public/files/cv.pdf` and update the Drive file id in
+  `components/CvFrame.tsx`.
+- Update the headshot: replace `public/images/headshot.jpg`.
 
-**Important:** Always use `GIT_TERMINAL_PROMPT=0` before `git push`. Without it, the push hangs waiting for an interactive credential prompt that can't appear in this terminal. The credentials are cached in Windows Credential Manager, so this flag just tells git to use them silently.
+Verify any change by running `npm run build` (it must pass with no type errors) and,
+for anything visual, by rendering the page and reading the result, not by guessing.
+The retired 11ty implementation (`src/`, `.eleventy.js`, `convert/`) was removed from
+this branch; its history is preserved in git.

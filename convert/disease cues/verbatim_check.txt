@@ -1,3 +1,0 @@
-Opening paragraph: MATCH (length 600)
-Conclusion paragraph: MATCH (length 505)
-P3 proposition text: MATCH (length 964)
