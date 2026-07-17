@@ -18,12 +18,13 @@ export default function CvPage() {
 
         <CvDownload />
 
+        {/* Placeholder that reserves the viewer's box and shows a calm loading
+            shimmer. The real Drive iframe is a single persistent element
+            (components/CvFrame) that is warmed on every page and overlaid here
+            in document coordinates, so opening this page shows an already
+            rendered viewer instead of a cold blank box. */}
         <div className="cv-embed enter">
-          <iframe
-            src="https://drive.google.com/file/d/13ephsH3DcEmjTE43Ugi3K_KZ2Kz7pwKP/preview"
-            allow="autoplay"
-            title="Curriculum Vitae — Felipe M. Affonso"
-          />
+          <div id="cv-embed-slot" className="cv-embed-slot" aria-hidden="true" />
         </div>
       </main>
     </>

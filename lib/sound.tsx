@@ -36,6 +36,15 @@ export function SoundProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     bind(); // idempotent; delegated; survives route swaps
+
+    // One-time cleanup: the dev/adjudication variant system is gone, so drop
+    // its stale localStorage key from any browser that still carries it.
+    try {
+      localStorage.removeItem("site-variants");
+    } catch {
+      /* storage blocked, nothing to clean */
+    }
+
     let initial = true;
     try {
       const stored = localStorage.getItem(STORAGE_KEY);

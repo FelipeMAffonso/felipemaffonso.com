@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { useVariants } from "@/lib/variants";
 
 const Moon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -21,7 +20,6 @@ const Sun = () => (
 
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
-  const { themeanim } = useVariants();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
@@ -31,7 +29,6 @@ export function ThemeToggle() {
   return (
     <button
       className="icon-btn theme-toggle"
-      data-themeanim={themeanim}
       data-cuelume-toggle
       aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
       title={isDark ? "Switch to light mode" : "Switch to dark mode"}

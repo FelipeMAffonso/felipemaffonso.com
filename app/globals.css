@@ -77,24 +77,6 @@
   --hover-wash: rgba(255, 255, 255, 0.045);
 }
 
-/* ---- dark palette temperature (variant: cool [default] | warm) ----
-   Warm re-anchors the neutral tokens to a red/amber cast while keeping
-   the coral accent unchanged. Higher specificity than .dark so it wins;
-   only the neutral cast changes, the whole set stays coherent. */
-html[data-darktheme="warm"].dark {
-  --bg: #191613;
-  --surface: #211d18;
-  --surface-2: #2a251f;
-  --text: #ece8e2;
-  --text-secondary: #cdc6bb;
-  --text-dim: #948c7f;
-  --border: #35302a;
-  --border-light: #2a251f;
-  --border-strong: #453f37;
-
-  --hover-wash: rgba(255, 240, 224, 0.05);
-}
-
 /* ---- reset ------------------------------------------------- */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -209,13 +191,50 @@ a:hover { color: var(--coral-text-hover); }
 .nav-links a:hover,
 .nav-links a.active { color: var(--text); }
 
-.nav-links a.active::after {
+/* The active page keeps a static coral underline; hovering a non-active tab
+   slides in an underline that is an animated moving coral gradient ("this is
+   where you would go"). Hovering the active tab, or the active tab when nothing
+   is hovered, shows the plain static underline. */
+.nav-links a::after {
   content: '';
   position: absolute;
   bottom: -3px; left: 0; right: 0;
   height: 2px;
   border-radius: 2px;
   background: var(--coral);
+  opacity: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.22s var(--ease-out-quint), opacity 0.15s var(--ease-out-quint);
+}
+/* active page: static underline shown */
+.nav-links a.active::after { transform: scaleX(1); }
+/* hovering a NON-active tab: underline slides in, then a coral gradient drifts */
+.nav-links a:not(.active):hover::after {
+  transform: scaleX(1);
+  background-image: linear-gradient(
+    90deg,
+    var(--coral) 0%,
+    rgba(var(--coral-particle), 0.25) 50%,
+    var(--coral) 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: repeat;
+  animation: navSlideGradient 1.5s linear infinite;
+}
+/* while any non-active tab is hovered, fade out the active tab's static underline */
+.nav-links:has(a:not(.active):hover) a.active::after {
+  opacity: 0;
+}
+@keyframes navSlideGradient {
+  from { background-position: 0% 50%; }
+  to { background-position: -200% 50%; }
+}
+/* reduced motion: keep the gradient, just drift it at half speed */
+@media (prefers-reduced-motion: reduce) {
+  .nav-links a:not(.active):hover::after {
+    animation-duration: 3s;
+  }
 }
 
 .nav-right {
@@ -319,16 +338,12 @@ a:hover { color: var(--coral-text-hover); }
 }
 .hero-name {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text);
   letter-spacing: -0.035em;
   margin-bottom: 8px;
   line-height: 1.05;
 }
-/* hero name weight (variant: 600 [default] | 500 | 300), home hero only */
-html[data-heroweight="600"] .hero-name { font-weight: 600; }
-html[data-heroweight="500"] .hero-name { font-weight: 500; }
-html[data-heroweight="300"] .hero-name { font-weight: 300; }
 .hero-title {
   font-size: 16px;
   font-weight: 400;
@@ -674,12 +689,49 @@ img.pub-link-icon { stroke: none; }
 .cv-download svg { width: 16px; height: 16px; stroke: var(--coral); }
 
 .cv-embed { width: 100%; margin-bottom: 24px; }
-.cv-embed iframe {
+
+/* Placeholder that reserves the viewer's box in page flow and shows a calm
+   loading shimmer. The real Drive iframe is a single persistent element
+   (components/CvFrame) overlaid on top in document coordinates; this slot keeps
+   the layout identical and the shimmer shows through until the frame paints,
+   which only matters when someone lands on /cv/ cold. */
+.cv-embed-slot {
+  position: relative;
   width: 100%;
   height: 800px;
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
   background: var(--surface);
+  overflow: hidden;
+}
+.cv-embed-slot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 30%, var(--hover-wash) 50%, transparent 70%);
+  background-size: 220% 100%;
+  animation: cvShimmer 1.6s var(--ease-out-quint) infinite;
+}
+@keyframes cvShimmer {
+  from { background-position: 160% 0; }
+  to { background-position: -60% 0; }
+}
+/* reduced motion: keep the shimmer, drift it at half speed (never frozen) */
+@media (prefers-reduced-motion: reduce) {
+  .cv-embed-slot::after { animation-duration: 3.2s; }
+}
+
+/* The single persistent CV viewer. Positioned in DOCUMENT coordinates
+   (absolute, not fixed) so native scrolling keeps it glued with no jitter.
+   Parked far offscreen with real dimensions while warming, then moved exactly
+   over .cv-embed-slot on /cv/. Never remounted, so it never reloads. */
+.cv-frame-iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: transparent;
 }
 
 /* ============================================================
@@ -771,88 +823,17 @@ img.pub-link-icon { stroke: none; }
 .theme-icon-face.is-off { opacity: 0; }
 .theme-sun.is-off { transform: rotate(-90deg) scale(0.6); }
 .theme-moon.is-off { transform: rotate(90deg) scale(0.6); }
-/* swap variant: instant, no morph */
-.theme-toggle[data-themeanim="swap"] .theme-icon-face { transition: none; }
-.theme-toggle[data-themeanim="swap"] .theme-icon-face.is-off { transform: none; }
 
 /* ============================================================
-   Nav tab variants (default = refined current underline)
+   Entrance
+   CSS-animation driven, content is never JS-gated invisible.
    ============================================================ */
-/* pill / ghost background */
-html[data-nav="pill"] .nav-links a {
-  padding: 5px 11px;
-  border-radius: var(--radius-btn);
-  transition: color 0.15s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint);
-}
-html[data-nav="pill"] .nav-links a::after { display: none; }
-html[data-nav="pill"] .nav-links a:hover { background: var(--hover-wash); }
-html[data-nav="pill"] .nav-links a.active { background: var(--coral-tint); color: var(--coral); }
-
-/* slide: the active page keeps a static coral underline; hovering a
-   non-active tab slides in an underline that is an animated moving coral
-   gradient ("this is where you would go"). Hovering the active tab, or the
-   active tab when nothing is hovered, shows the plain static underline. */
-html[data-nav="slide"] .nav-links a::after {
-  content: '';
-  position: absolute;
-  bottom: -3px; left: 0; right: 0;
-  height: 2px;
-  border-radius: 2px;
-  background: var(--coral);
-  opacity: 1;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.22s var(--ease-out-quint), opacity 0.15s var(--ease-out-quint);
-}
-/* active page: static underline shown */
-html[data-nav="slide"] .nav-links a.active::after { transform: scaleX(1); }
-/* hovering a NON-active tab: underline slides in, then a coral gradient drifts */
-html[data-nav="slide"] .nav-links a:not(.active):hover::after {
-  transform: scaleX(1);
-  background-image: linear-gradient(
-    90deg,
-    var(--coral) 0%,
-    rgba(var(--coral-particle), 0.25) 50%,
-    var(--coral) 100%
-  );
-  background-size: 200% 100%;
-  background-repeat: repeat;
-  animation: navSlideGradient 1.5s linear infinite;
-}
-/* while any non-active tab is hovered, fade out the active tab's static underline */
-html[data-nav="slide"] .nav-links:has(a:not(.active):hover) a.active::after {
-  opacity: 0;
-}
-@keyframes navSlideGradient {
-  from { background-position: 0% 50%; }
-  to { background-position: -200% 50%; }
-}
-/* reduced motion: keep the gradient, just drift it at half speed */
-@media (prefers-reduced-motion: reduce) {
-  html[data-nav="slide"] .nav-links a:not(.active):hover::after {
-    animation-duration: 3s;
-  }
-}
-
-/* ============================================================
-   Entrance (variant: stagger [default] | fade | none)
-   CSS-animation driven — content is never JS-gated invisible.
-   ============================================================ */
-/* Blooms into place the instant content renders. CSS-driven so it plays even
-   before hydration; the first element (title/hero) leads with zero delay, the
-   stagger is tight and capped, the whole sequence settles under ~400ms. */
+/* A simple fade the instant content renders. CSS-driven so it plays even before
+   hydration; the first element (title/hero) leads with zero delay, the stagger
+   is tight and capped, the whole sequence settles under ~400ms. */
 .enter {
-  animation: enterRise 0.24s var(--ease-out-quint) both;
-  animation-delay: calc(min(var(--enter-i, 0), 5) * 0.026s);
-}
-html[data-entrance="fade"] .enter {
-  animation-name: enterFade;
+  animation: enterFade 0.24s var(--ease-out-quint) both;
   animation-delay: calc(min(var(--enter-i, 0), 5) * 0.02s);
-}
-html[data-entrance="none"] .enter { animation: none; }
-@keyframes enterRise {
-  from { opacity: 0.01; transform: translateY(6px); }
-  to { opacity: 1; transform: none; }
 }
 @keyframes enterFade {
   from { opacity: 0.01; }
@@ -864,156 +845,6 @@ html[data-entrance="none"] .enter { animation: none; }
     animation: enterFade 0.18s var(--ease-out-quint) both !important;
     animation-delay: 0ms !important;
   }
-}
-
-/* ============================================================
-   Accordion motion character (variant: crisp [default] | soft)
-   ============================================================ */
-html[data-accordion="soft"] .pub-detail {
-  transition-duration: 0.26s;
-  transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
-}
-html[data-accordion="soft"] .pub-detail-pad {
-  transition-duration: 0.28s;
-}
-
-/* ============================================================
-   Options page (dev-only adjudication surface)
-   ============================================================ */
-.options-page { max-width: 720px; }
-.opt-block { margin-bottom: 36px; }
-.opt-block h2 { font-size: 17px; font-weight: 600; margin-bottom: 6px; letter-spacing: -0.01em; }
-.opt-block p { font-size: 14px; color: var(--text-dim); margin-bottom: 12px; }
-.opt-links { display: flex; flex-wrap: wrap; gap: 8px; }
-.opt-links a {
-  font-size: 13px; font-weight: 500;
-  padding: 6px 12px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  color: var(--text-secondary);
-  background: var(--surface);
-  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint);
-}
-.opt-links a:hover { border-color: var(--coral); color: var(--coral); background: var(--coral-tint); }
-
-/* ============================================================
-   Variant switcher (dev/adjudication), floating, every page
-   ============================================================ */
-.vswitch {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 9999;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 10px;
-  font-family: var(--font-sans);
-}
-@media print { .vswitch { display: none; } }
-
-.vswitch-fab {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 12.5px;
-  font-weight: 500;
-  letter-spacing: -0.005em;
-  color: var(--text-secondary);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  padding: 8px 14px;
-  cursor: pointer;
-  box-shadow: var(--shadow-panel);
-  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.2s var(--ease-out-quint), transform 0.13s var(--ease-out-quint);
-}
-.vswitch-fab:hover { border-color: var(--coral); color: var(--coral); }
-@media (hover: hover) { .vswitch-fab:active { transform: scale(0.97); } }
-.vswitch-caret {
-  width: 12px; height: 12px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: transform 0.22s var(--ease-out-quint);
-}
-.vswitch[data-open="true"] .vswitch-caret { transform: rotate(180deg); }
-
-.vswitch-panel {
-  width: 272px;
-  max-height: min(72vh, 560px);
-  overflow-y: auto;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  box-shadow: var(--shadow-panel);
-  padding: 14px 14px 12px;
-  animation: vswitchIn 0.2s var(--ease-out-quint) both;
-}
-@keyframes vswitchIn {
-  from { opacity: 0; transform: translateY(6px) scale(0.985); }
-  to { opacity: 1; transform: none; }
-}
-@media (prefers-reduced-motion: reduce) { .vswitch-panel { animation: none; } }
-
-.vswitch-row {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-bottom: 11px;
-}
-.vswitch-label {
-  font-size: 12px;
-  color: var(--text-dim);
-  letter-spacing: -0.005em;
-}
-.vswitch-seg {
-  display: flex;
-  gap: 3px;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 3px;
-}
-.vswitch-btn {
-  flex: 1;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-secondary);
-  background: transparent;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 6px;
-  cursor: pointer;
-  text-align: center;
-  transition: color 0.14s var(--ease-out-quint), background-color 0.14s var(--ease-out-quint);
-}
-.vswitch-btn:hover { background: var(--hover-wash); color: var(--text); }
-.vswitch-btn.is-active {
-  background: var(--coral-tint-strong);
-  color: var(--coral-text);
-}
-
-.vswitch-copy {
-  width: 100%;
-  margin-top: 3px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-secondary);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 8px 10px;
-  cursor: pointer;
-  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint);
-}
-.vswitch-copy:hover { border-color: var(--coral); color: var(--coral); background: var(--coral-tint); }
-
-@media (max-width: 768px) {
-  .vswitch { right: 14px; bottom: 14px; }
-  .vswitch-panel { width: min(272px, calc(100vw - 28px)); }
 }
 
 /* ============================================================
@@ -1065,7 +896,7 @@ html[data-accordion="soft"] .pub-detail-pad {
   .pub-chevron { right: 6px; }
 
   .contact-grid { grid-template-columns: 1fr; gap: 32px; }
-  .cv-embed iframe { height: 520px; }
+  .cv-embed-slot { height: 520px; }
   .footer-line { padding: 32px 24px 24px; }
 }
 
