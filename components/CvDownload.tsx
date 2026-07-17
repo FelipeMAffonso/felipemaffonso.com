@@ -3,7 +3,9 @@
 import { useSound } from "@/lib/sound";
 import { useVariants } from "@/lib/variants";
 
-const CV_DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=13ephsH3DcEmjTE43Ugi3K_KZ2Kz7pwKP";
+// Self-hosted so the download never depends on a third party (the Drive
+// iframe below is still the in-page viewer).
+const CV_DOWNLOAD_URL = "/files/cv.pdf";
 
 export function CvDownload() {
   const { play } = useSound();
@@ -13,6 +15,7 @@ export function CvDownload() {
       <a
         href={CV_DOWNLOAD_URL}
         className="cv-download"
+        download
         onClick={() => {
           if (soundmap === "B") play("success");
         }}

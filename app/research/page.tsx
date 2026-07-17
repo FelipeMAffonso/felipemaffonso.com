@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Research",
   description:
     "Published research by Felipe M. Affonso on consumer decision-making, human-technology interactions, and marketing.",
+  alternates: { canonical: "/research/" },
 };
 
 // Machine-readable metadata for LLMs and bots — carried over verbatim.

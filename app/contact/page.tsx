@@ -5,7 +5,8 @@ import { ScholarIcon, GitHubSocialIcon, OsfSocialIcon, LinkedInIcon, XIcon, Expe
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact Felipe M. Affonso — Assistant Professor of Marketing at Oklahoma State University.",
+  description: "Contact Felipe M. Affonso, Assistant Professor of Marketing at Oklahoma State University.",
+  alternates: { canonical: "/contact/" },
 };
 
 const d = (i: number) => ({ "--enter-i": i } as CSSProperties);

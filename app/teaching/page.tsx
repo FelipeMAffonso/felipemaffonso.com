@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Teaching",
   description:
     "Teaching experience and courses by Felipe M. Affonso at Oklahoma State University and University of Florida.",
+  alternates: { canonical: "/teaching/" },
 };
 
 const d = (i: number) => ({ "--enter-i": i } as CSSProperties);

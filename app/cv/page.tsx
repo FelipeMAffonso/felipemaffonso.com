@@ -5,7 +5,8 @@ import { CvDownload } from "@/components/CvDownload";
 export const metadata: Metadata = {
   title: "Curriculum Vitae",
   description:
-    "Curriculum Vitae — Felipe M. Affonso, Assistant Professor of Marketing at Oklahoma State University.",
+    "Curriculum Vitae of Felipe M. Affonso, Assistant Professor of Marketing at Oklahoma State University.",
+  alternates: { canonical: "/cv/" },
 };
 
 export default function CvPage() {

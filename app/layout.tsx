@@ -6,16 +6,17 @@ import { Providers } from "@/components/Providers";
 import { Nav } from "@/components/Nav";
 
 const SITE_DESCRIPTION =
-  "Felipe M. Affonso — Assistant Professor of Marketing at Oklahoma State University. Research on consumer decision-making, human-technology interactions, and health/environmental policy.";
+  "Felipe M. Affonso. Assistant Professor of Marketing at Oklahoma State University. Research on consumer decision-making, human-technology interactions, and health/environmental policy.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://felipemaffonso.com"),
   title: {
     default: "Felipe M. Affonso",
-    template: "%s — Felipe M. Affonso",
+    template: "%s | Felipe M. Affonso",
   },
   description: SITE_DESCRIPTION,
   icons: { icon: "/favicon.svg" },
+  alternates: { canonical: "/" },
   verification: {
     // preserved exactly — losing this drops Google Search Console ownership
     google: "x66T2PCnYUqNbY4DC-jw_Y0M7glCv8RBEzie2C69vps",
