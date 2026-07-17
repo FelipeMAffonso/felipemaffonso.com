@@ -1,4 +1,13 @@
+# 11ty (legacy, still on master)
 _site/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# deps + os
 node_modules/
 .DS_Store
 Thumbs.db

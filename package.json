@@ -1,12 +1,30 @@
 {
   "name": "felipe-affonso-personal-site",
-  "version": "1.0.0",
-  "description": "Personal academic website - Felipe M. Affonso",
+  "version": "2.0.0",
+  "description": "Personal academic website - Felipe M. Affonso (Next.js)",
+  "private": true,
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve": "npx serve@latest out -l 4321"
+  },
+  "dependencies": {
+    "cuelume": "^0.1.0",
+    "geist": "^1.5.1",
+    "motion": "^12.23.24",
+    "next": "^15.5.4",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.3"
   }
 }
