@@ -8,21 +8,21 @@
    button hover, press feedback, and cuelume on open/close +
    button press/release. Static design is unchanged.
 
-   ADJUDICATION LAYER (Felipe 2026-07-19, all behind variants):
-   - covers=cycle: the cover inside the panel is the click-to-
-     cycle artifact (real cover / pixel cover / motif), PubCover.
-   - pubposters=on: the pixel poster appended after the abstract.
-   - reslayout: list (default, the locked look) · rail (a sticky
-     left art rail that follows whichever paper is open; desktop
-     only, stacks back to the plain list on mobile) · gallery
-     (a quiet List | Posters toggle; the poster wall opens the
-     paper back in list mode). The clean list is always the
-     fallback; the locked panel anatomy is never altered.
+   ADJUDICATION LAYER (Felipe 2026-07-19, behind variants):
+   - covers=cycle (default): the cover slot shows the paper's
+     pixel STORY; clicking flips to the real journal cover.
+   - resheader: a minimal horizontal research card at the top of
+     the list (banner / strip / mini / off).
+   - reslayout: list (default) · rail (sticky-free art rail that
+     ALIGNS to the open paper) · gallery (List | Posters wall).
+   - pubposters=on restores the old in-panel poster block.
+   The clean list is always the fallback; the locked panel
+   anatomy is never altered.
    ============================================================ */
 
-import { useRef, useState, type CSSProperties, type KeyboardEvent } from "react";
+import { useEffect, useState, type CSSProperties, type KeyboardEvent } from "react";
 import { preprints, journals, type Pub, type PubLink } from "@/lib/publications";
-import { pubPosters } from "@/lib/posterConfigs";
+import { pubPosters, idlePoster } from "@/lib/posterConfigs";
 import { useSound } from "@/lib/sound";
 import { usePixelVariants } from "@/lib/pixelVariants";
 import { PixelPoster } from "./PixelPoster";
@@ -35,8 +35,7 @@ import {
   PixelArxivPixIcon, PixelPsyArxivPixIcon, PixelSsrnPixIcon,
 } from "./pixelIcons";
 
-/* icons=pixel is an ADJUDICATION variant Felipe asked to judge here
-   (2026-07-19); the locked default remains the brand set. */
+/* icons=pixel is an ADJUDICATION variant; the default is brand. */
 function LinkIcon({ kind }: { kind: PubLink["kind"] }) {
   const { icons } = usePixelVariants();
   if (icons === "pixel") {
@@ -92,6 +91,7 @@ function PublicationEntry({
       onToggle();
     }
   };
+  const cfg = pubPosters[pub.id];
   return (
     <li
       id={`pub-${pub.id}`}
@@ -123,16 +123,18 @@ function PublicationEntry({
               {pub.cover && <PubCover cover={pub.cover} pubId={pub.id} />}
               <p>{pub.abstract}</p>
             </div>
-            {/* The pixel poster is a Felipe-approved appended block
-                (2026-07-19); the locked elements above are unchanged. */}
-            {showPoster && pubPosters[pub.id] && (
+            {/* pubposters=on restores the appended poster block below
+                the locked anatomy (off by default: the story lives in
+                the cover slot now). */}
+            {showPoster && cfg && (
               <div className="pub-poster">
                 <PixelPoster
-                  spec={pubPosters[pub.id].spec}
-                  cols={pubPosters[pub.id].cols}
-                  rows={pubPosters[pub.id].rows}
-                  title={pubPosters[pub.id].title}
-                  caption={pubPosters[pub.id].caption}
+                  story={cfg.story}
+                  spec={cfg.spec}
+                  cols={cfg.cols}
+                  rows={cfg.rows}
+                  title={cfg.title}
+                  caption={cfg.caption}
                   active={open}
                 />
               </div>
@@ -144,23 +146,58 @@ function PublicationEntry({
   );
 }
 
-const IDLE_RAIL = {
-  spec: {
-    engine: "spark" as const,
-    seed: 91,
-    params: { rate: 0.1, thresh: 0.982 },
-    colors: ["#8b9099", "#d9a441", "#DA7756", "#f4e9d6"],
-  },
-  cols: 15,
-  rows: 19,
-};
+/* the minimal research header card (resheader axis) */
+function ResearchHeader() {
+  const { resheader } = usePixelVariants();
+  if (resheader === "off") return null;
+  if (resheader === "strip") {
+    return (
+      <div className="res-header res-header-strip enter">
+        <PixelPoster
+          spec={{ engine: "spark", seed: 97, params: { rate: 0.1, thresh: 0.985 }, colors: idlePoster.spec!.colors }}
+          cols={46}
+          rows={4}
+          title=""
+          caption=""
+          className="poster-bare"
+        />
+      </div>
+    );
+  }
+  if (resheader === "mini") {
+    return (
+      <div className="res-header res-header-mini enter">
+        <PixelPoster
+          spec={{ engine: "spark", seed: 97, params: { rate: 0.11, thresh: 0.982 }, colors: idlePoster.spec!.colors }}
+          cols={24}
+          rows={6}
+          title="Research"
+          caption=""
+          className="poster-compact"
+        />
+      </div>
+    );
+  }
+  return (
+    <div className="res-header res-header-banner enter">
+      <PixelPoster
+        spec={{ engine: "spark", seed: 97, params: { rate: 0.11, thresh: 0.982 }, colors: idlePoster.spec!.colors }}
+        cols={46}
+        rows={7}
+        title="Research"
+        caption="Consumer judgment, human-AI interaction, and policy"
+        className="poster-compact"
+      />
+    </div>
+  );
+}
 
 export function PublicationsSections() {
   const [openId, setOpenId] = useState<string | null>(null);
   const [galleryView, setGalleryView] = useState<"list" | "posters">("list");
+  const [railY, setRailY] = useState(0);
   const { play } = useSound();
-  const { reslayout } = usePixelVariants();
-  const listRef = useRef<HTMLDivElement>(null);
+  const { reslayout, pubposters } = usePixelVariants();
   const pressSounds = true;
 
   const toggle = (id: string) => {
@@ -178,9 +215,30 @@ export function PublicationsSections() {
   const openPub = allPubs.find((p) => p.id === openId) ?? null;
   const rail = reslayout === "rail";
   const gallery = reslayout === "gallery";
-  /* in rail mode the rail carries the art, so the in-panel poster
-     block steps aside (pubposters=off also hides it, via CSS) */
-  const showPanelPoster = !rail;
+  const showPanelPoster = pubposters === "on" && !rail;
+
+  /* rail alignment: the card slides to sit level with the open
+     citation (Felipe: the fixed-top card read as misaligned) */
+  useEffect(() => {
+    if (!rail) return;
+    const measure = () => {
+      if (!openId) { setRailY(0); return; }
+      const entry = document.getElementById(`pub-${openId}`);
+      const cont = document.querySelector(".res-two");
+      if (!entry || !cont) return;
+      const y = entry.getBoundingClientRect().top - cont.getBoundingClientRect().top;
+      setRailY(Math.max(0, y));
+    };
+    /* after the 240ms panel expansion settles */
+    const t1 = window.setTimeout(measure, 60);
+    const t2 = window.setTimeout(measure, 320);
+    window.addEventListener("resize", measure);
+    return () => {
+      window.clearTimeout(t1);
+      window.clearTimeout(t2);
+      window.removeEventListener("resize", measure);
+    };
+  }, [rail, openId]);
 
   const openFromGallery = (id: string) => {
     setGalleryView("list");
@@ -220,10 +278,11 @@ export function PublicationsSections() {
     </>
   );
 
-  const railPoster = openPub && pubPosters[openPub.id];
+  const railCfg = openPub ? pubPosters[openPub.id] : null;
 
   return (
     <>
+      {!rail && !gallery && <ResearchHeader />}
       <p className="pub-subtitle enter">Click any title for abstract and download options</p>
 
       {gallery && (
@@ -247,50 +306,55 @@ export function PublicationsSections() {
 
       {gallery && galleryView === "posters" ? (
         <div className="res-wall">
-          {allPubs.map((p) =>
-            pubPosters[p.id] ? (
+          {allPubs.map((p) => {
+            const cfg = pubPosters[p.id];
+            return cfg ? (
               <button
                 key={p.id}
                 type="button"
                 className="res-wall-item"
-                aria-label={`Open ${pubPosters[p.id].title} in the list`}
+                aria-label={`Open ${cfg.title} in the list`}
                 onClick={() => openFromGallery(p.id)}
               >
                 <PixelPoster
-                  spec={pubPosters[p.id].spec}
-                  cols={pubPosters[p.id].cols}
-                  rows={pubPosters[p.id].rows}
-                  title={pubPosters[p.id].title}
-                  caption={pubPosters[p.id].caption}
+                  story={cfg.story}
+                  spec={cfg.spec}
+                  cols={cfg.cols}
+                  rows={cfg.rows}
+                  title={cfg.title}
+                  caption={cfg.caption}
                 />
               </button>
-            ) : null,
-          )}
+            ) : null;
+          })}
         </div>
       ) : rail ? (
         <div className="res-two">
           <aside className="res-rail" aria-live="polite">
-            {railPoster ? (
-              <PixelPoster
-                key={openPub!.id}
-                spec={railPoster.spec}
-                cols={railPoster.cols}
-                rows={railPoster.rows}
-                title={railPoster.title}
-                caption={railPoster.caption}
-              />
-            ) : (
-              <PixelPoster
-                key="idle"
-                spec={IDLE_RAIL.spec}
-                cols={IDLE_RAIL.cols}
-                rows={IDLE_RAIL.rows}
-                title="Research"
-                caption="Open any paper and its motif appears here"
-              />
-            )}
+            <div className="res-rail-card" style={{ transform: `translateY(${railY}px)` }}>
+              {railCfg ? (
+                <PixelPoster
+                  key={openPub!.id}
+                  story={railCfg.story}
+                  spec={railCfg.spec}
+                  cols={railCfg.cols}
+                  rows={railCfg.rows}
+                  title={railCfg.title}
+                  caption={railCfg.caption}
+                />
+              ) : (
+                <PixelPoster
+                  key="idle"
+                  spec={idlePoster.spec}
+                  cols={idlePoster.cols}
+                  rows={idlePoster.rows}
+                  title={idlePoster.title}
+                  caption={idlePoster.caption}
+                />
+              )}
+            </div>
           </aside>
-          <div className="res-list" ref={listRef}>{listBody}</div>
+          <div className="res-list">{listBody}</div>
         </div>
       ) : (
         listBody

@@ -45,10 +45,20 @@ const ROWS: Row[] = [
   },
   {
     key: "covers",
-    label: "Research: the cover inside an open panel",
+    label: "Research: cover slot (story by default, click flips to the journal cover)",
     options: [
-      { value: "static", label: "static" },
-      { value: "cycle", label: "click-to-cycle" },
+      { value: "cycle", label: "story flip" },
+      { value: "static", label: "plain cover" },
+    ],
+  },
+  {
+    key: "resheader",
+    label: "Research: the header card above the list",
+    options: [
+      { value: "banner", label: "banner" },
+      { value: "strip", label: "strip" },
+      { value: "mini", label: "mini" },
+      { value: "off", label: "off" },
     ],
   },
   {
@@ -65,16 +75,6 @@ const ROWS: Row[] = [
     options: [
       { value: "on", label: "on" },
       { value: "off", label: "off" },
-    ],
-  },
-  {
-    key: "spears",
-    label: "Contact: the Spears building card",
-    options: [
-      { value: "scan", label: "scanline" },
-      { value: "still", label: "still" },
-      { value: "led", label: "LED" },
-      { value: "pixelart", label: "pixel art" },
     ],
   },
   {

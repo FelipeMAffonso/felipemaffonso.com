@@ -271,9 +271,19 @@ holds a fixed grid of flat rounded cells (unlit cells stay faintly visible, the
 four corner cells are permanently dim gray anchors) and a slow, sparse motif of
 lit cells moves through it. No glow, no bloom; brightness lives in the color
 values. Titles use the self-hosted slab serif Ultra (via @fontsource); captions
-are plain facts. THE CARD COLOR LAW (Felipe 2026-07-19): the card dark is the
-SITE night-mode dark (#16171b family, cool neutral unlit tints), never a warm
-brown; the reference's warm-black was rejected.
+are plain facts. THE CARD COLOR LAW (Felipe 2026-07-19): cards are THEME
+ADAPTIVE — light theme gets a light card (site surface tokens) with adapted
+cell colors (lib/pixelTheme: near-white becomes ink, the rest darkens a step);
+dark theme gets the night card (#16171b family, cool neutral tints, never warm
+brown). The portrait back and the Spears dusk scene stay dark (alwaysDark).
+STORIES (Felipe 2026-07-19): most papers now use narrative motifs in
+lib/pixelStories.ts (ASCII-sprite phase timelines that depict the paper: the
+three provider marks for Strategic Personalities, the box-and-price-tag reveal
+for Concealing Prices, ...); Space Commons keeps orbit, Disease Cues keeps
+contagion. The cover slot in an open panel (172px, PubCover) shows the story
+by default and flips to the real journal cover on click; the pixel-quantized
+journal covers were built, judged bad, and deleted. The Spears card cycles on
+click (dither / LED / pixel art) with the scanline on every face.
 
 Parts:
 - `lib/pixelEngine.ts` — pure per-cell motif programs (drift, tide, blaze,

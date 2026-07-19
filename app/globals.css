@@ -868,14 +868,15 @@ img.pub-link-icon { stroke: none; }
    Hover carries the faint warm glow borrowed from the Nucleo
    "Complete setup" card, in coral.
    ============================================================ */
-/* The card is an artifact, constant in both themes, and its dark is
-   the SITE dark (the night-mode bg family), not a warm brown. */
+/* Theme-adaptive (Felipe 2026-07-19): light theme gets a light card
+   with adapted cell colors; dark theme gets the night card (#16171b,
+   the site dark, never a warm brown). .poster-always-dark opts out
+   (the Spears dusk scene, the portrait back). */
 .pixel-poster {
-  --poster-bg: #16171b;
-  --poster-title: #eceaf0;
-  --poster-dim: #8b9099;
-  background: var(--poster-bg);
-  border: 1px solid rgba(232, 232, 234, 0.08);
+  --poster-title: var(--text);
+  --poster-dim: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-card);
   padding: 20px 20px 24px;
   margin: 0;
@@ -913,6 +914,27 @@ img.pub-link-icon { stroke: none; }
   margin: 8px auto 0;
   max-width: 34ch;
 }
+/* the night card, in dark theme or when the artwork demands it */
+.dark .pixel-poster,
+.pixel-poster.poster-always-dark {
+  --poster-title: #eceaf0;
+  --poster-dim: #8b9099;
+  background: #16171b;
+  border-color: rgba(232, 232, 234, 0.08);
+}
+/* compact chrome for header cards; bare strips lose the card */
+.poster-compact { padding: 14px 16px 16px; }
+.poster-compact .pixel-poster-title { font-size: 17px; }
+.poster-compact .pixel-poster-caption { font-size: 11px; margin-top: 5px; }
+.poster-bare,
+.dark .poster-bare {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+.poster-bare figcaption { display: none; }
+.poster-bare:hover { box-shadow: none; border: none; }
 
 /* placement: inside the publication panel (an approved appended
    block below the locked anatomy) */
@@ -928,8 +950,8 @@ img.pub-link-icon { stroke: none; }
 /* slightly larger than the locked 92px cover; each face fills it */
 .pub-cover-wrap {
   float: left;
-  width: 118px;
-  margin: 2px 18px 8px 0;
+  width: 172px;
+  margin: 2px 20px 10px 0;
   cursor: pointer;
   display: block;
   position: relative;
@@ -946,12 +968,17 @@ img.pub-link-icon { stroke: none; }
   to { opacity: 1; }
 }
 .pub-cover-cells {
-  background: #16171b;
-  border: 1px solid rgba(232, 232, 234, 0.08);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 5px;
   box-shadow: var(--shadow-cover);
   overflow: hidden;
   line-height: 0;
+  padding: 5px;
+}
+.dark .pub-cover-cells {
+  background: #16171b;
+  border-color: rgba(232, 232, 234, 0.08);
 }
 .pub-cover-cells canvas { width: 100%; display: block; }
 /* the three-state pager dots, quiet until hover */
@@ -983,9 +1010,12 @@ img.pub-link-icon { stroke: none; }
   gap: 40px;
   align-items: start;
 }
-.res-rail {
-  position: sticky;
-  top: 88px;
+.res-rail { position: relative; }
+/* the card slides to sit level with the open citation */
+.res-rail-card {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  transition: transform 0.4s var(--ease-out-quint);
 }
 .res-rail .pixel-poster { animation: coverFace 0.24s var(--ease-out-quint) both; }
 @media (max-width: 900px) {
@@ -1186,9 +1216,33 @@ img.pub-link-icon { stroke: none; }
   [data-navhover="cells"] .nav-links a:not(.active):hover::after { animation-duration: 1.8s; }
 }
 
-/* LED spears placement mirrors the dither card */
-.spears-led { margin-top: 56px; }
-.spears-led .pixel-poster { max-width: none; }
+/* the Spears cycler: three faces, scanline on all of them */
+.spears-cycle { cursor: pointer; }
+.spears-led-face .pixel-poster,
+.dark .spears-led-face .pixel-poster {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: #16171b;
+}
+.spears-led-face figcaption { display: none; }
+.spears-dots {
+  position: static;
+  transform: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.dither-card-media > div,
+.dither-card-media > img { animation: coverFace 0.22s var(--ease-out-quint) both; }
+
+/* the minimal research header card (resheader axis) */
+.res-header { margin-bottom: 26px; }
+.res-header-banner .pixel-poster { width: 100%; }
+.res-header-strip { padding: 2px 0 0; }
+.res-header-mini { display: flex; justify-content: flex-end; }
+.res-header-mini .pixel-poster { width: 280px; }
 
 /* LED footer strip */
 .footer-led {
@@ -1577,6 +1631,8 @@ img.pub-link-icon { stroke: none; }
   .pixel-poster { padding: 16px 16px 20px; }
   .pixel-poster-title { font-size: 18px; }
   .dither-card { padding: 16px 16px 20px; margin-top: 40px; }
+  .pub-cover-wrap { width: 124px; margin-right: 14px; }
+  .res-header-mini { justify-content: center; }
 }
 
 @media (max-width: 480px) {

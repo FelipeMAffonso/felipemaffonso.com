@@ -70,11 +70,12 @@ const PANEL_ICONS = [
 const JUDGE_MAP: { axis: string; where: string }[] = [
   { axis: "portrait", where: "Home page: click the headshot photo; the back of the flip is this choice. Both candidates also run side by side below." },
   { axis: "posterfont", where: "The title under EVERY dark poster card, on any page. Compare in the serif section below, then flip the axis and reread a real poster title." },
-  { axis: "reslayout", where: "Research page, the whole layout: list (current), art rail (a sticky left card that follows whichever paper you open; desktop only), or gallery (a List | Posters toggle appears; clicking a poster jumps back to its entry in the list)." },
-  { axis: "covers", where: "Research page: open any paper. With click-to-cycle, the cover is larger and CLICKING IT cycles real cover, pixel cover, motif (three dots under it show which face you are on). Static keeps the plain cover." },
-  { axis: "pubposters", where: "Research page: click any publication title; the poster sits at the bottom of the opened panel, after the abstract. The off option removes all of them. (In the art rail layout the rail replaces these automatically.)" },
+  { axis: "reslayout", where: "Research page, the whole layout: list (default), art rail (a left card that slides to sit level with whichever paper you open; desktop only), or gallery (a List | Posters toggle; clicking a poster jumps back to its entry in the list)." },
+  { axis: "covers", where: "Research page: open any paper. The cover slot (172px) shows the paper's pixel STORY by default; clicking flips to the real journal cover and back. Two dots show the face. Static keeps the plain cover." },
+  { axis: "resheader", where: "Research page, above the list: the minimal research card. Four choices: banner (wide slim card), strip (bare grid, no card), mini (small card at the right), off." },
+  { axis: "pubposters", where: "Research page: turning this on appends the full poster card at the bottom of each open panel (off by default; the story lives in the cover slot now)." },
   { axis: "teachingposter", where: "Teaching page: scroll to the very bottom, after the student comments." },
-  { axis: "spears", where: "Contact page: the wide building card under the two contact columns. Four candidates, all also stacked below." },
+  { axis: "(spears)", where: "Contact page: the building card now cycles on CLICK (dither, LED, pixel art) with the scanline on every face; no axis, it is the behavior." },
   { axis: "icons", where: "Four places at once: Contact profile list, the four buttons inside an open Research panel, the Download PDF button on the CV page, and the two round toggles at the top right of the nav." },
   { axis: "navicons", where: "The top navbar itself: an icon appears next to Home, Research, Teaching, CV, and Contact. Three choices: none (current), line, pixel. Flip it and look up." },
   { axis: "navhover", where: "Any page: hover a nav tab you are NOT on and watch the underline (moving gradient vs marching cells)." },
@@ -151,8 +152,8 @@ export function PixelLab() {
         <div className="lab-grid">
           {Object.entries(pubPosters).map(([id, cfg]) => (
             <div className="lab-cell" key={id}>
-              <PixelPoster spec={cfg.spec} cols={cfg.cols} rows={cfg.rows} title={cfg.title} caption={cfg.caption} />
-              <div className="lab-tag">{id}</div>
+              <PixelPoster story={cfg.story} spec={cfg.spec} cols={cfg.cols} rows={cfg.rows} title={cfg.title} caption={cfg.caption} />
+              <div className="lab-tag">{id}{cfg.story ? " (story)" : " (engine)"}</div>
             </div>
           ))}
           <div className="lab-cell">
@@ -198,9 +199,7 @@ export function PixelLab() {
               <div className="lab-mock-panel">
                 <div className="lab-mock-poster">
                   <PixelPoster
-                    spec={pubPosters["cognitive-traps"].spec}
-                    cols={pubPosters["cognitive-traps"].cols}
-                    rows={pubPosters["cognitive-traps"].rows}
+                    story={pubPosters["cognitive-traps"].story}
                     title="Cognitive Traps"
                     caption="JCR, 2026"
                   />
@@ -236,9 +235,7 @@ export function PixelLab() {
                 </p>
                 <div className="lab-mock-rail">
                   <PixelPoster
-                    spec={pubPosters["point-vs-range"].spec}
-                    cols={pubPosters["point-vs-range"].cols}
-                    rows={pubPosters["point-vs-range"].rows}
+                    story={pubPosters["point-vs-range"].story}
                     title="Point vs. Range"
                     caption="JMR"
                   />
@@ -264,6 +261,7 @@ export function PixelLab() {
                 {["cognitive-traps", "space-commons", "simple-eco-friendly"].map((id) => (
                   <div className="lab-strip-item" key={id}>
                     <PixelPoster
+                      story={pubPosters[id].story}
                       spec={pubPosters[id].spec}
                       cols={pubPosters[id].cols}
                       rows={pubPosters[id].rows}
@@ -363,6 +361,7 @@ export function PixelLab() {
               rows={led.rows}
               title="Spears School of Business"
               caption="316 Business Building, Stillwater, Oklahoma"
+              alwaysDark
             />
           </div>
           <div>

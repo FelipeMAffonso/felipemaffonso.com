@@ -1,20 +1,22 @@
 /* ============================================================
    Poster configurations.
    One animated pixel poster per publication (keyed by pub id in
-   lib/publications.tsx), plus the teaching card. Each poster
-   varies the grid proportions, engine, and palette; every
-   palette carries one coral note so the family reads as one
-   system. Titles are short paper handles; captions are facts.
+   lib/publications.tsx), plus the teaching card and the idle
+   research card. Most papers now carry a narrative STORY
+   (lib/pixelStories) that depicts the paper; Space Commons and
+   Disease Cues keep their approved noise engines (orbit,
+   contagion). Titles are short paper handles; captions facts.
    ============================================================ */
 
 import type { MotifSpec } from "./pixelEngine";
 
 export type PosterConfig = {
-  spec: MotifSpec;
-  cols: number;
-  rows: number;
   title: string;
   caption: string;
+  story?: string;
+  spec?: MotifSpec;
+  cols?: number;
+  rows?: number;
 };
 
 const CORAL = "#DA7756";
@@ -22,86 +24,44 @@ const CREAM = "#f4e9d6";
 
 export const pubPosters: Record<string, PosterConfig> = {
   "strategic-personalities": {
-    cols: 21, rows: 15,
+    story: "strategic-personalities",
     title: "Strategic Personalities",
-    caption: "arXiv preprint",
-    spec: {
-      engine: "drift",
-      seed: 3,
-      params: { blobs: 3, radius: 0.17 },
-      colors: ["#3fa7a0", "#d9a441", CORAL, CREAM],
-    },
+    caption: "Three providers, one competition, a 48-fold split on cooperation",
   },
   "data-quality": {
-    cols: 20, rows: 16,
+    story: "data-quality",
     title: "Data Quality",
-    caption: "PsyArXiv preprint",
-    spec: {
-      engine: "structure",
-      seed: 11,
-      params: { splitAt: 0.55, col: 0.78 },
-      colors: ["#5c6b7a", CORAL, CREAM],
-    },
+    caption: "5,200 respondents, ten platforms, the bots cluster in one place",
   },
   "vertical-tacit-collusion": {
-    cols: 21, rows: 14,
+    story: "vertical-tacit-collusion",
     title: "Vertical Collusion",
-    caption: "arXiv preprint",
-    spec: {
-      engine: "band",
-      seed: 7,
-      params: { cycle: 0.14 },
-      colors: ["#4a6a8a", CORAL, CREAM],
-    },
+    caption: "Platform above, sellers below, the consumer squeezed without a word",
   },
   "point-vs-range": {
-    cols: 22, rows: 14,
+    story: "point-vs-range",
     title: "Point vs. Range",
-    caption: "Journal of Marketing Research",
-    spec: {
-      engine: "band",
-      seed: 13,
-      params: { cycle: 0.18, breathe: 0.12 },
-      colors: ["#3fa7a0", CORAL, CREAM],
-    },
+    caption: "Certainty wins, until persuasion knowledge flips the preference",
   },
   "precise-predictions": {
-    cols: 20, rows: 15,
+    story: "precise-predictions",
     title: "Precise Predictions",
-    caption: "Journal of Experimental Psychology: General",
-    spec: {
-      engine: "band",
-      seed: 29,
-      params: { cycle: 0.11, breathe: 0.17 },
-      colors: ["#d9a441", CORAL, CREAM],
-    },
+    caption: "Knowable worlds reward precision; random worlds reward honesty",
   },
   "cognitive-traps": {
-    cols: 19, rows: 17,
+    story: "cognitive-traps",
     title: "Cognitive Traps",
-    caption: "Journal of Consumer Research, 2026",
-    spec: {
-      engine: "spark",
-      seed: 17,
-      params: { rate: 0.16, thresh: 0.972 },
-      colors: ["#3f6b68", CORAL, CREAM],
-    },
+    caption: "The robot falls in the trap; the human walks through",
   },
   "concealing-prices": {
-    cols: 21, rows: 15,
+    story: "concealing-prices",
     title: "Concealing Prices",
-    caption: "Journal of Consumer Research",
-    spec: {
-      engine: "reveal",
-      seed: 5,
-      params: { speed: 0.035 },
-      colors: ["#5c6b7a", CORAL, CREAM],
-    },
+    caption: "The same reveal delights at the boutique and deflates at the outlet",
   },
   "space-commons": {
-    cols: 19, rows: 17,
     title: "The Space Commons",
     caption: "Research Policy, 2026",
+    cols: 19, rows: 17,
     spec: {
       engine: "orbit",
       seed: 23,
@@ -110,20 +70,14 @@ export const pubPosters: Record<string, PosterConfig> = {
     },
   },
   "simple-eco-friendly": {
-    cols: 21, rows: 14,
+    story: "simple-eco-friendly",
     title: "Simple is Eco-Friendly",
-    caption: "Journal of Advertising, 2026",
-    spec: {
-      engine: "structure",
-      seed: 31,
-      params: { splitAt: 0.5, reverse: 1 },
-      colors: ["#7da07d", CORAL, CREAM],
-    },
+    caption: "The plain pack reads green; the busy pack reads powerful",
   },
   "disease-cues": {
-    cols: 20, rows: 16,
     title: "Disease Cues",
     caption: "European Journal of Marketing, 2025",
+    cols: 20, rows: 16,
     spec: {
       engine: "contagion",
       seed: 19,
@@ -132,59 +86,48 @@ export const pubPosters: Record<string, PosterConfig> = {
     },
   },
   "marketing-by-design": {
-    cols: 22, rows: 14,
+    story: "marketing-by-design",
     title: "Marketing by Design",
-    caption: "Journal of Marketing, 2023",
-    spec: {
-      engine: "structure",
-      seed: 37,
-      params: { splitAt: 0.5 },
-      colors: ["#3fa7a0", CORAL, CREAM],
-    },
+    caption: "Order sells the useful; looseness sells the delightful",
   },
   serendipity: {
-    cols: 20, rows: 16,
+    story: "serendipity",
     title: "Serendipity",
-    caption: "Journal of Marketing, 2021",
-    spec: {
-      engine: "spark",
-      seed: 41,
-      params: { rate: 0.11, thresh: 0.978 },
-      colors: ["#41597a", "#d9a441", CORAL, CREAM],
-    },
+    caption: "The chance encounter sparks; the planned one passes by",
   },
   "constructive-choice": {
-    cols: 21, rows: 15,
+    story: "constructive-choice",
     title: "Constructive Choice",
-    caption: "Journal of Consumer Psychology, 2021",
-    spec: {
-      engine: "drift",
-      seed: 43,
-      params: { blobs: 2, radius: 0.2 },
-      colors: ["#3fa7a0", CORAL, CREAM],
-    },
+    caption: "Difficulty grows the search or kills it, goal by goal",
   },
   "ad-skepticism": {
-    cols: 20, rows: 15,
+    story: "ad-skepticism",
     title: "Advertising Skepticism",
-    caption: "Psychology & Marketing, 2019",
-    spec: {
-      engine: "blaze",
-      seed: 47,
-      params: { rise: 0.8 },
-      colors: ["#a8474d", "#d9a441", CORAL, CREAM],
-    },
+    caption: "The close extension absorbs the ad; the far one meets the shield",
   },
 };
 
 export const teachingPoster: PosterConfig = {
-  cols: 23, rows: 13,
   title: "The Classroom",
   caption: "Marketing Research, the Marketing Science Laboratory, and Managerial Strategies in Marketing",
+  cols: 23, rows: 13,
   spec: {
     engine: "tide",
     seed: 53,
     params: { cycle: 0.09 },
     colors: ["#8a4f38", "#d9a441", CORAL, CREAM],
+  },
+};
+
+/* the quiet idle card (the rail placeholder and the list header) */
+export const idlePoster: PosterConfig = {
+  title: "Research",
+  caption: "Open any paper to see its story",
+  cols: 15, rows: 19,
+  spec: {
+    engine: "spark",
+    seed: 91,
+    params: { rate: 0.1, thresh: 0.982 },
+    colors: ["#8b9099", "#d9a441", CORAL, CREAM],
   },
 };

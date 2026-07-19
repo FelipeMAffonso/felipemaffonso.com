@@ -24,28 +24,32 @@ export type PixelVariants = {
   posterfont: "ultra" | "alfa";
   pubposters: "on" | "off";
   teachingposter: "on" | "off";
-  spears: "scan" | "still" | "led" | "pixelart";
   icons: "brand" | "pixel";
   navicons: "off" | "line" | "pixel";
   navhover: "gradient" | "cells";
   footer: "line" | "led";
   covers: "static" | "cycle";
   reslayout: "list" | "rail" | "gallery";
+  resheader: "banner" | "strip" | "mini" | "off";
 };
 
-/* Shipping recommendation; these win if the system is stripped. */
+/* Shipping recommendation; these win if the system is stripped.
+   Felipe's 2026-07-19 calls baked in: brand icons everywhere, line
+   icons in the navbar, story covers on by default, the in-panel
+   poster off (the story lives in the cover slot now), and the
+   research header banner on. */
 export const PIXEL_DEFAULTS: PixelVariants = {
   portrait: "constellation",
   posterfont: "ultra",
-  pubposters: "on",
+  pubposters: "off",
   teachingposter: "on",
-  spears: "scan",
   icons: "brand",
-  navicons: "off",
+  navicons: "line",
   navhover: "gradient",
   footer: "line",
   covers: "cycle",
   reslayout: "list",
+  resheader: "banner",
 };
 
 export const PIXEL_ALLOWED: Record<keyof PixelVariants, string[]> = {
@@ -53,13 +57,13 @@ export const PIXEL_ALLOWED: Record<keyof PixelVariants, string[]> = {
   posterfont: ["ultra", "alfa"],
   pubposters: ["on", "off"],
   teachingposter: ["on", "off"],
-  spears: ["scan", "still", "led", "pixelart"],
   icons: ["brand", "pixel"],
   navicons: ["off", "line", "pixel"],
   navhover: ["gradient", "cells"],
   footer: ["line", "led"],
   covers: ["static", "cycle"],
   reslayout: ["list", "rail", "gallery"],
+  resheader: ["banner", "strip", "mini", "off"],
 };
 
 /* Axes consumed purely by CSS via <html data-*>. The rest are read
@@ -68,7 +72,6 @@ export const PIXEL_CSS_AXES: (keyof PixelVariants)[] = [
   "posterfont",
   "pubposters",
   "teachingposter",
-  "spears",
   "navhover",
   "reslayout",
 ];
