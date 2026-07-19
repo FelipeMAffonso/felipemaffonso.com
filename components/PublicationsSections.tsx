@@ -80,10 +80,9 @@ function ActionButton({ link, pressSounds }: { link: PubLink; pressSounds: boole
 }
 
 function PublicationEntry({
-  pub, index, open, onToggle, pressSounds, showPoster,
+  pub, index, open, onToggle, pressSounds,
 }: {
   pub: Pub; index: number; open: boolean; onToggle: () => void; pressSounds: boolean;
-  showPoster: boolean;
 }) {
   const onKey = (e: KeyboardEvent<HTMLDivElement>) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -123,22 +122,8 @@ function PublicationEntry({
               {pub.cover && <PubCover cover={pub.cover} pubId={pub.id} />}
               <p>{pub.abstract}</p>
             </div>
-            {/* pubposters=on restores the appended poster block below
-                the locked anatomy (off by default: the story lives in
-                the cover slot now). */}
-            {showPoster && cfg && (
-              <div className="pub-poster">
-                <PixelPoster
-                  story={cfg.story}
-                  spec={cfg.spec}
-                  cols={cfg.cols}
-                  rows={cfg.rows}
-                  title={cfg.title}
-                  caption={cfg.caption}
-                  active={open}
-                />
-              </div>
-            )}
+            {/* No poster block in the panel (Felipe 2026-07-19): the
+                story lives in the cover slot, with no writing on it. */}
           </div>
         </div>
       </div>
@@ -197,7 +182,7 @@ export function PublicationsSections() {
   const [galleryView, setGalleryView] = useState<"list" | "posters">("list");
   const [railY, setRailY] = useState(0);
   const { play } = useSound();
-  const { reslayout, pubposters } = usePixelVariants();
+  const { reslayout } = usePixelVariants();
   const pressSounds = true;
 
   const toggle = (id: string) => {
@@ -215,7 +200,6 @@ export function PublicationsSections() {
   const openPub = allPubs.find((p) => p.id === openId) ?? null;
   const rail = reslayout === "rail";
   const gallery = reslayout === "gallery";
-  const showPanelPoster = pubposters === "on" && !rail;
 
   /* rail alignment: the card slides to sit level with the open
      citation (Felipe: the fixed-top card read as misaligned) */
@@ -259,7 +243,6 @@ export function PublicationsSections() {
       open={openId === pub.id}
       onToggle={() => toggle(pub.id)}
       pressSounds={pressSounds}
-      showPoster={showPanelPoster}
     />
   );
 
@@ -283,7 +266,6 @@ export function PublicationsSections() {
   return (
     <>
       {!rail && !gallery && <ResearchHeader />}
-      <p className="pub-subtitle enter">Click any title for abstract and download options</p>
 
       {gallery && (
         <div className="res-seg enter" role="group" aria-label="Research view">

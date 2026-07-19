@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { PageBanner } from "@/components/PageBanner";
+import { PageStrip } from "@/components/PageStrip";
 import { SpearsCard } from "@/components/SpearsCard";
 import { SocialLinks } from "@/components/SocialLinks";
 
@@ -17,6 +18,7 @@ export default function ContactPage() {
     <>
       <PageBanner title="Contact" />
       <main className="page">
+        <PageStrip page="contact" />
         <div className="contact-grid">
           <div className="contact-block enter" style={d(0)}>
             <h3>Office</h3>

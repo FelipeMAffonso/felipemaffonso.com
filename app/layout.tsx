@@ -33,7 +33,7 @@ const CLARITY_SCRIPT = `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c
 // ADJUDICATION ONLY: apply stored pixel-variant CSS axes before first
 // paint so a hard reload keeps the chosen look with no flash. Mirrors
 // PIXEL_CSS_AXES in lib/pixelVariants.tsx; removed at bake.
-const PIXEL_VARIANT_SCRIPT = `(function(){try{var d=JSON.parse(localStorage.getItem("pixel-variants")||"{}");var a={posterfont:["ultra","alfa"],pubposters:["on","off"],teachingposter:["on","off"],navhover:["gradient","cells"],reslayout:["list","rail","gallery"]};for(var k in a){var v=d[k];if(a[k].indexOf(v)>-1){document.documentElement.setAttribute("data-"+k,v)}}}catch(e){}})();`;
+const PIXEL_VARIANT_SCRIPT = `(function(){try{var d=JSON.parse(localStorage.getItem("pixel-variants")||"{}");var a={posterfont:["ultra","alfa"],teachingposter:["on","off"],navhover:["gradient","cells"],reslayout:["list","rail","gallery"]};for(var k in a){var v=d[k];if(a[k].indexOf(v)>-1){document.documentElement.setAttribute("data-"+k,v)}}}catch(e){}})();`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

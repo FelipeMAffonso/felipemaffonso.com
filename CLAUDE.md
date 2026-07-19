@@ -335,6 +335,36 @@ font import, and the losing branches (mirror of how the July 17 system was
 retired). The DEFAULTS in lib/pixelVariants.tsx hold the current
 recommendation.
 
+## How to write a great pixel story (lib/pixelStories.ts)
+
+The bar (Felipe 2026-07-19): stories must be genuinely beautiful and must
+depict the paper, not decorate it. Rules learned so far:
+
+1. One idea per phase, two to three phases, 10 to 18 seconds total. A phase is
+   a sentence: "the robot falls in the trap." If you cannot say the phase in
+   one sentence, split it.
+2. Draw THINGS, not noise: sprites (ASCII cell art via spr()) for actors and
+   objects (a price tag, a die, a graduation cap, the provider marks), simple
+   fills for structures. The viewer should recognize the actor before the
+   motion starts.
+3. Space is part of the composition. Most of the grid stays dark; the story
+   letterboxes into the journal-cover aspect inside the cover slot, so design
+   for a calm dark margin above and below.
+4. Motion should be slow beats, not animation-easing: things appear (env fade),
+   travel on integer cells, and resolve. One burst, sweep, or flash per story
+   is an effect; two is noise.
+5. Color is meaning: one color per actor or faction, the coral reserved for
+   the paper's key moment, red only for harm or failure, green only for
+   success. Palettes are 4 to 6 colors and must survive adaptPalette in light
+   mode (avoid two tones that collapse into the same ink).
+6. End states must read: hold the resolution (the split bars, the flagged
+   robot, the gold burst fading) for at least a second before the loop.
+7. Every story carries a `tells` line in posterConfigs: the hover text that
+   narrates the story in one sentence. If the tells line is hard to write,
+   the story is not telling anything; redesign it.
+8. Verify by WATCHING the rendered story (screenshots at two or three points
+   in the cycle), never by reading the code.
+
 ## Journals sentence convention
 
 **Journals sentence convention** (Felipe's preferences, agreed 2026-06-24):

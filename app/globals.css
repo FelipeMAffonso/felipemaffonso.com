@@ -1237,6 +1237,10 @@ img.pub-link-icon { stroke: none; }
 .dither-card-media > div,
 .dither-card-media > img { animation: coverFace 0.22s var(--ease-out-quint) both; }
 
+/* the bare page-top strip, one per page */
+.page-strip { margin-bottom: 30px; }
+.hero-inner .page-strip { margin-bottom: 34px; }
+
 /* the minimal research header card (resheader axis) */
 .res-header { margin-bottom: 26px; }
 .res-header-banner .pixel-poster { width: 100%; }

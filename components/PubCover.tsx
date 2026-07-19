@@ -24,7 +24,7 @@ function hexToRgb(hex: string): [number, number, number] {
   return [parseInt(hex.slice(1, 3), 16), parseInt(hex.slice(3, 5), 16), parseInt(hex.slice(5, 7), 16)];
 }
 
-function StoryCanvas({ pubId }: { pubId: string }) {
+function StoryCanvas({ pubId, aspect }: { pubId: string; aspect: number }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const isLight = useIsLight();
 
@@ -38,7 +38,11 @@ function StoryCanvas({ pubId }: { pubId: string }) {
     if (!cfg) return;
     const storyDef = cfg.story ? STORIES[cfg.story] : undefined;
     const cols = storyDef ? storyDef.cols : (cfg.cols ?? 20);
-    const rows = storyDef ? storyDef.rows : (cfg.rows ?? 14);
+    /* match the journal cover's exact aspect: the story letterboxes
+       vertically inside it (engine motifs just fill the space) */
+    const storyRows = storyDef ? storyDef.rows : (cfg.rows ?? 14);
+    const rows = Math.max(storyRows, Math.round(cols * aspect));
+    const yOff = storyDef ? Math.floor((rows - storyRows) / 2) : 0;
     const colors = adaptPalette(storyDef ? storyDef.colors : (cfg.spec?.colors ?? []), isLight);
     const rgb = colors.map(hexToRgb);
     const tints = isLight ? CELL_TINTS.light : CELL_TINTS.dark;
@@ -69,8 +73,9 @@ function StoryCanvas({ pubId }: { pubId: string }) {
           const pad = cell * 0.11;
           const s = cell - pad * 2;
           const r = Math.max(0.8, s * 0.18);
+          const sy = y - yOff;
           const c = buf
-            ? buf[y * cols + x]
+            ? (sy >= 0 && sy < storyRows ? buf[sy * cols + x] : null)
             : cfg.spec && grid
               ? ENGINES[cfg.spec.engine](x, y, tt, grid)
               : null;
@@ -102,7 +107,7 @@ function StoryCanvas({ pubId }: { pubId: string }) {
     ro.observe(canvas);
     raf = requestAnimationFrame(step);
     return () => { cancelAnimationFrame(raf); ro.disconnect(); };
-  }, [pubId, isLight]);
+  }, [pubId, isLight, aspect]);
 
   return <canvas ref={canvasRef} aria-hidden="true" />;
 }
@@ -134,13 +139,21 @@ export function PubCover({ cover, pubId }: { cover: Cover; pubId: string }) {
     setFace((f) => (f === 0 ? 1 : 0));
   };
 
+  /* the hover text: on the story face it literally tells the story;
+     on the cover face it just names the journal */
+  const cfg = pubPosters[pubId];
+  const hover =
+    face === 0
+      ? (cfg?.tells ?? "The paper's pixel story. Click to see the journal cover.")
+      : `Cover of ${cover.alt}. Click to see the story.`;
+
   return (
     <span
       className="pub-cover-wrap"
       role="button"
       tabIndex={0}
-      title="Click to flip: story / journal cover"
-      aria-label={`Cover art, showing ${face === 0 ? "the paper's pixel story" : "the journal cover"}. Click to flip.`}
+      title={hover}
+      aria-label={hover}
       onClick={(e) => { e.stopPropagation(); flip(); }}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") { e.preventDefault(); e.stopPropagation(); flip(); }
@@ -148,7 +161,7 @@ export function PubCover({ cover, pubId }: { cover: Cover; pubId: string }) {
     >
       {face === 0 ? (
         <span key="story" className="pub-cover pub-cover-face pub-cover-cells">
-          <StoryCanvas pubId={pubId} />
+          <StoryCanvas pubId={pubId} aspect={cover.h / cover.w} />
         </span>
       ) : (
         // eslint-disable-next-line @next/next/no-img-element

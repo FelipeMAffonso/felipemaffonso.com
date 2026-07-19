@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { PageBanner } from "@/components/PageBanner";
-import { PixelPoster } from "@/components/PixelPoster";
-import { teachingPoster } from "@/lib/posterConfigs";
+import { PageStrip } from "@/components/PageStrip";
 
 export const metadata: Metadata = {
   title: "Teaching",
@@ -18,6 +17,9 @@ export default function TeachingPage() {
     <>
       <PageBanner title="Teaching" />
       <main className="page">
+        <div className="teaching-poster-section">
+          <PageStrip page="teaching" />
+        </div>
         <section className="section enter" style={d(0)}>
           <h2 className="section-title">Teaching Interests</h2>
           <p className="body-text">Marketing research, managerial statistics, experimental methods, marketing management</p>
@@ -79,17 +81,6 @@ export default function TeachingPage() {
           </div>
         </section>
 
-        <section className="section enter teaching-poster-section" style={d(4)}>
-          <div className="poster-center">
-            <PixelPoster
-              spec={teachingPoster.spec}
-              cols={teachingPoster.cols}
-              rows={teachingPoster.rows}
-              title={teachingPoster.title}
-              caption={teachingPoster.caption}
-            />
-          </div>
-        </section>
       </main>
     </>
   );

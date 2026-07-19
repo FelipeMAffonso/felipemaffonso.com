@@ -22,7 +22,6 @@ import { createContext, useCallback, useContext, useEffect, useState, type React
 export type PixelVariants = {
   portrait: "constellation" | "mosaic";
   posterfont: "ultra" | "alfa";
-  pubposters: "on" | "off";
   teachingposter: "on" | "off";
   icons: "brand" | "pixel";
   navicons: "off" | "line" | "pixel";
@@ -40,22 +39,20 @@ export type PixelVariants = {
    research header banner on. */
 export const PIXEL_DEFAULTS: PixelVariants = {
   portrait: "constellation",
-  posterfont: "ultra",
-  pubposters: "off",
+  posterfont: "alfa",
   teachingposter: "on",
   icons: "brand",
   navicons: "line",
   navhover: "gradient",
-  footer: "line",
+  footer: "led",
   covers: "cycle",
   reslayout: "list",
-  resheader: "banner",
+  resheader: "strip",
 };
 
 export const PIXEL_ALLOWED: Record<keyof PixelVariants, string[]> = {
   portrait: ["constellation", "mosaic"],
   posterfont: ["ultra", "alfa"],
-  pubposters: ["on", "off"],
   teachingposter: ["on", "off"],
   icons: ["brand", "pixel"],
   navicons: ["off", "line", "pixel"],
@@ -70,7 +67,6 @@ export const PIXEL_ALLOWED: Record<keyof PixelVariants, string[]> = {
    in components (portrait, spears "led" branch, icons, footer). */
 export const PIXEL_CSS_AXES: (keyof PixelVariants)[] = [
   "posterfont",
-  "pubposters",
   "teachingposter",
   "navhover",
   "reslayout",

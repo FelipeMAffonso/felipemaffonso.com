@@ -62,14 +62,6 @@ const ROWS: Row[] = [
     ],
   },
   {
-    key: "pubposters",
-    label: "Research: poster inside each open panel",
-    options: [
-      { value: "on", label: "on" },
-      { value: "off", label: "off" },
-    ],
-  },
-  {
     key: "teachingposter",
     label: "Teaching: poster after the student quotes",
     options: [
