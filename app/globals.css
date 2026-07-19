@@ -1079,6 +1079,102 @@ img.pub-link-icon { stroke: none; }
 }
 
 /* ============================================================
+   Pixel lab (ADJUDICATION ONLY — the /pixel-lab/ showroom)
+   ============================================================ */
+.pixel-lab .lab-note {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 72ch;
+  margin-bottom: 18px;
+}
+.lab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+.lab-cell { min-width: 0; }
+.lab-tag {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin: 8px 0;
+  font-family: var(--font-mono);
+}
+.lab-portraits {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.lab-portrait { margin: 0; }
+.lab-portrait-box {
+  width: 250px;
+  aspect-ratio: 591 / 775;
+  background: #17120e;
+  border: 1px solid rgba(244, 233, 216, 0.07);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+.lab-portrait-box canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.lab-portrait figcaption {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  text-align: center;
+}
+.lab-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.lab-stack .dither-card, .lab-stack .pixel-poster { margin-top: 0; }
+/* still treatment: kill the drifting band, keep the texture */
+.dither-card.is-still .dither-card-media::after { animation: none; opacity: 0; }
+.lab-fonts {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.lab-font-sample {
+  background: #17120e;
+  border: 1px solid rgba(244, 233, 216, 0.07);
+  border-radius: var(--radius-card);
+  padding: 26px 34px 18px;
+  text-align: center;
+}
+/* class-scoped mirror of the [data-posterfont="alfa"] axis */
+.posterfont-alfa .pixel-poster-title {
+  font-family: "Alfa Slab One", Georgia, serif;
+  letter-spacing: 0.012em;
+}
+.lab-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.lab-icon-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+.lab-icon-cell {
+  width: 24px;
+  display: inline-flex;
+  justify-content: center;
+}
+.lab-icon-cell .social-icon { fill: var(--text-dim); }
+.lab-footer-box {
+  padding: 14px 0;
+}
+
+/* ============================================================
    Variant switcher (dev/adjudication), floating, every page
    ============================================================ */
 .vswitch {

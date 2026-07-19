@@ -16,7 +16,7 @@ const COLS = 40;
 const ROWS = 3;
 const COLORS = ["#8a7f72", "#d9a441", "#DA7756", "#f4e9d6"];
 
-function LedStrip() {
+export function LedStrip() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {

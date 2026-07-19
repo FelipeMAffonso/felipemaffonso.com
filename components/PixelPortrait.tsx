@@ -17,8 +17,12 @@
    - the whole density swells toward a fuller likeness and
      recedes on a slow cycle, like the reference wave;
    - corner anchors stay dimly lit; rare coral glints pass by.
+   The "mosaic" variant keeps the full map lit, gently alive.
    Plays the "toggle" cue on flip (a deliberate action; hover
    stays silent per the sound law).
+
+   PortraitCanvas is exported separately so the /pixel-lab/
+   adjudication page can mount both modes side by side.
    ============================================================ */
 
 import { useEffect, useRef, useState } from "react";
@@ -50,15 +54,14 @@ const ANCHOR = "rgba(160, 155, 148, 0.5)";
 const UNLIT_FILL = "rgba(244, 233, 216, 0.022)";
 const UNLIT_STROKE = "rgba(244, 233, 216, 0.05)";
 
-export function PixelPortrait() {
-  const [flipped, setFlipped] = useState(false);
-  const { play } = useSound();
-  const { portrait: mode } = usePixelVariants();
+export type PortraitMode = "constellation" | "mosaic";
+
+export function PortraitCanvas({ mode, active = true }: { mode: PortraitMode; active?: boolean }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const flippedRef = useRef(false);
-  flippedRef.current = flipped;
   const modeRef = useRef(mode);
   modeRef.current = mode;
+  const activeRef = useRef(active);
+  activeRef.current = active;
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -171,7 +174,7 @@ export function PixelPortrait() {
 
     const step = (now: number) => {
       raf = requestAnimationFrame(step);
-      if (!flippedRef.current) return; // parked; face side showing
+      if (!activeRef.current) return; // parked; face side showing
       if (now - last < 100) return;
       const dt = last === 0 ? 0.1 : Math.min(0.35, (now - last) / 1000);
       last = now;
@@ -192,6 +195,14 @@ export function PixelPortrait() {
       ro.disconnect();
     };
   }, []);
+
+  return <canvas ref={canvasRef} aria-hidden="true" />;
+}
+
+export function PixelPortrait() {
+  const [flipped, setFlipped] = useState(false);
+  const { play } = useSound();
+  const { portrait: mode } = usePixelVariants();
 
   const flip = () => {
     play("toggle");
@@ -219,7 +230,7 @@ export function PixelPortrait() {
           <img src="/images/headshot.jpg" alt="Felipe M. Affonso" width={591} height={775} />
         </div>
         <div className="pixel-portrait-face pixel-portrait-back">
-          <canvas ref={canvasRef} aria-hidden="true" />
+          <PortraitCanvas mode={mode} active={flipped} />
         </div>
       </div>
     </div>
