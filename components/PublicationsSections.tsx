@@ -11,7 +11,9 @@
 
 import { useState, type CSSProperties, type KeyboardEvent } from "react";
 import { preprints, journals, type Pub, type PubLink } from "@/lib/publications";
+import { pubPosters } from "@/lib/posterConfigs";
 import { useSound } from "@/lib/sound";
+import { PixelPoster } from "./PixelPoster";
 import {
   JournalIcon, DownloadIcon, OsfIcon, GitHubGlyph, ArxivIcon, PsyArxivIcon, SsrnIcon,
 } from "./icons";
@@ -96,6 +98,20 @@ function PublicationEntry({
               )}
               <p>{pub.abstract}</p>
             </div>
+            {/* The pixel poster is a Felipe-approved appended block
+                (2026-07-19); the locked elements above are unchanged. */}
+            {pubPosters[pub.id] && (
+              <div className="pub-poster">
+                <PixelPoster
+                  spec={pubPosters[pub.id].spec}
+                  cols={pubPosters[pub.id].cols}
+                  rows={pubPosters[pub.id].rows}
+                  title={pubPosters[pub.id].title}
+                  caption={pubPosters[pub.id].caption}
+                  active={open}
+                />
+              </div>
+            )}
           </div>
         </div>
       </div>

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { PageBanner } from "@/components/PageBanner";
+import { PixelPoster } from "@/components/PixelPoster";
+import { teachingPoster } from "@/lib/posterConfigs";
 
 export const metadata: Metadata = {
   title: "Teaching",
@@ -74,6 +76,18 @@ export default function TeachingPage() {
             <blockquote>&quot;Felipe is the best professor ever and he is so kind and you can tell that he cares about each and every one of his students. Throughly enjoyed him every day in class, he is awesome!&quot;</blockquote>
             <blockquote>&quot;Thank you for everything this semester. I know this is a very hands-on and interactive course, but you are hands down one of my favorite professors I&apos;ve had so far at OSU. It is blatantly obvious that you truly care about the success and future of every single student in your classroom.&quot;</blockquote>
             <blockquote>&quot;The communication we have with you is unlike any other professor I&apos;ve ever had, you&apos;re always willing to help, and make sure we are on the right path. I always feel like what we work on in class will be useful to us in the future, so thank you!&quot;</blockquote>
+          </div>
+        </section>
+
+        <section className="section enter teaching-poster-section" style={d(4)}>
+          <div className="poster-center">
+            <PixelPoster
+              spec={teachingPoster.spec}
+              cols={teachingPoster.cols}
+              rows={teachingPoster.rows}
+              title={teachingPoster.title}
+              caption={teachingPoster.caption}
+            />
           </div>
         </section>
       </main>

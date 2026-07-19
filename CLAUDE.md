@@ -234,7 +234,10 @@ These are not preferences. Do not violate them.
   buttons, spacing, and anatomy in `components/PublicationsSections.tsx` do not
   change. The four action buttons sit in one row with their fixed icons. The only
   changes ever permitted there are the sound cue tokens and the mechanical removal
-  of dead machinery; never a visual or layout change.
+  of dead machinery; never a visual or layout change. One approved exception
+  (Felipe, 2026-07-19): the pixel poster block appended AFTER the abstract
+  (`.pub-poster`) is an addition below the locked anatomy; the locked elements
+  above it are unchanged.
 - Site content strings are sacred. The bio paragraph, the publication citations and
   abstracts, the journals sentence, and the teaching text are not reworded, trimmed,
   or "improved" without Felipe asking. Treat them as fixed copy.
@@ -260,6 +263,56 @@ These are not preferences. Do not violate them.
 
 `public/CNAME` carries the custom domain `felipemaffonso.com` into `out/`, so Pages
 serves the site at that domain.
+
+## Pixel posters (the LED-grid art system, branch pixel-posters, 2026-07-19)
+
+An art layer inspired by its_sslvr's animated LED-grid posters: a dark warm card
+holds a fixed grid of flat rounded cells (unlit cells stay faintly visible, the
+four corner cells are permanently dim gray anchors) and a slow, sparse motif of
+lit cells moves through it. No glow, no bloom; brightness lives in the color
+values. Titles use the self-hosted slab serif Ultra (via @fontsource); captions
+are plain facts.
+
+Parts:
+- `lib/pixelEngine.ts` — pure per-cell motif programs (drift, tide, blaze,
+  converge, reveal, spark, structure, orbit, contagion, band, glimmer). Every
+  engine answers (x, y, t, grid) with null or {v, c}; no per-frame state.
+- `components/PixelPoster.tsx` — the canvas poster card: draws the grid at
+  ~10fps, runs only while on screen and while `active`, reduced motion runs the
+  same loop at 0.4x (calmer, never frozen).
+- `lib/posterConfigs.ts` — one poster per publication id plus the teaching
+  card: engine, palette (every palette carries one coral note), grid size,
+  title, caption.
+- `components/PixelPortrait.tsx` — the Home easter egg: clicking the headshot
+  flips it (3D card flip, faces carry the frame; the outer drops overflow so
+  the flip is not flattened) to a living grid portrait. Two modes:
+  constellation (sparse, breathing, feature cells stable with white-hot cores)
+  and mosaic (full map, gently alive). Plays the "toggle" cue on flip. The
+  spatial map is `lib/pixel-portrait.json`, generated OFFLINE by
+  `scripts/build-pixel-portrait.mjs` (ffmpeg downsample 30x39, oval mask so
+  the face rises from a dark field, warm ramp plus sparse coral, ordered-dither
+  wobble). Regenerate only when the headshot changes.
+- `components/SpearsCard.tsx` — the Contact poster of the Spears building.
+  Three variants: scan (the fine-dither PNG with a CRT scanline shimmer),
+  still (no moving band), led (coarse 52x13 grid from `lib/spears-led.json`,
+  built by `scripts/build-spears-led.mjs` with highlight-preserving
+  downsampling; lamps and lit windows flicker via the glimmer engine).
+- `components/pixelIcons.tsx` + `components/SocialLinks.tsx` — optional pixel
+  glyph set for the Contact profiles list.
+- `components/FooterLine.tsx` — optional LED strip replacing the footer line.
+
+ADJUDICATION (temporary, this branch only): `lib/pixelVariants.tsx` +
+`components/PixelVariantSwitcher.tsx` + the pre-paint script in layout revive
+the July 17 variant-switcher pattern under the storage key `pixel-variants`
+(the old `site-variants` key is still cleaned up by lib/sound.tsx; do not reuse
+it). Eight axes: portrait, posterfont (ultra/alfa), pubposters, teachingposter,
+spears, icons, navhover, footer. View locally with `npm run serve` (port 4321)
+or `npm run dev`; the floating "Pixel options" pill sits bottom-right. TO BAKE
+after Felipe adjudicates: hard-code the winning choices, delete
+lib/pixelVariants.tsx, PixelVariantSwitcher, the pre-paint script, the losing
+font import, and the losing branches (mirror of how the July 17 system was
+retired). The DEFAULTS in lib/pixelVariants.tsx hold the current
+recommendation.
 
 ## Journals sentence convention
 

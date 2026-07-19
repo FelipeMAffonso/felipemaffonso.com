@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { PageBanner } from "@/components/PageBanner";
-import { ScholarIcon, GitHubSocialIcon, OsfSocialIcon, LinkedInIcon, XIcon, ExpertsIcon } from "@/components/icons";
+import { SpearsCard } from "@/components/SpearsCard";
+import { SocialLinks } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -33,46 +34,11 @@ export default function ContactPage() {
 
           <div className="contact-block enter" style={d(1)}>
             <h3>Profiles</h3>
-            <ul className="social-links">
-              <li>
-                <a href="https://scholar.google.com/citations?user=AcRvZ2AAAAAJ&hl=en" target="_blank" rel="noopener">
-                  <ScholarIcon />
-                  Google Scholar
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/FelipeMAffonso" target="_blank" rel="noopener">
-                  <GitHubSocialIcon />
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <a href="https://osf.io/4stqk/" target="_blank" rel="noopener">
-                  <OsfSocialIcon />
-                  Open Science Framework
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/felipemaffonso/" target="_blank" rel="noopener">
-                  <LinkedInIcon />
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/felipe_maffonso" target="_blank" rel="noopener">
-                  <XIcon />
-                  X (Twitter)
-                </a>
-              </li>
-              <li>
-                <a href="https://experts.okstate.edu/felipe.affonso" target="_blank" rel="noopener">
-                  <ExpertsIcon />
-                  OSU Experts Profile
-                </a>
-              </li>
-            </ul>
+            <SocialLinks />
           </div>
         </div>
+
+        <SpearsCard />
       </main>
     </>
   );

@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import { ParticleField } from "@/components/ParticleField";
+import { PixelPortrait } from "@/components/PixelPortrait";
 
 const personLd = {
   "@context": "https://schema.org",
@@ -32,10 +33,7 @@ export default function Home() {
           <p className="hero-title">Assistant Professor of Marketing, Oklahoma State University</p>
         </div>
         <div className="hero-grid enter" style={{ "--enter-i": 2 } as CSSProperties}>
-          <div className="hero-photo">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/headshot.jpg" alt="Felipe M. Affonso" width={591} height={775} />
-          </div>
+          <PixelPortrait />
           <div className="hero-bio">
             <p>
               Felipe M. Affonso is an Assistant Professor of Marketing at Oklahoma State University. He received his Ph.D. in Marketing from the University of Florida. His research focuses on consumer judgment and decision-making, consumer inference-making, human-AI interaction and technology, and health, environment, and policy. His work has been published in leading academic journals, including <em>Journal of Consumer Research</em>, <em>Journal of Marketing Research</em>, <em>Journal of Marketing</em>, <em>Research Policy</em>, and <em>Journal of Experimental Psychology: General</em>.

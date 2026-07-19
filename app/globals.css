@@ -848,6 +848,357 @@ img.pub-link-icon { stroke: none; }
 }
 
 /* ============================================================
+   Pixel posters (the its_sslvr LED-grid language)
+   A dark warm card in BOTH themes (a poster is an artifact, not
+   a surface), an always-visible cell grid drawn on canvas, a
+   slab-serif title (Ultra, self-hosted), and a quiet caption.
+   Hover carries the faint warm glow borrowed from the Nucleo
+   "Complete setup" card, in coral.
+   ============================================================ */
+.pixel-poster {
+  --poster-bg: #17120e;
+  --poster-title: #f2ece2;
+  --poster-dim: #9a938a;
+  background: var(--poster-bg);
+  border: 1px solid rgba(244, 233, 216, 0.07);
+  border-radius: var(--radius-card);
+  padding: 20px 20px 24px;
+  margin: 0;
+  width: 100%;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.2s var(--ease-out-quint), border-color 0.2s var(--ease-out-quint);
+}
+.pixel-poster:hover {
+  border-color: rgba(218, 119, 86, 0.16);
+  box-shadow:
+    0 8px 26px -14px rgba(218, 119, 86, 0.28),
+    var(--shadow-panel);
+}
+.pixel-poster-grid { line-height: 0; }
+.pixel-poster-grid canvas {
+  width: 100%;
+  display: block;
+}
+.pixel-poster figcaption {
+  text-align: center;
+  padding-top: 18px;
+}
+.pixel-poster-title {
+  font-family: "Ultra", "Georgia", serif;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 0.005em;
+  color: var(--poster-title, #f2ece2);
+  line-height: 1.25;
+}
+.pixel-poster-caption {
+  font-size: 12px;
+  color: var(--poster-dim, #9a938a);
+  line-height: 1.6;
+  margin: 8px auto 0;
+  max-width: 34ch;
+}
+
+/* placement: inside the publication panel (an approved appended
+   block below the locked anatomy) */
+.pub-poster {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+.pub-poster .pixel-poster { max-width: 320px; }
+.pub-entry.open .pub-detail-pad > *:nth-child(3) { animation-delay: 0.18s; }
+
+/* placement: centered strip (Teaching) */
+.poster-center {
+  display: flex;
+  justify-content: center;
+}
+.poster-center .pixel-poster { max-width: 420px; }
+
+/* ---- the portrait flip (Home) ------------------------------ */
+/* The outer keeps .hero-photo's box but drops its border/clip so
+   the 3D flip is not flattened; each face carries the frame. */
+.pixel-portrait {
+  overflow: visible;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  perspective: 1100px;
+  cursor: pointer;
+}
+.pixel-portrait-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.3s var(--ease-in-out-strong);
+}
+.pixel-portrait.flipped .pixel-portrait-inner { transform: rotateY(180deg); }
+.pixel-portrait-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
+  background: var(--surface-2);
+}
+.pixel-portrait-front img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.pixel-portrait-back {
+  transform: rotateY(180deg);
+  background: #17120e;
+  border-color: rgba(244, 233, 216, 0.07);
+}
+.pixel-portrait-back canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* reduced motion: the flip becomes a plain crossfade-speed turn */
+@media (prefers-reduced-motion: reduce) {
+  .pixel-portrait-inner { transition-duration: 0.2s; }
+}
+
+/* ---- the dithered building card (Contact) ------------------ */
+.dither-card {
+  --poster-title: #f2ece2;
+  --poster-dim: #9a938a;
+  background: #17120e;
+  border: 1px solid rgba(244, 233, 216, 0.07);
+  border-radius: var(--radius-card);
+  padding: 20px 20px 24px;
+  margin: 56px 0 0;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.2s var(--ease-out-quint), border-color 0.2s var(--ease-out-quint);
+}
+.dither-card:hover {
+  border-color: rgba(218, 119, 86, 0.16);
+  box-shadow:
+    0 8px 26px -14px rgba(218, 119, 86, 0.28),
+    var(--shadow-panel);
+}
+.dither-card figcaption {
+  text-align: center;
+  padding-top: 18px;
+}
+.dither-card-media {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  line-height: 0;
+}
+.dither-card-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* static scanline texture */
+.dither-card-media::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.14) 0 1px,
+    transparent 1px 3px
+  );
+  pointer-events: none;
+}
+/* one slow shimmer band drifting down, like a CRT refresh */
+.dither-card-media::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  top: -40%;
+  height: 34%;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(255, 244, 230, 0.07) 50%,
+    transparent 100%
+  );
+  animation: ditherScan 7s linear infinite;
+  pointer-events: none;
+}
+@keyframes ditherScan {
+  from { transform: translateY(0); }
+  to { transform: translateY(440%); }
+}
+/* reduced motion: keep the scan, at half speed (never frozen) */
+@media (prefers-reduced-motion: reduce) {
+  .dither-card-media::after { animation-duration: 14s; }
+}
+
+/* ============================================================
+   Pixel variant axes (ADJUDICATION ONLY — removed at bake)
+   ============================================================ */
+/* poster title serif candidate B */
+[data-posterfont="alfa"] .pixel-poster-title {
+  font-family: "Alfa Slab One", Georgia, serif;
+  letter-spacing: 0.012em;
+}
+/* paper posters and teaching poster on/off */
+[data-pubposters="off"] .pub-poster { display: none; }
+[data-teachingposter="off"] .teaching-poster-section { display: none; }
+/* Spears still: keep the scanline texture, stop the moving band */
+[data-spears="still"] .dither-card-media::after { animation: none; opacity: 0; }
+/* nav hover underline as marching cells instead of the gradient */
+[data-navhover="cells"] .nav-links a:not(.active):hover::after {
+  background: repeating-linear-gradient(90deg, var(--coral) 0 4px, transparent 4px 7px);
+  background-size: 14px 100%;
+  animation: navCellsMarch 0.9s steps(2) infinite;
+}
+@keyframes navCellsMarch {
+  from { background-position: 0 0; }
+  to { background-position: 14px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-navhover="cells"] .nav-links a:not(.active):hover::after { animation-duration: 1.8s; }
+}
+
+/* LED spears placement mirrors the dither card */
+.spears-led { margin-top: 56px; }
+.spears-led .pixel-poster { max-width: none; }
+
+/* LED footer strip */
+.footer-led {
+  max-width: 220px;
+  margin: 0 auto;
+}
+.footer-led canvas {
+  width: 100%;
+  display: block;
+}
+
+/* ============================================================
+   Variant switcher (dev/adjudication), floating, every page
+   ============================================================ */
+.vswitch {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  font-family: var(--font-sans);
+}
+@media print { .vswitch { display: none; } }
+
+.vswitch-fab {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 8px 14px;
+  cursor: pointer;
+  box-shadow: var(--shadow-panel);
+  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.2s var(--ease-out-quint), transform 0.13s var(--ease-out-quint);
+}
+.vswitch-fab:hover { border-color: var(--coral); color: var(--coral); }
+@media (hover: hover) { .vswitch-fab:active { transform: scale(0.97); } }
+.vswitch-caret {
+  width: 12px; height: 12px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.22s var(--ease-out-quint);
+}
+.vswitch[data-open="true"] .vswitch-caret { transform: rotate(180deg); }
+
+.vswitch-panel {
+  width: 272px;
+  max-height: min(72vh, 560px);
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-panel);
+  padding: 14px 14px 12px;
+  animation: vswitchIn 0.2s var(--ease-out-quint) both;
+}
+@keyframes vswitchIn {
+  from { opacity: 0; transform: translateY(6px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) { .vswitch-panel { animation: none; } }
+
+.vswitch-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 11px;
+}
+.vswitch-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  letter-spacing: -0.005em;
+}
+.vswitch-seg {
+  display: flex;
+  gap: 3px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-btn);
+  padding: 3px;
+}
+.vswitch-btn {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: color 0.14s var(--ease-out-quint), background-color 0.14s var(--ease-out-quint);
+}
+.vswitch-btn:hover { background: var(--hover-wash); color: var(--text); }
+.vswitch-btn.is-active {
+  background: var(--coral-tint-strong);
+  color: var(--coral-text);
+}
+
+.vswitch-copy {
+  width: 100%;
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-btn);
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint);
+}
+.vswitch-copy:hover { border-color: var(--coral); color: var(--coral); background: var(--coral-tint); }
+
+@media (max-width: 768px) {
+  .vswitch { right: 14px; bottom: 14px; }
+  .vswitch-panel { width: min(272px, calc(100vw - 28px)); }
+}
+
+/* ============================================================
    Mobile
    ============================================================ */
 @media (max-width: 768px) {
@@ -898,6 +1249,11 @@ img.pub-link-icon { stroke: none; }
   .contact-grid { grid-template-columns: 1fr; gap: 32px; }
   .cv-embed-slot { height: 520px; }
   .footer-line { padding: 32px 24px 24px; }
+
+  .pub-poster .pixel-poster { max-width: 280px; }
+  .pixel-poster { padding: 16px 16px 20px; }
+  .pixel-poster-title { font-size: 18px; }
+  .dither-card { padding: 16px 16px 20px; margin-top: 40px; }
 }
 
 @media (max-width: 480px) {

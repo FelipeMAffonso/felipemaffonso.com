@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import "@fontsource/ultra"; // slab serif for pixel-poster titles, self-hosted
+import "@fontsource/alfa-slab-one"; // ADJUDICATION ONLY: candidate B; loser is removed at bake
 import "./globals.css";
 import { Providers } from "@/components/Providers";
 import { Nav } from "@/components/Nav";
 import { CvFrame } from "@/components/CvFrame";
+import { FooterLine } from "@/components/FooterLine";
 
 const SITE_DESCRIPTION =
   "Felipe M. Affonso. Assistant Professor of Marketing at Oklahoma State University. Research on consumer decision-making, human-technology interactions, and health/environmental policy.";
@@ -27,6 +30,11 @@ export const metadata: Metadata = {
 // Microsoft Clarity — preserved exactly (project wexegoktgd)
 const CLARITY_SCRIPT = `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "wexegoktgd");`;
 
+// ADJUDICATION ONLY: apply stored pixel-variant CSS axes before first
+// paint so a hard reload keeps the chosen look with no flash. Mirrors
+// PIXEL_CSS_AXES in lib/pixelVariants.tsx; removed at bake.
+const PIXEL_VARIANT_SCRIPT = `(function(){try{var d=JSON.parse(localStorage.getItem("pixel-variants")||"{}");var a={posterfont:["ultra","alfa"],pubposters:["on","off"],teachingposter:["on","off"],spears:["scan","still","led"],navhover:["gradient","cells"]};for(var k in a){var v=d[k];if(a[k].indexOf(v)>-1){document.documentElement.setAttribute("data-"+k,v)}}}catch(e){}})();`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning>
@@ -39,12 +47,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* analytics: rendered into the static HTML */}
         <script dangerouslySetInnerHTML={{ __html: CLARITY_SCRIPT }} />
+        {/* pixel-variant pre-paint (adjudication only) */}
+        <script dangerouslySetInnerHTML={{ __html: PIXEL_VARIANT_SCRIPT }} />
 
         <Providers>
           <Nav />
           {children}
           <footer className="footer-line">
-            <div className="footer-line-inner" />
+            <FooterLine />
           </footer>
           {/* The single persistent CV viewer, warmed on every page. */}
           <CvFrame />
