@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { PageBanner } from "@/components/PageBanner";
+import { PageStrip } from "@/components/PageStrip";
 
 export const metadata: Metadata = {
   title: "Teaching",
@@ -16,6 +17,9 @@ export default function TeachingPage() {
     <>
       <PageBanner title="Teaching" />
       <main className="page">
+        <div className="teaching-poster-section">
+          <PageStrip page="teaching" />
+        </div>
         <section className="section enter" style={d(0)}>
           <h2 className="section-title">Teaching Interests</h2>
           <p className="body-text">Marketing research, managerial statistics, experimental methods, marketing management</p>
@@ -76,6 +80,7 @@ export default function TeachingPage() {
             <blockquote>&quot;The communication we have with you is unlike any other professor I&apos;ve ever had, you&apos;re always willing to help, and make sure we are on the right path. I always feel like what we work on in class will be useful to us in the future, so thank you!&quot;</blockquote>
           </div>
         </section>
+
       </main>
     </>
   );

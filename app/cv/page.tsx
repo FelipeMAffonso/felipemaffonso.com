@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageBanner } from "@/components/PageBanner";
+import { PageStrip } from "@/components/PageStrip";
 import { CvDownload } from "@/components/CvDownload";
 
 export const metadata: Metadata = {
@@ -14,6 +15,7 @@ export default function CvPage() {
     <>
       <PageBanner title="Curriculum Vitae" />
       <main className="page page-wide">
+        <PageStrip page="cv" />
         <p className="cv-intro enter">You can view my CV below.</p>
 
         <CvDownload />

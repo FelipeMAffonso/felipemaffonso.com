@@ -11,6 +11,8 @@
     "serve": "npx serve@latest out -l 4321"
   },
   "dependencies": {
+    "@fontsource/alfa-slab-one": "^5.3.0",
+    "@fontsource/ultra": "^5.3.0",
     "cuelume": "^0.1.0",
     "geist": "^1.5.1",
     "motion": "^12.23.24",

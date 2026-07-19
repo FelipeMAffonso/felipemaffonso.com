@@ -234,7 +234,10 @@ These are not preferences. Do not violate them.
   buttons, spacing, and anatomy in `components/PublicationsSections.tsx` do not
   change. The four action buttons sit in one row with their fixed icons. The only
   changes ever permitted there are the sound cue tokens and the mechanical removal
-  of dead machinery; never a visual or layout change.
+  of dead machinery; never a visual or layout change. One approved exception
+  (Felipe, 2026-07-19): the pixel poster block appended AFTER the abstract
+  (`.pub-poster`) is an addition below the locked anatomy; the locked elements
+  above it are unchanged.
 - Site content strings are sacred. The bio paragraph, the publication citations and
   abstracts, the journals sentence, and the teaching text are not reworded, trimmed,
   or "improved" without Felipe asking. Treat them as fixed copy.
@@ -260,6 +263,107 @@ These are not preferences. Do not violate them.
 
 `public/CNAME` carries the custom domain `felipemaffonso.com` into `out/`, so Pages
 serves the site at that domain.
+
+## Pixel posters (the LED-grid art system, branch pixel-posters, 2026-07-19)
+
+An art layer inspired by its_sslvr's animated LED-grid posters: a dark card
+holds a fixed grid of flat rounded cells (unlit cells stay faintly visible, the
+four corner cells are permanently dim gray anchors) and a slow, sparse motif of
+lit cells moves through it. No glow, no bloom; brightness lives in the color
+values. Titles use the self-hosted slab serif Ultra (via @fontsource); captions
+are plain facts. THE CARD COLOR LAW (Felipe 2026-07-19): cards are THEME
+ADAPTIVE — light theme gets a light card (site surface tokens) with adapted
+cell colors (lib/pixelTheme: near-white becomes ink, the rest darkens a step);
+dark theme gets the night card (#16171b family, cool neutral tints, never warm
+brown). The portrait back and the Spears dusk scene stay dark (alwaysDark).
+STORIES (Felipe 2026-07-19): most papers now use narrative motifs in
+lib/pixelStories.ts (ASCII-sprite phase timelines that depict the paper: the
+three provider marks for Strategic Personalities, the box-and-price-tag reveal
+for Concealing Prices, ...); Space Commons keeps orbit, Disease Cues keeps
+contagion. The cover slot in an open panel (172px, PubCover) shows the story
+by default and flips to the real journal cover on click; the pixel-quantized
+journal covers were built, judged bad, and deleted. The Spears card cycles on
+click (dither / LED / pixel art) with the scanline on every face.
+
+Parts:
+- `lib/pixelEngine.ts` — pure per-cell motif programs (drift, tide, blaze,
+  converge, reveal, spark, structure, orbit, contagion, band, glimmer). Every
+  engine answers (x, y, t, grid) with null or {v, c}; no per-frame state.
+- `components/PixelPoster.tsx` — the canvas poster card: draws the grid at
+  ~10fps, runs only while on screen and while `active`, reduced motion runs the
+  same loop at 0.4x (calmer, never frozen).
+- `lib/posterConfigs.ts` — one poster per publication id plus the teaching
+  card: engine, palette (every palette carries one coral note), grid size,
+  title, caption.
+- `components/PixelPortrait.tsx` — the Home easter egg: clicking the headshot
+  flips it (3D card flip, faces carry the frame; the outer drops overflow so
+  the flip is not flattened) to a living grid portrait. Two modes:
+  constellation (sparse, breathing, feature cells stable with white-hot cores)
+  and mosaic (full map, gently alive). Plays the "toggle" cue on flip. The
+  spatial map is `lib/pixel-portrait.json`, generated OFFLINE by
+  `scripts/build-pixel-portrait.mjs` (ffmpeg downsample 30x39, oval mask so
+  the face rises from a dark field, warm ramp plus sparse coral, ordered-dither
+  wobble). Regenerate only when the headshot changes.
+- `components/SpearsCard.tsx` — the Contact poster of the Spears building.
+  Three variants: scan (the fine-dither PNG with a CRT scanline shimmer),
+  still (no moving band), led (coarse 52x13 grid from `lib/spears-led.json`,
+  built by `scripts/build-spears-led.mjs` with highlight-preserving
+  downsampling; lamps and lit windows flicker via the glimmer engine).
+- `components/pixelIcons.tsx` + `components/SocialLinks.tsx` — optional pixel
+  glyph set for the Contact profiles list.
+- `components/FooterLine.tsx` — optional LED strip replacing the footer line.
+
+ADJUDICATION (temporary, this branch only): `lib/pixelVariants.tsx` +
+`components/PixelVariantSwitcher.tsx` + the pre-paint script in layout revive
+the July 17 variant-switcher pattern under the storage key `pixel-variants`
+(the old `site-variants` key is still cleaned up by lib/sound.tsx; do not reuse
+it). Eleven axes: portrait, posterfont (ultra/alfa), reslayout (list/rail/
+gallery — the Research page layout itself: sticky art rail following the open
+paper, or a List|Posters wall toggle), covers (static/cycle — the click-to-
+cycle cover inside open panels: real cover, pixel cover from
+lib/pixel-covers.json, motif; Felipe's design), pubposters, teachingposter,
+spears (scan/still/led/pixelart), icons (brand/pixel — drives Contact profiles,
+Research panel buttons, the CV download arrow, AND the nav toggles at once),
+navicons (off/line/pixel — icons next to the nav tab labels), navhover, footer. The /pixel-lab/ page also carries the judging map, the
+reference stills (public/images/pixel-ref/, deleted at bake), and the research
+LAYOUT candidates (A panel bottom = built, B cover swap, C margin rail,
+D gallery toggle, E pixelized covers, F poster strip) awaiting Felipe's pick. View locally with `npm run serve` (port 4321)
+or `npm run dev`; the floating "Pixel options" pill sits bottom-right. TO BAKE
+after Felipe adjudicates: hard-code the winning choices, delete
+lib/pixelVariants.tsx, PixelVariantSwitcher, the pre-paint script, the losing
+font import, and the losing branches (mirror of how the July 17 system was
+retired). The DEFAULTS in lib/pixelVariants.tsx hold the current
+recommendation.
+
+## How to write a great pixel story (lib/pixelStories.ts)
+
+The bar (Felipe 2026-07-19): stories must be genuinely beautiful and must
+depict the paper, not decorate it. Rules learned so far:
+
+1. One idea per phase, two to three phases, 10 to 18 seconds total. A phase is
+   a sentence: "the robot falls in the trap." If you cannot say the phase in
+   one sentence, split it.
+2. Draw THINGS, not noise: sprites (ASCII cell art via spr()) for actors and
+   objects (a price tag, a die, a graduation cap, the provider marks), simple
+   fills for structures. The viewer should recognize the actor before the
+   motion starts.
+3. Space is part of the composition. Most of the grid stays dark; the story
+   letterboxes into the journal-cover aspect inside the cover slot, so design
+   for a calm dark margin above and below.
+4. Motion should be slow beats, not animation-easing: things appear (env fade),
+   travel on integer cells, and resolve. One burst, sweep, or flash per story
+   is an effect; two is noise.
+5. Color is meaning: one color per actor or faction, the coral reserved for
+   the paper's key moment, red only for harm or failure, green only for
+   success. Palettes are 4 to 6 colors and must survive adaptPalette in light
+   mode (avoid two tones that collapse into the same ink).
+6. End states must read: hold the resolution (the split bars, the flagged
+   robot, the gold burst fading) for at least a second before the loop.
+7. Every story carries a `tells` line in posterConfigs: the hover text that
+   narrates the story in one sentence. If the tells line is hard to write,
+   the story is not telling anything; redesign it.
+8. Verify by WATCHING the rendered story (screenshots at two or three points
+   in the cycle), never by reading the code.
 
 ## Journals sentence convention
 

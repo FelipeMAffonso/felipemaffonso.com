@@ -115,7 +115,7 @@ export default function ResearchPage() {
   return (
     <>
       <PageBanner title="Research" />
-      <main className="page">
+      <main className="page research-page">
         <PublicationsSections />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }} />
       </main>

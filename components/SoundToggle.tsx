@@ -1,6 +1,8 @@
 "use client";
 
 import { useSound } from "@/lib/sound";
+import { usePixelVariants } from "@/lib/pixelVariants";
+import { PixelSpeakerOnIcon, PixelSpeakerOffIcon } from "./pixelIcons";
 
 const SpeakerOn = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -19,6 +21,9 @@ const SpeakerOff = () => (
 
 export function SoundToggle() {
   const { enabled, toggle } = useSound();
+  const { icons } = usePixelVariants();
+  const On = icons === "pixel" ? PixelSpeakerOnIcon : SpeakerOn;
+  const Off = icons === "pixel" ? PixelSpeakerOffIcon : SpeakerOff;
   return (
     <button
       className="icon-btn sound-toggle"
@@ -27,7 +32,7 @@ export function SoundToggle() {
       title={enabled ? "Sound on" : "Sound off"}
       onClick={toggle}
     >
-      <span className="icon-swap" aria-hidden="true">{enabled ? <SpeakerOn /> : <SpeakerOff />}</span>
+      <span className="icon-swap" aria-hidden="true">{enabled ? <On /> : <Off />}</span>
     </button>
   );
 }
