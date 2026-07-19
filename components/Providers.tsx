@@ -1,9 +1,8 @@
-"use client";
+﻿"use client";
 
 import { ThemeProvider } from "next-themes";
 import { SoundProvider } from "@/lib/sound";
 import { PixelVariantProvider } from "@/lib/pixelVariants";
-import { PixelVariantSwitcher } from "@/components/PixelVariantSwitcher";
 import type { ReactNode } from "react";
 
 export function Providers({ children }: { children: ReactNode }) {
@@ -20,7 +19,6 @@ export function Providers({ children }: { children: ReactNode }) {
             switcher; stripped once Felipe bakes his picks. */}
         <PixelVariantProvider>
           {children}
-          <PixelVariantSwitcher />
         </PixelVariantProvider>
       </SoundProvider>
     </ThemeProvider>
