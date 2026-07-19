@@ -26,8 +26,11 @@ export type PixelVariants = {
   teachingposter: "on" | "off";
   spears: "scan" | "still" | "led" | "pixelart";
   icons: "brand" | "pixel";
+  navicons: "off" | "line" | "pixel";
   navhover: "gradient" | "cells";
   footer: "line" | "led";
+  covers: "static" | "cycle";
+  reslayout: "list" | "rail" | "gallery";
 };
 
 /* Shipping recommendation; these win if the system is stripped. */
@@ -38,8 +41,11 @@ export const PIXEL_DEFAULTS: PixelVariants = {
   teachingposter: "on",
   spears: "scan",
   icons: "brand",
+  navicons: "off",
   navhover: "gradient",
   footer: "line",
+  covers: "cycle",
+  reslayout: "list",
 };
 
 export const PIXEL_ALLOWED: Record<keyof PixelVariants, string[]> = {
@@ -49,8 +55,11 @@ export const PIXEL_ALLOWED: Record<keyof PixelVariants, string[]> = {
   teachingposter: ["on", "off"],
   spears: ["scan", "still", "led", "pixelart"],
   icons: ["brand", "pixel"],
+  navicons: ["off", "line", "pixel"],
   navhover: ["gradient", "cells"],
   footer: ["line", "led"],
+  covers: ["static", "cycle"],
+  reslayout: ["list", "rail", "gallery"],
 };
 
 /* Axes consumed purely by CSS via <html data-*>. The rest are read
@@ -61,6 +70,7 @@ export const PIXEL_CSS_AXES: (keyof PixelVariants)[] = [
   "teachingposter",
   "spears",
   "navhover",
+  "reslayout",
 ];
 
 export const PIXEL_STORAGE_KEY = "pixel-variants";

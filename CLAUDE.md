@@ -307,10 +307,14 @@ ADJUDICATION (temporary, this branch only): `lib/pixelVariants.tsx` +
 `components/PixelVariantSwitcher.tsx` + the pre-paint script in layout revive
 the July 17 variant-switcher pattern under the storage key `pixel-variants`
 (the old `site-variants` key is still cleaned up by lib/sound.tsx; do not reuse
-it). Eight axes: portrait, posterfont (ultra/alfa), pubposters, teachingposter,
+it). Eleven axes: portrait, posterfont (ultra/alfa), reslayout (list/rail/
+gallery — the Research page layout itself: sticky art rail following the open
+paper, or a List|Posters wall toggle), covers (static/cycle — the click-to-
+cycle cover inside open panels: real cover, pixel cover from
+lib/pixel-covers.json, motif; Felipe's design), pubposters, teachingposter,
 spears (scan/still/led/pixelart), icons (brand/pixel — drives Contact profiles,
 Research panel buttons, the CV download arrow, AND the nav toggles at once),
-navhover, footer. The /pixel-lab/ page also carries the judging map, the
+navicons (off/line/pixel — icons next to the nav tab labels), navhover, footer. The /pixel-lab/ page also carries the judging map, the
 reference stills (public/images/pixel-ref/, deleted at bake), and the research
 LAYOUT candidates (A panel bottom = built, B cover swap, C margin rail,
 D gallery toggle, E pixelized covers, F poster strip) awaiting Felipe's pick. View locally with `npm run serve` (port 4321)

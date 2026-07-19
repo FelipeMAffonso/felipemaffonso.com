@@ -311,10 +311,11 @@ function glimmer(x: number, y: number, t: number, g: Grid): Cell {
     return { v: Math.min(1, 0.85 * wob + 0.15), c: idx };
   }
   /* quiet classes (sky, distant mass) stay dim so the glow carries
-     the scene; p.dimUpTo names the last dim palette index */
+     the scene; p.dimUpTo names the last dim palette index and
+     p.base lifts overall brightness (covers want ~0.9) */
   const dim = idx <= (g.p.dimUpTo ?? -1);
   const wob = 0.78 + 0.22 * noise3(x * 0.7, y * 0.7, t * 0.22 + g.seed);
-  return { v: (dim ? 0.4 : 0.68) * wob, c: idx };
+  return { v: (dim ? 0.4 : (g.p.base ?? 0.68)) * wob, c: idx };
 }
 
 export const ENGINES: Record<EngineName, (x: number, y: number, t: number, g: Grid) => Cell> = {

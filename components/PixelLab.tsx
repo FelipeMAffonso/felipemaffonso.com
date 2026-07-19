@@ -24,6 +24,7 @@ import {
   PixelArxivPixIcon, PixelPsyArxivPixIcon, PixelSsrnPixIcon,
   PixelSunIcon, PixelMoonIcon, PixelSpeakerOnIcon, PixelSpeakerOffIcon,
 } from "./pixelIcons";
+import { NAV_ICON_SETS } from "./navIcons";
 
 const led = spearsLed as { cols: number; rows: number; palette: (string | null)[]; cells: number[] };
 const LED_COLORS = led.palette.map((h) => h ?? "#16171b");
@@ -69,10 +70,13 @@ const PANEL_ICONS = [
 const JUDGE_MAP: { axis: string; where: string }[] = [
   { axis: "portrait", where: "Home page: click the headshot photo; the back of the flip is this choice. Both candidates also run side by side below." },
   { axis: "posterfont", where: "The title under EVERY dark poster card, on any page. Compare in the serif section below, then flip the axis and reread a real poster title." },
-  { axis: "pubposters", where: "Research page: click any publication title; the poster sits at the bottom of the opened panel, after the abstract. The off option removes all of them." },
+  { axis: "reslayout", where: "Research page, the whole layout: list (current), art rail (a sticky left card that follows whichever paper you open; desktop only), or gallery (a List | Posters toggle appears; clicking a poster jumps back to its entry in the list)." },
+  { axis: "covers", where: "Research page: open any paper. With click-to-cycle, the cover is larger and CLICKING IT cycles real cover, pixel cover, motif (three dots under it show which face you are on). Static keeps the plain cover." },
+  { axis: "pubposters", where: "Research page: click any publication title; the poster sits at the bottom of the opened panel, after the abstract. The off option removes all of them. (In the art rail layout the rail replaces these automatically.)" },
   { axis: "teachingposter", where: "Teaching page: scroll to the very bottom, after the student comments." },
   { axis: "spears", where: "Contact page: the wide building card under the two contact columns. Four candidates, all also stacked below." },
   { axis: "icons", where: "Four places at once: Contact profile list, the four buttons inside an open Research panel, the Download PDF button on the CV page, and the two round toggles at the top right of the nav." },
+  { axis: "navicons", where: "The top navbar itself: an icon appears next to Home, Research, Teaching, CV, and Contact. Three choices: none (current), line, pixel. Flip it and look up." },
   { axis: "navhover", where: "Any page: hover a nav tab you are NOT on and watch the underline (moving gradient vs marching cells)." },
   { axis: "footer", where: "The very bottom of any page: the small centered mark under the content." },
 ];
@@ -167,9 +171,11 @@ export function PixelLab() {
       <section className="section">
         <h2 className="section-title">Research layout candidates — where the posters could live</h2>
         <LabNote>
-          The clean citation list stays the backbone in every candidate; none of these
-          touches how a visitor reads or opens a publication. Combinations are possible
-          (for example B on desktop with A as the mobile fallback).
+          THREE OF THESE ARE NOW LIVE ON THE REAL RESEARCH PAGE via the switcher: the
+          reslayout axis gives list, art rail (a live version of C), and gallery (a live
+          version of D), and the covers axis gives the click-to-cycle cover, which is B
+          plus E combined without losing the real cover. The mockups below stay for
+          comparison. The clean citation list is the backbone in every candidate.
         </LabNote>
 
         <div className="lab-stack">
@@ -431,6 +437,21 @@ export function PixelLab() {
             <span className="lab-icon-cell lab-icon-plain"><PixelSpeakerOffIcon /></span>
             <span>pixel sun, moon, speaker on, speaker off (brand versions are the current nav icons)</span>
           </div>
+        </div>
+        <div className="lab-tag" style={{ marginTop: 22 }}>Nav tab icons (the navicons axis; also try it live in the navbar above)</div>
+        <div className="lab-icons">
+          {(["/", "/research/", "/teaching/", "/cv/", "/contact/"] as const).map((href) => {
+            const Line = NAV_ICON_SETS.line[href];
+            const Pix = NAV_ICON_SETS.pixel[href];
+            const label = href === "/" ? "Home" : href.slice(1, -1).replace(/^./, (c) => c.toUpperCase());
+            return (
+              <div className="lab-icon-row" key={href}>
+                <span className="lab-icon-cell lab-icon-plain lab-nav-glyph"><Line /></span>
+                <span className="lab-icon-cell lab-icon-plain lab-nav-glyph"><Pix /></span>
+                <span>{label === "Cv" ? "CV" : label}</span>
+              </div>
+            );
+          })}
         </div>
       </section>
 

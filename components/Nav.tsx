@@ -7,6 +7,8 @@ import { ParticleField } from "./ParticleField";
 import { ThemeToggle } from "./ThemeToggle";
 import { SoundToggle } from "./SoundToggle";
 import { useSound } from "@/lib/sound";
+import { usePixelVariants } from "@/lib/pixelVariants";
+import { NAV_ICON_SETS } from "./navIcons";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -14,7 +16,7 @@ const LINKS = [
   { href: "/teaching/", label: "Teaching" },
   { href: "/cv/", label: "CV" },
   { href: "/contact/", label: "Contact" },
-];
+] as const;
 
 function norm(path: string) {
   if (path.length > 1 && path.endsWith("/")) return path.slice(0, -1);
@@ -24,8 +26,10 @@ function norm(path: string) {
 export function Nav() {
   const pathname = usePathname();
   const { play } = useSound();
+  const { navicons } = usePixelVariants();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const iconSet = navicons === "off" ? null : NAV_ICON_SETS[navicons];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -51,17 +55,21 @@ export function Nav() {
       <nav className="nav">
         <Link href="/" className="nav-name" onClick={() => onNavClick("/")}>Felipe M. Affonso</Link>
         <ul className={`nav-links${menuOpen ? " open" : ""}`}>
-          {LINKS.map((l) => (
-            <li key={l.href}>
-              <Link
-                href={l.href}
-                className={norm(l.href) === current ? "active" : undefined}
-                onClick={() => onNavClick(l.href)}
-              >
-                {l.label}
-              </Link>
-            </li>
-          ))}
+          {LINKS.map((l) => {
+            const Glyph = iconSet ? iconSet[l.href] : null;
+            return (
+              <li key={l.href}>
+                <Link
+                  href={l.href}
+                  className={norm(l.href) === current ? "active" : undefined}
+                  onClick={() => onNavClick(l.href)}
+                >
+                  {Glyph && <Glyph />}
+                  {l.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
         <div className="nav-right">
           <SoundToggle />

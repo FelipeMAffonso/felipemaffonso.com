@@ -35,6 +35,23 @@ const ROWS: Row[] = [
     ],
   },
   {
+    key: "reslayout",
+    label: "Research: the page layout itself",
+    options: [
+      { value: "list", label: "list" },
+      { value: "rail", label: "art rail" },
+      { value: "gallery", label: "gallery" },
+    ],
+  },
+  {
+    key: "covers",
+    label: "Research: the cover inside an open panel",
+    options: [
+      { value: "static", label: "static" },
+      { value: "cycle", label: "click-to-cycle" },
+    ],
+  },
+  {
     key: "pubposters",
     label: "Research: poster inside each open panel",
     options: [
@@ -65,6 +82,15 @@ const ROWS: Row[] = [
     label: "Icons everywhere (Contact, Research buttons, CV, nav toggles)",
     options: [
       { value: "brand", label: "brand" },
+      { value: "pixel", label: "pixel" },
+    ],
+  },
+  {
+    key: "navicons",
+    label: "Nav tabs: icons next to Home, Research, ...",
+    options: [
+      { value: "off", label: "none" },
+      { value: "line", label: "line" },
       { value: "pixel", label: "pixel" },
     ],
   },
