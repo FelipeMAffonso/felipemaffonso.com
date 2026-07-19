@@ -50,9 +50,9 @@ function noise3(x: number, y: number, z: number) {
   return l(l(x00, x10, yf), l(x01, x11, yf), zf);
 }
 
-const ANCHOR = "rgba(160, 155, 148, 0.5)";
-const UNLIT_FILL = "rgba(244, 233, 216, 0.022)";
-const UNLIT_STROKE = "rgba(244, 233, 216, 0.05)";
+const ANCHOR = "rgba(139, 144, 153, 0.5)";
+const UNLIT_FILL = "rgba(232, 232, 234, 0.024)";
+const UNLIT_STROKE = "rgba(232, 232, 234, 0.055)";
 
 export type PortraitMode = "constellation" | "mosaic";
 

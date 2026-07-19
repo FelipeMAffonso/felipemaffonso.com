@@ -20,7 +20,7 @@ type Row = { key: keyof PixelVariants; label: string; options: Opt[]; note?: str
 const ROWS: Row[] = [
   {
     key: "portrait",
-    label: "Portrait flip (Home, click the photo)",
+    label: "Home: click the photo, the back of the flip",
     options: [
       { value: "constellation", label: "constellation" },
       { value: "mosaic", label: "mosaic" },
@@ -28,7 +28,7 @@ const ROWS: Row[] = [
   },
   {
     key: "posterfont",
-    label: "Poster title serif",
+    label: "Every poster card: the title typeface",
     options: [
       { value: "ultra", label: "Ultra" },
       { value: "alfa", label: "Alfa Slab" },
@@ -36,7 +36,7 @@ const ROWS: Row[] = [
   },
   {
     key: "pubposters",
-    label: "Paper posters (Research panels)",
+    label: "Research: poster inside each open panel",
     options: [
       { value: "on", label: "on" },
       { value: "off", label: "off" },
@@ -44,7 +44,7 @@ const ROWS: Row[] = [
   },
   {
     key: "teachingposter",
-    label: "Teaching poster",
+    label: "Teaching: poster after the student quotes",
     options: [
       { value: "on", label: "on" },
       { value: "off", label: "off" },
@@ -52,16 +52,17 @@ const ROWS: Row[] = [
   },
   {
     key: "spears",
-    label: "Spears card (Contact)",
+    label: "Contact: the Spears building card",
     options: [
       { value: "scan", label: "scanline" },
       { value: "still", label: "still" },
-      { value: "led", label: "LED grid" },
+      { value: "led", label: "LED" },
+      { value: "pixelart", label: "pixel art" },
     ],
   },
   {
     key: "icons",
-    label: "Profile icons (Contact)",
+    label: "Icons everywhere (Contact, Research buttons, CV, nav toggles)",
     options: [
       { value: "brand", label: "brand" },
       { value: "pixel", label: "pixel" },
@@ -69,7 +70,7 @@ const ROWS: Row[] = [
   },
   {
     key: "navhover",
-    label: "Nav hover underline",
+    label: "Nav: hover a tab, the underline",
     options: [
       { value: "gradient", label: "gradient" },
       { value: "cells", label: "cells" },
@@ -77,7 +78,7 @@ const ROWS: Row[] = [
   },
   {
     key: "footer",
-    label: "Footer",
+    label: "Every page bottom: the footer mark",
     options: [
       { value: "line", label: "coral line" },
       { value: "led", label: "LED strip" },

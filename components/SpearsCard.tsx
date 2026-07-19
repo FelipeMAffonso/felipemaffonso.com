@@ -17,7 +17,7 @@ import { PixelPoster } from "./PixelPoster";
 import spearsLed from "@/lib/spears-led.json";
 
 const led = spearsLed as { cols: number; rows: number; palette: (string | null)[]; cells: number[] };
-const LED_COLORS = led.palette.map((h) => h ?? "#17120e");
+const LED_COLORS = led.palette.map((h) => h ?? "#16171b");
 
 export function SpearsCard() {
   const { spears } = usePixelVariants();
@@ -42,16 +42,21 @@ export function SpearsCard() {
     );
   }
 
+  const pixelart = spears === "pixelart";
   return (
-    <figure className="dither-card enter" style={{ "--enter-i": 2 } as CSSProperties}>
+    <figure
+      className={`dither-card enter${pixelart ? " is-still" : ""}`}
+      style={{ "--enter-i": 2 } as CSSProperties}
+    >
       <div className="dither-card-media">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/spears-dither.png"
-          alt="The Spears School of Business building, rendered in dithered pixels"
-          width={1337}
-          height={337}
+          src={pixelart ? "/images/spears-pixel.png" : "/images/spears-dither.png"}
+          alt="The Spears School of Business building, rendered in pixels"
+          width={pixelart ? 1344 : 1337}
+          height={pixelart ? 336 : 337}
           loading="lazy"
+          style={pixelart ? { imageRendering: "pixelated" } : undefined}
         />
       </div>
       <figcaption>

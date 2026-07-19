@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import { usePixelVariants } from "@/lib/pixelVariants";
+import { PixelSunIcon, PixelMoonIcon } from "./pixelIcons";
 
 const Moon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -20,11 +22,14 @@ const Sun = () => (
 
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
+  const { icons } = usePixelVariants();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
   // Before hydration, render a stable placeholder (moon) to avoid a mismatch.
   const isDark = mounted && resolvedTheme === "dark";
+  const SunGlyph = icons === "pixel" ? PixelSunIcon : Sun;
+  const MoonGlyph = icons === "pixel" ? PixelMoonIcon : Moon;
 
   return (
     <button
@@ -38,10 +43,10 @@ export function ThemeToggle() {
       <span className="theme-morph" aria-hidden="true">
         {/* sun shown in DARK mode (switch to light); moon shown in LIGHT (switch to dark) */}
         <span className={`theme-icon-face theme-sun ${isDark ? "is-on" : "is-off"}`}>
-          <Sun />
+          <SunGlyph />
         </span>
         <span className={`theme-icon-face theme-moon ${isDark ? "is-off" : "is-on"}`}>
-          <Moon />
+          <MoonGlyph />
         </span>
       </span>
     </button>

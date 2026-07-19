@@ -13,12 +13,31 @@ import { useState, type CSSProperties, type KeyboardEvent } from "react";
 import { preprints, journals, type Pub, type PubLink } from "@/lib/publications";
 import { pubPosters } from "@/lib/posterConfigs";
 import { useSound } from "@/lib/sound";
+import { usePixelVariants } from "@/lib/pixelVariants";
 import { PixelPoster } from "./PixelPoster";
 import {
   JournalIcon, DownloadIcon, OsfIcon, GitHubGlyph, ArxivIcon, PsyArxivIcon, SsrnIcon,
 } from "./icons";
+import {
+  PixelJournalPixIcon, PixelDownloadPixIcon, PixelOsfPixIcon, PixelGitHubPixIcon,
+  PixelArxivPixIcon, PixelPsyArxivPixIcon, PixelSsrnPixIcon,
+} from "./pixelIcons";
 
+/* icons=pixel is an ADJUDICATION variant Felipe asked to judge here
+   (2026-07-19); the locked default remains the brand set. */
 function LinkIcon({ kind }: { kind: PubLink["kind"] }) {
+  const { icons } = usePixelVariants();
+  if (icons === "pixel") {
+    switch (kind) {
+      case "journal": return <PixelJournalPixIcon />;
+      case "download": return <PixelDownloadPixIcon />;
+      case "osf": return <PixelOsfPixIcon />;
+      case "github": return <PixelGitHubPixIcon />;
+      case "arxiv": return <PixelArxivPixIcon />;
+      case "psyarxiv": return <PixelPsyArxivPixIcon />;
+      case "ssrn": return <PixelSsrnPixIcon />;
+    }
+  }
   switch (kind) {
     case "journal": return <JournalIcon />;
     case "download": return <DownloadIcon />;

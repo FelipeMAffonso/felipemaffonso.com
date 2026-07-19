@@ -26,9 +26,10 @@ type Props = {
   className?: string;
 };
 
-const CARD_CELL = "rgba(244, 233, 216, 0.055)"; // unlit cell outline
-const CARD_CELL_FILL = "rgba(244, 233, 216, 0.022)"; // unlit cell fill
-const ANCHOR = "rgba(160, 155, 148, 0.55)"; // corner anchor cells
+/* cool neutrals to sit on the night-mode card, never warm */
+const CARD_CELL = "rgba(232, 232, 234, 0.06)"; // unlit cell outline
+const CARD_CELL_FILL = "rgba(232, 232, 234, 0.024)"; // unlit cell fill
+const ANCHOR = "rgba(139, 144, 153, 0.55)"; // corner anchor cells
 
 function hexToRgb(hex: string): [number, number, number] {
   return [

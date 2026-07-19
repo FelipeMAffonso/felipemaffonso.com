@@ -266,12 +266,14 @@ serves the site at that domain.
 
 ## Pixel posters (the LED-grid art system, branch pixel-posters, 2026-07-19)
 
-An art layer inspired by its_sslvr's animated LED-grid posters: a dark warm card
+An art layer inspired by its_sslvr's animated LED-grid posters: a dark card
 holds a fixed grid of flat rounded cells (unlit cells stay faintly visible, the
 four corner cells are permanently dim gray anchors) and a slow, sparse motif of
 lit cells moves through it. No glow, no bloom; brightness lives in the color
 values. Titles use the self-hosted slab serif Ultra (via @fontsource); captions
-are plain facts.
+are plain facts. THE CARD COLOR LAW (Felipe 2026-07-19): the card dark is the
+SITE night-mode dark (#16171b family, cool neutral unlit tints), never a warm
+brown; the reference's warm-black was rejected.
 
 Parts:
 - `lib/pixelEngine.ts` — pure per-cell motif programs (drift, tide, blaze,
@@ -306,7 +308,12 @@ ADJUDICATION (temporary, this branch only): `lib/pixelVariants.tsx` +
 the July 17 variant-switcher pattern under the storage key `pixel-variants`
 (the old `site-variants` key is still cleaned up by lib/sound.tsx; do not reuse
 it). Eight axes: portrait, posterfont (ultra/alfa), pubposters, teachingposter,
-spears, icons, navhover, footer. View locally with `npm run serve` (port 4321)
+spears (scan/still/led/pixelart), icons (brand/pixel — drives Contact profiles,
+Research panel buttons, the CV download arrow, AND the nav toggles at once),
+navhover, footer. The /pixel-lab/ page also carries the judging map, the
+reference stills (public/images/pixel-ref/, deleted at bake), and the research
+LAYOUT candidates (A panel bottom = built, B cover swap, C margin rail,
+D gallery toggle, E pixelized covers, F poster strip) awaiting Felipe's pick. View locally with `npm run serve` (port 4321)
 or `npm run dev`; the floating "Pixel options" pill sits bottom-right. TO BAKE
 after Felipe adjudicates: hard-code the winning choices, delete
 lib/pixelVariants.tsx, PixelVariantSwitcher, the pre-paint script, the losing

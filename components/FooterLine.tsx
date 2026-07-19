@@ -57,7 +57,7 @@ export function LedStrip() {
           ctx.beginPath();
           ctx.roundRect(x * cell + pad, y * cell + pad, s, s, r);
           if (!c || c.v <= 0.02) {
-            ctx.fillStyle = "rgba(128, 120, 110, 0.10)";
+            ctx.fillStyle = "rgba(139, 144, 153, 0.12)";
           } else {
             const [rr, gg, bb] = rgb[Math.max(0, Math.min(rgb.length - 1, c.c))];
             ctx.fillStyle = `rgba(${rr}, ${gg}, ${bb}, ${0.15 + 0.6 * Math.min(1, c.v)})`;

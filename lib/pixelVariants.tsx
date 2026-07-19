@@ -24,7 +24,7 @@ export type PixelVariants = {
   posterfont: "ultra" | "alfa";
   pubposters: "on" | "off";
   teachingposter: "on" | "off";
-  spears: "scan" | "still" | "led";
+  spears: "scan" | "still" | "led" | "pixelart";
   icons: "brand" | "pixel";
   navhover: "gradient" | "cells";
   footer: "line" | "led";
@@ -47,7 +47,7 @@ export const PIXEL_ALLOWED: Record<keyof PixelVariants, string[]> = {
   posterfont: ["ultra", "alfa"],
   pubposters: ["on", "off"],
   teachingposter: ["on", "off"],
-  spears: ["scan", "still", "led"],
+  spears: ["scan", "still", "led", "pixelart"],
   icons: ["brand", "pixel"],
   navhover: ["gradient", "cells"],
   footer: ["line", "led"],
