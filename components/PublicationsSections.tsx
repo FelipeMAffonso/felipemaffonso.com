@@ -116,6 +116,23 @@ export function PublicationsSections() {
         return null;
       }
       play("bloom"); // reveal / expand
+      /* Scroll assist (the shadcn/WAI-ARIA disclosure convention):
+         after the 240ms expansion settles, if the opened citation
+         sits above the nav line or its panel runs past the bottom
+         of the viewport, bring the entry to the top, under the
+         fixed nav (scroll-margin-top carries the offset). Matters
+         most on mobile, where a tall panel otherwise leaves the
+         reader stranded mid-abstract. */
+      window.setTimeout(() => {
+        const el = document.getElementById(`pub-${id}`);
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        const navLine = 72;
+        if (r.top < navLine || r.bottom > window.innerHeight) {
+          const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          el.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" });
+        }
+      }, 300);
       return id;
     });
   };
