@@ -1002,6 +1002,10 @@ img.pub-link-icon { stroke: none; }
   background: transparent;
   perspective: 1100px;
   cursor: pointer;
+  /* the faces are absolutely positioned, so the wrapper must claim
+     real width itself or it collapses to zero in centered grids
+     (the mobile missing-photo bug, fixed 2026-07-19) */
+  width: 100%;
 }
 .pixel-portrait-inner {
   position: relative;
