@@ -17,7 +17,6 @@ import { ENGINES, type Grid } from "@/lib/pixelEngine";
 import { STORIES, renderStory } from "@/lib/pixelStories";
 import { pubPosters } from "@/lib/posterConfigs";
 import { adaptPalette, useIsLight, CELL_TINTS } from "@/lib/pixelTheme";
-import { usePixelVariants } from "@/lib/pixelVariants";
 import { useSound } from "@/lib/sound";
 
 function hexToRgb(hex: string): [number, number, number] {
@@ -113,13 +112,10 @@ function StoryCanvas({ pubId, aspect }: { pubId: string; aspect: number }) {
 }
 
 export function PubCover({ cover, pubId }: { cover: Cover; pubId: string }) {
-  const { covers } = usePixelVariants();
   const { play } = useSound();
   const [face, setFace] = useState<0 | 1>(0); // 0 = story, 1 = real cover
 
-  const canCycle = covers === "cycle" && pubPosters[pubId];
-
-  if (!canCycle) {
+  if (!pubPosters[pubId]) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img

@@ -1,25 +1,8 @@
 /* ============================================================
-   Nav tab icons (adjudication axis "navicons").
-   Two candidate sets for the five nav tabs, both sized 15px and
-   colored by currentColor so they follow the tab's text state:
-   - line: stroked glyphs in the site's existing icon voice
-     (stroke 2, rounded), like the Nucleo sidebar reference;
-   - pixel: cell-grid glyphs in the poster language.
-   Default is off (no icons), the clean fallback.
+   Nav tab icons — the line set (adjudicated 2026-07-19).
+   Stroked glyphs in the site's icon voice (stroke 2, rounded),
+   15px, colored by currentColor so they follow the tab state.
    ============================================================ */
-
-type Cells = [number, number][];
-
-function Px({ cells }: { cells: Cells }) {
-  const u = 2.5;
-  return (
-    <svg className="nav-glyph" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-      {cells.map(([c, r], i) => (
-        <rect key={i} x={c * u + 0.25} y={r * u + 0.25} width={2} height={2} rx={0.45} />
-      ))}
-    </svg>
-  );
-}
 
 function Ln({ children }: { children: React.ReactNode }) {
   return (
@@ -38,9 +21,7 @@ function Ln({ children }: { children: React.ReactNode }) {
   );
 }
 
-/* ---- line set ---------------------------------------------- */
-
-export function LineHomeIcon() {
+export function HomeIcon() {
   return (
     <Ln>
       <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
@@ -48,7 +29,7 @@ export function LineHomeIcon() {
     </Ln>
   );
 }
-export function LineResearchIcon() {
+export function ResearchIcon() {
   // flask
   return (
     <Ln>
@@ -58,7 +39,7 @@ export function LineResearchIcon() {
     </Ln>
   );
 }
-export function LineTeachingIcon() {
+export function TeachingIcon() {
   // graduation cap
   return (
     <Ln>
@@ -67,7 +48,7 @@ export function LineTeachingIcon() {
     </Ln>
   );
 }
-export function LineCvIcon() {
+export function CvIcon() {
   // document with lines
   return (
     <Ln>
@@ -78,7 +59,7 @@ export function LineCvIcon() {
     </Ln>
   );
 }
-export function LineContactIcon() {
+export function ContactIcon() {
   // envelope
   return (
     <Ln>
@@ -88,81 +69,10 @@ export function LineContactIcon() {
   );
 }
 
-/* ---- pixel set --------------------------------------------- */
-
-export function PixelHomeIcon() {
-  const cells: Cells = [
-    [3, 1], [4, 1],
-    [2, 2], [5, 2],
-    [1, 3], [6, 3],
-    [1, 4], [2, 4], [3, 4], [4, 4], [5, 4], [6, 4],
-    [1, 5], [2, 5], [5, 5], [6, 5],
-    [1, 6], [2, 6], [5, 6], [6, 6],
-  ];
-  return <Px cells={cells} />;
-}
-export function PixelResearchIcon() {
-  // flask: neck then widening bowl
-  const cells: Cells = [
-    [3, 1], [4, 1],
-    [3, 2], [4, 2],
-    [3, 3], [4, 3],
-    [2, 4], [3, 4], [4, 4], [5, 4],
-    [1, 5], [2, 5], [3, 5], [4, 5], [5, 5], [6, 5],
-    [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6],
-  ];
-  return <Px cells={cells} />;
-}
-export function PixelTeachingIcon() {
-  // mortarboard with tassel
-  const cells: Cells = [
-    [3, 1], [4, 1],
-    [1, 2], [2, 2], [3, 2], [4, 2], [5, 2], [6, 2],
-    [2, 3], [3, 3], [4, 3], [5, 3],
-    [2, 4], [3, 4], [4, 4], [5, 4],
-    [6, 3], [6, 4], [6, 5],
-  ];
-  return <Px cells={cells} />;
-}
-export function PixelCvIcon() {
-  // sheet with folded corner and text rows
-  const cells: Cells = [
-    [1, 1], [2, 1], [3, 1], [4, 1],
-    [5, 2],
-    [1, 2], [1, 3], [1, 4], [1, 5], [1, 6],
-    [5, 3], [5, 4], [5, 5], [5, 6],
-    [2, 3], [3, 3], [4, 3],
-    [2, 5], [3, 5],
-    [2, 6], [3, 6], [4, 6],
-  ];
-  return <Px cells={cells} />;
-}
-export function PixelContactIcon() {
-  // envelope with the V flap
-  const cells: Cells = [
-    [1, 2], [2, 2], [3, 2], [4, 2], [5, 2], [6, 2],
-    [1, 3], [2, 3], [5, 3], [6, 3],
-    [3, 4], [4, 4],
-    [1, 4], [6, 4],
-    [1, 5], [6, 5],
-    [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6],
-  ];
-  return <Px cells={cells} />;
-}
-
-export const NAV_ICON_SETS = {
-  line: {
-    "/": LineHomeIcon,
-    "/research/": LineResearchIcon,
-    "/teaching/": LineTeachingIcon,
-    "/cv/": LineCvIcon,
-    "/contact/": LineContactIcon,
-  },
-  pixel: {
-    "/": PixelHomeIcon,
-    "/research/": PixelResearchIcon,
-    "/teaching/": PixelTeachingIcon,
-    "/cv/": PixelCvIcon,
-    "/contact/": PixelContactIcon,
-  },
+export const NAV_ICONS = {
+  "/": HomeIcon,
+  "/research/": ResearchIcon,
+  "/teaching/": TeachingIcon,
+  "/cv/": CvIcon,
+  "/contact/": ContactIcon,
 } as const;

@@ -457,5 +457,18 @@ export function renderStory(def: StoryDef, t: number): (Cell | null)[] {
     buf[y * def.cols + x] = { v: clamp01(v), c };
   };
   phase.render(u, put, t);
+  /* the living shimmer: every lit cell breathes a little, out of
+     phase with its neighbours, so sprites read as light not paint */
+  const beat = t * 1.6;
+  const b0 = Math.floor(beat);
+  const bf = beat - b0;
+  const mix = bf * bf * (3 - 2 * bf);
+  for (let i = 0; i < buf.length; i++) {
+    const cell = buf[i];
+    if (!cell) continue;
+    const x = i % def.cols, y = (i - x) / def.cols;
+    const w = h(x, y, b0) * (1 - mix) + h(x, y, b0 + 1) * mix;
+    cell.v = clamp01(cell.v * (0.84 + 0.2 * w));
+  }
   return buf;
 }

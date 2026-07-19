@@ -1,4 +1,4 @@
-# Personal Website of Felipe M. Affonso
+﻿# Personal Website of Felipe M. Affonso
 
 This is the source for Felipe's personal academic site. It is a Next.js 15
 static export served from GitHub Pages. This document is the full reference for
@@ -39,41 +39,41 @@ how the site is built and the rules that govern changes to it.
 
 ```
 felipemaffonso.com/
-├── app/                      # App Router: routes, layout, global CSS
-│   ├── layout.tsx            # Root layout: <html>/<body>, metadata, analytics
-│   │                         #   scripts, CV prefetch/preconnect, Providers,
-│   │                         #   Nav, footer, the persistent CvFrame
-│   ├── globals.css           # All design tokens + every component style
-│   ├── page.tsx              # Home: hero, photo, bio, Person JSON-LD
-│   ├── research/page.tsx     # Research: renders <PublicationsSections/>
-│   ├── teaching/page.tsx     # Teaching
-│   ├── cv/page.tsx           # CV: intro, download link, viewer placeholder slot
-│   ├── contact/page.tsx      # Contact
-│   ├── robots.ts             # robots.txt (generated)
-│   └── sitemap.ts            # sitemap.xml (generated)
-├── components/
-│   ├── Providers.tsx         # ThemeProvider + SoundProvider wrapper
-│   ├── Nav.tsx               # Top nav, mobile menu, page-change sound
-│   ├── ParticleField.tsx     # Coral particle constellation (nav + hero)
-│   ├── PublicationsSections.tsx  # The research list + the LOCKED panel
-│   ├── ThemeToggle.tsx       # Sun/moon toggle, baked morph animation
-│   ├── SoundToggle.tsx       # Mute/unmute interaction sounds
-│   ├── CvFrame.tsx           # The single persistent CV Drive iframe
-│   ├── CvDownload.tsx        # The Download PDF button
-│   ├── PageBanner.tsx        # Inner-page title banner
-│   └── icons.tsx             # Publication link icons (journal, OSF, arXiv, ...)
-├── lib/
-│   ├── publications.tsx      # Publication data (citations, abstracts, links, covers)
-│   └── sound.tsx             # cuelume wrapper: on/off, warm-up, play()
-├── public/                   # Static assets copied verbatim into out/
-│   ├── CNAME                 # felipemaffonso.com (the custom domain)
-│   ├── favicon.svg
-│   ├── files/cv.pdf          # Self-hosted CV for the download button
-│   ├── files/papers/         # Machine-readable paper .md files
-│   └── images/               # headshot, journal covers, link icons
-├── next.config.mjs           # Static export config
-├── package.json
-└── .github/workflows/deploy.yml   # Build + deploy to Pages on push to master
+â”œâ”€â”€ app/                      # App Router: routes, layout, global CSS
+â”‚   â”œâ”€â”€ layout.tsx            # Root layout: <html>/<body>, metadata, analytics
+â”‚   â”‚                         #   scripts, CV prefetch/preconnect, Providers,
+â”‚   â”‚                         #   Nav, footer, the persistent CvFrame
+â”‚   â”œâ”€â”€ globals.css           # All design tokens + every component style
+â”‚   â”œâ”€â”€ page.tsx              # Home: hero, photo, bio, Person JSON-LD
+â”‚   â”œâ”€â”€ research/page.tsx     # Research: renders <PublicationsSections/>
+â”‚   â”œâ”€â”€ teaching/page.tsx     # Teaching
+â”‚   â”œâ”€â”€ cv/page.tsx           # CV: intro, download link, viewer placeholder slot
+â”‚   â”œâ”€â”€ contact/page.tsx      # Contact
+â”‚   â”œâ”€â”€ robots.ts             # robots.txt (generated)
+â”‚   â””â”€â”€ sitemap.ts            # sitemap.xml (generated)
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ Providers.tsx         # ThemeProvider + SoundProvider wrapper
+â”‚   â”œâ”€â”€ Nav.tsx               # Top nav, mobile menu, page-change sound
+â”‚   â”œâ”€â”€ ParticleField.tsx     # Coral particle constellation (nav + hero)
+â”‚   â”œâ”€â”€ PublicationsSections.tsx  # The research list + the LOCKED panel
+â”‚   â”œâ”€â”€ ThemeToggle.tsx       # Sun/moon toggle, baked morph animation
+â”‚   â”œâ”€â”€ SoundToggle.tsx       # Mute/unmute interaction sounds
+â”‚   â”œâ”€â”€ CvFrame.tsx           # The single persistent CV Drive iframe
+â”‚   â”œâ”€â”€ CvDownload.tsx        # The Download PDF button
+â”‚   â”œâ”€â”€ PageBanner.tsx        # Inner-page title banner
+â”‚   â””â”€â”€ icons.tsx             # Publication link icons (journal, OSF, arXiv, ...)
+â”œâ”€â”€ lib/
+â”‚   â”œâ”€â”€ publications.tsx      # Publication data (citations, abstracts, links, covers)
+â”‚   â””â”€â”€ sound.tsx             # cuelume wrapper: on/off, warm-up, play()
+â”œâ”€â”€ public/                   # Static assets copied verbatim into out/
+â”‚   â”œâ”€â”€ CNAME                 # felipemaffonso.com (the custom domain)
+â”‚   â”œâ”€â”€ favicon.svg
+â”‚   â”œâ”€â”€ files/cv.pdf          # Self-hosted CV for the download button
+â”‚   â”œâ”€â”€ files/papers/         # Machine-readable paper .md files
+â”‚   â””â”€â”€ images/               # headshot, journal covers, link icons
+â”œâ”€â”€ next.config.mjs           # Static export config
+â”œâ”€â”€ package.json
+â””â”€â”€ .github/workflows/deploy.yml   # Build + deploy to Pages on push to master
 ```
 
 Content data lives in `lib/publications.tsx` (Research) and directly in the page
@@ -272,7 +272,7 @@ four corner cells are permanently dim gray anchors) and a slow, sparse motif of
 lit cells moves through it. No glow, no bloom; brightness lives in the color
 values. Titles use the self-hosted slab serif Ultra (via @fontsource); captions
 are plain facts. THE CARD COLOR LAW (Felipe 2026-07-19): cards are THEME
-ADAPTIVE — light theme gets a light card (site surface tokens) with adapted
+ADAPTIVE â€” light theme gets a light card (site surface tokens) with adapted
 cell colors (lib/pixelTheme: near-white becomes ink, the rest darkens a step);
 dark theme gets the night card (#16171b family, cool neutral tints, never warm
 brown). The portrait back and the Spears dusk scene stay dark (alwaysDark).
@@ -286,16 +286,16 @@ journal covers were built, judged bad, and deleted. The Spears card cycles on
 click (dither / LED / pixel art) with the scanline on every face.
 
 Parts:
-- `lib/pixelEngine.ts` — pure per-cell motif programs (drift, tide, blaze,
+- `lib/pixelEngine.ts` â€” pure per-cell motif programs (drift, tide, blaze,
   converge, reveal, spark, structure, orbit, contagion, band, glimmer). Every
   engine answers (x, y, t, grid) with null or {v, c}; no per-frame state.
-- `components/PixelPoster.tsx` — the canvas poster card: draws the grid at
+- `components/PixelPoster.tsx` â€” the canvas poster card: draws the grid at
   ~10fps, runs only while on screen and while `active`, reduced motion runs the
   same loop at 0.4x (calmer, never frozen).
-- `lib/posterConfigs.ts` — one poster per publication id plus the teaching
+- `lib/posterConfigs.ts` â€” one poster per publication id plus the teaching
   card: engine, palette (every palette carries one coral note), grid size,
   title, caption.
-- `components/PixelPortrait.tsx` — the Home easter egg: clicking the headshot
+- `components/PixelPortrait.tsx` â€” the Home easter egg: clicking the headshot
   flips it (3D card flip, faces carry the frame; the outer drops overflow so
   the flip is not flattened) to a living grid portrait. Two modes:
   constellation (sparse, breathing, feature cells stable with white-hot cores)
@@ -304,36 +304,26 @@ Parts:
   `scripts/build-pixel-portrait.mjs` (ffmpeg downsample 30x39, oval mask so
   the face rises from a dark field, warm ramp plus sparse coral, ordered-dither
   wobble). Regenerate only when the headshot changes.
-- `components/SpearsCard.tsx` — the Contact poster of the Spears building.
-  Three variants: scan (the fine-dither PNG with a CRT scanline shimmer),
-  still (no moving band), led (coarse 52x13 grid from `lib/spears-led.json`,
+- `components/SpearsCard.tsx` â€” the Contact poster of the Spears building.
+  Cycles on click: dither still, LED grid, pixel art, the scanline on every face (LED map: coarse 52x13 grid from `lib/spears-led.json`,
   built by `scripts/build-spears-led.mjs` with highlight-preserving
   downsampling; lamps and lit windows flicker via the glimmer engine).
-- `components/pixelIcons.tsx` + `components/SocialLinks.tsx` — optional pixel
+- `components/pixelIcons.tsx` + `components/SocialLinks.tsx` â€” optional pixel
   glyph set for the Contact profiles list.
-- `components/FooterLine.tsx` — optional LED strip replacing the footer line.
+- `components/FooterLine.tsx` â€” optional LED strip replacing the footer line.
 
-ADJUDICATION (temporary, this branch only): `lib/pixelVariants.tsx` +
-`components/PixelVariantSwitcher.tsx` + the pre-paint script in layout revive
-the July 17 variant-switcher pattern under the storage key `pixel-variants`
-(the old `site-variants` key is still cleaned up by lib/sound.tsx; do not reuse
-it). Eleven axes: portrait, posterfont (ultra/alfa), reslayout (list/rail/
-gallery — the Research page layout itself: sticky art rail following the open
-paper, or a List|Posters wall toggle), covers (static/cycle — the click-to-
-cycle cover inside open panels: real cover, pixel cover from
-lib/pixel-covers.json, motif; Felipe's design), pubposters, teachingposter,
-spears (scan/still/led/pixelart), icons (brand/pixel — drives Contact profiles,
-Research panel buttons, the CV download arrow, AND the nav toggles at once),
-navicons (off/line/pixel — icons next to the nav tab labels), navhover, footer. The /pixel-lab/ page also carries the judging map, the
-reference stills (public/images/pixel-ref/, deleted at bake), and the research
-LAYOUT candidates (A panel bottom = built, B cover swap, C margin rail,
-D gallery toggle, E pixelized covers, F poster strip) awaiting Felipe's pick. View locally with `npm run serve` (port 4321)
-or `npm run dev`; the floating "Pixel options" pill sits bottom-right. TO BAKE
-after Felipe adjudicates: hard-code the winning choices, delete
-lib/pixelVariants.tsx, PixelVariantSwitcher, the pre-paint script, the losing
-font import, and the losing branches (mirror of how the July 17 system was
-retired). The DEFAULTS in lib/pixelVariants.tsx hold the current
-recommendation.
+SHIPPED STATE (adjudicated and baked 2026-07-19; the variant switcher, the
+/pixel-lab/ page, and lib/pixelVariants are DELETED): Alfa Slab One poster
+titles (Ultra removed), bare PageStrip headers on Research, Teaching, CV, and
+Contact (each its own engine pattern; clicking a strip cycles coral, teal,
+slate, and dusty-rose palettes; Home has NO strip, the hero keeps the particle
+constellation), the two-face story cover inside every open Research panel
+(PubCover: story by default at the cover''s exact aspect, the real journal
+cover on click, hover narrates the story via the tells field), the constellation
+portrait flip on Home, line icons in the navbar, brand icons everywhere else,
+the gradient nav hover, the LED footer strip on every page, the cycling Spears
+card on Contact, and NO poster cards or writing on panel art anywhere. Cards
+are theme adaptive via lib/pixelTheme.
 
 ## How to write a great pixel story (lib/pixelStories.ts)
 
@@ -368,11 +358,11 @@ depict the paper, not decorate it. Rules learned so far:
 ## Journals sentence convention
 
 **Journals sentence convention** (Felipe's preferences, agreed 2026-06-24):
-- Umbrella is **"leading academic journals, including …"** (not "marketing journals") — the list now spans marketing, policy, and psychology, so "academic" is the right catch-all. No "the" before the list.
-- **Don't categorize** the list (no "general-science journals (…), marketing journals (…)" buckets). A flat `including` list reads more confidently and puts the journal *names*, not category labels, in front of the reader. `including` already implies illustrative-not-exhaustive, so "and others" never need listing.
+- Umbrella is **"leading academic journals, including â€¦"** (not "marketing journals") â€” the list now spans marketing, policy, and psychology, so "academic" is the right catch-all. No "the" before the list.
+- **Don't categorize** the list (no "general-science journals (â€¦), marketing journals (â€¦)" buckets). A flat `including` list reads more confidently and puts the journal *names*, not category labels, in front of the reader. `including` already implies illustrative-not-exhaustive, so "and others" never need listing.
 - **Cap at ~5 marquee names.** Past five it reads like a CV dump and the impact flattens. The full publication list lives on the research page, not the bio.
 - **Order = prestige-descending.** When general-science venues exist, lead with them, then the marketing journals.
-- **General-science tier rule:** only list **three** general-science journals if they are exactly **Nature, Science, and PNAS** (the universally recognized apex). For anything else in that tier (*Nature Human Behaviour*, etc.), list one or two and **don't pad to three** — and don't stack near-synonyms (e.g. *Nature* + *Nature Human Behaviour* + PNAS). Spell out "Proceedings of the National Academy of Sciences" (acronym in parens optional).
+- **General-science tier rule:** only list **three** general-science journals if they are exactly **Nature, Science, and PNAS** (the universally recognized apex). For anything else in that tier (*Nature Human Behaviour*, etc.), list one or two and **don't pad to three** â€” and don't stack near-synonyms (e.g. *Nature* + *Nature Human Behaviour* + PNAS). Spell out "Proceedings of the National Academy of Sciences" (acronym in parens optional).
 - **Accuracy:** Felipe opted to phrase conditionally-accepted journals (JMR, JEP:G) under "has been published in." If he ever wants strict accuracy instead, use "published or is forthcoming in," or list only the truly-published journals. Do not name *Nature*/PNAS until actually accepted.
 - **Current sentence (2026-06-24):** "His work has been published in leading academic journals, including *Journal of Consumer Research*, *Journal of Marketing Research*, *Journal of Marketing*, *Research Policy*, and *Journal of Experimental Psychology: General*." When Nature/PNAS land, lead with them and trim to the strongest ~5 (likely dropping *Research Policy*/JEP:G from the bio list).
 
@@ -400,7 +390,7 @@ Machine-readable `.md` files live in `src/files/papers/` and are downloadable fr
 PANDOC="/c/Program Files/Pandoc/pandoc.exe"
 "$PANDOC" manuscript.docx -t markdown --wrap=none -o _pandoc_ms.md
 "$PANDOC" web_appendix.docx -t markdown --wrap=none -o _pandoc_wa.md
-# For EPUBs (published version — prefer over DOCX when available):
+# For EPUBs (published version â€” prefer over DOCX when available):
 "$PANDOC" paper.epub -t markdown --wrap=none -o _pandoc_epub.md
 ```
 
@@ -415,7 +405,7 @@ with open('_pandoc_wa.md') as f: wa = f.read()
 ms = re.sub(r'\[([^\]]+)\]\{\.underline\}', r'\1', ms)
 wa = re.sub(r'\[([^\]]+)\]\{\.underline\}', r'\1', wa)
 
-# Add YAML frontmatter (metadata only — NOT body text)
+# Add YAML frontmatter (metadata only â€” NOT body text)
 frontmatter = """---
 title: "Paper Title"
 authors: "Author One, Author Two"
@@ -444,9 +434,9 @@ npm run build && git add -A && git commit -m "Add paper-slug .md" && git push
 ```
 
 **Source priority** (for the main paper text):
-1. EPUB (published version) — best: exact published text
-2. Published PDF via pandoc — good but two-column extraction can garble
-3. Accepted manuscript DOCX — good but pre-copyedit (may differ from published)
+1. EPUB (published version) â€” best: exact published text
+2. Published PDF via pandoc â€” good but two-column extraction can garble
+3. Accepted manuscript DOCX â€” good but pre-copyedit (may differ from published)
 
 **What to include in the .md file:**
 - YAML frontmatter (title, authors, journal, year, doi, citation)
@@ -462,7 +452,7 @@ npm run build && git add -A && git commit -m "Add paper-slug .md" && git push
 
 **What NOT to do:**
 - Never let an LLM rewrite, paraphrase, or "clean up" paper text
-- Never summarize — include the full verbatim text
+- Never summarize â€” include the full verbatim text
 - Never add content not in the source files
 - Never change statistical values, even if they look wrong (the disclaimer covers this)
 
@@ -500,12 +490,12 @@ Three trackers live on every page via `src/_includes/base.njk`:
 | Tool | What it tracks | Where it lives in base.njk | Dashboard |
 |---|---|---|---|
 | **Microsoft Clarity** (`wexegoktgd`) | Session recordings, heatmaps, scroll depth, engagement time, dead/rage/quickback clicks | `<script>` IIFE in `<head>` after theme-init | https://clarity.microsoft.com/projects/view/wexegoktgd |
-| **Cloudflare Web Analytics** (`db16777525f64d0abb899762c3c29b9c`) | Pageviews, referrers, countries, devices, browsers, load times — no cookies | `<script defer>` just before `</body>` | https://dash.cloudflare.com/27bd7115ab2090ed90f2e0c4b329e60a/web-analytics |
-| **Google Search Console** | Search queries, CTR, impressions, avg position, indexing issues — 24-48h data delay | `<meta name="google-site-verification">` in `<head>` | https://search.google.com/search-console?resource_id=https%3A%2F%2Ffelipemaffonso.com%2F |
+| **Cloudflare Web Analytics** (`db16777525f64d0abb899762c3c29b9c`) | Pageviews, referrers, countries, devices, browsers, load times â€” no cookies | `<script defer>` just before `</body>` | https://dash.cloudflare.com/27bd7115ab2090ed90f2e0c4b329e60a/web-analytics |
+| **Google Search Console** | Search queries, CTR, impressions, avg position, indexing issues â€” 24-48h data delay | `<meta name="google-site-verification">` in `<head>` | https://search.google.com/search-console?resource_id=https%3A%2F%2Ffelipemaffonso.com%2F |
 
 **Do not remove** any of these: Clarity script, CF beacon, or the GSC meta tag. Losing the meta tag drops GSC property ownership.
 
-**Unified dashboard view** for all three (queries + pageviews + behavioral signals) exists inside the academic-research Dashboard at `felipemaffonso.github.io/academic-research/` — click the bar-chart icon next to the Claude mascot in the header, or `Ctrl+Shift+A`. The worker at `research-dashboard-claude.webmarinelli.workers.dev` exposes `/api/analytics/{cf,gsc,clarity,summary}` (Bearer `GIST_TOKEN` auth). See `dashboard/CLAUDE.md` "Site Analytics" section for full architecture.
+**Unified dashboard view** for all three (queries + pageviews + behavioral signals) exists inside the academic-research Dashboard at `felipemaffonso.github.io/academic-research/` â€” click the bar-chart icon next to the Claude mascot in the header, or `Ctrl+Shift+A`. The worker at `research-dashboard-claude.webmarinelli.workers.dev` exposes `/api/analytics/{cf,gsc,clarity,summary}` (Bearer `GIST_TOKEN` auth). See `dashboard/CLAUDE.md` "Site Analytics" section for full architecture.
 
 **To verify live:**
 ```bash

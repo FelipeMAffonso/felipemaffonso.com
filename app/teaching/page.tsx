@@ -17,9 +17,7 @@ export default function TeachingPage() {
     <>
       <PageBanner title="Teaching" />
       <main className="page">
-        <div className="teaching-poster-section">
-          <PageStrip page="teaching" />
-        </div>
+        <PageStrip page="teaching" />
         <section className="section enter" style={d(0)}>
           <h2 className="section-title">Teaching Interests</h2>
           <p className="body-text">Marketing research, managerial statistics, experimental methods, marketing management</p>

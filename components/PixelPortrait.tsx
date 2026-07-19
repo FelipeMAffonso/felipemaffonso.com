@@ -27,7 +27,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useSound } from "@/lib/sound";
-import { usePixelVariants } from "@/lib/pixelVariants";
 import portrait from "@/lib/pixel-portrait.json";
 
 function fract(n: number) {
@@ -202,7 +201,6 @@ export function PortraitCanvas({ mode, active = true }: { mode: PortraitMode; ac
 export function PixelPortrait() {
   const [flipped, setFlipped] = useState(false);
   const { play } = useSound();
-  const { portrait: mode } = usePixelVariants();
 
   const flip = () => {
     play("toggle");
@@ -230,7 +228,7 @@ export function PixelPortrait() {
           <img src="/images/headshot.jpg" alt="Felipe M. Affonso" width={591} height={775} />
         </div>
         <div className="pixel-portrait-face pixel-portrait-back">
-          <PortraitCanvas mode={mode} active={flipped} />
+          <PortraitCanvas mode="constellation" active={flipped} />
         </div>
       </div>
     </div>

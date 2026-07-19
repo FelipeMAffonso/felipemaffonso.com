@@ -37,10 +37,11 @@ export function SoundProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     bind(); // idempotent; delegated; survives route swaps
 
-    // One-time cleanup: the dev/adjudication variant system is gone, so drop
-    // its stale localStorage key from any browser that still carries it.
+    // One-time cleanup: the dev/adjudication variant systems are gone, so
+    // drop their stale localStorage keys from browsers that still carry them.
     try {
       localStorage.removeItem("site-variants");
+      localStorage.removeItem("pixel-variants");
     } catch {
       /* storage blocked, nothing to clean */
     }

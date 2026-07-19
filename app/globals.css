@@ -1,7 +1,7 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 /* ============================================================
-   Felipe M. Affonso — Personal Site (Next.js rebuild)
+   Felipe M. Affonso â€” Personal Site (Next.js rebuild)
    Vessel rebuilt to the attio bar; content + skeleton preserved.
    Design language: hairline borders, soft layered shadows,
    Geist type, coral #DA7756 accent, coral particle constellation.
@@ -15,7 +15,7 @@
   --radius-card: 12px;
   --radius-pill: 9999px;
 
-  /* motion — Emil/Linear curves; nothing in UI over 300ms */
+  /* motion â€” Emil/Linear curves; nothing in UI over 300ms */
   --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out-strong: cubic-bezier(0.77, 0, 0.175, 1);
   --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
@@ -29,7 +29,7 @@
   --text: #1a1a1a;
   --text-secondary: #3a3f45;
   --text-dim: #6b7078;
-  --coral: #DA7756;            /* THE accent — fills, icons, particles, ring (unchanged) */
+  --coral: #DA7756;            /* THE accent â€” fills, icons, particles, ring (unchanged) */
   --coral-dark: #c86a4a;       /* hover / pressed */
   --coral-text: #b3572f;       /* deeper coral for TEXT on light bg (AA: 4.86:1 on #fff, 4.61:1 on #f8f9fa) */
   --coral-text-hover: #99461f;
@@ -59,7 +59,7 @@
   --text-dim: #8b9099;
   --coral: #e08866;            /* unchanged from current dark */
   --coral-dark: #eda48a;
-  --coral-text: #e08866;       /* dark coral already reads on dark bg — unchanged */
+  --coral-text: #e08866;       /* dark coral already reads on dark bg â€” unchanged */
   --coral-text-hover: #eda48a;
   --coral-tint: rgba(224, 136, 102, 0.10);
   --coral-tint-strong: rgba(224, 136, 102, 0.16);
@@ -422,7 +422,7 @@ a:hover { color: var(--coral-text-hover); }
 }
 
 /* ============================================================
-   Publications — list (not cards); panel is a LOCKED design
+   Publications â€” list (not cards); panel is a LOCKED design
    ============================================================ */
 .pub-subtitle {
   font-size: 14px;
@@ -564,7 +564,7 @@ a:hover { color: var(--coral-text-hover); }
   stroke-linejoin: round;
   transition: stroke 0.15s var(--ease-out-quint);
 }
-/* brand-mark icons render as images/filled paths — don't stroke them */
+/* brand-mark icons render as images/filled paths â€” don't stroke them */
 img.pub-link-icon { stroke: none; }
 .pub-link-icon-fill { fill: var(--text-dim); stroke: none; transition: fill 0.15s var(--ease-out-quint); }
 @media (hover: hover) {
@@ -807,13 +807,6 @@ img.pub-link-icon { stroke: none; }
    Footer
    ============================================================ */
 .footer-line { padding: 48px 48px 32px; }
-.footer-line-inner {
-  max-width: 120px;
-  height: 2px;
-  margin: 0 auto;
-  background: linear-gradient(90deg, transparent, var(--coral), transparent);
-  opacity: 0.4;
-}
 
 /* ============================================================
    Theme-toggle icon morph (variant: morph | swap)
@@ -852,7 +845,7 @@ img.pub-link-icon { stroke: none; }
   from { opacity: 0.01; }
   to { opacity: 1; }
 }
-/* reduced motion: gentler — a quick opacity fade, no translate, no stagger */
+/* reduced motion: gentler â€” a quick opacity fade, no translate, no stagger */
 @media (prefers-reduced-motion: reduce) {
   .enter {
     animation: enterFade 0.18s var(--ease-out-quint) both !important;
@@ -864,7 +857,7 @@ img.pub-link-icon { stroke: none; }
    Pixel posters (the its_sslvr LED-grid language)
    A dark warm card in BOTH themes (a poster is an artifact, not
    a surface), an always-visible cell grid drawn on canvas, a
-   slab-serif title (Ultra, self-hosted), and a quiet caption.
+   slab-serif title (Alfa Slab One, self-hosted), and a quiet caption.
    Hover carries the faint warm glow borrowed from the Nucleo
    "Complete setup" card, in coral.
    ============================================================ */
@@ -900,10 +893,10 @@ img.pub-link-icon { stroke: none; }
   padding-top: 18px;
 }
 .pixel-poster-title {
-  font-family: "Ultra", "Georgia", serif;
+  font-family: "Alfa Slab One", Georgia, serif;
   font-weight: 400;
   font-size: 21px;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.012em;
   color: var(--poster-title, #f2ece2);
   line-height: 1.25;
 }
@@ -936,17 +929,7 @@ img.pub-link-icon { stroke: none; }
 .poster-bare figcaption { display: none; }
 .poster-bare:hover { box-shadow: none; border: none; }
 
-/* placement: inside the publication panel (an approved appended
-   block below the locked anatomy) */
-.pub-poster {
-  display: flex;
-  justify-content: center;
-  margin-top: 18px;
-}
-.pub-poster .pixel-poster { max-width: 320px; }
-.pub-entry.open .pub-detail-pad > *:nth-child(3) { animation-delay: 0.18s; }
-
-/* ---- the click-to-cycle cover (covers=cycle) ---------------- */
+/* ---- the two-face story cover ------------------------------- */
 /* slightly larger than the locked 92px cover; each face fills it */
 .pub-cover-wrap {
   float: left;
@@ -1001,65 +984,6 @@ img.pub-link-icon { stroke: none; }
 }
 .pub-cover-dots span.is-on { background: var(--coral); }
 
-/* ---- research layouts (reslayout axis) ---------------------- */
-/* rail: widen the research page and split into sticky art + list */
-[data-reslayout="rail"] .research-page { max-width: 1120px; }
-.res-two {
-  display: grid;
-  grid-template-columns: 264px minmax(0, 1fr);
-  gap: 40px;
-  align-items: start;
-}
-.res-rail { position: relative; }
-/* the card slides to sit level with the open citation */
-.res-rail-card {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  transition: transform 0.4s var(--ease-out-quint);
-}
-.res-rail .pixel-poster { animation: coverFace 0.24s var(--ease-out-quint) both; }
-@media (max-width: 900px) {
-  .res-two { display: block; }
-  .res-rail { display: none; }
-}
-/* gallery: the List | Posters segmented control + the wall */
-.res-seg {
-  display: inline-flex;
-  gap: 3px;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 3px;
-  margin-bottom: 26px;
-}
-.res-seg button {
-  font-size: 12.5px;
-  font-weight: 500;
-  color: var(--text-secondary);
-  background: transparent;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 14px;
-  cursor: pointer;
-  transition: color 0.14s var(--ease-out-quint), background-color 0.14s var(--ease-out-quint);
-}
-.res-seg button:hover { background: var(--hover-wash); color: var(--text); }
-.res-seg button.is-on { background: var(--coral-tint-strong); color: var(--coral-text); }
-.res-wall {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
-  gap: 18px;
-}
-.res-wall-item {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  text-align: inherit;
-  border-radius: var(--radius-card);
-}
-.res-wall-item .pixel-poster { width: 100%; }
-@media (hover: hover) { .res-wall-item:active { transform: scale(0.99); } }
 
 /* placement: centered strip (Teaching) */
 .poster-center {
@@ -1189,32 +1113,6 @@ img.pub-link-icon { stroke: none; }
   .dither-card-media::after { animation-duration: 14s; }
 }
 
-/* ============================================================
-   Pixel variant axes (ADJUDICATION ONLY — removed at bake)
-   ============================================================ */
-/* poster title serif candidate B */
-[data-posterfont="alfa"] .pixel-poster-title {
-  font-family: "Alfa Slab One", Georgia, serif;
-  letter-spacing: 0.012em;
-}
-/* paper posters and teaching poster on/off */
-[data-pubposters="off"] .pub-poster { display: none; }
-[data-teachingposter="off"] .teaching-poster-section { display: none; }
-/* Spears still: keep the scanline texture, stop the moving band */
-[data-spears="still"] .dither-card-media::after { animation: none; opacity: 0; }
-/* nav hover underline as marching cells instead of the gradient */
-[data-navhover="cells"] .nav-links a:not(.active):hover::after {
-  background: repeating-linear-gradient(90deg, var(--coral) 0 4px, transparent 4px 7px);
-  background-size: 14px 100%;
-  animation: navCellsMarch 0.9s steps(2) infinite;
-}
-@keyframes navCellsMarch {
-  from { background-position: 0 0; }
-  to { background-position: 14px 0; }
-}
-@media (prefers-reduced-motion: reduce) {
-  [data-navhover="cells"] .nav-links a:not(.active):hover::after { animation-duration: 1.8s; }
-}
 
 /* the Spears cycler: three faces, scanline on all of them */
 .spears-cycle { cursor: pointer; }
@@ -1241,12 +1139,6 @@ img.pub-link-icon { stroke: none; }
 .page-strip { margin-bottom: 30px; }
 .hero-inner .page-strip { margin-bottom: 34px; }
 
-/* the minimal research header card (resheader axis) */
-.res-header { margin-bottom: 26px; }
-.res-header-banner .pixel-poster { width: 100%; }
-.res-header-strip { padding: 2px 0 0; }
-.res-header-mini { display: flex; justify-content: flex-end; }
-.res-header-mini .pixel-poster { width: 280px; }
 
 /* LED footer strip */
 .footer-led {
@@ -1259,327 +1151,6 @@ img.pub-link-icon { stroke: none; }
 }
 
 /* ============================================================
-   Pixel lab (ADJUDICATION ONLY — the /pixel-lab/ showroom)
-   ============================================================ */
-.pixel-lab .lab-note {
-  font-size: 14px;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  max-width: 72ch;
-  margin-bottom: 18px;
-}
-.lab-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 18px;
-  align-items: start;
-}
-.lab-cell { min-width: 0; }
-.lab-tag {
-  font-size: 12px;
-  color: var(--text-dim);
-  margin: 8px 0;
-  font-family: var(--font-mono);
-}
-.lab-portraits {
-  display: flex;
-  gap: 28px;
-  flex-wrap: wrap;
-}
-.lab-portrait { margin: 0; }
-.lab-portrait-box {
-  width: 250px;
-  aspect-ratio: 591 / 775;
-  background: #16171b;
-  border: 1px solid rgba(232, 232, 234, 0.08);
-  border-radius: var(--radius-card);
-  overflow: hidden;
-}
-.lab-portrait-box canvas {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.lab-portrait figcaption {
-  font-size: 12px;
-  color: var(--text-dim);
-  margin-top: 8px;
-  font-family: var(--font-mono);
-  text-align: center;
-}
-.lab-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-}
-.lab-stack .dither-card, .lab-stack .pixel-poster { margin-top: 0; }
-/* still treatment: kill the drifting band, keep the texture */
-.dither-card.is-still .dither-card-media::after { animation: none; opacity: 0; }
-.lab-fonts {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-.lab-font-sample {
-  background: #16171b;
-  border: 1px solid rgba(232, 232, 234, 0.08);
-  border-radius: var(--radius-card);
-  padding: 26px 34px 18px;
-  text-align: center;
-}
-/* class-scoped mirror of the [data-posterfont="alfa"] axis */
-.posterfont-alfa .pixel-poster-title {
-  font-family: "Alfa Slab One", Georgia, serif;
-  letter-spacing: 0.012em;
-}
-.lab-icons {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.lab-icon-row {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  font-size: 14px;
-  color: var(--text-secondary);
-}
-.lab-icon-cell {
-  width: 24px;
-  display: inline-flex;
-  justify-content: center;
-}
-.lab-icon-cell .social-icon { fill: var(--text-dim); }
-.lab-footer-box {
-  padding: 14px 0;
-}
-.lab-icon-plain { color: var(--text-dim); }
-.lab-nav-glyph .nav-glyph { width: 16px; height: 16px; opacity: 1; }
-.lab-map {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 13.5px;
-  color: var(--text-secondary);
-  line-height: 1.6;
-}
-.lab-map td { padding: 8px 14px 8px 0; border-bottom: 1px solid var(--border-light); vertical-align: top; }
-.lab-map-axis {
-  font-family: var(--font-mono);
-  font-size: 12.5px;
-  color: var(--coral-text);
-  white-space: nowrap;
-}
-.lab-refs img {
-  max-width: 100%;
-  height: auto;
-  border-radius: var(--radius-card);
-  border: 1px solid var(--border);
-  display: block;
-}
-.lab-refs-row {
-  display: flex;
-  gap: 14px;
-  margin-top: 14px;
-  flex-wrap: wrap;
-}
-.lab-refs-row img { flex: 1 1 280px; min-width: 0; }
-.lab-mock {
-  border: 1px dashed var(--border-strong);
-  border-radius: var(--radius-card);
-  padding: 16px;
-  margin-top: 4px;
-}
-.lab-mock-panel { display: flex; gap: 18px; align-items: flex-start; }
-.lab-mock-poster { flex: 0 0 190px; }
-.lab-mock-poster .pixel-poster { padding: 12px 12px 14px; }
-.lab-mock-poster .pixel-poster-title { font-size: 15px; }
-.lab-mock-poster .pixel-poster-caption { font-size: 10.5px; margin-top: 4px; }
-.lab-mock-abstract {
-  font-size: 13.5px;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  margin: 0;
-  min-width: 0;
-}
-.lab-mock-margin { display: flex; gap: 18px; align-items: flex-start; }
-.lab-mock-margin .lab-mock-abstract { flex: 1 1 auto; }
-.lab-mock-rail { flex: 0 0 220px; }
-.lab-mock-rail .pixel-poster { padding: 12px 12px 14px; }
-.lab-mock-rail .pixel-poster-title { font-size: 15px; }
-.lab-mock-rail .pixel-poster-caption { font-size: 10.5px; margin-top: 4px; }
-.lab-seg {
-  display: inline-flex;
-  gap: 3px;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 3px;
-  margin-bottom: 12px;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-secondary);
-}
-.lab-seg span { padding: 4px 12px; border-radius: 5px; }
-.lab-seg .is-on { background: var(--coral-tint-strong); color: var(--coral-text); }
-.lab-year {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-dim);
-  letter-spacing: 0.09em;
-  margin-bottom: 10px;
-}
-.lab-strip {
-  display: flex;
-  gap: 14px;
-  overflow-x: auto;
-  padding-bottom: 6px;
-}
-.lab-strip-item { flex: 0 0 230px; }
-.lab-cover-pair {
-  display: flex;
-  gap: 18px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.lab-cover-pair > img {
-  width: 170px;
-  height: auto;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-cover);
-}
-.lab-cover-pixel { flex: 0 0 210px; }
-.lab-cover-pixel .pixel-poster { padding: 12px 12px 14px; }
-.lab-cover-pixel .pixel-poster-title { font-size: 15px; }
-.lab-cover-pixel .pixel-poster-caption { font-size: 10.5px; margin-top: 4px; }
-@media (max-width: 700px) {
-  .lab-mock-panel, .lab-mock-margin { flex-direction: column; }
-  .lab-mock-poster, .lab-mock-rail { flex-basis: auto; }
-}
-/* the pixel CV download arrow keeps the button's coral accent */
-.cv-download .pixel-cv-dl { fill: var(--coral); width: 16px; height: 16px; }
-
-/* ============================================================
-   Variant switcher (dev/adjudication), floating, every page
-   ============================================================ */
-.vswitch {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 9999;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 10px;
-  font-family: var(--font-sans);
-}
-@media print { .vswitch { display: none; } }
-
-.vswitch-fab {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 12.5px;
-  font-weight: 500;
-  letter-spacing: -0.005em;
-  color: var(--text-secondary);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  padding: 8px 14px;
-  cursor: pointer;
-  box-shadow: var(--shadow-panel);
-  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.2s var(--ease-out-quint), transform 0.13s var(--ease-out-quint);
-}
-.vswitch-fab:hover { border-color: var(--coral); color: var(--coral); }
-@media (hover: hover) { .vswitch-fab:active { transform: scale(0.97); } }
-.vswitch-caret {
-  width: 12px; height: 12px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: transform 0.22s var(--ease-out-quint);
-}
-.vswitch[data-open="true"] .vswitch-caret { transform: rotate(180deg); }
-
-.vswitch-panel {
-  width: 272px;
-  max-height: min(72vh, 560px);
-  overflow-y: auto;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  box-shadow: var(--shadow-panel);
-  padding: 14px 14px 12px;
-  animation: vswitchIn 0.2s var(--ease-out-quint) both;
-}
-@keyframes vswitchIn {
-  from { opacity: 0; transform: translateY(6px) scale(0.985); }
-  to { opacity: 1; transform: none; }
-}
-@media (prefers-reduced-motion: reduce) { .vswitch-panel { animation: none; } }
-
-.vswitch-row {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-bottom: 11px;
-}
-.vswitch-label {
-  font-size: 12px;
-  color: var(--text-dim);
-  letter-spacing: -0.005em;
-}
-.vswitch-seg {
-  display: flex;
-  gap: 3px;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 3px;
-}
-.vswitch-btn {
-  flex: 1;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-secondary);
-  background: transparent;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 6px;
-  cursor: pointer;
-  text-align: center;
-  transition: color 0.14s var(--ease-out-quint), background-color 0.14s var(--ease-out-quint);
-}
-.vswitch-btn:hover { background: var(--hover-wash); color: var(--text); }
-.vswitch-btn.is-active {
-  background: var(--coral-tint-strong);
-  color: var(--coral-text);
-}
-
-.vswitch-copy {
-  width: 100%;
-  margin-top: 3px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-secondary);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-btn);
-  padding: 8px 10px;
-  cursor: pointer;
-  transition: border-color 0.15s var(--ease-out-quint), color 0.15s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint);
-}
-.vswitch-copy:hover { border-color: var(--coral); color: var(--coral); background: var(--coral-tint); }
-
-@media (max-width: 768px) {
-  .vswitch { right: 14px; bottom: 14px; }
-  .vswitch-panel { width: min(272px, calc(100vw - 28px)); }
-}
-
-/* ============================================================
    Mobile
    ============================================================ */
 @media (max-width: 768px) {
@@ -1589,7 +1160,7 @@ img.pub-link-icon { stroke: none; }
     position: fixed;
     top: 64px; left: 0; right: 0;
     z-index: 200;
-    background: var(--bg);            /* opaque — no page bleed-through */
+    background: var(--bg);            /* opaque â€” no page bleed-through */
     flex-direction: column;
     padding: 22px;
     gap: 18px;
@@ -1636,7 +1207,6 @@ img.pub-link-icon { stroke: none; }
   .pixel-poster-title { font-size: 18px; }
   .dither-card { padding: 16px 16px 20px; margin-top: 40px; }
   .pub-cover-wrap { width: 124px; margin-right: 14px; }
-  .res-header-mini { justify-content: center; }
 }
 
 @media (max-width: 480px) {

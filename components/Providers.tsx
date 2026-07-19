@@ -1,8 +1,7 @@
-﻿"use client";
+"use client";
 
 import { ThemeProvider } from "next-themes";
 import { SoundProvider } from "@/lib/sound";
-import { PixelVariantProvider } from "@/lib/pixelVariants";
 import type { ReactNode } from "react";
 
 export function Providers({ children }: { children: ReactNode }) {
@@ -14,13 +13,7 @@ export function Providers({ children }: { children: ReactNode }) {
       enableSystem={true}       /* resolves to light or dark; the nav toggle stays */
       enableColorScheme={false}
     >
-      <SoundProvider>
-        {/* ADJUDICATION ONLY: the pixel variant system + floating
-            switcher; stripped once Felipe bakes his picks. */}
-        <PixelVariantProvider>
-          {children}
-        </PixelVariantProvider>
-      </SoundProvider>
+      <SoundProvider>{children}</SoundProvider>
     </ThemeProvider>
   );
 }

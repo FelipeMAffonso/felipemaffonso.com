@@ -7,8 +7,7 @@ import { ParticleField } from "./ParticleField";
 import { ThemeToggle } from "./ThemeToggle";
 import { SoundToggle } from "./SoundToggle";
 import { useSound } from "@/lib/sound";
-import { usePixelVariants } from "@/lib/pixelVariants";
-import { NAV_ICON_SETS } from "./navIcons";
+import { NAV_ICONS } from "./navIcons";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -26,10 +25,8 @@ function norm(path: string) {
 export function Nav() {
   const pathname = usePathname();
   const { play } = useSound();
-  const { navicons } = usePixelVariants();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const iconSet = navicons === "off" ? null : NAV_ICON_SETS[navicons];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -56,7 +53,7 @@ export function Nav() {
         <Link href="/" className="nav-name" onClick={() => onNavClick("/")}>Felipe M. Affonso</Link>
         <ul className={`nav-links${menuOpen ? " open" : ""}`}>
           {LINKS.map((l) => {
-            const Glyph = iconSet ? iconSet[l.href] : null;
+            const Glyph = NAV_ICONS[l.href];
             return (
               <li key={l.href}>
                 <Link
@@ -64,7 +61,7 @@ export function Nav() {
                   className={norm(l.href) === current ? "active" : undefined}
                   onClick={() => onNavClick(l.href)}
                 >
-                  {Glyph && <Glyph />}
+                  <Glyph />
                   {l.label}
                 </Link>
               </li>

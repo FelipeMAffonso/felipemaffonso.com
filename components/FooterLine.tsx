@@ -1,23 +1,20 @@
 "use client";
 
 /* ============================================================
-   FooterLine — variant-aware footer.
-   footer=line keeps the established coral gradient hairline;
-   footer=led replaces it with a small LED strip: a 40x3 cell
-   grid running the spark engine, dim and calm, a signature of
-   the poster language at the bottom of every page.
+   FooterLine — the LED strip (adjudicated 2026-07-19).
+   A 40x3 cell grid running the spark engine, dim and calm, the
+   pixel signature at the bottom of every page. Theme adaptive.
    ============================================================ */
 
 import { useEffect, useRef } from "react";
 import { ENGINES, type Grid } from "@/lib/pixelEngine";
-import { usePixelVariants } from "@/lib/pixelVariants";
 import { adaptPalette, useIsLight } from "@/lib/pixelTheme";
 
 const COLS = 40;
 const ROWS = 3;
 const COLORS = ["#8a7f72", "#d9a441", "#DA7756", "#f4e9d6"];
 
-export function LedStrip() {
+export function FooterLine() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const isLight = useIsLight();
 
@@ -97,10 +94,4 @@ export function LedStrip() {
       <canvas ref={canvasRef} aria-hidden="true" />
     </div>
   );
-}
-
-export function FooterLine() {
-  const { footer } = usePixelVariants();
-  if (footer === "led") return <LedStrip />;
-  return <div className="footer-line-inner" />;
 }

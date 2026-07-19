@@ -123,27 +123,3 @@ export const pubPosters: Record<string, PosterConfig> = {
   },
 };
 
-export const teachingPoster: PosterConfig = {
-  title: "The Classroom",
-  caption: "Marketing Research, the Marketing Science Laboratory, and Managerial Strategies in Marketing",
-  cols: 23, rows: 13,
-  spec: {
-    engine: "tide",
-    seed: 53,
-    params: { cycle: 0.09 },
-    colors: ["#8a4f38", "#d9a441", CORAL, CREAM],
-  },
-};
-
-/* the quiet idle card (the rail placeholder and the list header) */
-export const idlePoster: PosterConfig = {
-  title: "Research",
-  caption: "Open any paper to see its story",
-  cols: 15, rows: 19,
-  spec: {
-    engine: "spark",
-    seed: 91,
-    params: { rate: 0.1, thresh: 0.982 },
-    colors: ["#8b9099", "#d9a441", CORAL, CREAM],
-  },
-};
