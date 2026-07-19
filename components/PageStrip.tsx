@@ -11,7 +11,9 @@
 import { PixelPoster } from "./PixelPoster";
 import type { MotifSpec } from "@/lib/pixelEngine";
 
-const PALETTE = ["#8b9099", "#d9a441", "#DA7756", "#f4e9d6"];
+/* quiet strip palette: gray and coral only; the gold was demoted
+   (Felipe 2026-07-19, it read mustard against the page) */
+const PALETTE = ["#8b9099", "#DA7756", "#DA7756", "#e8e8ea"];
 
 const STRIPS: Record<string, { spec: MotifSpec; rows?: number }> = {
   home: { spec: { engine: "drift", seed: 131, params: { blobs: 2, radius: 0.5 }, colors: PALETTE } },

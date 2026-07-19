@@ -29,7 +29,6 @@ export default function Home() {
     <section className="hero-full">
       <ParticleField variant="hero" />
       <div className="hero-inner">
-        <PageStrip page="home" />
         <div className="hero-header enter" style={{ "--enter-i": 0 } as CSSProperties}>
           <h1 className="hero-name">Felipe M. Affonso</h1>
           <p className="hero-title">Assistant Professor of Marketing, Oklahoma State University</p>
