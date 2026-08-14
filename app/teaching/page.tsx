@@ -25,7 +25,8 @@ export default function TeachingPage() {
 
         <section className="section enter" style={d(1)}>
           <h2 className="section-title">Teaching Awards</h2>
-          <p className="body-text">Spears Engagement with Practice and Social Impact Teaching Award, Oklahoma State University, 2025</p>
+          <p className="body-text">Innovation in Pedagogy and High-Impact Practices Teaching Award, Oklahoma State University, 2026</p>
+          <p className="body-text">Engagement with Practice and Social Impact Teaching Award, Oklahoma State University, 2025</p>
         </section>
 
         <section className="section enter" style={d(2)}>
@@ -35,8 +36,10 @@ export default function TeachingPage() {
 
           <p className="institution-name">Spears School of Business, Oklahoma State University, USA</p>
           <ul className="course-list">
-            <li>Marketing Research (B.Sc.), Spring 2025, Spring 2026</li>
+            <li>Principles of Marketing (Core Course, B.Sc.), Fall 2026</li>
+            <li>Marketing Research (B.Sc.), Spring 2025, Spring 2026, Summer 2026, Fall 2026</li>
             <li>Honors Course: Marketing Science Laboratory (B.Sc.), Fall 2025, Spring 2026</li>
+            <li>Marketing Internship for Credit (B.Sc.), Summer 2026</li>
             <li>Managerial Strategies in Marketing (B.Sc.), Spring 2024</li>
           </ul>
 
@@ -48,10 +51,15 @@ export default function TeachingPage() {
 
           <h3 className="subsection-title">Guest Lecturer</h3>
 
+          <p className="institution-name">Spears School of Business, Oklahoma State University, USA</p>
+          <ul className="course-list">
+            <li>Executive Doctorate in Business Administration Cohort, April 2026</li>
+          </ul>
+
           <p className="institution-name">Rutgers Business School, Rutgers University, USA</p>
           <ul className="course-list">
-            <li>Building Experiments in Qualtrics (Ph.D. Seminar, Experimental Design), Fall 2020</li>
             <li>Building Experiments in Qualtrics (Ph.D. Seminar, Experimental Design), Fall 2022</li>
+            <li>Building Experiments in Qualtrics (Ph.D. Seminar, Experimental Design), Fall 2020</li>
           </ul>
 
           <h3 className="subsection-title">Teaching Assistant</h3>
@@ -63,9 +71,9 @@ export default function TeachingPage() {
 
           <p className="institution-name">School of Arts, Sciences, and Humanities, University of Sao Paulo, Brazil</p>
           <ul className="course-list">
-            <li>Statistical Inference (B.Sc.), Fall 2014, Fall 2015</li>
-            <li>Marketing Research III (B.Sc.), Spring 2015</li>
             <li>Multivariate Data Analysis I (B.Sc.), Spring 2014</li>
+            <li>Marketing Research III (B.Sc.), Spring 2015</li>
+            <li>Statistical Inference (B.Sc.), Fall 2014, Fall 2015</li>
           </ul>
         </section>
 

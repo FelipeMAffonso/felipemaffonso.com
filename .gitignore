@@ -12,3 +12,5 @@ Screenshot*
 
 # regenerable outputs of the pixel build scripts (previews, raw dumps)
 scripts/_*
+
+public/pdfjs/

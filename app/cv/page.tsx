@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageBanner } from "@/components/PageBanner";
 import { PageStrip } from "@/components/PageStrip";
 import { CvDownload } from "@/components/CvDownload";
-import { CvPages } from "@/components/CvPages";
+import { CvPdf } from "@/components/CvPdf";
 
 export const metadata: Metadata = {
   title: "Curriculum Vitae",
@@ -21,7 +21,7 @@ export default function CvPage() {
 
         <CvDownload />
 
-        <CvPages />
+        <CvPdf />
       </main>
     </>
   );
