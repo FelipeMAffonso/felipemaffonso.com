@@ -85,6 +85,19 @@ export function CvPdf() {
           }).render();
           if (cancelled || seq !== renderSeq) return;
 
+          // The selection anchor the full PDF.js viewer adds on top of the core
+          // text layer. Without it, dragging a selection across line and
+          // paragraph boundaries balloons over whole blocks instead of
+          // following the text.
+          if (!textDiv.querySelector(".endOfContent")) {
+            const end = document.createElement("div");
+            end.className = "endOfContent";
+            textDiv.appendChild(end);
+          }
+          textDiv.addEventListener("pointerdown", () => {
+            textDiv.classList.add("selecting");
+          });
+
           const toViewport = (x: number, y: number): [number, number] => {
             const m = viewport.transform;
             return [m[0] * x + m[2] * y + m[4], m[1] * x + m[3] * y + m[5]];
@@ -113,6 +126,14 @@ export function CvPdf() {
 
     buildAll();
 
+    const endSelecting = () => {
+      for (const el of host.querySelectorAll(".textLayer.selecting")) {
+        el.classList.remove("selecting");
+      }
+    };
+    window.addEventListener("pointerup", endSelecting);
+    window.addEventListener("pointercancel", endSelecting);
+
     let lastWidth = host.clientWidth;
     let resizeTimer: ReturnType<typeof setTimeout> | undefined;
     const observer = new ResizeObserver(() => {
@@ -131,6 +152,8 @@ export function CvPdf() {
       renderSeq++;
       observer.disconnect();
       clearTimeout(resizeTimer);
+      window.removeEventListener("pointerup", endSelecting);
+      window.removeEventListener("pointercancel", endSelecting);
       loadingTask?.destroy().catch(() => {});
     };
   }, []);
