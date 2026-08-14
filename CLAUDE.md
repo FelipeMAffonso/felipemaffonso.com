@@ -41,13 +41,12 @@ how the site is built and the rules that govern changes to it.
 felipemaffonso.com/
 â”œâ”€â”€ app/                      # App Router: routes, layout, global CSS
 â”‚   â”œâ”€â”€ layout.tsx            # Root layout: <html>/<body>, metadata, analytics
-â”‚   â”‚                         #   scripts, CV prefetch/preconnect, Providers,
-â”‚   â”‚                         #   Nav, footer, the persistent CvFrame
+â”‚   â”‚                         #   scripts, CV pdf prefetch, Providers, Nav, footer
 â”‚   â”œâ”€â”€ globals.css           # All design tokens + every component style
 â”‚   â”œâ”€â”€ page.tsx              # Home: hero, photo, bio, Person JSON-LD
 â”‚   â”œâ”€â”€ research/page.tsx     # Research: renders <PublicationsSections/>
 â”‚   â”œâ”€â”€ teaching/page.tsx     # Teaching
-â”‚   â”œâ”€â”€ cv/page.tsx           # CV: intro, download link, viewer placeholder slot
+â”‚   â”œâ”€â”€ cv/page.tsx           # CV: intro, download link, the page-image viewer
 â”‚   â”œâ”€â”€ contact/page.tsx      # Contact
 â”‚   â”œâ”€â”€ robots.ts             # robots.txt (generated)
 â”‚   â””â”€â”€ sitemap.ts            # sitemap.xml (generated)
@@ -58,7 +57,7 @@ felipemaffonso.com/
 â”‚   â”œâ”€â”€ PublicationsSections.tsx  # The research list + the LOCKED panel
 â”‚   â”œâ”€â”€ ThemeToggle.tsx       # Sun/moon toggle, baked morph animation
 â”‚   â”œâ”€â”€ SoundToggle.tsx       # Mute/unmute interaction sounds
-â”‚   â”œâ”€â”€ CvFrame.tsx           # The single persistent CV Drive iframe
+â”‚   â”œâ”€â”€ CvPages.tsx           # The CV viewer: pre-rendered page images as paper sheets
 â”‚   â”œâ”€â”€ CvDownload.tsx        # The Download PDF button
 â”‚   â”œâ”€â”€ PageBanner.tsx        # Inner-page title banner
 â”‚   â””â”€â”€ icons.tsx             # Publication link icons (journal, OSF, arXiv, ...)
@@ -177,45 +176,37 @@ shared audio device up front. cuelume's own context then resumes against an alre
 running audio thread, so the first audible cue skips the cold start. This runs once,
 on a real user gesture, which is also what the Web Audio autoplay policy requires.
 
-## CV warm-frame architecture
+## CV viewer (self-hosted page images, 2026-08-14)
 
-The problem this solves: a Drive preview iframe that cold-loads when the CV page
-opens shows a blank box for a second or two. The fix is to load the viewer when the
-site opens, on any page, so clicking CV shows an already rendered viewer.
+The viewer shows pre-rendered images of `public/files/cv.pdf`, the same file the
+Download button serves. One source, so the page can never show a different CV than
+the one this repo publishes. This replaced the Google Drive iframe (and the
+warm-frame machinery around it) after the Drive copy silently sat nine months
+stale: the Drive file was a manual side-channel, and the viewer went out of date
+while the downloaded PDF was current.
 
-- One iframe for the whole app. `components/CvFrame.tsx` owns the single Drive
-  iframe and is mounted once in the root layout, inside `Providers`, after the page
-  children. Because it lives in the persistent layout and is always rendered, the
-  iframe element never remounts or gets reparented across route changes. Remounting
-  or reparenting an iframe reloads it, which is exactly what we avoid.
-- Document-coordinate positioning. The host div is `position: absolute` in document
-  coordinates (not `fixed`), so native scrolling keeps it glued to the page with no
-  jitter.
-- Offscreen warm-up. When the path is not `/cv/`, the host sits far offscreen
-  (`left: -12000px`, `top: 0`) at real dimensions (about 1100x1400) and stays
-  rendered. It is not `display: none` or `visibility: hidden`, because the point is
-  to let the browser actually paint and warm the frame while it is parked. While
-  offscreen it is marked `aria-hidden` and `inert` so it never enters the
-  accessibility tree or the tab order.
-- Overlay on /cv/. When the path is `/cv/`, CvFrame measures the placeholder's
-  document-coordinate rect (`getBoundingClientRect()` plus `window.scrollY`) and
-  sizes the host exactly over it, then drops `inert`/`aria-hidden`. It re-measures on
-  window resize and via a `ResizeObserver` on both the placeholder and
-  `document.body`, because content above the slot can shift.
-- The placeholder contract. `app/cv/page.tsx` renders an empty
-  `<div id="cv-embed-slot" class="cv-embed-slot">` inside `.cv-embed`, in place of an
-  inline iframe. CvFrame finds it by that id and measures it, so the id and the
-  `.cv-embed` / `.cv-embed-slot` box must stay. The slot keeps the same box and
-  aspect the old iframe had, so the page layout is pixel-identical, and it shows a
-  calm loading shimmer (`cvShimmer`) that is visible only when someone lands on
-  `/cv/` cold, since the warmed frame covers it otherwise.
-- Prefetch and preconnect stay. `app/layout.tsx` keeps `<link rel="prefetch"
-  href="/files/cv.pdf">` and `<link rel="preconnect" href="https://drive.google.com">`
-  so the download is instant and the Drive origin is warmed on every page.
+- `scripts/build-cv-pages.py` (python, needs pymupdf + PIL) renders each PDF page
+  to WebP at 1720px wide (2x the 860px display width, so pages stay sharp on
+  retina screens and under phone zoom) into `public/images/cv-pages/`, and writes
+  `lib/cv-pages.json` with the PDF's sha256 and the page list. Filenames carry a
+  content hash, so a returning visitor's cache can never show a stale page.
+- `components/CvPages.tsx` imports the manifest and renders each page as a
+  `figure.cv-page` paper sheet: white background in both themes (paper is paper),
+  hairline border, `--radius-card`, `--shadow-panel`, max-width 880px. The first
+  page loads eager with high fetch priority; the rest are lazy. Width/height
+  attributes reserve the exact aspect, so lazy pages never shift the layout.
+- `scripts/check-cv-pages.mjs` runs as npm's `prebuild`, locally and in the deploy
+  workflow: if `cv.pdf` changed without regenerating the images, or a listed image
+  is missing, the build FAILS. A stale viewer cannot deploy; it can only fail
+  loudly.
+- `scripts/_shot-cv.py` is the verification helper: serves nothing itself; with
+  the built site served locally it screenshots /cv/ at desktop and phone widths
+  (light and dark) for reading the pixels after a CV update.
 
-To change the CV file: upload the new PDF to Google Drive, get its file id, and
-update `CV_SRC` in `components/CvFrame.tsx`. Also replace `public/files/cv.pdf` for
-the self-hosted download.
+To change the CV: replace `public/files/cv.pdf` (the cv repo's
+`check_site_drift.py --stage-pdf` stages it), run
+`python scripts/build-cv-pages.py`, and commit the PDF, the images, and
+`lib/cv-pages.json` together.
 
 ## Theme system
 
@@ -512,8 +503,9 @@ curl -s https://felipemaffonso.com/ | grep -oE 'db16777525f64d0abb899762c3c29b9c
   links, cover). The panel design is locked; only the data changes.
 - Update teaching: edit `app/teaching/page.tsx`.
 - Update contact or social links: edit `app/contact/page.tsx`.
-- Update the CV: replace `public/files/cv.pdf` and update the Drive file id in
-  `components/CvFrame.tsx`.
+- Update the CV: replace `public/files/cv.pdf`, run
+  `python scripts/build-cv-pages.py`, and commit the PDF with the regenerated
+  images and `lib/cv-pages.json` (the prebuild check fails the build otherwise).
 - Update the headshot: replace `public/images/headshot.jpg`.
 
 Verify any change by running `npm run build` (it must pass with no type errors) and,

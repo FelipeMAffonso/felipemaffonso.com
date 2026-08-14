@@ -703,50 +703,32 @@ img.pub-link-icon { stroke: none; }
 }
 .cv-download svg { width: 16px; height: 16px; stroke: var(--coral); }
 
-.cv-embed { width: 100%; margin-bottom: 24px; }
-
-/* Placeholder that reserves the viewer's box in page flow and shows a calm
-   loading shimmer. The real Drive iframe is a single persistent element
-   (components/CvFrame) overlaid on top in document coordinates; this slot keeps
-   the layout identical and the shimmer shows through until the frame paints,
-   which only matters when someone lands on /cv/ cold. */
-.cv-embed-slot {
-  position: relative;
+/* The CV viewer: each published page as a paper sheet. The images are
+   pre-rendered from public/files/cv.pdf (scripts/build-cv-pages.py), so the
+   sheets stay white in both themes - the CV is a white document, and paper
+   reads as paper. Width/height attributes on the images reserve the exact
+   aspect, so lazy pages never shift the layout. */
+.cv-pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.cv-page {
   width: 100%;
-  height: 800px;
+  max-width: 880px;
+  margin: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
-  background: var(--surface);
+  background: #ffffff;
+  box-shadow: var(--shadow-panel);
   overflow: hidden;
 }
-.cv-embed-slot::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(100deg, transparent 30%, var(--hover-wash) 50%, transparent 70%);
-  background-size: 220% 100%;
-  animation: cvShimmer 1.6s var(--ease-out-quint) infinite;
-}
-@keyframes cvShimmer {
-  from { background-position: 160% 0; }
-  to { background-position: -60% 0; }
-}
-/* reduced motion: keep the shimmer, drift it at half speed (never frozen) */
-@media (prefers-reduced-motion: reduce) {
-  .cv-embed-slot::after { animation-duration: 3.2s; }
-}
-
-/* The single persistent CV viewer. Positioned in DOCUMENT coordinates
-   (absolute, not fixed) so native scrolling keeps it glued with no jitter.
-   Parked far offscreen with real dimensions while warming, then moved exactly
-   over .cv-embed-slot on /cv/. Never remounted, so it never reloads. */
-.cv-frame-iframe {
-  width: 100%;
-  height: 100%;
+.cv-page img {
   display: block;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  background: transparent;
+  width: 100%;
+  height: auto;
 }
 
 /* ============================================================
@@ -1207,7 +1189,7 @@ img.pub-link-icon { stroke: none; }
   .pub-chevron { right: 6px; }
 
   .contact-grid { grid-template-columns: 1fr; gap: 32px; }
-  .cv-embed-slot { height: 520px; }
+  .cv-pages { gap: 12px; }
   .footer-line { padding: 32px 24px 24px; }
 
   .pub-poster .pixel-poster { max-width: 280px; }

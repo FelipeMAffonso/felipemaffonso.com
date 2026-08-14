@@ -5,7 +5,6 @@ import "@fontsource/alfa-slab-one"; // the poster-title slab serif, self-hosted
 import "./globals.css";
 import { Providers } from "@/components/Providers";
 import { Nav } from "@/components/Nav";
-import { CvFrame } from "@/components/CvFrame";
 import { FooterLine } from "@/components/FooterLine";
 
 const SITE_DESCRIPTION =
@@ -34,11 +33,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning>
       <body>
-        {/* The CV is always fetched up front so opening or downloading it is
-            instant: the self-hosted PDF is prefetched and the Drive viewer
-            origin is preconnected on every page. */}
+        {/* The CV download is prefetched on every page so it opens instantly.
+            The /cv/ viewer itself is static images and needs no warming. */}
         <link rel="prefetch" href="/files/cv.pdf" />
-        <link rel="preconnect" href="https://drive.google.com" />
 
         {/* analytics: rendered into the static HTML */}
         <script dangerouslySetInnerHTML={{ __html: CLARITY_SCRIPT }} />
@@ -49,8 +46,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <footer className="footer-line">
             <FooterLine />
           </footer>
-          {/* The single persistent CV viewer, warmed on every page. */}
-          <CvFrame />
         </Providers>
 
         {/* Cloudflare Web Analytics — preserved exactly */}
