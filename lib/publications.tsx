@@ -97,7 +97,7 @@ export const journals: Pub[] = [
     id: "point-vs-range",
     citation: (
       <>
-        Shiri, Amin, <strong>Felipe M. Affonso</strong>, and Keith Wilcox (conditionally accepted), &quot;When Consumers Prefer Point Versus Range Estimates of Product Performance,&quot; <em>Journal of Marketing Research</em>.
+        Shiri, Amin, <strong>Felipe M. Affonso</strong>, and Keith Wilcox (forthcoming), &quot;When Consumers Prefer Point Versus Range Estimates of Product Performance,&quot; <em>Journal of Marketing Research</em>.
       </>
     ),
     cover: { src: "/images/covers/point-vs-range.png", alt: "Journal of Marketing Research", w: 1040, h: 1331 },
@@ -111,7 +111,7 @@ export const journals: Pub[] = [
     id: "precise-predictions",
     citation: (
       <>
-        Rude, Eitan D., Amin Shiri, <strong>Felipe M. Affonso</strong>, Hal E. Hershfield, and Craig R. Fox (conditionally accepted), &quot;Credibility of More vs. Less Precise Predictions Depends on the Perceived Nature of Uncertainty,&quot; <em>Journal of Experimental Psychology: General</em>.
+        Rude, Eitan D., Amin Shiri, <strong>Felipe M. Affonso</strong>, Hal E. Hershfield, and Craig R. Fox (forthcoming), &quot;Credibility of More vs. Less Precise Predictions Depends on the Perceived Nature of Uncertainty,&quot; <em>Journal of Experimental Psychology: General</em>.
       </>
     ),
     cover: { src: "/images/covers/precise-predictions.gif", alt: "Journal of Experimental Psychology: General", w: 150, h: 200 },
