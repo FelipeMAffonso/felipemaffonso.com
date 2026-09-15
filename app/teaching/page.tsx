@@ -25,7 +25,7 @@ export default function TeachingPage() {
 
         <section className="section enter" style={d(1)}>
           <h2 className="section-title">Teaching Awards</h2>
-          <ul className="course-list award-list">
+          <ul className="course-list">
             <li>Innovation in Pedagogy and High-Impact Practices Teaching Award, Oklahoma State University, 2026</li>
             <li>Engagement with Practice and Social Impact Teaching Award, Oklahoma State University, 2025</li>
           </ul>
