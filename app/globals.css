@@ -658,6 +658,11 @@ img.pub-link-icon { stroke: none; }
   opacity: 0.55;
   border-radius: 50%;
 }
+/* Teaching Awards: same coral bullets as the course lists, weighted like the school names */
+.award-list li {
+  font-weight: 500;
+  color: var(--text);
+}
 
 .student-quotes {
   display: flex;
