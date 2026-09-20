@@ -468,6 +468,14 @@ npm run build && git add -A && git commit -m "Add paper-slug .md" && git push
 | `cognitive-traps.md` | Affonso (2026) JCR | 2,014 |
 | `simple-eco-friendly.md` | Ryu et al. (2025) JA | 1,012 |
 | `behavioral-governance.md` | Affonso (2025) RP | 1,093 |
+| `point-vs-range.md` | Shiri, Affonso, Wilcox (2026, forthcoming) JMR | 1,310 |
+
+Figure convention since point-vs-range (2026-09-20): every figure or stimulus image becomes
+`**Alt text:** <one line>`, then `[<long description>]`, then a `*Note: ...*` naming the source
+(figure source file such as TeX/R, or the image itself). Values in the descriptions come from the
+figure source files when they exist. The build and the refusing verifier for that paper live in
+research-point-vs-range-jmr `R3 Files/PRODUCTION Sep 2026/machine-readable/` and are the template
+for the next paper.
 
 ## Analytics (installed 2026-04-20)
 
