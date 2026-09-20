@@ -23,6 +23,8 @@ const collectionLd = {
         name: "When Consumers Prefer Point Versus Range Estimates of Product Performance",
         author: ["Amin Shiri", "Felipe M. Affonso", "Keith Wilcox"],
         isPartOf: { "@type": "Periodical", name: "Journal of Marketing Research" },
+        sameAs: "https://doi.org/10.1177/00222437261490921",
+        encoding: { "@type": "MediaObject", contentUrl: "/files/papers/point-vs-range.md", encodingFormat: "text/markdown" },
       },
       {
         "@type": "ScholarlyArticle",
