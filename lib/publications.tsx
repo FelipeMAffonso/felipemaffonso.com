@@ -102,6 +102,7 @@ export const journals: Pub[] = [
     ),
     links: [
       { kind: "journal", href: "https://doi.org/10.1177/00222437261490921", label: "Journal website", desc: "Full text" },
+      { kind: "ssrn", href: "https://papers.ssrn.com/abstract=7495739", label: "SSRN", desc: "Preprint with PDF download" },
       { kind: "download", href: "/files/papers/point-vs-range.md", label: "Machine-readable", desc: "Markdown (.md)", download: true },
     ],
     cover: { src: "/images/covers/point-vs-range.png", alt: "Journal of Marketing Research", w: 1040, h: 1331 },
