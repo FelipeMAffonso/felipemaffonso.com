@@ -7,7 +7,7 @@ import type { CSSProperties, ReactNode } from "react";
    this is a LOCKED design; this file is only the data.
    ============================================================ */
 
-export type LinkKind = "journal" | "download" | "osf" | "github" | "arxiv" | "psyarxiv" | "ssrn";
+export type LinkKind = "journal" | "download" | "osf" | "researchbox" | "github" | "arxiv" | "psyarxiv" | "ssrn";
 
 export type PubLink = {
   kind: LinkKind;
@@ -116,9 +116,17 @@ export const journals: Pub[] = [
     id: "precise-predictions",
     citation: (
       <>
-        Rude, Eitan D., Amin Shiri, <strong>Felipe M. Affonso</strong>, Hal E. Hershfield, and Craig R. Fox (forthcoming), &quot;Credibility of More vs. Less Precise Predictions Depends on the Perceived Nature of Uncertainty,&quot; <em>Journal of Experimental Psychology: General</em>.
+        Rude, Eitan D., Amin Shiri, <strong>Felipe M. Affonso</strong>, Hal E. Hershfield, and Craig R. Fox (forthcoming), &quot;When Are Less Precise Predictions More Credible?&quot; <em>Journal of Experimental Psychology: General</em>.
       </>
     ),
+    /* Title as accepted (APA acceptance letter and the authors' accepted manuscript, 2026-10-12). The DOI is
+       registered but may not resolve until the article is published; Felipe asked for it anyway. */
+    links: [
+      { kind: "journal", href: "https://doi.org/10.1037/xge0002029", label: "Journal website", desc: "Full text" },
+      { kind: "psyarxiv", href: "https://osf.io/preprints/psyarxiv/f4yzx_v2", label: "PsyArXiv", desc: "Preprint with PDF download" },
+      { kind: "download", href: "/files/papers/precise-predictions.md", label: "Machine-readable", desc: "Markdown (.md)", download: true },
+      { kind: "researchbox", href: "https://researchbox.org/3688", label: "Data and code", desc: "researchbox.org/3688" },
+    ],
     cover: { src: "/images/covers/precise-predictions.gif", alt: "Journal of Experimental Psychology: General", w: 150, h: 200 },
     abstract: (
       <>
@@ -297,6 +305,43 @@ export const journals: Pub[] = [
     abstract: (
       <>
         <strong>Abstract:</strong> According to existing research, ad persuasiveness decreases as advertising skepticism (i.e., the tendency to disbelieve advertising claims) increases. What remains unclear, however, is whether or not this effect extends to brand extension appeals. We suggest that the effect may vary according to brand extension similarity. Three studies test this assertion while providing process evidence and boundary conditions for the proposed effect. According to the findings, consumers automatically transfer associations from parent brands to highly similar extensions or automatically block these associations in the case of highly dissimilar extensions—reducing the impact of advertising skepticism on ad persuasiveness. At moderate levels, however, extension similarity is less predictive of the transfer process, increasing the negative effect of advertising skepticism on persuasion. Consistent with this account, the results identify brand transfer (i.e., the ability of the parent brand to make the extension) as the underlying mechanism explaining the advertising skepticism effect for moderately similar brand extension appeals. Furthermore, the results show how marketers can reduce these effects, and increase extension success, by emphasizing extension attributes that are shared with the parent brand. Collectively, these results provide a unique theoretical view, improving our understanding of advertising skepticism and the drivers of brand extension success.
+      </>
+    ),
+  },
+];
+
+/* Books: none yet. The Books section and its filter button appear only when
+   this list has an entry (Felipe 2026-10-12: Journal Publications, Preprints,
+   Books, Book Chapters, in that order). */
+export const books: Pub[] = [];
+
+/* Invited book chapters. Citations verbatim from the cv repo
+   (data/07_other_publications.yaml); abstracts as Felipe supplied them
+   2026-10-12. No links until the publisher pages exist. */
+export const chapters: Pub[] = [
+  {
+    id: "complexity-visual-design",
+    citation: (
+      <>
+        Ryu, Soo Yon, <strong>Felipe M. Affonso</strong>, and Aner Sela (forthcoming, 2027), &quot;Complexity in Visual Design: Psychological Mechanisms and Practical Implications,&quot; in: <em>Advertising Theory</em>, 3rd edition, eds. Shelly Rodgers and Esther Thorson (New York and London: Routledge, Taylor &amp; Francis Group).
+      </>
+    ),
+    abstract: (
+      <>
+        <strong>Abstract:</strong> Complexity is a central dimension of any visual design. A burgeoning stream of research has examined the diverse ways in which visual complexity in advertising, logo, and packaging design influences consumers’ perceptions, attitudes, and decisions. This chapter organizes the literature around two dominant explanations for how visual complexity shapes consumer responses: a processing fluency account and a symbolic inference account. We then propose a goal-contingent framework that integrates these perspectives, arguing that consumer goals determine whether visual complexity signals positive attributes (e.g., efficacy, richness) or negative ones (e.g., wastefulness, artificiality). The framework reconciles contradictory findings and generates implications for advertising strategy, brand positioning, and future research on visual design.
+      </>
+    ),
+  },
+  {
+    id: "ai-assisted-shopping",
+    citation: (
+      <>
+        <strong>Affonso, Felipe M.</strong> (forthcoming, 2027), &quot;AI-Assisted Shopping: On the Preferences of Consumers and Machines,&quot; in: <em>Consumer Psychology and AI</em>, 1st edition, ed. Martin Reimann (New Jersey: Wiley).
+      </>
+    ),
+    abstract: (
+      <>
+        <strong>Abstract:</strong> Artificial intelligence is increasingly mediating consumer shopping experiences, yet research has largely examined either the consumer side (trust, adoption, algorithm aversion) or the machine side (biases, misalignment) in isolation. This chapter bridges both perspectives, reviewing how consumers form preferences when assisted by AI and how large language models exhibit systematic &quot;preferences&quot; of their own that steer shopping outcomes. By examining the intersection of consumer and machine preferences, the chapter offers an integrated framework with implications for researchers, managers, and policymakers navigating AI-assisted commerce.
       </>
     ),
   },

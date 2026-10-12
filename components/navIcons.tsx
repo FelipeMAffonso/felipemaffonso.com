@@ -29,13 +29,12 @@ export function HomeIcon() {
     </Ln>
   );
 }
-export function ResearchIcon() {
-  // flask
+export function PublicationsIcon() {
+  // open book (replaced the Research flask when the page became Publications, 2026-10-12)
   return (
     <Ln>
-      <path d="M10 2v6L4.5 18a2 2 0 0 0 1.8 3h11.4a2 2 0 0 0 1.8-3L14 8V2" />
-      <line x1="8.5" y1="2" x2="15.5" y2="2" />
-      <line x1="7" y1="14" x2="17" y2="14" />
+      <path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z" />
+      <path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z" />
     </Ln>
   );
 }
@@ -71,7 +70,7 @@ export function ContactIcon() {
 
 export const NAV_ICONS = {
   "/": HomeIcon,
-  "/research/": ResearchIcon,
+  "/publications/": PublicationsIcon,
   "/teaching/": TeachingIcon,
   "/cv/": CvIcon,
   "/contact/": ContactIcon,

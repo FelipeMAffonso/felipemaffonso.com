@@ -14,3 +14,6 @@ Screenshot*
 scripts/_*
 
 public/pdfjs/
+
+# Python bytecode from the docs/ build scripts
+__pycache__/

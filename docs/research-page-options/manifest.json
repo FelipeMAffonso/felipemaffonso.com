@@ -1,0 +1,373 @@
+{
+ "source": "lib/publications.tsx + cv data/07_other_publications.yaml",
+ "pubs": [
+  {
+   "id": "strategic-personalities",
+   "section": "preprint",
+   "citation": "<b>Felipe M. Affonso</b>, \"Large language models converge on competitive rationality but diverge on cooperation across providers and generations,\" <i>arXiv</i>.",
+   "year": null,
+   "forthcoming": false,
+   "venue": "arXiv",
+   "links": [
+    {
+     "kind": "arxiv",
+     "label": "arXiv",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "github",
+     "label": "Interactive explorer",
+     "desc": "Full dataset and dashboard"
+    }
+   ],
+   "abstract": "As language models are deployed as autonomous agents that negotiate, cooperate, and compete on behalf of human principals, their strategic dispositions acquire direct economic consequences. Here we show, across 51,906 game-theoretic trials generating 826,990 strategic decisions from 25 large language models spanning seven developers and 38 canonical games, that models converge on competitive and coordination behaviour (coefficient of variation 0.06 for coordination, 0.11 for strategic depth) while diverging 48-fold on cooperation, from 1.5 per cent (GPT-5 Nano) to 71.5 per cent (Claude Opus 4.6). Provider identity is the dominant predictor of cooperative disposition, and this divergence is generationally unstable: OpenAI cooperation fell from 50.3 to 1.5 per cent across four model generations while Google cooperation rose from 8.3 to 56.8 per cent. Endgame analysis reveals that Anthropic frontier models sustain 57 per cent cooperation in the final round of finitely repeated games, where backward induction predicts zero, while the newest Google models cooperate throughout but universally defect when punishment becomes impossible. These strategic personalities are shaped by training pipelines, shift unpredictably across model versions, and cannot be inferred from capability benchmarks, yet they determine the cooperative outcomes of every economic interaction these models mediate. The complete dataset and an interactive explorer for the data are publicly available at felipemaffonso.github.io/strategic-personalities/."
+  },
+  {
+   "id": "data-quality",
+   "section": "preprint",
+   "citation": "Andrew Gordon, David Rothschild, <b>Felipe M. Affonso</b>, Justin Sulik, David J. Hauser, Karine Pepin, and Simon Jones, \"AI Agent Prevalence and Data Quality Across Multiple Online Sample Providers,\" <i>PsyArXiv</i>.",
+   "year": null,
+   "forthcoming": false,
+   "venue": "PsyArXiv",
+   "links": [
+    {
+     "kind": "psyarxiv",
+     "label": "PsyArXiv",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "osf",
+     "label": "Data and code (OSF)",
+     "desc": "osf.io/m2asr"
+    }
+   ],
+   "abstract": "Online recruitment platforms have become the dominant infrastructure for behavioral research, yet data quality concerns have acquired new urgency with the emergence of large language models (LLMs). Recent work showing that LLM-based agents can complete surveys while evading standard quality checks has prompted alarm about synthetic respondents infiltrating samples at scale. However, demonstrating agent capability is not equivalent to demonstrating ecosystem-level deployment, and variation in quality among human respondents across platform types may be a more consequential threat. We address both questions in a single pre-registered study: (1) what is the actual prevalence of AI agents across platforms, and (2) how does human data quality vary across structural market segments? We recruited 5,200 respondents across 13 conditions from 10 platforms spanning direct first-party panels, hybrid networks, and marketplace aggregators. Agent detection employed an automated environment check achieving perfect discrimination in pilot testing, plus a secondary battery of six behavioral indicators. Human quality was assessed across seven behavioral dimensions alongside metadata including device type, ecosystem activity, and cost efficiency. Agent detections were concentrated almost exclusively on Amazon MTurk (11–16%), with all other platforms at or below 1%; detected responses showed profiles more consistent with traditional bots than LLM-based agents. Evidence of humans using LLMs to augment answers, particularly on open-ended or difficult items, was consistent with recent work assuming no deployed mitigation. Human data quality varied substantially by platform type, with direct panels outperforming hybrid platforms, which outperformed marketplace platforms, across nearly all measures, an effect several times larger than that of agents or LLM-augmentation. Cost-efficiency analyses revealed direct panels, despite higher nominal costs, were most economical once quality thresholds were applied. The field's most pressing data quality challenge remains systematic variation in human respondent quality by platform type, not AI agent infiltration."
+  },
+  {
+   "id": "vertical-tacit-collusion",
+   "section": "preprint",
+   "citation": "<b>Felipe M. Affonso</b>, \"Vertical Tacit Collusion in AI-Mediated Markets,\" <i>arXiv</i>.",
+   "year": null,
+   "forthcoming": false,
+   "venue": "arXiv",
+   "links": [
+    {
+     "kind": "arxiv",
+     "label": "arXiv",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "osf",
+     "label": "Data and code (OSF)",
+     "desc": "osf.io/dfgvn"
+    }
+   ],
+   "abstract": "AI shopping agents are being deployed to hundreds of millions of consumers, creating a new intermediary between platforms, sellers, and buyers. We identify a novel market failure: vertical tacit collusion, where platforms controlling rankings and sellers controlling product descriptions independently learn to exploit documented AI cognitive biases. Using multi-agent simulation calibrated to empirical measurements of large language model biases, we show that joint exploitation produces consumer harm more than double what would occur if strategies were independent. This super-additive harm arises because platform ranking determines which products occupy bias-triggering positions while seller manipulation determines conversion rates. Unlike horizontal algorithmic collusion, vertical tacit collusion requires no coordination and evades antitrust detection because harm emerges from aligned incentives rather than agreement. Our findings identify an urgent regulatory gap as AI shopping agents reach mainstream adoption."
+  },
+  {
+   "id": "point-vs-range",
+   "section": "journal",
+   "citation": "Shiri, Amin, <b>Felipe M. Affonso</b>, and Keith Wilcox (forthcoming), \"When Consumers Prefer Point Versus Range Estimates of Product Performance,\" <i>Journal of Marketing Research</i>.",
+   "year": null,
+   "forthcoming": true,
+   "venue": "Journal of Marketing Research",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "ssrn",
+     "label": "SSRN",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    }
+   ],
+   "abstract": "Product performance claims play an important role in shaping consumers' purchase decisions. Through six preregistered studies, including one field study, we demonstrate that consumers' preferences for point versus range performance estimates in common comparative purchase settings depend on whether their attention is directed toward the content of the claim or the manner of its presentation. At baseline, consumers focus on what information is communicated and prefer point over range estimates because point estimates convey greater certainty about the expected performance outcome. When consumers' persuasion knowledge is activated, however, they shift attention to how information is communicated. In this mode, the format of the claim, rather than the stated performance figures, becomes informative: range estimates signal brand transparency by acknowledging the natural variability of real-world performance, enhancing perceived trustworthiness and reversing consumer preference. These effects are attenuated when products are evaluated in isolation rather than compared side by side. Collectively, these findings inform both theory and practice by revealing when and why consumers prefer point versus range estimates of product performance."
+  },
+  {
+   "id": "precise-predictions",
+   "section": "journal",
+   "citation": "Rude, Eitan D., Amin Shiri, <b>Felipe M. Affonso</b>, Hal E. Hershfield, and Craig R. Fox (forthcoming), \"Credibility of More vs. Less Precise Predictions Depends on the Perceived Nature of Uncertainty,\" <i>Journal of Experimental Psychology: General</i>.",
+   "year": null,
+   "forthcoming": true,
+   "venue": "Journal of Experimental Psychology: General",
+   "links": [],
+   "abstract": "People expressing uncertain values frequently offer point predictions or intervals of varying widths (e.g., \"I'd say your investment will earn $6,000\" versus \"I'd say your investment will earn $5,000–$7,000\"). Interestingly, prior research has drawn conflicting conclusions concerning the credibility of more versus less precise predictions. We resolve this inconsistency by identifying a key moderator: the perceived nature of uncertainty. Specifically, we find that more precise predictions are more credible under epistemic (\"knowable\") uncertainty because they convey the experts' degree of confidence. Under aleatory (\"random\") uncertainty, however, less precise predictions are more credible — if they are within reasonable bounds — because they convey experts' assessments of outcome variability. These results inform literatures on both the communication of uncertainty and the interpretation of confidence intervals."
+  },
+  {
+   "id": "cognitive-traps",
+   "section": "journal",
+   "citation": "<b>Affonso, Felipe M.</b> (forthcoming), \"Brief Commentary: A Framework for Detecting AI Agents in Online Research,\" <i>Journal of Consumer Research</i>.",
+   "year": null,
+   "forthcoming": true,
+   "venue": "Journal of Consumer Research",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Open access"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    },
+    {
+     "kind": "osf",
+     "label": "Data and code (OSF)",
+     "desc": "osf.io/f2jhx"
+    },
+    {
+     "kind": "github",
+     "label": "Cognitive trap repository",
+     "desc": "Validated traps"
+    }
+   ],
+   "abstract": "Online behavioral research assumes survey responses come from humans, yet vision-enabled AI agents can now autonomously complete surveys by capturing screenshots, processing questions, and submitting responses. Because these agents perceive the same rendered visual content that humans see, traditional detection methods are ineffective. This article introduces the Cognitive Trap Framework: researchers can transform architectural constraints of vision-language models into survey questions where the correct answers are simultaneously difficult for AI agents but easily processed by humans. Six traps derived from computer science benchmarks demonstrate the framework. Against 1,007 human participants (Prolific) and 526 researcher-deployed AI agents (e.g., ChatGPT Agent, Google Project Mariner), cognitive traps detected 97.1% of agents (vs. 2.3% with traditional attention checks), while flagging only 4.1% of humans. Pre-registered replications on Amazon MTurk and CloudResearch Connect demonstrate cross-platform effectiveness, and validation against 34 frontier models spanning two years reveals that model improvement is non-monotonic because each new architecture reconfigures which constraints it resolves and which it introduces. The framework can thus generate new cognitive traps as AI agent models evolve, and a public repository provides researchers with validated traps ready for deployment."
+  },
+  {
+   "id": "concealing-prices",
+   "section": "journal",
+   "citation": "<b>Affonso, Felipe M.</b>*, Amin Shiri*, Diego Aparicio*, Minzhe Xu, Xiang Wang, Chris Janiszewski, and Marco Bertini (forthcoming), \"Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions,\" <i>Journal of Consumer Research</i>.",
+   "year": null,
+   "forthcoming": true,
+   "venue": "Journal of Consumer Research",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "ssrn",
+     "label": "SSRN",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    },
+    {
+     "kind": "osf",
+     "label": "Data and code (OSF)",
+     "desc": "osf.io/xt42w"
+    }
+   ],
+   "abstract": "This article presents the first systematic empirical investigation into a longstanding question in retail: is it better to display prices upfront or reveal them later in the purchase process? Two large-scale field studies demonstrate that delayed price disclosure can either increase or decrease sales. Supporting laboratory studies reveal that one plausible explanation is that a price delay allows price beliefs to shift consumers' internal reference prices upward or downward, creating either positive or negative price expectation disconfirmations when prices are revealed. When consumers anticipate prices should be expensive (e.g., from premium brands or upscale stores), a price delay allows price beliefs to shift price expectations upward, making purchases more likely when prices are revealed. Conversely, when consumers anticipate prices should be inexpensive (e.g., sales events or discount stores), a price delay allows price beliefs to shift price expectations downward, making purchases less likely when prices are revealed. Our findings offer retailers actionable insights on when to reveal prices to customers. In doing so, the authors contribute to the literature on price obfuscation and challenge the conventional wisdom that shopping experiences should always minimize friction."
+  },
+  {
+   "id": "space-commons",
+   "section": "journal",
+   "citation": "<b>Affonso, Felipe M.</b> (2026), \"Behavioral Micro-Foundations for the Space Commons: A Policy Toolkit,\" <i>Research Policy</i>, 55 (6), 105511.",
+   "year": 2026,
+   "forthcoming": false,
+   "venue": "Research Policy",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "ssrn",
+     "label": "SSRN",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    }
+   ],
+   "abstract": "Satellite megaconstellations are transforming the space economy, yet the same commercial expansion that connects remote communities and monitors climate change is contaminating observations from the Hubble Space Telescope, increasing collision risks to irreplaceable scientific assets, and overwhelming governance institutions designed for a handful of state actors. The behavioral forces driving this expansion (status competition, prestige signaling, systematic discounting of long-term costs) are precisely the forces that Cold War-era frameworks fail to address. Because these patterns are predictable, they are also designable. This paper develops the Astro-Economic Behavioral (AEB) Framework, which proposes that the psychological forces producing governance failures can be redirected through choice architecture toward sustainable outcomes without binding enforcement. Three theoretical pillars, Narrative Capital, Conspicuous Exploration, and Behavioral Governance, identify how symbolic value, costly signaling, and decision defaults shape space governance outcomes. These pillars inform four policy instruments that operate through existing international regimes, requiring no new treaty authority: sustainable-practice defaults, a reputational index, loss-framed site designations, and time-bounded safety zones. For each instrument, pre-specified quasi-experimental evaluation designs enable evidence-based iteration. The framework contributes to innovation policy by providing behavioral micro-foundations for governance in emerging sectors where rapid technological change outpaces institutional adaptation."
+  },
+  {
+   "id": "simple-eco-friendly",
+   "section": "journal",
+   "citation": "Ryu, Soo Yon, <b>Felipe M. Affonso</b>, and Aner Sela (2026), \"Simple is Eco-Friendly but Complex is Effective: Inferences from Visual Complexity in Package Design,\" <i>Journal of Advertising</i>, 55 (3), 382–400.",
+   "year": 2026,
+   "forthcoming": false,
+   "venue": "Journal of Advertising",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    },
+    {
+     "kind": "osf",
+     "label": "Data and code (OSF)",
+     "desc": "osf.io/h6mk7"
+    }
+   ],
+   "abstract": "Package design is an important form of point-of-purchase advertising that often conveys information about product characteristics. But can the mere level of its visual complexity produce specific inferences? We suggest that consumers prefer products with visually complex package designs when product efficacy considerations are salient but prefer products with visually simple designs when eco-friendliness considerations are salient. This effect happens because package design complexity connotes the amount of tangible resources used to produce the product, and consumers associate a low (vs. high) amount of tangible resources with eco-friendliness (vs. efficacy). Our findings extend recent research on design perception and have important practical implications for marketers and product designers. Advertising practitioners can benefit from our findings by understanding when minimalism is valuable and when it is not valuable, and how to strategically use different levels of visual complexity to influence consumer perceptions."
+  },
+  {
+   "id": "disease-cues",
+   "section": "journal",
+   "citation": "<b>Affonso, Felipe M.</b> (2025), \"Consumer Responses to Infectious Disease Cues: An Integrative Framework and Research Agenda,\" <i>European Journal of Marketing</i>, 59 (4), 973–98.",
+   "year": 2025,
+   "forthcoming": false,
+   "venue": "European Journal of Marketing",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "ssrn",
+     "label": "SSRN",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    }
+   ],
+   "abstract": "Purpose: This paper aims to develop an integrative framework explaining how infectious disease cues influence consumer behavior by connecting evolutionary psychology and behavioral immune system literature with consumer research; Design/methodology/approach: The paper synthesizes pathogen-avoidance psychology and consumer behavior research to identify three psychological changes (affect, cognition, motivation) influencing consumer responses, developing theoretical propositions across five domains while identifying boundary conditions; Findings: Disease cues trigger changes in affect (disgust, anxiety), cognition (narrowed attention) and motivation (self-protection). These influence consumer responses across self-regulation, social behavior/identity, information processing, evaluation and prosocial/sustainable behaviors. The framework identifies boundary conditions moderating these effects; Research limitations/implications: The framework advances understanding of disease threats' influence on consumer behavior and suggests future research directions, including contextual effects and individual differences; Practical implications: The framework helps marketers predict consumer responses to disease cues, offering insights for marketing strategies during health crises and normal times; Originality/value: To the best of the author's knowledge, this paper provides the first comprehensive framework explaining disease cues' systematic influence on consumer behavior through psychological changes, extending behavioral immune system theory into consumer domains."
+  },
+  {
+   "id": "marketing-by-design",
+   "section": "journal",
+   "citation": "<b>Affonso, Felipe M.</b> and Chris Janiszewski (2023), \"Marketing by Design: The Influence of Perceptual Structure on Brand Performance,\" <i>Journal of Marketing</i>, 87 (5), 736–54.",
+   "year": 2023,
+   "forthcoming": false,
+   "venue": "Journal of Marketing",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "ssrn",
+     "label": "SSRN",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    },
+    {
+     "kind": "osf",
+     "label": "Data and code (OSF)",
+     "desc": "osf.io/f95e4"
+    }
+   ],
+   "abstract": "Visual marketing communications consist of two components: (1) semantic content (e.g., headings, images, copy) that communicates a brand's positioning, benefits, and personality and (2) visual design (e.g., font selection, image size, the organization of the content) that encourages inferences about brand claims. The authors investigate how visual design can be used to encourage inferences that support brand claims and improve brand performance. They find that brands with a utilitarian positioning perform better when the visual design of their marketing communications encourages structured perceptions, whereas brands with a hedonic positioning perform better when the visual design of their marketing communications encourages unstructured perceptions. In both cases, (un)structured perceptions encourage inferences that reinforce brand claims and, consequently, improve brand performance. This research offers actionable insights into how marketing communication specialists can coordinate logo design, product design, package design, visual merchandising, and retail environments to reinforce brand claims."
+  },
+  {
+   "id": "serendipity",
+   "section": "journal",
+   "citation": "Kim, Aekyoung, <b>Felipe M. Affonso</b>, Juliano Laran, and Kristina Durante (2021), \"Serendipity: Chance Encounters in the Marketplace Enhance Consumer Satisfaction,\" <i>Journal of Marketing</i>, 85 (4), 141–57.",
+   "year": 2021,
+   "forthcoming": false,
+   "venue": "Journal of Marketing",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    }
+   ],
+   "abstract": "Despite evidence that consumers appreciate freedom of choice, they also enjoy recommendation systems, subscription services, and marketplace encounters that seemingly occur by chance. This article proposes that enjoyment can, in some contexts, be higher than that in contexts involving choice. This occurs as a result of feelings of serendipity that arise when a marketplace encounter is positive, unexpected, and attributed to some degree of chance. A series of studies shows that feelings of serendipity positively influence an array of consumer outcomes, including satisfaction and enjoyment, perceptions of meaningfulness of an experience, likelihood of recommending a company, and likelihood of purchasing additional products from the company. The findings show that strategies based on serendipity are even more effective when consumers perceive that randomness played a role in how an encounter occurred, and not effective when the encounter is negative, the encounter occurs deterministically (i.e., planned by marketers to target consumers), and consumers perceive that they have enough knowledge to make their own choices. Altogether, this research suggests that marketers can influence customer satisfaction by structuring marketplace encounters to appear more serendipitous, as opposed to expected or entirely chosen by the consumer."
+  },
+  {
+   "id": "constructive-choice",
+   "section": "journal",
+   "citation": "<b>Affonso, Felipe M.</b>, Chris Janiszewski, and James R. Bettman (2021), \"Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals,\" <i>Journal of Consumer Psychology</i>, 31 (2), 217–39.",
+   "year": 2021,
+   "forthcoming": false,
+   "venue": "Journal of Consumer Psychology",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "ssrn",
+     "label": "SSRN",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    },
+    {
+     "kind": "osf",
+     "label": "Data and code (OSF)",
+     "desc": "osf.io/276gs"
+    }
+   ],
+   "abstract": "The impact of decision difficulty on search behavior depends on the relative accessibility of maximize accuracy and minimize effort goals in memory. The default assumption, derived from constructive choice theory, is that maximize accuracy and minimize effort goals are both accessible. Thus, the two goals compete to influence a decision process. When this is the case, an increase in decision difficulty discourages search and the opportunity to make an accurate decision suffers. The alternative assumption, derived from goal systems theory, is that maximize accuracy and minimize effort goals can be differentially accessible. When one of these goals is more accessible, decision difficulty signals poor goal progress and reduces goal pursuit. That is, when a maximize accuracy (minimize effort) goal is more accessible, decision difficulty reduces (increases) search. Six studies show that goal systems theory holds when a maximize accuracy or minimize effort goal is more accessible, that is, is deliberately pursued. The results have implications for how decision difficulty influences information search, satisficing, and choice quality."
+  },
+  {
+   "id": "ad-skepticism",
+   "section": "journal",
+   "citation": "Hernandez, Jose Mauro da Costa, Scott Wright, and <b>Felipe M. Affonso</b> (2019), \"The Importance of Advertising Skepticism for Brand Extension Appeals,\" <i>Psychology &amp; Marketing</i>, 36 (7), 687–99.",
+   "year": 2019,
+   "forthcoming": false,
+   "venue": "Psychology &amp; Marketing",
+   "links": [
+    {
+     "kind": "journal",
+     "label": "Journal website",
+     "desc": "Full text"
+    },
+    {
+     "kind": "ssrn",
+     "label": "SSRN",
+     "desc": "Preprint with PDF download"
+    },
+    {
+     "kind": "download",
+     "label": "Machine-readable",
+     "desc": "Markdown (.md)"
+    }
+   ],
+   "abstract": "According to existing research, ad persuasiveness decreases as advertising skepticism (i.e., the tendency to disbelieve advertising claims) increases. What remains unclear, however, is whether or not this effect extends to brand extension appeals. We suggest that the effect may vary according to brand extension similarity. Three studies test this assertion while providing process evidence and boundary conditions for the proposed effect. According to the findings, consumers automatically transfer associations from parent brands to highly similar extensions or automatically block these associations in the case of highly dissimilar extensions—reducing the impact of advertising skepticism on ad persuasiveness. At moderate levels, however, extension similarity is less predictive of the transfer process, increasing the negative effect of advertising skepticism on persuasion. Consistent with this account, the results identify brand transfer (i.e., the ability of the parent brand to make the extension) as the underlying mechanism explaining the advertising skepticism effect for moderately similar brand extension appeals. Furthermore, the results show how marketers can reduce these effects, and increase extension success, by emphasizing extension attributes that are shared with the parent brand. Collectively, these results provide a unique theoretical view, improving our understanding of advertising skepticism and the drivers of brand extension success."
+  },
+  {
+   "id": "complexity-visual-design",
+   "section": "chapter",
+   "citation": "Ryu, Soo Yon, <b>Felipe M. Affonso</b>, and Aner Sela (forthcoming, 2027), \"Complexity in Visual Design: Psychological Mechanisms and Practical Implications,\" in: <i>Advertising Theory</i>, 3rd edition, eds. Shelly Rodgers and Esther Thorson (New York and London: Routledge, Taylor & Francis Group).",
+   "year": 2027,
+   "forthcoming": true,
+   "venue": "Advertising Theory, 3rd edition",
+   "links": [],
+   "abstract": ""
+  },
+  {
+   "id": "ai-assisted-shopping",
+   "section": "chapter",
+   "citation": "<b>Affonso, Felipe M.</b> (forthcoming, 2027), \"AI-Assisted Shopping: On the Preferences of Consumers and Machines,\" in: <i>Consumer Psychology and AI</i>, 1st edition, ed. Martin Reimann (New Jersey: Wiley).",
+   "year": 2027,
+   "forthcoming": true,
+   "venue": "Consumer Psychology and AI",
+   "links": [],
+   "abstract": ""
+  }
+ ]
+}

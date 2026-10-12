@@ -1,0 +1,91 @@
+{
+ "title": "Research page: where the book chapters go",
+ "kicker": "felipemaffonso.com, the Research page",
+ "thesis": "Sixteen entries still fit on one page, so nothing needs to move to a second page. What needs to change is the order and the signposting: published work first, the chapters in their own section, and a row at the top that says what kinds of work the page holds and how many of each.",
+ "measured": {
+  "date": "2026-10-12",
+  "laptopPx": 1722,
+  "laptopViewport": 902,
+  "phonePx": 2440,
+  "phoneViewport": 844,
+  "how": "the live felipemaffonso.com/research/ with every entry closed, Chrome at 1280 x 902 and at 390 x 844 (an iPhone 14)"
+ },
+ "pick": {
+  "option": "B",
+  "headline": "My pick: option B, and rename the page Publications.",
+  "reasons": [
+   "Sixteen entries are about two screens on a laptop and three on a phone. That is not bloated, and a list of 25 would not be either, because every entry stays one to three lines until someone opens it. A second page would only make visitors click to find out what you have.",
+   "Today a visitor sees three preprints before the first published paper, and on a phone the Journal Publications heading sits at the bottom of the first screen. Published work should come first.",
+   "The row of buttons with counts tells a visitor what is on the page and how much before they scroll, which is the signal you asked about. A search committee member can tap Journal publications and see only those. A Books button appears by itself the day a book is added.",
+   "Call the page Publications (your ruling, 2026-10-12): a book such as a Principles of Marketing textbook is a publication, not research. Preprints sit under Publications in their own labeled section, as on most academic sites. The page moves to felipemaffonso.com/publications/; a small page left at /research/ sends visitors on, so old links keep working, and the page tells Google the new address is the main one.",
+   "You do not need shadcn. The site does not use shadcn components; the button row would be written in the site's own styles (the same coral, borders and type) and would behave like shadcn's toggle group: arrow keys move between buttons and screen readers announce which one is on. No new package."
+  ]
+ },
+ "options": [
+  {
+   "key": "today",
+   "tab": "As it is",
+   "name": "Today, with the chapters added at the bottom",
+   "what": "Only the two chapters are added, as a third section under the journal publications. Nothing else changes.",
+   "good": ["No new design work.", "Visitors who know the page find it unchanged."],
+   "cost": ["Three preprints still come before any published paper.", "The chapters sit at the very bottom, under eleven articles, where few visitors scroll.", "Nothing at the top says the page also has chapters."]
+  },
+  {
+   "key": "A",
+   "tab": "A. Jump line",
+   "name": "Published work first, with a jump line",
+   "what": "Journal publications, then book chapters, then preprints. One line under the title names the three kinds with their counts, and each name jumps to its section.",
+   "good": ["The smallest change after adding the chapters.", "Published work is the first thing anyone sees.", "The counts say what is below."],
+   "cost": ["The line scrolls away with the page.", "There is no way to see only one kind."]
+  },
+  {
+   "key": "B",
+   "tab": "B. Filter row",
+   "name": "Published work first, with a filter row",
+   "what": "A row of buttons under the title: All, Journal publications, Book chapters, Preprints, each with its count. All shows every section in order; a button shows only that kind. The row stays under the menu bar while you scroll.",
+   "good": ["The counts say what is on the page before anyone scrolls.", "One tap narrows the list to what a visitor came for.", "A Books button appears by itself when the first book is added.", "Works the same on a phone, where it is one line tall."],
+   "cost": ["One more element at the top of the page.", "On a phone the row takes one line of the screen while you scroll.", "Once a Books button is added, the row on a phone is slightly wider than the screen and scrolls sideways (try the book preview above)."]
+  },
+  {
+   "key": "C",
+   "tab": "C. By year",
+   "name": "Newest first, grouped by year",
+   "what": "Everything is listed newest first under year headings, with a small tag saying what each entry is. Preprints go last because they have no year. The filter row narrows by kind.",
+   "good": ["Shows a steady record over the years.", "The tags make a chapter easy to tell from an article."],
+   "cost": ["The year headings split the eleven articles into six small groups.", "The Forthcoming group mixes articles and chapters, so the most important work is not grouped by kind."]
+  },
+  {
+   "key": "D",
+   "tab": "D. Side index",
+   "name": "Published work first, with a side index",
+   "what": "On a laptop, a narrow list on the left names each section with its count and highlights the section you are reading. On a phone it becomes a row of buttons at the top.",
+   "good": ["Always visible on a laptop.", "Grows well if the page later adds books, reports or talks."],
+   "cost": ["The most code of the five.", "The page is too short today to need it.", "It changes the page from one column to two on a laptop."]
+  }
+ ],
+ "tradeoffs": {
+  "rows": [
+   ["What a visitor sees first", "3 preprints", "Journal publications", "Journal publications", "Forthcoming work, mixed kinds", "Journal publications"],
+   ["Says what is below, with counts", "No", "Yes, at the top only", "Yes, always in view", "Yes, always in view", "Yes, always in view on a laptop"],
+   ["See only one kind", "No", "No", "Yes", "Yes", "No, it jumps instead"],
+   ["Where a future book goes", "A new section somewhere", "A Books section at the top", "A Books section and button", "In its year, tagged Book", "A Books section and index entry"],
+   ["On a phone", "Same as today", "One extra line at the top", "One line that stays in view", "One line that stays in view", "One line that stays in view"],
+   ["Menu name and address", "Research, /research/", "Publications, /publications/", "Publications, /publications/", "Publications, /publications/", "Publications, /publications/"],
+   ["Work to build", "Data only", "Small", "Medium", "Medium", "Largest"]
+  ]
+ },
+ "decisions": [
+  {"id": "layout", "q": "Which layout?", "options": [["today", "As it is, chapters at the bottom"], ["A", "A. Jump line"], ["B", "B. Filter row (my pick)"], ["C", "C. By year"], ["D", "D. Side index"]]},
+  {"id": "label", "q": "What should the menu call the page?", "options": [["publications", "Publications, at /publications/, with /research/ forwarding (my pick)"], ["research", "Research, at /research/ as today"]]},
+  {"id": "order", "q": "Where do the preprints go?", "options": [["below", "Below the published work (my pick)"], ["above", "Above, as today"]]},
+  {"id": "sticky", "q": "Should the button row stay in view while scrolling?", "options": [["stay", "Stay under the menu bar (my pick)"], ["scroll", "Scroll away with the page"]]}
+ ],
+ "gaps": [
+  ["Abstracts and links for the two chapters", "Not in your CV or on the site yet", "Without them a chapter line cannot open a panel the way a paper does, so the mockups show the chapters without the arrow", "You: the two abstracts, and the publisher pages once they exist"],
+  ["The open panel (buttons, story, abstract)", "Locked by your rule in the site's CLAUDE.md", "Identical in every option; only the list around it changes", "Nothing"],
+  ["The data search engines read", "The page carries a hidden list of its papers for Google", "The two chapters get added there as chapters", "Me, in the same change"],
+  ["Renaming to Publications", "Recommended; you raised it on 2026-10-12", "The menu label, page title and sitemap change in the same edit; a forwarding page at /research/ keeps old links working, and Google shows the new title and address within a few weeks of its next visit", "Me, when you say go"],
+  ["Books", "None yet", "A Books section and button appear only when the first book is added, never an empty heading", "Nothing now"],
+  ["The section names", "The mockups keep today's Preprints and Journal Publications", "Renaming them, for example to Working papers, is a separate choice; I did not change them", "Your decision, if you want one"]
+ ]
+}

@@ -11,7 +11,7 @@ import { NAV_ICONS } from "./navIcons";
 
 const LINKS = [
   { href: "/", label: "Home" },
-  { href: "/research/", label: "Research" },
+  { href: "/publications/", label: "Publications" },
   { href: "/teaching/", label: "Teaching" },
   { href: "/cv/", label: "CV" },
   { href: "/contact/", label: "Contact" },
