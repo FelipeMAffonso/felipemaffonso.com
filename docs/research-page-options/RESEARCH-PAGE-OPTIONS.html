@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research page options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+<style>/* ---------- the board ---------- */
+:root{
+  --bg:#f6f4f1; --panel:#fff; --ink:#1d1b19; --ink2:#46423d; --ink3:#7b756e; --line:#e8e3dc; --line2:#d9d2c8;
+  --coral:#da7756; --coral-ink:#b3572f; --coral-soft:#fbeee8; --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+  --ease:cubic-bezier(.23,1,.32,1);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 "Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;position:relative}
+.wrap{max-width:1440px;margin:0 auto;padding:44px 40px 40px}
+.kicker{font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+h1.ht{font-size:40px;line-height:1.1;font-weight:600;letter-spacing:-.025em;margin:10px 0 14px}
+.thesis{font-size:19px;line-height:1.5;color:var(--ink2);max-width:920px;margin:0}
+.stats{display:flex;gap:14px;margin:26px 0 0;flex-wrap:wrap}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 18px;min-width:190px;flex:1}
+.statn{font-size:28px;font-weight:600;letter-spacing:-.02em}
+.statn small{font-size:15px;color:var(--ink3);font-weight:500}
+.statl{font-size:13px;color:var(--ink3);margin-top:2px}
+.pick{margin:26px 0 0;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--coral);
+  border-radius:14px;padding:20px 24px}
+.pick h2{margin:0 0 10px;font-size:19px;font-weight:600}
+.pick ol{margin:0;padding-left:20px;color:var(--ink2)}
+.pick li{margin:6px 0}
+.measured{font-size:12.5px;color:var(--ink3);margin-top:12px}
+
+.bar{position:sticky;top:0;z-index:50;margin:30px -40px 0;padding:12px 40px;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.seg-b{display:inline-flex;background:#ece7e0;border-radius:999px;padding:3px;gap:2px}
+.seg-b button{font:inherit;font-size:13.5px;border:0;background:transparent;color:var(--ink2);padding:7px 15px;border-radius:999px;cursor:pointer;
+  transition:background .2s var(--ease),color .2s var(--ease)}
+.seg-b button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.ctl{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink3)}
+.bar .spacer{flex:1}
+
+.view{display:none;padding-top:24px}
+.view.on{display:block}
+.otabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.otab{font:inherit;font-size:14px;border:1px solid var(--line2);background:var(--panel);color:var(--ink2);border-radius:999px;
+  padding:8px 16px;cursor:pointer;transition:all .2s var(--ease)}
+.otab:hover{border-color:var(--coral)}
+.otab[aria-selected="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.otab .star{color:var(--coral);margin-left:4px}
+.otab[aria-selected="true"] .star{color:#f2a68b}
+.stagehead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:4px 0 14px}
+.stagehead h2{margin:0;font-size:24px;font-weight:600;letter-spacing:-.015em}
+.btn{font:inherit;font-size:13.5px;border:1px solid var(--line2);background:var(--panel);color:var(--ink);border-radius:999px;
+  padding:7px 15px;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+.btn:hover{border-color:var(--coral)}
+.btn.play{background:var(--coral);border-color:var(--coral);color:#fff}
+.btn.play:hover{background:#c86a4a}
+.btn svg{width:13px;height:13px}
+.stage{display:flex;gap:34px;align-items:flex-start}
+.devwrap{flex:none;position:relative}
+.devlabel{font-size:12px;color:var(--ink3);margin:0 0 7px;letter-spacing:.04em;text-transform:uppercase;font-weight:600}
+.odesc{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:18px;margin-top:22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+.card h3{margin:0 0 8px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+.card ul{margin:0;padding-left:18px;color:var(--ink2)}
+.card li{margin:4px 0}
+.card p{margin:0;color:var(--ink2)}
+.phones{display:flex;gap:22px;flex-wrap:wrap}
+.phones .pcell{display:flex;flex-direction:column;gap:8px}
+.phones .pcell .ph-h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.phones .pcell b{font-size:14px}
+
+table.tt{width:100%;border-collapse:separate;border-spacing:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tt th,.tt td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top}
+.tt thead th{font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3);background:#faf8f5}
+.tt tr:last-child td{border-bottom:0}
+.tt td:first-child{color:var(--ink3);width:200px}
+.tt .hl{background:var(--coral-soft)}
+.sec-h{font-size:22px;font-weight:600;letter-spacing:-.01em;margin:44px 0 12px}
+
+.dgridb{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.dcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.dcard h3{margin:0 0 12px;font-size:16px}
+.dopt{display:flex;width:100%;text-align:left;font:inherit;font-size:14px;gap:10px;align-items:center;border:1px solid var(--line2);
+  background:var(--panel);border-radius:10px;padding:10px 12px;margin:7px 0;cursor:pointer;color:var(--ink2);transition:all .18s var(--ease)}
+.dopt:hover{border-color:var(--coral)}
+.dopt .dot{width:14px;height:14px;border-radius:50%;border:2px solid var(--line2);flex:none}
+.dopt[aria-pressed="true"]{border-color:var(--coral);background:var(--coral-soft);color:var(--ink)}
+.dopt[aria-pressed="true"] .dot{border-color:var(--coral);background:var(--coral)}
+.dpicked{margin-top:8px;font-size:13px;color:var(--coral-ink);font-family:var(--mono)}
+.decide-foot{margin-top:16px;display:flex;gap:10px;align-items:center}
+footer.ft{border-top:1px solid var(--line);margin-top:56px;padding:22px 0 8px;color:var(--ink3);font-size:12.5px}
+code{font-family:var(--mono);font-size:.92em}
+
+/* full screen */
+#fs{position:fixed;inset:0;z-index:7000;background:rgba(20,18,16,.72);display:none;align-items:flex-start;justify-content:center;padding:28px}
+#fs.on{display:flex}
+#fs .fsbar{position:absolute;top:14px;right:18px;display:flex;gap:8px}
+
+/* ---------- device frames ---------- */
+.dev{position:relative;transform-origin:0 0}
+.dev.desktop{width:1000px;border-radius:12px;overflow:hidden;border:1px solid #d6d0c7;background:#fff;
+  box-shadow:0 1px 2px rgba(0,0,0,.05),0 18px 50px -18px rgba(40,30,20,.35)}
+.chrome{height:36px;background:#efebe5;display:flex;align-items:center;gap:7px;padding:0 12px;border-bottom:1px solid #ddd6cc}
+.chrome i{width:11px;height:11px;border-radius:50%;background:#d9d2c8;display:block}
+.chrome .url{margin-left:14px;flex:1;max-width:420px;height:22px;border-radius:7px;background:#fff;font-size:12px;color:#7b756e;
+  display:flex;align-items:center;padding:0 10px;font-family:var(--mono)}
+.dev.desktop .screen{height:620px}
+.dev.phone{width:410px;border-radius:52px;background:#1b1a19;padding:10px;box-shadow:0 22px 50px -20px rgba(40,30,20,.5)}
+.dev.phone .screen{height:780px;border-radius:42px}
+.dev.phone .notch{position:absolute;top:20px;left:50%;transform:translateX(-50%);width:110px;height:30px;border-radius:20px;background:#1b1a19;z-index:30}
+.cursor{position:absolute;z-index:40;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;border:2.5px solid var(--coral);
+  background:rgba(218,119,86,.18);pointer-events:none;opacity:0;left:50%;top:50%;
+  transition:left .55s var(--ease),top .55s var(--ease),opacity .25s,transform .15s}
+.cursor.on{opacity:1}
+.cursor.press{transform:scale(.72);background:rgba(218,119,86,.45)}
+
+/* ---------- the site, copied from app/globals.css tokens ---------- */
+.site{--s-bg:#f8f9fa;--s-surface:#fff;--s-surface2:#f1f2f4;--s-text:#1a1a1a;--s-text2:#3a3f45;--s-dim:#6b7078;--s-coral:#DA7756;
+  --s-coral-text:#b3572f;--s-border:#e5e7ea;--s-border-strong:#d7dade;--s-wash:rgba(17,24,39,.028);
+  --s-shadow:0 1px 2px rgba(17,24,39,.03),0 6px 16px -6px rgba(17,24,39,.07);
+  font-family:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--s-text);height:100%}
+.site.dark{--s-bg:#16171b;--s-surface:#1e2025;--s-surface2:#262930;--s-text:#e8e8ea;--s-text2:#c3c7cd;--s-dim:#8b9099;
+  --s-coral:#e08866;--s-coral-text:#e08866;--s-border:#2b2e35;--s-border-strong:#3a3e47;--s-wash:rgba(255,255,255,.045);
+  --s-shadow:0 1px 2px rgba(0,0,0,.28),0 8px 20px -8px rgba(0,0,0,.5)}
+.screen{overflow-y:auto;overflow-x:hidden;background:var(--s-bg);position:relative;scrollbar-width:thin;overscroll-behavior:contain}
+.site .snav{position:sticky;top:0;z-index:20;height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 34px;
+  background:color-mix(in srgb,var(--s-bg) 84%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+.site .snav.scrolled{border-bottom-color:var(--s-border)}
+.site .sname{font-size:14.5px;font-weight:600}
+.site .slinks{display:flex;gap:26px;font-size:14.5px;color:var(--s-text2)}
+.site .slinks span{position:relative;padding:4px 0}
+.site .slinks span.on{color:var(--s-text)}
+.site .slinks span.on::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;border-radius:2px;background:var(--s-coral)}
+.site .stogs{display:flex;gap:8px}
+.site .stogs i{width:30px;height:30px;border-radius:50%;border:1px solid var(--s-border);display:block}
+.site .menu{width:22px;height:14px;border-top:2px solid var(--s-text);border-bottom:2px solid var(--s-text);position:relative}
+.site .menu::after{content:"";position:absolute;left:0;right:0;top:4px;border-top:2px solid var(--s-text)}
+.site .sbanner{max-width:868px;margin:0 auto;padding:20px 48px 8px}
+.site .sbanner h1{font-size:29px;font-weight:500;letter-spacing:-.02em;margin:0}
+.site .strip{max-width:820px;margin:0 auto;padding:18px 48px 4px}
+.site .strip svg{width:100%;height:auto;display:block}
+.site .spage{max-width:820px;margin:0 auto;padding:22px 48px 70px}
+.site .psec{margin-bottom:44px;scroll-margin-top:70px}
+.site .ptitle{font-size:12px;font-weight:600;color:var(--s-dim);text-transform:uppercase;letter-spacing:.09em;margin:0 0 18px;
+  padding-bottom:12px;border-bottom:1px solid var(--s-border)}
+.site .pnote{font-size:13.5px;color:var(--s-dim);margin:-6px 0 16px;font-style:italic}
+.site ol.plist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px}
+.site .pentry{font-size:15px;line-height:1.68;color:var(--s-text)}
+.site .pcit{position:relative;padding:7px 30px 7px 10px;margin:-7px -10px;border-radius:8px;transition:background-color .15s var(--ease)}
+.site .pcit[role=button]{cursor:pointer}
+.site .pcit[role=button]:hover{background:var(--s-wash)}
+.site .pcit .num{color:var(--s-dim)}
+.site .pcit b{font-weight:600}
+.site .pcit i{color:var(--s-coral-text)}
+.site .chev{position:absolute;right:8px;top:12px;width:13px;height:13px;fill:none;stroke:var(--s-border-strong);stroke-width:2.2;
+  transition:transform .24s var(--ease),stroke .15s}
+.site .pcit:hover .chev{stroke:var(--s-coral)}
+.site .pentry.open .chev{transform:rotate(90deg);stroke:var(--s-coral)}
+.site .pdet{display:grid;grid-template-rows:0fr;transition:grid-template-rows .24s var(--ease)}
+.site .pentry.open .pdet{grid-template-rows:1fr}
+.site .pdin{overflow:hidden;min-height:0}
+.site .ppad{margin-top:10px;padding:14px 14px 16px;background:var(--s-surface);border:1px solid var(--s-border);border-radius:12px;box-shadow:var(--s-shadow);
+  opacity:0;transform:translateY(-4px);transition:opacity .2s,transform .24s var(--ease)}
+.site .pentry.open .ppad{opacity:1;transform:none;transition-delay:.06s}
+.site .plinks{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.site .plink{display:flex;align-items:center;gap:8px;padding:7px 9px;border:1px solid var(--s-border);border-radius:8px;font-size:13px;line-height:1.3}
+.site .plink svg{width:15px;height:15px;stroke:var(--s-dim);fill:none;stroke-width:2;flex:none}
+.site .plink div div{font-size:11.5px;color:var(--s-dim)}
+.site .pabs{font-size:14px;line-height:1.65;color:var(--s-text2);overflow:hidden}
+.site .pabs p{margin:0}
+.site .pcover{float:left;width:116px;height:150px;margin:2px 16px 6px 0;border:1px solid var(--s-border);border-radius:6px;background:var(--s-surface2);
+  display:grid;grid-template-columns:repeat(9,1fr);gap:2px;padding:7px}
+.site .pcover span{border-radius:1.5px;background:var(--s-border)}
+.site .pcover span.c{background:var(--s-coral)}
+.site .pcover span.d{background:var(--s-dim)}
+.site .pentry.ph .pcit{border:1.5px dashed var(--s-border-strong);color:var(--s-dim);margin:0;padding:12px 14px;font-style:italic}
+.site .sfoot{max-width:820px;margin:0 auto;padding:0 48px 40px;color:var(--s-dim);font-size:12.5px}
+
+/* A: the jump line */
+.site .jump{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:14px;color:var(--s-dim);margin:0 0 30px}
+.site .jump a{color:var(--s-coral-text);cursor:pointer;text-decoration:none;border-bottom:1px solid transparent}
+.site .jump a:hover{border-bottom-color:currentColor}
+.site .jump a span{color:var(--s-dim)}
+
+/* B and C: the filter row (shadcn toggle-group behavior, site styles) */
+.site .fbar{position:sticky;top:58px;z-index:10;margin:0 -48px 24px;padding:10px 48px;background:color-mix(in srgb,var(--s-bg) 90%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+.site .fbar.stuck{border-bottom-color:var(--s-border)}
+.site .segs{position:relative;display:inline-flex;gap:2px;padding:3px;border:1px solid var(--s-border);border-radius:11px;background:var(--s-surface);
+  max-width:100%;overflow-x:auto;scrollbar-width:none}
+.site .segs::-webkit-scrollbar{display:none}
+.site .thumb{position:absolute;top:3px;bottom:3px;left:3px;border-radius:8px;background:var(--s-surface2);box-shadow:inset 0 0 0 1px var(--s-border);
+  transition:left .3s var(--ease),width .3s var(--ease)}
+.site .chip{position:relative;z-index:1;font:inherit;font-size:13.5px;white-space:nowrap;border:0;background:transparent;color:var(--s-text2);
+  padding:6px 12px;border-radius:8px;cursor:pointer;transition:color .2s}
+.site .chip b{font-weight:500;color:var(--s-dim);margin-left:5px;font-size:12.5px}
+.site .chip[aria-pressed="true"]{color:var(--s-text)}
+.site .chip[aria-pressed="true"] b{color:var(--s-coral-text)}
+.site .flist{transition:opacity .16s,transform .24s var(--ease)}
+.site .flist.out{opacity:0;transform:translateY(6px)}
+.site .psec[hidden],.site .pentry[hidden],.site .ygroup[hidden]{display:none}
+.site .showing{font-size:12.5px;color:var(--s-dim);margin:10px 0 0 4px}
+
+/* C: by year */
+.site .ygroup{display:grid;grid-template-columns:104px 1fr;gap:8px;margin-bottom:30px}
+.site .ylabel{font-size:13px;font-weight:600;color:var(--s-dim);position:sticky;top:122px;align-self:start;padding-top:8px;letter-spacing:.02em}
+.site .ygroup ol{gap:14px}
+.site .tag{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--s-dim);
+  border:1px solid var(--s-border-strong);border-radius:5px;padding:0 5px;margin-right:7px;line-height:17px;vertical-align:2px;font-style:normal}
+.site .tag.chapter{color:var(--s-coral-text);border-color:color-mix(in srgb,var(--s-coral) 55%,transparent)}
+
+/* D: side index */
+.site .spage.wide{max-width:1000px;padding-left:36px;padding-right:48px}
+.site .dg{display:grid;grid-template-columns:184px 1fr;gap:36px}
+.site .rail{position:sticky;top:84px;align-self:start;font-size:13.5px}
+.site .railh{font-size:11.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--s-dim);margin:2px 0 10px}
+.site .rail a{display:flex;justify-content:space-between;gap:8px;padding:6px 10px;border-left:2px solid var(--s-border);color:var(--s-text2);cursor:pointer;
+  transition:border-color .2s,color .2s,background .2s}
+.site .rail a b{font-weight:500;color:var(--s-dim)}
+.site .rail a.on{border-left-color:var(--s-coral);color:var(--s-text);background:var(--s-wash)}
+.site .rail a.on b{color:var(--s-coral-text)}
+
+/* phone sizing */
+.site.phone .snav{height:96px;padding:42px 20px 0}
+.site.phone .sbanner{padding:14px 20px 4px}
+.site.phone .sbanner h1{font-size:25px}
+.site.phone .strip{padding:14px 20px 0}
+.site.phone .spage{padding:18px 20px 60px}
+.site.phone .sfoot{padding:0 20px 34px}
+.site.phone .fbar{top:96px;margin:0 -20px 20px;padding:9px 20px}
+.site.phone .pentry{font-size:15px}
+.site.phone .chip{padding:6px 8px;font-size:13px}
+.site.phone .chip b{margin-left:4px;font-size:12px}
+.site.phone .jump{gap:4px 16px}
+.site.phone .jump > span{display:none}
+.site.phone .pcover{display:none}
+.site.phone .ygroup{grid-template-columns:1fr;gap:4px}
+.site.phone .ylabel{position:static;padding:0 0 4px}
+.site.phone .psec{scroll-margin-top:150px}
+
+/* annotation kit (from the cortex board) */
+#kit{position:fixed;right:18px;bottom:18px;z-index:9000;display:flex;gap:7px;background:var(--panel);
+  border:1px solid var(--line2);border-radius:999px;padding:7px;box-shadow:0 6px 26px rgba(0,0,0,.14)}
+#kit button{font:inherit;font-size:12.5px;padding:7px 14px;border-radius:999px;border:1px solid transparent;background:transparent;color:var(--ink2);cursor:pointer}
+#kit button:hover{background:var(--bg);color:var(--ink)}
+#kit button.on{background:var(--coral);color:#fff}
+#ink{position:absolute;left:0;top:0;width:100%;pointer-events:none;z-index:8000}
+body.draw #ink{pointer-events:auto;cursor:crosshair}
+body.pin{cursor:copy}
+.pinmark{position:absolute;z-index:8500;width:25px;height:25px;border-radius:50%;background:var(--coral);color:#fff;font-size:12px;font-weight:700;
+  display:grid;place-items:center;transform:translate(-50%,-50%);cursor:pointer;box-shadow:0 2px 9px rgba(0,0,0,.28)}
+.pinpop{position:absolute;z-index:8600;background:var(--panel);border:1px solid var(--coral);border-radius:11px;padding:11px;width:260px;
+  transform:translate(14px,-50%);box-shadow:0 8px 26px rgba(0,0,0,.18)}
+.pinpop textarea{width:100%;min-height:74px;border:1px solid var(--line2);border-radius:7px;background:var(--bg);color:var(--ink);font:inherit;font-size:13px;padding:8px;resize:vertical}
+.pinpop .prow{display:flex;gap:7px;margin-top:7px}
+.pinpop button{flex:1;font:inherit;font-size:12px;padding:6px;border-radius:7px;border:1px solid var(--line2);background:var(--bg);color:var(--ink);cursor:pointer}
+body.copyedit [data-ed]{outline:1px dashed var(--coral);outline-offset:3px;border-radius:3px}
+[data-ed].edited{background:var(--coral-soft)}
+#toast{position:fixed;left:50%;bottom:86px;transform:translateX(-50%) translateY(14px);background:var(--ink);color:var(--bg);padding:11px 20px;
+  border-radius:999px;font-size:13.5px;opacity:0;pointer-events:none;transition:.25s;z-index:9500}
+#toast.on{opacity:1;transform:translateX(-50%)}
+
+@media (max-width:900px){
+  .wrap{padding:28px 18px}
+  .bar{margin:24px -18px 0;padding:10px 18px}
+  .odesc,.dgridb{grid-template-columns:1fr}
+  .stage{flex-direction:column}
+  h1.ht{font-size:30px}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01s!important}}
+</style></head>
+<body>
+<canvas id="ink"></canvas>
+<div class="wrap">
+  <div class="kicker">felipemaffonso.com, the Research page</div>
+  <h1 class="ht" data-ed>Research page: where the book chapters go</h1>
+  <p class="thesis" data-ed>Sixteen entries still fit on one page, so nothing needs to move to a second page. What needs to change is the order and the signposting: published work first, the chapters in their own section, and a row at the top that says what kinds of work the page holds and how many of each.</p>
+  <div class="stats">
+    <div class="stat"><div class="statn">16</div><div class="statl">entries with the chapters: 11 journal publications, 2 book chapters, 3 preprints</div></div>
+    <div class="stat"><div class="statn">1.9 <small>screens</small></div><div class="statl">tall on a laptop today, every entry closed (1,722 px)</div></div>
+    <div class="stat"><div class="statn">2.9 <small>screens</small></div><div class="statl">tall on a phone today (2,440 px)</div></div>
+    <div class="stat"><div class="statn">3</div><div class="statl">preprints a visitor reads past before the first published paper, today</div></div>
+  </div>
+  <div class="pick">
+    <h2 data-ed>My pick: option B, and keep the name Research.</h2>
+    <ol><li data-ed>Sixteen entries are about two screens on a laptop and three on a phone. That is not bloated, and a list of 25 would not be either, because every entry stays one to three lines until someone opens it. A second page would only make visitors click to find out what you have.</li><li data-ed>Today a visitor sees three preprints before the first published paper, and on a phone the Journal Publications heading sits at the bottom of the first screen. Published work should come first.</li><li data-ed>The row of buttons with counts tells a visitor what is on the page and how much before they scroll, which is the signal you asked about. A search committee member can tap Journal publications and see only those. A Books button appears by itself the day a book is added.</li><li data-ed>Keep Research as the menu name. It sits next to Teaching, which also names an activity, and it covers preprints, which are not publications yet. Changing it also changes the page title Google shows, and moving the address would need a forwarding page so old links keep working.</li><li data-ed>You do not need shadcn. The site does not use shadcn components; the button row would be written in the site's own styles (the same coral, borders and type) and would behave like shadcn's toggle group: arrow keys move between buttons and screen readers announce which one is on. No new package.</li></ol>
+    <div class="measured">Heights measured 2026-10-12 on the live felipemaffonso.com/research/ with every entry closed, Chrome at 1280 x 902 and at 390 x 844 (an iPhone 14). The citations in the mockups are the live site's, word for word; the two chapters are from your CV.</div>
+  </div>
+
+  <div class="bar">
+    <div class="seg-b" role="group" aria-label="View">
+      <button data-view="options" aria-pressed="true">The options</button>
+      <button data-view="phones" aria-pressed="false">Phones side by side</button>
+      <button data-view="tradeoffs" aria-pressed="false">Trade-offs</button>
+      <button data-view="decide" aria-pressed="false">Decide</button>
+    </div>
+    <span class="spacer"></span>
+    <span class="ctl">Menu name <span class="seg-b"><button data-g="label" data-v="Research">Research</button><button data-g="label" data-v="Publications">Publications</button></span></span>
+    <span class="ctl">Theme <span class="seg-b"><button data-g="theme" data-v="light">Light</button><button data-g="theme" data-v="dark">Dark</button></span></span>
+    <span class="ctl">A future book <span class="seg-b"><button data-g="book" data-v="false">Hide</button><button data-g="book" data-v="true">Preview</button></span></span>
+  </div>
+
+  <section class="view on" id="v-options">
+    <div class="otabs"><button class="otab" data-opt="today" aria-selected="false">As it is</button><button class="otab" data-opt="A" aria-selected="false">A. Jump line</button><button class="otab" data-opt="B" aria-selected="false">B. Filter row<span class="star">my pick</span></button><button class="otab" data-opt="C" aria-selected="false">C. By year</button><button class="otab" data-opt="D" aria-selected="false">D. Side index</button></div>
+    <div class="stagehead"><h2 id="oname"></h2>
+      <button class="btn play" id="oplay"><svg viewBox="0 0 12 12"><path d="M3 1.5v9l7.5-4.5z" fill="currentColor"/></svg>Play</button>
+      <button class="btn" id="ofs">Full screen</button>
+      <span class="ctl">Every mockup is live: tap an entry, a button, or scroll inside the screen.</span>
+    </div>
+    <div class="stage">
+      <div><p class="devlabel">Laptop</p><div class="devwrap" id="sd"></div></div>
+      <div><p class="devlabel">Phone</p><div class="devwrap" id="sp"></div></div>
+    </div>
+    
+  <div class="odesc" data-opt="today" hidden>
+    <div class="card"><h3>What changes</h3><p data-ed>Only the two chapters are added, as a third section under the journal publications. Nothing else changes.</p></div>
+    <div class="card"><h3>What it does well</h3><ul><li data-ed>No new design work.</li><li data-ed>Visitors who know the page find it unchanged.</li></ul></div>
+    <div class="card"><h3>What it costs</h3><ul><li data-ed>Three preprints still come before any published paper.</li><li data-ed>The chapters sit at the very bottom, under eleven articles, where few visitors scroll.</li><li data-ed>Nothing at the top says the page also has chapters.</li></ul></div>
+  </div>
+  <div class="odesc" data-opt="A" hidden>
+    <div class="card"><h3>What changes</h3><p data-ed>Journal publications, then book chapters, then preprints. One line under the title names the three kinds with their counts, and each name jumps to its section.</p></div>
+    <div class="card"><h3>What it does well</h3><ul><li data-ed>The smallest change after adding the chapters.</li><li data-ed>Published work is the first thing anyone sees.</li><li data-ed>The counts say what is below.</li></ul></div>
+    <div class="card"><h3>What it costs</h3><ul><li data-ed>The line scrolls away with the page.</li><li data-ed>There is no way to see only one kind.</li></ul></div>
+  </div>
+  <div class="odesc" data-opt="B" hidden>
+    <div class="card"><h3>What changes</h3><p data-ed>A row of buttons under the title: All, Journal publications, Book chapters, Preprints, each with its count. All shows every section in order; a button shows only that kind. The row stays under the menu bar while you scroll.</p></div>
+    <div class="card"><h3>What it does well</h3><ul><li data-ed>The counts say what is on the page before anyone scrolls.</li><li data-ed>One tap narrows the list to what a visitor came for.</li><li data-ed>A Books button appears by itself when the first book is added.</li><li data-ed>Works the same on a phone, where it is one line tall.</li></ul></div>
+    <div class="card"><h3>What it costs</h3><ul><li data-ed>One more element at the top of the page.</li><li data-ed>On a phone the row takes one line of the screen while you scroll.</li><li data-ed>Once a Books button is added, the row on a phone is slightly wider than the screen and scrolls sideways (try the book preview above).</li></ul></div>
+  </div>
+  <div class="odesc" data-opt="C" hidden>
+    <div class="card"><h3>What changes</h3><p data-ed>The page is renamed Publications. Everything is listed newest first under year headings, with a small tag saying what each entry is. Preprints go last because they have no year. The filter row narrows by kind.</p></div>
+    <div class="card"><h3>What it does well</h3><ul><li data-ed>Shows a steady record over the years.</li><li data-ed>The tags make a chapter easy to tell from an article.</li></ul></div>
+    <div class="card"><h3>What it costs</h3><ul><li data-ed>Renaming changes the menu, the page title and possibly the address.</li><li data-ed>The year headings split the eleven articles into six small groups.</li><li data-ed>The Forthcoming group mixes articles and chapters, so the most important work is not grouped by kind.</li></ul></div>
+  </div>
+  <div class="odesc" data-opt="D" hidden>
+    <div class="card"><h3>What changes</h3><p data-ed>On a laptop, a narrow list on the left names each section with its count and highlights the section you are reading. On a phone it becomes a row of buttons at the top.</p></div>
+    <div class="card"><h3>What it does well</h3><ul><li data-ed>Always visible on a laptop.</li><li data-ed>Grows well if the page later adds books, reports or talks.</li></ul></div>
+    <div class="card"><h3>What it costs</h3><ul><li data-ed>The most code of the five.</li><li data-ed>The page is too short today to need it.</li><li data-ed>It changes the page from one column to two on a laptop.</li></ul></div>
+  </div>
+  </section>
+
+  <section class="view" id="v-phones">
+    <div class="stagehead"><h2>All five on a phone</h2><button class="btn play" id="playall">Play all</button></div>
+    <div class="phones">
+  <div class="pcell" data-opt="today">
+    <div class="ph-h"><b>As it is</b><button class="btn play" data-pplay>Play</button></div>
+    <div class="devwrap"></div>
+  </div>
+  <div class="pcell" data-opt="A">
+    <div class="ph-h"><b>A. Jump line</b><button class="btn play" data-pplay>Play</button></div>
+    <div class="devwrap"></div>
+  </div>
+  <div class="pcell" data-opt="B">
+    <div class="ph-h"><b>B. Filter row</b><button class="btn play" data-pplay>Play</button></div>
+    <div class="devwrap"></div>
+  </div>
+  <div class="pcell" data-opt="C">
+    <div class="ph-h"><b>C. By year</b><button class="btn play" data-pplay>Play</button></div>
+    <div class="devwrap"></div>
+  </div>
+  <div class="pcell" data-opt="D">
+    <div class="ph-h"><b>D. Side index</b><button class="btn play" data-pplay>Play</button></div>
+    <div class="devwrap"></div>
+  </div></div>
+  </section>
+
+  <section class="view" id="v-tradeoffs">
+    <div class="stagehead"><h2>How the options compare</h2></div>
+    <table class="tt"><thead><tr><th></th><th class="">As it is</th><th class="">A. Jump line</th><th class="hl">B. Filter row</th><th class="">C. By year</th><th class="">D. Side index</th></tr></thead><tbody><tr><td class="" data-ed>What a visitor sees first</td><td class="" data-ed>3 preprints</td><td class="" data-ed>Journal publications</td><td class="hl" data-ed>Journal publications</td><td class="" data-ed>Forthcoming work, mixed kinds</td><td class="" data-ed>Journal publications</td></tr><tr><td class="" data-ed>Says what is below, with counts</td><td class="" data-ed>No</td><td class="" data-ed>Yes, at the top only</td><td class="hl" data-ed>Yes, always in view</td><td class="" data-ed>Yes, always in view</td><td class="" data-ed>Yes, always in view on a laptop</td></tr><tr><td class="" data-ed>See only one kind</td><td class="" data-ed>No</td><td class="" data-ed>No</td><td class="hl" data-ed>Yes</td><td class="" data-ed>Yes</td><td class="" data-ed>No, it jumps instead</td></tr><tr><td class="" data-ed>Where a future book goes</td><td class="" data-ed>A new section somewhere</td><td class="" data-ed>A Books section at the top</td><td class="hl" data-ed>A Books section and button</td><td class="" data-ed>In its year, tagged Book</td><td class="" data-ed>A Books section and index entry</td></tr><tr><td class="" data-ed>On a phone</td><td class="" data-ed>Same as today</td><td class="" data-ed>One extra line at the top</td><td class="hl" data-ed>One line that stays in view</td><td class="" data-ed>One line that stays in view</td><td class="" data-ed>One line that stays in view</td></tr><tr><td class="" data-ed>Menu name and address</td><td class="" data-ed>Unchanged</td><td class="" data-ed>Unchanged</td><td class="hl" data-ed>Unchanged</td><td class="" data-ed>Changes to Publications</td><td class="" data-ed>Unchanged</td></tr><tr><td class="" data-ed>Work to build</td><td class="" data-ed>Data only</td><td class="" data-ed>Small</td><td class="hl" data-ed>Medium</td><td class="" data-ed>Medium, plus the rename</td><td class="" data-ed>Largest</td></tr></tbody></table>
+  </section>
+
+  <section class="view" id="v-decide">
+    <div class="stagehead"><h2>Your calls</h2></div>
+    <div class="dgridb">
+  <div class="dcard" data-decision="layout">
+    <h3>Which layout?</h3>
+    <button class="dopt" data-key="today" aria-pressed="false"><span class="dot"></span><span class="dlabel">As it is, chapters at the bottom</span></button><button class="dopt" data-key="A" aria-pressed="false"><span class="dot"></span><span class="dlabel">A. Jump line</span></button><button class="dopt" data-key="B" aria-pressed="false"><span class="dot"></span><span class="dlabel">B. Filter row (my pick)</span></button><button class="dopt" data-key="C" aria-pressed="false"><span class="dot"></span><span class="dlabel">C. By year, renamed Publications</span></button><button class="dopt" data-key="D" aria-pressed="false"><span class="dot"></span><span class="dlabel">D. Side index</span></button>
+    <button class="dopt" data-key="__skip" aria-pressed="false"><span class="dot"></span><span class="dlabel">Leave open for now</span></button>
+    <div class="dpicked" hidden></div>
+  </div>
+  <div class="dcard" data-decision="label">
+    <h3>What should the menu call the page?</h3>
+    <button class="dopt" data-key="research" aria-pressed="false"><span class="dot"></span><span class="dlabel">Research (the address stays /research/)</span></button><button class="dopt" data-key="publications" aria-pressed="false"><span class="dot"></span><span class="dlabel">Publications (keep /research/ working for old links)</span></button>
+    <button class="dopt" data-key="__skip" aria-pressed="false"><span class="dot"></span><span class="dlabel">Leave open for now</span></button>
+    <div class="dpicked" hidden></div>
+  </div>
+  <div class="dcard" data-decision="order">
+    <h3>Where do the preprints go?</h3>
+    <button class="dopt" data-key="below" aria-pressed="false"><span class="dot"></span><span class="dlabel">Below the published work (my pick)</span></button><button class="dopt" data-key="above" aria-pressed="false"><span class="dot"></span><span class="dlabel">Above, as today</span></button>
+    <button class="dopt" data-key="__skip" aria-pressed="false"><span class="dot"></span><span class="dlabel">Leave open for now</span></button>
+    <div class="dpicked" hidden></div>
+  </div>
+  <div class="dcard" data-decision="sticky">
+    <h3>Should the button row stay in view while scrolling?</h3>
+    <button class="dopt" data-key="stay" aria-pressed="false"><span class="dot"></span><span class="dlabel">Stay under the menu bar (my pick)</span></button><button class="dopt" data-key="scroll" aria-pressed="false"><span class="dot"></span><span class="dlabel">Scroll away with the page</span></button>
+    <button class="dopt" data-key="__skip" aria-pressed="false"><span class="dot"></span><span class="dlabel">Leave open for now</span></button>
+    <div class="dpicked" hidden></div>
+  </div></div>
+    <div class="decide-foot"><button class="btn play" id="copydec">Copy my answers</button><span class="ctl">Your taps are saved in this browser.</span></div>
+  </section>
+
+  <h2 class="sec-h">What is still open</h2>
+  <table class="tt"><thead><tr><th>Item</th><th>Where it stands</th><th>What it means</th><th>Who</th></tr></thead><tbody><tr><td data-ed>Abstracts and links for the two chapters</td><td data-ed>Not in your CV or on the site yet</td><td data-ed>Without them a chapter line cannot open a panel the way a paper does, so the mockups show the chapters without the arrow</td><td data-ed>You: the two abstracts, and the publisher pages once they exist</td></tr><tr><td data-ed>The open panel (buttons, story, abstract)</td><td data-ed>Locked by your rule in the site's CLAUDE.md</td><td data-ed>Identical in every option; only the list around it changes</td><td data-ed>Nothing</td></tr><tr><td data-ed>The data search engines read</td><td data-ed>The page carries a hidden list of its papers for Google</td><td data-ed>The two chapters get added there as chapters</td><td data-ed>Me, in the same change</td></tr><tr><td data-ed>Renaming to Publications</td><td data-ed>Only if you pick C or the Publications label</td><td data-ed>The menu label and page title are simple to change; moving the address needs a forwarding page so old links and Google results keep working</td><td data-ed>Your decision</td></tr><tr><td data-ed>Books</td><td data-ed>None yet</td><td data-ed>A Books section and button appear only when the first book is added, never an empty heading</td><td data-ed>Nothing now</td></tr><tr><td data-ed>The section names</td><td data-ed>The mockups keep today's Preprints and Journal Publications</td><td data-ed>Renaming them, for example to Working papers, is a separate choice; I did not change them</td><td data-ed>Your decision, if you want one</td></tr></tbody></table>
+
+  <footer class="ft">Generated 2026-10-12 from <code>manifest.json</code> (lib/publications.tsx and the cv repo) and <code>board.json</code> by
+    <code>docs/research-page-options/build_board.mjs</code> in the felipemaffonso.com repo. Mockups only: nothing on the live site changed.</footer>
+</div>
+
+<div id="fs"><div class="fsbar"><button class="btn" id="fsclose">Close (Esc)</button></div><div class="devwrap" id="fsd" style="margin-top:34px"></div></div>
+<div id="kit"><button data-kit="pin">Pin</button><button data-kit="draw">Draw</button><button data-kit="copyedit">Copy</button><button data-kit="export">Copy my notes</button><button data-kit="clear">Clear</button></div>
+<div id="toast"></div>
+<script>window.DATA = {"pubs":[{"id":"strategic-personalities","section":"preprint","citation":"\u003cb>Felipe M. Affonso\u003c/b>, \"Large language models converge on competitive rationality but diverge on cooperation across providers and generations,\" \u003ci>arXiv\u003c/i>.","year":null,"forthcoming":false,"venue":"arXiv","links":[{"kind":"arxiv","label":"arXiv","desc":"Preprint with PDF download"},{"kind":"github","label":"Interactive explorer","desc":"Full dataset and dashboard"}],"abstract":"As language models are deployed as autonomous agents that negotiate, cooperate, and compete on behalf of human principals, their strategic dispositions acquire direct economic consequences. Here we show, across 51,906 game-theoretic trials generating 826,990 strategic decisions from 25 large language models spanning seven developers and 38 canonical games, that models converge on competitive and coordination behaviour (coefficient of variation 0.06 for coordination, 0.11 for strategic depth) while diverging 48-fold on cooperation, from 1.5 per cent (GPT-5 Nano) to 71.5 per cent (Claude Opus 4.6). Provider identity is the dominant predictor of cooperative disposition, and this divergence is generationally unstable: OpenAI cooperation fell from 50.3 to 1.5 per cent across four model generations while Google cooperation rose from 8.3 to 56.8 per cent. Endgame analysis reveals that Anthropic frontier models sustain 57 per cent cooperation in the final round of finitely repeated games, where backward induction predicts zero, while the newest Google models cooperate throughout but universally defect when punishment becomes impossible. These strategic personalities are shaped by training pipelines, shift unpredictably across model versions, and cannot be inferred from capability benchmarks, yet they determine the cooperative outcomes of every economic interaction these models mediate. The complete dataset and an interactive explorer for the data are publicly available at felipemaffonso.github.io/strategic-personalities/."},{"id":"data-quality","section":"preprint","citation":"Andrew Gordon, David Rothschild, \u003cb>Felipe M. Affonso\u003c/b>, Justin Sulik, David J. Hauser, Karine Pepin, and Simon Jones, \"AI Agent Prevalence and Data Quality Across Multiple Online Sample Providers,\" \u003ci>PsyArXiv\u003c/i>.","year":null,"forthcoming":false,"venue":"PsyArXiv","links":[{"kind":"psyarxiv","label":"PsyArXiv","desc":"Preprint with PDF download"},{"kind":"osf","label":"Data and code (OSF)","desc":"osf.io/m2asr"}],"abstract":"Online recruitment platforms have become the dominant infrastructure for behavioral research, yet data quality concerns have acquired new urgency with the emergence of large language models (LLMs). Recent work showing that LLM-based agents can complete surveys while evading standard quality checks has prompted alarm about synthetic respondents infiltrating samples at scale. However, demonstrating agent capability is not equivalent to demonstrating ecosystem-level deployment, and variation in quality among human respondents across platform types may be a more consequential threat. We address both questions in a single pre-registered study: (1) what is the actual prevalence of AI agents across platforms, and (2) how does human data quality vary across structural market segments? We recruited 5,200 respondents across 13 conditions from 10 platforms spanning direct first-party panels, hybrid networks, and marketplace aggregators. Agent detection employed an automated environment check achieving perfect discrimination in pilot testing, plus a secondary battery of six behavioral indicators. Human quality was assessed across seven behavioral dimensions alongside metadata including device type, ecosystem activity, and cost efficiency. Agent detections were concentrated almost exclusively on Amazon MTurk (11–16%), with all other platforms at or below 1%; detected responses showed profiles more consistent with traditional bots than LLM-based agents. Evidence of humans using LLMs to augment answers, particularly on open-ended or difficult items, was consistent with recent work assuming no deployed mitigation. Human data quality varied substantially by platform type, with direct panels outperforming hybrid platforms, which outperformed marketplace platforms, across nearly all measures, an effect several times larger than that of agents or LLM-augmentation. Cost-efficiency analyses revealed direct panels, despite higher nominal costs, were most economical once quality thresholds were applied. The field's most pressing data quality challenge remains systematic variation in human respondent quality by platform type, not AI agent infiltration."},{"id":"vertical-tacit-collusion","section":"preprint","citation":"\u003cb>Felipe M. Affonso\u003c/b>, \"Vertical Tacit Collusion in AI-Mediated Markets,\" \u003ci>arXiv\u003c/i>.","year":null,"forthcoming":false,"venue":"arXiv","links":[{"kind":"arxiv","label":"arXiv","desc":"Preprint with PDF download"},{"kind":"osf","label":"Data and code (OSF)","desc":"osf.io/dfgvn"}],"abstract":"AI shopping agents are being deployed to hundreds of millions of consumers, creating a new intermediary between platforms, sellers, and buyers. We identify a novel market failure: vertical tacit collusion, where platforms controlling rankings and sellers controlling product descriptions independently learn to exploit documented AI cognitive biases. Using multi-agent simulation calibrated to empirical measurements of large language model biases, we show that joint exploitation produces consumer harm more than double what would occur if strategies were independent. This super-additive harm arises because platform ranking determines which products occupy bias-triggering positions while seller manipulation determines conversion rates. Unlike horizontal algorithmic collusion, vertical tacit collusion requires no coordination and evades antitrust detection because harm emerges from aligned incentives rather than agreement. Our findings identify an urgent regulatory gap as AI shopping agents reach mainstream adoption."},{"id":"point-vs-range","section":"journal","citation":"Shiri, Amin, \u003cb>Felipe M. Affonso\u003c/b>, and Keith Wilcox (forthcoming), \"When Consumers Prefer Point Versus Range Estimates of Product Performance,\" \u003ci>Journal of Marketing Research\u003c/i>.","year":null,"forthcoming":true,"venue":"Journal of Marketing Research","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"ssrn","label":"SSRN","desc":"Preprint with PDF download"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"}],"abstract":"Product performance claims play an important role in shaping consumers' purchase decisions. Through six preregistered studies, including one field study, we demonstrate that consumers' preferences for point versus range performance estimates in common comparative purchase settings depend on whether their attention is directed toward the content of the claim or the manner of its presentation. At baseline, consumers focus on what information is communicated and prefer point over range estimates because point estimates convey greater certainty about the expected performance outcome. When consumers' persuasion knowledge is activated, however, they shift attention to how information is communicated. In this mode, the format of the claim, rather than the stated performance figures, becomes informative: range estimates signal brand transparency by acknowledging the natural variability of real-world performance, enhancing perceived trustworthiness and reversing consumer preference. These effects are attenuated when products are evaluated in isolation rather than compared side by side. Collectively, these findings inform both theory and practice by revealing when and why consumers prefer point versus range estimates of product performance."},{"id":"precise-predictions","section":"journal","citation":"Rude, Eitan D., Amin Shiri, \u003cb>Felipe M. Affonso\u003c/b>, Hal E. Hershfield, and Craig R. Fox (forthcoming), \"Credibility of More vs. Less Precise Predictions Depends on the Perceived Nature of Uncertainty,\" \u003ci>Journal of Experimental Psychology: General\u003c/i>.","year":null,"forthcoming":true,"venue":"Journal of Experimental Psychology: General","links":[],"abstract":"People expressing uncertain values frequently offer point predictions or intervals of varying widths (e.g., \"I'd say your investment will earn $6,000\" versus \"I'd say your investment will earn $5,000–$7,000\"). Interestingly, prior research has drawn conflicting conclusions concerning the credibility of more versus less precise predictions. We resolve this inconsistency by identifying a key moderator: the perceived nature of uncertainty. Specifically, we find that more precise predictions are more credible under epistemic (\"knowable\") uncertainty because they convey the experts' degree of confidence. Under aleatory (\"random\") uncertainty, however, less precise predictions are more credible — if they are within reasonable bounds — because they convey experts' assessments of outcome variability. These results inform literatures on both the communication of uncertainty and the interpretation of confidence intervals."},{"id":"cognitive-traps","section":"journal","citation":"\u003cb>Affonso, Felipe M.\u003c/b> (forthcoming), \"Brief Commentary: A Framework for Detecting AI Agents in Online Research,\" \u003ci>Journal of Consumer Research\u003c/i>.","year":null,"forthcoming":true,"venue":"Journal of Consumer Research","links":[{"kind":"journal","label":"Journal website","desc":"Open access"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"},{"kind":"osf","label":"Data and code (OSF)","desc":"osf.io/f2jhx"},{"kind":"github","label":"Cognitive trap repository","desc":"Validated traps"}],"abstract":"Online behavioral research assumes survey responses come from humans, yet vision-enabled AI agents can now autonomously complete surveys by capturing screenshots, processing questions, and submitting responses. Because these agents perceive the same rendered visual content that humans see, traditional detection methods are ineffective. This article introduces the Cognitive Trap Framework: researchers can transform architectural constraints of vision-language models into survey questions where the correct answers are simultaneously difficult for AI agents but easily processed by humans. Six traps derived from computer science benchmarks demonstrate the framework. Against 1,007 human participants (Prolific) and 526 researcher-deployed AI agents (e.g., ChatGPT Agent, Google Project Mariner), cognitive traps detected 97.1% of agents (vs. 2.3% with traditional attention checks), while flagging only 4.1% of humans. Pre-registered replications on Amazon MTurk and CloudResearch Connect demonstrate cross-platform effectiveness, and validation against 34 frontier models spanning two years reveals that model improvement is non-monotonic because each new architecture reconfigures which constraints it resolves and which it introduces. The framework can thus generate new cognitive traps as AI agent models evolve, and a public repository provides researchers with validated traps ready for deployment."},{"id":"concealing-prices","section":"journal","citation":"\u003cb>Affonso, Felipe M.\u003c/b>*, Amin Shiri*, Diego Aparicio*, Minzhe Xu, Xiang Wang, Chris Janiszewski, and Marco Bertini (forthcoming), \"Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions,\" \u003ci>Journal of Consumer Research\u003c/i>.","year":null,"forthcoming":true,"venue":"Journal of Consumer Research","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"ssrn","label":"SSRN","desc":"Preprint with PDF download"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"},{"kind":"osf","label":"Data and code (OSF)","desc":"osf.io/xt42w"}],"abstract":"This article presents the first systematic empirical investigation into a longstanding question in retail: is it better to display prices upfront or reveal them later in the purchase process? Two large-scale field studies demonstrate that delayed price disclosure can either increase or decrease sales. Supporting laboratory studies reveal that one plausible explanation is that a price delay allows price beliefs to shift consumers' internal reference prices upward or downward, creating either positive or negative price expectation disconfirmations when prices are revealed. When consumers anticipate prices should be expensive (e.g., from premium brands or upscale stores), a price delay allows price beliefs to shift price expectations upward, making purchases more likely when prices are revealed. Conversely, when consumers anticipate prices should be inexpensive (e.g., sales events or discount stores), a price delay allows price beliefs to shift price expectations downward, making purchases less likely when prices are revealed. Our findings offer retailers actionable insights on when to reveal prices to customers. In doing so, the authors contribute to the literature on price obfuscation and challenge the conventional wisdom that shopping experiences should always minimize friction."},{"id":"space-commons","section":"journal","citation":"\u003cb>Affonso, Felipe M.\u003c/b> (2026), \"Behavioral Micro-Foundations for the Space Commons: A Policy Toolkit,\" \u003ci>Research Policy\u003c/i>, 55 (6), 105511.","year":2026,"forthcoming":false,"venue":"Research Policy","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"ssrn","label":"SSRN","desc":"Preprint with PDF download"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"}],"abstract":"Satellite megaconstellations are transforming the space economy, yet the same commercial expansion that connects remote communities and monitors climate change is contaminating observations from the Hubble Space Telescope, increasing collision risks to irreplaceable scientific assets, and overwhelming governance institutions designed for a handful of state actors. The behavioral forces driving this expansion (status competition, prestige signaling, systematic discounting of long-term costs) are precisely the forces that Cold War-era frameworks fail to address. Because these patterns are predictable, they are also designable. This paper develops the Astro-Economic Behavioral (AEB) Framework, which proposes that the psychological forces producing governance failures can be redirected through choice architecture toward sustainable outcomes without binding enforcement. Three theoretical pillars, Narrative Capital, Conspicuous Exploration, and Behavioral Governance, identify how symbolic value, costly signaling, and decision defaults shape space governance outcomes. These pillars inform four policy instruments that operate through existing international regimes, requiring no new treaty authority: sustainable-practice defaults, a reputational index, loss-framed site designations, and time-bounded safety zones. For each instrument, pre-specified quasi-experimental evaluation designs enable evidence-based iteration. The framework contributes to innovation policy by providing behavioral micro-foundations for governance in emerging sectors where rapid technological change outpaces institutional adaptation."},{"id":"simple-eco-friendly","section":"journal","citation":"Ryu, Soo Yon, \u003cb>Felipe M. Affonso\u003c/b>, and Aner Sela (2026), \"Simple is Eco-Friendly but Complex is Effective: Inferences from Visual Complexity in Package Design,\" \u003ci>Journal of Advertising\u003c/i>, 55 (3), 382–400.","year":2026,"forthcoming":false,"venue":"Journal of Advertising","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"},{"kind":"osf","label":"Data and code (OSF)","desc":"osf.io/h6mk7"}],"abstract":"Package design is an important form of point-of-purchase advertising that often conveys information about product characteristics. But can the mere level of its visual complexity produce specific inferences? We suggest that consumers prefer products with visually complex package designs when product efficacy considerations are salient but prefer products with visually simple designs when eco-friendliness considerations are salient. This effect happens because package design complexity connotes the amount of tangible resources used to produce the product, and consumers associate a low (vs. high) amount of tangible resources with eco-friendliness (vs. efficacy). Our findings extend recent research on design perception and have important practical implications for marketers and product designers. Advertising practitioners can benefit from our findings by understanding when minimalism is valuable and when it is not valuable, and how to strategically use different levels of visual complexity to influence consumer perceptions."},{"id":"disease-cues","section":"journal","citation":"\u003cb>Affonso, Felipe M.\u003c/b> (2025), \"Consumer Responses to Infectious Disease Cues: An Integrative Framework and Research Agenda,\" \u003ci>European Journal of Marketing\u003c/i>, 59 (4), 973–98.","year":2025,"forthcoming":false,"venue":"European Journal of Marketing","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"ssrn","label":"SSRN","desc":"Preprint with PDF download"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"}],"abstract":"Purpose: This paper aims to develop an integrative framework explaining how infectious disease cues influence consumer behavior by connecting evolutionary psychology and behavioral immune system literature with consumer research; Design/methodology/approach: The paper synthesizes pathogen-avoidance psychology and consumer behavior research to identify three psychological changes (affect, cognition, motivation) influencing consumer responses, developing theoretical propositions across five domains while identifying boundary conditions; Findings: Disease cues trigger changes in affect (disgust, anxiety), cognition (narrowed attention) and motivation (self-protection). These influence consumer responses across self-regulation, social behavior/identity, information processing, evaluation and prosocial/sustainable behaviors. The framework identifies boundary conditions moderating these effects; Research limitations/implications: The framework advances understanding of disease threats' influence on consumer behavior and suggests future research directions, including contextual effects and individual differences; Practical implications: The framework helps marketers predict consumer responses to disease cues, offering insights for marketing strategies during health crises and normal times; Originality/value: To the best of the author's knowledge, this paper provides the first comprehensive framework explaining disease cues' systematic influence on consumer behavior through psychological changes, extending behavioral immune system theory into consumer domains."},{"id":"marketing-by-design","section":"journal","citation":"\u003cb>Affonso, Felipe M.\u003c/b> and Chris Janiszewski (2023), \"Marketing by Design: The Influence of Perceptual Structure on Brand Performance,\" \u003ci>Journal of Marketing\u003c/i>, 87 (5), 736–54.","year":2023,"forthcoming":false,"venue":"Journal of Marketing","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"ssrn","label":"SSRN","desc":"Preprint with PDF download"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"},{"kind":"osf","label":"Data and code (OSF)","desc":"osf.io/f95e4"}],"abstract":"Visual marketing communications consist of two components: (1) semantic content (e.g., headings, images, copy) that communicates a brand's positioning, benefits, and personality and (2) visual design (e.g., font selection, image size, the organization of the content) that encourages inferences about brand claims. The authors investigate how visual design can be used to encourage inferences that support brand claims and improve brand performance. They find that brands with a utilitarian positioning perform better when the visual design of their marketing communications encourages structured perceptions, whereas brands with a hedonic positioning perform better when the visual design of their marketing communications encourages unstructured perceptions. In both cases, (un)structured perceptions encourage inferences that reinforce brand claims and, consequently, improve brand performance. This research offers actionable insights into how marketing communication specialists can coordinate logo design, product design, package design, visual merchandising, and retail environments to reinforce brand claims."},{"id":"serendipity","section":"journal","citation":"Kim, Aekyoung, \u003cb>Felipe M. Affonso\u003c/b>, Juliano Laran, and Kristina Durante (2021), \"Serendipity: Chance Encounters in the Marketplace Enhance Consumer Satisfaction,\" \u003ci>Journal of Marketing\u003c/i>, 85 (4), 141–57.","year":2021,"forthcoming":false,"venue":"Journal of Marketing","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"}],"abstract":"Despite evidence that consumers appreciate freedom of choice, they also enjoy recommendation systems, subscription services, and marketplace encounters that seemingly occur by chance. This article proposes that enjoyment can, in some contexts, be higher than that in contexts involving choice. This occurs as a result of feelings of serendipity that arise when a marketplace encounter is positive, unexpected, and attributed to some degree of chance. A series of studies shows that feelings of serendipity positively influence an array of consumer outcomes, including satisfaction and enjoyment, perceptions of meaningfulness of an experience, likelihood of recommending a company, and likelihood of purchasing additional products from the company. The findings show that strategies based on serendipity are even more effective when consumers perceive that randomness played a role in how an encounter occurred, and not effective when the encounter is negative, the encounter occurs deterministically (i.e., planned by marketers to target consumers), and consumers perceive that they have enough knowledge to make their own choices. Altogether, this research suggests that marketers can influence customer satisfaction by structuring marketplace encounters to appear more serendipitous, as opposed to expected or entirely chosen by the consumer."},{"id":"constructive-choice","section":"journal","citation":"\u003cb>Affonso, Felipe M.\u003c/b>, Chris Janiszewski, and James R. Bettman (2021), \"Boundaries of Constructive Choice: On the Accessibility of Maximize Accuracy and Minimize Effort Goals,\" \u003ci>Journal of Consumer Psychology\u003c/i>, 31 (2), 217–39.","year":2021,"forthcoming":false,"venue":"Journal of Consumer Psychology","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"ssrn","label":"SSRN","desc":"Preprint with PDF download"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"},{"kind":"osf","label":"Data and code (OSF)","desc":"osf.io/276gs"}],"abstract":"The impact of decision difficulty on search behavior depends on the relative accessibility of maximize accuracy and minimize effort goals in memory. The default assumption, derived from constructive choice theory, is that maximize accuracy and minimize effort goals are both accessible. Thus, the two goals compete to influence a decision process. When this is the case, an increase in decision difficulty discourages search and the opportunity to make an accurate decision suffers. The alternative assumption, derived from goal systems theory, is that maximize accuracy and minimize effort goals can be differentially accessible. When one of these goals is more accessible, decision difficulty signals poor goal progress and reduces goal pursuit. That is, when a maximize accuracy (minimize effort) goal is more accessible, decision difficulty reduces (increases) search. Six studies show that goal systems theory holds when a maximize accuracy or minimize effort goal is more accessible, that is, is deliberately pursued. The results have implications for how decision difficulty influences information search, satisficing, and choice quality."},{"id":"ad-skepticism","section":"journal","citation":"Hernandez, Jose Mauro da Costa, Scott Wright, and \u003cb>Felipe M. Affonso\u003c/b> (2019), \"The Importance of Advertising Skepticism for Brand Extension Appeals,\" \u003ci>Psychology &amp; Marketing\u003c/i>, 36 (7), 687–99.","year":2019,"forthcoming":false,"venue":"Psychology &amp; Marketing","links":[{"kind":"journal","label":"Journal website","desc":"Full text"},{"kind":"ssrn","label":"SSRN","desc":"Preprint with PDF download"},{"kind":"download","label":"Machine-readable","desc":"Markdown (.md)"}],"abstract":"According to existing research, ad persuasiveness decreases as advertising skepticism (i.e., the tendency to disbelieve advertising claims) increases. What remains unclear, however, is whether or not this effect extends to brand extension appeals. We suggest that the effect may vary according to brand extension similarity. Three studies test this assertion while providing process evidence and boundary conditions for the proposed effect. According to the findings, consumers automatically transfer associations from parent brands to highly similar extensions or automatically block these associations in the case of highly dissimilar extensions—reducing the impact of advertising skepticism on ad persuasiveness. At moderate levels, however, extension similarity is less predictive of the transfer process, increasing the negative effect of advertising skepticism on persuasion. Consistent with this account, the results identify brand transfer (i.e., the ability of the parent brand to make the extension) as the underlying mechanism explaining the advertising skepticism effect for moderately similar brand extension appeals. Furthermore, the results show how marketers can reduce these effects, and increase extension success, by emphasizing extension attributes that are shared with the parent brand. Collectively, these results provide a unique theoretical view, improving our understanding of advertising skepticism and the drivers of brand extension success."},{"id":"complexity-visual-design","section":"chapter","citation":"Ryu, Soo Yon, \u003cb>Felipe M. Affonso\u003c/b>, and Aner Sela (forthcoming, 2027), \"Complexity in Visual Design: Psychological Mechanisms and Practical Implications,\" in: \u003ci>Advertising Theory\u003c/i>, 3rd edition, eds. Shelly Rodgers and Esther Thorson (New York and London: Routledge, Taylor & Francis Group).","year":2027,"forthcoming":true,"venue":"Advertising Theory, 3rd edition","links":[],"abstract":""},{"id":"ai-assisted-shopping","section":"chapter","citation":"\u003cb>Affonso, Felipe M.\u003c/b> (forthcoming, 2027), \"AI-Assisted Shopping: On the Preferences of Consumers and Machines,\" in: \u003ci>Consumer Psychology and AI\u003c/i>, 1st edition, ed. Martin Reimann (New Jersey: Wiley).","year":2027,"forthcoming":true,"venue":"Consumer Psychology and AI","links":[],"abstract":""}],"board":{"title":"Research page: where the book chapters go","kicker":"felipemaffonso.com, the Research page","thesis":"Sixteen entries still fit on one page, so nothing needs to move to a second page. What needs to change is the order and the signposting: published work first, the chapters in their own section, and a row at the top that says what kinds of work the page holds and how many of each.","measured":{"date":"2026-10-12","laptopPx":1722,"laptopViewport":902,"phonePx":2440,"phoneViewport":844,"how":"the live felipemaffonso.com/research/ with every entry closed, Chrome at 1280 x 902 and at 390 x 844 (an iPhone 14)"},"pick":{"option":"B","headline":"My pick: option B, and keep the name Research.","reasons":["Sixteen entries are about two screens on a laptop and three on a phone. That is not bloated, and a list of 25 would not be either, because every entry stays one to three lines until someone opens it. A second page would only make visitors click to find out what you have.","Today a visitor sees three preprints before the first published paper, and on a phone the Journal Publications heading sits at the bottom of the first screen. Published work should come first.","The row of buttons with counts tells a visitor what is on the page and how much before they scroll, which is the signal you asked about. A search committee member can tap Journal publications and see only those. A Books button appears by itself the day a book is added.","Keep Research as the menu name. It sits next to Teaching, which also names an activity, and it covers preprints, which are not publications yet. Changing it also changes the page title Google shows, and moving the address would need a forwarding page so old links keep working.","You do not need shadcn. The site does not use shadcn components; the button row would be written in the site's own styles (the same coral, borders and type) and would behave like shadcn's toggle group: arrow keys move between buttons and screen readers announce which one is on. No new package."]},"options":[{"key":"today","tab":"As it is","name":"Today, with the chapters added at the bottom","what":"Only the two chapters are added, as a third section under the journal publications. Nothing else changes.","good":["No new design work.","Visitors who know the page find it unchanged."],"cost":["Three preprints still come before any published paper.","The chapters sit at the very bottom, under eleven articles, where few visitors scroll.","Nothing at the top says the page also has chapters."]},{"key":"A","tab":"A. Jump line","name":"Published work first, with a jump line","what":"Journal publications, then book chapters, then preprints. One line under the title names the three kinds with their counts, and each name jumps to its section.","good":["The smallest change after adding the chapters.","Published work is the first thing anyone sees.","The counts say what is below."],"cost":["The line scrolls away with the page.","There is no way to see only one kind."]},{"key":"B","tab":"B. Filter row","name":"Published work first, with a filter row","what":"A row of buttons under the title: All, Journal publications, Book chapters, Preprints, each with its count. All shows every section in order; a button shows only that kind. The row stays under the menu bar while you scroll.","good":["The counts say what is on the page before anyone scrolls.","One tap narrows the list to what a visitor came for.","A Books button appears by itself when the first book is added.","Works the same on a phone, where it is one line tall."],"cost":["One more element at the top of the page.","On a phone the row takes one line of the screen while you scroll.","Once a Books button is added, the row on a phone is slightly wider than the screen and scrolls sideways (try the book preview above)."]},{"key":"C","tab":"C. By year","name":"Publications, newest first, grouped by year","what":"The page is renamed Publications. Everything is listed newest first under year headings, with a small tag saying what each entry is. Preprints go last because they have no year. The filter row narrows by kind.","good":["Shows a steady record over the years.","The tags make a chapter easy to tell from an article."],"cost":["Renaming changes the menu, the page title and possibly the address.","The year headings split the eleven articles into six small groups.","The Forthcoming group mixes articles and chapters, so the most important work is not grouped by kind."]},{"key":"D","tab":"D. Side index","name":"Published work first, with a side index","what":"On a laptop, a narrow list on the left names each section with its count and highlights the section you are reading. On a phone it becomes a row of buttons at the top.","good":["Always visible on a laptop.","Grows well if the page later adds books, reports or talks."],"cost":["The most code of the five.","The page is too short today to need it.","It changes the page from one column to two on a laptop."]}],"tradeoffs":{"rows":[["What a visitor sees first","3 preprints","Journal publications","Journal publications","Forthcoming work, mixed kinds","Journal publications"],["Says what is below, with counts","No","Yes, at the top only","Yes, always in view","Yes, always in view","Yes, always in view on a laptop"],["See only one kind","No","No","Yes","Yes","No, it jumps instead"],["Where a future book goes","A new section somewhere","A Books section at the top","A Books section and button","In its year, tagged Book","A Books section and index entry"],["On a phone","Same as today","One extra line at the top","One line that stays in view","One line that stays in view","One line that stays in view"],["Menu name and address","Unchanged","Unchanged","Unchanged","Changes to Publications","Unchanged"],["Work to build","Data only","Small","Medium","Medium, plus the rename","Largest"]]},"decisions":[{"id":"layout","q":"Which layout?","options":[["today","As it is, chapters at the bottom"],["A","A. Jump line"],["B","B. Filter row (my pick)"],["C","C. By year, renamed Publications"],["D","D. Side index"]]},{"id":"label","q":"What should the menu call the page?","options":[["research","Research (the address stays /research/)"],["publications","Publications (keep /research/ working for old links)"]]},{"id":"order","q":"Where do the preprints go?","options":[["below","Below the published work (my pick)"],["above","Above, as today"]]},{"id":"sticky","q":"Should the button row stay in view while scrolling?","options":[["stay","Stay under the menu bar (my pick)"],["scroll","Scroll away with the page"]]}],"gaps":[["Abstracts and links for the two chapters","Not in your CV or on the site yet","Without them a chapter line cannot open a panel the way a paper does, so the mockups show the chapters without the arrow","You: the two abstracts, and the publisher pages once they exist"],["The open panel (buttons, story, abstract)","Locked by your rule in the site's CLAUDE.md","Identical in every option; only the list around it changes","Nothing"],["The data search engines read","The page carries a hidden list of its papers for Google","The two chapters get added there as chapters","Me, in the same change"],["Renaming to Publications","Only if you pick C or the Publications label","The menu label and page title are simple to change; moving the address needs a forwarding page so old links and Google results keep working","Your decision"],["Books","None yet","A Books section and button appear only when the first book is added, never an empty heading","Nothing now"],["The section names","The mockups keep today's Preprints and Journal Publications","Renaming them, for example to Working papers, is a separate choice; I did not change them","Your decision, if you want one"]]}};</script>
+<script>(() => {
+  const { pubs: PUBS, board: B } = window.DATA;
+  const KEY = 'fma-research-page-board-v1';
+  let S;
+  try { S = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { S = {}; }
+  S.pins = S.pins || []; S.edits = S.edits || {}; S.decisions = S.decisions || {}; S.strokes = S.strokes || [];
+  S.g = Object.assign({ label: 'Research', theme: 'light', book: false }, S.g || {});
+  const G = S.g;
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+  const toast = (m) => { const t = document.getElementById('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('on'), 2200); };
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  /* ---------------- the site, drawn from the data ---------------- */
+  const TITLE = { book: 'Books', journal: 'Journal Publications', chapter: 'Book Chapters', preprint: 'Preprints' };
+  const CHIP = { book: 'Books', journal: 'Journal publications', chapter: 'Book chapters', preprint: 'Preprints' };
+  const CHIP_S = { book: 'Books', journal: 'Journal', chapter: 'Chapters', preprint: 'Preprints' };
+  const TAG = { book: 'Book', journal: 'Article', chapter: 'Chapter', preprint: 'Preprint' };
+  const BOOK = { id: 'future-book', section: 'book', placeholder: true };
+  const ICON = {
+    journal: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+    download: '<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>',
+    other: '<path d="M7 3h7l5 5v13H7zM14 3v5h5"/>',
+  };
+  const CHEV = '<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>';
+  const NAVH = (device) => (device === 'phone' ? 96 : 58);
+
+  const items = (kind) => (kind === 'book' ? (G.book ? [BOOK] : []) : PUBS.filter((p) => p.section === kind));
+  const order = (layout) => {
+    const base = layout === 'today' ? ['preprint', 'journal', 'chapter'] : ['journal', 'chapter', 'preprint'];
+    if (!G.book) return base;
+    return layout === 'today' ? base.concat('book') : ['book'].concat(base);
+  };
+  const count = (kind) => items(kind).length;
+  const total = (layout) => order(layout).reduce((a, k) => a + count(k), 0);
+
+  function cover(id) {
+    let h = 0;
+    for (const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+    let s = '';
+    for (let i = 0; i < 9 * 12; i++) {
+      h = (h * 1103515245 + 12345) >>> 0;
+      const r = (h >>> 16) % 100;
+      s += r < 5 ? '<span class="c"></span>' : r < 16 ? '<span class="d"></span>' : '<span></span>';
+    }
+    return '<div class="pcover" aria-hidden="true">' + s + '</div>';
+  }
+
+  function entry(p, n, o = {}) {
+    if (p.placeholder) {
+      return '<li class="pentry ph" data-kind="book" data-id="future-book"><div class="pcit">A future book would sit here, as the first section of the page. Preview only, not a real entry.</div></li>';
+    }
+    const can = !!(p.abstract || (p.links && p.links.length));
+    const tag = o.tags ? `<span class="tag ${p.section}">${TAG[p.section]}</span>` : '';
+    const num = o.numbers === false ? '' : `<span class="num">${n}.</span> `;
+    const links = (p.links || []).map((l) =>
+      `<div class="plink"><svg viewBox="0 0 24 24">${ICON[l.kind] || ICON.other}</svg><div>${esc(l.label)}<div>${esc(l.desc)}</div></div></div>`).join('');
+    const panel = can
+      ? `<div class="pdet"><div class="pdin"><div class="ppad">${links ? `<div class="plinks">${links}</div>` : ''}<div class="pabs">${cover(p.id)}<p><b>Abstract:</b> ${p.abstract}</p></div></div></div></div>`
+      : '';
+    return `<li class="pentry" data-kind="${p.section}" data-id="${p.id}"><div class="pcit"${can ? ' role="button" tabindex="0" aria-expanded="false"' : ''}>${num}${tag}${p.citation}${can ? CHEV : ''}</div>${panel}</li>`;
+  }
+
+  function section(kind, o = {}) {
+    const its = items(kind);
+    if (!its.length) return '';
+    const note = kind === 'journal' ? '<p class="pnote">*Denotes equal authorship</p>' : '';
+    return `<section class="psec" data-kind="${kind}"><h2 class="ptitle">${TITLE[kind]}</h2>${note}<ol class="plist">${its.map((p, i) => entry(p, i + 1, o)).join('')}</ol></section>`;
+  }
+
+  const CHIP_C = { book: 'Books', journal: 'Articles', chapter: 'Chapters', preprint: 'Preprints' };
+  function chipRow(layout, device, attr) {
+    const L = layout === 'C' ? CHIP_C : device === 'phone' ? CHIP_S : CHIP;
+    const all = attr === 'f' ? `<button class="chip" data-f="all" aria-pressed="true">All<b>${total(layout)}</b></button>` : '';
+    return `<div class="fbar"><div class="segs" role="toolbar" aria-label="Show"><span class="thumb"></span>${all}` +
+      order(layout).map((k, i) => `<button class="chip" data-${attr}="${k}" aria-pressed="${attr === 'spy' && i === 0}">${L[k]}<b>${count(k)}</b></button>`).join('') +
+      '</div></div>';
+  }
+
+  function yearGroups() {
+    const all = order('C').flatMap((k) => items(k));
+    const pub = all.filter((p) => p.section !== 'preprint');
+    const dated = pub.filter((p) => !p.forthcoming && !p.placeholder);
+    const groups = [];
+    const add = (label, list) => { if (list.length) groups.push([label, list]); };
+    add('Forthcoming', pub.filter((p) => p.forthcoming || p.placeholder));
+    [...new Set(dated.map((p) => p.year))].sort((a, b) => b - a).forEach((y) => add(String(y), dated.filter((p) => p.year === y)));
+    add('Preprints', all.filter((p) => p.section === 'preprint'));
+    return groups.map(([l, list]) =>
+      `<div class="ygroup"><div class="ylabel">${l}</div><ol class="plist">${list.map((p) => entry(p, 0, { tags: true, numbers: false })).join('')}</ol></div>`).join('');
+  }
+
+  function content(layout, device) {
+    const secs = order(layout).map((k) => section(k)).join('');
+    if (layout === 'today') return secs;
+    if (layout === 'A') {
+      const L = device === 'phone' ? CHIP_S : CHIP;
+      return `<p class="jump">${order('A').map((k) => `<a data-jump="${k}">${L[k]} <span>(${count(k)})</span></a>`).join('<span aria-hidden="true">&middot;</span>')}</p>${secs}`;
+    }
+    if (layout === 'B') return chipRow('B', device, 'f') + `<div class="flist">${secs}</div>`;
+    if (layout === 'C') return chipRow('C', device, 'f') + `<div class="flist">${yearGroups()}</div>`;
+    if (device === 'phone') return chipRow('D', device, 'spy') + secs;
+    return `<div class="dg"><aside class="rail"><div class="railh">On this page</div>${order('D').map((k, i) =>
+      `<a data-spy="${k}" class="${i ? '' : 'on'}"><span>${CHIP[k]}</span><b>${count(k)}</b></a>`).join('')}</aside><div>${secs}</div></div>`;
+  }
+
+  function strip() {
+    const cols = 46, rows = 4, cell = 14, gap = 5.5;
+    let s = '', h = 7;
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+      h = (h * 1103515245 + 12345) >>> 0;
+      const v = (h >>> 16) % 100;
+      const corner = (r === 0 || r === rows - 1) && (c === 0 || c === cols - 1);
+      const fill = r === 2 && c === 12 ? 'var(--s-coral)' : corner ? 'var(--s-dim)' : v < 8 ? 'var(--s-border-strong)' : 'var(--s-surface2)';
+      s += `<rect x="${c * (cell + gap)}" y="${r * (cell + gap)}" width="${cell}" height="${cell}" rx="2.5" fill="${fill}"/>`;
+    }
+    return `<div class="strip"><svg viewBox="0 0 ${cols * (cell + gap) - gap} ${rows * (cell + gap) - gap}" aria-hidden="true">${s}</svg></div>`;
+  }
+
+  function nav(device, label) {
+    if (device === 'phone') return '<div class="snav"><span class="sname">Felipe M. Affonso</span><span class="menu"></span></div>';
+    return `<div class="snav"><span class="sname">Felipe M. Affonso</span><div class="slinks"><span>Home</span><span class="on">${label}</span><span>Teaching</span><span>CV</span><span>Contact</span></div><div class="stogs"><i></i><i></i></div></div>`;
+  }
+
+  function siteHTML(layout, device) {
+    const label = layout === 'C' ? 'Publications' : G.label;
+    const wide = layout === 'D' && device === 'desktop';
+    return `<div class="site ${G.theme === 'dark' ? 'dark' : ''} ${device}"><div class="screen">${nav(device, label)}<div class="sbanner"><h1>${label}</h1></div>${strip()}<main class="spage${wide ? ' wide' : ''} L${layout}">${content(layout, device)}</main></div></div>`;
+  }
+
+  /* ---------------- instances: one live mockup in one frame ---------------- */
+  const NATURAL = { desktop: [1000, 658], phone: [410, 800] };
+  const LIVE = new Set();
+
+  function mount(host, layout, device, scale) {
+    if (host._inst) { host._inst.dead = true; LIVE.delete(host._inst); }
+    const inst = { host, layout, device, scale: scale || 1 };
+    host._inst = inst; LIVE.add(inst);
+    render(inst);
+    return inst;
+  }
+
+  function render(inst) {
+    const url = 'felipemaffonso.com/research/';
+    inst.host.innerHTML = inst.device === 'desktop'
+      ? `<div class="dev desktop"><div class="chrome"><i></i><i></i><i></i><div class="url">${url}</div></div>${siteHTML(inst.layout, 'desktop')}<div class="cursor"></div></div>`
+      : `<div class="dev phone"><div class="notch"></div>${siteHTML(inst.layout, 'phone')}<div class="cursor"></div></div>`;
+    inst.dev = inst.host.querySelector('.dev');
+    inst.root = inst.host.querySelector('.screen');
+    setScale(inst, inst.scale);
+    wire(inst);
+  }
+
+  function setScale(inst, s) {
+    inst.scale = s;
+    const [w, h] = NATURAL[inst.device];
+    inst.dev.style.transform = `scale(${s})`;
+    inst.host.style.width = w * s + 'px';
+    inst.host.style.height = h * s + 'px';
+  }
+
+  const yOf = (inst, el) => (el.getBoundingClientRect().top - inst.root.getBoundingClientRect().top) / inst.scale + inst.root.scrollTop;
+
+  function animScroll(inst, y, ms) {
+    const r = inst.root;
+    const to = Math.max(0, Math.min(y, r.scrollHeight - r.clientHeight));
+    const from = r.scrollTop;
+    if (Math.abs(to - from) < 2) return Promise.resolve();
+    return new Promise((res) => {
+      const t0 = performance.now();
+      (function step(now) {
+        const k = Math.min(1, (now - t0) / ms);
+        const e = k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
+        r.scrollTop = from + (to - from) * e;
+        if (k < 1 && !inst.dead) requestAnimationFrame(step); else res();
+      })(t0);
+    });
+  }
+
+  function barH(inst) {
+    const bar = inst.root.querySelector('.fbar');
+    return bar ? bar.offsetHeight : 0;
+  }
+
+  function moveThumb(inst) {
+    inst.root.querySelectorAll('.segs').forEach((segs) => {
+      const on = segs.querySelector('.chip[aria-pressed="true"]');
+      const th = segs.querySelector('.thumb');
+      if (!on || !th) return;
+      th.style.left = on.offsetLeft + 'px';
+      th.style.width = on.offsetWidth + 'px';
+      const pad = 24;
+      if (on.offsetLeft < segs.scrollLeft + pad) segs.scrollTo({ left: on.offsetLeft - pad, behavior: 'smooth' });
+      else if (on.offsetLeft + on.offsetWidth > segs.scrollLeft + segs.clientWidth - pad) segs.scrollTo({ left: on.offsetLeft + on.offsetWidth - segs.clientWidth + pad, behavior: 'smooth' });
+    });
+  }
+
+  function filter(inst, f) {
+    const r = inst.root;
+    r.querySelectorAll('.chip[data-f]').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.f === f)));
+    moveThumb(inst);
+    const list = r.querySelector('.flist');
+    list.classList.add('out');
+    setTimeout(() => {
+      if (inst.layout === 'B') r.querySelectorAll('.psec').forEach((s) => { s.hidden = !(f === 'all' || s.dataset.kind === f); });
+      else {
+        r.querySelectorAll('.pentry').forEach((e) => { e.hidden = !(f === 'all' || e.dataset.kind === f); });
+        r.querySelectorAll('.ygroup').forEach((g) => { g.hidden = ![...g.querySelectorAll('.pentry')].some((e) => !e.hidden); });
+      }
+      const limit = inst.fbarY - NAVH(inst.device);
+      if (r.scrollTop > limit) r.scrollTop = limit;
+      list.classList.remove('out');
+    }, 150);
+  }
+
+  function spy(inst) {
+    const r = inst.root;
+    const secs = [...r.querySelectorAll('.psec')];
+    if (!secs.length) return;
+    let cur = secs[0].dataset.kind;
+    const line = NAVH(inst.device) + barH(inst) + r.clientHeight * 0.4;
+    secs.forEach((s) => { if (yOf(inst, s) - line <= r.scrollTop) cur = s.dataset.kind; });
+    if (r.scrollTop + r.clientHeight >= r.scrollHeight - 4) cur = secs[secs.length - 1].dataset.kind;
+    r.querySelectorAll('[data-spy]').forEach((a) => {
+      const on = a.dataset.spy === cur;
+      a.classList.toggle('on', on);
+      if (a.classList.contains('chip')) a.setAttribute('aria-pressed', String(on));
+    });
+    moveThumb(inst);
+  }
+
+  function goSection(inst, kind) {
+    const s = inst.root.querySelector(`.psec[data-kind="${kind}"]`);
+    if (s) return animScroll(inst, yOf(inst, s) - NAVH(inst.device) - barH(inst) - 14, 650);
+    return Promise.resolve();
+  }
+
+  function toggleEntry(inst, li) {
+    const was = li.classList.contains('open');
+    inst.root.querySelectorAll('.pentry.open').forEach((x) => { x.classList.remove('open'); x.querySelector('.pcit').setAttribute('aria-expanded', 'false'); });
+    if (was) return;
+    li.classList.add('open');
+    li.querySelector('.pcit').setAttribute('aria-expanded', 'true');
+    setTimeout(() => {
+      if (inst.dead) return;
+      const r = inst.root, y = yOf(inst, li), top = NAVH(inst.device) + barH(inst);
+      if (y - r.scrollTop < top || y + li.offsetHeight - r.scrollTop > r.clientHeight) animScroll(inst, y - top - 10, 420);
+    }, 300);
+  }
+
+  function wire(inst) {
+    const r = inst.root;
+    r.querySelectorAll('.pcit[role=button]').forEach((el) => {
+      el.addEventListener('click', () => toggleEntry(inst, el.parentElement));
+      el.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleEntry(inst, el.parentElement); } });
+    });
+    r.querySelectorAll('[data-jump]').forEach((a) => a.addEventListener('click', () => goSection(inst, a.dataset.jump)));
+    r.querySelectorAll('.chip[data-f]').forEach((c) => c.addEventListener('click', () => filter(inst, c.dataset.f)));
+    r.querySelectorAll('.segs').forEach((segs) => segs.addEventListener('keydown', (e) => {
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      const cs = [...segs.querySelectorAll('.chip')];
+      const i = cs.indexOf(document.activeElement);
+      if (i < 0) return;
+      const n = cs[(i + (e.key === 'ArrowRight' ? 1 : cs.length - 1)) % cs.length];
+      n.focus(); n.click();
+    }));
+    r.querySelectorAll('[data-spy]').forEach((a) => a.addEventListener('click', () => goSection(inst, a.dataset.spy)));
+    const fbar = r.querySelector('.fbar');
+    inst.fbarY = fbar ? yOf(inst, fbar) : 0;
+    const snav = r.querySelector('.snav');
+    r.addEventListener('scroll', () => {
+      snav.classList.toggle('scrolled', r.scrollTop > 4);
+      if (fbar) fbar.classList.toggle('stuck', r.scrollTop > inst.fbarY - NAVH(inst.device) - 1);
+      if (inst.layout === 'D') spy(inst);
+    }, { passive: true });
+    requestAnimationFrame(() => moveThumb(inst));
+  }
+
+  /* ---------------- Play: a scripted visit with a visible finger ---------------- */
+  async function aim(inst, el) {
+    const c = inst.dev.querySelector('.cursor');
+    const d = inst.dev.getBoundingClientRect(), e = el.getBoundingClientRect();
+    const ax = e.width > 260 ? 70 : e.width / 2;
+    c.style.left = (e.left + ax - d.left) / inst.scale + 'px';
+    c.style.top = (e.top + e.height / 2 - d.top) / inst.scale + 'px';
+    c.classList.add('on');
+    await sleep(620);
+  }
+  const w = (ms) => () => sleep(ms);
+  const top = (ms) => (inst) => animScroll(inst, 0, ms);
+  const by = (px, ms) => (inst) => animScroll(inst, inst.root.scrollTop + px, ms);
+  const toSec = (kind, ms) => (inst) => {
+    const s = inst.root.querySelector(`.psec[data-kind="${kind}"]`);
+    return s ? animScroll(inst, yOf(inst, s) - NAVH(inst.device) - 14, ms) : null;
+  };
+  const tap = (sel) => async (inst) => {
+    const el = inst.root.querySelector(sel);
+    if (!el) return;
+    if (!el.closest('.fbar,.rail,.snav')) {
+      const r = inst.root, y = yOf(inst, el), topLine = NAVH(inst.device) + barH(inst) + 30;
+      if (y < r.scrollTop + topLine || y + 40 > r.scrollTop + r.clientHeight) await animScroll(inst, y - topLine - 40, 650);
+    }
+    await aim(inst, el);
+    const c = inst.dev.querySelector('.cursor');
+    c.classList.add('press');
+    await sleep(140);
+    el.click();
+    await sleep(170);
+    c.classList.remove('press');
+    await sleep(260);
+  };
+  const PLAYS = {
+    today: [w(450), toSec('journal', 1000), w(900), toSec('chapter', 1500), w(1500), top(900)],
+    A: [w(450), tap('[data-jump="chapter"]'), w(1300), top(700), tap('[data-jump="preprint"]'), w(1200), top(700),
+      tap('.pentry[data-id="point-vs-range"] .pcit'), w(1800), tap('.pentry[data-id="point-vs-range"] .pcit'), w(400)],
+    B: [w(450), tap('.chip[data-f="chapter"]'), w(1300), tap('.chip[data-f="preprint"]'), w(1200), tap('.chip[data-f="journal"]'), w(500),
+      tap('.pentry[data-id="concealing-prices"] .pcit'), w(1600), by(560, 1300), w(900), tap('.chip[data-f="all"]'), w(900), top(800)],
+    C: [w(450), by(1000, 2600), w(700), top(800), tap('.chip[data-f="chapter"]'), w(1400), tap('.chip[data-f="all"]'), w(600)],
+    D: [w(450), by(1200, 2800), w(700), tap('[data-spy="preprint"]'), w(1300), tap('[data-spy="journal"]'), w(1000)],
+  };
+  async function play(inst, btn) {
+    if (inst.playing) return;
+    render(inst);
+    inst.playing = true;
+    if (btn) btn.disabled = true;
+    await sleep(120);
+    for (const step of PLAYS[inst.layout]) { if (inst.dead) break; await step(inst); }
+    if (!inst.dead) inst.dev.querySelector('.cursor').classList.remove('on');
+    inst.playing = false;
+    if (btn) btn.disabled = false;
+  }
+
+  /* ---------------- the board ---------------- */
+  let view = 'options', opt = B.pick.option;
+  const played = new Set();
+  const stageD = document.getElementById('sd'), stageP = document.getElementById('sp');
+
+  function stageScale() {
+    const st = document.querySelector('.stage');
+    const avail = st.clientWidth - 34;
+    return Math.min(1, avail / (NATURAL.desktop[0] + NATURAL.phone[0]));
+  }
+  function showOption(key, auto) {
+    opt = key;
+    document.querySelectorAll('.otab').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.opt === key)));
+    document.querySelectorAll('.odesc').forEach((d) => { d.hidden = d.dataset.opt !== key; });
+    document.getElementById('oname').textContent = B.options.find((o) => o.key === key).name;
+    const s = window.innerWidth < 900 ? Math.min(1, (window.innerWidth - 40) / NATURAL.desktop[0]) : stageScale();
+    const d = mount(stageD, key, 'desktop', s);
+    mount(stageP, key, 'phone', window.innerWidth < 900 ? Math.min(1, (window.innerWidth - 40) / NATURAL.phone[0]) : s);
+    if (auto && !played.has(key)) { played.add(key); setTimeout(() => play(d), 700); }
+  }
+  document.querySelectorAll('.otab').forEach((t) => t.addEventListener('click', () => showOption(t.dataset.opt, true)));
+  document.getElementById('oplay').addEventListener('click', (e) => { play(stageD._inst, e.currentTarget); play(stageP._inst); });
+
+  function phonesScale() {
+    const box = document.querySelector('.phones');
+    return Math.min(0.7, (box.clientWidth - 4 * 22) / 5 / NATURAL.phone[0]);
+  }
+  function mountPhones() {
+    const s = phonesScale();
+    document.querySelectorAll('.pcell').forEach((c) => mount(c.querySelector('.devwrap'), c.dataset.opt, 'phone', s));
+  }
+  document.querySelectorAll('[data-pplay]').forEach((b) => b.addEventListener('click', () => play(b.closest('.pcell').querySelector('.devwrap')._inst, b)));
+  document.getElementById('playall').addEventListener('click', () => document.querySelectorAll('.pcell .devwrap').forEach((h) => play(h._inst)));
+
+  function showView(v) {
+    view = v;
+    document.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === v)));
+    document.querySelectorAll('.view').forEach((x) => x.classList.toggle('on', x.id === 'v-' + v));
+    if (v === 'phones') mountPhones();
+    if (v === 'options') showOption(opt, false);
+    paintPins(); sizeCanvas();
+  }
+  document.querySelectorAll('[data-view]').forEach((b) => b.addEventListener('click', () => showView(b.dataset.view)));
+
+  function paintGlobal() {
+    document.querySelectorAll('[data-g]').forEach((b) => b.setAttribute('aria-pressed', String(String(G[b.dataset.g]) === b.dataset.v)));
+  }
+  document.querySelectorAll('[data-g]').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.g;
+    G[k] = k === 'book' ? b.dataset.v === 'true' : b.dataset.v;
+    save(); paintGlobal();
+    LIVE.forEach((inst) => { if (!inst.playing) render(inst); });
+  }));
+  paintGlobal();
+
+  addEventListener('resize', () => {
+    clearTimeout(window._rz);
+    window._rz = setTimeout(() => { if (view === 'options') showOption(opt, false); if (view === 'phones') mountPhones(); sizeCanvas(); }, 200);
+  });
+
+  /* full screen */
+  const fs = document.getElementById('fs');
+  document.getElementById('ofs').addEventListener('click', () => {
+    fs.classList.add('on');
+    const s = Math.min(1.2, (innerWidth - 60) / NATURAL.desktop[0], (innerHeight - 70) / NATURAL.desktop[1]);
+    const inst = mount(document.getElementById('fsd'), opt, 'desktop', s);
+    setTimeout(() => play(inst), 500);
+  });
+  const closeFs = () => { const h = document.getElementById('fsd'); if (h._inst) { h._inst.dead = true; LIVE.delete(h._inst); h._inst = null; } h.innerHTML = ''; fs.classList.remove('on'); };
+  document.getElementById('fsclose').addEventListener('click', closeFs);
+  addEventListener('keydown', (e) => { if (e.key === 'Escape') closeFs(); });
+
+  /* decisions */
+  document.querySelectorAll('.dcard').forEach((card) => {
+    const id = card.dataset.decision;
+    const paint = () => {
+      const picked = S.decisions[id];
+      card.querySelectorAll('.dopt').forEach((o) => o.setAttribute('aria-pressed', String(o.dataset.key === picked)));
+      const out = card.querySelector('.dpicked');
+      if (picked) {
+        const o = [...card.querySelectorAll('.dopt')].find((x) => x.dataset.key === picked);
+        out.textContent = picked === '__skip' ? 'left open on purpose' : 'you chose: ' + o.querySelector('.dlabel').textContent;
+        out.hidden = false;
+      } else out.hidden = true;
+    };
+    card.querySelectorAll('.dopt').forEach((o) => o.addEventListener('click', () => {
+      if (S.decisions[id] === o.dataset.key) delete S.decisions[id]; else S.decisions[id] = o.dataset.key;
+      save(); paint();
+    }));
+    paint();
+  });
+  function answers() {
+    const L = [];
+    document.querySelectorAll('.dcard').forEach((c) => {
+      const k = S.decisions[c.dataset.decision];
+      const o = k && [...c.querySelectorAll('.dopt')].find((x) => x.dataset.key === k);
+      L.push(c.querySelector('h3').textContent, '  -> ' + (!k ? '(not answered)' : k === '__skip' ? 'left open on purpose' : o.querySelector('.dlabel').textContent));
+    });
+    return L;
+  }
+  document.getElementById('copydec').addEventListener('click', () => {
+    navigator.clipboard.writeText(['Research page: my answers', ''].concat(answers()).join('\n')).then(() => toast('Answers copied. Paste them back in the chat.'));
+  });
+
+  /* ---------------- the annotation kit (pins, drawing, copy edits) ---------------- */
+  let mode = null;
+  const ctx = () => view + (view === 'options' ? ' / ' + B.options.find((o) => o.key === opt).tab : '');
+  document.querySelectorAll('#kit button').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.kit;
+    if (k === 'export') return exportNotes();
+    if (k === 'clear') {
+      if (!confirm('Clear every pin, drawing and copy edit on this board?')) return;
+      S.pins = []; S.edits = {}; S.strokes = []; save(); location.reload(); return;
+    }
+    mode = mode === k ? null : k;
+    document.querySelectorAll('#kit button').forEach((x) => x.classList.toggle('on', x.dataset.kit === mode));
+    document.body.classList.toggle('pin', mode === 'pin');
+    document.body.classList.toggle('draw', mode === 'draw');
+    document.body.classList.toggle('copyedit', mode === 'copyedit');
+    document.querySelectorAll('[data-ed]').forEach((el) => { el.contentEditable = mode === 'copyedit' ? 'true' : 'false'; });
+    if (mode) toast(mode === 'pin' ? 'Click anywhere to drop a note' : mode === 'draw' ? 'Drag to draw' : 'Click any text to rewrite it');
+  }));
+  function near(x, y) {
+    const el = document.elementFromPoint(x - scrollX, y - scrollY);
+    const t = el && (el.closest('.pentry,.chip,h2,h3,.card,.devwrap,td,p') || el);
+    return t ? (t.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 70) : '';
+  }
+  function paintPins() {
+    document.querySelectorAll('.pinmark').forEach((m) => m.remove());
+    S.pins.forEach((p, i) => {
+      if (p.view && p.view !== view) return;
+      const m = document.createElement('div');
+      m.className = 'pinmark'; m.textContent = i + 1;
+      m.style.left = p.x + 'px'; m.style.top = p.y + 'px';
+      m.addEventListener('click', (ev) => { ev.stopPropagation(); openPin(p, m); });
+      document.body.appendChild(m);
+    });
+  }
+  function openPin(p, m) {
+    document.querySelectorAll('.pinpop').forEach((x) => x.remove());
+    const pop = document.createElement('div');
+    pop.className = 'pinpop';
+    pop.style.left = p.x + 'px'; pop.style.top = p.y + 'px';
+    pop.innerHTML = '<textarea placeholder="what about this spot"></textarea><div class="prow"><button data-a="save">Save</button><button data-a="del">Delete</button></div>';
+    const ta = pop.querySelector('textarea');
+    ta.value = p.note || '';
+    pop.querySelector('[data-a="save"]').addEventListener('click', () => { p.note = ta.value; save(); pop.remove(); toast('Saved'); });
+    pop.querySelector('[data-a="del"]').addEventListener('click', () => { S.pins = S.pins.filter((x) => x !== p); save(); pop.remove(); paintPins(); });
+    pop.addEventListener('click', (ev) => ev.stopPropagation());
+    document.body.appendChild(pop);
+    ta.focus();
+  }
+  document.addEventListener('click', (ev) => {
+    if (mode !== 'pin') { if (!ev.target.closest('.pinpop')) document.querySelectorAll('.pinpop').forEach((x) => x.remove()); return; }
+    if (ev.target.closest('#kit') || ev.target.closest('.pinmark') || ev.target.closest('.pinpop')) return;
+    ev.preventDefault(); ev.stopPropagation();
+    const p = { x: ev.pageX, y: ev.pageY, note: '', view, ctx: ctx(), near: near(ev.pageX, ev.pageY) };
+    S.pins.push(p); save(); paintPins();
+    openPin(p, null);
+  }, true);
+
+  const cv = document.getElementById('ink'), cx = cv.getContext('2d');
+  function sizeCanvas() {
+    const H = document.documentElement.scrollHeight;
+    cv.width = document.documentElement.scrollWidth; cv.height = H; cv.style.height = H + 'px';
+    cx.strokeStyle = '#da7756'; cx.lineWidth = 2.5; cx.lineCap = 'round'; cx.lineJoin = 'round';
+    S.strokes.forEach((s) => {
+      if (s.view && s.view !== view) return;
+      const pts = s.pts || s;
+      cx.beginPath(); pts.forEach((pt, i) => (i ? cx.lineTo(pt[0], pt[1]) : cx.moveTo(pt[0], pt[1]))); cx.stroke();
+    });
+  }
+  let cur = null;
+  cv.addEventListener('pointerdown', (e) => { if (mode !== 'draw') return; cur = [[e.pageX, e.pageY]]; cx.beginPath(); cx.moveTo(e.pageX, e.pageY); });
+  cv.addEventListener('pointermove', (e) => { if (!cur) return; cur.push([e.pageX, e.pageY]); cx.lineTo(e.pageX, e.pageY); cx.stroke(); });
+  addEventListener('pointerup', () => { if (cur && cur.length > 1) { S.strokes.push({ view, pts: cur }); save(); } cur = null; });
+
+  document.querySelectorAll('[data-ed]').forEach((el, i) => {
+    const id = 'e' + i;
+    if (S.edits[id]) { el.textContent = S.edits[id].now; el.classList.add('edited'); el.dataset.orig = S.edits[id].orig; }
+    else el.dataset.orig = el.textContent.trim();
+    el.addEventListener('blur', () => {
+      const now = el.textContent.trim();
+      if (now === el.dataset.orig) { delete S.edits[id]; el.classList.remove('edited'); }
+      else { S.edits[id] = { orig: el.dataset.orig, now }; el.classList.add('edited'); }
+      save();
+    });
+  });
+
+  function exportNotes() {
+    const L = ['MY NOTES ON THE RESEARCH PAGE BOARD', ''];
+    if (S.pins.length) {
+      L.push('PINS');
+      S.pins.forEach((p, i) => L.push(`  ${i + 1}. [${p.ctx || p.view || ''}${p.near ? ', near "' + p.near + '"' : ''}] ${p.note || '(no text)'}`));
+      L.push('');
+    }
+    const ed = Object.values(S.edits);
+    if (ed.length) { L.push('COPY EDITS'); ed.forEach((e) => L.push(`  '${e.orig}' -> '${e.now}'`)); L.push(''); }
+    if (Object.keys(S.decisions).length) { L.push('DECISIONS'); answers().forEach((x) => L.push('  ' + x)); L.push(''); }
+    if (S.strokes.length) L.push(`(${S.strokes.length} freehand marks on the board)`);
+    L.push(`(viewed with: menu name ${G.label}, ${G.theme} theme, book preview ${G.book ? 'on' : 'off'})`);
+    if (L.length <= 3) { toast('Nothing marked yet'); return; }
+    navigator.clipboard.writeText(L.join('\n')).then(() => toast('Notes copied. Paste them back in the chat.'));
+  }
+
+  /* start */
+  showView('options');
+  showOption(opt, true);
+  paintPins();
+  setTimeout(sizeCanvas, 300);
+})();
+</script>
+</body></html>
