@@ -2,19 +2,22 @@ import type { Metadata } from "next";
 import { PageBanner } from "@/components/PageBanner";
 import { PublicationsSections } from "@/components/PublicationsSections";
 
+/* The Publications page (renamed from Research on Felipe's ruling 2026-10-12:
+   a book is a publication, not research). The old /research/ address
+   forwards here from app/research/page.tsx. */
 export const metadata: Metadata = {
-  title: "Research",
+  title: "Publications",
   description:
-    "Published research by Felipe M. Affonso on consumer decision-making, human-technology interactions, and marketing.",
-  alternates: { canonical: "/research/" },
+    "Publications by Felipe M. Affonso on consumer decision-making, human-technology interactions, and marketing.",
+  alternates: { canonical: "/publications/" },
 };
 
-// Machine-readable metadata for LLMs and bots — carried over verbatim.
+// Machine-readable metadata for LLMs and bots.
 const collectionLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Research — Felipe M. Affonso",
-  description: "Published research with machine-readable versions available for AI tools.",
+  name: "Publications by Felipe M. Affonso",
+  description: "Journal publications, preprints and book chapters, with machine-readable versions available for AI tools.",
   mainEntity: {
     "@type": "ItemList",
     itemListElement: [
@@ -28,9 +31,11 @@ const collectionLd = {
       },
       {
         "@type": "ScholarlyArticle",
-        name: "Credibility of More vs. Less Precise Predictions Depends on the Perceived Nature of Uncertainty",
+        name: "When Are Less Precise Predictions More Credible?",
         author: ["Eitan D. Rude", "Amin Shiri", "Felipe M. Affonso", "Hal E. Hershfield", "Craig R. Fox"],
         isPartOf: { "@type": "Periodical", name: "Journal of Experimental Psychology: General" },
+        sameAs: "https://doi.org/10.1037/xge0002029",
+        encoding: { "@type": "MediaObject", contentUrl: "/files/papers/precise-predictions.md", encodingFormat: "text/markdown" },
       },
       {
         "@type": "ScholarlyArticle",
@@ -109,14 +114,40 @@ const collectionLd = {
         sameAs: "https://doi.org/10.1002/mar.21205",
         encoding: { "@type": "MediaObject", contentUrl: "/files/papers/ad-skepticism.md", encodingFormat: "text/markdown" },
       },
+      {
+        "@type": "Chapter",
+        name: "Complexity in Visual Design: Psychological Mechanisms and Practical Implications",
+        author: ["Soo Yon Ryu", "Felipe M. Affonso", "Aner Sela"],
+        datePublished: "2027",
+        isPartOf: {
+          "@type": "Book",
+          name: "Advertising Theory",
+          bookEdition: "3rd edition",
+          editor: ["Shelly Rodgers", "Esther Thorson"],
+          publisher: { "@type": "Organization", name: "Routledge, Taylor & Francis Group" },
+        },
+      },
+      {
+        "@type": "Chapter",
+        name: "AI-Assisted Shopping: On the Preferences of Consumers and Machines",
+        author: "Felipe M. Affonso",
+        datePublished: "2027",
+        isPartOf: {
+          "@type": "Book",
+          name: "Consumer Psychology and AI",
+          bookEdition: "1st edition",
+          editor: "Martin Reimann",
+          publisher: { "@type": "Organization", name: "Wiley" },
+        },
+      },
     ],
   },
 };
 
-export default function ResearchPage() {
+export default function PublicationsPage() {
   return (
     <>
-      <PageBanner title="Research" />
+      <PageBanner title="Publications" />
       <main className="page research-page">
         <PublicationsSections />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }} />

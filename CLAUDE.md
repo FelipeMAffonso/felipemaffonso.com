@@ -10,7 +10,8 @@ how the site is built and the rules that govern changes to it.
 - Repo: https://github.com/FelipeMAffonso/felipemaffonso.com
 - Hosting: GitHub Pages. A push to `master` builds and deploys automatically.
 - Purpose: Felipe's academic home page. Five pages: Home (hero, photo, bio),
-  Research (publications list with expandable panels), Teaching (courses, awards,
+  Publications (renamed from Research 2026-10-12; a filter row and the list with
+  expandable panels; the old /research/ address forwards), Teaching (courses, awards,
   student quotes), CV (Drive PDF viewer plus a download), and Contact (office and
   social links).
 - Look: hairline borders, soft layered shadows, Geist type, a coral accent
@@ -44,7 +45,7 @@ felipemaffonso.com/
 â”‚   â”‚                         #   scripts, CV pdf prefetch, Providers, Nav, footer
 â”‚   â”œâ”€â”€ globals.css           # All design tokens + every component style
 â”‚   â”œâ”€â”€ page.tsx              # Home: hero, photo, bio, Person JSON-LD
-â”‚   â”œâ”€â”€ research/page.tsx     # Research: renders <PublicationsSections/>
+â”‚   â”œâ”€â”€ publications/page.tsx # Publications: renders <PublicationsSections/>
 â”‚   â”œâ”€â”€ teaching/page.tsx     # Teaching
 â”‚   â”œâ”€â”€ cv/page.tsx           # CV: intro, download link, the page-image viewer
 â”‚   â”œâ”€â”€ contact/page.tsx      # Contact
@@ -54,7 +55,7 @@ felipemaffonso.com/
 â”‚   â”œâ”€â”€ Providers.tsx         # ThemeProvider + SoundProvider wrapper
 â”‚   â”œâ”€â”€ Nav.tsx               # Top nav, mobile menu, page-change sound
 â”‚   â”œâ”€â”€ ParticleField.tsx     # Coral particle constellation (nav + hero)
-â”‚   â”œâ”€â”€ PublicationsSections.tsx  # The research list + the LOCKED panel
+â”‚   â”œâ”€â”€ PublicationsSections.tsx  # The filter row, the list + the LOCKED panel
 â”‚   â”œâ”€â”€ ThemeToggle.tsx       # Sun/moon toggle, baked morph animation
 â”‚   â”œâ”€â”€ SoundToggle.tsx       # Mute/unmute interaction sounds
 â”‚   â”œâ”€â”€ CvPdf.tsx             # The CV viewer: live PDF.js render as paper sheets
@@ -78,6 +79,28 @@ felipemaffonso.com/
 Content data lives in `lib/publications.tsx` (Research) and directly in the page
 components (`app/teaching/page.tsx`, `app/contact/page.tsx`, the home bio in
 `app/page.tsx`).
+
+## The Publications page (Felipe's rulings, 2026-10-12)
+
+- NAME: the page is Publications at /publications/ (it was Research at /research/). His reason: a
+  book such as a Principles of Marketing textbook is a publication, not research. The old address
+  is the static file `public/research/index.html`: a 0-second meta refresh plus a script that keeps
+  any #anchor, and a canonical tag naming /publications/. It is a plain file on purpose: a Next.js
+  `permanentRedirect` in the static export writes no refresh tag and forwards only after
+  JavaScript loads, so search engines and no-JS visitors would land on a blank page.
+- SECTION ORDER, his words "i'm a researcher. it's journal publications, preprints, books, book
+  chapters": Journal Publications, Preprints, Books, Book Chapters. The order is the `SECTIONS`
+  array in `components/PublicationsSections.tsx`; the data arrays are `journals`, `preprints`,
+  `books`, `chapters` in `lib/publications.tsx`. A kind with no entries renders nothing, its
+  filter button included, so Books appears by itself when the first book is added.
+- THE FILTER ROW (option B of the board in `docs/research-page-options/`): All plus one button per
+  kind, each with its count, sticky under the fixed nav, opaque. It behaves like shadcn's single
+  toggle group (arrow keys, Home/End, aria-pressed) but is written in the site's own CSS; there is
+  no shadcn dependency. Phones show the short labels (Journal, Preprints, Books, Chapters).
+  `.pub-entry` scroll-margin-top is 136px so an opened entry lands below the nav and the row.
+- DATA AND CODE ON RESEARCHBOX: link kind `researchbox`, icon `ResearchBoxIcon` in
+  `components/icons.tsx` (the ResearchBox mark redrawn in the site's icon voice). Label
+  "Data and code", desc "researchbox.org/<id>", so four buttons still fit one row.
 
 ## Design system
 
@@ -365,7 +388,7 @@ retired `src/index.njk`.
 Note on paths: this pipeline is preserved verbatim from the earlier build. The
 machine-readable `.md` files now live in `public/files/papers/` (served at
 `/files/papers/`), not `src/files/papers/`, and the research page is
-`app/research/page.tsx` with its data in `lib/publications.tsx`, not `research.njk`.
+`app/publications/page.tsx` (formerly app/research) with its data in `lib/publications.tsx`, not `research.njk`.
 The pandoc-not-LLM rule and the verification checklist are unchanged and binding.
 
 Machine-readable `.md` files live in `src/files/papers/` and are downloadable from the research page. They are for AI tools (NotebookLM, Claude, ChatGPT, etc.).
@@ -469,6 +492,19 @@ npm run build && git add -A && git commit -m "Add paper-slug .md" && git push
 | `simple-eco-friendly.md` | Ryu et al. (2025) JA | 1,012 |
 | `behavioral-governance.md` | Affonso (2025) RP | 1,093 |
 | `point-vs-range.md` | Shiri, Affonso, Wilcox (2026, forthcoming) JMR | 1,310 |
+| `precise-predictions.md` | Rude, Shiri, Affonso, Hershfield, Fox (forthcoming) JEP:G | 801 |
+
+`precise-predictions.md` (2026-10-12) had no DOCX or EPUB, only the authors' accepted-manuscript PDF
+(Google Docs, 69 pages with the online supplement), and pandoc does not read PDF. It is built by
+`docs/machine-readable/precise-predictions/build.py`, deterministically, no language model: PyMuPDF
+reads lines with positions and fonts, fixed rules measured on that PDF make the Markdown, ruled
+tables come from pymupdf4llm or from word positions, and figures become a pointer to their PDF
+page. The script refuses to write unless (1) every printed character matches xpdf's pdftotext of
+the same PDF (73,878 characters, tables included) and (2) every prose paragraph appears word for
+word in the PDF's order; `--selftest` proves both checks catch planted faults, and `VERIFY.txt`
+beside it is the banked report. The pages were also read visually against the PDF (title page,
+author note, a footnote page, the references, Tables 1, 2, S1, S12 to S14, a figure page). For the
+next PDF-only paper, copy that folder and re-measure the layout constants at its top.
 
 Figure convention since point-vs-range (2026-09-20): every figure or stimulus image becomes
 `**Alt text:** <one line>`, then `[<long description>]`, then a `*Note: ...*` naming the source

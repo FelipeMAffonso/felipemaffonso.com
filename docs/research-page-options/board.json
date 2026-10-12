@@ -12,12 +12,12 @@
  },
  "pick": {
   "option": "B",
-  "headline": "My pick: option B, and keep the name Research.",
+  "headline": "My pick: option B, and rename the page Publications.",
   "reasons": [
    "Sixteen entries are about two screens on a laptop and three on a phone. That is not bloated, and a list of 25 would not be either, because every entry stays one to three lines until someone opens it. A second page would only make visitors click to find out what you have.",
    "Today a visitor sees three preprints before the first published paper, and on a phone the Journal Publications heading sits at the bottom of the first screen. Published work should come first.",
    "The row of buttons with counts tells a visitor what is on the page and how much before they scroll, which is the signal you asked about. A search committee member can tap Journal publications and see only those. A Books button appears by itself the day a book is added.",
-   "Keep Research as the menu name. It sits next to Teaching, which also names an activity, and it covers preprints, which are not publications yet. Changing it also changes the page title Google shows, and moving the address would need a forwarding page so old links keep working.",
+   "Call the page Publications (your ruling, 2026-10-12): a book such as a Principles of Marketing textbook is a publication, not research. Preprints sit under Publications in their own labeled section, as on most academic sites. The page moves to felipemaffonso.com/publications/; a small page left at /research/ sends visitors on, so old links keep working, and the page tells Google the new address is the main one.",
    "You do not need shadcn. The site does not use shadcn components; the button row would be written in the site's own styles (the same coral, borders and type) and would behave like shadcn's toggle group: arrow keys move between buttons and screen readers announce which one is on. No new package."
   ]
  },
@@ -49,10 +49,10 @@
   {
    "key": "C",
    "tab": "C. By year",
-   "name": "Publications, newest first, grouped by year",
-   "what": "The page is renamed Publications. Everything is listed newest first under year headings, with a small tag saying what each entry is. Preprints go last because they have no year. The filter row narrows by kind.",
+   "name": "Newest first, grouped by year",
+   "what": "Everything is listed newest first under year headings, with a small tag saying what each entry is. Preprints go last because they have no year. The filter row narrows by kind.",
    "good": ["Shows a steady record over the years.", "The tags make a chapter easy to tell from an article."],
-   "cost": ["Renaming changes the menu, the page title and possibly the address.", "The year headings split the eleven articles into six small groups.", "The Forthcoming group mixes articles and chapters, so the most important work is not grouped by kind."]
+   "cost": ["The year headings split the eleven articles into six small groups.", "The Forthcoming group mixes articles and chapters, so the most important work is not grouped by kind."]
   },
   {
    "key": "D",
@@ -70,13 +70,13 @@
    ["See only one kind", "No", "No", "Yes", "Yes", "No, it jumps instead"],
    ["Where a future book goes", "A new section somewhere", "A Books section at the top", "A Books section and button", "In its year, tagged Book", "A Books section and index entry"],
    ["On a phone", "Same as today", "One extra line at the top", "One line that stays in view", "One line that stays in view", "One line that stays in view"],
-   ["Menu name and address", "Unchanged", "Unchanged", "Unchanged", "Changes to Publications", "Unchanged"],
-   ["Work to build", "Data only", "Small", "Medium", "Medium, plus the rename", "Largest"]
+   ["Menu name and address", "Research, /research/", "Publications, /publications/", "Publications, /publications/", "Publications, /publications/", "Publications, /publications/"],
+   ["Work to build", "Data only", "Small", "Medium", "Medium", "Largest"]
   ]
  },
  "decisions": [
-  {"id": "layout", "q": "Which layout?", "options": [["today", "As it is, chapters at the bottom"], ["A", "A. Jump line"], ["B", "B. Filter row (my pick)"], ["C", "C. By year, renamed Publications"], ["D", "D. Side index"]]},
-  {"id": "label", "q": "What should the menu call the page?", "options": [["research", "Research (the address stays /research/)"], ["publications", "Publications (keep /research/ working for old links)"]]},
+  {"id": "layout", "q": "Which layout?", "options": [["today", "As it is, chapters at the bottom"], ["A", "A. Jump line"], ["B", "B. Filter row (my pick)"], ["C", "C. By year"], ["D", "D. Side index"]]},
+  {"id": "label", "q": "What should the menu call the page?", "options": [["publications", "Publications, at /publications/, with /research/ forwarding (my pick)"], ["research", "Research, at /research/ as today"]]},
   {"id": "order", "q": "Where do the preprints go?", "options": [["below", "Below the published work (my pick)"], ["above", "Above, as today"]]},
   {"id": "sticky", "q": "Should the button row stay in view while scrolling?", "options": [["stay", "Stay under the menu bar (my pick)"], ["scroll", "Scroll away with the page"]]}
  ],
@@ -84,7 +84,7 @@
   ["Abstracts and links for the two chapters", "Not in your CV or on the site yet", "Without them a chapter line cannot open a panel the way a paper does, so the mockups show the chapters without the arrow", "You: the two abstracts, and the publisher pages once they exist"],
   ["The open panel (buttons, story, abstract)", "Locked by your rule in the site's CLAUDE.md", "Identical in every option; only the list around it changes", "Nothing"],
   ["The data search engines read", "The page carries a hidden list of its papers for Google", "The two chapters get added there as chapters", "Me, in the same change"],
-  ["Renaming to Publications", "Only if you pick C or the Publications label", "The menu label and page title are simple to change; moving the address needs a forwarding page so old links and Google results keep working", "Your decision"],
+  ["Renaming to Publications", "Recommended; you raised it on 2026-10-12", "The menu label, page title and sitemap change in the same edit; a forwarding page at /research/ keeps old links working, and Google shows the new title and address within a few weeks of its next visit", "Me, when you say go"],
   ["Books", "None yet", "A Books section and button appear only when the first book is added, never an empty heading", "Nothing now"],
   ["The section names", "The mockups keep today's Preprints and Journal Publications", "Renaming them, for example to Working papers, is a separate choice; I did not change them", "Your decision, if you want one"]
  ]

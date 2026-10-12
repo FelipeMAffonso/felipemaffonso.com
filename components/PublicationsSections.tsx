@@ -15,13 +15,13 @@
    click). No poster cards, no writing on panel art.
    ============================================================ */
 
-import { useState, type CSSProperties, type KeyboardEvent } from "react";
-import { preprints, journals, type Pub, type PubLink } from "@/lib/publications";
+import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type KeyboardEvent } from "react";
+import { preprints, journals, books, chapters, type Pub, type PubLink } from "@/lib/publications";
 import { useSound } from "@/lib/sound";
 import { PageStrip } from "./PageStrip";
 import { PubCover } from "./PubCover";
 import {
-  JournalIcon, DownloadIcon, OsfIcon, GitHubGlyph, ArxivIcon, PsyArxivIcon, SsrnIcon,
+  JournalIcon, DownloadIcon, OsfIcon, ResearchBoxIcon, GitHubGlyph, ArxivIcon, PsyArxivIcon, SsrnIcon,
 } from "./icons";
 
 function LinkIcon({ kind }: { kind: PubLink["kind"] }) {
@@ -29,6 +29,7 @@ function LinkIcon({ kind }: { kind: PubLink["kind"] }) {
     case "journal": return <JournalIcon />;
     case "download": return <DownloadIcon />;
     case "osf": return <OsfIcon />;
+    case "researchbox": return <ResearchBoxIcon />;
     case "github": return <GitHubGlyph />;
     case "arxiv": return <ArxivIcon />;
     case "psyarxiv": return <PsyArxivIcon />;
@@ -104,10 +105,120 @@ function PublicationEntry({
   );
 }
 
+/* Section order (Felipe 2026-10-12): Journal Publications, Preprints, Books,
+   Book Chapters. A kind with no entries renders nothing, its button included,
+   so Books appears by itself the day lib/publications.tsx gets one. */
+type SectionKey = "journal" | "preprint" | "book" | "chapter";
+type Filter = "all" | SectionKey;
+type Section = { key: SectionKey; title: string; label: string; short: string; pubs: Pub[] };
+const SECTIONS: Section[] = ([
+  { key: "journal", title: "Journal Publications", label: "Journal publications", short: "Journal", pubs: journals },
+  { key: "preprint", title: "Preprints", label: "Preprints", short: "Preprints", pubs: preprints },
+  { key: "book", title: "Books", label: "Books", short: "Books", pubs: books },
+  { key: "chapter", title: "Book Chapters", label: "Book chapters", short: "Chapters", pubs: chapters },
+] as Section[]).filter((s) => s.pubs.length > 0);
+const TOTAL = SECTIONS.reduce((n, s) => n + s.pubs.length, 0);
+const NAV_H = 64;
+
+/* The filter row: one button per kind with its count, sticky under the fixed
+   nav. Behaves like shadcn's single toggle group (arrow keys, Home/End,
+   aria-pressed) in the site's own styles; the thumb slides to the pressed
+   button over 0.3s on the house curve. */
+function FilterRow({ filter, onPick }: { filter: Filter; onPick: (f: Filter) => void }) {
+  const rowRef = useRef<HTMLDivElement>(null);
+  const segRef = useRef<HTMLDivElement>(null);
+  const thumbRef = useRef<HTMLSpanElement>(null);
+  const [stuck, setStuck] = useState(false);
+
+  useLayoutEffect(() => {
+    const place = () => {
+      const seg = segRef.current, thumb = thumbRef.current;
+      const on = seg?.querySelector<HTMLButtonElement>('[aria-pressed="true"]');
+      if (!seg || !thumb || !on) return;
+      thumb.style.transform = `translateX(${on.offsetLeft}px)`;
+      thumb.style.width = `${on.offsetWidth}px`;
+      if (on.offsetLeft < seg.scrollLeft || on.offsetLeft + on.offsetWidth > seg.scrollLeft + seg.clientWidth) {
+        seg.scrollTo({ left: on.offsetLeft - 12, behavior: "smooth" });
+      }
+    };
+    place();
+    // enable the slide only after the first placement, and re-place once the
+    // self-hosted font has settled the button widths
+    const raf = requestAnimationFrame(() => segRef.current?.classList.add("ready"));
+    document.fonts?.ready.then(place);
+    window.addEventListener("resize", place);
+    return () => { cancelAnimationFrame(raf); window.removeEventListener("resize", place); };
+  }, [filter]);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const r = rowRef.current;
+      if (r) setStuck(r.getBoundingClientRect().top <= NAV_H + 0.5);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const buttons: { key: Filter; label: string; short: string; n: number }[] = [
+    { key: "all", label: "All", short: "All", n: TOTAL },
+    ...SECTIONS.map((s) => ({ key: s.key, label: s.label, short: s.short, n: s.pubs.length })),
+  ];
+  const onKey = (e: KeyboardEvent<HTMLDivElement>) => {
+    const i = buttons.findIndex((b) => b.key === filter);
+    const to = e.key === "ArrowRight" ? (i + 1) % buttons.length
+      : e.key === "ArrowLeft" ? (i - 1 + buttons.length) % buttons.length
+      : e.key === "Home" ? 0 : e.key === "End" ? buttons.length - 1 : -1;
+    if (to < 0) return;
+    e.preventDefault();
+    onPick(buttons[to].key);
+    segRef.current?.querySelectorAll<HTMLButtonElement>(".pub-filter-btn")[to]?.focus();
+  };
+
+  return (
+    <div ref={rowRef} className={`pub-filter enter${stuck ? " stuck" : ""}`}>
+      <div ref={segRef} className="pub-filter-seg" role="toolbar" aria-label="Show publications" onKeyDown={onKey}>
+        <span ref={thumbRef} className="pub-filter-thumb" aria-hidden="true" />
+        {buttons.map((b) => (
+          <button
+            key={b.key}
+            type="button"
+            className="pub-filter-btn"
+            aria-pressed={filter === b.key}
+            tabIndex={filter === b.key ? 0 : -1}
+            onClick={() => onPick(b.key)}
+            data-cuelume-press=""
+            data-cuelume-release=""
+          >
+            <span className="pub-filter-long">{b.label}</span>
+            <span className="pub-filter-short">{b.short}</span>
+            <span className="pub-filter-n">{b.n}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function PublicationsSections() {
   const [openId, setOpenId] = useState<string | null>(null);
+  const [filter, setFilter] = useState<Filter>("all");
+  const listRef = useRef<HTMLDivElement>(null);
   const { play } = useSound();
   const pressSounds = true;
+
+  const pick = (f: Filter) => {
+    if (f === filter) return;
+    /* if the row is stuck under the nav, bring the top of the list back up
+       under it, so the reader lands on the first entry of the new view */
+    const list = listRef.current;
+    const bar = document.querySelector<HTMLElement>(".pub-filter");
+    if (list && bar) {
+      const top = list.getBoundingClientRect().top + window.scrollY - NAV_H - bar.offsetHeight - 8;
+      if (window.scrollY > top) window.scrollTo({ top, behavior: "auto" });
+    }
+    setFilter(f);
+  };
 
   const toggle = (id: string) => {
     setOpenId((prev) => {
@@ -127,7 +238,8 @@ export function PublicationsSections() {
         const el = document.getElementById(`pub-${id}`);
         if (!el) return;
         const r = el.getBoundingClientRect();
-        const navLine = 72;
+        const bar = document.querySelector<HTMLElement>(".pub-filter");
+        const navLine = 72 + (bar ? bar.offsetHeight : 0);
         if (r.top < navLine || r.bottom > window.innerHeight) {
           const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
           el.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" });
@@ -150,20 +262,23 @@ export function PublicationsSections() {
     />
   );
 
+  const shown = filter === "all" ? SECTIONS : SECTIONS.filter((s) => s.key === filter);
+
   return (
     <>
       <PageStrip page="research" />
+      <FilterRow filter={filter} onPick={pick} />
 
-      <section className="section">
-        <h2 className="section-title enter">Preprints</h2>
-        <ol className="pub-list">{preprints.map(render)}</ol>
-      </section>
-
-      <section className="section">
-        <h2 className="section-title enter">Journal Publications</h2>
-        <p className="pub-note-sub enter"><em>*Denotes equal authorship</em></p>
-        <ol className="pub-list">{journals.map(render)}</ol>
-      </section>
+      {/* keyed on the filter so a new view replays the house entrance */}
+      <div ref={listRef} key={filter} className="pub-sections">
+        {shown.map((s) => (
+          <section className="section" key={s.key} id={`pubs-${s.key}`}>
+            <h2 className="section-title enter">{s.title}</h2>
+            {s.key === "journal" && <p className="pub-note-sub enter"><em>*Denotes equal authorship</em></p>}
+            <ol className="pub-list">{s.pubs.map(render)}</ol>
+          </section>
+        ))}
+      </div>
     </>
   );
 }

@@ -7,7 +7,7 @@ const BASE = "https://felipemaffonso.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const routes = ["/", "/research/", "/teaching/", "/cv/", "/contact/"];
+  const routes = ["/", "/publications/", "/teaching/", "/cv/", "/contact/"];
   return routes.map((path) => ({
     url: BASE + path,
     lastModified: now,

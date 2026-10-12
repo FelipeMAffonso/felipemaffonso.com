@@ -38,6 +38,22 @@ export function OsfIcon() {
   );
 }
 
+export function ResearchBoxIcon() {
+  // ResearchBox mark (researchbox.org/favicon1.svg, read 2026-10-12): a square split into four boxes, filled
+  // circles top left and bottom left, an open circle top right. Drawn in the site's icon voice beside the OSF
+  // flower: the frame and the open circle are stroked, the two filled circles take the brand-mark fill.
+  return (
+    <svg className="pub-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="2" y="2" width="20" height="20" rx="1" />
+      <line x1="12" y1="2" x2="12" y2="22" strokeWidth="1.5" />
+      <line x1="2" y1="12" x2="22" y2="12" strokeWidth="1.5" />
+      <circle className="pub-link-icon-fill" cx="7" cy="7" r="3" />
+      <circle className="pub-link-icon-fill" cx="7" cy="17" r="3" />
+      <circle cx="17" cy="7" r="2.6" strokeWidth="1.5" />
+    </svg>
+  );
+}
+
 export function GitHubGlyph() {
   // GitHub mark — brand (fill), used for interactive explorers / repos
   return (

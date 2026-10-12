@@ -4,7 +4,7 @@
   let S;
   try { S = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { S = {}; }
   S.pins = S.pins || []; S.edits = S.edits || {}; S.decisions = S.decisions || {}; S.strokes = S.strokes || [];
-  S.g = Object.assign({ label: 'Research', theme: 'light', book: false }, S.g || {});
+  S.g = Object.assign({ label: 'Publications', theme: 'light', book: false }, S.g || {});
   const G = S.g;
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
   const toast = (m) => { const t = document.getElementById('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('on'), 2200); };
@@ -123,7 +123,7 @@
   }
 
   function siteHTML(layout, device) {
-    const label = layout === 'C' ? 'Publications' : G.label;
+    const label = layout === 'today' ? 'Research' : G.label;
     const wide = layout === 'D' && device === 'desktop';
     return `<div class="site ${G.theme === 'dark' ? 'dark' : ''} ${device}"><div class="screen">${nav(device, label)}<div class="sbanner"><h1>${label}</h1></div>${strip()}<main class="spage${wide ? ' wide' : ''} L${layout}">${content(layout, device)}</main></div></div>`;
   }
@@ -141,7 +141,7 @@
   }
 
   function render(inst) {
-    const url = 'felipemaffonso.com/research/';
+    const url = inst.layout !== 'today' && G.label === 'Publications' ? 'felipemaffonso.com/publications/' : 'felipemaffonso.com/research/';
     inst.host.innerHTML = inst.device === 'desktop'
       ? `<div class="dev desktop"><div class="chrome"><i></i><i></i><i></i><div class="url">${url}</div></div>${siteHTML(inst.layout, 'desktop')}<div class="cursor"></div></div>`
       : `<div class="dev phone"><div class="notch"></div>${siteHTML(inst.layout, 'phone')}<div class="cursor"></div></div>`;
