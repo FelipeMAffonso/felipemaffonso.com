@@ -23,6 +23,12 @@ const collectionLd = {
     itemListElement: [
       {
         "@type": "ScholarlyArticle",
+        name: "Interdependent Conditions for Successful Human-AI Delegation",
+        author: ["Felipe M. Affonso", "Mark Steyvers"],
+        isPartOf: { "@type": "Periodical", name: "Trends in Cognitive Sciences" },
+      },
+      {
+        "@type": "ScholarlyArticle",
         name: "When Consumers Prefer Point Versus Range Estimates of Product Performance",
         author: ["Amin Shiri", "Felipe M. Affonso", "Keith Wilcox"],
         isPartOf: { "@type": "Periodical", name: "Journal of Marketing Research" },

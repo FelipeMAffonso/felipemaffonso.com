@@ -94,6 +94,23 @@ export const preprints: Pub[] = [
 
 export const journals: Pub[] = [
   {
+    /* Conditionally accepted at TiCS, 2026-10-13 (decision on TICS-D-26-00180R1). Felipe: "you only have the
+       abstract, nothing else", so no buttons and no cover yet. Citation as in the cv repo; abstract verbatim from
+       the R1 manuscript submitted 2026-09-04 (research-intelligent-machine-delegation,
+       tics/output/SUBMISSION_PACKAGE_R1/Manuscript.docx, read with pandoc). */
+    id: "human-ai-delegation",
+    citation: (
+      <>
+        <strong>Affonso, Felipe M.</strong> and Mark Steyvers (conditionally accepted), &quot;Interdependent Conditions for Successful Human-AI Delegation,&quot; <em>Trends in Cognitive Sciences</em>.
+      </>
+    ),
+    abstract: (
+      <>
+        <strong>Abstract:</strong> People increasingly rely on AI systems for consequential tasks. The gains are real yet difficult to realize reliably. We identify four psychological and structural conditions for successful delegation: accurate human assessment of AI capabilities, calibrated AI uncertainty communication, sustained human monitoring capacity, and compatible task structure. Each condition is well studied, yet we propose that they form an interdependent system in which each one’s effectiveness depends on the state of the others. Because these dependencies are bidirectional, we suggest they can compound over time into virtuous cycles or cascading degradation, and improving any single condition can fail or shift the bottleneck. These dynamics should intensify as AI moves from advisory roles to autonomous agents, where reviewing every output is infeasible.
+      </>
+    ),
+  },
+  {
     id: "point-vs-range",
     citation: (
       <>
