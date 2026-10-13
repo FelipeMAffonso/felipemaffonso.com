@@ -37,7 +37,7 @@ export default function Home() {
           <PixelPortrait />
           <div className="hero-bio">
             <p>
-              Felipe M. Affonso is an Assistant Professor of Marketing at Oklahoma State University. He received his Ph.D. in Marketing from the University of Florida. His research focuses on consumer judgment and decision-making, consumer inference-making, human-AI interaction and technology, and health, environment, and policy. His work has been published in leading academic journals, including <em>Journal of Consumer Research</em>, <em>Journal of Marketing Research</em>, <em>Journal of Marketing</em>, <em>Research Policy</em>, and <em>Journal of Experimental Psychology: General</em>.
+              Felipe M. Affonso is an Assistant Professor of Marketing at Oklahoma State University. He received his Ph.D. in Marketing from the University of Florida. His research focuses on consumer judgment and decision-making, consumer inference-making, human-AI interaction and technology, and health, environment, and policy. His work has been published in leading academic journals, including <em>Trends in Cognitive Sciences</em>, <em>Journal of Consumer Research</em>, <em>Journal of Marketing Research</em>, <em>Journal of Marketing</em>, and <em>Research Policy</em>.
             </p>
           </div>
         </div>
