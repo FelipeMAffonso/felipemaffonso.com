@@ -4,9 +4,10 @@
    PixelPoster — the animated LED-grid poster card.
    A fixed grid of flat rounded cells on a card; unlit cells
    stay faintly visible; the four corner cells are permanently
-   dim anchors; the artwork is either a noise ENGINE motif or a
-   narrative STORY (lib/pixelStories). Below the grid: a slab
-   serif title and a quiet caption.
+   dim anchors; the artwork is a noise ENGINE motif. (The
+   narrative pixel stories were removed with the publication
+   story covers on 2026-10-20.) Below the grid: a slab serif
+   title and a quiet caption.
 
    Theme-adaptive (Felipe 2026-07-19): dark theme keeps the
    night card; light theme lightens the card chrome (CSS) and
@@ -20,12 +21,10 @@
 
 import { useEffect, useRef } from "react";
 import { ENGINES, type Grid, type MotifSpec } from "@/lib/pixelEngine";
-import { STORIES, renderStory } from "@/lib/pixelStories";
 import { adaptPalette, useIsLight, CELL_TINTS } from "@/lib/pixelTheme";
 
 type Props = {
   spec?: MotifSpec;
-  story?: string;
   cols?: number;
   rows?: number;
   title: string;
@@ -44,16 +43,15 @@ function hexToRgb(hex: string): [number, number, number] {
 }
 
 export function PixelPoster({
-  spec, story, cols, rows, title, caption, active = true, alwaysDark = false, className = "",
+  spec, cols, rows, title, caption, active = true, alwaysDark = false, className = "",
 }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const hostRef = useRef<HTMLElement>(null);
   const isLight = useIsLight() && !alwaysDark;
 
-  const storyDef = story ? STORIES[story] : undefined;
-  const nCols = storyDef ? storyDef.cols : (cols ?? 20);
-  const nRows = storyDef ? storyDef.rows : (rows ?? 14);
-  const baseColors = storyDef ? storyDef.colors : (spec?.colors ?? []);
+  const nCols = cols ?? 20;
+  const nRows = rows ?? 14;
+  const baseColors = spec?.colors ?? [];
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -115,7 +113,6 @@ export function PixelPoster({
 
     const draw = (tt: number) => {
       ctx.clearRect(0, 0, canvas.clientWidth, cell * nRows);
-      const buf = storyDef ? renderStory(storyDef, tt) : null;
       for (let y = 0; y < nRows; y++) {
         for (let x = 0; x < nCols; x++) {
           const corner = (x === 0 || x === nCols - 1) && (y === 0 || y === nRows - 1);
@@ -123,7 +120,7 @@ export function PixelPoster({
             drawCell(x, y, tints.anchor);
             continue;
           }
-          const c = buf ? buf[y * nCols + x] : engine && grid ? engine(x, y, tt, grid) : null;
+          const c = engine && grid ? engine(x, y, tt, grid) : null;
           if (!c || c.v <= 0.02) {
             drawCell(x, y, tints.fill, tints.stroke);
             continue;
@@ -176,7 +173,7 @@ export function PixelPoster({
       io.disconnect();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [spec, story, nCols, nRows, active, isLight]);
+  }, [spec, nCols, nRows, active, isLight]);
 
   return (
     <figure

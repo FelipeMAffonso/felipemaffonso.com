@@ -290,12 +290,13 @@ ADAPTIVE â€” light theme gets a light card (site surface tokens) with adapt
 cell colors (lib/pixelTheme: near-white becomes ink, the rest darkens a step);
 dark theme gets the night card (#16171b family, cool neutral tints, never warm
 brown). The portrait back and the Spears dusk scene stay dark (alwaysDark).
-STORIES (Felipe 2026-07-19): most papers now use narrative motifs in
-lib/pixelStories.ts (ASCII-sprite phase timelines that depict the paper: the
-three provider marks for Strategic Personalities, the box-and-price-tag reveal
-for Concealing Prices, ...); Space Commons keeps orbit, Disease Cues keeps
-contagion. The cover slot in an open panel (172px, PubCover) shows the story
-by default and flips to the real journal cover on click; the pixel-quantized
+STORIES: from 2026-07-19 the publication cover slots showed narrative pixel
+stories that flipped to the journal cover on click. Felipe removed them on
+2026-10-20 ("I changed my mind. remove all pixel ones. keep only journal and
+book covers. enough with it. the book chapters will not have anything"): the
+slot is the plain cover again, and an entry with no cover shows nothing. The
+last versions of all seventeen stories, their kit and the preview tooling are
+on the branch pixel-stories-tics-chapters. The pixel-quantized
 journal covers were built, judged bad, and deleted. The Spears card cycles on
 click (dither / LED / pixel art) with the scanline on every face.
 
@@ -306,9 +307,6 @@ Parts:
 - `components/PixelPoster.tsx` â€” the canvas poster card: draws the grid at
   ~10fps, runs only while on screen and while `active`, reduced motion runs the
   same loop at 0.4x (calmer, never frozen).
-- `lib/posterConfigs.ts` â€” one poster per publication id plus the teaching
-  card: engine, palette (every palette carries one coral note), grid size,
-  title, caption.
 - `components/PixelPortrait.tsx` â€” the Home easter egg: clicking the headshot
   flips it (3D card flip, faces carry the frame; the outer drops overflow so
   the flip is not flattened) to a living grid portrait. Two modes:
@@ -331,73 +329,18 @@ SHIPPED STATE (adjudicated and baked 2026-07-19; the variant switcher, the
 titles (Ultra removed), bare PageStrip headers on Research, Teaching, CV, and
 Contact (each its own engine pattern; clicking a strip cycles coral, teal,
 slate, and dusty-rose palettes; Home has NO strip, the hero keeps the particle
-constellation), the two-face story cover inside every open Research panel
-(PubCover: story by default at the cover''s exact aspect, the real journal
-cover on click, hover narrates the story via the tells field), the constellation
+constellation), the plain journal and book covers in every open Publications
+panel (the pixel story covers were removed on 2026-10-20), the constellation
 portrait flip on Home, line icons in the navbar, brand icons everywhere else,
 the gradient nav hover, the LED footer strip on every page, the cycling Spears
 card on Contact, and NO poster cards or writing on panel art anywhere. Cards
 are theme adaptive via lib/pixelTheme.
 
-## How to write a great pixel story (lib/stories/<paper id>.ts)
+## Pixel stories (removed 2026-10-20)
 
-The bar (Felipe 2026-07-19): stories must be genuinely beautiful and must
-depict the paper, not decorate it. RAISED 2026-10-20 (Felipe, on the TiCS gears,
-the passerby and posters, and the shopping drone: "cool crisp ones! that's the
-bar for ALL OF THEM. it has to actually tell the story"; and "what matters are
-the visuals"). The reference stories are lib/stories/human-ai-delegation.ts,
-simple-eco-friendly.ts and ai-assisted-shopping.ts: full scenes with
-characters, machines and props that act, on a portrait grid about 30 columns
-wide and tall enough to fill the cover (rows near 30 x the cover's height over
-width), three or four phases, 16 to 23 seconds, each phase one cause and its
-visible effect. Where the work lives and how it is checked:
-
-- One file per paper in lib/stories/, exporting `story`; the shared drawing
-  vocabulary (spr, box, fill, line, ring, burst, path, ease, coast, spinUp)
-  is lib/stories/kit.ts. lib/pixelStories.ts only registers the files.
-- Look at every story before calling it done:
-  `python docs/story-preview/sheet.py <paper id> --aspect <cover h/w>` renders
-  16 frames over one loop to docs/story-preview/_work/<id>-sheet.png, drawn
-  exactly as the cover slot draws them; add `--theme light` for light mode.
-  `node docs/story-preview/build.mjs` builds the preview page
-  (docs/story-preview/index.html) from docs/story-preview/stories.json.
-- Crisp means readable at 170px: anything that must read is drawn at
-  brightness 0.5 or more; low-brightness fills turn to mud (the first coral
-  rings in the shopping story read as a brown smudge until they were thinned
-  and brightened).
-- A book chapter with no cover yet shows the story alone: cover.storyOnly in
-  lib/publications.tsx (Felipe 2026-10-20: no placeholder covers for books).
-
-Rules learned so far:
-
-1. One idea per phase. A phase is a sentence: "the robot falls in the trap."
-   If you cannot say the phase in one sentence, split it. (The old limit of
-   two to three phases and 10 to 18 seconds was raised on 2026-10-20 as above.)
-2. Draw THINGS, not noise: sprites (ASCII cell art via spr()) for actors and
-   objects (a price tag, a die, a graduation cap, the provider marks), simple
-   fills for structures. The viewer should recognize the actor before the
-   motion starts.
-3. Space is part of the composition. Most of the grid stays dark; the story
-   letterboxes into the journal-cover aspect inside the cover slot, so design
-   for a calm dark margin above and below.
-4. Motion should be slow beats, not animation-easing: things appear (env fade),
-   travel on integer cells, and resolve. One burst, sweep, or flash per story
-   is an effect; two is noise.
-5. Color is meaning: one color per actor or faction, the coral reserved for
-   the paper's key moment, red only for harm or failure, green only for
-   success. Palettes are 4 to 6 colors and must survive adaptPalette in light
-   mode (avoid two tones that collapse into the same ink).
-6. End states must read: hold the resolution (the split bars, the flagged
-   robot, the gold burst fading) for at least a second before the loop.
-7. Every story carries a `tells` line in posterConfigs: the hover text, one
-   or two plain sentences that state the paper's point (Felipe 2026-10-20:
-   the long hover lines were "confusing and too much words"; "the visuals
-   will do the talk"). The words follow the visuals, never the other way
-   round: "do not simplify the pixel stories and visuals just because it
-   doesnt fit the sentences and words". A rich story keeps its richness and
-   the hover line names only its point.
-8. Verify by WATCHING the rendered story (screenshots at two or three points
-   in the cycle), never by reading the code.
+The publication pixel stories and their guide (how to write one, the bar Felipe
+set on 2026-10-20, the contact-sheet tool) are archived on the branch
+pixel-stories-tics-chapters. Do not bring them back without Felipe asking.
 
 ## Journals sentence convention
 

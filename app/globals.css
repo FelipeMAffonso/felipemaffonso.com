@@ -1037,62 +1037,12 @@ img.pub-link-icon { stroke: none; }
 .poster-bare figcaption { display: none; }
 .poster-bare:hover { box-shadow: none; border: none; }
 
-/* ---- the two-face story cover ------------------------------- */
-/* slightly larger than the locked 92px cover; each face fills it */
-.pub-cover-wrap {
-  float: left;
-  width: 172px;
-  /* bottom margin clears the pager dots so wrapped text never
-     collides with them */
-  margin: 2px 20px 22px 0;
-  cursor: pointer;
-  display: block;
-  position: relative;
-}
-.pub-cover-wrap .pub-cover {
-  float: none;
-  width: 100%;
-  margin: 0;
-  display: block;
-}
-.pub-cover-face { animation: coverFace 0.22s var(--ease-out-quint) both; }
+/* the cover fade, used by the Spears card faces (the two-face story
+   cover that also used it was removed on 2026-10-20) */
 @keyframes coverFace {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-.pub-cover-cells {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 5px;
-  box-shadow: var(--shadow-cover);
-  overflow: hidden;
-  line-height: 0;
-  padding: 5px;
-}
-.dark .pub-cover-cells {
-  background: #16171b;
-  border-color: rgba(232, 232, 234, 0.08);
-}
-.pub-cover-cells canvas { width: 100%; display: block; }
-/* the three-state pager dots, quiet until hover */
-.pub-cover-dots {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -14px;
-  display: flex;
-  gap: 5px;
-  opacity: 0.55;
-  transition: opacity 0.15s var(--ease-out-quint);
-}
-.pub-cover-wrap:hover .pub-cover-dots { opacity: 1; }
-.pub-cover-dots span {
-  width: 4px; height: 4px;
-  border-radius: 50%;
-  background: var(--border-strong);
-  transition: background-color 0.15s var(--ease-out-quint);
-}
-.pub-cover-dots span.is-on { background: var(--coral); }
 
 
 /* placement: centered strip (Teaching) */
@@ -1320,7 +1270,6 @@ img.pub-link-icon { stroke: none; }
   .pixel-poster { padding: 16px 16px 20px; }
   .pixel-poster-title { font-size: 18px; }
   .dither-card { padding: 16px 16px 20px; margin-top: 40px; }
-  .pub-cover-wrap { width: 124px; margin-right: 14px; }
 }
 
 @media (max-width: 480px) {

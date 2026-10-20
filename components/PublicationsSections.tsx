@@ -9,10 +9,10 @@
    button press/release. Static design is unchanged.
 
    The pixel layer (adjudicated and baked 2026-07-19): the bare
-   spark strip above the list (PageStrip), and inside each open
-   panel the cover slot is the two-face story artifact (PubCover:
-   the paper's pixel story by default, the real journal cover on
-   click). No poster cards, no writing on panel art.
+   spark strip above the list (PageStrip). The cover slot inside
+   each open panel is the plain journal or book cover (PubCover);
+   the pixel stories that filled it were removed on 2026-10-20.
+   No poster cards, no writing on panel art.
    ============================================================ */
 
 import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type KeyboardEvent } from "react";

@@ -3,8 +3,8 @@
 Felipe, 2026-10-20: the TiCS paper shows a Trends in Cognitive Sciences card
 in the style of the journal's own square logo tile, with the Cell Press logo
 at the top in the same blue. GitHub issue #3 replaces it with the real cover.
-The book chapters get no placeholder ("for them it's just the pixel art"):
-their slot shows the story alone (cover.storyOnly in lib/publications.tsx).
+The book chapters get no placeholder and no cover slot until their books
+exist (Felipe 2026-10-20: "the book chapters will not have anything").
 
   python scripts/build-placeholder-covers.py
 

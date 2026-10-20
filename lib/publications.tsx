@@ -23,10 +23,6 @@ export type Cover = {
   w: number;
   h: number;
   style?: CSSProperties;
-  /* No cover image: the slot shows only the pixel story, with no flip
-     (Felipe 2026-10-20, for the book chapters: "it's just the pixel art").
-     w and h still set the slot's shape. */
-  storyOnly?: boolean;
 };
 
 export type Pub = {
@@ -345,8 +341,7 @@ export const books: Pub[] = [];
 export const chapters: Pub[] = [
   {
     id: "complexity-visual-design",
-    /* No book cover yet: the slot shows the pixel story only (issue #4 adds the cover when it exists). */
-    cover: { src: "", alt: "", w: 640, h: 960, storyOnly: true },
+    /* No cover until the book exists (Felipe 2026-10-20: "the book chapters will not have anything"); issue #4 adds it. */
     citation: (
       <>
         Ryu, Soo Yon, <strong>Felipe M. Affonso</strong>, and Aner Sela (forthcoming, 2027), &quot;Complexity in Visual Design: Psychological Mechanisms and Practical Implications,&quot; in: <em>Advertising Theory</em>, 3rd edition, eds. Shelly Rodgers and Esther Thorson (New York and London: Routledge, Taylor &amp; Francis Group).
@@ -360,8 +355,7 @@ export const chapters: Pub[] = [
   },
   {
     id: "ai-assisted-shopping",
-    /* No book cover yet: the slot shows the pixel story only (issue #5 adds the cover when it exists). */
-    cover: { src: "", alt: "", w: 640, h: 960, storyOnly: true },
+    /* No cover until the book exists (Felipe 2026-10-20: "the book chapters will not have anything"); issue #5 adds it. */
     citation: (
       <>
         <strong>Affonso, Felipe M.</strong> (forthcoming, 2027), &quot;AI-Assisted Shopping: On the Preferences of Consumers and Machines,&quot; in: <em>Consumer Psychology and AI</em>, 1st edition, ed. Martin Reimann (New Jersey: Wiley).
