@@ -55,5 +55,93 @@
    "Trip after trip brings the familiar brand. Its sales stack up, text about it trains the next model (gold dots flowing back to the drone), its pull grows, and the other products fade.",
    "A detailed request. The drone feels the pull but goes to the lower shelf and brings the striped teal product. A good fit: green check."
   ]
+ },
+ {
+  "id": "cognitive-traps",
+  "kind": "Journal article (rebuilt story)",
+  "title": "Cognitive Traps: Detecting AI Agents in Online Research",
+  "beats": [
+   "A person and an AI agent take the same survey. The agent screenshots the screen and reads every word (teal); both tick the right box and get green checks.",
+   "The moving robot trap: a gold token steps toward the center of a box. The person puts the next step at the center (green); the agent puts it in a wrong corner (red).",
+   "Five more traps flash on the screen (two lines with fins, the cafe wall, ringed circles, planets, colliding circles) while each one's six-slot tally fills: the person 5 green and 1 red, the agent mostly red.",
+   "The agent's tally glows coral, a trapdoor drops it, a flag stands where it was, its rows leave the data table, and the monitor turns green."
+  ],
+  "cover": "public/images/covers/cognitive-traps.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.323,
+  "venue": "Journal of Consumer Research"
+ },
+ {
+  "id": "marketing-by-design",
+  "kind": "Journal article (rebuilt story)",
+  "title": "Marketing by Design",
+  "beats": [
+   "Two perfume ads with a practical claim (the gear): one with orderly concentric squares, one with tangled lines. Mouse pointers click; the orderly ad's frame turns coral and its click meter rises higher.",
+   "The claim switches to fun (the sparkle). Now the tangled ad gets the coral frame and the taller meter.",
+   "A label of exact facts hangs under both ads. The clicks come out even and an equal sign appears between the meters.",
+   "Columns of brand value stand on orderly and loose logos, grouped as practical brands and fun brands; the matching pairs stand tallest."
+  ],
+  "cover": "public/images/covers/marketing-by-design.png",
+  "coverNote": "The journal cover",
+  "aspect": 1.281,
+  "venue": "Journal of Marketing"
+ },
+ {
+  "id": "serendipity",
+  "kind": "Journal article (rebuilt story)",
+  "title": "Serendipity",
+  "beats": [
+   "In a gallery, the visitor weighs two covered paintings, points at one, it is unveiled, and the visitor likes it: a heart, and the enjoyment slider moves to 60.",
+   "The visitor walks down a hallway, turns a corner and comes upon the same painting by chance: coral sparkles, a coral heart, and the slider passes the earlier mark (70).",
+   "The same walk ends at an unattractive painting: a red broken heart and the slider falls (43).",
+   "A gallery worker carries the painting in, hangs it and points it out to the visitor: a small heart, and the slider stops at about the earlier mark."
+  ],
+  "cover": "public/images/covers/serendipity.png",
+  "coverNote": "The journal cover",
+  "aspect": 1.281,
+  "venue": "Journal of Marketing"
+ },
+ {
+  "id": "point-vs-range",
+  "kind": "Journal article (rebuilt story)",
+  "title": "When Consumers Prefer Point Versus Range Estimates of Product Performance",
+  "beats": [
+   "Two candle listings: one claims an exact burn time (a pin), the other a range (a bracket). A cursor clicks, and most clicks go to the exact claim.",
+   "Sponsored labels drop onto both listings and the cursor turns into a magnifying glass. The glass shows the real spread of burn times, which the range covers; the range listing turns green and now gets most of the clicks.",
+   "The range is stretched far wider than the real spread. Its empty ends flash red and the clicks split evenly."
+  ],
+  "cover": "public/images/covers/point-vs-range.png",
+  "coverNote": "The journal cover",
+  "aspect": 1.28,
+  "venue": "Journal of Marketing Research"
+ },
+ {
+  "id": "precise-predictions",
+  "kind": "Journal article (rebuilt story)",
+  "title": "When Are Less Precise Predictions More Credible?",
+  "beats": [
+   "Five judges predict a basketball game's total score, from one exact number to a very wide range.",
+   "The game is over (knowable): the scoreboard locks on 203. Credibility falls as the intervals widen, and the coral frame picks the exact judge.",
+   "The next game is still to come (chance): shots go in or bounce out and the scoreboard runs through possible totals. The credibility bars rise and then fall, and the frame moves to the moderate range."
+  ],
+  "cover": "public/images/covers/precise-predictions.gif",
+  "coverNote": "The journal cover",
+  "aspect": 1.333,
+  "venue": "Journal of Experimental Psychology: General"
+ },
+ {
+  "id": "concealing-prices",
+  "kind": "Journal article (rebuilt story)",
+  "title": "Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions",
+  "beats": [
+   "In an upscale store (purple awning, crown), an espresso machine's price tag hangs face down. The shopper's guess in the thought bubble grows from 3 coins to 6.",
+   "The tag flips: the real price is 4 coins, below the guess. The extra coins turn green and the machine goes home with the shopper.",
+   "The awning turns blue and a sale sign replaces the crown. With the tag hidden, the guess drops to 1 coin.",
+   "The tag flips to the same 4 coins, above the guess. The coins turn red and the shopper walks away without the machine."
+  ],
+  "cover": "public/images/covers/concealing-prices.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.323,
+  "venue": "Journal of Consumer Research"
  }
 ]

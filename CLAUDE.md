@@ -376,7 +376,12 @@ Rules learned so far:
 2. Draw THINGS, not noise: sprites (ASCII cell art via spr()) for actors and
    objects (a price tag, a die, a graduation cap, the provider marks), simple
    fills for structures. The viewer should recognize the actor before the
-   motion starts.
+   motion starts. Draw each paper's own world, and vary it from paper to
+   paper (Felipe 2026-10-20: "it doesnt necessarily have to involve
+   PASSERBYS every time"; for the space commons paper, "planets,
+   spaceships, that type of stuff"). Stick-figure people only where
+   people are the story's actors, such as consumers ("not everything have
+   to have 'people' in stickman style if it doesnt fit").
 3. Space is part of the composition. Most of the grid stays dark; the story
    letterboxes into the journal-cover aspect inside the cover slot, so design
    for a calm dark margin above and below.
