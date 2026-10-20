@@ -30,22 +30,22 @@ const CREAM = "#f4e9d6";
 
 export const pubPosters: Record<string, PosterConfig> = {
   "strategic-personalities": {
-    tells: "The story: the Claude, OpenAI, and Gemini marks light up, trade cooperation volleys, then their cooperation bars split 48-fold.",
+    tells: "Language models play competitive games the same way, but how much they cooperate depends on who made them.",
     story: "strategic-personalities",
     title: "Strategic Personalities",
-    caption: "Three providers, one competition, a 48-fold split on cooperation",
+    caption: "Cooperation varies 48-fold across 25 language models",
   },
   "data-quality": {
-    tells: "The story: respondents fill ten platform columns; one column turns bot-red under the detector sweep; quality settles into three tiers.",
+    tells: "Bots turned up almost only on MTurk. The larger problem was the quality of human answers, which differed by kind of platform.",
     story: "data-quality",
     title: "Data Quality",
-    caption: "5,200 respondents, ten platforms, the bots cluster in one place",
+    caption: "Bots clustered on MTurk; human quality varied by platform",
   },
   "vertical-tacit-collusion": {
-    tells: "The story: the platform above and sellers below drip price pressure until the consumer row in the middle turns red, with no agreement ever made.",
+    tells: "A platform and a seller act without any agreement, yet together they harm AI-assisted shoppers more than their separate harms added up.",
     story: "vertical-tacit-collusion",
     title: "Vertical Collusion",
-    caption: "Platform above, sellers below, the consumer squeezed without a word",
+    caption: "Joint harm exceeds the two separate harms combined",
   },
   "human-ai-delegation": {
     tells: "Four conditions, four gears: when one jams the rest stop, and only repairing all four restarts them.",

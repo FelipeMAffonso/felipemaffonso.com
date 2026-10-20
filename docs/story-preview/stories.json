@@ -143,5 +143,50 @@
   "coverNote": "The journal cover",
   "aspect": 1.323,
   "venue": "Journal of Consumer Research"
+ },
+ {
+  "id": "strategic-personalities",
+  "kind": "Preprint (rebuilt story)",
+  "title": "Large language models converge on competitive rationality but diverge on cooperation",
+  "beats": [
+   "The Anthropic, Google and OpenAI marks each sit at a table facing the same opponent. In a competitive game all three land their guesses on the same spots.",
+   "In a ten-round cooperation game, the Anthropic model hands a green coin across in most rounds, the Google model in about half, and the OpenAI model takes a red coin every round.",
+   "Over four model generations, the Google model's record fills with more green each time and the OpenAI model's with less, ending at none.",
+   "After nine fast rounds, a coral frame marks the last round: the Anthropic model still hands its coin over, and the Google model, green for nine rounds, takes it."
+  ],
+  "cover": "public/images/covers/arxiv.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.485,
+  "venue": "arXiv"
+ },
+ {
+  "id": "data-quality",
+  "kind": "Preprint (rebuilt story)",
+  "title": "Data quality across ten online research platforms",
+  "beats": [
+   "Respondents walk out of ten doorways in four groups (direct panels, hybrid networks, marketplaces, MTurk), and each finished survey lands on the board.",
+   "A detector gate switches on and exposes two MTurk respondents as robots, which drop into a short tally. No other platform has any.",
+   "A coral lens reads every answer: nearly all direct-panel answers turn green, fewer from hybrid networks, about half from marketplaces, few from MTurk. The careless answers make a tally far longer than the bot tally.",
+   "Coins pay for one usable answer on each kind of platform; the direct panels need the fewest coins."
+  ],
+  "cover": "public/images/covers/psyarxiv.png",
+  "coverNote": "The journal cover",
+  "aspect": 1.171,
+  "venue": "PsyArXiv"
+ },
+ {
+  "id": "vertical-tacit-collusion",
+  "kind": "Preprint (rebuilt story)",
+  "title": "Vertical tacit collusion",
+  "beats": [
+   "On an honest ranked list, the shopper's AI drone reads from the top and brings back product A, the best and cheapest.",
+   "The platform's crane lifts the pricier product B to the top, but B's plain page does not convince the drone, which still buys A. A small harm bar appears.",
+   "The seller dresses up B's page while B sits low on the list. The page tugs the drone, it still buys A, and a second harm bar appears.",
+   "With a wall between the platform and the seller, the dressed-up B sits on top and the drone buys it. The coins go to the seller and the platform, and the joint harm bar rises past the two separate bars stacked together."
+  ],
+  "cover": "public/images/covers/arxiv.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.485,
+  "venue": "arXiv"
  }
 ]
