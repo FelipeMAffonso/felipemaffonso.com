@@ -101,7 +101,7 @@ export const journals: Pub[] = [
     id: "human-ai-delegation",
     citation: (
       <>
-        <strong>Affonso, Felipe M.</strong> and Mark Steyvers (conditionally accepted), &quot;Interdependent Conditions for Successful Human-AI Delegation,&quot; <em>Trends in Cognitive Sciences</em>.
+        <strong>Affonso, Felipe M.</strong> and Mark Steyvers (forthcoming), &quot;Interdependent Conditions for Successful Human-AI Delegation,&quot; <em>Trends in Cognitive Sciences</em>.
       </>
     ),
     abstract: (
