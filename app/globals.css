@@ -661,11 +661,11 @@ img.pub-link-icon { stroke: none; }
 }
 
 /* float-wrap abstract (locked look) */
-/* 172px since 2026-07-19 (it was 92px before the cover slot grew for the
-   pixel stories); kept at 172px when the stories were removed on 2026-10-20 */
+/* 138px desktop, 85px phone (Felipe 2026-10-20: 20% under the 172px of
+   the pixel-story slot; 92px and 62px before July) */
 .pub-cover {
   float: left;
-  width: 172px;
+  width: 138px;
   height: auto;
   margin: 2px 20px 8px 0;
   border-radius: 5px;
@@ -1279,7 +1279,7 @@ img.pub-link-icon { stroke: none; }
   .page-banner-title { padding: 18px 24px 20px; }
   .page-banner-title h1 { font-size: 25px; }
 
-  .pub-cover { width: 124px; margin-right: 14px; }
+  .pub-cover { width: 85px; margin-right: 14px; }
   .pub-citation { padding-right: 26px; }
   .pub-chevron { right: 6px; }
 
