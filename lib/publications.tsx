@@ -23,6 +23,10 @@ export type Cover = {
   w: number;
   h: number;
   style?: CSSProperties;
+  /* No cover image: the slot shows only the pixel story, with no flip
+     (Felipe 2026-10-20, for the book chapters: "it's just the pixel art").
+     w and h still set the slot's shape. */
+  storyOnly?: boolean;
 };
 
 export type Pub = {
@@ -99,6 +103,9 @@ export const journals: Pub[] = [
        the R1 manuscript submitted 2026-09-04 (research-intelligent-machine-delegation,
        tics/output/SUBMISSION_PACKAGE_R1/Manuscript.docx, read with pandoc). */
     id: "human-ai-delegation",
+    /* Placeholder cover until the issue cover exists (Felipe 2026-10-20): the TiCS logo tile with the Cell
+       Press logo, built by scripts/build-placeholder-covers.py. */
+    cover: { src: "/images/covers/tics-placeholder.svg", alt: "Trends in Cognitive Sciences", w: 760, h: 1000 },
     citation: (
       <>
         <strong>Affonso, Felipe M.</strong> and Mark Steyvers (forthcoming), &quot;Interdependent Conditions for Successful Human-AI Delegation,&quot; <em>Trends in Cognitive Sciences</em>.
@@ -338,6 +345,8 @@ export const books: Pub[] = [];
 export const chapters: Pub[] = [
   {
     id: "complexity-visual-design",
+    /* No book cover yet: the slot shows the pixel story only (issue #4 adds the cover when it exists). */
+    cover: { src: "", alt: "", w: 640, h: 960, storyOnly: true },
     citation: (
       <>
         Ryu, Soo Yon, <strong>Felipe M. Affonso</strong>, and Aner Sela (forthcoming, 2027), &quot;Complexity in Visual Design: Psychological Mechanisms and Practical Implications,&quot; in: <em>Advertising Theory</em>, 3rd edition, eds. Shelly Rodgers and Esther Thorson (New York and London: Routledge, Taylor &amp; Francis Group).
@@ -351,6 +360,8 @@ export const chapters: Pub[] = [
   },
   {
     id: "ai-assisted-shopping",
+    /* No book cover yet: the slot shows the pixel story only (issue #5 adds the cover when it exists). */
+    cover: { src: "", alt: "", w: 640, h: 960, storyOnly: true },
     citation: (
       <>
         <strong>Affonso, Felipe M.</strong> (forthcoming, 2027), &quot;AI-Assisted Shopping: On the Preferences of Consumers and Machines,&quot; in: <em>Consumer Psychology and AI</em>, 1st edition, ed. Martin Reimann (New Jersey: Wiley).

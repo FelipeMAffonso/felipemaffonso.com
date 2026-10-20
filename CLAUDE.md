@@ -339,14 +339,40 @@ the gradient nav hover, the LED footer strip on every page, the cycling Spears
 card on Contact, and NO poster cards or writing on panel art anywhere. Cards
 are theme adaptive via lib/pixelTheme.
 
-## How to write a great pixel story (lib/pixelStories.ts)
+## How to write a great pixel story (lib/stories/<paper id>.ts)
 
 The bar (Felipe 2026-07-19): stories must be genuinely beautiful and must
-depict the paper, not decorate it. Rules learned so far:
+depict the paper, not decorate it. RAISED 2026-10-20 (Felipe, on the TiCS gears,
+the passerby and posters, and the shopping drone: "cool crisp ones! that's the
+bar for ALL OF THEM. it has to actually tell the story"; and "what matters are
+the visuals"). The reference stories are lib/stories/human-ai-delegation.ts,
+simple-eco-friendly.ts and ai-assisted-shopping.ts: full scenes with
+characters, machines and props that act, on a portrait grid about 30 columns
+wide and tall enough to fill the cover (rows near 30 x the cover's height over
+width), three or four phases, 16 to 23 seconds, each phase one cause and its
+visible effect. Where the work lives and how it is checked:
 
-1. One idea per phase, two to three phases, 10 to 18 seconds total. A phase is
-   a sentence: "the robot falls in the trap." If you cannot say the phase in
-   one sentence, split it.
+- One file per paper in lib/stories/, exporting `story`; the shared drawing
+  vocabulary (spr, box, fill, line, ring, burst, path, ease, coast, spinUp)
+  is lib/stories/kit.ts. lib/pixelStories.ts only registers the files.
+- Look at every story before calling it done:
+  `python docs/story-preview/sheet.py <paper id> --aspect <cover h/w>` renders
+  16 frames over one loop to docs/story-preview/_work/<id>-sheet.png, drawn
+  exactly as the cover slot draws them; add `--theme light` for light mode.
+  `node docs/story-preview/build.mjs` builds the preview page
+  (docs/story-preview/index.html) from docs/story-preview/stories.json.
+- Crisp means readable at 170px: anything that must read is drawn at
+  brightness 0.5 or more; low-brightness fills turn to mud (the first coral
+  rings in the shopping story read as a brown smudge until they were thinned
+  and brightened).
+- A book chapter with no cover yet shows the story alone: cover.storyOnly in
+  lib/publications.tsx (Felipe 2026-10-20: no placeholder covers for books).
+
+Rules learned so far:
+
+1. One idea per phase. A phase is a sentence: "the robot falls in the trap."
+   If you cannot say the phase in one sentence, split it. (The old limit of
+   two to three phases and 10 to 18 seconds was raised on 2026-10-20 as above.)
 2. Draw THINGS, not noise: sprites (ASCII cell art via spr()) for actors and
    objects (a price tag, a die, a graduation cap, the provider marks), simple
    fills for structures. The viewer should recognize the actor before the
@@ -363,9 +389,13 @@ depict the paper, not decorate it. Rules learned so far:
    mode (avoid two tones that collapse into the same ink).
 6. End states must read: hold the resolution (the split bars, the flagged
    robot, the gold burst fading) for at least a second before the loop.
-7. Every story carries a `tells` line in posterConfigs: the hover text that
-   narrates the story in one sentence. If the tells line is hard to write,
-   the story is not telling anything; redesign it.
+7. Every story carries a `tells` line in posterConfigs: the hover text, one
+   or two plain sentences that state the paper's point (Felipe 2026-10-20:
+   the long hover lines were "confusing and too much words"; "the visuals
+   will do the talk"). The words follow the visuals, never the other way
+   round: "do not simplify the pixel stories and visuals just because it
+   doesnt fit the sentences and words". A rich story keeps its richness and
+   the hover line names only its point.
 8. Verify by WATCHING the rendered story (screenshots at two or three points
    in the cycle), never by reading the code.
 

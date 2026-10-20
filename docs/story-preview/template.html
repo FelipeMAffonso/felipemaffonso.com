@@ -1,0 +1,268 @@
+<title>Publication Pixel Stories</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #f8f9fa; --surface: #ffffff; --surface-2: #f1f2f4; --text: #1a1a1a; --text-2: #3a3f45;
+    --dim: #5d636b; --border: #e5e7ea; --coral: #DA7756; --coral-text: #b3572f; --card: #ffffff;
+    --card-border: #e5e7ea; --shadow: 0 1px 2px rgba(20, 22, 26, .06), 0 8px 24px rgba(20, 22, 26, .06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #16171b; --surface: #1e2025; --surface-2: #262930; --text: #e8e8ea; --text-2: #c3c7cd;
+      --dim: #a3a8b0; --border: #2b2e35; --coral: #e08866; --coral-text: #e08866; --card: #16171b;
+      --card-border: rgba(232, 232, 234, .08); --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #16171b; --surface: #1e2025; --surface-2: #262930; --text: #e8e8ea; --text-2: #c3c7cd;
+    --dim: #a3a8b0; --border: #2b2e35; --coral: #e08866; --coral-text: #e08866; --card: #16171b;
+    --card-border: rgba(232, 232, 234, .08); --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+  }
+  body { background: var(--bg); color: var(--text); font: 15px/1.55 "Geist", system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width: 980px; margin: 0 auto; padding-inline: 20px; padding-block: 36px 64px; display: grid; gap: 28px; }
+  header { display: grid; gap: 10px; }
+  .eyebrow { font: 500 12px/1.2 "Geist Mono", ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--coral-text); }
+  h1 { margin: 0; font-size: 30px; font-weight: 600; letter-spacing: -.01em; text-wrap: balance; }
+  .lede { margin: 0; max-width: 66ch; color: var(--text-2); }
+  .status { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font: 500 12px/1 "Geist Mono", ui-monospace, monospace; padding: 7px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); border: 1px solid var(--border); }
+  .chip.hot { color: var(--coral-text); border-color: color-mix(in srgb, var(--coral) 45%, var(--border)); }
+  .story { display: grid; grid-template-columns: 260px 1fr; gap: 28px; padding: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); align-items: start; }
+  .slot { position: relative; cursor: pointer; display: grid; gap: 10px; justify-items: center; }
+  .slot:focus-visible { outline: 2px solid var(--coral); outline-offset: 6px; border-radius: 8px; }
+  .face { width: 100%; border-radius: 6px; overflow: hidden; line-height: 0; }
+  .face.cells { background: var(--card); border: 1px solid var(--card-border); padding: 6px; box-sizing: border-box; }
+  .face img { width: 100%; height: auto; display: block; border-radius: 4px; border: 1px solid var(--border); }
+  .dots { display: flex; gap: 6px; }
+  .dots span { width: 6px; height: 6px; border-radius: 50%; background: var(--border); }
+  .dots span.on { background: var(--coral); }
+  .hint { font: 12px/1.3 "Geist Mono", ui-monospace, monospace; color: var(--dim); text-align: center; }
+  .meta { display: grid; gap: 6px; }
+  .story h2 { margin: 0; font-size: 19px; font-weight: 600; line-height: 1.3; text-wrap: balance; }
+  .venue { margin: 0; color: var(--text-2); }
+  .beats { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 4px; }
+  .beat { display: grid; grid-template-columns: 52px 1fr; gap: 12px; padding: 10px 12px; border-radius: 10px; cursor: pointer; color: var(--text-2); border: 1px solid transparent; transition: background-color .2s, border-color .2s; }
+  .beat:hover { background: var(--surface-2); }
+  .beat.on { background: var(--surface-2); border-color: var(--border); color: var(--text); }
+  .beat time { font: 500 12px/1.9 "Geist Mono", ui-monospace, monospace; color: var(--dim); font-variant-numeric: tabular-nums; }
+  .beat.on time { color: var(--coral-text); }
+  .bar { height: 3px; border-radius: 3px; background: var(--border); overflow: hidden; margin-top: 4px; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--coral); }
+  .controls { display: flex; gap: 8px; align-items: center; margin-top: 10px; }
+  .controls button { font: 500 13px/1 "Geist", system-ui, sans-serif; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; }
+  .controls button:focus-visible { outline: 2px solid var(--coral); outline-offset: 2px; }
+  .controls .t { font: 12px/1 "Geist Mono", ui-monospace, monospace; color: var(--dim); font-variant-numeric: tabular-nums; }
+  .covers { display: grid; gap: 14px; }
+  .covers h3, .next h3 { margin: 0; font-size: 15px; font-weight: 600; }
+  .cover-row { display: grid; grid-template-columns: minmax(0, 240px); gap: 16px; }
+  .cover-row figure { margin: 0; display: grid; gap: 6px; }
+  .cover-row img { width: 100%; border-radius: 6px; border: 1px solid var(--border); }
+  .cover-row figcaption { font-size: 13px; color: var(--text-2); }
+  .next { display: grid; gap: 8px; padding: 20px 24px; border: 1px dashed var(--border); border-radius: 14px; }
+  .next p { margin: 0; color: var(--text-2); max-width: 70ch; }
+  .sheet { display: grid; grid-template-columns: repeat(4, auto); gap: 14px; padding: 14px; justify-content: start; }
+  .sheet figure { margin: 0; }
+  .sheet figcaption { font: 12px ui-monospace, monospace; color: var(--text-2); }
+  .sheet .face.cells { width: auto; }
+  @media (max-width: 720px) {
+    .story { grid-template-columns: 1fr; padding: 18px; }
+    .slot { max-width: 260px; margin: 0 auto; width: 100%; }
+    .cover-row { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+    h1 { font-size: 25px; }
+  }
+</style>
+
+<div id="root" class="wrap"></div>
+
+<script>
+/*__ENGINE__*/
+/*__MANIFEST__*/
+
+function hexToRgb(hex) { return [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16)); }
+function storyLength(id) { return STORIES[id].phases.reduce((s, p) => s + p.dur, 0); }
+function isLight() {
+  const th = document.documentElement.getAttribute("data-theme");
+  if (th === "light") return true;
+  if (th === "dark") return false;
+  return !window.matchMedia("(prefers-color-scheme: dark)").matches;
+}
+
+/* the same drawing as components/PubCover.tsx StoryCanvas */
+function drawFrame(canvas, id, t, light, aspect, width) {
+  const def = STORIES[id];
+  const cols = def.cols, storyRows = def.rows;
+  const rows = Math.max(storyRows, Math.round(cols * aspect));
+  const yOff = Math.floor((rows - storyRows) / 2);
+  const rgb = adaptPalette(def.colors, light).map(hexToRgb);
+  const tints = light ? CELL_TINTS.light : CELL_TINTS.dark;
+  const dpr = Math.min(2, window.devicePixelRatio || 1);
+  const cell = width / cols;
+  const W = Math.round(width * dpr), H = Math.round(cell * rows * dpr);
+  if (canvas.width !== W || canvas.height !== H) { canvas.width = W; canvas.height = H; }
+  canvas.style.width = "100%";
+  const ctx = canvas.getContext("2d");
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, width, cell * rows);
+  const buf = renderStory(def, t);
+  for (let y = 0; y < rows; y++) {
+    for (let x = 0; x < cols; x++) {
+      const pad = cell * 0.11, s = cell - pad * 2, r = Math.max(0.8, s * 0.18);
+      const sy = y - yOff;
+      const c = sy >= 0 && sy < storyRows ? buf[sy * cols + x] : null;
+      ctx.beginPath();
+      ctx.roundRect(x * cell + pad, y * cell + pad, s, s, r);
+      if (!c || c.v <= 0.02) ctx.fillStyle = tints.fill;
+      else {
+        const [rr, gg, bb] = rgb[Math.max(0, Math.min(rgb.length - 1, c.c))];
+        ctx.fillStyle = `rgba(${rr}, ${gg}, ${bb}, ${0.16 + 0.84 * Math.min(1, c.v)})`;
+      }
+      ctx.fill();
+    }
+  }
+}
+
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const root = document.getElementById("root");
+const q = new URLSearchParams(location.search);
+
+if (q.get("sheet")) {
+  /* contact sheet: n frames spread over one loop (docs/story-preview/sheet.py) */
+  const id = q.get("sheet"), n = +(q.get("n") || 12), w = +(q.get("w") || 240);
+  if (q.get("theme")) document.documentElement.setAttribute("data-theme", q.get("theme"));
+  const m = q.get("aspect") ? { aspect: +q.get("aspect") } : (MANIFEST.find((s) => s.id === id) || { aspect: 1.3 });
+  const total = storyLength(id);
+  root.className = "sheet";
+  for (let i = 0; i < n; i++) {
+    const t = (total * (i + 0.5)) / n;
+    const fig = el("figure"), card = el("div", "face cells"), cv = el("canvas");
+    card.style.width = (w + 12) + "px";
+    card.appendChild(cv); fig.appendChild(card);
+    fig.appendChild(el("figcaption", null, "t=" + t.toFixed(1) + "s"));
+    root.appendChild(fig);
+    drawFrame(cv, id, t, q.get("theme") === "light", m.aspect, w);
+  }
+} else {
+  const header = el("header");
+  header.appendChild(el("div", "eyebrow", "felipemaffonso.com / Publications"));
+  header.appendChild(el("h1", null, "The pixel story on each publication"));
+  header.appendChild(el("p", "lede", "Each publication on the site shows an animated pixel story in its cover slot; where a cover exists, clicking flips to it. The book chapters have no cover yet, so they show the story alone. These run the site's own code here, drawn the way the site draws them. Click a step to jump there."));
+  const st = el("div", "status");
+  st.appendChild(el("span", "chip hot", "Not deployed: side branch pixel-stories-tics-chapters"));
+  st.appendChild(el("span", "chip", "TiCS citation and bio already live (forthcoming)"));
+  header.appendChild(st);
+  root.appendChild(header);
+
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const players = [];
+  for (const s of MANIFEST) {
+    if (!STORIES[s.id]) continue;
+    const def = STORIES[s.id];
+    const total = storyLength(s.id);
+    const starts = [];
+    def.phases.reduce((acc, p) => { starts.push(acc); return acc + p.dur; }, 0);
+
+    const card = el("article", "story");
+    const slot = el("div", "slot");
+    slot.tabIndex = 0;
+    slot.setAttribute("role", "button");
+    const face = el("div", "face cells");
+    const cv = el("canvas");
+    face.appendChild(cv);
+    const img = el("img");
+    img.src = s.coverData; img.alt = "Cover: " + s.venue;
+    const imgFace = el("div", "face");
+    imgFace.appendChild(img);
+    imgFace.hidden = true;
+    const dots = el("div", "dots");
+    dots.innerHTML = '<span class="on"></span><span></span>';
+    const hint = el("div", "hint", "Click to see the cover");
+    slot.append(face);
+    if (s.coverData) slot.append(imgFace, dots, hint);
+    else { slot.style.cursor = "default"; slot.removeAttribute("role"); slot.tabIndex = -1; slot.append(el("div", "hint", "No cover yet: the story alone")); }
+
+    const meta = el("div", "meta");
+    meta.appendChild(el("div", "eyebrow", s.kind));
+    meta.appendChild(el("h2", null, s.title));
+    meta.appendChild(el("p", "venue", s.venue));
+    const ol = el("ol", "beats");
+    const items = s.beats.map((text, i) => {
+      const li = el("li", "beat");
+      const tm = el("time", null, starts[i].toFixed(1) + "s");
+      const body = el("div");
+      body.appendChild(el("div", null, text));
+      const bar = el("div", "bar"); const fillBar = el("i"); bar.appendChild(fillBar);
+      body.appendChild(bar);
+      li.append(tm, body);
+      ol.appendChild(li);
+      return { li, fillBar };
+    });
+    meta.appendChild(ol);
+    const controls = el("div", "controls");
+    const btn = el("button", null, "Pause");
+    btn.type = "button";
+    const tlabel = el("span", "t", "");
+    controls.append(btn, tlabel);
+    meta.appendChild(controls);
+    card.append(slot, meta);
+    root.appendChild(card);
+
+    const p = { s, total, starts, cv, face, imgFace, dots, hint, items, btn, tlabel, t: 0, paused: false, showCover: false };
+    players.push(p);
+    const flip = () => {
+      if (!s.coverData) return;
+      p.showCover = !p.showCover;
+      face.hidden = p.showCover; imgFace.hidden = !p.showCover;
+      dots.children[0].className = p.showCover ? "" : "on";
+      dots.children[1].className = p.showCover ? "on" : "";
+      hint.textContent = p.showCover ? s.coverNote + ". Click to see the story" : "Click to see the cover";
+    };
+    slot.addEventListener("click", flip);
+    slot.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } });
+    btn.addEventListener("click", () => { p.paused = !p.paused; btn.textContent = p.paused ? "Play" : "Pause"; });
+    items.forEach((it, i) => it.li.addEventListener("click", () => { p.t = starts[i] + 0.05; if (p.showCover) flip(); }));
+  }
+
+  const covers = el("section", "covers");
+  covers.appendChild(el("h3", null, "The TiCS placeholder cover, until the issue cover exists"));
+  const row = el("div", "cover-row");
+  for (const s of MANIFEST) {
+    if (!s.coverData) continue;
+    const fig = el("figure"); const im = el("img"); im.src = s.coverData; im.alt = s.venue;
+    fig.append(im, el("figcaption", null, s.coverNote));
+    row.appendChild(fig);
+  }
+  covers.appendChild(row);
+  root.appendChild(covers);
+
+  const next = el("section", "next");
+  next.appendChild(el("h3", null, "What happens next"));
+  next.appendChild(el("p", null, "The other thirteen stories (the older ones, plus Space Commons and Disease Cues, which still use generic noise) are being rebuilt to this same level. The passerby-and-posters story now belongs to the simplicity paper in the Journal of Advertising. Nothing goes live until you say so; then it merges to master, which deploys."));
+  root.appendChild(next);
+
+  let last = 0;
+  const speed = reduced ? 0.4 : 1;
+  function step(now) {
+    requestAnimationFrame(step);
+    if (now - last < 100) return;
+    const dt = last === 0 ? 0.1 : Math.min(0.35, (now - last) / 1000);
+    last = now;
+    const light = isLight();
+    for (const p of players) {
+      if (!p.paused) p.t = (p.t + dt * speed) % p.total;
+      if (!p.showCover) drawFrame(p.cv, p.s.id, p.t, light, p.s.aspect, p.cv.parentElement.clientWidth - 14 || 246);
+      let k = 0;
+      while (k + 1 < p.starts.length && p.t >= p.starts[k + 1]) k++;
+      p.items.forEach((it, i) => {
+        it.li.classList.toggle("on", i === k);
+        const end = i + 1 < p.starts.length ? p.starts[i + 1] : p.total;
+        it.fillBar.style.width = i === k ? (100 * (p.t - p.starts[i]) / (end - p.starts[i])).toFixed(1) + "%" : (i < k ? "100%" : "0%");
+      });
+      p.tlabel.textContent = p.t.toFixed(1) + "s of " + p.total.toFixed(1) + "s";
+    }
+  }
+  requestAnimationFrame(step);
+}
+</script>
