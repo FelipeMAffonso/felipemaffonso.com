@@ -661,11 +661,13 @@ img.pub-link-icon { stroke: none; }
 }
 
 /* float-wrap abstract (locked look) */
+/* 172px since 2026-07-19 (it was 92px before the cover slot grew for the
+   pixel stories); kept at 172px when the stories were removed on 2026-10-20 */
 .pub-cover {
   float: left;
-  width: 92px;
+  width: 172px;
   height: auto;
-  margin: 2px 18px 8px 0;
+  margin: 2px 20px 8px 0;
   border-radius: 5px;
   border: 1px solid var(--border);
   object-fit: contain;
@@ -1043,6 +1045,25 @@ img.pub-link-icon { stroke: none; }
   from { opacity: 0; }
   to { opacity: 1; }
 }
+/* the pager dots, quiet until hover: the Spears card on Contact uses them
+   (with .spears-dots); they began as the story cover's dots */
+.pub-cover-dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -14px;
+  display: flex;
+  gap: 5px;
+  opacity: 0.55;
+  transition: opacity 0.15s var(--ease-out-quint);
+}
+.pub-cover-dots span {
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: var(--border-strong);
+  transition: background-color 0.15s var(--ease-out-quint);
+}
+.pub-cover-dots span.is-on { background: var(--coral); }
 
 
 /* placement: centered strip (Teaching) */
@@ -1258,7 +1279,7 @@ img.pub-link-icon { stroke: none; }
   .page-banner-title { padding: 18px 24px 20px; }
   .page-banner-title h1 { font-size: 25px; }
 
-  .pub-cover { width: 62px; margin-right: 14px; }
+  .pub-cover { width: 124px; margin-right: 14px; }
   .pub-citation { padding-right: 26px; }
   .pub-chevron { right: 6px; }
 
