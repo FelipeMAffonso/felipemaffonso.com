@@ -130,6 +130,17 @@ export function PubCover({ cover, pubId }: { cover: Cover; pubId: string }) {
     );
   }
 
+  /* no cover image yet: the story alone, nothing to flip to */
+  if (cover.storyOnly) {
+    return (
+      <span className="pub-cover-wrap" title={pubPosters[pubId].tells} aria-label={pubPosters[pubId].tells}>
+        <span className="pub-cover pub-cover-face pub-cover-cells">
+          <StoryCanvas pubId={pubId} aspect={cover.h / cover.w} />
+        </span>
+      </span>
+    );
+  }
+
   const flip = () => {
     play("toggle");
     setFace((f) => (f === 0 ? 1 : 0));

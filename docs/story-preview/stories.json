@@ -1,0 +1,18 @@
+[
+  {"id": "human-ai-delegation", "kind": "Journal article", "title": "Interdependent Conditions for Successful Human-AI Delegation", "venue": "Trends in Cognitive Sciences (forthcoming)", "cover": "public/images/covers/tics-placeholder.svg", "coverNote": "Placeholder until the issue cover exists (issue #3)", "aspect": 1.3158,
+   "beats": [
+     "All four conditions hold. The four gears (the person judging the AI, the AI's confidence dial, the person checking the output, the task's structure) turn together. Tasks flow to the AI, and the person's check catches the wrong results, which flash gold and drop out.",
+     "The AI's confidence dial pins at full, so it is equally sure of every answer. Its gear jams, and the jam passes to assessment, then to monitoring, then to the task. The line stops and wrong results pile up under the person.",
+     "Only the dial is repaired (coral sparks). It strains but cannot turn, because the monitoring gear is still jammed. Red brackets mark monitoring as the new bottleneck.",
+     "All four are repaired together. The gears turn, the line restarts, and the pile of wrong results clears."]},
+  {"id": "complexity-visual-design", "kind": "Book chapter", "title": "Complexity in Visual Design: Psychological Mechanisms and Practical Implications", "venue": "Advertising Theory, 3rd edition (Routledge, forthcoming 2027)", "cover": "public/images/covers/book-advertising-theory.svg", "coverNote": "Placeholder until the book cover exists (issue #4)", "aspect": 1.5,
+   "beats": [
+     "A passerby glances at both posters. The plain poster is easy to take in and lights up; the busy one flickers. The heart goes to the plain poster.",
+     "The passerby stops with a goal in mind: a product that works (the bolt). The busy poster now reads as powerful and gives off gold rays, and the heart moves to it.",
+     "The goal changes to sustainability (the leaf). The busy poster's ornaments fall off as red waste, the plain poster grows a leaf, and the heart moves back to the plain one."]},
+  {"id": "ai-assisted-shopping", "kind": "Book chapter", "title": "AI-Assisted Shopping: On the Preferences of Consumers and Machines", "venue": "Consumer Psychology and AI (Wiley, forthcoming 2027)", "cover": "public/images/covers/book-consumer-psychology-ai.svg", "coverNote": "Placeholder until the book cover exists (issue #5)", "aspect": 1.5,
+   "beats": [
+     "The shopper wants the striped teal product but sends a vague request. The assistant drone scans the shelf, gets pulled toward the familiar gold brand (the coral rings) and puts it in the cart. A poor fit: red X.",
+     "Trip after trip brings the familiar brand. Its sales stack up, text about it trains the next model (gold dots flowing back to the drone), its pull grows, and the other products fade.",
+     "A detailed request. The drone feels the pull but goes to the lower shelf and brings the striped teal product. A good fit: green check."]}
+]

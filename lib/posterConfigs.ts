@@ -2,10 +2,13 @@
    Poster configurations.
    One animated pixel poster per publication (keyed by pub id in
    lib/publications.tsx), plus the teaching card and the idle
-   research card. Most papers now carry a narrative STORY
-   (lib/pixelStories) that depicts the paper; Space Commons and
-   Disease Cues keep their approved noise engines (orbit,
-   contagion). Titles are short paper handles; captions facts.
+   research card. Every paper carries a narrative STORY (one file
+   per paper in lib/stories/) that depicts the paper; since
+   2026-10-20 that includes Space Commons and Disease Cues, whose
+   old noise engines (orbit, contagion) stay below as unused specs.
+   Titles are short paper handles; captions facts; tells is the
+   hover line, one short plain sentence (Felipe 2026-10-20: the
+   visuals carry the story).
    ============================================================ */
 
 import type { MotifSpec } from "./pixelEngine";
@@ -43,6 +46,12 @@ export const pubPosters: Record<string, PosterConfig> = {
     title: "Vertical Collusion",
     caption: "Platform above, sellers below, the consumer squeezed without a word",
   },
+  "human-ai-delegation": {
+    tells: "Four conditions, four gears: when one jams the rest stop, and only repairing all four restarts them.",
+    story: "human-ai-delegation",
+    title: "Human-AI Delegation",
+    caption: "Four conditions that succeed or fail together",
+  },
   "point-vs-range": {
     tells: "The story: the preference marker sits under the certain point estimate until the persuasion-knowledge eye opens, then it slides to the honest range.",
     story: "point-vs-range",
@@ -68,6 +77,7 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "The same reveal delights at the boutique and deflates at the outlet",
   },
   "space-commons": {
+    story: "space-commons",
     tells: "The story: satellites circle the breathing commons; the orbits hold only as long as the behavioral incentives do.",
     title: "The Space Commons",
     caption: "Research Policy, 2026",
@@ -80,12 +90,13 @@ export const pubPosters: Record<string, PosterConfig> = {
     },
   },
   "simple-eco-friendly": {
-    tells: "The story: the leaf lights the plain package green (eco); the bolt lights the busy package amber (effective).",
+    tells: "The plain poster wins at a glance and for sustainability; the busy one wins when the product has to work.",
     story: "simple-eco-friendly",
     title: "Simple is Eco-Friendly",
-    caption: "The plain pack reads green; the busy pack reads powerful",
+    caption: "The plain design reads green; the busy design reads powerful",
   },
   "disease-cues": {
+    story: "disease-cues",
     tells: "The story: a disease cue spreads from one point through the field and recedes, reshaping everything it touches.",
     title: "Disease Cues",
     caption: "European Journal of Marketing, 2025",
@@ -114,6 +125,18 @@ export const pubPosters: Record<string, PosterConfig> = {
     story: "constructive-choice",
     title: "Constructive Choice",
     caption: "Difficulty grows the search or kills it, goal by goal",
+  },
+  "complexity-visual-design": {
+    tells: "The same design pleases one viewer and puts off another, depending on what each wants.",
+    story: "complexity-visual-design",
+    title: "Visual Complexity",
+    caption: "The goal decides whether busy reads powerful or wasteful",
+  },
+  "ai-assisted-shopping": {
+    tells: "A vague request lets the assistant pick the familiar brand; a detailed one gets the shopper what they wanted.",
+    story: "ai-assisted-shopping",
+    title: "AI-Assisted Shopping",
+    caption: "Whose preferences decide the purchase",
   },
   "ad-skepticism": {
     tells: "The story: the ad reaches the close extension untouched; at the moderate one, the skepticism shield blocks the waves.",
