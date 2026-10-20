@@ -72,8 +72,9 @@ for (const k of Object.keys(STORIES)) if (!STORIES[k]) delete STORIES[k];`;
 
 const manifest = JSON.parse(read("docs/story-preview/stories.json"));
 for (const s of manifest) {
-  s.coverData = fs.existsSync(path.join(SITE, s.cover))
-    ? "data:image/svg+xml;base64," + Buffer.from(read(s.cover)).toString("base64")
+  const mime = { ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png" };
+  s.coverData = s.cover && fs.existsSync(path.join(SITE, s.cover))
+    ? "data:" + mime[path.extname(s.cover).toLowerCase()] + ";base64," + fs.readFileSync(path.join(SITE, s.cover)).toString("base64")
     : null;
 }
 

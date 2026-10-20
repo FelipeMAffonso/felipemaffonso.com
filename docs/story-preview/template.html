@@ -57,7 +57,7 @@
   .controls .t { font: 12px/1 "Geist Mono", ui-monospace, monospace; color: var(--dim); font-variant-numeric: tabular-nums; }
   .covers { display: grid; gap: 14px; }
   .covers h3, .next h3 { margin: 0; font-size: 15px; font-weight: 600; }
-  .cover-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .cover-row { display: grid; grid-template-columns: minmax(0, 240px); gap: 16px; }
   .cover-row figure { margin: 0; display: grid; gap: 6px; }
   .cover-row img { width: 100%; border-radius: 6px; border: 1px solid var(--border); }
   .cover-row figcaption { font-size: 13px; color: var(--text-2); }
@@ -148,7 +148,7 @@ if (q.get("sheet")) {
   const header = el("header");
   header.appendChild(el("div", "eyebrow", "felipemaffonso.com / Publications"));
   header.appendChild(el("h1", null, "The pixel story on each publication"));
-  header.appendChild(el("p", "lede", "Each publication on the site shows an animated pixel story in its cover slot; clicking it flips to the cover. These are the three new ones: the TiCS paper and the two book chapters. They run the site's own code here, drawn the way the site draws them. Click a story to flip it to its cover, or click a step to jump there."));
+  header.appendChild(el("p", "lede", "Each publication on the site shows an animated pixel story in its cover slot; where a cover exists, clicking flips to it. The book chapters have no cover yet, so they show the story alone. These run the site's own code here, drawn the way the site draws them. Click a step to jump there."));
   const st = el("div", "status");
   st.appendChild(el("span", "chip hot", "Not deployed: side branch pixel-stories-tics-chapters"));
   st.appendChild(el("span", "chip", "TiCS citation and bio already live (forthcoming)"));
@@ -179,7 +179,9 @@ if (q.get("sheet")) {
     const dots = el("div", "dots");
     dots.innerHTML = '<span class="on"></span><span></span>';
     const hint = el("div", "hint", "Click to see the cover");
-    slot.append(face, imgFace, dots, hint);
+    slot.append(face);
+    if (s.coverData) slot.append(imgFace, dots, hint);
+    else { slot.style.cursor = "default"; slot.removeAttribute("role"); slot.tabIndex = -1; slot.append(el("div", "hint", "No cover yet: the story alone")); }
 
     const meta = el("div", "meta");
     meta.appendChild(el("div", "eyebrow", s.kind));
@@ -210,6 +212,7 @@ if (q.get("sheet")) {
     const p = { s, total, starts, cv, face, imgFace, dots, hint, items, btn, tlabel, t: 0, paused: false, showCover: false };
     players.push(p);
     const flip = () => {
+      if (!s.coverData) return;
       p.showCover = !p.showCover;
       face.hidden = p.showCover; imgFace.hidden = !p.showCover;
       dots.children[0].className = p.showCover ? "" : "on";
@@ -223,9 +226,10 @@ if (q.get("sheet")) {
   }
 
   const covers = el("section", "covers");
-  covers.appendChild(el("h3", null, "Placeholder covers, until the real ones exist"));
+  covers.appendChild(el("h3", null, "The TiCS placeholder cover, until the issue cover exists"));
   const row = el("div", "cover-row");
   for (const s of MANIFEST) {
+    if (!s.coverData) continue;
     const fig = el("figure"); const im = el("img"); im.src = s.coverData; im.alt = s.venue;
     fig.append(im, el("figcaption", null, s.coverNote));
     row.appendChild(fig);
@@ -235,7 +239,7 @@ if (q.get("sheet")) {
 
   const next = el("section", "next");
   next.appendChild(el("h3", null, "What happens next"));
-  next.appendChild(el("p", null, "The fourteen older stories (Strategic Personalities through Advertising Skepticism, plus Space Commons and Disease Cues, which still use generic noise) are being rebuilt to this same level, so each one tells its paper's story. Nothing goes live until you say so; then it merges to master, which deploys."));
+  next.appendChild(el("p", null, "The other thirteen stories (the older ones, plus Space Commons and Disease Cues, which still use generic noise) are being rebuilt to this same level. The passerby-and-posters story now belongs to the simplicity paper in the Journal of Advertising. Nothing goes live until you say so; then it merges to master, which deploys."));
   root.appendChild(next);
 
   let last = 0;

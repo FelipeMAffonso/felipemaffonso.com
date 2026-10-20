@@ -3,9 +3,10 @@
    One animated pixel poster per publication (keyed by pub id in
    lib/publications.tsx), plus the teaching card and the idle
    research card. Every paper carries a narrative STORY (one file
-   per paper in lib/stories/) that depicts the paper; since
-   2026-10-20 that includes Space Commons and Disease Cues, whose
-   old noise engines (orbit, contagion) stay below as unused specs.
+   per paper in lib/stories/) that depicts the paper, except Space
+   Commons and Disease Cues, which keep their noise engines (orbit,
+   contagion) until their stories land (2026-10-20); to switch one
+   over, add story: "<id>" to its entry.
    Titles are short paper handles; captions facts; tells is the
    hover line, one short plain sentence (Felipe 2026-10-20: the
    visuals carry the story).
@@ -77,7 +78,6 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "The same reveal delights at the boutique and deflates at the outlet",
   },
   "space-commons": {
-    story: "space-commons",
     tells: "The story: satellites circle the breathing commons; the orbits hold only as long as the behavioral incentives do.",
     title: "The Space Commons",
     caption: "Research Policy, 2026",
@@ -96,7 +96,6 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "The plain design reads green; the busy design reads powerful",
   },
   "disease-cues": {
-    story: "disease-cues",
     tells: "The story: a disease cue spreads from one point through the field and recedes, reshaping everything it touches.",
     title: "Disease Cues",
     caption: "European Journal of Marketing, 2025",
@@ -127,10 +126,10 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "Difficulty grows the search or kills it, goal by goal",
   },
   "complexity-visual-design": {
-    tells: "The same design pleases one viewer and puts off another, depending on what each wants.",
+    tells: "In a hurry, people like a plain design. With a goal in mind, the goal decides: busy designs win for efficacy and enjoyment, plain ones for health and sustainability.",
     story: "complexity-visual-design",
     title: "Visual Complexity",
-    caption: "The goal decides whether busy reads powerful or wasteful",
+    caption: "The viewer's goal decides what visual complexity signals",
   },
   "ai-assisted-shopping": {
     tells: "A vague request lets the assistant pick the familiar brand; a detailed one gets the shopper what they wanted.",

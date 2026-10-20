@@ -390,10 +390,12 @@ Rules learned so far:
 6. End states must read: hold the resolution (the split bars, the flagged
    robot, the gold burst fading) for at least a second before the loop.
 7. Every story carries a `tells` line in posterConfigs: the hover text, one
-   short plain sentence (Felipe 2026-10-20: the long hover lines were
-   "confusing and too much words"; the visuals carry the story). If the
-   story cannot be said in one short sentence, it is not telling anything;
-   redesign it.
+   or two plain sentences that state the paper's point (Felipe 2026-10-20:
+   the long hover lines were "confusing and too much words"; "the visuals
+   will do the talk"). The words follow the visuals, never the other way
+   round: "do not simplify the pixel stories and visuals just because it
+   doesnt fit the sentences and words". A rich story keeps its richness and
+   the hover line names only its point.
 8. Verify by WATCHING the rendered story (screenshots at two or three points
    in the cycle), never by reading the code.
 
