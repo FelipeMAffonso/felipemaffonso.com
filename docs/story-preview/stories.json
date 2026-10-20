@@ -188,5 +188,35 @@
   "coverNote": "The journal cover",
   "aspect": 1.485,
   "venue": "arXiv"
+ },
+ {
+  "id": "constructive-choice",
+  "kind": "Journal article (rebuilt story)",
+  "title": "Constructive choice",
+  "beats": [
+   "Two shoppers with an accuracy goal (the teal target). On the easy screen the shopper opens nine option cards; on the hard screen, where each card is strong on one bar and weak on another, the shopper stops at five.",
+   "Both now want to save effort (the gold hourglass). On the easy screen the shopper stops at four; on the hard screen the shopper keeps clicking up to nine.",
+   "Both screens fill with fifty small options and the target joins the hourglass: now both goals are in mind.",
+   "With both goals in mind, the hard screen gets the shorter search: five cards on the easy screen, three on the hard one."
+  ],
+  "cover": "public/images/covers/constructive-choice.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.33,
+  "venue": "Journal of Consumer Psychology"
+ },
+ {
+  "id": "ad-skepticism",
+  "kind": "Journal article (rebuilt story)",
+  "title": "The Importance of Advertising Skepticism for Brand Extension Appeals",
+  "beats": [
+   "A computer brand's ad shows a printer, a close extension. The brand's claim flows into it and on to a trusting viewer and a skeptic with a magnifying glass; both hearts fill.",
+   "The ad shows sunglasses, a distant extension. The claim fades before it arrives and neither heart fills.",
+   "The ad shows an espresso machine, a moderately similar extension. The trusting viewer's heart fills, but at the skeptic's lens the claim stops, the lens flashes red, and the skeptic's heart stays empty.",
+   "The espresso machine gains the computer's screen, a feature it shares with the brand's products. The claim passes the lens and the skeptic's heart fills."
+  ],
+  "cover": "public/images/covers/ad-skepticism.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.314,
+  "venue": "Psychology & Marketing"
  }
 ]

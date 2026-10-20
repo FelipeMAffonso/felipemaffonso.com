@@ -120,10 +120,10 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "Chance finds beat choices when good and unplanned",
   },
   "constructive-choice": {
-    tells: "The story: when the accuracy target leads, difficulty grows the search; when the effort battery leads, the same difficulty empties it.",
+    tells: "A hard choice makes people trying to be accurate look at fewer options, and people trying to save effort look at more. With both goals in mind, a hard choice shortens everyone's search.",
     story: "constructive-choice",
     title: "Constructive Choice",
-    caption: "Difficulty grows the search or kills it, goal by goal",
+    caption: "People saving effort search more when choices get hard",
   },
   "complexity-visual-design": {
     tells: "In a hurry, people like a plain design. With a goal in mind, the goal decides: busy designs win for efficacy and enjoyment, plain ones for health and sustainability.",
@@ -138,10 +138,10 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "Whose preferences decide the purchase",
   },
   "ad-skepticism": {
-    tells: "The story: the ad reaches the close extension untouched; at the moderate one, the skepticism shield blocks the waves.",
+    tells: "Ad skeptics like a new product less only when it is somewhat like the brand's usual products, because they doubt the brand can make it. Showing the features it shares with the brand's products wins them back.",
     story: "ad-skepticism",
     title: "Advertising Skepticism",
-    caption: "The close extension absorbs the ad; the far one meets the shield",
+    caption: "Ad skeptics like moderately similar brand extensions less",
   },
 };
 
