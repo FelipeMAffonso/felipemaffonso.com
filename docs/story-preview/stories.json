@@ -218,5 +218,34 @@
   "coverNote": "The journal cover",
   "aspect": 1.314,
   "venue": "Psychology & Marketing"
+ },
+ {
+  "id": "space-commons",
+  "kind": "Journal article (new story; was a noise animation)",
+  "title": "The space commons",
+  "beats": [
+   "Teal and violet rockets launch from Earth. Each new satellite sends a gold star to its operator's bar on the leaderboard, and the orbit fills up.",
+   "The violet operator fires a missile at its own dead satellite. The blast earns a star, but red debris spreads around the orbit, breaks a teal satellite, and the space station flashes red.",
+   "A coral frame turns the leaderboard into a public ranking. The blast star turns red and falls off, the dead satellites burn up in the atmosphere, each disposal earns a star, and the debris falls away.",
+   "The clean orbit turns green and both bars stand level."
+  ],
+  "cover": "public/images/covers/space-commons.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.333,
+  "venue": "Research Policy"
+ },
+ {
+  "id": "disease-cues",
+  "kind": "Journal article (new story; was a noise animation)",
+  "title": "Consumer responses to infectious disease cues",
+  "beats": [
+   "A normal trip: the shopper eats a free sample, takes the new violet product, waits right behind another shopper, and drops a coin in the charity jar.",
+   "A second trip: the customer in line sneezes. In the thought bubble the face turns to disgust, the eye narrows, and the heart becomes a shield.",
+   "Choices that have nothing to do with germs change: the shopper leans away from the samples, takes the familiar gold brand, waits far back in the queue, and keeps the coin."
+  ],
+  "cover": "public/images/covers/disease-cues.jpg",
+  "coverNote": "The journal cover",
+  "aspect": 1.379,
+  "venue": "European Journal of Marketing"
  }
 ]

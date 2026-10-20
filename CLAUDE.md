@@ -382,16 +382,17 @@ Rules learned so far:
    spaceships, that type of stuff"). Stick-figure people only where
    people are the story's actors, such as consumers ("not everything have
    to have 'people' in stickman style if it doesnt fit").
-3. Space is part of the composition. Most of the grid stays dark; the story
-   letterboxes into the journal-cover aspect inside the cover slot, so design
-   for a calm dark margin above and below.
-4. Motion should be slow beats, not animation-easing: things appear (env fade),
-   travel on integer cells, and resolve. One burst, sweep, or flash per story
-   is an effect; two is noise.
+3. Space is part of the composition, but since 2026-10-20 the scene fills the
+   cover: size the grid to the cover's aspect (see the bar above) rather than
+   letterboxing a thin band into a dark slot.
+4. Motion is beats a viewer can follow: things appear, travel, act and
+   resolve, one cause and its effect per phase. Bursts, sweeps and flashes
+   mark those causes and effects; one that marks nothing is noise.
 5. Color is meaning: one color per actor or faction, the coral reserved for
    the paper's key moment, red only for harm or failure, green only for
-   success. Palettes are 4 to 6 colors and must survive adaptPalette in light
-   mode (avoid two tones that collapse into the same ink).
+   success. Palettes are 5 to 9 colors since the 2026-10-20 scenes (they were
+   4 to 6) and must survive adaptPalette in light mode (avoid two tones that
+   collapse into the same ink).
 6. End states must read: hold the resolution (the split bars, the flagged
    robot, the gold burst fading) for at least a second before the loop.
 7. Every story carries a `tells` line in posterConfigs: the hover text, one

@@ -3,10 +3,9 @@
    One animated pixel poster per publication (keyed by pub id in
    lib/publications.tsx), plus the teaching card and the idle
    research card. Every paper carries a narrative STORY (one file
-   per paper in lib/stories/) that depicts the paper, except Space
-   Commons and Disease Cues, which keep their noise engines (orbit,
-   contagion) until their stories land (2026-10-20); to switch one
-   over, add story: "<id>" to its entry.
+   per paper in lib/stories/) that depicts the paper. Since
+   2026-10-20 that includes Space Commons and Disease Cues; their
+   old noise engines (orbit, contagion) stay below as unused specs.
    Titles are short paper handles; captions facts; tells is the
    hover line, one short plain sentence (Felipe 2026-10-20: the
    visuals carry the story).
@@ -78,9 +77,10 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "Hidden prices raise upscale sales and lower discount sales",
   },
   "space-commons": {
-    tells: "The story: satellites circle the breathing commons; the orbits hold only as long as the behavioral incentives do.",
+    story: "space-commons",
+    tells: "Space operators compete for prestige and fill orbit with debris. When a public ranking rewards bringing dead satellites down, they compete to do that instead.",
     title: "The Space Commons",
-    caption: "Research Policy, 2026",
+    caption: "Defaults and rankings can change operators' behavior without enforcement",
     cols: 19, rows: 17,
     spec: {
       engine: "orbit",
@@ -96,9 +96,10 @@ export const pubPosters: Record<string, PosterConfig> = {
     caption: "The plain design reads green; the busy design reads powerful",
   },
   "disease-cues": {
-    tells: "The story: a disease cue spreads from one point through the field and recedes, reshaping everything it touches.",
+    story: "disease-cues",
+    tells: "Seeing someone sneeze changes a shopper's feelings, attention and motives, and with them choices that have nothing to do with germs.",
     title: "Disease Cues",
-    caption: "European Journal of Marketing, 2025",
+    caption: "Disease cues change choices unrelated to infection risk",
     cols: 20, rows: 16,
     spec: {
       engine: "contagion",
