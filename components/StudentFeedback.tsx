@@ -363,13 +363,14 @@ export function StudentFeedback() {
           <div className="fb-sort-row">
             <FilterButton onClick={() => setFilterOpen((o) => !o)} pressed={filterOpen} ariaLabel="Filter the comments by theme, university, course, year or type">
               <SlidersHorizontal className="size-3.5" aria-hidden="true" />
-              Filter{picked ? <span className="pub-filter-n">{picked}</span> : null}
+              <span className="fb-bar-label">Filter</span>{picked ? <span className="pub-filter-n">{picked}</span> : null}
             </FilterButton>
             <FilterButton onClick={shuffle} ariaLabel="Shuffle the comments">
               <Shuffle className="size-3.5" aria-hidden="true" />
-              Shuffle
+              <span className="fb-bar-label">Shuffle</span>
             </FilterButton>
-            <FilterSearch value={query} onChange={search} placeholder="A word, a course, a university, a year" />
+            <FilterSearch value={query} onChange={search} placeholder="A word, a course, a university, a year"
+              shortPlaceholder="Search the comments" />
           </div>
           {filterOpen && (
             <div className="fb-filters">

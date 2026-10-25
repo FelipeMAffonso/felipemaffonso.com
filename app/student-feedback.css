@@ -40,6 +40,21 @@
 .pub-filter-input:focus, .pub-filter-input:focus-visible { outline: none; box-shadow: none; }
 .pub-filter-seg.pub-filter-search.open:focus-within { border-color: color-mix(in srgb, var(--coral) 55%, var(--border)); }
 .pub-filter-input::-webkit-search-cancel-button { display: none; }
+/* a phone: the open search fills the rest of the bar's row, and Filter and Shuffle shrink to
+   their icons, so the field never drops to a line of its own and the cards do not jump */
+@media (max-width: 720px) {
+  .fb-sort-row:has(.pub-filter-search.open) { flex-wrap: nowrap; }
+  /* the label keeps its line, so the button keeps its height, and only its width goes to zero */
+  .fb-sort-row:has(.pub-filter-search.open) .fb-bar-label { display: inline-block; width: 0; overflow: hidden; }
+  .fb-sort-row:has(.pub-filter-search.open) .pub-filter-action { gap: 0; }
+  .fb-sort-row:has(.pub-filter-search.open) > .fb-search-wrap { flex: 1 1 0; min-width: 0; }
+  .fb-sort-row .pub-filter-seg.pub-filter-search.open { width: 100%; }
+}
+/* a touch screen: 16px text in the field, because iPhones zoom the page into any smaller field */
+@media (pointer: coarse) {
+  /* the same line height as the buttons' text (13px at 1.6), so the open field is their height */
+  .pub-filter-input { font-size: 16px; line-height: 20.8px; }
+}
 .fb-hit { background: color-mix(in srgb, var(--coral) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
 .fb-empty { padding: 28px 0; text-align: center; font-size: 14px; color: var(--text-dim); }
 
