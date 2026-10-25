@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://felipemaffonso.com
+Sitemap: https://felipemaffonso.com/sitemap.xml

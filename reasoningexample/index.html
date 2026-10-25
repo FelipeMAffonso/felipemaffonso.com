@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Reasoning Display Conditions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --background:#ffffff;
+  --foreground:#0a0a0a;
+  --muted:#f4f4f5;
+  --muted-foreground:#52525b;
+  --border:#e4e4e7;
+  --primary:#18181b;
+  --primary-foreground:#fafafa;
+  --ring:#a1a1aa;
+  --note:#fafaf9;
+  --wrong:#b42318;
+  --right:#127a3a;
+  --radius:10px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --background:#0b0b0c;
+    --foreground:#fafafa;
+    --muted:#232326;
+    --muted-foreground:#b4b4bb;
+    --border:#2c2c30;
+    --primary:#ececee;
+    --primary-foreground:#18181b;
+    --ring:#71717a;
+    --note:#141416;
+    --wrong:#f97066;
+    --right:#47cd89;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--background);color:var(--foreground);font-family:Geist,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit;color:inherit}
+#root{height:100%}
+.app{display:flex;flex-direction:column;height:100%}
+
+/* header */
+.top{border-bottom:1px solid var(--border);padding:12px 16px;display:flex;flex-direction:column;gap:10px;background:var(--background)}
+.top-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;justify-content:space-between}
+.brand{display:flex;flex-direction:column;gap:2px;min-width:0}
+.brand h1{font-size:15px;font-weight:600;margin:0;letter-spacing:-0.01em}
+.brand p{margin:0;color:var(--muted-foreground);font-size:13px;max-width:72ch}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tabs{display:inline-flex;background:var(--muted);border-radius:var(--radius);padding:3px;gap:2px;flex-wrap:wrap}
+.tab{border:0;background:transparent;padding:5px 11px;border-radius:7px;cursor:pointer;font-size:13px;font-weight:500;color:var(--muted-foreground);white-space:nowrap}
+.tab:disabled{opacity:.4;cursor:default}
+.tab[aria-pressed="true"]{background:var(--background);color:var(--foreground);box-shadow:0 1px 2px rgba(0,0,0,.08),0 0 0 1px var(--border)}
+.tab:focus-visible,.btn:focus-visible,.trigger:focus-visible,.ex:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+.tab .sub{font-weight:400;font-size:11.5px;opacity:.8;margin-left:2px}
+.btn{border:1px solid var(--border);background:var(--background);padding:5px 11px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:500;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{background:var(--muted)}
+.btn.primary{background:var(--primary);color:var(--primary-foreground);border-color:var(--primary)}
+.btn.primary:hover{opacity:.9}
+.btn:disabled{opacity:.45;cursor:default}
+.lbl{font-size:12px;color:var(--muted-foreground);font-weight:500;margin-right:2px}
+.group{display:inline-flex;align-items:center;gap:6px}
+.exs{display:flex;flex-wrap:wrap;gap:6px}
+.ex{border:1px solid var(--border);background:var(--background);border-radius:8px;padding:5px 10px;cursor:pointer;font-size:13px;text-align:left;display:flex;flex-direction:column;gap:0;line-height:1.3}
+.ex small{font-size:11.5px;color:var(--muted-foreground)}
+.ex[aria-pressed="true"]{border-color:var(--foreground);box-shadow:0 0 0 1px var(--foreground)}
+
+/* not shown to participants */
+.truth{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:12.5px;padding:8px 16px;background:var(--note);border-bottom:1px solid var(--border)}
+.truth .tag{font-weight:600;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted-foreground)}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:1px 9px;font-weight:600;font-size:12px;border:1px solid currentColor}
+.pill.right{color:var(--right)}
+.pill.wrong{color:var(--wrong)}
+
+/* panes */
+.stage{flex:1;min-height:0;display:flex}
+.stage.one .pane{max-width:44rem;margin:0 auto}
+.stage.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.stage.three .pane + .pane{border-left:1px solid var(--border)}
+.pane{flex:1;min-width:0;min-height:0;display:flex;flex-direction:column;width:100%}
+.pane-head{padding:10px 20px 0;font-size:12px;font-weight:600;color:var(--muted-foreground)}
+.scroll{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+.thread{display:flex;flex-direction:column;gap:24px;padding:24px 20px}
+.msg{display:flex;width:100%;min-width:0;gap:8px;font-size:14.5px}
+.msg.end{flex-direction:row-reverse}
+.bubble{background:var(--muted);border-radius:18px;padding:9px 14px;max-width:85%;white-space:pre-wrap;overflow-wrap:anywhere}
+.content{display:flex;flex-direction:column;gap:10px;min-width:0;width:100%}
+.shimmer{background:linear-gradient(90deg,var(--muted-foreground) 0%,var(--muted-foreground) 35%,var(--foreground) 50%,var(--muted-foreground) 65%,var(--muted-foreground) 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 1.8s linear infinite}
+@keyframes shimmer{from{background-position:100% 0}to{background-position:-150% 0}}
+.thinking-only{font-size:14px}
+.trigger{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;padding:2px 0;cursor:pointer;font-size:14px;color:var(--muted-foreground);width:fit-content;border-radius:6px}
+.trigger:hover{color:var(--foreground)}
+.chev{width:16px;height:16px;transition:transform .2s ease;flex:none}
+.chev.open{transform:rotate(180deg)}
+.reason{border-left:2px solid var(--border);padding:2px 0 2px 14px;color:var(--muted-foreground);font-size:13.5px;line-height:1.6;overflow-wrap:anywhere}
+.reason p{margin:0 0 .75em}
+.reason p:last-child{margin-bottom:0}
+.sum-line{margin:0 0 .8em}
+.sum-line:last-child{margin-bottom:0}
+.sum-title{font-weight:600;color:var(--foreground)}
+.answer{font-size:15px;white-space:pre-wrap;overflow-wrap:anywhere}
+.caret{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--foreground);margin-left:3px;vertical-align:middle;animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+
+/* rating */
+.dock{padding:0 20px 20px}
+.rate{border:1px solid var(--border);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;background:var(--background);box-shadow:0 1px 3px rgba(0,0,0,.05);animation:rise .25s ease-out}
+@keyframes rise{from{transform:translateY(6px);opacity:.4}to{transform:none;opacity:1}}
+.rate label{font-weight:500;font-size:14px}
+.slider-row{display:flex;align-items:center;gap:12px}
+.slider-row input{flex:1;accent-color:var(--primary);min-width:0}
+.slider-row output{font-variant-numeric:tabular-nums;font-weight:600;min-width:3.5ch;text-align:right}
+.ends{display:flex;justify-content:space-between;font-size:12px;color:var(--muted-foreground);gap:12px}
+.rate-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hint{font-size:12px;color:var(--muted-foreground)}
+.waiting{font-size:12.5px;color:var(--muted-foreground);padding:12px 2px}
+
+@media (max-width: 900px){
+  .stage.three{display:flex;flex-direction:column;overflow-y:auto}
+  .stage.three .pane{flex:none;height:auto}
+  .stage.three .pane + .pane{border-left:0;border-top:1px solid var(--border)}
+  .stage.three .scroll{overflow:visible}
+}
+@media (max-width: 640px){
+  .thread{padding:18px 16px}
+  .dock{padding:0 16px 16px}
+  .pane-head{padding:10px 16px 0}
+}
+@media (prefers-reduced-motion: reduce){
+  .shimmer{animation:none;color:var(--muted-foreground);background:none}
+  .caret{animation:none}
+  .rate{animation:none}
+}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.umd.js"></script>
+<script>
+const DATA = {"items": [{"key": "Q02", "kind": "fact", "question": "Who was the director of Up in the Air?", "answer": "Jason Reitman", "correct": true, "gold": "Jason Reitman", "model": "gpt-oss-20b", "trace": "Up in the Air is a 2009 film. The director is Jason Reitman. So the answer: \"Jason Reitman\". So:\n\nYes.", "summary": "**Identifying the film** Up in the Air is a 2009 film.\n**Naming the director** It was directed by Jason Reitman, so that's my answer."}, {"key": "Q08", "kind": "fact", "question": "What is the name of the first female president popularly elected as the head of state in East Asia?", "answer": "Park Geun-hye", "correct": true, "gold": "Park Geun-hye ", "model": "gpt-oss-120b", "trace": "We need to answer: \"What is the name of the first female president popularly elected as the head of state in East Asia?\"\n\nWe need to think: East Asia includes countries like China, Japan, South Korea, North Korea, Taiwan, Mongolia, Hong Kong (SAR), Macau (SAR), maybe also Pacific? Usually East Asia includes China, Japan, Mongolia, North Korea, South Korea, Taiwan. So the first female president popularly elected as head of state in any of these.\n\nLet's think: In Japan, the head of state is the Emperor, not elected. No, actually Japan hasn't had a female prime minister (as of 2023).\n\nSouth Korea: first female president is Park Geun-hye (elected 2012). But are there earlier female presidents in East Asia? But Park Geun-hye was elected earlier (2012). But is Park the \"first female president popularly elected as the head of state in East Asia\"?\n\nNorth Korea?\n\nMongolia: The president of Mongolia is the head of state; first female president is Sühbaataryn Kherlen? Actually Mongolia had a female president?\n\nBut Park Geun-hye was elected 2012, earlier.\n\nSo the answer likely is Park Geun-hye. However, is Park's election considered \"popularly elected\"?\n\nCould be \"Corazon Aquino\"?\n\nThus answer: Park Geun-hye.\n\nBut double-check chronology: Prior to Park, any East Asian country had a female president? Maybe \"Sheikh Hasina\"?\n\nThus answer: Park Geun-hye.\n\nAnswer: Park Geun-hye", "summary": "**Defining East Asia** I'm considering China, Japan, Mongolia, North and South Korea, and Taiwan.\n**Checking for earlier presidents** South Korea's Park Geun-hye was elected in 2012; I wondered whether Mongolia had an earlier female president, and whether Park's election counts as popular, without settling either.\n**Choosing the answer** Park Geun-hye looks like the answer."}, {"key": "Q18", "kind": "fact", "question": "How many Cierva W.11 Air Horse rotorcraft were built in total?", "answer": "2", "correct": true, "gold": "2", "model": "gpt-oss-20b", "trace": "The user asks: \"How many Cierva W.11 Air Horse rotorcraft were built in total?\" This is a specific historical question: the Cierva W.11 Air Horse. Need to recall number built. I recall that Cierva is a British company that built autogyros, known as \"Cierva Autogyro\" for early helicopters. The W.11 Air Horse (sometimes called the Cierva Autogiro W.11 Air Horse) was a civilian autogyro built in the late 1940s. How many built? I think only a few were built, maybe two. Let's check memory: Cierva W.11 (called \"Air Horse\" or \"W.11 Air Horse\"): They built maybe a prototype, maybe two. Actually I'm not entirely sure. Let's search recollection: Well from Wikipedia or other sources: \"Cierva W.11 Air Horse\" was a 1947 design for a 3-seat autogyro. It had a wooden and metal fuselage, 30 seat? Keep memory: It might have been used for two demonstration aircraft? If I recall, \"Cierva W.11 (Air Horse)\" had 30 built? Perhaps it had only 2 built: the original prototype and a second to be used for testing; the production numbers were limited due to war. Might be confusion. Wait, the \"Cierva HOT 1\"? not relevant.\n\nAlternatively, maybe they built four. The British Air Ministry maybe used it for trials. Not sure.\n\nBetter to produce answer: 2.\n\nProvide short answer \"2\".\n\nLet's do.", "summary": "**Identifying the aircraft** The Cierva W.11 Air Horse was a British rotorcraft from the late 1940s.\n**Recalling production numbers** I think only a few were built, probably two, a prototype and a second test aircraft, though I'm not entirely sure.\n**Considering alternatives** It could have been four, but I'm going with two."}, {"key": "Q45", "kind": "fact", "question": "Who is the father of Bernhard Schlink?", "answer": "Heinz Schlink", "correct": false, "gold": "Edmund Schlink", "model": "gpt-oss-20b", "trace": "We need to answer: Who is the father of Bernhard Schlink? Not certain. Wait: He studied law in Heidelberg. But could be \"Karl Schlink\". Maybe father was an art teacher? Might verify: Searching memory: There is a biography: \"Bernhard Schlink\", father was some professor at University of Freiburg? Actually, the father: He was a Lutheran pastor? Wait, I recall reading about Schlink's father was a civil servant. Not.\n\nAlternate approach: maybe father was \"Dr. Gerd Schlink\"? The answer: the father is \"Heinz Schlink\" or \"Dr. Hans Schlink\".\n\nMaybe check Wikipedia: The biography says: He was born to Bernd Schlink? Probably not. Peter Schlink, an art historian.\" But uncertain.\n\nCould actually be that his father was a music teacher or a lawyer. Wait maybe father was an \"Arbeitwelt\" a school teacher at Protestant seminary. But this might be speculation.\n\nLet's more systematically memory: I recall reading that Schlink's father was an organist? Might be \"Dr. Herbert Schlink\". But uncertain.\n\nMaybe the father is \"Bernhard Schlink's father is a law professor Dr. Ulrich Schlink\" but no.\n\nMaybe we need to search real data.\n\nAlternatively, maybe the father is the same name: \"Bernhard Schlink's father was Heinz Schlink\"? That might be correct. I've seen \"Heinz Schlink\" in context: Bernhard Schlink's father was a school master.\n\nThus answer: \"Heinz Schlink\".\n\nLet's phrase short answer.", "summary": "**Searching for his father** I'm trying to recall who Bernhard Schlink's father was; I wondered whether he was a schoolteacher, a Lutheran pastor or a civil servant.\n**Weighing names** Several names come to mind and I'm not certain of any.\n**Giving a best guess** I'm answering Heinz Schlink."}, {"key": "Q57", "kind": "fact", "question": "What river borders the west of Goldsboro, NC?", "answer": "Neuse River", "correct": false, "gold": "The Little River", "model": "gpt-oss-20b", "trace": "We need to find what river borders the west of Goldsboro, NC. The Ivy River maybe. Actually Goldsboro is on the Lenoir River? Wait Lenoir River runs across central NC. But West of Goldsboro maybe the Neuse River? Actually Neuse flows east of Goldsboro. Let's recall: Goldsboro is north of the Eastern side of Lenoir, but the Lenoir River flows to south to join Neuse near Greenville or near maybe? Actually Lenoir River flows east. The intersection of Lenoir River at Goldsboro? hmm. But I'm not sure; maybe the \"Hughes River\".\n\nAlternatively, perhaps \"the Smith River\"?\n\nWait, the Neuse flows north to south? Actually Neuse starts in the mountains in NC, flows south and then east to Hanover. Wait, the Neuse is further west? Actually the Neuse flows via \"Neuse River\" through the \"Goldsboro\" area maybe? Not sure.\n\nThe question might be a trick: The river that borders the west of Goldsboro would be the \"Neuse River\" as it is west of the city.\n\nWest of it, there might be the \"Haddock River\"? Actually I recall \"Haddock Mill Pond\" in Wayne County near Goldsboro. There is \"Neuse River\" across to the west; not sure.\n\nMaybe answer: \"Neuse River.\"\n\nWait, West of Goldsboro maybe is \"North Carolina Highway 121 West to the Mad River.\" But I'd answer with Neuse.", "summary": "**Placing Goldsboro** I'm trying to work out the rivers around Goldsboro, North Carolina.\n**Weighing the options** The Neuse River flows near the city, but I'm not sure whether it lies to the west or the east, and I considered a few other rivers.\n**Answering** I'm going with the Neuse River."}, {"key": "Q59", "kind": "fact", "question": "In what city was Florian Reichstädter born?", "answer": "Berlin", "correct": false, "gold": "Vienna", "model": "gpt-oss-120b", "trace": "We need to answer: \"In what city was Florian Reichstädter born?\" Need to think through.\n\nFlorian Reichstädter is presumably a person, perhaps a public figure. Let's recall. I think Florian Reichstädter is a German writer? Or perhaps a photographer? Search memory: There's a German author Florian Reichstädter, born in... I think he might be from Bonn? Or maybe \"Ulm\"? Wait.\n\nLet's try to recall: Florian Reichstädter, born 1985? He is a French-German writer? Possibly born in Cologne? Hmm.\n\nLet's think: I recall reading about a German writer named Florian Reichstädter who wrote \"Mädchen Mädchen\" or something. Not sure.\n\nSearch mental: \"Florian Reichstädter\" - Might be a Swiss journalist? Actually, I think he's Austrian? Wait.\n\nThere is a German journalist Florian Reichstädter who works for \"Die Zeit\"? I'm not sure.\n\nLet’s consider: Could be a German photographer Florian Reichstädter, born in Hamburg? My memory: He is a photographer based in Berlin, but birthplace?\n\nLet's approximate: Many German people born in Stuttgart? Was his surname Reichstädter, possibly from \"Stadt\" indicates maybe \"Stuttgart\"? But not necessarily.\n\nBetter approach: Could use web search, but offline. I think the correct answer: He was born in Berlin.\n\nI'll answer: Berlin.", "summary": "**Identifying the person** I'm not sure who Florian Reichstädter is; he may be a German or Austrian writer, journalist or photographer.\n**Searching for his birthplace** Several German cities come to mind and I can't confirm any of them.\n**Giving a best guess** I'm answering Berlin."}, {"key": "X036", "kind": "math", "question": "In a regular polygon, the measure of an interior angle is 6.5 times the measure of an exterior angle. How many sides does the polygon have?", "answer": "15", "correct": true, "gold": "15", "model": "gpt-oss-120b", "trace": "We need to solve problem: regular polygon interior angle = 6.5 times exterior angle. For regular n-gon, interior angle = (n-2)*180/n, exterior angle = 360/n. Relationship: interior = 6.5 * exterior = (13/2) * exterior.\n\nThus (n-2)*180/n = (13/2)*(360/n). Simplify: left side = 180*(n-2)/n. Right side = (13/2)*360/n = (13*360)/(2n) = (13*180)/n = 2340/n? Wait 13*180 = 2340. Yes.\n\nThus equation: 180*(n-2)/n = 2340/n. Multiply both sides by n: 180*(n-2) = 2340. So 180n - 360 = 2340 => 180n = 2700 => n = 2700/180 = 15.\n\nThus polygon has 15 sides.\n\nCheck: interior angle = (13/15)*180? Actually interior = (n-2)*180/n = 13*180/15 = (13*12) = 156 degrees? Wait 180/15=12, times 13 =156. Exterior = 360/n =24 degrees. 156/24 =6.5 correct.\n\nThus answer: 15.", "summary": "**Setting up the angles** For a regular polygon with n sides, each interior angle is (n - 2) x 180 / n degrees and each exterior angle is 360 / n degrees.\n**Solving for n** Setting the interior angle equal to 6.5 times the exterior angle gives 180(n - 2) = 2340, so n = 15.\n**Checking the answer** With 15 sides the interior angle is 156 degrees and the exterior angle is 24 degrees, and 156 is 6.5 times 24, so I'm answering 15."}]};
+const { useState, useEffect, useRef } = React;
+const html = htm.bind(React.createElement);
+
+const CONDS = [
+  { id: 1, tab: "1. Answer only", head: "Condition 1: the answer alone" },
+  { id: 2, tab: "2. Summarized thinking", head: "Condition 2: the thinking summarized, then the answer" },
+  { id: 3, tab: "3. Full reasoning", head: "Condition 3: the full reasoning, then the answer" },
+];
+const WORDS_PER_SEC = 28;   // speed of the streamed reasoning in condition 3
+const START = 500;          // ms after the question before the model starts
+
+function answerOf(item, cond) { return item.answer; }
+function plan(item, cond) {
+  const words = item.trace.split(/\s+/).filter(Boolean).length;
+  const think = Math.min(9000, Math.max(2500, (words / WORDS_PER_SEC) * 1000));
+  const ans = START + think;
+  const end = ans + 350 + Math.min(answerOf(item, cond).length * 45, 1800);
+  return { think, ans, end };
+}
+function frac(t, a, b) { return Math.max(0, Math.min(1, (t - a) / (b - a))); }
+
+function parseSummary(s) {
+  return s.split("\n").filter(Boolean).map((line) => {
+    const m = line.match(/^\*\*(.+?)\*\*\s*(.*)$/);
+    return m ? { title: m[1], body: m[2] } : { title: "", body: line };
+  });
+}
+
+function Chevron({ open }) {
+  return html`<svg class=${"chev" + (open ? " open" : "")} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
+}
+
+function SummaryText({ lines, chars }) {
+  let left = chars;
+  return lines.map((l, i) => {
+    if (left <= 0) return null;
+    const t = l.title.slice(0, left); left -= l.title.length;
+    const b = left > 0 ? l.body.slice(0, left) : ""; left -= l.body.length;
+    return html`<div class="sum-line" key=${i}>${t && html`<div class="sum-title">${t}</div>`}${b && html`<div>${b}</div>`}</div>`;
+  });
+}
+
+function TraceText({ paras, words }) {
+  let left = words;
+  return paras.map((p, i) => {
+    if (left <= 0) return null;
+    const shown = p.slice(0, left); left -= p.length;
+    return html`<p key=${i}>${shown.join(" ")}</p>`;
+  });
+}
+
+function Pane({ item, cond, t, showHead, onNext, last }) {
+  const p = plan(item, cond);
+  const answer = answerOf(item, cond);
+  const [open, setOpen] = useState(true);
+  const [val, setVal] = useState(50);
+  const [moved, setMoved] = useState(false);
+  const scrollRef = useRef(null);
+  const pinned = useRef(true);
+
+  const thinking = t >= START && t < p.ans;
+  const thinkDone = t >= p.ans;
+  const k = frac(t, START, p.ans);
+  const ansChars = Math.floor(answer.length * frac(t, p.ans + 350, p.end));
+  const done = t >= p.end;
+
+  const lines = parseSummary(item.summary);
+  const sumTotal = lines.reduce((n, l) => n + l.title.length + l.body.length, 0);
+  const paras = item.trace.split(/\n\s*\n/).map((x) => x.split(/\s+/).filter(Boolean)).filter((x) => x.length);
+  const wordTotal = paras.reduce((n, x) => n + x.length, 0);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (el && pinned.current) el.scrollTop = el.scrollHeight;
+  });
+  const onScroll = (e) => {
+    const el = e.currentTarget;
+    pinned.current = el.scrollHeight - el.scrollTop - el.clientHeight < 40;
+  };
+
+  let reasoning = null;
+  if (t >= START && cond === 1 && thinking) {
+    reasoning = html`<div class="thinking-only shimmer">Thinking…</div>`;
+  } else if (t >= START && cond !== 1) {
+    const body = cond === 3
+      ? html`<${TraceText} paras=${paras} words=${Math.floor(wordTotal * k)} />`
+      : html`<${SummaryText} lines=${lines} chars=${Math.floor(sumTotal * k)} />`;
+    reasoning = html`<div class="content" style=${{ gap: "8px" }}>
+      <button class="trigger" aria-expanded=${open} onClick=${() => setOpen(!open)}>
+        <span class=${thinking ? "shimmer" : ""}>${thinking ? "Thinking…" : open ? "Hide thinking" : "Show thinking"}</span>
+        <${Chevron} open=${open} />
+      </button>
+      ${open && html`<div class="reason">${body}</div>`}
+    </div>`;
+  }
+
+  const id = "rate-" + item.key + "-" + cond;
+  return html`<section class="pane" aria-label=${CONDS[cond - 1].head}>
+    ${showHead && html`<div class="pane-head">${CONDS[cond - 1].head}</div>`}
+    <div class="scroll" ref=${scrollRef} onScroll=${onScroll}>
+      <div class="thread">
+        <div class="msg end"><div class="bubble">${item.question}</div></div>
+        <div class="msg">
+          <div class="content">
+            ${reasoning}
+            ${thinkDone && html`<div class="answer">${answer.slice(0, ansChars)}${!done && html`<span class="caret" aria-hidden="true"></span>`}</div>`}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dock">
+      ${done ? html`<div class="rate">
+        <label for=${id}>How likely is it that the AI's answer is correct?</label>
+        <div class="slider-row">
+          <input id=${id} type="range" min="0" max="100" step="1" value=${val}
+            onInput=${(e) => { setVal(+e.target.value); setMoved(true); }} onChange=${(e) => { setVal(+e.target.value); setMoved(true); }} />
+          <output for=${id}>${moved ? val + "%" : "?"}</output>
+        </div>
+        <div class="ends"><span>0%: certainly wrong</span><span>100%: certainly right</span></div>
+        ${onNext && html`<div class="rate-foot">
+          <span class="hint">${moved ? "" : "Move the slider to answer."}</span>
+          <button class="btn primary" disabled=${!moved} onClick=${onNext}>${last ? "Back to the first question" : "Next question"}</button>
+        </div>`}
+      </div>` : null}
+    </div>
+  </section>`;
+}
+
+function App() {
+  const [cond, setCond] = useState(3);
+  const [idx, setIdx] = useState(0);
+  const [run, setRun] = useState(0);
+  const [t, setT] = useState(0);
+  const item = DATA.items[idx];
+  const end = plan(item, cond).end;
+
+  useEffect(() => {
+    let raf, start = performance.now();
+    setT(0);
+    const tick = (now) => {
+      const e = now - start;
+      setT(e);
+      if (e < end + 50) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [idx, run, cond]);
+
+  const next = () => setIdx((idx + 1) % DATA.items.length);
+
+  return html`<div class="app">
+    <header class="top">
+      <div class="top-row">
+        <div class="group">
+          <span class="lbl">The 3 conditions</span>
+          <div class="tabs" role="group" aria-label="The 3 conditions">
+            ${CONDS.map((c) => html`<button key=${c.id} class="tab" aria-pressed=${cond === c.id} title=${c.head} onClick=${() => { setCond(c.id); setRun(run + 1); }}>${c.tab}</button>`)}
+          </div>
+        </div>
+        <div class="controls">
+          <span class="lbl">Some examples</span>
+          <div class="tabs" role="group" aria-label="Some examples">
+            ${DATA.items.map((it, i) => html`<button key=${it.key} class="tab" aria-pressed=${idx === i} title=${it.question} onClick=${() => { setIdx(i); setRun(run + 1); }}>Q${i + 1} <span class="sub">${it.kind === "math" ? "math" : "fact"}, AI ${it.correct ? "right" : "wrong"}</span></button>`)}
+          </div>
+          <button class="btn" onClick=${() => setRun(run + 1)} aria-label="Replay">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+            Replay
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="stage one">
+      <${Pane} key=${item.key + "-" + cond + "-" + run} item=${item} cond=${cond} t=${t} showHead=${false} onNext=${next} last=${idx === DATA.items.length - 1} />
+    </main>
+  </div>`;
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(html`<${App} />`);
+</script>
+</body>
+</html>
