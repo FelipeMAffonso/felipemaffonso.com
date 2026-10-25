@@ -39,6 +39,16 @@ tmp="$(mktemp -d)"
 src="$tmp/src"
 pub="$tmp/pages"
 cleanup() {
+  # Remove the node_modules link first and by itself: removing the worktree with the link still
+  # inside could follow it and delete this clone's real node_modules.
+  if [ -e "$src/node_modules" ] || [ -L "$src/node_modules" ]; then
+    if command -v cygpath >/dev/null 2>&1; then
+      powershell.exe -NoProfile -Command "(Get-Item -LiteralPath '$(cygpath -w "$src/node_modules")').Delete()" || return 0
+    else
+      unlink "$src/node_modules" || return 0
+    fi
+  fi
+  [ -e "$src/node_modules" ] && { echo "Left $src in place: its node_modules link could not be removed."; return 0; }
   git -C "$root" worktree remove --force "$src" 2>/dev/null || true
   git -C "$root" worktree remove --force "$pub" 2>/dev/null || true
   git -C "$root" worktree prune
