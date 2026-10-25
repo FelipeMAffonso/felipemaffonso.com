@@ -8,7 +8,8 @@ how the site is built and the rules that govern changes to it.
 
 - Live URL: https://felipemaffonso.com
 - Repo: https://github.com/FelipeMAffonso/felipemaffonso.com
-- Hosting: GitHub Pages. A push to `master` builds and deploys automatically.
+- Hosting: GitHub Pages, served from the `gh-pages` branch. A push to `master` publishes
+  nothing; `bash scripts/publish-pages.sh` publishes (see Deploy workflow below).
 - Purpose: Felipe's academic home page. Five pages: Home (hero, photo, bio),
   Publications (renamed from Research 2026-10-12; a filter row and the list with
   expandable panels; the old /research/ address forwards), Teaching (courses, awards,
@@ -73,7 +74,7 @@ felipemaffonso.com/
 â”‚   â””â”€â”€ images/               # headshot, journal covers, link icons
 â”œâ”€â”€ next.config.mjs           # Static export config
 â”œâ”€â”€ package.json
-â””â”€â”€ .github/workflows/deploy.yml   # Build + deploy to Pages on push to master
+â””â”€â”€ .github/workflows/deploy.yml   # Retired (Actions is off); scripts/publish-pages.sh publishes
 ```
 
 Content data lives in `lib/publications.tsx` (Research) and directly in the page
@@ -261,19 +262,26 @@ These are not preferences. Do not violate them.
   meta tag drops property ownership.
 - No em dashes and no emojis anywhere: not in the site, not in code comments, not in
   commit messages, not in this document.
-- Push to `master` is deploy. Branch work stays on side branches until Felipe says to
-  merge. Committing is not deploying; merging to `master` is.
+- Publishing is a separate step from pushing (AMENDED 2026-10-25; it used to read "Push to
+  `master` is deploy"). Branch work stays on side branches until Felipe says to merge, and
+  the site changes only when `bash scripts/publish-pages.sh` runs, which happens only on
+  Felipe's word. A push to `master` publishes nothing.
 
-### Deploy workflow
+### Deploy workflow (no GitHub Actions, since 2026-10-25)
 
-`.github/workflows/deploy.yml` runs on every push to `master`:
+GitHub Actions is off on every repository (Felipe 2026-10-24, "we should NEVER use it";
+the global CLAUDE.md law), so `.github/workflows/deploy.yml` never runs; it stays only as
+history and is never re-enabled. Pages publishes from the `gh-pages` branch instead: the
+branch holds the built site plus a `.nojekyll` file at its root, and with Actions disabled
+GitHub serves such a branch as it is, without a build (GitHub changelog, 2024-07-08,
+"Sunsetting GitHub Pages' legacy worker"). The Pages source was switched to `gh-pages`,
+folder `/`, on 2026-10-25 (`build_type: legacy`).
 
-1. `actions/checkout`.
-2. `actions/setup-node` (Node 20, npm cache).
-3. `npm ci`.
-4. `npm run build` (the Next.js static export, which writes to `out/`).
-5. `actions/upload-pages-artifact` with `path: out`.
-6. `actions/deploy-pages` publishes the artifact to GitHub Pages.
+To publish, on `master`, clean and pushed: `bash scripts/publish-pages.sh`. It refuses a
+dirty tree or a `master` that differs from `origin/master`, builds `master` in a temporary
+worktree (a running `npm run dev` keeps working), commits `out/` plus `.nojekyll` to
+`gh-pages` with the message "Publish master <sha>", pushes it, and waits until
+felipemaffonso.com serves the new build id. It prints LIVE, or says what is wrong.
 
 `public/CNAME` carries the custom domain `felipemaffonso.com` into `out/`, so Pages
 serves the site at that domain.
