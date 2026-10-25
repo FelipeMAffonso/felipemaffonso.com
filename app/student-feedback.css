@@ -1,0 +1,143 @@
+/* Student feedback on the Teaching page (components/StudentFeedback.tsx). Spacing and type
+   only: every control's look comes from the site's FilterRow and the Fluid Functionalism
+   and shadcn parts, on the site's tokens. */
+
+.student-feedback { margin-top: 14px; }
+.fb-controls { display: grid; gap: 10px; margin-bottom: 18px; min-width: 0; grid-template-columns: minmax(0, 1fr); }
+/* the bar: Filter, Shuffle and Search, each in the filter row's shell */
+.fb-sort-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pub-filter-btn.pub-filter-action { display: inline-flex; align-items: center; gap: 6px; }
+.pub-filter-btn.pub-filter-action:active { background: var(--surface-2); }
+.pub-filter-btn.pub-filter-action.on { background: var(--surface-2); color: var(--text); box-shadow: inset 0 0 0 1px var(--border); }
+/* the Filter rows: university, course, year, opened in place under the bar */
+.fb-filters {
+  display: grid; gap: 8px; min-width: 0; grid-template-columns: minmax(0, 1fr);
+  padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface);
+  animation: fbFiltersIn 0.2s var(--ease-out-quint) both;
+}
+@keyframes fbFiltersIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+.fb-filter-group { display: grid; grid-template-columns: 90px minmax(0, 1fr); align-items: center; gap: 10px; min-width: 0; }
+.fb-filter-label { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-dim); }
+.fb-filter-clear { display: flex; justify-content: flex-end; }
+/* the chosen filters as chips, under the bar while the panel is closed */
+.fb-chips { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.fb-chips-n { margin-left: 4px; font-size: 12.5px; color: var(--text-dim); }
+@media (max-width: 720px) {
+  .fb-filter-group { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  /* a long course name breaks onto two lines on a phone instead of running past the panel */
+  .fb-filters .pub-filter-seg.pub-filter-wrap .pub-filter-btn { white-space: normal; text-align: left; max-width: 100%; }
+}
+/* the inline search (FilterSearch): the same shell, grown to hold a text field */
+.fb-search-wrap { min-width: 0; }
+.pub-filter-seg.pub-filter-search.open { display: flex; align-items: center; gap: 4px; padding-left: 10px; width: min(340px, 100%); }
+.pub-filter-search-icon { flex: none; color: var(--text-dim); }
+.pub-filter-input {
+  flex: 1; min-width: 0; border: 0; outline: none; background: transparent;
+  font: inherit; font-size: 13.5px; color: var(--text); padding: 6px 4px;
+}
+.pub-filter-input::placeholder { color: var(--text-dim); }
+/* the field draws no box of its own; the shell shows the focus */
+.pub-filter-input:focus, .pub-filter-input:focus-visible { outline: none; box-shadow: none; }
+.pub-filter-seg.pub-filter-search.open:focus-within { border-color: color-mix(in srgb, var(--coral) 55%, var(--border)); }
+.pub-filter-input::-webkit-search-cancel-button { display: none; }
+.fb-hit { background: color-mix(in srgb, var(--coral) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
+.fb-empty { padding: 28px 0; text-align: center; font-size: 14px; color: var(--text-dim); }
+
+/* the even grid: every closed card in a row is the same height, and each card's footer sits on
+   its bottom edge so the footers line up across the row */
+.fb-body { display: flex; flex-direction: column; flex: 1; }
+.fb-body .fb-by { margin-top: auto; padding-top: 14px; }
+
+/* the quote, under its large coral quotation mark (Felipe chose this style, 2026-10-25) */
+.fb-quote {
+  margin: 4px 0 0;
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: var(--text);
+  text-wrap: pretty;
+}
+.fb-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.fb-mark-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.fb-mark { font-size: 44px; line-height: 0.9; height: 26px; color: var(--coral); font-family: Georgia, "Times New Roman", serif; }
+
+/* the footer: who over where, and the handwritten card's photo beside them */
+.fb-by { display: flex; align-items: center; gap: 10px; }
+.fb-by-who { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.3; }
+.fb-by-meta { font-size: 12.5px; color: var(--text-dim); line-height: 1.35; }
+.fb-photo-avatar, .fb-photo-avatar::after { border-radius: 6px; }
+.fb-photo-avatar img { border-radius: 6px; }
+.fb-avatar-photo { object-position: center 30%; }
+.fb-context { margin-top: 8px; font-size: 13px; color: var(--text-dim); line-height: 1.5; }
+.fb-theme-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+.fb-mark-row .fb-theme-row { margin-bottom: 0; justify-content: flex-end; }
+
+/* an opened card takes the whole width of the grid in a row of its own; "dense" lets the cards
+   after it fill the place it left, and motion animates every card to its new spot */
+.fb-grid { grid-auto-flow: row dense; }
+.fb-grid > .fb-open { grid-column: 1 / -1; }
+.fb-open .fb-quote { font-size: 17px; line-height: 1.6; max-width: 70ch; }
+.fb-open-split { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 6px; }
+.fb-open-split .fb-card-photo { margin: 0; }
+@media (max-width: 720px) {
+  .fb-open-split { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
+
+/* lift and dim (Felipe chose it, 2026-10-25): the open card turns white and rises on a soft
+   shadow, and the other cards fade back while it is open, coming back under the mouse */
+.fb-grid > * { transition: opacity 0.24s var(--ease-out-quint), filter 0.24s var(--ease-out-quint), box-shadow 0.24s var(--ease-out-quint), background-color 0.15s var(--ease-out-quint); }
+.fb-grid > .fb-open { background-color: var(--surface); box-shadow: var(--shadow-panel); }
+.fb-grid[data-open] > :not(.fb-open) { opacity: 0.5; filter: saturate(0.6); }
+.fb-grid[data-open] > :not(.fb-open):hover { opacity: 1; filter: none; }
+
+/* the shuffle: every card dims, the cards are swapped, and the new ones brighten one after
+   another (--i, 8 ms apart); nothing slides and nothing blurs (Felipe: the first version's dim) */
+.fb-grid.fb-out > * { opacity: 0.35; transition-duration: 0.12s; }
+@keyframes fbIn {
+  from { opacity: 0.35; }
+  to { opacity: 1; }
+}
+.fb-grid.fb-in > * { animation: fbIn 0.22s var(--ease-out-quint) both; animation-delay: calc(var(--i, 0) * 8ms); }
+@media (prefers-reduced-motion: reduce) {
+  .fb-grid.fb-in > * { animation-delay: 0ms; }
+}
+
+.fb-more { display: flex; justify-content: center; margin-top: 18px; }
+
+/* every card opens on a click: it turns gray under the mouse and shows the hand cursor */
+.fb-click { transition: background-color 0.15s var(--ease-out-quint); }
+.fb-click, .fb-click * { cursor: pointer; }
+@media (hover: hover) {
+  .fb-click:hover { background-color: color-mix(in srgb, var(--text) 5%, transparent); }
+  .fb-grid > .fb-open.fb-click:hover { background-color: var(--surface); }
+}
+
+/* the handwritten card is a card like the others: its photo in the footer avatar, and the full
+   photo once it is open */
+.fb-card-photo {
+  display: block; width: 100%; height: auto; margin: 0 0 12px; border-radius: 8px; box-shadow: var(--shadow-cover);
+  /* the photo's lower part is the empty envelope: crop it, keep the card */
+  aspect-ratio: 3 / 4; object-fit: cover; object-position: center 35%;
+}
+
+@media (max-width: 720px) {
+  .fb-card-photo { max-width: 220px; }
+}
+
+/* a filter row that breaks onto a second line (FilterRow wrap): the thumb is placed by script */
+.pub-filter-seg.pub-filter-wrap { flex-wrap: wrap; overflow: visible; }
+.pub-filter-seg.pub-filter-wrap .pub-filter-thumb { bottom: auto; }
+.pub-filter-seg.pub-filter-wrap.ready .pub-filter-thumb {
+  transition: transform 0.3s var(--ease-out-quint), width 0.3s var(--ease-out-quint), height 0.3s var(--ease-out-quint);
+}
+
+/* a filter row inside a section: not sticky, no band */
+.pub-filter.pub-filter-static { position: static; margin: 0; padding: 0; background: transparent; border-bottom: 0; }
+
+/* paragraphs inside an opened Teaching entry (the Publications panel holds one paragraph) */
+.expand-list .pub-abstract p + p { margin-top: 10px; }
