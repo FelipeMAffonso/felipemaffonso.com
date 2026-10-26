@@ -531,6 +531,16 @@ Three trackers live on every page via `src/_includes/base.njk`:
 
 **Do not remove** any of these: Clarity script, CF beacon, or the GSC meta tag. Losing the meta tag drops GSC property ownership.
 
+**Cloudflare has two codes for this site, and they are not interchangeable (found 2026-10-26).** The beacon snippet
+carries the site TOKEN `db16777525f64d0abb899762c3c29b9c`. Data is read through the GraphQL API
+(`rumPageloadEventsAdaptiveGroups`, account `27bd7115ab2090ed90f2e0c4b329e60a`) with the site TAG
+`ab6778bf03cf482eb2d08901013798a4`. The dashboard worker below filters by the token, so its `/api/analytics/cf` has
+returned zero page views while Cloudflare held 2,300 page loads from Aug 1 to Oct 26, 2026. Query with the tag (this
+machine's CLOUDFLARE_API_TOKEN can read it; one query may span at most 13 weeks). Cloudflare's numbers are sampled
+(they come in tens), it sees only browsers that run the page's scripts, and sessions that open the site to check an
+edit count as visits. The site is served by GitHub Pages with DNS at Google Domains, so Cloudflare never sees bots or
+crawlers; the agent check-in (above) is the only record of those.
+
 **Unified dashboard view** for all three (queries + pageviews + behavioral signals) exists inside the academic-research Dashboard at `felipemaffonso.github.io/academic-research/` â€” click the bar-chart icon next to the Claude mascot in the header, or `Ctrl+Shift+A`. The worker at `research-dashboard-claude.webmarinelli.workers.dev` exposes `/api/analytics/{cf,gsc,clarity,summary}` (Bearer `GIST_TOKEN` auth). See `dashboard/CLAUDE.md` "Site Analytics" section for full architecture.
 
 **To verify live:**
