@@ -494,6 +494,26 @@ figure source files when they exist. The build and the refusing verifier for tha
 research-point-vs-range-jmr `R3 Files/PRODUCTION Sep 2026/machine-readable/` and are the template
 for the next paper.
 
+## llms.txt and the agent check-in (2026-10-26)
+
+Felipe 2026-10-26: "update my llms.txt in my website to ask people's agents to always identify themselves (and have
+some type of form, so the curl or whatever they use get who's accessing my website!)". `public/llms.txt` (served at
+/llms.txt) asks every AI agent or automated tool to check in once, and lists the pages, the machine-readable papers
+and the note to students. When a paper .md is added to `public/files/papers/`, add it to the list in llms.txt too.
+
+The check-in is a separate Cloudflare Worker, because the static site cannot see who reads it:
+`workers/agent-checkin/` (src/index.js, wrangler.toml, tests in test/), live at
+https://felipemaffonso-agent-checkin.webmarinelli.workers.dev. `/` explains how to check in (plain text for agents, a
+form for browsers); `/checkin` records agent, operator, purpose, contact and page plus the User-Agent and the country
+and network that Cloudflare reports, in the KV namespace CHECKINS (kept two years). IP addresses are never stored.
+`/log?key=<LOG_KEY>` lists the newest check-ins as JSON; the key is a Worker secret, and its value is kept outside git
+in `C:\work\agent-checkin-log-key.txt` on the FELIPE machine. Deploy the Worker from its folder with
+`wrangler deploy --config wrangler.toml`; it is independent of `scripts/publish-pages.sh`. Tests:
+`node --test workers/agent-checkin/test/checkin.test.mjs`.
+
+The Contact page also carries the note to undergraduate and prospective PhD students (Felipe 2026-10-26): no
+supervision at this time, the link to the Marketing PhD program page, and that the program handles admissions.
+
 ## Analytics (installed 2026-04-20)
 
 Note on paths: the trackers are now injected from `app/layout.tsx` (the Clarity
