@@ -158,7 +158,7 @@ export const journals: Pub[] = [
     id: "cognitive-traps",
     citation: (
       <>
-        <strong>Affonso, Felipe M.</strong> (forthcoming), &quot;Brief Commentary: A Framework for Detecting AI Agents in Online Research,&quot; <em>Journal of Consumer Research</em>.
+        <strong>Affonso, Felipe M.</strong> (2026), &quot;Brief Commentary: A Framework for Detecting AI Agents in Online Research,&quot; <em>Journal of Consumer Research</em>, 53 (3), 619–633.
       </>
     ),
     links: [
