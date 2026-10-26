@@ -38,6 +38,21 @@ export default function ContactPage() {
             <h3>Profiles</h3>
             <SocialLinks />
           </div>
+
+          <div className="contact-block enter" style={{ ...d(2), gridColumn: "1 / -1" }}>
+            <h3>Note to undergraduate and prospective PhD students</h3>
+            <p>
+              Unfortunately, I am not able to supervise undergraduate research projects or new PhD students at this time.
+            </p>
+            <p>
+              If you are interested in the Marketing PhD program at Oklahoma State, the program&apos;s page explains the
+              program and how to apply:{" "}
+              <a href="https://go.okstate.edu/graduate-academics/programs/doctoral/business-administration-phd-marketing-option">
+                Business Administration PhD, Marketing option
+              </a>
+              . The program handles all questions about admissions and applications, and I am not involved in that process.
+            </p>
+          </div>
         </div>
 
         <SpearsCard />

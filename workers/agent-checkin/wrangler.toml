@@ -1,0 +1,12 @@
+# The agent check-in Worker for felipemaffonso.com (see src/index.js). Deploy from this folder:
+#   wrangler deploy --config wrangler.toml
+# The LOG_KEY secret (for /log) is set with `wrangler secret put LOG_KEY --config wrangler.toml`; its value is kept
+# outside git in C:\work\agent-checkin-log-key.txt on the FELIPE machine.
+name = "felipemaffonso-agent-checkin"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "CHECKINS"
+id = "075d7a5b5bc64250813f361ff8e60cd9"
