@@ -507,7 +507,7 @@ https://felipemaffonso-agent-checkin.webmarinelli.workers.dev. `/` explains how 
 form for browsers); `/checkin` records agent, operator, purpose, contact and page plus the User-Agent and the country
 and network that Cloudflare reports, in the KV namespace CHECKINS (kept two years). IP addresses are never stored.
 `/log?key=<LOG_KEY>` lists the newest check-ins as JSON; the key is a Worker secret, and its value is kept outside git
-in `C:\work\agent-checkin-log-key.txt` on the FELIPE machine. Deploy the Worker from its folder with
+in `C:\work\agent-checkin-log-key.txt` on FELIPE and on DELL-TOWER (copied there 2026-11-05, where the work runs). Deploy the Worker from its folder with
 `wrangler deploy --config wrangler.toml`; it is independent of `scripts/publish-pages.sh`. Tests:
 `node --test workers/agent-checkin/test/checkin.test.mjs`.
 
