@@ -96,8 +96,9 @@ export const journals: Pub[] = [
   {
     /* Conditionally accepted at TiCS, 2026-10-13 (decision on TICS-D-26-00180R1). Felipe: "you only have the
        abstract, nothing else", so no buttons and no cover yet. Citation as in the cv repo; abstract verbatim from
-       the R1 manuscript submitted 2026-09-04 (research-intelligent-machine-delegation,
-       tics/output/SUBMISSION_PACKAGE_R1/Manuscript.docx, read with pandoc). */
+       the R2 manuscript submitted 2026-10-17 and accepted 2026-10-20 (research-intelligent-machine-delegation,
+       tics/output/SUBMISSION_PACKAGE_R2/Manuscript.docx, read with pandoc); it replaced the R1 abstract on
+       2026-11-13 (Felipe: the abstract has an example in the first sentence). */
     id: "human-ai-delegation",
     /* Placeholder cover until the issue cover exists (Felipe 2026-10-20): the TiCS logo tile with the Cell
        Press logo, built by scripts/build-placeholder-covers.py. */
@@ -109,7 +110,7 @@ export const journals: Pub[] = [
     ),
     abstract: (
       <>
-        <strong>Abstract:</strong> People increasingly rely on AI systems for consequential tasks. The gains are real yet difficult to realize reliably. We identify four psychological and structural conditions for successful delegation: accurate human assessment of AI capabilities, calibrated AI uncertainty communication, sustained human monitoring capacity, and compatible task structure. Each condition is well studied, yet we propose that they form an interdependent system in which each one’s effectiveness depends on the state of the others. Because these dependencies are bidirectional, we suggest they can compound over time into virtuous cycles or cascading degradation, and improving any single condition can fail or shift the bottleneck. These dynamics should intensify as AI moves from advisory roles to autonomous agents, where reviewing every output is infeasible.
+        <strong>Abstract:</strong> People increasingly rely on AI systems for consequential tasks, from clinical diagnosis to software development. The gains are real yet difficult to realize reliably. We identify four psychological and structural conditions for successful delegation: accurate human assessment of AI capabilities, calibrated AI uncertainty communication, sustained human monitoring capacity, and compatible task structure. Each condition is well studied, yet we propose that they form an interdependent system in which each one’s effectiveness depends on the state of the others. Because these dependencies are bidirectional, we suggest they can compound over time into virtuous cycles or cascading degradation, and improving any single condition can fail or shift the bottleneck. These dynamics should intensify as AI moves from advisory roles to autonomous agents.
       </>
     ),
   },
@@ -129,6 +130,25 @@ export const journals: Pub[] = [
     abstract: (
       <>
         <strong>Abstract:</strong> Product performance claims play an important role in shaping consumers&apos; purchase decisions. Through six preregistered studies, including one field study, we demonstrate that consumers&apos; preferences for point versus range performance estimates in common comparative purchase settings depend on whether their attention is directed toward the content of the claim or the manner of its presentation. At baseline, consumers focus on what information is communicated and prefer point over range estimates because point estimates convey greater certainty about the expected performance outcome. When consumers&apos; persuasion knowledge is activated, however, they shift attention to how information is communicated. In this mode, the format of the claim, rather than the stated performance figures, becomes informative: range estimates signal brand transparency by acknowledging the natural variability of real-world performance, enhancing perceived trustworthiness and reversing consumer preference. These effects are attenuated when products are evaluated in isolation rather than compared side by side. Collectively, these findings inform both theory and practice by revealing when and why consumers prefer point versus range estimates of product performance.
+      </>
+    ),
+  },
+  {
+    /* Accepted at JCP, 2026-11-13 (JCP-25-0500, David B. Wooten). Third, below the JMR paper and above the
+       JEP:General paper (Felipe 2026-11-13). No DOI yet, so no buttons. Abstract verbatim from the R3 manuscript
+       submitted 2026-10-20 (research-consumer-sickness-behavior, v3_revision/submission/CSB_Manuscript_R3.docx,
+       read with pandoc). Cover: the current JCP issue cover (Volume 36, Issue 4, October 2026), which Felipe
+       supplied; it is replaced when the paper's own issue cover exists. */
+    id: "consumer-sickness-behavior",
+    cover: { src: "/images/covers/consumer-sickness-behavior.webp", alt: "Journal of Consumer Psychology", w: 595, h: 782 },
+    citation: (
+      <>
+        <strong>Affonso, Felipe M.</strong> (forthcoming), &quot;Consumer Sickness Behavior: A Model for Understanding Consumption During Illness,&quot; <em>Journal of Consumer Psychology</em>.
+      </>
+    ),
+    abstract: (
+      <>
+        <strong>Abstract:</strong> Illness is a near-universal and economically consequential consumer state, yet consumer theory has no framework for how being sick changes consumption. Prior work has focused on external pandemic responses and not the internal biological state of being sick, and little research connects the biological mechanisms of illness (inflammation, cytokine activation) to systematic change in consumer behavior. Drawing on converging evidence from immunology, neuroscience, and consumer behavior, we develop the Consumer Sickness Behavior (CSB) model. The model proposes that illness activates an adaptive motivational program with three psychological mediators: motivational reprioritization, risk-perception recalibration, and effort-value recalibration. It predicts a distinctive differential-effects pattern, the simultaneous suppression of exploratory and social consumption and amplification of comfort- and safety-seeking, that neither a single feeling state nor fatigue produces. By treating illness as a compound psychological state, in which acute inflammation produces feelings and motivational changes together, CSB explains marketplace patterns that no account based on a single feeling or on fatigue predicts and offers implications for marketing, consumer welfare, and public health.
       </>
     ),
   },
