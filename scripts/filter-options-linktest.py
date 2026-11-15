@@ -63,12 +63,14 @@ with sync_playwright() as p:
     ok("JM, 2022 chosen: the button reads 2022 to 2023", ybtn.inner_text().strip() == "2022 to 2023", ybtn.inner_text().strip())
 
     # a type button never clears the journals or the years (Felipe: "ALL is different from CLEAR")
-    type_btn = lambda name: pg.locator(".pub-filter-btn", has=pg.locator(".pub-filter-long", has_text=name)).first
+    # the type row is Fluid Tabs with only the chosen name shown (decided 2026-11-14): pick by the tab's name
+    type_btn = lambda name: pg.get_by_role("tab", name=name, exact=True).first
+    chosen_type = lambda: pg.get_by_role("tab", selected=True).first.get_attribute("aria-label") or pg.get_by_role("tab", selected=True).first.inner_text().strip()
     # the years chosen above (2022 on) stay chosen through type and journal changes; start this step clean
     ok("the years chosen above survived the journal change", ybtn.inner_text().strip() != "Year", ybtn.inner_text().strip())
     pg.get_by_role("button", name="Clear filters").first.click(); pg.wait_for_timeout(300)
     journals("Journal of Consumer Psychology")
-    pressed = pg.locator('.pub-filter-btn[aria-pressed="true"] .pub-filter-long').first.inner_text().strip()
+    pressed = chosen_type()
     ok("JCP: the type moves to Journal publications", pressed == "Journal publications", pressed)
     type_btn("All").click(); pg.wait_for_timeout(300)
     n = pg.locator(".pub-entry").count()
@@ -83,7 +85,7 @@ with sync_playwright() as p:
     year_panel()
     pg.locator(".fo-pop").get_by_role("button", name="Clear", exact=True).first.click(); pg.wait_for_timeout(300)
     pg.keyboard.press("Escape"); pg.wait_for_timeout(250)
-    pressed = pg.locator('.pub-filter-btn[aria-pressed="true"] .pub-filter-long').first.inner_text().strip()
+    pressed = chosen_type()
     ok("Clear: the type is back on All", pressed == "All", pressed)
     ok("Clear: the Journal button says Journal", jbtn.inner_text().strip() == "Journal", jbtn.inner_text().strip())
     ok("Clear: the Year button says Year", ybtn.inner_text().strip() == "Year", ybtn.inner_text().strip())

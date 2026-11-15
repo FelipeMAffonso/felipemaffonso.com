@@ -14,7 +14,7 @@
    because Fluid's rows take a text label only.
    ============================================================ */
 
-import { useEffect, useState, type ComponentType, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ComponentType, type ReactNode } from "react";
 import { Popover, Slider } from "radix-ui";
 import {
   Book, BookMarked, BookOpen, BookOpenText, CalendarDays, CalendarRange, ChevronDown, FileText, History,
@@ -26,7 +26,6 @@ import { CheckboxGroup, CheckboxItem } from "@/components/ui/checkbox-group";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Tabs, TabsItem } from "@/components/ui/tabs";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { DropdownContent, DropdownMenu, DropdownTrigger } from "@/components/ui/dropdown";
 import { MenuItem } from "@/components/ui/menu-item";
 import { KINDS } from "./data";
@@ -228,12 +227,9 @@ export function VenueChecks({ st, s, onToggle }: { st: FilterState; s: Settings;
       })}
     </div>
   );
-  /* the scrolling list: Fluid's ScrollArea, its scrollbar always shown inside this list as a pale rail
-     with a thicker rounded thumb (filter-options.css, .fo-scrollarea; Felipe 2026-11-14: "a
-     chunkier/beautiful scrolling inside the journal list") */
-  return s.list === "scroll" ? (
-    <ScrollArea className="fo-scrollarea" viewportClassName="scroll-fade !h-auto max-h-[inherit]">{list}</ScrollArea>
-  ) : list;
+  /* the browser's own scrollbar, with its arrows (Felipe 2026-11-14, after two custom scrollbars: "just
+     bring back the old scroll. that one was working just fine") */
+  return s.list === "scroll" ? <div className="fo-scroll scroll-fade">{list}</div> : list;
 }
 
 /* ---- the years: Radix Slider (shadcn's slider primitive) with two handles, a label under

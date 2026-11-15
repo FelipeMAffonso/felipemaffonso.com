@@ -8,8 +8,9 @@
    "journal list is journals only (preprints get filtered out). list
    length is scroll", "placement will be LEFT", "icons will be book and
    calendar", "forthcoming is it's own stop", "for many years, I want the
-   "Zooms to your range" idea" (DECIDED below; FIXED in Board.tsx applies
-   the ones that are settings).
+   "Zooms to your range" idea", "I want "Only the chosen name" by the way,
+   the way it is" (DECIDED below; FIXED in Board.tsx applies the ones that
+   are settings). Every setting is decided, so the page offers none.
    ============================================================ */
 
 import type { Forth, Icons, Layer, ListLen, Place, Types } from "./model";
@@ -17,38 +18,19 @@ import type { Forth, Icons, Layer, ListLen, Place, Types } from "./model";
 export const BOARD = {
   title: "Publication filters",
   lead:
-    "This is the real Publications page with your 18 entries, running on this computer, with two new buttons: Journal and Year. " +
-    "Journal opens a list of the journals with a checkbox and a count for each; Year opens an orange slider with two handles. " +
-    "Every count updates with the other filters: choosing 2021 to 2026 changes the numbers on the type buttons and beside each journal. " +
-    "Switch the settings below to try any combination; the desktop view and the phone view follow, and the notes kit in the corner records your pins.",
-
-  types: [
-    {
-      key: "row" as Types,
-      name: "Today's row",
-      what: "The type buttons stay as they are on the live page: All 18, Journal publications 13, Preprints 3, Book chapters 2.",
-    },
-    {
-      key: "icons" as Types,
-      name: "Icons and names",
-      what: "The same choices with an icon before each name: a stack for All, an open book for journal publications, a page for preprints, a bookmarked book for chapters.",
-    },
-    {
-      key: "active" as Types,
-      name: "Only the chosen name",
-      what: "Fluid's active label: every type shows its icon, and only the chosen one shows its name and count. A visitor has to hover over an icon to learn what the others are.",
-    },
-    {
-      key: "menu" as Types,
-      name: "A Type button",
-      what: "The type becomes a third button beside Journal and Year. It reads All types, or the chosen type, and its menu lists each type with its count.",
-    },
-  ],
+    "This is the real Publications page with your 18 entries, running on this computer, with every choice you made today: " +
+    "Journal and Year on the left, and the type buttons that show only the chosen name. Journal opens the journals with a " +
+    "checkbox and a count for each; Year opens the orange slider. Every count updates with the other filters. " +
+    "The desktop view and the phone view are the same page, and the notes kit in the corner records your pins.",
 
   /* Felipe's decisions of 2026-11-14; the page shows them and no longer offers the alternatives */
   decided: {
     title: "Decided on November 14",
     items: [
+      {
+        name: "Only the chosen name",
+        what: "Each type shows its icon, and only the chosen one shows its name and count, as Fluid's active label does.",
+      },
       {
         name: "Journals only",
         what: "The Journal list holds the ten journals. Checking a journal moves the type to Journal publications, so preprints and book chapters leave the list.",
@@ -80,6 +62,7 @@ export const BOARD = {
     ],
     settings: {
       layer: "journals" as Layer, list: "scroll" as ListLen, place: "left" as Place, icons: "book" as Icons, forth: "stop" as Forth,
+      types: "active" as Types,
     },
   },
 
@@ -111,11 +94,6 @@ export const BOARD = {
       "Journal of Advertising, European Journal of Marketing, Psychology & Marketing. Pin any journal that should move.",
   },
 
-  pick: {
-    settings: { types: "row" as Types },
-    why:
-      "My pick is today's type row. A professor who visits reads every type as a word, with no icon to decode.",
-  },
 
   phoneNote: "The phone view is the same page at 390 pixels. On a phone, each button opens its list as a dialog.",
 };

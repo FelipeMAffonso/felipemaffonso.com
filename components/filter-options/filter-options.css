@@ -75,22 +75,9 @@
 
 /* ---------- a long journal list: "Show more" or six rows that scroll ---------- */
 .fo-more { padding: 2px 4px 0; }
-/* six rows of about 44px each, so a seventh shows half and says the list goes on. Fluid's scrollbar
-   hides until hover and rests 4px wide; inside the journal list it always shows, as a pale rail with
-   a 6px rounded thumb that widens to 8px and darkens on hover or drag */
-.fo-scrollarea { max-height: 286px; }
-.fo-scrollarea [data-slot="scroll-area-viewport"] { overscroll-behavior: contain; padding-right: 14px; }
-.fo-scrollarea [data-slot="scroll-area-scrollbar"] {
-  opacity: 1 !important; pointer-events: auto !important; transition: none !important;
-  width: 12px !important; padding: 4px 3px; border-radius: 999px; background: var(--surface-2);
-}
-.fo-scrollarea [data-slot="scroll-area-thumb"] {
-  width: 6px !important; margin: 0 auto !important; transform: none !important;
-  border-radius: 999px; background: var(--border-strong) !important;
-  transition: width 0.16s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.16s cubic-bezier(0.23, 1, 0.32, 1) !important;
-}
-.fo-scrollarea [data-slot="scroll-area-scrollbar"]:hover [data-slot="scroll-area-thumb"] { width: 8px !important; background: var(--text-dim) !important; }
-.fo-scrollarea [data-slot="scroll-area-thumb"]:active { background: var(--text-secondary) !important; }
+/* six rows of about 44px each, so a seventh shows half and says the list goes on; the browser's own
+   scrollbar (Felipe 2026-11-14: "just bring back the old scroll. that one was working just fine") */
+.fo-scroll { max-height: 286px; overflow-y: auto; overscroll-behavior: contain; }
 
 /* ---------- the journal rows: the publication list's type, in black ---------- */
 .fo-cg [role="checkbox"] .inline-grid { font-size: 15px; line-height: 1.35; }
