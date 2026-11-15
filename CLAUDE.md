@@ -146,7 +146,7 @@ components (`app/teaching/page.tsx`, `app/contact/page.tsx`, the home bio in
   accepted version be posted only 24 months after the final version is published online, and Felipe does not post
   the submitted version. Its .md is built and held in research-consumer-sickness-behavior
   `v3_revision/machine-readable/`; the site entry gets only the Journal website link once the DOI exists. The
-  issue "Post the Consumer Sickness Behavior machine-readable .md" holds the date.
+  issue "Post the Consumer Sickness Behavior machine-readable .md" (#7) holds the date.
 
 ## Design system
 
