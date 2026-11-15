@@ -42,6 +42,12 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* on a phone the tabs are Fluid's compact size with 8px side padding, so the Publications row (Journal,
+   Year and these tabs) fits one line on a 360px phone (Felipe 2026-11-15) */
+@media (max-width: 640px) {
+  .section-tabs [role="tab"] { padding-left: 8px; padding-right: 8px; }
+}
+
 /* the scroll fade: the top and bottom of a scrolling list fade only while there is more to scroll */
 @property --sf-start { syntax: "<number>"; inherits: false; initial-value: 1; }
 @property --sf-end { syntax: "<number>"; inherits: false; initial-value: 1; }

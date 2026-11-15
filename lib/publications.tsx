@@ -196,9 +196,11 @@ export const journals: Pub[] = [
   },
   {
     id: "concealing-prices",
+    /* no equal-authorship asterisks on the website (Felipe 2026-11-15, "remove the * in the pricing
+       paper"); the CV keeps them */
     citation: (
       <>
-        <strong>Affonso, Felipe M.</strong>*, Amin Shiri*, Diego Aparicio*, Minzhe Xu, Xiang Wang, Chris Janiszewski, and Marco Bertini (forthcoming), &quot;Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions,&quot; <em>Journal of Consumer Research</em>.
+        <strong>Affonso, Felipe M.</strong>, Amin Shiri, Diego Aparicio, Minzhe Xu, Xiang Wang, Chris Janiszewski, and Marco Bertini (forthcoming), &quot;Concealing Prices: How Delayed Price Disclosure Influences Consumer Purchase Decisions,&quot; <em>Journal of Consumer Research</em>.
       </>
     ),
     links: [

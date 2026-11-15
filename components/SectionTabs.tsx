@@ -13,15 +13,33 @@ import { FluidProvider } from "@/lib/fluid-provider";
 export type SectionTab<K extends string> = {
   key: K;
   label: string;
+  /** the name a phone shows for the chosen tab ("Journal" for Journal publications) */
+  short?: string;
   icon: ComponentType<{ className?: string }>;
   n?: number;
 };
 
 const NAV_H = 64;
 
+/* On a phone (640px and narrower) the tabs take Fluid's compact size and the chosen tab its short name,
+   so the Publications row (Journal, Year and these tabs) fits one line (Felipe 2026-11-15: "how do we
+   deal with this such that Journal, Year, and the other thing gets all in a single row?") */
+function usePhone() {
+  const [phone, setPhone] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 640px)");
+    const on = () => setPhone(mq.matches);
+    on();
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, []);
+  return phone;
+}
+
 export function SectionTabs<K extends string>({ items, value, onPick, ariaLabel, sticky = false }: {
   items: SectionTab<K>[]; value: K; onPick: (k: K) => void; ariaLabel: string; sticky?: boolean;
 }) {
+  const phone = usePhone();
   const rowRef = useRef<HTMLDivElement>(null);
   const [stuck, setStuck] = useState(false);
   useEffect(() => {
@@ -40,13 +58,15 @@ export function SectionTabs<K extends string>({ items, value, onPick, ariaLabel,
     <div ref={rowRef} className={`pub-filter${sticky ? "" : " pub-filter-static"}${stuck ? " stuck" : ""}`}>
       <div className="pub-filter-seg section-tabs">
         <FluidProvider>
-          <Tabs selectedIndex={at} onSelect={(i) => onPick(items[i].key)} activeLabel aria-label={ariaLabel}>
+          <Tabs selectedIndex={at} onSelect={(i) => onPick(items[i].key)} activeLabel size={phone ? "compact" : undefined} aria-label={ariaLabel}>
             {items.map((it, i) => (
               <TabsItem
                 key={it.key}
                 index={i}
                 icon={it.icon}
-                label={it.label}
+                label={phone && it.short ? it.short : it.label}
+                // the full name for screen readers on every screen size, though a phone shows the short one
+                aria-label={it.label}
                 // the chosen tab's count, printed at the end of its name's own text (fluid-additions.css),
                 // so the two share one baseline; the tab measures that text, count included
                 style={i === at && it.n !== undefined ? ({ ["--n" as string]: `"${it.n}"` }) : undefined}

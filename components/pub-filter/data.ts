@@ -55,9 +55,12 @@ export const ITEMS: Item[] = [
   ...tag("chapter", chapters),
 ];
 
+/* short: the name a phone shows on the chosen type tab. Journal publications are "Articles" there: "Journal"
+   read like the Journal filter beside it (Felipe 2026-11-15: "maybe Papers? Articles? or even
+   Publications?"; Papers would also fit preprints, and Publications is the whole page) */
 export const KINDS: { key: Kind; title: string; label: string; short: string }[] = (
   [
-    { key: "journal", title: "Journal Publications", label: "Journal publications", short: "Journal" },
+    { key: "journal", title: "Journal Publications", label: "Journal publications", short: "Articles" },
     { key: "preprint", title: "Preprints", label: "Preprints", short: "Preprints" },
     { key: "book", title: "Books", label: "Books", short: "Books" },
     { key: "chapter", title: "Book Chapters", label: "Book chapters", short: "Chapters" },

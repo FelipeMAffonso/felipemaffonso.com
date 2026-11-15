@@ -108,13 +108,20 @@ components (`app/teaching/page.tsx`, `app/contact/page.tsx`, the home bio in
   CLEARS ANOTHER (All keeps the journals and years; Preprints with a journal chosen says nothing
   matches), and EVERY CLEAR RESETS ALL THREE. For many years (decided, not built yet, because eight
   years fit): the slider zooms to the chosen range after each drag or click, with Show all years.
+  ON A PHONE (2026-11-15, "Journal, Year, and the other thing gets all in a single row"): Journal and
+  Year are their icons alone, with a coral badge on the corner when a filter is on (the number of
+  journals, a dot for the years); the tabs take Fluid's compact size and the chosen tab its short name
+  (Articles, Preprints, Chapters; "Articles" because "Journal" read like the Journal filter), so the row
+  fits one line down to a 360px phone (`scripts/filter-options-phonerow.py` checks 390 and 360).
+- NO EQUAL-AUTHORSHIP MARKS ON THE WEBSITE (2026-11-15): no "*Denotes equal authorship" line and no
+  asterisks in citations (the Concealing Prices paper had them). The CV keeps both.
 - ADDING A PUBLICATION: besides `lib/publications.tsx`, add its venue and year to `META` in
   `components/pub-filter/data.ts` (the build stops naming the entry until it is there); a new journal
   also goes into `JOURNAL_ORDER` at its place by prestige; a forthcoming paper's "F" becomes its year
   when it is published.
 - TESTS (Playwright, against the built site served locally, for example
   `python -m http.server 4321 --directory out`): `scripts/filter-options-dragtest.py`,
-  `-clicktest.py`, `-linktest.py` and `-scrolltest.py`, each with the base address. All four must
+  `-clicktest.py`, `-linktest.py`, `-scrolltest.py` and `-phonerow.py`, each with the base address. All five must
   print PASS before a publish that touches the filter.
   `.pub-entry` scroll-margin-top is 136px so an opened entry lands below the nav and the row.
 - DATA AND CODE ON RESEARCHBOX: link kind `researchbox`, icon `ResearchBoxIcon` in

@@ -8,6 +8,23 @@
 .fo-row.pub-filter { margin-bottom: 14px; }
 .fo-line { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .fo-chev { color: var(--text-dim); margin-left: -1px; }
+/* on a phone Journal and Year are their icons alone, square, with a coral badge on the corner when a
+   filter is on (a count of journals, or a dot for the years); the badge sits outside the flow */
+.pub-filter-btn.fo-icon-only { position: relative; justify-content: center; min-width: 38px; padding-left: 10px; padding-right: 10px; }
+.fo-badge {
+  position: absolute; top: -3px; right: -3px;
+  min-width: 15px; height: 15px; padding: 0 4px; border-radius: 999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--coral); color: #fff; font-size: 10px; font-weight: 600; line-height: 1;
+  font-variant-numeric: tabular-nums; box-shadow: 0 0 0 2px var(--surface);
+}
+.fo-badge.dot { min-width: 9px; width: 9px; height: 9px; padding: 0; top: -1px; right: -1px; }
+/* a 360px phone leaves the row 312px: a 6px gap and 8px button padding keep Journal, Year and the
+   tabs on one line with the longest short name ("Preprints 3") chosen */
+@media (max-width: 640px) {
+  .fo-line { gap: 6px; }
+  .pub-filter-btn.fo-icon-only { min-width: 32px; padding-left: 8px; padding-right: 8px; }
+}
 
 /* ---------- the floating panel (Radix Popover around Fluid's Elevated surface) ---------- */
 .fo-pop-anchor { z-index: var(--z-popover, 60); }

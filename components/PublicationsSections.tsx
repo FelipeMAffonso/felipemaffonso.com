@@ -212,6 +212,7 @@ export function PublicationsSections() {
               label={venueLabel}
               icon={pair.journal}
               on={st.venues.length > 0}
+              badge={st.venues.length > 0 ? st.venues.length : undefined}
               ariaLabel="Filter by journal"
               title="Journal"
               footer={(close) => <MenuFooter close={close} n={items.length} canClear={anyChosen} onClear={clearAll} />}
@@ -222,6 +223,7 @@ export function PublicationsSections() {
               label={yearActive(st, s.forth) ? yearButtonText(st, s.forth) : "Year"}
               icon={pair.year}
               on={yearActive(st, s.forth)}
+              badge={yearActive(st, s.forth) ? "dot" : undefined}
               ariaLabel="Filter by year"
               title="Year"
               // 540 spaces the years about 48px apart (Felipe 2026-11-14: "years more spaced out")
@@ -249,8 +251,8 @@ export function PublicationsSections() {
                 if (these.length === 0) return null;
                 return (
                   <section className="section" key={k.key} id={`pubs-${k.key}`}>
+                    {/* no "*Denotes equal authorship" line on the website (Felipe 2026-11-15; the CV keeps it) */}
                     <h2 className="section-title enter">{k.title}</h2>
-                    {k.key === "journal" && <p className="pub-note-sub enter"><em>*Denotes equal authorship</em></p>}
                     <ol className="pub-list">
                       {these.map((i) => (
                         <PublicationEntry

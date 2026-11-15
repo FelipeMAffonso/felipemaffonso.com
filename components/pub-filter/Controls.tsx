@@ -52,7 +52,7 @@ export function TypeTabs({ kind, counts, onPick }: {
       onPick={onPick}
       items={[
         { key: "all" as TypeKey, label: "All", icon: TYPE_ICON.all, n: counts.all },
-        ...KINDS.map((k) => ({ key: k.key as TypeKey, label: k.label, icon: TYPE_ICON[k.key], n: counts[k.key] })),
+        ...KINDS.map((k) => ({ key: k.key as TypeKey, label: k.label, short: k.short, icon: TYPE_ICON[k.key], n: counts[k.key] })),
       ]}
     />
   );
@@ -72,8 +72,11 @@ export function useIsPhone() {
 }
 
 /* ---- a button and the list it opens: a floating panel on a desktop, the Fluid dialog on a phone ---- */
-export function FilterMenu({ label, icon: IconC, on, ariaLabel, title, footer, children, align = "start", width }: {
-  label: ReactNode; icon?: Icon; on: boolean; ariaLabel: string; title: string;
+export function FilterMenu({ label, icon: IconC, on, badge, ariaLabel, title, footer, children, align = "start", width }: {
+  label: ReactNode; icon?: Icon; on: boolean;
+  /** shown on a phone, where the button is its icon alone: a number on the button's corner, or "dot" */
+  badge?: number | "dot";
+  ariaLabel: string; title: string;
   footer: (close: () => void) => ReactNode; children: ReactNode;
   align?: "start" | "end"; width?: number;
 }) {
@@ -83,8 +86,16 @@ export function FilterMenu({ label, icon: IconC, on, ariaLabel, title, footer, c
   const phone = useIsPhone();
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
-  const cls = `pub-filter-btn pub-filter-action${on || open ? " on" : ""}`;
-  const inner = (
+  const cls = `pub-filter-btn pub-filter-action${on || open ? " on" : ""}${phone ? " fo-icon-only" : ""}`;
+  /* On a phone the button is its icon alone, so Journal, Year and the type tabs fit one line (Felipe
+     2026-11-15); a chosen filter shows as a small coral badge on the button's corner, which takes no
+     width. The accessible name stays the full one (ariaLabel). */
+  const inner = phone ? (
+    <>
+      {IconC && <IconC className="size-4" aria-hidden="true" />}
+      {badge !== undefined && <span className={`fo-badge${badge === "dot" ? " dot" : ""}`} aria-hidden="true">{badge === "dot" ? "" : badge}</span>}
+    </>
+  ) : (
     <>
       {IconC && <IconC className="size-3.5" aria-hidden="true" />}
       <span className="fb-bar-label">{label}</span>
