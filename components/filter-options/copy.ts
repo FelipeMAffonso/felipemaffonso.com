@@ -4,6 +4,9 @@
    claude-home's prose_lint.py reads this file before each publish.
    Felipe 2026-11-14: "I don't want a "Filter" button, I want a button
    to filter by Journal and a button to filter by year, two buttons."
+   Decided by Felipe the same day, so their settings left the page:
+   "journal list is journals only (preprints get filtered out). list
+   length is scroll" (DECIDED below; FIXED in Board.tsx applies them).
    ============================================================ */
 
 import type { Forth, Icons, Layer, ListLen, Place, Types } from "./model";
@@ -52,32 +55,21 @@ export const BOARD = {
     { key: "below" as Place, name: "Line below", what: "All and the type buttons keep the row to themselves, and Journal and Year sit on a line under it." },
   ],
 
-  layers: [
-    {
-      key: "journals" as Layer,
-      name: "Journals only",
-      what: "The list shows the ten journals. Checking a journal moves the type to Journal publications, and choosing Preprints or Book chapters clears the journals.",
-    },
-    {
-      key: "venues" as Layer,
-      name: "Every venue",
-      what: "The button is called Venue, and its list also shows arXiv and PsyArXiv under Preprint servers and the two books under Books. Under All it shows every group; under a type it shows that type's group only.",
-    },
-  ],
-
-  lists: [
-    { key: "all" as ListLen, name: "All ten", what: "The Journal list shows all ten journals at once." },
-    {
-      key: "more" as ListLen,
-      name: "Show more",
-      what: "The Journal list shows the first six journals by prestige, then a Show 4 more journals button. A checked journal stays in view when the list is short.",
-    },
-    {
-      key: "scroll" as ListLen,
-      name: "Scroll",
-      what: "The Journal list shows six rows, and the other four scroll inside the panel under a soft fade.",
-    },
-  ],
+  /* Felipe's decisions of 2026-11-14; the page shows them and no longer offers the alternatives */
+  decided: {
+    title: "Decided on November 14",
+    items: [
+      {
+        name: "Journals only",
+        what: "The Journal list holds the ten journals. Checking a journal moves the type to Journal publications, so preprints and book chapters leave the list; choosing Preprints or Book chapters clears the journals.",
+      },
+      {
+        name: "Scroll",
+        what: "The Journal list shows six rows, and the other four scroll inside the panel under a soft fade.",
+      },
+    ],
+    settings: { layer: "journals" as Layer, list: "scroll" as ListLen },
+  },
 
   forths: [
     {
@@ -106,15 +98,11 @@ export const BOARD = {
   },
 
   pick: {
-    settings: {
-      place: "left" as Place, layer: "journals" as Layer, forth: "stop" as Forth, list: "more" as ListLen,
-      icons: "book" as Icons, types: "row" as Types,
-    },
+    settings: { place: "left" as Place, forth: "stop" as Forth, icons: "book" as Icons, types: "row" as Types },
     why:
-      "My pick is today's type row with the Journal and Year buttons on its left, a book and a calendar on the two buttons, journals " +
-      "only, six journals with Show more, and Forthcoming as the slider's last stop. A professor who visits reads every choice as a " +
-      "word, with no icon to decode; the two icons only repeat what the words say. Show more puts the six strongest journals first, " +
-      "and the Forthcoming stop keeps the seven entries without a year inside the range.",
+      "My pick is today's type row with the Journal and Year buttons on its left, a book and a calendar on the two buttons, and " +
+      "Forthcoming as the slider's last stop. A professor who visits reads every choice as a word, with no icon to decode; the two " +
+      "icons only repeat what the words say. The Forthcoming stop keeps the seven entries without a year inside the range.",
   },
 
   phoneNote: "The phone view is the same page at 390 pixels. On a phone, each button opens its list as a dialog.",
