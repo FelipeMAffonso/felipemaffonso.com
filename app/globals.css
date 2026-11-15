@@ -3,6 +3,7 @@
 @import "shadcn/tailwind.css";
 @import "./shadcn-bridge.css";
 @import "./student-feedback.css";
+@import "./fluid-additions.css";
 
 @custom-variant dark (&:is(.dark *));
 

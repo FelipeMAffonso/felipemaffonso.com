@@ -56,7 +56,7 @@ function ActionButton({ link, pressSounds }: { link: PubLink; pressSounds: boole
   );
 }
 
-function PublicationEntry({
+export function PublicationEntry({
   pub, index, open, onToggle, pressSounds,
 }: {
   pub: Pub; index: number; open: boolean; onToggle: () => void; pressSounds: boolean;

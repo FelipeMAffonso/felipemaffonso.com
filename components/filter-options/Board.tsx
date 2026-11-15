@@ -1,0 +1,174 @@
+"use client";
+
+/* ============================================================
+   The filter options review page (/filter-options/, branch
+   pub-filter-options). Generated from copy.ts. With ?frame=1 it
+   renders the Publications page alone, for the phone view's frame.
+   ============================================================ */
+
+import { Suspense, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { PageBanner } from "@/components/PageBanner";
+import { PageStrip } from "@/components/PageStrip";
+import { FilterRow } from "@/components/FilterRow";
+import { Button } from "@/components/ui/button";
+import { FluidProvider } from "@/lib/fluid-provider";
+import { BOARD } from "./copy";
+import { Prototype } from "./Prototype";
+import { ReviewKit, loadKit, saveKit, toast } from "./ReviewKit";
+import type { Forth, Icons, Layer, ListLen, Place, Settings, Types } from "./model";
+import "./filter-options.css";
+
+const PICK = BOARD.pick.settings;
+const PLACES = BOARD.places.map((p) => p.key);
+const LAYERS = BOARD.layers.map((l) => l.key);
+const FORTHS = BOARD.forths.map((f) => f.key);
+const LISTS = BOARD.lists.map((x) => x.key);
+const ICONSETS = BOARD.icons.map((x) => x.key);
+const TYPESETS = BOARD.types.map((x) => x.key);
+
+const one = <T extends string>(v: string | null | undefined, all: T[], dflt: T): T => (v && (all as string[]).includes(v) ? (v as T) : dflt);
+const query = (s: Settings) => `place=${s.place}&layer=${s.layer}&forth=${s.forth}&list=${s.list}&icons=${s.icons}&types=${s.types}`;
+const comboText = (s: Settings) =>
+  `Journal and Year buttons; type: ${BOARD.types.find((x) => x.key === s.types)!.name.toLowerCase()}; ` +
+  `icons: ${BOARD.icons.find((x) => x.key === s.icons)!.name.toLowerCase()}; ${BOARD.places.find((p) => p.key === s.place)!.name.toLowerCase()}; ` +
+  `${BOARD.layers.find((l) => l.key === s.layer)!.name.toLowerCase()}; list: ${BOARD.lists.find((x) => x.key === s.list)!.name.toLowerCase()}; ` +
+  `forthcoming: ${BOARD.forths.find((f) => f.key === s.forth)!.name.toLowerCase()}`;
+const read = (get: (k: string) => string | null | undefined): Settings => ({
+  place: one<Place>(get("place"), PLACES, PICK.place),
+  layer: one<Layer>(get("layer"), LAYERS, PICK.layer),
+  forth: one<Forth>(get("forth"), FORTHS, PICK.forth),
+  list: one<ListLen>(get("list"), LISTS, PICK.list),
+  icons: one<Icons>(get("icons"), ICONSETS, PICK.icons),
+  types: one<Types>(get("types"), TYPESETS, PICK.types),
+});
+
+export function FilterOptionsBoard() {
+  return (
+    <Suspense fallback={null}>
+      <Inner />
+    </Suspense>
+  );
+}
+
+function Inner() {
+  const sp = useSearchParams();
+  if (sp.get("frame") === "1") {
+    return (
+      <>
+        <PageBanner title="Publications" />
+        <main className="page research-page">
+          <PageStrip page="research" />
+          <Prototype s={read((k) => sp.get(k))} />
+        </main>
+      </>
+    );
+  }
+  return <BoardPage />;
+}
+
+/* one setting: the site's own FilterRow, with my pick named under it */
+function Choice<T extends string>({ label, value, options, mine, onPick }: {
+  label: string; value: T; options: { key: T; name: string }[]; mine: T; onPick: (k: T) => void;
+}) {
+  return (
+    <div className="fo-set">
+      <div className="fo-set-label">{label}</div>
+      <FilterRow<T> wrap ariaLabel={label} value={value} onPick={onPick} items={options.map((o) => ({ key: o.key, label: o.name }))} />
+      <div className="fo-mine">My pick: {options.find((o) => o.key === mine)?.name}</div>
+    </div>
+  );
+}
+
+function BoardPage() {
+  const [s, setS] = useState<Settings>({ ...PICK });
+  const [chosen, setChosen] = useState<string | null>(null);
+
+  // reopen on the last combination viewed
+  useEffect(() => {
+    const k = loadKit();
+    if (k.view) setS(read((key) => k.view?.[key]));
+    if (k.choice) setChosen(k.choice.combo);
+  }, []);
+  const set = (patch: Partial<Settings>) => {
+    const next = { ...s, ...patch };
+    setS(next);
+    const k = loadKit();
+    k.view = next;
+    saveKit(k);
+  };
+  const choose = () => {
+    const k = loadKit();
+    k.choice = { combo: comboText(s), at: new Date().toISOString() };
+    saveKit(k);
+    setChosen(k.choice.combo);
+    toast("Chosen. Copy my notes sends it with your pins.");
+  };
+
+  const p = BOARD.places.find((x) => x.key === s.place)!;
+  const l = BOARD.layers.find((x) => x.key === s.layer)!;
+  const f = BOARD.forths.find((x) => x.key === s.forth)!;
+  const ln = BOARD.lists.find((x) => x.key === s.list)!;
+  const ty = BOARD.types.find((x) => x.key === s.types)!;
+  const ic = BOARD.icons.find((x) => x.key === s.icons)!;
+  const src = `/filter-options/?frame=1&${query(s)}`;
+
+  return (
+    <FluidProvider>
+      <PageBanner title={BOARD.title} />
+      <main className="fo-board">
+        <p className="fo-lead" data-ed>{BOARD.lead}</p>
+
+        <div className="fo-sets">
+          <Choice label="Type buttons" value={s.types} mine={PICK.types} options={BOARD.types} onPick={(k) => set({ types: k })} />
+          <Choice label="Icons" value={s.icons} mine={PICK.icons} options={BOARD.icons} onPick={(k) => set({ icons: k })} />
+          <Choice label="Placement" value={s.place} mine={PICK.place} options={BOARD.places} onPick={(k) => set({ place: k })} />
+          <Choice label="Journal list" value={s.layer} mine={PICK.layer} options={BOARD.layers} onPick={(k) => set({ layer: k })} />
+          <Choice label="List length" value={s.list} mine={PICK.list} options={BOARD.lists} onPick={(k) => set({ list: k })} />
+          <Choice label="Forthcoming papers" value={s.forth} mine={PICK.forth} options={BOARD.forths} onPick={(k) => set({ forth: k })} />
+        </div>
+        <ul className="fo-now">
+          <li key={`t-${ty.key}`}><b>{ty.name}.</b> <span data-ed>{ty.what}</span></li>
+          <li key={`i-${ic.key}`}><b>{ic.name}.</b> <span data-ed>{ic.what}</span></li>
+          <li key={`p-${p.key}`}><b>{p.name}.</b> <span data-ed>{p.what}</span></li>
+          <li key={`l-${l.key}`}><b>{l.name}.</b> <span data-ed>{l.what}</span></li>
+          <li key={`n-${ln.key}`}><b>{ln.name}.</b> <span data-ed>{ln.what}</span></li>
+          <li key={`f-${f.key}`}><b>Forthcoming, {f.name.toLowerCase()}.</b> <span data-ed>{f.what}</span></li>
+        </ul>
+
+        <div className="fo-stage">
+          <section className="fo-desk" aria-label="Desktop view">
+            <div className="fo-cap">Desktop, the page column at its real width</div>
+            <div className="fo-desk-frame">
+              <div className="page research-page fo-page">
+                <Prototype key={query(s)} s={s} />
+              </div>
+            </div>
+          </section>
+          <section className="fo-phone" aria-label="Phone view">
+            <div className="fo-cap">Phone, 390 pixels</div>
+            <iframe key={src} src={src} title="The Publications page on a phone" width={390} height={800} />
+            <p className="fo-phone-note" data-ed>{BOARD.phoneNote}</p>
+          </section>
+        </div>
+
+        <div className="fo-cards two">
+          <div className="fo-card">
+            <h3>{BOARD.order.title}</h3>
+            <p data-ed>{BOARD.order.what}</p>
+          </div>
+          <div className="fo-card fo-pick">
+            <h3>My pick</h3>
+            <p data-ed>{BOARD.pick.why}</p>
+            <div className="fo-pick-row">
+              <Button variant="secondary" size="compact" onClick={() => set({ ...PICK })}>Show my pick</Button>
+              <Button variant="primary" size="compact" onClick={choose}>Choose the combination on screen</Button>
+            </div>
+            {chosen && <p className="fo-chosen">Your choice: {chosen}</p>}
+          </div>
+        </div>
+      </main>
+      <ReviewKit ctx={() => comboText(s)} />
+    </FluidProvider>
+  );
+}

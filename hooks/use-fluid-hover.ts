@@ -6,6 +6,8 @@ import {
   useCallback,
   useEffect,
   useLayoutEffect,
+  useMemo,
+  useSyncExternalStore,
   type Dispatch,
   type RefObject,
   type SetStateAction,
@@ -20,7 +22,7 @@ export interface ItemRect {
 
 export interface UseFluidHoverOptions {
   /**
-   * Which direction to resolve the nearest item along.
+   * With `nearest`, which direction to resolve the nearest item along.
    *   "y"  — vertical lists (default): closest by top/height
    *   "x"  — horizontal strips: closest by left/width
    *   "xy" — 2-D grids: closest card across both rows AND columns,
@@ -35,20 +37,51 @@ export interface UseFluidHoverOptions {
    */
   isItemDisabled?: (element: HTMLElement) => boolean;
   /**
-   * Whether a click that lands between items (a gap, the padding, past the
-   * last row) is routed to the highlighted item, so what is lit is what a
-   * click hits. On by default: in a menu or a list the highlight is a
-   * promise about the click. Pass `false` where empty space should stay
+   * With `nearest`, whether a click that lands between items (a gap, the
+   * padding, past the last row) is routed to the highlighted item, so what
+   * is lit is what a click hits. On by default: in a menu or a list the
+   * highlight is a promise about the click. Without `nearest` nothing is lit
+   * between items, so there is nothing to route. Pass `false` where empty
+   * space should stay
    * inert (rows with destructive actions, generous whitespace), or
    * `{ maxDistance }` to route only clicks within that many pixels of the
    * highlighted item's edge.
    */
   gapClick?: boolean | { maxDistance?: number };
+  /**
+   * Whether empty space lights the nearest item. Off by default: only the
+   * item under the pointer lights, and the highlight fades out over empty
+   * space (a popup's padding, the unfilled end of a grid row, a label beside
+   * a control), gliding again from the next item it lands on. Pass `true` to
+   * light the item nearest the pointer wherever it is in the container.
+   */
+  nearest?: boolean;
+  /**
+   * Whether the highlight goes to the item under the pointer when the items
+   * scroll under a pointer at rest. Off by default: in a menu or a list box
+   * the highlight is also where focus is, and moving one without the other
+   * would light an item that Enter doesn't pick. For lists whose highlight
+   * is hover only (a table's rows).
+   */
+  followScroll?: boolean;
+}
+
+/**
+ * The highlighted index as a store a row can subscribe to. Read it with
+ * `useFluidHoverSelect` instead of passing `activeIndex` down a context: a
+ * context re-renders every row on every highlight change, a selector
+ * re-renders the row the highlight left and the row it reached.
+ */
+export interface FluidHoverActiveStore {
+  subscribe: (listener: () => void) => () => void;
+  get: () => number | null;
 }
 
 export interface UseFluidHoverReturn {
   activeIndex: number | null;
   setActiveIndex: Dispatch<SetStateAction<number | null>>;
+  /** `activeIndex` as a stable store, for rows (see `useFluidHoverSelect`). */
+  activeStore: FluidHoverActiveStore;
   itemRects: ItemRect[];
   /**
    * True once every registered item has been measured and no remeasure is
@@ -247,7 +280,7 @@ export function useFluidHover<T extends HTMLElement>(
   containerRef: RefObject<T | null>,
   options: UseFluidHoverOptions = {}
 ): UseFluidHoverReturn {
-  const { axis = "y", isItemDisabled, gapClick = true } = options;
+  const { axis = "y", isItemDisabled, gapClick = true, nearest = false, followScroll = false } = options;
   const gapClickMaxDistance =
     typeof gapClick === "object" ? (gapClick.maxDistance ?? Infinity) : Infinity;
   const itemsRef = useRef(new Map<number, HTMLElement>());
@@ -256,8 +289,25 @@ export function useFluidHover<T extends HTMLElement>(
   // row registering). Written in a layout effect, which runs before any
   // row's registration effect in the same commit.
   const activeIndexRef = useRef<number | null>(null);
+  const listenersRef = useRef(new Set<() => void>());
+  const activeStore = useMemo<FluidHoverActiveStore>(
+    () => ({
+      subscribe: (listener) => {
+        listenersRef.current.add(listener);
+        return () => {
+          listenersRef.current.delete(listener);
+        };
+      },
+      get: () => activeIndexRef.current,
+    }),
+    []
+  );
   useIsoLayoutEffect(() => {
     activeIndexRef.current = activeIndex;
+    // The store lags `activeIndex` by this one effect, so a row rendering
+    // alongside the change reads the old value; subscribed rows re-render
+    // with the new one in this same commit, before paint.
+    listenersRef.current.forEach((listener) => listener());
   }, [activeIndex]);
 
   // The state, in the DOM: `data-fluid-hover-active` on the highlighted item
@@ -450,23 +500,13 @@ export function useFluidHover<T extends HTMLElement>(
     [remeasure, getItemRo]
   );
 
-  const handleMouseMove = useCallback(
-    (e: React.MouseEvent) => {
-      if (!isOwnEvent(e)) return;
-      const mouseX = e.clientX;
-      const mouseY = e.clientY;
-
-      if (rafIdRef.current !== null) {
-        cancelAnimationFrame(rafIdRef.current);
-      }
-
-      rafIdRef.current = requestAnimationFrame(() => {
-        rafIdRef.current = null;
-        const container = containerRef.current;
-        if (!container) return;
-        const next = pickNearest({
+  // The item at a point: the one under it, or with `nearest` the closest.
+  const itemAt = useCallback(
+    (container: HTMLElement, point: { x: number; y: number }, target: Node): number | null => {
+      if (nearest)
+        return pickNearest({
           axis,
-          point: { x: mouseX, y: mouseY },
+          point,
           rects: itemRectsRef.current,
           containerRect: container.getBoundingClientRect(),
           scroll: { x: container.scrollLeft, y: container.scrollTop },
@@ -479,16 +519,102 @@ export function useFluidHover<T extends HTMLElement>(
               }
             : undefined,
         });
+      // The item under the pointer, or none. Items can nest (a sidebar
+      // row's sub-rows sit inside it): the innermost one holding the
+      // pointer wins.
+      let next: number | null = null;
+      let hit: HTMLElement | null = null;
+      for (const [index, el] of itemsRef.current) {
+        if (!el.contains(target) || isItemDisabled?.(el)) continue;
+        if (!hit || hit.contains(el)) {
+          hit = el;
+          next = index;
+        }
+      }
+      return next;
+    },
+    [axis, isItemDisabled, nearest]
+  );
+
+  // Where the pointer last moved inside the container, while the highlight
+  // is the pointer's: gone once it leaves, or once the highlight is set
+  // from outside (the keyboard, focus), until the pointer moves again.
+  const pointRef = useRef<{ x: number; y: number } | null>(null);
+
+  const handleMouseMove = useCallback(
+    (e: React.MouseEvent) => {
+      if (!isOwnEvent(e)) return;
+      const mouseX = e.clientX;
+      const mouseY = e.clientY;
+      const target = e.target as Node;
+      pointRef.current = { x: mouseX, y: mouseY };
+
+      if (rafIdRef.current !== null) {
+        cancelAnimationFrame(rafIdRef.current);
+      }
+
+      rafIdRef.current = requestAnimationFrame(() => {
+        rafIdRef.current = null;
+        const container = containerRef.current;
+        if (!container) return;
+        const next = itemAt(container, { x: mouseX, y: mouseY }, target);
         if (sessionPendingRef.current && next !== activeIndexRef.current) {
           sessionPendingRef.current = false;
           sessionRef.current += 1;
           setSession(sessionRef.current);
         }
+        // Empty space put the highlight out: the next item lit fades it in
+        // there, as on entering, instead of sliding from the last one.
+        if (next === null) sessionPendingRef.current = true;
         setActiveIndex(next);
       });
     },
-    [axis, containerRef, isItemDisabled]
+    [containerRef, itemAt]
   );
+
+  // Hover is what sits under the pointer, moved or not: when the items
+  // scroll under a pointer at rest, the highlight goes to the item now
+  // under it, as the browser's own :hover does, instead of riding away on
+  // the item it was on (which left a row lit under no pointer, and
+  // whatever follows :hover, like a row's checkbox, on another row). It
+  // glides there as usual: the items move one way and the highlight the
+  // other, so on screen it stays where the pointer is.
+  useEffect(() => {
+    if (!followScroll) return;
+    let frame: number | null = null;
+    const follow = () => {
+      frame = null;
+      const container = containerRef.current;
+      const point = pointRef.current;
+      if (!container || !point) return;
+      const target = document.elementFromPoint(point.x, point.y);
+      // Something else is over the container there (a popup opened from an
+      // item): the pointer is its business, and the highlight stays put.
+      if (!target || !container.contains(target)) return;
+      const next = itemAt(container, point, target);
+      if (next === activeIndexRef.current) return;
+      // As a pointer move does: after empty space, the next item lit fades
+      // the highlight in there instead of sliding from the last one.
+      if (sessionPendingRef.current && next !== null) {
+        sessionPendingRef.current = false;
+        sessionRef.current += 1;
+        setSession(sessionRef.current);
+      }
+      if (next === null) sessionPendingRef.current = true;
+      setActiveIndex(next);
+    };
+    const onScroll = () => {
+      // A touch screen has no pointer at rest: the last tap's point would
+      // drag the highlight across whatever scrolls under it.
+      if (!pointRef.current || frame !== null || window.matchMedia("(hover: none)").matches) return;
+      frame = requestAnimationFrame(follow);
+    };
+    window.addEventListener("scroll", onScroll, { capture: true, passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll, { capture: true });
+      if (frame !== null) cancelAnimationFrame(frame);
+    };
+  }, [containerRef, itemAt, followScroll]);
 
   const handleMouseEnter = useCallback(() => {
     sessionPendingRef.current = true;
@@ -499,7 +625,16 @@ export function useFluidHover<T extends HTMLElement>(
       cancelAnimationFrame(rafIdRef.current);
       rafIdRef.current = null;
     }
+    pointRef.current = null;
     setActiveIndex(null);
+  }, []);
+
+  // Set from outside (the keyboard, focus), the highlight is no longer the
+  // pointer's: a scroll that follows (the focused row brought into view)
+  // must not hand it back to the item under a pointer at rest.
+  const setActiveIndexFromOutside = useCallback<Dispatch<SetStateAction<number | null>>>((value) => {
+    pointRef.current = null;
+    setActiveIndex(value);
   }, []);
 
   const handleClick = useCallback(
@@ -524,7 +659,10 @@ export function useFluidHover<T extends HTMLElement>(
         "input, textarea, select, button, a, summary, [contenteditable], [role='textbox'], [role='searchbox'], [role='button']"
       );
       if (control) return;
-      if (gapClick === false) return;
+      // Without nearest nothing is lit between items. The highlight updates a
+      // frame late, so one still lit from the item just left must not take
+      // a click that landed in the gap.
+      if (gapClick === false || !nearest) return;
       const index = activeIndexRef.current;
       if (index === null) return;
       const element = itemsRef.current.get(index);
@@ -539,7 +677,7 @@ export function useFluidHover<T extends HTMLElement>(
       // wrapping it, if any) run exactly as if the pointer had been inside.
       resolveActivator(element).click();
     },
-    [isItemDisabled, gapClick, gapClickMaxDistance]
+    [isItemDisabled, gapClick, gapClickMaxDistance, nearest]
   );
 
   // Remeasure when the container resizes — a reflow moves items even though
@@ -571,7 +709,8 @@ export function useFluidHover<T extends HTMLElement>(
 
   return {
     activeIndex,
-    setActiveIndex,
+    setActiveIndex: setActiveIndexFromOutside,
+    activeStore,
     itemRects,
     isMeasured,
     session,
@@ -588,6 +727,27 @@ export function useFluidHover<T extends HTMLElement>(
   };
 }
 
+const subscribeNever = () => () => {};
+
+/**
+ * Reads one value derived from the highlighted index, re-rendering only when
+ * that value changes. The selector must return a primitive:
+ *
+ *   const isActive = useFluidHoverSelect(ctx?.activeStore, (i) => i === index);
+ *
+ * A missing store (a row rendered outside a list) reads as nothing lit.
+ */
+export function useFluidHoverSelect<T>(
+  store: FluidHoverActiveStore | null | undefined,
+  select: (activeIndex: number | null) => T
+): T {
+  return useSyncExternalStore(
+    store?.subscribe ?? subscribeNever,
+    () => select(store ? store.get() : null),
+    () => select(null)
+  );
+}
+
 /**
  * Registers an item's element with its list for as long as it is mounted.
  * The one way rows join a list: pass the hook's `registerItem` (or the copy
@@ -600,7 +760,10 @@ export function useRegisterFluidHoverItem(
   index: number | undefined,
   ref: RefObject<HTMLElement | null>
 ) {
-  useEffect(() => {
+  // Before paint, so a list that measures in its own layout effect (a Table
+  // snapping its fills as rows open) already sees every item at its new
+  // index: a child's layout effect runs before its parent's.
+  useIsoLayoutEffect(() => {
     if (!registerItem || index === undefined) return;
     registerItem(index, ref.current);
     return () => registerItem(index, null);
