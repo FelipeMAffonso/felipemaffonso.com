@@ -170,7 +170,9 @@
 @media (max-width: 640px) { .fo-label.alt { display: none; } }
 
 /* ---------- the thirty-year example (LongRange.tsx) ---------- */
-.fo-long { margin-top: 36px; }
+.fo-long { margin-top: 36px; scroll-margin-top: 88px; }
+.fo-jump { margin: -10px 0 22px; font-size: 14px; color: var(--text-secondary); }
+.fo-jump a { color: var(--coral-text); text-underline-offset: 3px; }
 .fo-long h2 { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
 .fo-long > p { font-size: 14px; color: var(--text-secondary); margin-bottom: 16px; max-width: 860px; }
 .fo-long-grid { display: grid; grid-template-columns: repeat(2, 540px); gap: 32px; }

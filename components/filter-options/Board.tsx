@@ -105,6 +105,11 @@ function BoardPage() {
       <PageBanner title={BOARD.title} />
       <main className="fo-board">
         <p className="fo-lead" data-ed>{BOARD.lead}</p>
+        {/* the example sits below the full publication list, so the top of the page links to it
+            (Felipe 2026-11-14: "where is the lots of made up years example? I couldnt see it") */}
+        <p className="fo-jump">
+          <a href="#thirty-years">{BOARD.long.title}</a>, further down this page.
+        </p>
 
         <div className="fo-sets">
           <Choice label="Type buttons" value={s.types} mine={PICK.types} options={BOARD.types} onPick={(k) => set({ types: k })} />
@@ -130,7 +135,7 @@ function BoardPage() {
         </div>
 
         {/* thirty made-up years, in the year panel's own surface and width */}
-        <section className="fo-long" aria-label={BOARD.long.title}>
+        <section className="fo-long" id="thirty-years" aria-label={BOARD.long.title}>
           <h2>{BOARD.long.title}</h2>
           <p data-ed>{BOARD.long.what}</p>
           <div className="fo-long-grid">
