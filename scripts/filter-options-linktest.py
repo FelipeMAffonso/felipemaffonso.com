@@ -22,7 +22,7 @@ def ok(what, cond, detail=""):
 with sync_playwright() as p:
     br = p.chromium.launch()
     pg = br.new_page(viewport={"width": 1100, "height": 900})
-    pg.goto(f"{BASE}/filter-options/?frame=1&types=row", wait_until="networkidle")
+    pg.goto(f"{BASE}/publications/", wait_until="networkidle")
     jbtn = pg.get_by_role("button", name="Filter by journal").first
     ybtn = pg.get_by_role("button", name="Filter by year").first
     def journals(*names):

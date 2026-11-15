@@ -22,7 +22,7 @@ def reversals(seq):
 with sync_playwright() as p:
     br = p.chromium.launch()
     pg = br.new_page(viewport={"width": 1100, "height": 900})
-    pg.goto(f"{BASE}/filter-options/?frame=1&place=left&layer=journals&forth={FORTH}&list=more&icons=book&types=row", wait_until="networkidle")
+    pg.goto(f"{BASE}/publications/", wait_until="networkidle")
     pg.get_by_role("button", name="Filter by year").first.click()
     pg.wait_for_timeout(500)
     to = pg.get_by_role("slider", name="To").first

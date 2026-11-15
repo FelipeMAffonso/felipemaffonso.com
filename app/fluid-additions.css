@@ -25,6 +25,23 @@
   --z-tooltip: 70;
 }
 
+/* the tab row that shows only the chosen name (components/SectionTabs.tsx): the chosen tab's count
+   beside its name, in the site's coral, and Fluid's focus ring in coral instead of its blue */
+.section-tabs { padding: 3px; --focus-ring: var(--coral); }
+/* the count sits on the name's baseline (Felipe 2026-11-14: "the number (bottom/floor) has to be
+   aligned with the All"): it is printed inside the name's own visible text, so both are one line of
+   text with one baseline. --n is set on the chosen tab only (SectionTabs), so the other tabs print
+   nothing. Normal weight, as on the old row, while the chosen name is semibold. */
+.section-tabs [role="tab"] .inline-grid > span:last-child::after {
+  content: var(--n);
+  margin-left: 6px;
+  font-size: 0.96em;
+  font-variation-settings: normal;
+  font-weight: 400;
+  color: var(--coral-text);
+  font-variant-numeric: tabular-nums;
+}
+
 /* the scroll fade: the top and bottom of a scrolling list fade only while there is more to scroll */
 @property --sf-start { syntax: "<number>"; inherits: false; initial-value: 1; }
 @property --sf-end { syntax: "<number>"; inherits: false; initial-value: 1; }

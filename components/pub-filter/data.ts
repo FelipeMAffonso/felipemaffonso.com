@@ -1,9 +1,10 @@
 /* ============================================================
-   Filter options review (branch pub-filter-options, 2026-11-14).
-   The journal or venue and the year of every entry on the
-   Publications page, read from the citations in lib/publications.tsx,
-   and the order of the journal list. Nothing here is on the live
-   site; the review page /filter-options/ is the only reader.
+   The Publications filter's data (2026-11-14): the journal or venue and the year of every entry
+   on the Publications page, read from the citations in lib/publications.tsx, and the order of the
+   journal list. When a publication is added to lib/publications.tsx, add its venue and year to META
+   below (the build stops with a message naming the entry until it is there), and a new journal also
+   goes into JOURNAL_ORDER at its place by prestige. When a forthcoming paper gets its year, change
+   "F" to the year.
    ============================================================ */
 
 import { books, chapters, journals, preprints, type Pub } from "@/lib/publications";
@@ -42,7 +43,7 @@ const META: Record<string, { venue: string; year: Year; expected?: number }> = {
 const tag = (kind: Kind, list: Pub[]): Item[] =>
   list.map((pub) => {
     const m = META[pub.id];
-    if (!m) throw new Error(`filter-options: no journal and year for "${pub.id}"; add it to META`);
+    if (!m) throw new Error(`Publications filter: no journal and year for "${pub.id}"; add it to META`);
     return { pub, kind, venue: m.venue, year: m.year, expected: m.year === "F" ? (m.expected ?? 2026) : m.year };
   });
 
@@ -88,6 +89,6 @@ export const VENUE_GROUPS: { kind: Kind; title: string; venues: string[] }[] = [
 
 for (const i of ITEMS) {
   if (i.kind === "journal" && !JOURNAL_ORDER.includes(i.venue)) {
-    throw new Error(`filter-options: "${i.venue}" is missing from JOURNAL_ORDER`);
+    throw new Error(`Publications filter: "${i.venue}" is missing from JOURNAL_ORDER`);
   }
 }

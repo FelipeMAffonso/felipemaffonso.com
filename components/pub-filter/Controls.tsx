@@ -1,33 +1,29 @@
 "use client";
 
 /* ============================================================
-   Filter options review: the parts of the two-button filter, all
-   from the site's installed libraries.
-   - the type buttons: the site's shared FilterRow (Publications and Teaching)
-   - Journal and Year: the same shell and classes as the Teaching page's Filter button
+   The parts of the Publications filter (decided by Felipe on 2026-11-14), all from the site's
+   installed libraries:
+   - the type row: SectionTabs (Fluid Tabs, only the chosen type shows its name and count), the same
+     row as the Teaching page's sections
+   - Journal and Year: the same shell and classes as the Teaching page's Filter button, with a book and
+     a calendar
    - each button's list: Radix Popover around Fluid's Elevated surface; on a phone, Fluid Dialog
-   - the journal rows: Fluid CheckboxGroup (a checkbox square on each row)
-   - the years: Radix Slider (the primitive under shadcn's slider; Fluid's thick pill track was
-     rejected on 2026-11-14), a label under every year, the range in the site's coral
+   - the journal rows: Fluid CheckboxGroup, six rows that scroll in the browser's own scrollbar
+   - the years: Radix Slider (the primitive under shadcn's slider), a label under every year, the
+     range in the site's coral, Forthcoming as its own last stop
    - Clear and Show: Fluid Button, as on the Teaching page
-   A row's count is passed as data-n and printed at the row's right edge by filter-options.css,
+   A journal row's count is passed as data-n and printed at the row's right edge by pub-filter.css,
    because Fluid's rows take a text label only.
    ============================================================ */
 
-import { useEffect, useRef, useState, type ComponentType, type ReactNode } from "react";
+import { useEffect, useState, type ComponentType, type ReactNode } from "react";
 import { Popover, Slider } from "radix-ui";
-import {
-  Book, BookMarked, BookOpen, BookOpenText, CalendarDays, CalendarRange, ChevronDown, FileText, History,
-  Layers, LibraryBig, Newspaper,
-} from "lucide-react";
-import { FilterRow } from "@/components/FilterRow";
+import { Book, BookMarked, BookOpen, BookOpenText, CalendarRange, ChevronDown, FileText, Layers } from "lucide-react";
 import { Elevated } from "@/lib/elevated";
 import { CheckboxGroup, CheckboxItem } from "@/components/ui/checkbox-group";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { Tabs, TabsItem } from "@/components/ui/tabs";
-import { DropdownContent, DropdownMenu, DropdownTrigger } from "@/components/ui/dropdown";
-import { MenuItem } from "@/components/ui/menu-item";
+import { SectionTabs } from "@/components/SectionTabs";
 import { KINDS } from "./data";
 import {
   SHORT, forthcomingCount, moveCloser, nearestStop, stopLabel, stopPositions, stops, venueRows, yearCounts, yearDomain,
@@ -35,70 +31,30 @@ import {
 } from "./model";
 
 type Icon = ComponentType<{ className?: string; "aria-hidden"?: boolean | "true" }>;
-/* the icon pairs on the Journal and Year buttons (lucide, the site's icon set) */
+/* the icons on the Journal and Year buttons: a book and a calendar (decided 2026-11-14) */
 export const ICON_PAIRS: Record<Icons, { journal?: Icon; year?: Icon }> = {
   none: {},
   book: { journal: BookOpenText, year: CalendarRange },
-  library: { journal: LibraryBig, year: CalendarDays },
-  news: { journal: Newspaper, year: History },
+  library: { journal: BookOpenText, year: CalendarRange },
+  news: { journal: BookOpenText, year: CalendarRange },
 };
-/* an icon for each type, for the type row's icon versions */
+/* an icon for each type */
 const TYPE_ICON: Record<TypeKey, Icon> = { all: Layers, journal: BookOpen, preprint: FileText, book: Book, chapter: BookMarked };
-const typeItems = (counts: Record<TypeKey, number>) => [
-  { key: "all" as TypeKey, label: "All", menu: "All types", n: counts.all },
-  ...KINDS.map((k) => ({ key: k.key as TypeKey, label: k.label, menu: k.label, n: counts[k.key] })),
-];
 
-/* ---- the type buttons as Fluid Tabs: an icon on each type, and with activeLabel only the
-   chosen type shows its name (the "Active Label" example Felipe sent on 2026-11-14) ---- */
-export function TypeTabs({ kind, counts, onPick, activeLabel }: {
-  kind: TypeKey; counts: Record<TypeKey, number>; onPick: (k: TypeKey) => void; activeLabel: boolean;
+/* ---- the type row: an icon on each type, and only the chosen one shows its name and count ---- */
+export function TypeTabs({ kind, counts, onPick }: {
+  kind: TypeKey; counts: Record<TypeKey, number>; onPick: (k: TypeKey) => void; activeLabel?: boolean;
 }) {
-  const items = typeItems(counts);
-  const at = Math.max(0, items.findIndex((i) => i.key === kind));
   return (
-    <div className="pub-filter pub-filter-static">
-      <div className="pub-filter-seg fo-tabs">
-        <Tabs selectedIndex={at} onSelect={(i) => onPick(items[i].key)} activeLabel={activeLabel} aria-label="Show publications">
-          {items.map((it, i) => (
-            <TabsItem
-              key={it.key}
-              index={i}
-              icon={TYPE_ICON[it.key]}
-              label={it.label}
-              // with activeLabel the count shows on the chosen type only, beside its name
-              data-n={!activeLabel || i === at ? it.n : undefined}
-              title={activeLabel ? `${it.label} (${it.n})` : undefined}
-            />
-          ))}
-        </Tabs>
-      </div>
-    </div>
-  );
-}
-
-/* ---- the type as a third button, beside Journal and Year: a Fluid menu with one choice ---- */
-export function TypeMenu({ kind, counts, onPick, align = "start" }: {
-  kind: TypeKey; counts: Record<TypeKey, number>; onPick: (k: TypeKey) => void; align?: "start" | "end";
-}) {
-  const items = typeItems(counts);
-  const at = Math.max(0, items.findIndex((i) => i.key === kind));
-  return (
-    <DropdownMenu>
-      <div className="pub-filter pub-filter-static">
-        <div className="pub-filter-seg">
-          <DropdownTrigger className={`pub-filter-btn pub-filter-action${kind !== "all" ? " on" : ""}`} aria-label="Show a type of publication">
-            <span className="fb-bar-label">{items[at].menu}</span>
-            <ChevronDown className="size-3.5 fo-chev" aria-hidden="true" />
-          </DropdownTrigger>
-        </div>
-      </div>
-      <DropdownContent checkedIndex={at} align={align} sideOffset={8} collisionPadding={16} className="fo-menu">
-        {items.map((it, i) => (
-          <MenuItem key={it.key} index={i} label={it.menu} checked={i === at} onSelect={() => onPick(it.key)} data-n={it.n} />
-        ))}
-      </DropdownContent>
-    </DropdownMenu>
+    <SectionTabs<TypeKey>
+      ariaLabel="Show publications"
+      value={kind}
+      onPick={onPick}
+      items={[
+        { key: "all" as TypeKey, label: "All", icon: TYPE_ICON.all, n: counts.all },
+        ...KINDS.map((k) => ({ key: k.key as TypeKey, label: k.label, icon: TYPE_ICON[k.key], n: counts[k.key] })),
+      ]}
+    />
   );
 }
 
@@ -113,21 +69,6 @@ export function useIsPhone() {
     return () => mq.removeEventListener("change", on);
   }, []);
   return phone;
-}
-
-/* ---- the type buttons: the site's FilterRow, with live counts ---- */
-export function TypeRow({ kind, counts, onPick }: { kind: TypeKey; counts: Record<TypeKey, number>; onPick: (k: TypeKey) => void }) {
-  return (
-    <FilterRow<TypeKey>
-      ariaLabel="Show publications"
-      value={kind}
-      onPick={onPick}
-      items={[
-        { key: "all", label: "All", n: counts.all },
-        ...KINDS.map((k) => ({ key: k.key as TypeKey, label: k.label, short: k.short, n: counts[k.key] })),
-      ]}
-    />
-  );
 }
 
 /* ---- a button and the list it opens: a floating panel on a desktop, the Fluid dialog on a phone ---- */

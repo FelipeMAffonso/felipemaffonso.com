@@ -5,9 +5,18 @@
 // comment grid. The preview options panel that sat above it on branch teaching-feedback-options
 // is gone (Felipe 2026-10-25: "you just keep the section filter row"); its last version is kept
 // in the private cv repo, teaching-feedback/site-design-archive/, with the student quotes.
+//
+// The row is SectionTabs since 2026-11-14: an icon on each section, and only the chosen one shows its
+// name and count (Felipe: "apply the same tabsubtle idea we have in the publications one. for teaching
+// we dont need filters ... it's just a different display").
 import { Fragment, useState, type ReactNode } from "react";
-import { FilterRow } from "@/components/FilterRow";
+import { Award, Layers, MessageSquareQuote, Presentation } from "lucide-react";
+import { SectionTabs } from "@/components/SectionTabs";
 import { StudentFeedback } from "@/components/StudentFeedback";
+
+/* the icon for each section: a stack for All, a ribbon for Awards, a presentation board for Courses,
+   a speech bubble with a quote for Comments */
+const ICONS: Record<string, typeof Layers> = { all: Layers, awards: Award, courses: Presentation, feedback: MessageSquareQuote };
 
 export interface TeachingSection { key: string; label: string; short?: string; n?: number; content: ReactNode; feedback?: boolean }
 
@@ -35,8 +44,8 @@ export function TeachingSections({ sections }: { sections: TeachingSection[] }) 
 
   return (
     <>
-      <FilterRow sticky ariaLabel="Show sections" value={section} onPick={pick}
-        items={[{ key: "all", label: "All" }, ...sections.map((s) => ({ key: s.key, label: s.label, short: s.short, n: s.n }))]} />
+      <SectionTabs sticky ariaLabel="Show sections" value={section} onPick={pick}
+        items={[{ key: "all", label: "All", icon: ICONS.all }, ...sections.map((s) => ({ key: s.key, label: s.label, icon: ICONS[s.key] ?? Layers, n: s.n }))]} />
 
       {visible.map((s, i) =>
         s.feedback ? (

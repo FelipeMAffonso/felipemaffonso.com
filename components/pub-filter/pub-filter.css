@@ -1,0 +1,138 @@
+/* ============================================================
+   The Publications filter (decided by Felipe on 2026-11-14). Layout only: the controls are the site's
+   own row shell and Fluid parts, which carry their own styles. The site's tokens only, so light and
+   dark follow the theme toggle.
+   ============================================================ */
+
+/* ---------- the row ---------- */
+.fo-row.pub-filter { margin-bottom: 14px; }
+.fo-line { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.fo-chev { color: var(--text-dim); margin-left: -1px; }
+
+/* ---------- the floating panel (Radix Popover around Fluid's Elevated surface) ---------- */
+.fo-pop-anchor { z-index: var(--z-popover, 60); }
+.fo-pop {
+  max-height: min(560px, var(--radix-popover-content-available-height));
+  display: flex; flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  transform-origin: var(--radix-popover-content-transform-origin);
+  animation: foPop 0.14s cubic-bezier(0.23, 1, 0.32, 1);
+}
+@keyframes foPop { from { opacity: 0; transform: translateY(-4px) scaleY(0.96); } to { opacity: 1; transform: none; } }
+.fo-pop-body { overflow-y: auto; padding: 12px 8px 8px; }
+.fo-foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 10px 12px;
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- the phone dialog ---------- */
+.fo-dialog-title { font-size: 16px; font-weight: 600; color: var(--text); margin-bottom: 10px; }
+.fo-dialog-body { max-height: 62vh; overflow-y: auto; margin: 0 -8px; }
+.fo-dialog .fo-foot { margin: 8px -16px -16px; padding: 12px 16px; }
+
+/* ---------- the journal rows: the list's type in black, each count at the row's right edge ---------- */
+.fo-cg [data-n]::after {
+  content: attr(data-n);
+  margin-left: auto;
+  padding-left: 14px;
+  font-size: 12px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+.fo-cg [role="checkbox"] .inline-grid { font-size: 15px; line-height: 1.35; }
+.fo-cg [role="checkbox"] .inline-grid > span { color: var(--text); }
+.fo-zero { opacity: 0.45; }
+.fo-vgroup + .fo-vgroup { margin-top: 8px; }
+.fo-vgroup-title { font-size: 12.5px; color: var(--text-dim); margin: 0 8px 2px; }
+/* Fluid draws its focus ring in --focus-ring (blue by default); the site's ring is coral */
+.fo-cg { --focus-ring: var(--coral); }
+/* six rows of about 44px each, so a seventh shows half and says the list goes on; the browser's own
+   scrollbar (Felipe 2026-11-14: "just bring back the old scroll. that one was working just fine") */
+.fo-scroll { max-height: 286px; overflow-y: auto; overscroll-behavior: contain; }
+
+/* ---------- the years ---------- */
+.fo-year { padding: 2px 10px 6px; }
+.fo-year-range { font-size: 15px; color: var(--text); font-weight: 500; font-variant-numeric: tabular-nums; margin-bottom: 14px; }
+.fo-year-one { font-size: 14px; color: var(--text-secondary); margin-top: -6px; }
+/* the slider copies Felipe's example of 2026-11-14: a 6px track, the selected part coral and the
+   rest dark gray, and handles larger than the track (a white 24px circle, a gray ring, a solid dot) */
+.fo-rs { position: relative; display: flex; align-items: center; height: 32px; touch-action: none; user-select: none; cursor: pointer; }
+/* the bar starts at the first year and ends at Forthcoming: inset by half a handle (12px) on each side,
+   because Radix keeps the handles inside the slider's box, so a handle at the first stop is centred
+   12px in (Felipe 2026-11-14: "shouldn't 2019 hover put the circle at the leftmost side of it?") */
+.fo-rs-track { position: relative; flex: 1; height: 6px; margin: 0 12px; border-radius: 999px; background: var(--text-dim); }
+/* the stretch from the last year to Forthcoming is dashed, the coral range included */
+.fo-rs-track.dashed {
+  -webkit-mask-image: linear-gradient(to right, #000 var(--gap), transparent var(--gap)), repeating-linear-gradient(to right, #000 0 6px, transparent 6px 10px);
+  mask-image: linear-gradient(to right, #000 var(--gap), transparent var(--gap)), repeating-linear-gradient(to right, #000 0 6px, transparent 6px 10px);
+}
+/* the coral range carries a lighter band that sweeps through it slowly (Felipe 2026-11-14: "VERY subtle
+   but it needs some motion ... a glowing/bright/gradient effect to the slider coral itself"): while the
+   pointer is over the slider, and all the time once a year limit is set (.narrowed). The track keeps
+   its 6px ("remove the motion that increases the chunkiness of the bar"). */
+.fo-rs-range {
+  position: absolute; height: 100%; border-radius: 999px;
+  background-color: var(--coral);
+  background-image: linear-gradient(90deg, transparent 0 38%, rgba(255, 255, 255, 0.42) 50%, transparent 62% 100%);
+  background-size: 260% 100%;
+  background-repeat: no-repeat;
+  background-position: 160% 0;
+}
+.fo-rs.narrowed .fo-rs-range { animation: foSheen 2.6s cubic-bezier(0.45, 0, 0.55, 1) infinite; }
+@media (hover: hover) {
+  .fo-rs:hover .fo-rs-range { animation: foSheen 2.6s cubic-bezier(0.45, 0, 0.55, 1) infinite; }
+}
+@keyframes foSheen { from { background-position: 160% 0; } to { background-position: -60% 0; } }
+/* the site's rule for reduced motion: calmer, never frozen */
+@media (prefers-reduced-motion: reduce) {
+  .fo-rs:hover .fo-rs-range, .fo-rs.narrowed .fo-rs-range { animation-duration: 5.2s; }
+}
+/* where a click would put the closer handle: one dot per year, which fades in and out where it
+   stands with the year labels' own timing; it never moves sideways */
+.fo-dot {
+  position: absolute; top: 50%; z-index: 1; width: 12px; height: 12px; margin: -6px 0 0 -6px;
+  border-radius: 50%; background: var(--coral); box-shadow: 0 0 0 4px var(--coral-tint-strong);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.fo-dot.on { opacity: 0.45; }
+.fo-rs-thumb {
+  position: relative; z-index: 2;
+  display: block; width: 24px; height: 24px; border-radius: 50%;
+  background: radial-gradient(circle, var(--coral) 0 6.5px, #fff 7.5px);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 1px 3px rgba(17, 24, 39, 0.18);
+  cursor: grab;
+  transition: box-shadow 0.15s cubic-bezier(0.23, 1, 0.32, 1), transform 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+}
+@media (hover: hover) { .fo-rs-thumb:hover { transform: scale(1.08); box-shadow: 0 1px 4px rgba(17, 24, 39, 0.22), 0 0 0 6px var(--coral-tint-strong); } }
+.fo-rs-thumb:active { cursor: grabbing; transform: scale(1.08); }
+.fo-rs-thumb:focus-visible { outline: none; box-shadow: 0 1px 3px rgba(17, 24, 39, 0.18), 0 0 0 4px var(--coral-ring); }
+/* a label under every stop, centred under its handle position, the two end labels aligned with the
+   edges; 10px of air between the track and the labels, so the pointer moving along the track does not
+   touch them (Felipe 2026-11-14). Each label is a button: a click moves the closer handle to its year. */
+.fo-labels { position: relative; height: 22px; margin-top: 10px; }
+.fo-label {
+  position: absolute; top: 0; transform: translateX(-50%);
+  padding: 2px 5px; border: 0; border-radius: 6px; background: transparent; cursor: pointer;
+  font: inherit; font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums;
+  transition: color 0.15s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.fo-label:first-child { transform: translateX(calc(-12px - 5px)); }
+.fo-label.f { transform: translateX(calc(-100% + 12px + 5px)); }
+/* outside the chosen range a year fades well back; inside it, every year is black, with or without a
+   paper (Felipe 2026-11-14: "the stuff outside the bands ... should be MORE grayed out", then "all years
+   need to be black ... no reason for different colors") */
+.fo-label { color: var(--text-dim); opacity: 0.55; }
+.fo-label.in { color: var(--text); font-weight: 500; opacity: 1; }
+.fo-label.hover { color: var(--coral-text); background: var(--coral-tint-strong); opacity: 1; }
+.fo-incf { margin: 10px -10px 0; }
+/* a phone has room for every other year's label; the line above the slider names the exact range */
+@media (max-width: 640px) { .fo-label.alt { display: none; } }
+
+/* ---------- result line, empty state ---------- */
+.fo-result { display: flex; align-items: center; gap: 8px; margin: 0 0 22px; font-size: 13.5px; color: var(--text-dim); }
+.fo-empty { padding: 48px 0; text-align: center; color: var(--text-secondary); }
+.fo-empty p { margin-bottom: 14px; }

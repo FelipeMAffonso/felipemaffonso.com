@@ -90,14 +90,32 @@ components (`app/teaching/page.tsx`, `app/contact/page.tsx`, the home bio in
   `permanentRedirect` in the static export writes no refresh tag and forwards only after
   JavaScript loads, so search engines and no-JS visitors would land on a blank page.
 - SECTION ORDER, his words "i'm a researcher. it's journal publications, preprints, books, book
-  chapters": Journal Publications, Preprints, Books, Book Chapters. The order is the `SECTIONS`
-  array in `components/PublicationsSections.tsx`; the data arrays are `journals`, `preprints`,
-  `books`, `chapters` in `lib/publications.tsx`. A kind with no entries renders nothing, its
-  filter button included, so Books appears by itself when the first book is added.
-- THE FILTER ROW (option B of the board in `docs/research-page-options/`): All plus one button per
-  kind, each with its count, sticky under the fixed nav, opaque. It behaves like shadcn's single
-  toggle group (arrow keys, Home/End, aria-pressed) but is written in the site's own CSS; there is
-  no shadcn dependency. Phones show the short labels (Journal, Preprints, Books, Chapters).
+  chapters": Journal Publications, Preprints, Books, Book Chapters. The order is the `KINDS` array
+  in `components/pub-filter/data.ts`; the data arrays are `journals`, `preprints`, `books`,
+  `chapters` in `lib/publications.tsx`. A kind with no entries renders nothing, its type tab
+  included, so Books appears by itself when the first book is added.
+- THE FILTER ROW (Felipe's decisions of 2026-11-14, worked out live on a review page that was then
+  removed; it is in the history of branch `pub-filter-options`): Journal and Year buttons, with a
+  book and a calendar icon, on the LEFT of the type tabs. The type tabs show only the chosen type's
+  name and count (Fluid Tabs with activeLabel, `components/SectionTabs.tsx`, the same row as
+  Teaching's sections). Journal opens the ten journals, JOURNALS ONLY (preprints are filtered out),
+  ordered by prestige and impact factor (`JOURNAL_ORDER`), each with a checkbox and a count, in a
+  list that shows six rows and SCROLLS in the browser's own scrollbar (he rejected two custom
+  scrollbars). Year opens the coral slider: FORTHCOMING IS ITS OWN LAST STOP, set apart by a gap and
+  a dashed stretch; a label under every year; a click on a year or on the bar moves the closer handle;
+  the axis runs from the oldest to the newest entry under the chosen type and journals; years outside
+  the range fade, years inside are black. The three filters shape each other's counts, NO CHOICE
+  CLEARS ANOTHER (All keeps the journals and years; Preprints with a journal chosen says nothing
+  matches), and EVERY CLEAR RESETS ALL THREE. For many years (decided, not built yet, because eight
+  years fit): the slider zooms to the chosen range after each drag or click, with Show all years.
+- ADDING A PUBLICATION: besides `lib/publications.tsx`, add its venue and year to `META` in
+  `components/pub-filter/data.ts` (the build stops naming the entry until it is there); a new journal
+  also goes into `JOURNAL_ORDER` at its place by prestige; a forthcoming paper's "F" becomes its year
+  when it is published.
+- TESTS (Playwright, against the built site served locally, for example
+  `python -m http.server 4321 --directory out`): `scripts/filter-options-dragtest.py`,
+  `-clicktest.py`, `-linktest.py` and `-scrolltest.py`, each with the base address. All four must
+  print PASS before a publish that touches the filter.
   `.pub-entry` scroll-margin-top is 136px so an opened entry lands below the nav and the row.
 - DATA AND CODE ON RESEARCHBOX: link kind `researchbox`, icon `ResearchBoxIcon` in
   `components/icons.tsx` (the ResearchBox mark redrawn in the site's icon voice). Label
@@ -556,7 +574,10 @@ curl -s https://felipemaffonso.com/ | grep -oE 'db16777525f64d0abb899762c3c29b9c
   journals sentence convention above.
 - Add or update a publication: edit `lib/publications.tsx` (citation, abstract,
   links, cover). The panel design is locked; only the data changes.
-- Update teaching: edit `app/teaching/page.tsx`.
+- Update teaching: edit `app/teaching/page.tsx`. Its section row (All, Awards, Courses, Comments) is
+  `components/SectionTabs.tsx` since 2026-11-14 (Felipe: "apply the same tabsubtle idea we have in
+  the publications one"): a stack, a ribbon, a presentation board and a speech bubble, set in
+  `ICONS` in `components/TeachingSections.tsx`; a new section needs its icon there.
 - Update contact or social links: edit `app/contact/page.tsx`.
 - Update the CV: replace `public/files/cv.pdf` and commit it. The /cv/ viewer
   renders that file directly; nothing else to regenerate.

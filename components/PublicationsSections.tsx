@@ -15,8 +15,17 @@
    No poster cards, no writing on panel art.
    ============================================================ */
 
-import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type KeyboardEvent } from "react";
-import { preprints, journals, books, chapters, type Pub, type PubLink } from "@/lib/publications";
+import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent } from "react";
+import { type Pub, type PubLink } from "@/lib/publications";
+import { FluidProvider } from "@/lib/fluid-provider";
+import { Button } from "@/components/ui/button";
+import { ITEMS, KINDS } from "./pub-filter/data";
+import {
+  anyActive, initialState, pickType, shown, toggleVenue, typeCounts, venueShort, yearActive, yearButtonText,
+  type FilterState, type Settings,
+} from "./pub-filter/model";
+import { FilterMenu, ICON_PAIRS, MenuFooter, ResultLine, TypeTabs, VenueChecks, YearRange } from "./pub-filter/Controls";
+import "./pub-filter/pub-filter.css";
 import { useSound } from "@/lib/sound";
 import { PageStrip } from "./PageStrip";
 import { PubCover } from "./PubCover";
@@ -105,51 +114,29 @@ export function PublicationEntry({
   );
 }
 
-/* Section order (Felipe 2026-10-12): Journal Publications, Preprints, Books,
-   Book Chapters. A kind with no entries renders nothing, its button included,
-   so Books appears by itself the day lib/publications.tsx gets one. */
-type SectionKey = "journal" | "preprint" | "book" | "chapter";
-type Filter = "all" | SectionKey;
-type Section = { key: SectionKey; title: string; label: string; short: string; pubs: Pub[] };
-const SECTIONS: Section[] = ([
-  { key: "journal", title: "Journal Publications", label: "Journal publications", short: "Journal", pubs: journals },
-  { key: "preprint", title: "Preprints", label: "Preprints", short: "Preprints", pubs: preprints },
-  { key: "book", title: "Books", label: "Books", short: "Books", pubs: books },
-  { key: "chapter", title: "Book Chapters", label: "Book chapters", short: "Chapters", pubs: chapters },
-] as Section[]).filter((s) => s.pubs.length > 0);
-const TOTAL = SECTIONS.reduce((n, s) => n + s.pubs.length, 0);
+/* ============================================================
+   The filter row, decided by Felipe on 2026-11-14 on the review page (branch pub-filter-options):
+   Journal and Year buttons on the left of the type tabs, where only the chosen type shows its name and
+   count. Journal opens the ten journals, ordered by prestige, each with a checkbox and a count, in a
+   list that shows six rows and scrolls. Year opens the coral slider, with Forthcoming as its own last
+   stop; its axis follows the chosen type and journals, and a click on a year or on the bar moves the
+   closer handle. The three filters shape each other's counts, no choice clears another, and every
+   Clear resets all three. The parts and rules are in components/pub-filter (Controls.tsx, model.ts,
+   data.ts); the browser tests are scripts/filter-options-*.py.
+   ============================================================ */
+const DECIDED: Settings = { place: "left", layer: "journals", forth: "stop", list: "scroll", icons: "book", types: "active" };
 const NAV_H = 64;
 
-/* The filter row: one button per kind with its count, sticky under the fixed
-   nav. Behaves like shadcn's single toggle group (arrow keys, Home/End,
-   aria-pressed) in the site's own styles; the thumb slides to the pressed
-   button over 0.3s on the house curve. */
-function FilterRow({ filter, onPick }: { filter: Filter; onPick: (f: Filter) => void }) {
-  const rowRef = useRef<HTMLDivElement>(null);
-  const segRef = useRef<HTMLDivElement>(null);
-  const thumbRef = useRef<HTMLSpanElement>(null);
+export function PublicationsSections() {
+  const s = DECIDED;
+  const [st, setStRaw] = useState<FilterState>(() => initialState(s.forth));
+  const [openId, setOpenId] = useState<string | null>(null);
   const [stuck, setStuck] = useState(false);
+  const rowRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLDivElement>(null);
+  const { play } = useSound();
 
-  useLayoutEffect(() => {
-    const place = () => {
-      const seg = segRef.current, thumb = thumbRef.current;
-      const on = seg?.querySelector<HTMLButtonElement>('[aria-pressed="true"]');
-      if (!seg || !thumb || !on) return;
-      thumb.style.transform = `translateX(${on.offsetLeft}px)`;
-      thumb.style.width = `${on.offsetWidth}px`;
-      if (on.offsetLeft < seg.scrollLeft || on.offsetLeft + on.offsetWidth > seg.scrollLeft + seg.clientWidth) {
-        seg.scrollTo({ left: on.offsetLeft - 12, behavior: "smooth" });
-      }
-    };
-    place();
-    // enable the slide only after the first placement, and re-place once the
-    // self-hosted font has settled the button widths
-    const raf = requestAnimationFrame(() => segRef.current?.classList.add("ready"));
-    document.fonts?.ready.then(place);
-    window.addEventListener("resize", place);
-    return () => { cancelAnimationFrame(raf); window.removeEventListener("resize", place); };
-  }, [filter]);
-
+  // once the row is stuck under the nav it shows its hairline, as the row before it did
   useEffect(() => {
     const onScroll = () => {
       const r = rowRef.current;
@@ -160,65 +147,28 @@ function FilterRow({ filter, onPick }: { filter: Filter; onPick: (f: Filter) => 
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const buttons: { key: Filter; label: string; short: string; n: number }[] = [
-    { key: "all", label: "All", short: "All", n: TOTAL },
-    ...SECTIONS.map((s) => ({ key: s.key, label: s.label, short: s.short, n: s.pubs.length })),
-  ];
-  const onKey = (e: KeyboardEvent<HTMLDivElement>) => {
-    const i = buttons.findIndex((b) => b.key === filter);
-    const to = e.key === "ArrowRight" ? (i + 1) % buttons.length
-      : e.key === "ArrowLeft" ? (i - 1 + buttons.length) % buttons.length
-      : e.key === "Home" ? 0 : e.key === "End" ? buttons.length - 1 : -1;
-    if (to < 0) return;
-    e.preventDefault();
-    onPick(buttons[to].key);
-    segRef.current?.querySelectorAll<HTMLButtonElement>(".pub-filter-btn")[to]?.focus();
-  };
-
-  return (
-    <div ref={rowRef} className={`pub-filter enter${stuck ? " stuck" : ""}`}>
-      <div ref={segRef} className="pub-filter-seg" role="toolbar" aria-label="Show publications" onKeyDown={onKey}>
-        <span ref={thumbRef} className="pub-filter-thumb" aria-hidden="true" />
-        {buttons.map((b) => (
-          <button
-            key={b.key}
-            type="button"
-            className="pub-filter-btn"
-            aria-pressed={filter === b.key}
-            tabIndex={filter === b.key ? 0 : -1}
-            onClick={() => onPick(b.key)}
-            data-cuelume-press=""
-            data-cuelume-release=""
-          >
-            <span className="pub-filter-long">{b.label}</span>
-            <span className="pub-filter-short">{b.short}</span>
-            <span className="pub-filter-n">{b.n}</span>
-          </button>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export function PublicationsSections() {
-  const [openId, setOpenId] = useState<string | null>(null);
-  const [filter, setFilter] = useState<Filter>("all");
-  const listRef = useRef<HTMLDivElement>(null);
-  const { play } = useSound();
-  const pressSounds = true;
-
-  const pick = (f: Filter) => {
-    if (f === filter) return;
-    /* if the row is stuck under the nav, bring the top of the list back up
-       under it, so the reader lands on the first entry of the new view */
-    const list = listRef.current;
-    const bar = document.querySelector<HTMLElement>(".pub-filter");
+  /* a new filter brings the reader back to the first entry of the new view when the row is stuck
+     under the nav ("instant": the site's smooth scrolling would turn the jump into a long glide) */
+  const setSt = (next: FilterState) => {
+    const list = listRef.current, bar = rowRef.current;
     if (list && bar) {
       const top = list.getBoundingClientRect().top + window.scrollY - NAV_H - bar.offsetHeight - 8;
-      if (window.scrollY > top) window.scrollTo({ top, behavior: "auto" });
+      if (window.scrollY > top) window.scrollTo({ top, behavior: "instant" });
     }
-    setFilter(f);
+    setStRaw(next);
   };
+
+  const counts = typeCounts(st, s.forth);
+  const items = shown(st, s.forth);
+  const active = anyActive(st, s.forth);
+  const total = ITEMS.length;
+  const clearAll = () => setSt(initialState(s.forth));
+  const anyChosen = active || st.kind !== "all";
+  const venueLabel =
+    st.venues.length === 0 ? "Journal"
+      : st.venues.length === 1 ? venueShort(st.venues[0])
+      : `${st.venues.length} journals`;
+  const pair = ICON_PAIRS[s.icons];
 
   const toggle = (id: string) => {
     setOpenId((prev) => {
@@ -227,18 +177,16 @@ export function PublicationsSections() {
         return null;
       }
       play("bloom"); // reveal / expand
-      /* Scroll assist (the shadcn/WAI-ARIA disclosure convention):
-         after the 240ms expansion settles, if the opened citation
-         sits above the nav line or its panel runs past the bottom
-         of the viewport, bring the entry to the top, under the
-         fixed nav (scroll-margin-top carries the offset). Matters
-         most on mobile, where a tall panel otherwise leaves the
-         reader stranded mid-abstract. */
+      /* Scroll assist (the shadcn/WAI-ARIA disclosure convention): after the 240ms expansion
+         settles, if the opened citation sits above the nav line or its panel runs past the bottom of
+         the viewport, bring the entry to the top, under the fixed nav (scroll-margin-top carries the
+         offset). Matters most on mobile, where a tall panel otherwise leaves the reader stranded
+         mid-abstract. */
       window.setTimeout(() => {
         const el = document.getElementById(`pub-${id}`);
         if (!el) return;
         const r = el.getBoundingClientRect();
-        const bar = document.querySelector<HTMLElement>(".pub-filter");
+        const bar = rowRef.current;
         const navLine = 72 + (bar ? bar.offsetHeight : 0);
         if (r.top < navLine || r.bottom > window.innerHeight) {
           const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -249,36 +197,79 @@ export function PublicationsSections() {
     });
   };
 
-  // page-wide index so the entrance stagger flows down both sections
-  let i = 0;
-  const render = (pub: Pub) => (
-    <PublicationEntry
-      key={pub.id}
-      pub={pub}
-      index={i++}
-      open={openId === pub.id}
-      onToggle={() => toggle(pub.id)}
-      pressSounds={pressSounds}
-    />
-  );
-
-  const shown = filter === "all" ? SECTIONS : SECTIONS.filter((s) => s.key === filter);
+  // page-wide index so the entrance stagger flows down every section
+  let n = 0;
+  // keyed on the filters so a new view replays the house entrance
+  const sig = `${st.kind}|${st.venues.join(",")}|${st.lo}-${st.hi}`;
 
   return (
     <>
       <PageStrip page="research" />
-      <FilterRow filter={filter} onPick={pick} />
+      <FluidProvider>
+        <div ref={rowRef} className={`pub-filter fo-row enter${stuck ? " stuck" : ""}`}>
+          <div className="fo-line">
+            <FilterMenu
+              label={venueLabel}
+              icon={pair.journal}
+              on={st.venues.length > 0}
+              ariaLabel="Filter by journal"
+              title="Journal"
+              footer={(close) => <MenuFooter close={close} n={items.length} canClear={anyChosen} onClear={clearAll} />}
+            >
+              <VenueChecks st={st} s={s} onToggle={(v) => setSt(toggleVenue(st, v, s))} />
+            </FilterMenu>
+            <FilterMenu
+              label={yearActive(st, s.forth) ? yearButtonText(st, s.forth) : "Year"}
+              icon={pair.year}
+              on={yearActive(st, s.forth)}
+              ariaLabel="Filter by year"
+              title="Year"
+              // 540 spaces the years about 48px apart (Felipe 2026-11-14: "years more spaced out")
+              width={540}
+              footer={(close) => <MenuFooter close={close} n={items.length} canClear={anyChosen} onClear={clearAll} />}
+            >
+              <YearRange st={st} s={s} onRange={(lo, hi) => setSt({ ...st, lo, hi })} onIncF={(on) => setSt({ ...st, incF: on })} />
+            </FilterMenu>
+            <TypeTabs kind={st.kind} counts={counts} onPick={(k) => setSt(pickType(st, k, s))} activeLabel />
+          </div>
+        </div>
 
-      {/* keyed on the filter so a new view replays the house entrance */}
-      <div ref={listRef} key={filter} className="pub-sections">
-        {shown.map((s) => (
-          <section className="section" key={s.key} id={`pubs-${s.key}`}>
-            <h2 className="section-title enter">{s.title}</h2>
-            {s.key === "journal" && <p className="pub-note-sub enter"><em>*Denotes equal authorship</em></p>}
-            <ol className="pub-list">{s.pubs.map(render)}</ol>
-          </section>
-        ))}
-      </div>
+        <div ref={listRef}>
+          <ResultLine n={items.length} total={total} active={active} onClear={clearAll} />
+          {items.length === 0 ? (
+            <div className="fo-empty">
+              {/* named by the chosen type: "No preprints match these filters." */}
+              <p>No {st.kind === "all" ? "publications" : KINDS.find((k) => k.key === st.kind)!.label.toLowerCase()} match these filters.</p>
+              <Button variant="secondary" size="compact" onClick={clearAll}>Clear the filters</Button>
+            </div>
+          ) : (
+            <div className="pub-sections" key={sig}>
+              {KINDS.map((k) => {
+                const these = items.filter((i) => i.kind === k.key);
+                if (these.length === 0) return null;
+                return (
+                  <section className="section" key={k.key} id={`pubs-${k.key}`}>
+                    <h2 className="section-title enter">{k.title}</h2>
+                    {k.key === "journal" && <p className="pub-note-sub enter"><em>*Denotes equal authorship</em></p>}
+                    <ol className="pub-list">
+                      {these.map((i) => (
+                        <PublicationEntry
+                          key={i.pub.id}
+                          pub={i.pub}
+                          index={n++}
+                          open={openId === i.pub.id}
+                          onToggle={() => toggle(i.pub.id)}
+                          pressSounds
+                        />
+                      ))}
+                    </ol>
+                  </section>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </FluidProvider>
     </>
   );
 }
