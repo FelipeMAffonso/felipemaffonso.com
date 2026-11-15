@@ -50,7 +50,11 @@ export const BOARD = {
     items: [
       {
         name: "Journals only",
-        what: "The Journal list holds the ten journals. Checking a journal moves the type to Journal publications, so preprints and book chapters leave the list; choosing Preprints or Book chapters clears the journals.",
+        what: "The Journal list holds the ten journals. Checking a journal moves the type to Journal publications, so preprints and book chapters leave the list.",
+      },
+      {
+        name: "No choice clears another",
+        what: "All keeps the chosen journals and years, so with JCP chosen, All lists its two papers. Preprints with a journal chosen says that no preprints match. Only Clear resets the type, the journals and the years.",
       },
       {
         name: "Scroll",

@@ -132,11 +132,14 @@ export function yearCounts(st: FilterState, forth: Forth): number[] {
  *  with the oldest + most recent or forthcoming paper"). With nothing chosen it is the whole axis. */
 export function yearDomain(st: FilterState, forth: Forth): [number, number] {
   const c = yearCounts(st, forth);
+  const end = c.length - 1;
   const first = c.findIndex((n) => n > 0);
-  if (first < 0) return [0, c.length - 1];
-  let last = c.length - 1;
+  if (first < 0) return [0, end];
+  let last = end;
   while (c[last] === 0) last--;
-  return [first, last];
+  /* the axis also holds any year limit the visitor set, so the handles always show the real choice,
+     even when no entry of the chosen type and journals falls in those years (the list then says so) */
+  return [st.lo > 0 ? Math.min(first, st.lo) : first, st.hi < end ? Math.max(last, st.hi) : last];
 }
 export function forthcomingCount(st: FilterState): number {
   return ITEMS.filter((i) => kindOk(i, st) && venueOk(i, st) && i.year === "F").length;
@@ -144,14 +147,13 @@ export function forthcomingCount(st: FilterState): number {
 
 /* ---- the moves, and the rules that connect the filters ---- */
 
-export function pickType(st: FilterState, k: TypeKey, s: Settings): FilterState {
-  if (s.layer === "journals") {
-    // journals belong to journal publications: any other type clears them
-    return { ...st, kind: k, venues: k === "journal" ? st.venues : [] };
-  }
-  // every venue: keep only the venues of the picked type
-  const keep = k === "all" ? st.venues : st.venues.filter((v) => ITEMS.some((i) => i.venue === v && i.kind === k));
-  return { ...st, kind: k, venues: keep };
+/** A type button is a filter like the other two: it never clears the journals or the years. All keeps
+ *  them (with JCP chosen, All lists its two papers), and Preprints with a journal chosen lists nothing,
+ *  which the page says in words (Felipe 2026-11-14: "ALL is different from CLEAR ... if I click
+ *  preprints it should show that there are no publications that fit this criteria"). Only Clear
+ *  resets everything. */
+export function pickType(st: FilterState, k: TypeKey, _s: Settings): FilterState {
+  return { ...st, kind: k };
 }
 
 export function toggleVenue(st: FilterState, v: string, s: Settings): FilterState {

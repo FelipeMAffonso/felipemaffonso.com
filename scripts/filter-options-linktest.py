@@ -62,6 +62,23 @@ with sync_playwright() as p:
     pg.keyboard.press("Escape"); pg.wait_for_timeout(250)
     ok("JM, 2022 chosen: the button reads 2022 to 2023", ybtn.inner_text().strip() == "2022 to 2023", ybtn.inner_text().strip())
 
+    # a type button never clears the journals or the years (Felipe: "ALL is different from CLEAR")
+    type_btn = lambda name: pg.locator(".pub-filter-btn", has=pg.locator(".pub-filter-long", has_text=name)).first
+    # the years chosen above (2022 on) stay chosen through type and journal changes; start this step clean
+    ok("the years chosen above survived the journal change", ybtn.inner_text().strip() != "Year", ybtn.inner_text().strip())
+    pg.get_by_role("button", name="Clear filters").first.click(); pg.wait_for_timeout(300)
+    journals("Journal of Consumer Psychology")
+    pressed = pg.locator('.pub-filter-btn[aria-pressed="true"] .pub-filter-long').first.inner_text().strip()
+    ok("JCP: the type moves to Journal publications", pressed == "Journal publications", pressed)
+    type_btn("All").click(); pg.wait_for_timeout(300)
+    n = pg.locator(".pub-entry").count()
+    ok("JCP, then All: All is chosen, the journal stays, two papers listed",
+       jbtn.inner_text().strip() == "JCP" and n == 2, f"{jbtn.inner_text().strip()}, {n} listed")
+    type_btn("Preprints").click(); pg.wait_for_timeout(300)
+    msg = pg.locator(".fo-empty p").all_inner_texts()
+    ok("JCP, then Preprints: the page says no preprints match, the journal stays",
+       msg == ["No preprints match these filters."] and jbtn.inner_text().strip() == "JCP", f"{msg}, {jbtn.inner_text().strip()}")
+
     # Clear inside the Year panel resets every filter
     year_panel()
     pg.locator(".fo-pop").get_by_role("button", name="Clear", exact=True).first.click(); pg.wait_for_timeout(300)

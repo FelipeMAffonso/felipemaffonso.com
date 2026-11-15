@@ -110,21 +110,29 @@
 }
 /* the track keeps its 6px on hover (Felipe 2026-11-14: "remove the motion that increases the
    chunkiness of the bar"); only the sweep moves */
+/* the band sweeps while the pointer is over the slider, and all the time once a year limit is set
+   (.narrowed), so a filtered slider shows it is filtering (Felipe 2026-11-14) */
+.fo-rs.narrowed .fo-rs-range { animation: foSheen 2.6s cubic-bezier(0.45, 0, 0.55, 1) infinite; }
 @media (hover: hover) {
   .fo-rs:hover .fo-rs-range { animation: foSheen 2.6s cubic-bezier(0.45, 0, 0.55, 1) infinite; }
 }
 @keyframes foSheen { from { background-position: 160% 0; } to { background-position: -60% 0; } }
 /* the site's rule for reduced motion: calmer, never frozen */
-@media (prefers-reduced-motion: reduce) { .fo-rs:hover .fo-rs-range { animation-duration: 5.2s; } }
-/* where a click would put the closer handle */
-.fo-ghost {
-  position: absolute; top: 50%; z-index: 1; width: 12px; height: 12px; margin: -6px 0 0 -6px;
-  border-radius: 50%; background: var(--coral); opacity: 0; transform: scale(0.6);
-  box-shadow: 0 0 0 4px var(--coral-tint-strong);
-  pointer-events: none;
-  transition: opacity 0.15s cubic-bezier(0.23, 1, 0.32, 1), transform 0.2s cubic-bezier(0.23, 1, 0.32, 1), left 0.12s cubic-bezier(0.23, 1, 0.32, 1);
+@media (prefers-reduced-motion: reduce) {
+  .fo-rs:hover .fo-rs-range, .fo-rs.narrowed .fo-rs-range { animation-duration: 5.2s; }
 }
-.fo-ghost.on { opacity: 0.45; transform: scale(1); }
+/* where a click would put the closer handle: one dot per year, which fades in and out where it
+   stands with the year labels' own timing; it never moves sideways */
+.fo-dot {
+  position: absolute; top: 50%; z-index: 1; width: 12px; height: 12px; margin: -6px 0 0 -6px;
+  border-radius: 50%; background: var(--coral); box-shadow: 0 0 0 4px var(--coral-tint-strong);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.fo-dot.on { opacity: 0.45; }
+/* the thirty-year example names the hovered year above the bar, because most labels are left out */
+.fo-hovertag { position: absolute; top: 50%; width: 0; height: 0; pointer-events: none; }
+.fo-hovertag .fo-tag { bottom: 12px; }
 .fo-rs-thumb {
   position: relative; z-index: 2;
   display: block; width: 24px; height: 24px; border-radius: 50%;
@@ -150,9 +158,12 @@
 }
 .fo-label:first-child { transform: translateX(calc(-12px - 5px)); }
 .fo-label.f { transform: translateX(calc(-100% + 12px + 5px)); }
-.fo-label.empty { color: var(--text-dim); }
-.fo-label.empty:not(.hover) { opacity: 0.6; }
-.fo-label.in { color: var(--text); font-weight: 500; }
+/* outside the chosen range a year fades well back; inside it, it is black (Felipe 2026-11-14: "the
+   stuff outside the bands ... should be MORE grayed out"); a year with no paper sits one step lighter */
+.fo-label { color: var(--text-dim); opacity: 0.55; }
+.fo-label.empty { opacity: 0.35; }
+.fo-label.in { color: var(--text); font-weight: 500; opacity: 1; }
+.fo-label.in.empty { color: var(--text-secondary); font-weight: 400; opacity: 0.75; }
 .fo-label.hover { color: var(--coral-text); background: var(--coral-tint-strong); opacity: 1; }
 .fo-incf { margin: 10px -10px 0; }
 /* a phone has room for every other year's label; the line above the slider names the exact range */

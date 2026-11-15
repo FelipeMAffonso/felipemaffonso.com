@@ -26,14 +26,8 @@ export function Prototype({ s }: { s: Settings }) {
   // a new rule starts from a clean slate
   useEffect(() => setSt(initialState(s.forth)), [s.forth, s.layer]);
 
-  /* when a type or journal choice leaves the chosen years with no matching entry at all, the year
-     range resets, because the slider's axis now holds only years the choice does not touch */
-  useEffect(() => {
-    if (!yearActive(st, s.forth)) return;
-    const [a, b] = yearDomain(st, s.forth);
-    if (st.hi < a || st.lo > b) setSt((x) => ({ ...x, lo: 0, hi: stops(s.forth).length - 1 }));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [st.kind, st.venues.join("|")]);
+  /* no choice clears another: a combination that matches nothing shows the no-match message below,
+     and the year axis stretches to hold the chosen years (model.ts, yearDomain) */
 
   const counts = typeCounts(st, s.forth);
   const items = shown(st, s.forth);
@@ -127,7 +121,8 @@ export function Prototype({ s }: { s: Settings }) {
         <ResultLine n={items.length} total={total} active={active} onClear={clearAll} />
         {items.length === 0 ? (
           <div className="fo-empty">
-            <p>No publications match these filters.</p>
+            {/* named by the chosen type: "No preprints match these filters." */}
+            <p>No {st.kind === "all" ? "publications" : KINDS.find((k) => k.key === st.kind)!.label.toLowerCase()} match these filters.</p>
             <Button variant="secondary" size="compact" onClick={() => setSt(initialState(s.forth))}>Clear the filters</Button>
           </div>
         ) : (

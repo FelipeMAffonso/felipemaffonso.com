@@ -54,11 +54,25 @@ with sync_playwright() as p:
 
     # hover: the preview dot shows and the year under the pointer lights up
     pg.mouse.move(x_of(2025), y); pg.wait_for_timeout(250)
-    ghost = pg.locator(".fo-ghost.on").count()
+    dots = pg.locator(".fo-dot.on")
     lit = pg.locator(".fo-label.hover").all_inner_texts()
-    print(f"hover at 2025: preview dot shown {ghost == 1}, label lit {lit}")
-    if ghost != 1 or lit != ["2025"]:
+    dot_x = dots.first.bounding_box() if dots.count() == 1 else None
+    print(f"hover at 2025: one dot shown {dots.count() == 1}, label lit {lit}")
+    if dots.count() != 1 or lit != ["2025"]:
         fail.append("hover preview")
+    # the dot never slides: it has no position transition, and the dot at 2025 sits over 2025
+    trans = pg.evaluate("getComputedStyle(document.querySelector('.fo-dot')).transitionProperty")
+    print(f"dot transition: {trans}")
+    if "left" in trans or "all" in trans:
+        fail.append("the dot can slide")
+    if dot_x and abs(dot_x["x"] + dot_x["width"] / 2 - x_of(2025)) > 2:
+        fail.append("the dot is not over 2025")
+    # the sweep runs without a hover once a year limit is set (here 2023 to Forthcoming)
+    pg.mouse.move(5, 5); pg.wait_for_timeout(200)
+    anim = pg.evaluate("getComputedStyle(document.querySelector('.fo-rs-range')).animationName")
+    print(f"sweep with a year limit set, pointer away: {anim}")
+    if anim != "foSheen":
+        fail.append("no sweep while narrowed")
     cursor = pg.evaluate("getComputedStyle(document.querySelector('.fo-rs')).cursor")
     print(f"cursor over the slider: {cursor}")
     if cursor != "pointer":

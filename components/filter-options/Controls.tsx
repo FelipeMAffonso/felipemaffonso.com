@@ -286,7 +286,9 @@ export function YearRange({ st, s, onRange, onIncF }: {
       <div className="fo-year-range" aria-live="polite">{rangeText}</div>
       <div className="fo-axis">
         <Slider.Root
-          className="fo-rs"
+          // narrowed: a year limit is set, so the band sweeps through the coral without a hover
+          // (Felipe 2026-11-14: "it should be in the slider anytime the slider is not at the default/cleared state")
+          className={`fo-rs${st.lo > 0 || st.hi < fullLast ? " narrowed" : ""}`}
           onPointerMove={onHover}
           onPointerLeave={() => setHov(null)}
           min={min}
@@ -318,11 +320,18 @@ export function YearRange({ st, s, onRange, onIncF }: {
           <Slider.Track className={`fo-rs-track${hasF ? " dashed" : ""}`} style={{ ["--gap" as string]: `${frac(lastYearPos) * 100}%` }}>
             <Slider.Range className="fo-rs-range" />
           </Slider.Track>
-          <span
-            className={`fo-ghost${hov !== null && hov !== lo && hov !== hi ? " on" : ""}`}
-            style={{ left: at(pos[hov ?? 0]) }}
-            aria-hidden="true"
-          />
+          {/* one dot per year, fading in and out where it stands, with the same timing as the year
+              labels' highlight; nothing slides (Felipe 2026-11-14: "the dot doesnt need to slide it
+              needs only to appear and stays put. it stays and disappears exactly like the motion that
+              happens in the year") */}
+          {pos.map((p, i) => (
+            <span
+              key={i}
+              className={`fo-dot${hov === i && i !== lo && i !== hi ? " on" : ""}`}
+              style={{ left: at(p) }}
+              aria-hidden="true"
+            />
+          ))}
           <Slider.Thumb className="fo-rs-thumb" aria-label="From" aria-valuetext={stopLabel(S[lo])} />
           <Slider.Thumb className="fo-rs-thumb" aria-label="To" aria-valuetext={stopLabel(S[hi])} />
         </Slider.Root>

@@ -131,9 +131,14 @@ export function LongRange({ mode }: { mode: "thin" | "zoom" }) {
           <Slider.Track className="fo-rs-track dashed" style={{ ["--gap" as string]: `${Math.min(1, frac(LAST)) * 100}%` }}>
             <Slider.Range className="fo-rs-range" />
           </Slider.Track>
-          {hov !== null && (
-            <span className="fo-ghost on fo-ghost-tag" style={{ left: at(POS[hov]) }} aria-hidden="true">
-              {hov !== lo && hov !== hi && <span className="fo-tag dim">{label(S[hov])}</span>}
+          {/* the same dots as the real slider, one per visible year, fading in place; the hovered
+              year is also named above the bar, because most labels are left out */}
+          {POS.map((p, i) => p >= w0 - 0.01 && p <= w1 + 0.01 && (
+            <span key={i} className={`fo-dot${hov === i && i !== lo && i !== hi ? " on" : ""}`} style={{ left: at(p) }} aria-hidden="true" />
+          ))}
+          {hov !== null && hov !== lo && hov !== hi && (
+            <span className="fo-hovertag" style={{ left: at(POS[hov]) }} aria-hidden="true">
+              <span className="fo-tag dim">{label(S[hov])}</span>
             </span>
           )}
           <Slider.Thumb className="fo-rs-thumb" aria-label="From" aria-valuetext={label(S[lo])}>
