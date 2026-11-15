@@ -7,7 +7,10 @@ import type { CSSProperties, ReactNode } from "react";
    this is a LOCKED design; this file is only the data.
    ============================================================ */
 
-export type LinkKind = "journal" | "download" | "osf" | "researchbox" | "github" | "arxiv" | "psyarxiv" | "ssrn";
+/* "pdf": a PDF of the accepted manuscript hosted on this site (public/files/papers/), for a paper whose
+   publisher allows that version on a personal homepage but where no preprint server is used
+   (Felipe 2026-11-15: "we dont have a button for a pdf that is hosted on the website") */
+export type LinkKind = "journal" | "download" | "pdf" | "osf" | "researchbox" | "github" | "arxiv" | "psyarxiv" | "ssrn";
 
 export type PubLink = {
   kind: LinkKind;
@@ -15,6 +18,11 @@ export type PubLink = {
   label: string;
   desc: string;
   download?: boolean;
+  /* A link that works only for a while, such as Elsevier's free Share Link (50 days from 2026-11-14 for
+     the TICS paper). It is shown in place of href and desc until the moment `until` (written with its
+     Central offset); after that href and desc take over by themselves, in the browser (ActionButton in
+     components/PublicationsSections.tsx reads the clock) and in every later build. */
+  temporary?: { href: string; desc: string; until: string };
 };
 
 export type Cover = {
@@ -94,8 +102,9 @@ export const preprints: Pub[] = [
 
 export const journals: Pub[] = [
   {
-    /* Conditionally accepted at TiCS, 2026-10-13 (decision on TICS-D-26-00180R1). Felipe: "you only have the
-       abstract, nothing else", so no buttons and no cover yet. Citation as in the cv repo; abstract verbatim from
+    /* Conditionally accepted at TiCS, 2026-10-13 (decision on TICS-D-26-00180R1); accepted 2026-10-20; online
+       with its DOI in November 2026, not yet in an issue. The buttons came on 2026-11-15 (below); until then it
+       had the abstract only. Citation as in the cv repo; abstract verbatim from
        the R2 manuscript submitted 2026-10-17 and accepted 2026-10-20 (research-intelligent-machine-delegation,
        tics/output/SUBMISSION_PACKAGE_R2/Manuscript.docx, read with pandoc); it replaced the R1 abstract on
        2026-11-13 (Felipe: the abstract has an example in the first sentence). */
@@ -103,6 +112,18 @@ export const journals: Pub[] = [
     /* Placeholder cover until the issue cover exists (Felipe 2026-10-20): the TiCS logo tile with the Cell
        Press logo, built by scripts/build-placeholder-covers.py. */
     cover: { src: "/images/covers/tics-placeholder.svg", alt: "Trends in Cognitive Sciences", w: 760, h: 1000 },
+    /* Felipe 2026-11-15. Journal website: Elsevier's free Share Link until Dec 31, 2026 (it expires about
+       Jan 3), then the DOI. PDF: the accepted manuscript with Elsevier's CC-BY-NC-ND line and the DOI on its
+       cover, which Elsevier allows on a personal homepage at once; no preprint server. Machine-readable: the
+       .md built by docs/machine-readable/human-ai-delegation/build.py. */
+    links: [
+      {
+        kind: "journal", href: "https://doi.org/10.1016/j.tics.2026.10.007", label: "Journal website", desc: "Full text",
+        temporary: { href: "https://authors.elsevier.com/a/1o6O04sIRvapZe", desc: "Free full text", until: "2026-12-31T00:00:00-06:00" },
+      },
+      { kind: "pdf", href: "/files/papers/human-ai-delegation-accepted-manuscript.pdf", label: "PDF", desc: "Accepted manuscript" },
+      { kind: "download", href: "/files/papers/human-ai-delegation.md", label: "Machine-readable", desc: "Markdown (.md)", download: true },
+    ],
     citation: (
       <>
         <strong>Affonso, Felipe M.</strong> and Mark Steyvers (forthcoming), &quot;Interdependent Conditions for Successful Human-AI Delegation,&quot; <em>Trends in Cognitive Sciences</em>.

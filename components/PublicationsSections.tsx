@@ -30,13 +30,14 @@ import { useSound } from "@/lib/sound";
 import { PageStrip } from "./PageStrip";
 import { PubCover } from "./PubCover";
 import {
-  JournalIcon, DownloadIcon, OsfIcon, ResearchBoxIcon, GitHubGlyph, ArxivIcon, PsyArxivIcon, SsrnIcon,
+  JournalIcon, DownloadIcon, PdfIcon, OsfIcon, ResearchBoxIcon, GitHubGlyph, ArxivIcon, PsyArxivIcon, SsrnIcon,
 } from "./icons";
 
 function LinkIcon({ kind }: { kind: PubLink["kind"] }) {
   switch (kind) {
     case "journal": return <JournalIcon />;
     case "download": return <DownloadIcon />;
+    case "pdf": return <PdfIcon />;
     case "osf": return <OsfIcon />;
     case "researchbox": return <ResearchBoxIcon />;
     case "github": return <GitHubGlyph />;
@@ -46,7 +47,20 @@ function LinkIcon({ kind }: { kind: PubLink["kind"] }) {
   }
 }
 
-function ActionButton({ link, pressSounds }: { link: PubLink; pressSounds: boolean }) {
+/* A link with a `temporary` stand-in (lib/publications.tsx) shows the stand-in until its `until` moment.
+   The first render uses the build's moment (SITE_BUILT_AT, set in next.config.mjs), so the static HTML and
+   the browser's first render agree; after mount the browser's own clock decides. */
+function useCurrentLink(link: PubLink): PubLink {
+  const t = link.temporary;
+  const [useTemp, setUseTemp] = useState(() => !!t && Number(process.env.SITE_BUILT_AT) < Date.parse(t.until));
+  useEffect(() => {
+    if (t) setUseTemp(Date.now() < Date.parse(t.until));
+  }, [t]);
+  return t && useTemp ? { ...link, href: t.href, desc: t.desc } : link;
+}
+
+function ActionButton({ link: given, pressSounds }: { link: PubLink; pressSounds: boolean }) {
+  const link = useCurrentLink(given);
   const isDownload = link.kind === "download" || link.download;
   const soundAttrs: Record<string, string> = pressSounds
     ? { "data-cuelume-press": "", "data-cuelume-release": "" }

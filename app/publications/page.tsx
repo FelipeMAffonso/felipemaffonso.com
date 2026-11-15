@@ -26,6 +26,12 @@ const collectionLd = {
         name: "Interdependent Conditions for Successful Human-AI Delegation",
         author: ["Felipe M. Affonso", "Mark Steyvers"],
         isPartOf: { "@type": "Periodical", name: "Trends in Cognitive Sciences" },
+        sameAs: "https://doi.org/10.1016/j.tics.2026.10.007",
+        license: "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        encoding: [
+          { "@type": "MediaObject", contentUrl: "/files/papers/human-ai-delegation.md", encodingFormat: "text/markdown" },
+          { "@type": "MediaObject", contentUrl: "/files/papers/human-ai-delegation-accepted-manuscript.pdf", encodingFormat: "application/pdf" },
+        ],
       },
       {
         "@type": "ScholarlyArticle",

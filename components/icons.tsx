@@ -18,6 +18,13 @@ export function JournalIcon() {
   );
 }
 
+export function PdfIcon() {
+  // the generic PDF file icon (a page with a red PDF band), for a PDF of the accepted manuscript hosted on
+  // this site; an image like the arXiv and SSRN marks (Felipe 2026-11-15: "the icon has to look like adobe pdf")
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img className="pub-link-icon" src="/images/pdf-icon.svg" alt="" width={18} height={18} style={{ width: 18, height: 18 }} />;
+}
+
 export function DownloadIcon() {
   // download arrow (Machine-readable .md / PDF)
   return (

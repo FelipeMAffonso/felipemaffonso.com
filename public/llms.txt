@@ -30,6 +30,7 @@ The check-in records the time, the fields above, your User-Agent header, and the
 
 Full-text Markdown versions of papers, converted from the published or accepted versions. Each file begins with its citation and the web address of the published version, which is the version of record.
 
+- [Interdependent Conditions for Successful Human-AI Delegation](https://felipemaffonso.com/files/papers/human-ai-delegation.md) (the accepted manuscript is also a [PDF](https://felipemaffonso.com/files/papers/human-ai-delegation-accepted-manuscript.pdf))
 - [When Consumers Prefer Point Versus Range Estimates of Product Performance](https://felipemaffonso.com/files/papers/point-vs-range.md)
 - [When Are Less Precise Predictions More Credible?](https://felipemaffonso.com/files/papers/precise-predictions.md)
 - [Brief Commentary: A Framework for Detecting AI Agents in Online Research](https://felipemaffonso.com/files/papers/cognitive-traps.md)

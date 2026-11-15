@@ -1,0 +1,14 @@
+Machine-readable build of Affonso and Steyvers (2026), Trends in Cognitive Sciences, https://doi.org/10.1016/j.tics.2026.10.007
+source: research-intelligent-machine-delegation tics/output/SUBMISSION_PACKAGE_R2
+  Manuscript.docx md5 af918fc2dcb3afd6ab7240576d1ce2c2
+  Highlights.docx md5 d5984bd7d807cfe3e5444f2b902d221c
+  Outstanding_Questions.docx md5 186857ad7929beda5bcbce1c79d85b3a
+converter: pandoc 3.9.0.2; reader for the checks: python-docx 1.2.0
+output: public/files/papers/human-ai-delegation.md, 489 lines, md5 9c0b09e38259a78363a85ff32aefc337
+WORD IN MARKDOWN (refuses): 239 of 239 Word paragraphs and table cells word for word in the Markdown
+MARKDOWN IN WORD (refuses): 239 Markdown paragraphs and table cells, all word for word in the Word files (front matter and figure descriptions excluded)
+REFERENCES (refuses): 116 in the Markdown, 116 in Word, numbered 1 to 116
+PANDOC RESIDUE (refuses): none
+CORRECTION applied to the Markdown and to the Word text the checks read: '2316 Social' -> '2566 Social' (Felipe 2026-11-15: Mark Steyvers's office is 2566 Social & Behavioral Sciences Gateway (the Word file says 2316))
+Comparison rule: curly and straight quotes, dash kinds, asterisks, spacing and Markdown markup are ignored; every word and number must match.
+Figures 1 and 2: descriptions in figures.md, written by Claude Opus 5.5 from Figure_1.pdf and Figure_2.pdf (their text layers supplied every quoted word) and read against the rendered figures.

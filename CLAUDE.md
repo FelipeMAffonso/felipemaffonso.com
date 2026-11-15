@@ -127,6 +127,26 @@ components (`app/teaching/page.tsx`, `app/contact/page.tsx`, the home bio in
 - DATA AND CODE ON RESEARCHBOX: link kind `researchbox`, icon `ResearchBoxIcon` in
   `components/icons.tsx` (the ResearchBox mark redrawn in the site's icon voice). Label
   "Data and code", desc "researchbox.org/<id>", so four buttons still fit one row.
+- A PDF HOSTED ON THIS SITE (2026-11-15, Felipe: "we dont have a button for a pdf that is hosted on the
+  website"): link kind `pdf`, icon `PdfIcon` (the generic page with a red PDF band,
+  `public/images/pdf-icon.svg`, drawn for this site and not Adobe's logo), label "PDF", desc "Accepted
+  manuscript", opening in a new tab, placed between Journal website and Machine-readable. It is for a paper
+  whose publisher allows the accepted manuscript on a personal homepage and where no preprint server is used.
+  The first is the TiCS paper: Elsevier allows that version at once with the line "© 2026. This manuscript
+  version is made available under the CC-BY-NC-ND 4.0 license https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  and the published version's DOI address, and without making it look like the published version
+  (elsevier.com/about/policies-and-standards/sharing). The PDF's first page and every footer show both.
+- A LINK THAT EXPIRES (2026-11-15): `PubLink.temporary` shows a stand-in link until a moment and then the
+  permanent one, with no rebuild needed (the browser reads its clock; the build's moment, `SITE_BUILT_AT` in
+  `next.config.mjs`, decides the static HTML). The TiCS Journal website button opens Elsevier's free Share Link
+  ("Free full text") until Dec 31, 2026, Central (the link expires about Jan 3), then the DOI ("Full text").
+  `scripts/temporary-link-test.py <base>` sets the browser clock on each side of the switch and checks the three
+  TiCS buttons and that the PDF and the .md are served; it must print PASS before a publish that touches them.
+- NOTHING OF THE CONSUMER SICKNESS BEHAVIOR PAPER IS POSTED BEYOND ITS JOURNAL LINK (2026-11-15). Wiley lets the
+  accepted version be posted only 24 months after the final version is published online, and Felipe does not post
+  the submitted version. Its .md is built and held in research-consumer-sickness-behavior
+  `v3_revision/machine-readable/`; the site entry gets only the Journal website link once the DOI exists. The
+  issue "Post the Consumer Sickness Behavior machine-readable .md" holds the date.
 
 ## Design system
 
@@ -499,6 +519,18 @@ npm run build && git add -A && git commit -m "Add paper-slug .md" && git push
 | `behavioral-governance.md` | Affonso (2025) RP | 1,093 |
 | `point-vs-range.md` | Shiri, Affonso, Wilcox (2026, forthcoming) JMR | 1,310 |
 | `precise-predictions.md` | Rude, Shiri, Affonso, Hershfield, Fox (forthcoming) JEP:G | 801 |
+| `human-ai-delegation.md` | Affonso & Steyvers (2026) TiCS | 489 |
+
+`human-ai-delegation.md` and `human-ai-delegation-accepted-manuscript.pdf` (2026-11-15) are built by
+`docs/machine-readable/human-ai-delegation/build.py` and `build_pdf.py` from the accepted manuscript's Word files
+(research-intelligent-machine-delegation, `tics/output/SUBMISSION_PACKAGE_R2`). build.py refuses to write unless
+every Word paragraph and table cell (read independently with python-docx) is word for word in the Markdown, every
+Markdown paragraph is word for word in Word, and the 116 references match; `--selftest` catches seven planted
+faults, and `VERIFY.txt` is the banked report. build_pdf.py prints pandoc's HTML with Chromium (Word hung on the
+file), adds the two figures from their own PDFs as vectors, and refuses unless every Word paragraph is in the
+printed text and the license line and the DOI are on page 1. One correction Felipe asked for is applied in both
+and recorded in VERIFY.txt: Mark Steyvers's office is 2566 Social & Behavioral Sciences Gateway (the Word file
+says 2316). The figure descriptions are `figures.md` beside the scripts.
 
 `precise-predictions.md` (2026-10-12) had no DOCX or EPUB, only the authors' accepted-manuscript PDF
 (Google Docs, 69 pages with the online supplement), and pandoc does not read PDF. It is built by
