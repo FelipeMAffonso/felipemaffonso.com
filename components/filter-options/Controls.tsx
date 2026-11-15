@@ -30,7 +30,7 @@ import { DropdownContent, DropdownMenu, DropdownTrigger } from "@/components/ui/
 import { MenuItem } from "@/components/ui/menu-item";
 import { KINDS } from "./data";
 import {
-  SHORT, forthcomingCount, snapStop, stopLabel, stopPositions, stops, venueRows, yearCounts, yearText,
+  SHORT, forthcomingCount, nearestStop, stopLabel, stopPositions, stops, venueRows, yearCounts, yearText,
   type FilterState, type Icons, type Settings, type TypeKey,
 } from "./model";
 
@@ -259,8 +259,21 @@ export function YearRange({ st, s, onRange, onIncF }: {
           minStepsBetweenThumbs={0}
           value={[pos[st.lo], pos[st.hi]]}
           onValueChange={([a, b]) => {
-            const lo = snapStop(pos, a, st.lo), hi = snapStop(pos, b, st.hi);
-            onRange(Math.min(lo, hi), Math.max(lo, hi));
+            // each value goes to its nearest stop, the same stop every time (see nearestStop)
+            const lo = nearestStop(pos, a), hi = nearestStop(pos, b);
+            if (lo !== st.lo || hi !== st.hi) onRange(Math.min(lo, hi), Math.max(lo, hi));
+          }}
+          // the arrow keys move a handle one stop, so one press crosses the gap to Forthcoming;
+          // preventDefault keeps Radix's own one-unit step, which would land inside the gap
+          onKeyDown={(e) => {
+            const dir = e.key === "ArrowRight" || e.key === "ArrowUp" ? 1 : e.key === "ArrowLeft" || e.key === "ArrowDown" ? -1 : 0;
+            if (!dir) return;
+            const which = (e.target as HTMLElement).getAttribute("aria-label");
+            if (which !== "From" && which !== "To") return;
+            e.preventDefault();
+            const last = pos.length - 1;
+            if (which === "From") onRange(Math.max(0, Math.min(st.lo + dir, st.hi)), st.hi);
+            else onRange(st.lo, Math.min(last, Math.max(st.hi + dir, st.lo)));
           }}
           aria-label="Years"
         >

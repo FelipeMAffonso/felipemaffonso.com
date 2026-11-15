@@ -57,16 +57,14 @@ export function yearButtonText(st: FilterState, forth: Forth): string {
   if (forth === "toggle" && !st.incF) t += ", published";
   return t;
 }
-/** the stop nearest a slider value, moving past a gap in the direction of travel */
-export function snapStop(pos: number[], v: number, from: number): number {
-  const exact = pos.indexOf(v);
-  if (exact >= 0) return exact;
-  // v is inside the gap before Forthcoming: go on to the next stop if moving up, back if moving down
-  const up = v > pos[from];
-  for (let i = 0; i < pos.length - 1; i++) {
-    if (v > pos[i] && v < pos[i + 1]) return up ? i + 1 : i;
-  }
-  return v < pos[0] ? 0 : pos.length - 1;
+/** The stop nearest a slider value. A pure function of the value: during a drag the slider reports
+ *  the values inside the gap before Forthcoming (2027, 2028), and each must always land on the same
+ *  stop, or the handle flips between 2026 and Forthcoming on every move (Felipe 2026-11-14:
+ *  "it stutters and gets bugged"). A tie goes to the earlier stop. */
+export function nearestStop(pos: number[], v: number): number {
+  let best = 0;
+  for (let i = 1; i < pos.length; i++) if (Math.abs(pos[i] - v) < Math.abs(pos[best] - v)) best = i;
+  return best;
 }
 
 export function initialState(forth: Forth): FilterState {
