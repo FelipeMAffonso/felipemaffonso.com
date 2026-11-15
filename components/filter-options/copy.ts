@@ -7,8 +7,9 @@
    Decided by Felipe the same day, so their settings left the page:
    "journal list is journals only (preprints get filtered out). list
    length is scroll", "placement will be LEFT", "icons will be book and
-   calendar", "forthcoming is it's own stop" (DECIDED below; FIXED in
-   Board.tsx applies them).
+   calendar", "forthcoming is it's own stop", "for many years, I want the
+   "Zooms to your range" idea" (DECIDED below; FIXED in Board.tsx applies
+   the ones that are settings).
    ============================================================ */
 
 import type { Forth, Icons, Layer, ListLen, Place, Types } from "./model";
@@ -69,6 +70,10 @@ export const BOARD = {
         what: "Journal has an open book with lines of text, and Year has a calendar with a range across it.",
       },
       {
+        name: "Many years: the slider zooms",
+        what: "When the papers span many years, the slider zooms to the chosen years after each drag or click, with Show all years to zoom back out, as in the second example below. Today's eight years fit without it.",
+      },
+      {
         name: "Forthcoming, its own stop",
         what: "The slider runs from 2019 to a last stop called Forthcoming, set apart by a gap and a dashed track, which holds the seven entries that have no year yet (five papers and two chapters).",
       },
@@ -109,8 +114,7 @@ export const BOARD = {
   pick: {
     settings: { types: "row" as Types },
     why:
-      "My pick is today's type row. A professor who visits reads every type as a word, with no icon to decode. For thirty years of " +
-      "papers I would keep fewer labels over the zoom: the axis stays where the eye left it, and the handles name their own years.",
+      "My pick is today's type row. A professor who visits reads every type as a word, with no icon to decode.",
   },
 
   phoneNote: "The phone view is the same page at 390 pixels. On a phone, each button opens its list as a dialog.",

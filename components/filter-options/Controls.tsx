@@ -26,6 +26,7 @@ import { CheckboxGroup, CheckboxItem } from "@/components/ui/checkbox-group";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Tabs, TabsItem } from "@/components/ui/tabs";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { DropdownContent, DropdownMenu, DropdownTrigger } from "@/components/ui/dropdown";
 import { MenuItem } from "@/components/ui/menu-item";
 import { KINDS } from "./data";
@@ -136,8 +137,9 @@ export function FilterMenu({ label, icon: IconC, on, ariaLabel, title, footer, c
   footer: (close: () => void) => ReactNode; children: ReactNode;
   align?: "start" | "end"; width?: number;
 }) {
-  // 420 holds the longest journal name, Journal of Experimental Psychology: General, on one line at 15px
-  width = width ?? 420;
+  // 460 holds the longest journal name, Journal of Experimental Psychology: General, on one line at 15px
+  // in semibold (a checked row's weight), beside the list's scrollbar
+  width = width ?? 460;
   const phone = useIsPhone();
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
@@ -226,7 +228,12 @@ export function VenueChecks({ st, s, onToggle }: { st: FilterState; s: Settings;
       })}
     </div>
   );
-  return s.list === "scroll" ? <div className="fo-scroll scroll-fade">{list}</div> : list;
+  /* the scrolling list: Fluid's ScrollArea, its scrollbar always shown inside this list as a pale rail
+     with a thicker rounded thumb (filter-options.css, .fo-scrollarea; Felipe 2026-11-14: "a
+     chunkier/beautiful scrolling inside the journal list") */
+  return s.list === "scroll" ? (
+    <ScrollArea className="fo-scrollarea" viewportClassName="scroll-fade !h-auto max-h-[inherit]">{list}</ScrollArea>
+  ) : list;
 }
 
 /* ---- the years: Radix Slider (shadcn's slider primitive) with two handles, a label under
