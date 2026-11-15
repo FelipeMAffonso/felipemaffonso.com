@@ -30,7 +30,7 @@ import { DropdownContent, DropdownMenu, DropdownTrigger } from "@/components/ui/
 import { MenuItem } from "@/components/ui/menu-item";
 import { KINDS } from "./data";
 import {
-  SHORT, forthcomingCount, nearestStop, stopLabel, stopPositions, stops, venueRows, yearCounts, yearText,
+  SHORT, forthcomingCount, moveCloser, nearestStop, stopLabel, stopPositions, stops, venueRows, yearCounts, yearDomain,
   type FilterState, type Icons, type Settings, type TypeKey,
 } from "./model";
 
@@ -237,31 +237,67 @@ const THUMB = 24; // px; the handles' width, which Radix keeps inside the track
 export function YearRange({ st, s, onRange, onIncF }: {
   st: FilterState; s: Settings; onRange: (lo: number, hi: number) => void; onIncF: (on: boolean) => void;
 }) {
-  const S = stops(s.forth);
-  const pos = stopPositions(s.forth);
-  const counts = yearCounts(st, s.forth);
+  /* The axis runs from the oldest to the newest stop that holds an entry under the chosen type and
+     journals (yearDomain). Everything below works on that slice; a change maps back to the full
+     list of stops by adding its first index, d0. */
+  const [d0, d1] = yearDomain(st, s.forth);
+  const S = stops(s.forth).slice(d0, d1 + 1);
+  const pos = stopPositions(s.forth).slice(d0, d1 + 1);
+  const counts = yearCounts(st, s.forth).slice(d0, d1 + 1);
   const fN = forthcomingCount(st);
+  // the handles: the chosen range trimmed to the axis (with no range chosen, the axis's two ends)
+  const lo = Math.min(Math.max(st.lo, d0), d1) - d0;
+  const hi = Math.min(Math.max(st.hi, d0), d1) - d0;
+  /* a handle at an end of the axis means "no limit on that side", so it is stored as the end of the
+     whole list: choosing another journal later leaves no stale limit behind, and the Year button
+     says Year until a handle sits inside the axis */
+  const fullLast = stops(s.forth).length - 1, sliceLast = S.length - 1;
+  const setRange = (l: number, h: number) =>
+    onRange(l === 0 ? 0 : l + d0, h === sliceLast ? fullLast : h + d0);
+  const rangeText = lo === hi ? stopLabel(S[lo]) : `${stopLabel(S[lo])} to ${stopLabel(S[hi])}`;
+  const [hov, setHov] = useState<number | null>(null);
+  // one stop only (TiCS today holds one forthcoming paper): there is nothing to slide
+  if (S.length === 1) {
+    return (
+      <div className="fo-year">
+        <div className="fo-year-range">{stopLabel(S[0])}</div>
+        <p className="fo-year-one">
+          {S[0] === "F" ? "Forthcoming is the only year" : `${stopLabel(S[0])} is the only year`} with a matching entry.
+        </p>
+      </div>
+    );
+  }
   const min = pos[0], max = pos[pos.length - 1];
   const frac = (v: number) => (v - min) / (max - min);
   // Radix centres a handle at THUMB/2 + f * (width - THUMB); the ticks and labels use the same rule
   const at = (v: number) => `calc(${THUMB / 2}px + (100% - ${THUMB}px) * ${frac(v)})`;
   const hasF = S[S.length - 1] === "F";
   const lastYearPos = hasF ? pos[pos.length - 2] : max;
+  /* the stop a click would pick, while the pointer is over the track: a faint dot marks it and its
+     label lights up, so the slider shows it can be clicked before anyone clicks */
+  const onHover = (e: React.PointerEvent<HTMLElement>) => {
+    if (e.pointerType !== "mouse" || e.buttons) { setHov(null); return; }
+    const r = e.currentTarget.getBoundingClientRect();
+    const f = Math.min(1, Math.max(0, (e.clientX - r.left - THUMB / 2) / (r.width - THUMB)));
+    setHov(nearestStop(pos, min + f * (max - min)));
+  };
   return (
     <div className="fo-year">
-      <div className="fo-year-range" aria-live="polite">{yearText(st, s.forth)}</div>
+      <div className="fo-year-range" aria-live="polite">{rangeText}</div>
       <div className="fo-axis">
         <Slider.Root
           className="fo-rs"
+          onPointerMove={onHover}
+          onPointerLeave={() => setHov(null)}
           min={min}
           max={max}
           step={1}
           minStepsBetweenThumbs={0}
-          value={[pos[st.lo], pos[st.hi]]}
+          value={[pos[lo], pos[hi]]}
           onValueChange={([a, b]) => {
             // each value goes to its nearest stop, the same stop every time (see nearestStop)
-            const lo = nearestStop(pos, a), hi = nearestStop(pos, b);
-            if (lo !== st.lo || hi !== st.hi) onRange(Math.min(lo, hi), Math.max(lo, hi));
+            const l = nearestStop(pos, a), h = nearestStop(pos, b);
+            if (l !== lo || h !== hi) setRange(Math.min(l, h), Math.max(l, h));
           }}
           // the arrow keys move a handle one stop, so one press crosses the gap to Forthcoming;
           // preventDefault keeps Radix's own one-unit step, which would land inside the gap
@@ -272,8 +308,8 @@ export function YearRange({ st, s, onRange, onIncF }: {
             if (which !== "From" && which !== "To") return;
             e.preventDefault();
             const last = pos.length - 1;
-            if (which === "From") onRange(Math.max(0, Math.min(st.lo + dir, st.hi)), st.hi);
-            else onRange(st.lo, Math.min(last, Math.max(st.hi + dir, st.lo)));
+            if (which === "From") setRange(Math.max(0, Math.min(lo + dir, hi)), hi);
+            else setRange(lo, Math.min(last, Math.max(hi + dir, lo)));
           }}
           aria-label="Years"
         >
@@ -282,18 +318,31 @@ export function YearRange({ st, s, onRange, onIncF }: {
           <Slider.Track className={`fo-rs-track${hasF ? " dashed" : ""}`} style={{ ["--gap" as string]: `${frac(lastYearPos) * 100}%` }}>
             <Slider.Range className="fo-rs-range" />
           </Slider.Track>
-          <Slider.Thumb className="fo-rs-thumb" aria-label="From" aria-valuetext={stopLabel(S[st.lo])} />
-          <Slider.Thumb className="fo-rs-thumb" aria-label="To" aria-valuetext={stopLabel(S[st.hi])} />
+          <span
+            className={`fo-ghost${hov !== null && hov !== lo && hov !== hi ? " on" : ""}`}
+            style={{ left: at(pos[hov ?? 0]) }}
+            aria-hidden="true"
+          />
+          <Slider.Thumb className="fo-rs-thumb" aria-label="From" aria-valuetext={stopLabel(S[lo])} />
+          <Slider.Thumb className="fo-rs-thumb" aria-label="To" aria-valuetext={stopLabel(S[hi])} />
         </Slider.Root>
-        <div className="fo-labels" aria-hidden="true">
+        {/* every year label is a button: a click moves the closer handle to that year (Felipe
+            2026-11-14: "I need to be able to hover over the year ... it has to move the closer handler") */}
+        <div className="fo-labels" role="group" aria-label="Years">
           {S.map((x, i) => (
-            <span
+            <button
               key={i}
-              className={`fo-label${x === "F" ? " f" : ""}${i % 2 === 1 && x !== "F" ? " alt" : ""}${counts[i] === 0 ? " empty" : ""}${i >= st.lo && i <= st.hi ? " in" : ""}`}
+              type="button"
+              tabIndex={-1}
+              aria-label={`Move the closer handle to ${stopLabel(x)}`}
+              className={`fo-label${x === "F" ? " f" : ""}${i % 2 === 1 && x !== "F" ? " alt" : ""}${counts[i] === 0 ? " empty" : ""}${i >= lo && i <= hi ? " in" : ""}${hov === i ? " hover" : ""}`}
+              onPointerEnter={(e) => { if (e.pointerType === "mouse") setHov(i); }}
+              onPointerLeave={() => setHov(null)}
               style={{ left: at(pos[i]) }}
+              onClick={() => { const [l, h] = moveCloser(pos, lo, hi, i); setRange(l, h); }}
             >
               {stopLabel(x)}
-            </span>
+            </button>
           ))}
         </div>
       </div>

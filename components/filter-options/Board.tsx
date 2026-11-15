@@ -13,31 +13,25 @@ import { PageStrip } from "@/components/PageStrip";
 import { FilterRow } from "@/components/FilterRow";
 import { Button } from "@/components/ui/button";
 import { FluidProvider } from "@/lib/fluid-provider";
+import { Elevated } from "@/lib/elevated";
 import { BOARD } from "./copy";
 import { Prototype } from "./Prototype";
+import { LongRange } from "./LongRange";
 import { ReviewKit, loadKit, saveKit, toast } from "./ReviewKit";
-import type { Forth, Icons, Place, Settings, Types } from "./model";
+import type { Settings, Types } from "./model";
 import "./filter-options.css";
 
 const PICK = BOARD.pick.settings;
 /* Felipe's decisions of 2026-11-14 (copy.ts, decided): fixed, no longer settings on the page */
 const FIXED = BOARD.decided.settings;
-const PLACES = BOARD.places.map((p) => p.key);
-const FORTHS = BOARD.forths.map((f) => f.key);
-const ICONSETS = BOARD.icons.map((x) => x.key);
 const TYPESETS = BOARD.types.map((x) => x.key);
 
 const one = <T extends string>(v: string | null | undefined, all: T[], dflt: T): T => (v && (all as string[]).includes(v) ? (v as T) : dflt);
-const query = (s: Settings) => `place=${s.place}&forth=${s.forth}&icons=${s.icons}&types=${s.types}`;
+const query = (s: Settings) => `types=${s.types}`;
 const comboText = (s: Settings) =>
-  `Journal and Year buttons; type: ${BOARD.types.find((x) => x.key === s.types)!.name.toLowerCase()}; ` +
-  `icons: ${BOARD.icons.find((x) => x.key === s.icons)!.name.toLowerCase()}; ${BOARD.places.find((p) => p.key === s.place)!.name.toLowerCase()}; ` +
-  `forthcoming: ${BOARD.forths.find((f) => f.key === s.forth)!.name.toLowerCase()}`;
+  `Journal and Year buttons on the left, book and calendar icons, Forthcoming its own stop; type: ${BOARD.types.find((x) => x.key === s.types)!.name.toLowerCase()}`;
 const read = (get: (k: string) => string | null | undefined): Settings => ({
   ...FIXED,
-  place: one<Place>(get("place"), PLACES, PICK.place),
-  forth: one<Forth>(get("forth"), FORTHS, PICK.forth),
-  icons: one<Icons>(get("icons"), ICONSETS, PICK.icons),
   types: one<Types>(get("types"), TYPESETS, PICK.types),
 });
 
@@ -103,10 +97,7 @@ function BoardPage() {
     toast("Chosen. Copy my notes sends it with your pins.");
   };
 
-  const p = BOARD.places.find((x) => x.key === s.place)!;
-  const f = BOARD.forths.find((x) => x.key === s.forth)!;
   const ty = BOARD.types.find((x) => x.key === s.types)!;
-  const ic = BOARD.icons.find((x) => x.key === s.icons)!;
   const src = `/filter-options/?frame=1&${query(s)}`;
 
   return (
@@ -117,15 +108,9 @@ function BoardPage() {
 
         <div className="fo-sets">
           <Choice label="Type buttons" value={s.types} mine={PICK.types} options={BOARD.types} onPick={(k) => set({ types: k })} />
-          <Choice label="Icons" value={s.icons} mine={PICK.icons} options={BOARD.icons} onPick={(k) => set({ icons: k })} />
-          <Choice label="Placement" value={s.place} mine={PICK.place} options={BOARD.places} onPick={(k) => set({ place: k })} />
-          <Choice label="Forthcoming papers" value={s.forth} mine={PICK.forth} options={BOARD.forths} onPick={(k) => set({ forth: k })} />
         </div>
         <ul className="fo-now">
           <li key={`t-${ty.key}`}><b>{ty.name}.</b> <span data-ed>{ty.what}</span></li>
-          <li key={`i-${ic.key}`}><b>{ic.name}.</b> <span data-ed>{ic.what}</span></li>
-          <li key={`p-${p.key}`}><b>{p.name}.</b> <span data-ed>{p.what}</span></li>
-          <li key={`f-${f.key}`}><b>Forthcoming, {f.name.toLowerCase()}.</b> <span data-ed>{f.what}</span></li>
         </ul>
 
         <div className="fo-stage">
@@ -143,6 +128,21 @@ function BoardPage() {
             <p className="fo-phone-note" data-ed>{BOARD.phoneNote}</p>
           </section>
         </div>
+
+        {/* thirty made-up years, in the year panel's own surface and width */}
+        <section className="fo-long" aria-label={BOARD.long.title}>
+          <h2>{BOARD.long.title}</h2>
+          <p data-ed>{BOARD.long.what}</p>
+          <div className="fo-long-grid">
+            {BOARD.long.modes.map((m) => (
+              <Elevated key={m.key} offset={2} shadowLevel={3} className="fo-long-card">
+                <h3>{m.name}</h3>
+                <p data-ed>{m.what}</p>
+                <LongRange mode={m.key as "thin" | "zoom"} />
+              </Elevated>
+            ))}
+          </div>
+        </section>
 
         <div className="fo-cards">
           <div className="fo-card fo-decided">

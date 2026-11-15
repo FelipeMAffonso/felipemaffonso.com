@@ -87,14 +87,44 @@
 .fo-year-range { font-size: 15px; color: var(--text); font-weight: 500; font-variant-numeric: tabular-nums; margin-bottom: 14px; }
 /* the slider copies Felipe's example of 2026-11-14: a 6px track, the selected part coral and the
    rest dark gray, and handles larger than the track (a white 24px circle, a gray ring, a solid dot) */
-.fo-rs { position: relative; display: flex; align-items: center; height: 32px; touch-action: none; user-select: none; }
-.fo-rs-track { position: relative; flex: 1; height: 6px; border-radius: 999px; background: var(--text-dim); }
+.fo-rs { position: relative; display: flex; align-items: center; height: 32px; touch-action: none; user-select: none; cursor: pointer; }
+/* the bar starts at the first year and ends at Forthcoming: inset by half a handle (12px) on each side,
+   because Radix keeps the handles inside the slider's box, so a handle at the first stop is centred
+   12px in (Felipe 2026-11-14: "shouldn't 2019 hover put the circle at the leftmost side of it?") */
+.fo-rs-track { position: relative; flex: 1; height: 6px; margin: 0 12px; border-radius: 999px; background: var(--text-dim); }
 /* the stretch from the last year to Forthcoming is dashed, the coral range included */
 .fo-rs-track.dashed {
   -webkit-mask-image: linear-gradient(to right, #000 var(--gap), transparent var(--gap)), repeating-linear-gradient(to right, #000 0 6px, transparent 6px 10px);
   mask-image: linear-gradient(to right, #000 var(--gap), transparent var(--gap)), repeating-linear-gradient(to right, #000 0 6px, transparent 6px 10px);
 }
-.fo-rs-range { position: absolute; height: 100%; border-radius: 999px; background: var(--coral); }
+/* the coral range carries a lighter band that sweeps through it slowly while the pointer is over the
+   slider (Felipe 2026-11-14: "VERY subtle but it needs some motion ... a glowing/bright/gradient
+   effect to the slider coral itself"); at rest the band sits off the end, so the range is plain coral */
+.fo-rs-range {
+  position: absolute; height: 100%; border-radius: 999px;
+  background-color: var(--coral);
+  background-image: linear-gradient(90deg, transparent 0 38%, rgba(255, 255, 255, 0.42) 50%, transparent 62% 100%);
+  background-size: 260% 100%;
+  background-repeat: no-repeat;
+  background-position: 160% 0;
+}
+/* the track keeps its 6px on hover (Felipe 2026-11-14: "remove the motion that increases the
+   chunkiness of the bar"); only the sweep moves */
+@media (hover: hover) {
+  .fo-rs:hover .fo-rs-range { animation: foSheen 2.6s cubic-bezier(0.45, 0, 0.55, 1) infinite; }
+}
+@keyframes foSheen { from { background-position: 160% 0; } to { background-position: -60% 0; } }
+/* the site's rule for reduced motion: calmer, never frozen */
+@media (prefers-reduced-motion: reduce) { .fo-rs:hover .fo-rs-range { animation-duration: 5.2s; } }
+/* where a click would put the closer handle */
+.fo-ghost {
+  position: absolute; top: 50%; z-index: 1; width: 12px; height: 12px; margin: -6px 0 0 -6px;
+  border-radius: 50%; background: var(--coral); opacity: 0; transform: scale(0.6);
+  box-shadow: 0 0 0 4px var(--coral-tint-strong);
+  pointer-events: none;
+  transition: opacity 0.15s cubic-bezier(0.23, 1, 0.32, 1), transform 0.2s cubic-bezier(0.23, 1, 0.32, 1), left 0.12s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.fo-ghost.on { opacity: 0.45; transform: scale(1); }
 .fo-rs-thumb {
   position: relative; z-index: 2;
   display: block; width: 24px; height: 24px; border-radius: 50%;
@@ -108,18 +138,49 @@
 .fo-rs-thumb:active { cursor: grabbing; transform: scale(1.08); }
 .fo-rs-thumb:focus-visible { outline: none; box-shadow: 0 1px 3px rgba(17, 24, 39, 0.18), 0 0 0 4px var(--coral-ring); }
 /* a label under every stop, centred under its handle position; the two end labels align with the edges */
-.fo-labels { position: relative; height: 18px; margin-top: 4px; }
+/* 10px of air between the track and its labels, so the pointer moving along the track does not touch
+   them (Felipe 2026-11-14: "the mouse overlaps with it when I am passing my mouse on it") */
+.fo-labels { position: relative; height: 22px; margin-top: 10px; }
+/* each label is a button: a click moves the closer handle to its year */
 .fo-label {
   position: absolute; top: 0; transform: translateX(-50%);
-  font-size: 12px; color: var(--text-secondary); white-space: nowrap; font-variant-numeric: tabular-nums;
+  padding: 2px 5px; border: 0; border-radius: 6px; background: transparent; cursor: pointer;
+  font: inherit; font-size: 12px; color: var(--text-secondary); white-space: nowrap; font-variant-numeric: tabular-nums;
+  transition: color 0.15s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.15s cubic-bezier(0.23, 1, 0.32, 1);
 }
-.fo-label:first-child { transform: translateX(-12px); }
-.fo-label.f { transform: translateX(calc(-100% + 12px)); }
-.fo-label.empty { color: var(--text-dim); opacity: 0.6; }
+.fo-label:first-child { transform: translateX(calc(-12px - 5px)); }
+.fo-label.f { transform: translateX(calc(-100% + 12px + 5px)); }
+.fo-label.empty { color: var(--text-dim); }
+.fo-label.empty:not(.hover) { opacity: 0.6; }
 .fo-label.in { color: var(--text); font-weight: 500; }
+.fo-label.hover { color: var(--coral-text); background: var(--coral-tint-strong); opacity: 1; }
 .fo-incf { margin: 10px -10px 0; }
 /* a phone has room for every other year's label; the line above the slider names the exact range */
 @media (max-width: 640px) { .fo-label.alt { display: none; } }
+
+/* ---------- the thirty-year example (LongRange.tsx) ---------- */
+.fo-long { margin-top: 36px; }
+.fo-long h2 { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
+.fo-long > p { font-size: 14px; color: var(--text-secondary); margin-bottom: 16px; max-width: 860px; }
+.fo-long-grid { display: grid; grid-template-columns: repeat(2, 540px); gap: 32px; }
+.fo-long-card { border-radius: 12px; padding: 14px 8px 12px; }
+.fo-long-card h3 { font-size: 14px; font-weight: 600; color: var(--text); margin: 0 10px 4px; }
+.fo-long-card > p { font-size: 13px; line-height: 1.55; color: var(--text-secondary); margin: 0 10px 18px; }
+.fo-long-head { display: flex; align-items: center; justify-content: space-between; min-height: 28px; margin-bottom: 26px; }
+.fo-long-head .fo-year-range { margin-bottom: 0; }
+/* each handle's year above it, and the year a click would pick above the hover dot */
+.fo-rs-tags .fo-rs-thumb { overflow: visible; }
+.fo-tag {
+  position: absolute; bottom: calc(100% + 7px); left: 50%; transform: translateX(-50%);
+  padding: 1px 6px; border-radius: 6px; background: var(--text); color: var(--bg);
+  font-size: 11.5px; line-height: 17px; white-space: nowrap; font-variant-numeric: tabular-nums; pointer-events: none;
+}
+.fo-tag.dim { background: var(--coral-tint-strong); color: var(--coral-text); }
+.fo-ghost-tag .fo-tag { bottom: calc(100% + 13px); }
+/* the example's labels are placed one by one, so the first-child edge rule does not apply */
+.fo-label.fo-label-free:first-child { transform: translateX(-50%); }
+.fo-label.fo-label-free.f { transform: translateX(calc(-100% + 12px + 5px)); }
+@media (max-width: 1100px) { .fo-long-grid { grid-template-columns: 1fr; } }
 
 /* ---------- result line, empty state ---------- */
 .fo-result { display: flex; align-items: center; gap: 8px; margin: 0 0 22px; font-size: 13.5px; color: var(--text-dim); }

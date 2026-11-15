@@ -49,13 +49,24 @@ export function stopPositions(forth: Forth): number[] {
   return S.map((x) => (x === "F" ? lastYear + 3 : x));
 }
 
-/** the Year button's short label: "Since 2021", "2021 to 2024", "Until 2023", "2025" */
+/** A click on a year (its label, or the track) moves the closer handle there. Outside the range
+ *  that is the handle on that side; inside it, the nearer one, and the left one on a tie. With both
+ *  handles on one stop, the click's side decides. Returns the new [lo, hi]. */
+export function moveCloser(pos: number[], lo: number, hi: number, i: number): [number, number] {
+  if (i < lo) return [i, hi];
+  if (i > hi) return [lo, i];
+  if (lo === hi) return [lo, hi];
+  return Math.abs(pos[i] - pos[lo]) <= Math.abs(pos[hi] - pos[i]) ? [i, hi] : [lo, i];
+}
+
+/** The Year button's label once a year range is chosen: the range as the slider shows it, trimmed to
+ *  the years that match the type and journals, in plain words ("2021 to 2023", or "2023"). No "Since"
+ *  or "Until" (Felipe 2026-11-14: a journal choice reading "Until 2023" "reads very weird"). */
 export function yearButtonText(st: FilterState, forth: Forth): string {
   const S = stops(forth);
-  const a = stopLabel(S[st.lo]), b = stopLabel(S[st.hi]);
-  let t = st.lo === st.hi ? a : st.hi === S.length - 1 ? `Since ${a}` : st.lo === 0 ? `Until ${b}` : `${a} to ${b}`;
-  if (forth === "toggle" && !st.incF) t += ", published";
-  return t;
+  const [d0, d1] = yearDomain(st, forth);
+  const lo = Math.min(Math.max(st.lo, d0), d1), hi = Math.min(Math.max(st.hi, d0), d1);
+  return lo === hi ? stopLabel(S[lo]) : `${stopLabel(S[lo])} to ${stopLabel(S[hi])}`;
 }
 /** The stop nearest a slider value. A pure function of the value: during a drag the slider reports
  *  the values inside the gap before Forthcoming (2027, 2028), and each must always land on the same
@@ -115,6 +126,17 @@ export function yearCounts(st: FilterState, forth: Forth): number[] {
   const S = stops(forth);
   const base = ITEMS.filter((i) => kindOk(i, st) && venueOk(i, st));
   return S.map((s) => base.filter((i) => (forth === "year" ? i.expected === s : i.year === s)).length);
+}
+/** The first and last stops that hold an entry under the chosen type and journals (the year filter
+ *  left out): the slider's axis runs between them (Felipe 2026-11-14: "the slider always goes along
+ *  with the oldest + most recent or forthcoming paper"). With nothing chosen it is the whole axis. */
+export function yearDomain(st: FilterState, forth: Forth): [number, number] {
+  const c = yearCounts(st, forth);
+  const first = c.findIndex((n) => n > 0);
+  if (first < 0) return [0, c.length - 1];
+  let last = c.length - 1;
+  while (c[last] === 0) last--;
+  return [first, last];
 }
 export function forthcomingCount(st: FilterState): number {
   return ITEMS.filter((i) => kindOk(i, st) && venueOk(i, st) && i.year === "F").length;

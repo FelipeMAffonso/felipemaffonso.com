@@ -6,7 +6,9 @@
    to filter by Journal and a button to filter by year, two buttons."
    Decided by Felipe the same day, so their settings left the page:
    "journal list is journals only (preprints get filtered out). list
-   length is scroll" (DECIDED below; FIXED in Board.tsx applies them).
+   length is scroll", "placement will be LEFT", "icons will be book and
+   calendar", "forthcoming is it's own stop" (DECIDED below; FIXED in
+   Board.tsx applies them).
    ============================================================ */
 
 import type { Forth, Icons, Layer, ListLen, Place, Types } from "./model";
@@ -42,19 +44,6 @@ export const BOARD = {
     },
   ],
 
-  icons: [
-    { key: "none" as Icons, name: "No icons", what: "Journal and Year are words only." },
-    { key: "book" as Icons, name: "Book and calendar", what: "Journal has an open book with lines of text, and Year has a calendar with a range across it." },
-    { key: "library" as Icons, name: "Shelf and calendar", what: "Journal has books on a shelf, and Year has a calendar page." },
-    { key: "news" as Icons, name: "Periodical and clock", what: "Journal has a newspaper, and Year has a clock with an arrow turning back." },
-  ],
-
-  places: [
-    { key: "left" as Place, name: "Left", what: "Journal and Year come first in the row, then All and the type buttons." },
-    { key: "right" as Place, name: "Right", what: "All and the type buttons come first, and Journal and Year sit at the right end of the row." },
-    { key: "below" as Place, name: "Line below", what: "All and the type buttons keep the row to themselves, and Journal and Year sit on a line under it." },
-  ],
-
   /* Felipe's decisions of 2026-11-14; the page shows them and no longer offers the alternatives */
   decided: {
     title: "Decided on November 14",
@@ -67,27 +56,43 @@ export const BOARD = {
         name: "Scroll",
         what: "The Journal list shows six rows, and the other four scroll inside the panel under a soft fade.",
       },
+      {
+        name: "Left",
+        what: "Journal and Year come first in the row, then All and the type buttons.",
+      },
+      {
+        name: "Book and calendar",
+        what: "Journal has an open book with lines of text, and Year has a calendar with a range across it.",
+      },
+      {
+        name: "Forthcoming, its own stop",
+        what: "The slider runs from 2019 to a last stop called Forthcoming, set apart by a gap and a dashed track, which holds the seven entries that have no year yet (five papers and two chapters).",
+      },
     ],
-    settings: { layer: "journals" as Layer, list: "scroll" as ListLen },
+    settings: {
+      layer: "journals" as Layer, list: "scroll" as ListLen, place: "left" as Place, icons: "book" as Icons, forth: "stop" as Forth,
+    },
   },
 
-  forths: [
-    {
-      key: "stop" as Forth,
-      name: "Its own stop",
-      what: "The slider runs from 2019 to a last stop called Forthcoming, which holds the seven entries that have no year yet (five papers and two chapters).",
-    },
-    {
-      key: "year" as Forth,
-      name: "Counted in a year",
-      what: "The five forthcoming papers count as 2026 and the two chapters as 2027, the year their citations give, so the slider runs from 2019 to 2027.",
-    },
-    {
-      key: "toggle" as Forth,
-      name: "A checkbox",
-      what: "The slider runs from 2019 to 2026, and a checkbox under it, on at first, includes the seven forthcoming entries.",
-    },
-  ],
+  /* an example with made-up years, to show how the slider behaves when the papers span 30 years */
+  long: {
+    title: "Example: thirty years of papers",
+    what:
+      "These two sliders use made-up years, 1996 to 2026 and Forthcoming, to show what happens when the papers span thirty years. " +
+      "Drag a handle or click a year in each.",
+    modes: [
+      {
+        key: "thin",
+        name: "Fewer labels",
+        what: "The axis labels every fifth year, and each handle shows its own year above it. Hovering over the track shows the year a click would pick.",
+      },
+      {
+        key: "zoom",
+        name: "Zooms to your range",
+        what: "After a drag or a click, the axis zooms to the chosen years with a little room on each side, and labels every year once the view is narrow enough. Show all years zooms back out.",
+      },
+    ],
+  },
 
   order: {
     title: "The order of the journal list",
@@ -98,11 +103,10 @@ export const BOARD = {
   },
 
   pick: {
-    settings: { place: "left" as Place, forth: "stop" as Forth, icons: "book" as Icons, types: "row" as Types },
+    settings: { types: "row" as Types },
     why:
-      "My pick is today's type row with the Journal and Year buttons on its left, a book and a calendar on the two buttons, and " +
-      "Forthcoming as the slider's last stop. A professor who visits reads every choice as a word, with no icon to decode; the two " +
-      "icons only repeat what the words say. The Forthcoming stop keeps the seven entries without a year inside the range.",
+      "My pick is today's type row. A professor who visits reads every type as a word, with no icon to decode. For thirty years of " +
+      "papers I would keep fewer labels over the zoom: the axis stays where the eye left it, and the handles name their own years.",
   },
 
   phoneNote: "The phone view is the same page at 390 pixels. On a phone, each button opens its list as a dialog.",

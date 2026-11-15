@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import { useSound } from "@/lib/sound";
 import { ITEMS, KINDS } from "./data";
 import {
-  anyActive, initialState, pickType, shown, stops, toggleVenue, typeCounts, venueShort, yearActive, yearButtonText,
+  anyActive, initialState, pickType, shown, stops, toggleVenue, typeCounts, venueShort, yearActive, yearButtonText, yearDomain,
   type FilterState, type Settings,
 } from "./model";
 import { FilterMenu, ICON_PAIRS, MenuFooter, ResultLine, TypeMenu, TypeRow, TypeTabs, VenueChecks, YearRange } from "./Controls";
@@ -26,17 +26,27 @@ export function Prototype({ s }: { s: Settings }) {
   // a new rule starts from a clean slate
   useEffect(() => setSt(initialState(s.forth)), [s.forth, s.layer]);
 
+  /* when a type or journal choice leaves the chosen years with no matching entry at all, the year
+     range resets, because the slider's axis now holds only years the choice does not touch */
+  useEffect(() => {
+    if (!yearActive(st, s.forth)) return;
+    const [a, b] = yearDomain(st, s.forth);
+    if (st.hi < a || st.lo > b) setSt((x) => ({ ...x, lo: 0, hi: stops(s.forth).length - 1 }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [st.kind, st.venues.join("|")]);
+
   const counts = typeCounts(st, s.forth);
   const items = shown(st, s.forth);
   const active = anyActive(st, s.forth);
   const total = ITEMS.length;
-  const lastStop = stops(s.forth).length - 1;
   const align = s.place === "right" ? "end" : "start";
   const word = s.layer === "journals" ? "Journal" : "Venue";
 
-  const clearAll = () => setSt({ ...initialState(s.forth), kind: st.kind });
-  const clearVenues = () => setSt({ ...st, venues: [] });
-  const clearYear = () => setSt({ ...st, lo: 0, hi: lastStop, incF: true });
+  /* every Clear (in the Journal list, in the Year slider, and Clear filters under the row) resets all
+     three filters: All, all journals, all years (Felipe 2026-11-14: "if I click CLEAR it
+     clears/defaults all factors ... even if I just clear the Journal") */
+  const clearAll = () => setSt(initialState(s.forth));
+  const anyChosen = active || st.kind !== "all";
 
   const venueLabel =
     st.venues.length === 0 ? word
@@ -52,7 +62,7 @@ export function Prototype({ s }: { s: Settings }) {
       ariaLabel={s.layer === "journals" ? "Filter by journal" : "Filter by venue"}
       title={word}
       align={align}
-      footer={(close) => <MenuFooter close={close} n={items.length} canClear={st.venues.length > 0} onClear={clearVenues} />}
+      footer={(close) => <MenuFooter close={close} n={items.length} canClear={anyChosen} onClear={clearAll} />}
     >
       <VenueChecks st={st} s={s} onToggle={(v) => setSt(toggleVenue(st, v, s))} />
     </FilterMenu>
@@ -65,8 +75,9 @@ export function Prototype({ s }: { s: Settings }) {
       ariaLabel="Filter by year"
       title="Year"
       align={align}
-      width={420}
-      footer={(close) => <MenuFooter close={close} n={items.length} canClear={yearActive(st, s.forth)} onClear={clearYear} />}
+      // 540 spaces the years about 48px apart (Felipe 2026-11-14: "years more spaced out")
+      width={540}
+      footer={(close) => <MenuFooter close={close} n={items.length} canClear={anyChosen} onClear={clearAll} />}
     >
       <YearRange st={st} s={s} onRange={(lo, hi) => setSt({ ...st, lo, hi })} onIncF={(on) => setSt({ ...st, incF: on })} />
     </FilterMenu>
